@@ -1,0 +1,32 @@
+#textTip::-webkit-scrollbar-track, 
+#textResult::-webkit-scrollbar-track
+{
+  cursor: pointer;
+	background: transparent;  
+	border-radius: 6px;
+}
+#textTip::-webkit-scrollbar-track, 
+#textResult::-webkit-scrollbar-track
+{
+	border-radius: 6px;
+  cursor: pointer;
+  z-index: 999;
+}
+#textTip::-webkit-scrollbar-thumb, 
+#textResult::-webkit-scrollbar-thumb
+{
+  background-color: var(--hover);
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(var(--padrao), var(--opacidade-fraca));
+  z-index: 999;
+}
+/* 1. Defina o tamanho da barra de rolagem para que ela apareça estilizada */
+#textTip::-webkit-scrollbar,
+#textResult::-webkit-scrollbar
+{
+    width: 9px; /* Largura para scroll vertical */
+    height: 6px; /* Altura para scroll horizontal (se aplicável) */
+    z-index: 999;
+  cursor: pointer;
+}

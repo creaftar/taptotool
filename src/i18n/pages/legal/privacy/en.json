@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Privacy Policy | Tap to Tool",
+    "description": "Your privacy is our priority. Learn how Tap to Tool ensures your data security through local processing directly in your browser.",
+    "keywords": "privacy policy, data privacy, local processing, digital security, tap to tool"
+  },
+  "schema": {
+    "page_name": "Privacy Policy",
+    "page_description": "Document detailing the privacy practices and local data processing of Tap to Tool.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Privacy"
+  },
+  "content": {
+    "title": "Privacy Policy",
+    "intro": "At Tap to Tool, privacy is not just a legal term; it is the foundation of how we build our tools. This policy clearly explains how we handle your information.",
+    "sections": [
+      {
+        "title": "1. Local Data Processing",
+        "text": "Most of our tools operate under the principle of Client-Side Processing. This means that the data you input (texts to format, codes, lists, etc.) is processed directly in your browser.",
+        "list": [
+          "We do not send your input data to our servers in most operations.",
+          "What you type remains in your local environment until you close the tab or clear your cache."
+        ]
+      },
+      {
+        "title": "2. Information Collection",
+        "text": "We collect only the minimum necessary to keep the site functional:",
+        "list": [
+          "Server Logs: We receive basic information such as your IP address and browser type for security and abuse prevention purposes.",
+          "Cookies: We may use cookies to save your preferences (such as dark mode) and understand which tools are the most popular to improve our service."
+        ]
+      },
+      {
+        "title": "3. Third-Party Links",
+        "text": "Our site may contain links to external websites. We have no control over the content or privacy practices of third parties and cannot assume responsibility for their respective policies."
+      },
+      {
+        "title": "4. Security",
+        "text": "We do not maintain databases with users' personal information. If you contact us via email, your data will be used exclusively to respond to your request and will be deleted after the service is completed."
+      },
+      {
+        "title": "5. Consent",
+        "text": "By using Tap to Tool, you agree to the practices described on this page. This policy may be updated occasionally to reflect improvements in our tools."
+      }
+    ],
+    "last_updated": "Last updated: February 20, 2026."
+  }
+}

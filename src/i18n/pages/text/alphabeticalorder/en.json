@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Online Alphabetical Order Tool - Tap to Tool",
+    "description": "Instantly sort lists, words, or phrases in alphabetical (A-Z) or reverse order (Z-A). Supports line breaks, commas, and complex sentences.",
+    "keywords": "alphabetical order tool, alphabetize list, sort list online, organize text, word sorter, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "Online Alphabetical Order Tool",
+    "app_description": "Instantly sort lists, words, or phrases in alphabetical (A-Z) or reverse order (Z-A). Supports line breaks, commas, and complex sentences. Fast and easy with Tap to Tool.",
+    "howto_name": "How to Use the Alphabetical Order Tool",
+    "howto_description": "The Alphabetizer is a free online tool that organizes any list of words, phrases, or items in alphabetical order.",
+    "step1_name": "Enter Your List",
+    "step1_text": "Copy and paste or type your items (separated by spaces, commas, or line breaks) into the input area.",
+    "step2_name": "Automatic Sorting",
+    "step2_text": "The list will be automatically sorted A-Z in the result field, preserving your original separator format.",
+    "step3_name": "Copy Result",
+    "step3_text": "Copy the alphabetically ordered list from the result field.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Alphabetical Order Tool"
+  },
+  "ui": {
+    "h1_main": "ALPHABETICAL ORDER TOOL",
+    "placeholder_input": "Type or paste your list here...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "Click to paste text",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Try pasting with CTRL + V or check if clipboard access is allowed.",
+    "tooltip_copy": "Copy text",
+    "tooltip_delete": "Clear text",
+    "price_currency": "USD"
+  },
+  "content": {
+    "h1_seo": "Online Alphabetical Order Tool",
+    "intro_text": "The fastest and simplest tool to put any list of words, names, or phrases in alphabetical order.",
+    "usage_title": "How to Use the Alphabetize Tool?",
+    "step_1": "Enter Your List: Copy and paste or type the items you want to organize into the designated text area. Items can be separated by line breaks, commas, or spaces.",
+    "step_2": "Automatic Sorting: The tool does all the work for you and sorts the items alphabetically (A-Z or Z-A).",
+    "step_3": "Copy Result: The sorted text appears instantly in the result field, maintaining the original separator for easy copying.",
+    "benefits_title": "Why Use an Alphabetical Sorter?",
+    "benefits_intro": "An alphabetizing tool is extremely useful for:",
+    "benefit_1_title": "Data Organization",
+    "benefit_1_text": "Quickly organize lists of names, codes, inventories, or any dataset for easy reference.",
+    "benefit_2_title": "Studies and References",
+    "benefit_2_text": "Create bibliographies, glossaries, or vocabularies in standard alphabetical order.",
+    "benefit_3_title": "Text Processing",
+    "benefit_3_text": "Classify keywords, tags, or complex phrases (like 'peanut butter') as single items without breaking them apart.",
+    "benefit_4_title": "Standardization",
+    "benefit_4_text": "Ensure all documents or lists follow the same sorting standard, eliminating human error.",
+    "footer_text": "Organize your lists and boost your productivity with the Alphabetical Order Tool!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hello, welcome! Type your text here...",
+    "dynamic_phrase": "Hello, welcome! Enter your list by separating items with spaces or pressing Enter on your keyboard. Example:\nbanana, example, airplane",
+    "result_phrase": "Your result will appear like this:\nairplane, banana, example"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

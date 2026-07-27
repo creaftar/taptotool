@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taptotool.com/sitemap-index.xml

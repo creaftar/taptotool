@@ -1,0 +1,81 @@
+---
+import { Image } from 'astro:assets';
+import '../../assets/styles/pages/index/bloco-kit/kit.css';
+
+interface Props {
+  lang?: string;
+}
+
+// Importação das imagens dos kits
+import imgKitTexto from '../../assets/imgs/capa_cartoes/kit_texto.png';
+import imgKitMatematica from '../../assets/imgs/capa_cartoes/kit_matematica.png';
+import imgCreaftar from '../../assets/imgs/capa_cartoes/creaftar.webp';
+
+import pt from "@/i18n/pages/index/kit/pt.json";
+import en from "@/i18n/pages/index/kit/en.json";
+import es from "@/i18n/pages/index/kit/es.json";
+import fr from "@/i18n/pages/index/kit/fr.json";
+import it from "@/i18n/pages/index/kit/it.json";
+import de from "@/i18n/pages/index/kit/de.json";
+import ru from "@/i18n/pages/index/kit/ru.json";
+import id from "@/i18n/pages/index/kit/id.json";
+import hi from "@/i18n/pages/index/kit/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+// Lógica de detecção de idioma consistente
+const { lang: propLang } = Astro.props;
+const lang = propLang || Astro.currentLocale || 'en'; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+---
+
+<p class="description-card">{d.kit_section.header.main_title}</p>
+
+<div class="container-kit">
+    <div class="kit kit-texto">
+        <a href="#tep">
+            <h2 class="kit-titulo">{d.kit_section.text_kit.title}</h2>
+            <div class="img-kit">
+                <Image 
+                    src={imgKitTexto} 
+                    widths={[400, 800, 1200]} 
+                    sizes="(max-width: 800px) 100vw, 400px"
+                    alt={d.kit_section.text_kit.alt_text} 
+                    loading="eager"
+                />
+            </div>
+        </a>
+    </div>
+
+    <div class="kit kit-matematica">
+        <a href="#math">
+            <h2 class="kit-titulo">{d.kit_section.math_kit.title}</h2>
+            <div class="img-kit">
+                <Image 
+                    src={imgKitMatematica} 
+                    widths={[400, 800, 1200]} 
+                    sizes="(max-width: 800px) 100vw, 400px"
+                    alt={d.kit_section.math_kit.alt_text} 
+                    loading="eager"
+                />
+            </div>
+        </a>
+    </div>
+
+    <div class="kit kit-creaftar">
+        <div class="container-kit-dashed">
+            <Image 
+                src={imgCreaftar} 
+                alt={d.kit_section.creaftar_promo.alt_logo} 
+                loading="eager"
+            />
+            <p>
+                {d.kit_section.creaftar_promo.description}
+            </p>
+            <a href="https://creaftar.com" target="_blank" id="button-creaftar">
+                {d.kit_section.creaftar_promo.button_text}
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "About Tap to Tool | Simple and Fast Digital Tools",
+    "description": "Simple tools for big ideas. Discover the mission, values, and how Tap to Tool simplifies your digital routine with free and fast utilities",
+    "keywords": "about tap to tool, online tools, digital utilities, productivity, free tools, file converter, text formatter"
+  },
+  "schema": {
+    "page_name": "About Tap to Tool",
+    "page_description": "Mission, principles, and contact for Tap to Tool - Simple tools for big ideas.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "About"
+  },
+  "content": {
+    "title": "About Tap to Tool",
+    "subtitle": "Simple tools for big ideas.",
+    "description_p1": "Tap to Tool was born from the need for quick and straightforward solutions for daily digital tasks. We believe you shouldn't have to deal with heavy websites, invasive ads, or unnecessary registrations just to perform simple tasks like formatting text, generating data, or converting files.",
+    "description_p2": "Our mission is to be your digital Swiss Army knife: a utility hub designed to offer precision, speed, and ease of use.",
+    "principles_title": "Our Principles",
+    "principles": [
+      {
+        "label": "Performance",
+        "text": "Our tools are lightweight and load instantly, keeping your workflow continuous."
+      },
+      {
+        "label": "Privacy",
+        "text": "We prioritize local processing (client-side). Most of what you process here stays in your browser and never touches our servers."
+      },
+      {
+        "label": "Accessibility",
+        "text": "A clean and functional design, available on any device, anywhere in the world, for free."
+      }
+    ],
+    "footer_text": "Whether you're a developer, content creator, or anyone seeking more productivity, Tap to Tool is here to ensure you have exactly what you need, when you need it.",
+    "contact_title": "Contact",
+    "contact_text": "Have questions, suggestions, or want to send feedback? You can submit feedback for each tool in the bottom right corner of their pages, or you can find us at:"
+  }
+}

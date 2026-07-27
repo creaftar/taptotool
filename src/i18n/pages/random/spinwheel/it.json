@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Ruota dei Nomi Online - Tap to Tool",
+    "description": "Gira la ruota online per sorteggi rapidi e imparziali. Sorteggia nomi, opzioni e prendi decisioni casuali in pochi secondi con la nostra Spin Wheel gratuita.",
+    "keywords": "ruota online, sorteggiare nomi, ruota personalizzata, spin the wheel, sorteggio casuale, ruota delle decisioni, generatore di nomi"
+  },
+  "schema": {
+    "app_name": "Ruota dei Nomi Online - Tap to Tool",
+    "app_description": "Strumento virtuale personalizzabile per sorteggi di nomi e decisioni casuali.",
+    "howto_name": "Come usare la Ruota Online",
+    "howto_description": "Scopri come creare la tua ruota personalizzata e realizzare sorteggi in soli 3 semplici passaggi.",
+    "step1_name": "Inserisci le Opzioni",
+    "step1_text": "Digita i nomi, i numeri o le opzioni che desideri sorteggiare nella casella di testo, separandoli riga per riga.",
+    "step2_name": "Configura la Ruota",
+    "step2_text": "Verifica che tutti gli spicchi della ruota siano corretti e personalizza gli elementi se necessario.",
+    "step3_name": "Gira e Sorteggia",
+    "step3_text": "Clicca sul pulsante centrale per far girare la ruota e attendi l'estrazione del vincitore casuale.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Ruota dei Nomi Online"
+  },
+  "ui": {
+    "placeholder_input": "Scelta 1\nScelta 2\nScelta 3\nScelta 4\nScelta 5\nScelta 6\nScelta 7",
+    "paste_text": "Clicca per incollare il testo",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Prova a incollare con CTRL + V o verifica le autorizzazioni per l'accesso agli appunti.",
+    "tooltip_copy": "Copia testo",
+    "tooltip_delete": "Cancella testo",
+    "winner_label": "Il vincitore è:",
+    "btn_close": "Chiudi",
+    "btn_remove": "Rimuovi",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Ruota Online Personalizzabile - Gira per Sorteggiare Nomi e Decisioni",
+    "intro_text": "La nostra Ruota Online è lo strumento gratuito ideale per chi necessita di un sorteggio rapido, equo e visivo. Che sia per decidere dove pranzare, scegliere i nomi degli studenti o definire il vincitore di un premio, la nostra ruota offre risultati 100% casuali in pochi secondi.",
+    "usage_title": "Come usare la Ruota del Sorteggio?",
+    "step_1": "Inserisci i nomi o le opzioni che desideri sorteggiare nel campo di testo indicato.",
+    "step_2": "Personalizza le opzioni della tua ruota in base alle tue esigenze:",
+    "type_input_title": "Inserimento Nomi",
+    "type_input_text": "Inserisci un elemento per riga per creare gli spicchi.",
+    "type_edit_title": "Modifica Facile",
+    "type_edit_text": "Aggiungi o rimuovi opzioni in qualsiasi momento prima di girare.",
+    "type_instant_title": "Risultato Istantaneo",
+    "type_instant_text": "La ruota calcola la fisica della rotazione per garantire la totale imparzialità.",
+    "type_clean_title": "Interfaccia Pulita",
+    "type_clean_text": "Senza annunci invasivi che disturbano la visualizzazione o il sorteggio.",
+    "step_3": "Clicca sulla ruota per farla girare e attendi che si fermi sul vincitore scelto dal destino!",
+    "benefits_title": "Vantaggi di usare la nostra Ruota Casuale",
+    "benefits_intro": "A differenza dei metodi manuali, il nostro strumento digitale garantisce la massima trasparenza. Ecco perché scegliere la nostra Spin Wheel:",
+    "benefit_1_title": "Totalmente Imparziale",
+    "benefit_1_text": "Utilizziamo algoritmi di casualità basati su sistemi matematici precisi.",
+    "benefit_2_title": "Uso Didattico",
+    "benefit_2_text": "Lo strumento preferito dagli insegnanti per scegliere studenti o argomenti in modo divertente.",
+    "benefit_3_title": "Decisioni Rapide",
+    "benefit_3_text": "Elimina l'indecisione tra amici o al lavoro con un rapido giro di ruota.",
+    "benefit_4_title": "Nessun Download",
+    "benefit_4_text": "Funziona direttamente nel browser, su mobile o desktop, senza installare nulla.",
+    "footer_text": "Pronto a decidere? Inizia subito a usare la nostra ruota personalizzata e lascia che sia il destino a scegliere per te. Semplice, veloce e 100% gratuito."
+  },
+  "dynamic": {
+    "standard_phrase": "Scelta 1\nScelta 2\nScelta 3\nScelta 4\nScelta 5\nScelta 6\nScelta 7",
+    "winner_prefix": "Il vincitore è:"
+  }
+}

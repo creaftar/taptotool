@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Ordinatore Alfabetico Online - Tap to Tool",
+    "description": "Ordina istantaneamente liste, parole o frasi in ordine alfabetico (A-Z) o inverso (Z-A). Supporta interruzioni di riga, virgole e frasi complesse.",
+    "keywords": "ordinatore alfabetico, ordinare lista, organizzare testo, classificazione parole, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "Ordinatore Alfabetico Online",
+    "app_description": "Ordina istantaneamente liste, parole o frasi in ordine alfabetico (A-Z) o inverso (Z-A). Supporta interruzioni di riga, virgole e frasi complesse. Rapido e facile con Tap to Tool.",
+    "howto_name": "Come usare l'Ordinatore Alfabetico Online",
+    "howto_description": "L'Ordinatore Alfabetico è uno strumento gratuito che organizza qualsiasi lista di parole, frasi o elementi in ordine alfabetico.",
+    "step1_name": "Inserisci la Lista",
+    "step1_text": "Copia e incolla o inserisci gli elementi (separati da spazio, virgola o interruzioni di riga) nell'area di input.",
+    "step2_name": "Visualizzazione Automatica",
+    "step2_text": "La lista sarà ordinata automaticamente da A a Z nel campo accanto, preservando il formato di separazione originale (a capo o virgola).",
+    "step3_name": "Copia il risultato",
+    "step3_text": "Copia la lista ordinata alfabeticamente nel campo del risultato.",
+    "breadcrumb_home": "Pagina iniziale",
+    "breadcrumb_current": "Ordinatore Alfabetico Online"
+  },
+  "ui": {
+    "h1_main": "ORDINATORE ALFABETICO",
+    "placeholder_input": "Digita o incolla la tua lista qui...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "Clicca per incollare il tuo testo",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Prova a incollare con CTRL + V o verifica se è permesso l'accesso agli appunti",
+    "tooltip_copy": "Copia il testo",
+    "tooltip_delete": "Cancella il testo",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Ordinatore Alfabetico Online",
+    "intro_text": "Lo strumento più veloce e semplice per ordinare qualsiasi lista di parole, nomi o frasi in ordine alfabetico.",
+    "usage_title": "Come usare l'Ordinatore Alfabetico?",
+    "step_1": "Inserisci la Lista: Copia e incolla o digita gli elementi che desideri organizzare nell'area di testo designata. Gli elementi possono essere separati da newline, virgola o spazio.",
+    "step_2": "Ordinamento Automatico: Lo strumento fa tutto il lavoro per te e ordina gli elementi alfabeticamente (A-Z / Z-A).",
+    "step_3": "Copia il risultato: Il testo ordinato viene visualizzato istantaneamente nel campo accanto, mantenendo il separatore originale.",
+    "benefits_title": "Quali sono i vantaggi di usare un Ordinatore Alfabetico?",
+    "benefits_intro": "Un ordinatore alfabetico di testo è estremamente utile per:",
+    "benefit_1_title": "Organizzazione dei Dati",
+    "benefit_1_text": "Organizzare rapidamente liste di nomi, codici, inventari o qualsiasi set di dati per una facile consultazione.",
+    "benefit_2_title": "Studio e Riferimenti",
+    "benefit_2_text": "Creare liste di riferimenti bibliografici, glossari o vocabolari in ordine standard.",
+    "benefit_3_title": "Elaborazione del Testo",
+    "benefit_3_text": "Classificare parole-chiave, tag o frasi complesse (come 'pasta di mandorle') come un singolo elemento, senza separarli.",
+    "benefit_4_title": "Standardizzazione",
+    "benefit_4_text": "Garantire che tutti i documenti o le liste seguano lo stesso standard di ordinamento senza errori umani.",
+    "footer_text": "Organizza le tue liste e migliora la tua produttività con l'Ordinatore Alfabetico!"
+  },
+  "dynamic": {
+    "standard_phrase": "Ciao, benvenuto(a). Digita il tuo testo qui...",
+    "dynamic_phrase": "Ciao, benvenuto(a)! Digita la tua lista separando gli elementi con spazi o premendo Invio sulla tastiera, esempio:\nbanana, esempio, aereo",
+    "result_phrase": "Il tuo risultato apparirà così:\naereo, banana, esempio"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "tagline": "Des outils simples pour de grandes idées.",
+    "description_p1": "<strong>Tap to Tool</strong> est le couteau suisse numérique pour ceux qui recherchent la productivité. Conçu pour être léger, gratuit et accessible partout dans le monde.",
+    "description_p2": "Fonctionnant comme un centre d'utilitaires conçu pour offrir précision et rapidité, nos outils sont élaborés en mettant l'accent sur la confidentialité, la performance et l'accessibilité, vous garantissant d'avoir ce dont vous avez besoin, quand vous en avez besoin, sans complications.",
+    "links": {
+      "about": "À propos",
+      "contact": "Contact",
+      "privacy": "Confidentialité",
+      "terms": "Conditions"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - Tous droits réservés.",
+    "alt_tap_to_tool": "Logo Tap to Tool",
+    "alt_creaftar": "Logo Creaftar"
+  }
+}

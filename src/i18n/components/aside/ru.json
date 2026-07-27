@@ -1,0 +1,15 @@
+{
+  "aside": {
+    "search_placeholder": "Поиск инструмента...",
+    "character_counter": "Счетчик символов",
+    "text_inverter": "Инвертор текста",
+    "case_converter": "Преобразователь регистра",
+    "alphabetical_order": "Сортировка по алфавиту",
+    "random_number": "Генератор случайных чисел",
+    "alarm_clock": "Будильник онлайн",
+    "stopwatch": "Секундомер онлайн",
+    "timer": "Таймер онлайн",
+    "creaftar_text": "Creaftar - создание кроссвордов",
+    "name_picker_wheel": "Колесо выбора имен"
+  }
+}

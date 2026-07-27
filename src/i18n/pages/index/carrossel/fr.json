@@ -1,0 +1,60 @@
+{
+  "carousel_section": {
+    "header": {
+      "main_title": "DÉCOUVRIR DE NOUVEAUX OUTILS"
+    },
+    "cards": {
+      "alarm": {
+        "title": "RÉVEIL EN LIGNE",
+        "alt_text": "Image de la page réveil"
+      },
+      "char_counter": {
+        "title": "COMPTEUR DE CARACTÈRES",
+        "alt_text": "Image de la page compteur de caractères"
+      },
+      "stopwatch": {
+        "title": "CHRONOMÈTRE EN LIGNE",
+        "alt_text": "Image de la page chronomètre"
+      },
+      "random_number": {
+        "title": "GÉNÉRATEUR DE NOMBRES ALÉATOIRES",
+        "alt_text": "Image de la page générateur de nombres"
+      },
+      "alphabetical_order": {
+        "title": "ORDRE ALPHABÉTIQUE",
+        "alt_text": "Image de la page tri alphabétique"
+      }
+    }
+  },
+  "newsletter_section": {
+    "title": "RESTEZ INFORMÉ !",
+    "tooltip": "Nous enverrons des messages à l'adresse e-mail enregistrée pour vous tenir au courant des nouveautés de Tap to Tool !",
+    "input_placeholder": "utilisateur.exemple@gmail.com",
+    "button_text": "S'INSCRIRE"
+  },
+  "updates_section": {
+    "labels": {
+      "new": "NOUVEAU !",
+      "ad": "ANNONCE"
+    },
+    "items": {
+      "text_inverter": {
+        "title": "Inverseur de Texte",
+        "description": "Inversez votre texte avec notre nouvel outil !"
+      },
+      "tool_kit": {
+        "title": "Kit d'Outils",
+        "description": "Vous pouvez maintenant sélectionner un kit avec plusieurs outils !"
+      },
+      "alarm_clock": {
+        "title": "Réveil en Ligne",
+        "description": "Créez plusieurs alarmes au même endroit !"
+      },
+      "creaftar_ad": {
+        "title": "Creaftar",
+        "description": "Jouez ou créez des mots croisés en ligne !",
+        "alt_text": "Image de la page d'annonce Creaftar"
+      }
+    }
+  }
+}

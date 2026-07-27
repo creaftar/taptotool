@@ -1,0 +1,213 @@
+---
+import ToolLayout from "@/layout/ToolLayout.astro";
+import '@/assets/styles/addons/copytext.css';
+import '@/assets/styles/global/scrollbar.css';
+import '@/assets/styles/pages/text/text-inverter.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } }, // /text-inverter (default)
+          // /en/text-inverter
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+import pt from "@/i18n/pages/text/textinverter/pt.json";
+import en from "@/i18n/pages/text/textinverter/en.json";
+import es from "@/i18n/pages/text/textinverter/es.json";
+import fr from "@/i18n/pages/text/textinverter/fr.json";
+import it from "@/i18n/pages/text/textinverter/it.json";
+import de from "@/i18n/pages/text/textinverter/de.json";
+import ru from "@/i18n/pages/text/textinverter/ru.json";
+import id from "@/i18n/pages/text/textinverter/id.json";
+import hi from "@/i18n/pages/text/textinverter/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang: paramLang } = Astro.params;
+const lang = (paramLang === 'en' || !paramLang) ? 'en' : paramLang; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/text-inverter`;
+---
+
+<ToolLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+>
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.schema.app_name,
+      "alternateName": "Online Text Inverter",
+      "url": currentUrl,
+      "image": "https://taptotool.com/assets/imgs/capa_ferramentas/inverter_texto.webp",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.ui.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": "HowTo",
+      "@id": `${currentUrl}#howto`,
+      "name": d.schema.howto_name,
+      "description": d.schema.howto_description,
+      "mainEntityOfPage": { "@id": `${currentUrl}#webpage` },
+      "totalTime": "PT1M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": d.content.step_1,
+          "text": d.content.step_1
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.step_2,
+          "text": d.content.step_2
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema.breadcrumb_current,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/engrenagensPNG.svg",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+
+  <div id="area-text" data-i18n={JSON.stringify(d.dynamic)}>
+    <textarea id="textTip"></textarea>
+      <div id="container-paste-text">
+        <i class="fa-regular fa-clipboard"></i>
+        <p>{d.ui.paste_text}</p>
+        <p id="ctrlv">{d.ui.paste_shortcut}</p>
+      </div>
+      <div id="container-bloco-error">
+        <p>{d.ui.error_clipboard}</p>
+      </div>
+      <div class="container-icones-text" id="container-icones-textID">
+        <button id="btn-copiar-areatext" title={d.ui.tooltip_copy}>
+          <i class="fa-solid fa-copy"></i>
+        </button>
+        <button id="btn-exlcuir-areatext" title={d.ui.tooltip_delete}>
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+  </div>
+
+  <i class="fa-solid fa-right-left icon-text"></i>
+
+  <div id="result-text">
+    <textarea id="textResult" disabled></textarea>
+    <div class="container-icones-result">
+      <button id="btn-copiar-result" title={d.ui.tooltip_copy_results}>
+        <i class="fa-regular fa-copy"></i>
+      </button>
+    </div>
+  </div>
+
+  <article id="description-area" slot="SEO">
+      <header>
+          <h1>{d.content.h1_seo}</h1>
+          <p>{d.content.intro_text}</p>
+      </header>
+      <section>
+          <h2>{d.content.usage_title}</h2>
+          <ol>
+              <li>{d.content.step_1}</li>
+              <li>{d.content.step_2}</li>
+          </ol>
+      </section>
+      <section>
+          <h2>{d.content.why_use_title}</h2>
+          <p>{d.content.why_use_intro}</p>
+          <ul>
+              <li><span class="title-list">{d.content.benefit_1_title}</span><p>- {d.content.benefit_1_text}</p></li>
+              <li><span class="title-list">{d.content.benefit_2_title}</span><p>- {d.content.benefit_2_text}</p></li>
+              <li><span class="title-list">{d.content.benefit_3_title}</span><p>- {d.content.benefit_3_text}</p></li>
+              <li><span class="title-list">{d.content.benefit_4_title}</span><p>- {d.content.benefit_4_text}</p></li>
+          </ul>
+      </section>
+      <footer>
+          <div class="share-buttons">
+              <p>{d.content.footer_text}</p>
+          </div>
+      </footer>
+  </article>
+
+  <script>
+    import '@/assets/scripts/imports/textinverter.js';
+  </script>
+</ToolLayout>

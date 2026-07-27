@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Textumkehrer Online - Tap to Tool",
+    "description": "Invertierte Ihren Text schnell online! Nutzen Sie den Texter von Tap to Tool, um die Reihenfolge aller Zeichen zu invertierten.",
+    "keywords": "textumkehren, text online invertieren, umgekehrter text, worte umkehren, zeichen umkehren, text inverteren, text umgekehrt"
+  },
+  "schema": {
+    "app_name": "Online Textumkehrer",
+    "app_description": "Invertierte Ihren Text schnell online! Nutzen Sie den Texter von Tap to Tool, um die Reihenfolge aller Zeichen zu invertierten.",
+    "howto_name": "So verwenden Sie den Online-Textumkehrer",
+    "howto_description": "Der Textumkehrer ist ein kostenloses Online-Tool, das es Ihnen ermöglicht, die Reihenfolge der Zeichen jedes eingegebenen oder eingeleiteten Texts umzukehren.",
+    "step1_name": "Text einfügen",
+    "step1_text": "Kopieren und fügen Sie den Text in das Eingabefeld des Tools ein.",
+    "step2_name": "Ergebnis kopieren",
+    "step2_text": "Kopieren Sie das Ergebnis Ihres inverstierten Texts aus dem nebenliegenden Feld.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Online Textumkehrer"
+  },
+  "ui": {
+    "h1_main": "TEXTUMKEHRER",
+    "placeholder_input": "Geben Sie oder fügen Sie den Text ein, der inverstiert werden soll...",
+    "paste_text": "Zum Einfügen klicken",
+    "paste_shortcut": "Strg + V",
+    "error_clipboard": "Versuchen Sie es mit Strg + V oder überprüfen Sie, ob die Verwendung Ihrer Zwischenablage erlaubt ist.",
+    "tooltip_copy": "Text kopieren",
+    "tooltip_delete": "Text löschen",
+    "tooltip_copy_results": "Ergebnis kopieren",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Online Textumkehrer",
+    "intro_text": "Das schnellste und einfachste Werkzeug, um die Reihenfolge der Zeichen Ihres Texts zu invertierten.",
+    "usage_title": "Wie verwende ich den Textumkehrer?",
+    "step_1": "Text einfügen: Kopieren und fügen Sie den gewünschten Text in das dafür vorgesehene Textarea ein.",
+    "step_2": "Ergebnis ansehen:  Sie müssen nichts weiter tun! Das Ergebnis wird automatisch neben dem Eingabefeld angezeigt. Kopieren Sie einfach Ihre generierte Antwort aus diesem Feld.",
+    "why_use_title": "Warum einen Textumkehrer verwenden?",
+    "why_use_intro": "Ein Textumkehrer ist nützlich für verschiedene Zwecke:",
+    "benefit_1_title": "Kreativität und Stil",
+    "benefit_1_text": "Generierung einzigartiger visueller oder schriftlicher Effekte für soziale Medien, digitale Kunst oder Spiele.",
+    "benefit_2_title": "Leichte Verschlüsselung",
+    "benefit_2_text": "Hinzufügen einer grundlegenden Ebene der Verwirrung zu Nachrichten, die keine robuste Sicherheit erfordern.",
+    "benefit_3_title": "Tests und Debugging",
+    "benefit_3_text": "Hilft beim Testen der Stringmanipulation in Programmiersprachen oder bei der Überprüfung der Funktionalität von Textlayouts.",
+    "benefit_4_title": "Unterhaltung",
+    "benefit_4_text": "Einfach zum Spaß, um zu sehen, wie Ihr Text umgekehrt aussehen würde.",
+    "footer_text": "Schaffen Sie kreative Effekte und verwandeln Sie Ihre Nachrichten sofort mit dem Textumkehrer!"
+  },
+  "dynamic":{
+    "standard_phrase": "Hallo, willkommen. Geben Sie Ihren Text hier ein...",
+    "result_phrase": "...nie reih txeT nerhI eiS nebeG .nemmoklliw ,ollaH"
+  }
+}

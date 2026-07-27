@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Rouleta de Nombres en Línea - Tap to Tool",
+    "description": "Gire la rouleta en línea para sorteos rápidos y justos. Sorteie nombres, opciones y tome decisiones aleatorias en segundos con nuestra Rouleta Giratoria gratuita.",
+    "keywords": "rouleta en línea, sortear nombres, rouleta personalizada, girar la rueda, sorteo aleatorio, rouleta de decisiones, sorteador de nombres"
+  },
+  "schema": {
+    "app_name": "Rouleta de Nombres en Línea - Tap to Tool",
+    "app_description": "Herramienta de rouleta virtual personalizable para sorteos de nombres y decisiones aleatorias.",
+    "howto_name": "Cómo usar la Rouleta En línea",
+    "howto_description": "Aprenda a crear su propia rouleta personalizada y realizar sorteos en solo 3 pasos simples.",
+    "step1_name": "Ingresar Opciones",
+    "step1_text": "Ingrese los nombres, números o opciones que desea sortear en el campo de texto, separados por línea.",
+    "step2_name": "Configurar la Rouleta",
+    "step2_text": "Verifique si todas las secciones de la rouleta están correctas y personalice los items según sea necesario.",
+    "step3_name": "Girar y Sortear",
+    "step3_text": "Haga clic en el botón central de la rouleta para girarla y espere a que se detenga en el ganador aleatorio.",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Rouleta de Nombres En Línea"
+  },
+  "ui": {
+    "placeholder_input": "Elige 1\nElige 2\nElige 3\nElige 4\nElige 5\nElige 6\nElige 7",
+    "paste_text": "Haz clic para pegar tu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Intenta pegar con CTRL + V o mira si está permitido que veamos tu área de transferencia",
+    "tooltip_copy": "Copiar el texto",
+    "tooltip_delete": "Limpiar texto",
+    "winner_label": "El ganador es: ",
+    "btn_close": "Cerrar",
+    "btn_remove": "Eliminar",
+    "price_currency": "ARS"
+  },
+  "content": {
+    "h1_seo": "Rouleta En Línea Personalizable - Gire para Sortear Nombres y Decisiones",
+    "intro_text": "Nuestra Rouleta en línea es la herramienta gratuita ideal para quien necesita un sorteo rápido, justo y visual. Sea para decidir dónde almorzar, sortear nombres de alumnos o definir el ganador de un brinde, nuestra rouleta ofrece resultados 100% aleatorios en segundos.",
+    "usage_title": "Cómo usar la Rouleta De Sorteio?",
+    "step_1": "Ingrese los nombres o opciones que usted desea sortear en el campo de texto indicado.",
+    "step_2": "Personalice las opciones de su rouleta según sea necesario: ",
+    "type_input_title": "Entrada de Nombres",
+    "type_input_text": "Digite un item por línea para crear las secciones.",
+    "type_edit_title": "Fácil Edición",
+    "type_edit_text": "Agregue o elimine opciones en cualquier momento antes de girar.",
+    "type_instant_title": "Resultado Instantáneo",
+    "type_instant_text": "La rouleta calcula la física del giro para garantizar total imparcialidad.",
+    "type_clean_title": "Interface Limpa",
+    "type_clean_text": "Sin anuncios intrusivos que entorpecen su visualización o el sorteo.",
+    "step_3": "Haga clic en la rouleta para girarla y espere a que se detenga en el ganador elegido por la suerte! ",
+    "benefits_title": "Ventajas de usar nuestra Rouleta Aleatoria",
+    "benefits_intro": "Diferente de métodos manuales, nuestra herramienta digital garantiza que nadie salga perjudicado. Veja por qué usar nuestra Rueda Giratoria: ",
+    "benefit_1_title": "Totalmente Imparcial",
+    "benefit_1_text": "Utilizamos algoritmos de aleatoriedad basados en sistemas matemáticos precisos.",
+    "benefit_2_title": "Uso Educativo",
+    "benefit_2_text": "Herramienta favorita de profesores para elegir alumnos o temas de trabajos de forma divertida.",
+    "benefit_3_title": "Decisiones Rápidas",
+    "benefit_3_text": "Elimine la indecisión en grupos de amigos o en el trabajo con un giro rápido.",
+    "benefit_4_title": "Sin Descarga",
+    "benefit_4_text": "Funciona directamente en tu navegador, sea en celular o computador, sin instalar nada.",
+    "footer_text": "Listo para decidir? Comienza a usar nuestra rouleta personalizada ahora y deja que el destino haga la elección por ti. Sencillo, rápido y 100% gratuito."
+  },
+  "dynamic": {
+    "standard_phrase": "Elige 1\nElige 2\nElige 3\nElige 4\nElige 5\n Elige 6\nElige 7",
+    "winner_prefix": "El ganador es: "
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Online Timer - Tap to Tool",
+    "description": "Use the Online Timer from Tap to Tool to create multiple countdowns. Ideal for productivity, workouts, and cooking. Saves your settings automatically.",
+    "keywords": "online timer, timer online, countdown, time counter, multiple timers, study timer",
+    "canonical": "https://taptotool.com/timer"
+  },
+  "schema": {
+    "app_name": "Online Timer Tap to Tool",
+    "app_description": "Create multiple online countdown timers with automatic saving and personalization.",
+    "howto_name": "How to Use the Online Timer",
+    "howto_description": "The Online Timer is a free and precise tool for time measurement.",
+    "step1_name": "Start and Pause",
+    "step1_text": "Click on the Play/Pause icon (▶/⏸) to pause and resume the timer.",
+    "step2_name": "Lap/Repeat",
+    "step2_text": "Click on the Lap button to allow (or not) your timer to ring 5 times in a row.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online Timer"
+  },
+  "ui": {
+    "h1": "Online Countdown Timer",
+    "intro_text": "The Online Timer from Tap to Tool allows you to manage multiple countdowns simultaneously, making it ideal for precision and organization.",
+    "new_timer_button": "+ New Timer",
+    "current_time_label": "Current Time",
+    "placeholder_timer_name": "Timer name (e.g., Focus, Cooking)",
+    "unit_currency": "USD"
+  },
+  "content": {
+    "features_title": "Timer Features",
+    "feature_1_title": "Multiple Timers",
+    "feature_1_text": "Start several countdowns at once for different tasks.",
+    "feature_2_title": "Personalization",
+    "feature_2_text": "Name each timer to quickly identify its purpose.",
+    "feature_3_title": "Organization",
+    "feature_3_text": "Drag the cards to prioritize the timers ending first.",
+    "feature_4_title": "Memory",
+    "feature_4_text": "Configured timers are saved in your browser for continuous use.",
+    "usage_title": "How to Use",
+    "usage_step_1": "1. Click '+ New Timer' to add a new counter to your list.",
+    "usage_step_2": "2. Set the desired time (hours, minutes, and seconds).",
+    "usage_step_3": "3. Click on the card title to rename it.",
+    "usage_step_4": "4. Start the countdown and drag cards to organize your view.",
+    "footer_share_text": "Need multiple timers? Explore the Tap to Tool Timer!"
+  },
+  "dynamic": {
+    "default_timer_name": "Unnamed Timer",
+    "choose_audio": "Select Sound"
+  }
+}

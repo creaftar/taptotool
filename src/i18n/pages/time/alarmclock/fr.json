@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Réveil en ligne - Tap to Tool",
+    "description": "Configurez plusieurs réveils en ligne avec Tap to Tool. Personnalisez avec vos propres sons, faites glisser pour organiser et gérez vos horaires avec précision et facilité.",
+    "keywords": "alarme en ligne, réveil en ligne, configurer alarme, alarme avec musique personnalisée, gestionnaire d'alarmes, réveil navigateur, réveils multiples, plusieurs alarmes"
+  },
+  "schema": {
+    "app_name": "Réveil en ligne - Tap to Tool",
+    "app_description": "Configurez plusieurs réveils en ligne. Personnalisez avec vos propres sons, faites glisser pour organiser et gérez vos horaires avec précision et facilité.",
+    "howto_name": "Comment utiliser le réveil en ligne",
+    "howto_description": "Le réveil en ligne est un outil puissant pour configurer et gérer plusieurs alarmes simultanément.",
+    "step1_name": "Créer une alarme",
+    "step1_text": "Cliquez sur le bouton '+ Nouvelle Alarme' pour générer une nouvelle carte de configuration.",
+    "step2_name": "Configurer l'heure",
+    "step2_text": "Sélectionnez les heures et les minutes souhaitées dans les champs numériques de chaque carte.",
+    "step3_name": "Personnaliser le son et le nom",
+    "step3_text": "Donnez un titre à votre alarme en cliquant sur le nom et sélectionnez un fichier audio de votre appareil en cliquant sur le bouton de sélection audio.",
+    "step4_name": "Organiser et activer",
+    "step4_text": "Faites glisser les cartes pour définir la priorité visuelle. L'alarme se déclenchera automatiquement lorsque le décompte atteindra zéro.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Réveil en ligne"
+  },
+  "ui": {
+    "h1": "Réveil en ligne personnalisable",
+    "intro_text": "Organisez votre routine avec le réveil en ligne le plus intuitif. Configurez des rappels, réveillez-vous avec vos musiques préférées et gérez vos alarmes.",
+    "add_alarm": "+ Nouvelle Alarme",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Fonctionnalités principales",
+    "feature_audio": "Personnalisation audio : Utilisez des sons standards ou téléchargez votre próprio arquivo de áudio.",
+    "feature_org": "Organisation intelligente : Cliquez et maintenez pour réorganiser vos alarmes en fonction de la priorité.",
+    "feature_multiple": "Alarmes multiples : Créez autant d'alarmes que nécessaire pour votre quotidien.",
+    "feature_save": "Sauvegarde automatique : Vos alarmes sont sauvegardées dans le navigateur, prêtes pour votre prochaine visite.",
+    "usage_title": "Comment utiliser",
+    "usage_step1": "Cliquez sur '+ Nouvelle Alarme' pour créer une carte.",
+    "usage_step2": "Ajustez l'heure et les minutes dans les sélecteurs numériques.",
+    "usage_step3": "Cliquez sur le nom pour modifier le titre de l'alarme.",
+    "usage_step4": "Cliquez sur le bouton de sélection audio pour choisir votre son préféré directement depuis votre ordinateur.",
+    "tips_title": "Conseils d'interactivité",
+    "tip_drag": "Cliquez et faites glisser n'importe quelle carte pour changer l'ordre de vos alarmes.",
+    "tip_rename": "Cliquez sur le nom de l'alarme pour la renommer (ex : 'Médicament', 'Réunion').",
+    "tip_test": "L'icône audio vous permet de tester le son avant de l'utiliser.",
+    "footer_text": "Créez plusieurs alarmes et organisez votre routine instantanément com o Réveil en ligne de Tap to Tool !"
+  },
+  "dynamic": {
+    "default_alarm_name": "Réveil sans nom",
+    "choose_audio": "Choisir l'audio"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "TROVA UN KIT DI STRUMENTI"
+    },
+    "text_kit": {
+      "title": "TESTI",
+      "alt_text": "Kit di strumenti per testi"
+    },
+    "math_kit": {
+      "title": "MATEMATICA",
+      "alt_text": "Kit di strumenti matematici"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Logo Creaftar",
+      "description": "Creaftar è il tuo posto per creare, modificare ed eliminare parole crociate online. Sfida gli amici e gioca alle creazioni esclusive della nostra comunità.",
+      "button_text": "Accedi a Creaftar ora!"
+    }
+  }
+}

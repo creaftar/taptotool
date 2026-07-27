@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "tagline": "Ferramentas simples para grandes ideias.",
+    "description_p1": "O <strong>Tap to Tool</strong> é o canivete suíço digital para quem busca produtividade. Desenvolvido para ser leve, gratuito e acessível em qualquer lugar do mundo.",
+    "description_p2": "Funcionando como uma central de utilitários projetada para oferecer precisão e rapidez, nossas ferramentas são construídas com foco em privacidade, performance e acessibilidade, garantindo que você tenha o que precisa, quando precisa, sem complicações.",
+    "links": {
+      "about": "Sobre",
+      "contact": "Contato",
+      "privacy": "Privacidade",
+      "terms": "Termos"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - Todos os direitos reservados.",
+    "alt_tap_to_tool": "Tap to Tool Logo",
+    "alt_creaftar": "Creaftar Logo"
+  }
+}

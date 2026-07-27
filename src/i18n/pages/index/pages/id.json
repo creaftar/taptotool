@@ -1,0 +1,27 @@
+{
+  "search_section": {
+    "placeholder": "Cari alat..."
+  },
+  "tools_list": {
+    "text_tools": {
+      "char_counter": "Penghitung Karakter",
+      "text_inverter": "Pembalik Teks",
+      "case_converter": "Konverter Huruf Besar/Kecil",
+      "alphabetical_order": "Urutan Abjad"
+    },
+    "math_tools": {
+    },
+    "random_tools": {
+      "random_number": "Pembangkit Angka Acak Antara 2 Angka",
+      "name_picker_wheel": "Roda Acak Nama Online"
+    },
+    "time_tools": {
+      "alarm_clock": "Jam Alarm Online",
+      "stopwatch": "Stopwatch Online",
+      "timer": "Timer Online"
+    },
+    "external_links": {
+      "creaftar": "Creaftar - Membuat Teka-teki Silang"
+    }
+  }
+}

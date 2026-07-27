@@ -1,0 +1,180 @@
+#container-container-and-description{
+    grid-row: span 2;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-carrossel-and-icons {
+    width: 320px;
+    position: relative; /* Ponto de referência para os botões */
+    box-shadow: 0px 0px 9px rgba(var(--shadow), var(--opacidade-fraca));
+    z-index: 1;
+    border-radius: 6px;
+    overflow-x: hidden; 
+}
+#container-carrossel-and-icons:hover{
+	box-shadow: 0px 0px 9px rgba(var(--shadow), 0.1);
+}
+
+/* Estilos básicos para o container que vai virar o carrossel */
+.container-content {
+    /* Habilita o Flexbox */
+    display: flex;
+    /* Faz com que os itens não quebrem a linha */
+    flex-wrap: nowrap; 
+    /* Permite a rolagem horizontal quando o conteúdo exceder */
+    overflow-x: hidden; 
+    /* Esconde a barra de rolagem (opcional, mas comum em carrosséis) */
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para IE e Edge */
+    width: 100%;
+    height: 100%;
+}
+
+/* Remove a barra de rolagem explícita para navegadores baseados em WebKit (Chrome, Safari) */
+.container-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Estilos para os cartões (itens do carrossel) */
+.card {
+    z-index: 2;
+    flex: 0 0 auto; 
+    width: 100%;  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition:box-shadow 0.3s;
+    height: 100%;
+}
+.icone-animado{
+    background-color: var(--fundo-card);
+    color: rgba(var(--padrao), 1);
+    box-shadow: 0px 0px 9px rgba(var(--shadow), var(--opacidade-fraca));
+}
+.card:hover .icone-animado{
+    right: 6px;
+    opacity: 0.9;
+}
+
+.card > a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.card > a:active{
+    color: var(--destaque);
+}
+.img-card{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.img-card > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-card{
+    position: relative; /* Essencial para o z-index funcionar */
+    background-color: var(--fundo-card);
+    color: rgba(var(--padrao), 1);
+    z-index: 9999;
+}
+.footer-card{
+    font-weight: 600;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 30%; 
+    overflow: hidden; 
+}
+
+.footer-card > p {
+    /* 1. Definir o elemento como um contêiner flexível */
+    display: -webkit-box;
+
+    /* 2. Orientar o Flexbox verticalmente */
+    -webkit-box-orient: vertical;
+
+    /* 3. A propriedade mágica: define o número máximo de linhas */
+    -webkit-line-clamp: 2; /* Altere este número para a quantidade de linhas que você quer */
+    line-clamp: 2;
+    /* 4. Esconder o excesso de conteúdo */
+    overflow: hidden;
+
+}
+
+/* Opcional: Para melhorar a rolagem em carrosséis */
+.container-content {
+    /* Adiciona "snapping" para que a rolagem pare perfeitamente em cada cartão */
+    scroll-snap-type: x mandatory; 
+}
+
+.card {
+    /* Define o ponto onde o scroll deve parar */
+    scroll-snap-align: start; 
+}
+
+/* 2. Estilização e Posicionamento dos Botões */
+.nav-btn {
+    position: absolute;
+    z-index: 10; /* Garante que o botão fique em cima dos cards */
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    cursor: pointer;
+    height: 100%;
+}
+.nav-btn > i{
+    font-size:x-large;
+}
+#prev-btn {
+    left: 0px;
+}
+
+#next-btn {
+    right: 0px;
+}
+
+/* 3. Estilos do Carrossel (Ajuste do CSS anterior) */
+#carousel-content {
+    /* Mantenha o CSS do carrossel anterior */
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory; 
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#carousel-content::-webkit-scrollbar {
+    display: none;
+}
+
+@media(max-width: 1023px){
+    #container-container-and-description{
+        grid-row: span 2;
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*@media(min-width: 530px) and (max-width: 760px){
+    .container-cartao{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+}*/

@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Character Counter Online - Tap to Tool",
+    "description": "Simple and fast online tool to count letters, characters, words, lines, and paragraphs of any text.",
+    "keywords": "letter counter, word counter, sentence counter, paragraph counter, line counter, character counter without spaces, online character counter, word and character counter"
+  },
+  "schema": {
+    "app_name": "Online Character, Word & Line Counter",
+    "app_description": "Simple and fast online tool to count letters, characters, words, lines, and paragraphs of any text, with or without spaces.",
+    "howto_name": "How to Use the Online Character Counter",
+    "howto_description": "Quick guide to start counting your text in real time.",
+    "step1_name": "Copy & Paste",
+    "step1_text": "Paste your desired text into the main tool field.",
+    "step2_name": "Instant Analysis",
+    "step2_text": "Results (characters, words, sentences, lines) are calculated and displayed automatically in real time.",
+    "breadcrumb_home": "Home Page",
+    "breadcrumb_current": "Character Counter"
+  },
+  "ui": {
+    "h1_main": "CHARACTER COUNTER",
+    "placeholder_input": "Type or paste your text here...",
+    "paste_text": "Click to Paste Text",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Try pasting with CTRL + V or check if clipboard access is allowed",
+    "tooltip_copy": "Copy Text",
+    "tooltip_delete": "Clear Text",
+    "tooltip_copy_results": "Copy Results",
+    "res_chars_no_spaces": "Characters (excluding spaces)",
+    "res_chars": "Characters",
+    "res_words": "Words",
+    "res_sentences": "Sentences",
+    "res_lines": "Lines",
+    "res_paragraphs": "Paragraphs",
+    "price_currency": "USD"
+  },
+  "content": {
+    "h1_seo": "Character Counter",
+    "intro_text": "The character counter is a tool that works from typed text, calculating the amount of words, characters, sentences, lines and paragraphs. With a simple, easy and very common design, you just need to type or paste your text into the field above and ready, see the result next to it!",
+    "usage_title": "How to Use the Character Counter",
+    "step_1": "Type or paste copied content into the highlighted area above;",
+    "step_2": "View the results on the right side of the field.",
+    "why_use_title": "Why Use a Character Counter?",
+    "why_use_text": "Besides being extremely easy and intuitive, a character counter can be very useful for tasks that would once have required a lot of effort. Try it out and share your results with us using the feedback tools, we'd love to hear what you think.",
+    "footer_text": "Master text limits and optimize your posts with the Character Counter!" 
+  },
+  "dynamic": {
+    "standard_phrase": "Hello, welcome. Type your text here...",
+    "char_no_spaces": "Characters (no spaces)",
+    "characters": "Characters",
+    "words": "Words",
+    "sentences": "Sentences",
+    "lines": "Lines",
+    "paragraphs": "Paragraphs"
+  }
+}

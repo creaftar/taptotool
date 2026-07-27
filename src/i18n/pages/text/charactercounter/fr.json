@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Compteur de Caractères en Ligne - Tap to Tool",
+    "description": "Outil en ligne simple et rapide pour compter les lettres, caractères, mots, lignes et paragraphes de n'importe quel texte.",
+    "keywords": "comptage des lettres, comptage des mots, comptage des phrases, comptage des paragraphes, comptage des lignes, comptage des caractères sans espace, compteur de caractères en ligne, compteur de mots et de caractères"
+  },
+  "schema": {
+    "app_name": "Compteur de Caractères, Mots et Lignes en Ligne",
+    "app_description": "Outil en ligne simple et rapide pour compter les lettres, caractères, mots, lignes et paragraphes de n'importe quel texte, avec ou sans espace.",
+    "howto_name": "Comment Utiliser le Compteur de Caractères en Ligne",
+    "howto_description": "Guide rapide pour commencer à compter votre texte en temps réel.",
+    "step1_name": "Copier et Coller",
+    "step1_text": "Collez le texte souhaité dans le champ principal de l'outil.",
+    "step2_name": "Analyse Instantanée",
+    "step2_text": "Les résultats (caractères, mots, phrases, lignes) sont calculés et affichés automatiquement en temps réel.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Compteur de Caractères"
+  },
+  "ui": {
+    "h1_main": "COMPTEUR DE CARACTÈRES",
+    "placeholder_input": "Tapez ou collez votre texte ici...",
+    "paste_text": "Cliquez pour coller votre texte",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Essayez de coller avec CTRL + V ou vérifiez si l'accès au presse-papiers est autorisé",
+    "tooltip_copy": "Copier le texte",
+    "tooltip_delete": "Effacer le texte",
+    "tooltip_copy_results": "Copier les résultats",
+    "res_chars_no_spaces": "Caractères sans espaces",
+    "res_chars": "Caractères",
+    "res_words": "Mots",
+    "res_sentences": "Phrases",
+    "res_lines": "Lignes",
+    "res_paragraphs": "Paragraphes",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Compteur de Caractères",
+    "intro_text": "Le compteur de caractères est un outil qui fonctionne à partir d'un texte saisi, en calculant le nombre de mots, de caractères, de phrases, de lignes et de paragraphes. Avec une conception simple, facile et courante, vous n'avez qu'à taper ou coller votre texte dans le champ ci-dessus et voilà, consultez les résultats à côté !",
+    "usage_title": "Comment utiliser le compteur de caractères",
+    "step_1": "Tapez ou collez un texte copié dans la zone mise en évidence ci-dessus ;",
+    "step_2": "Consultez les résultats sur la droite du champ.",
+    "why_use_title": "Pourquoi utiliser un compteur de caractères ?",
+    "why_use_text": "En plus d'être extrêmement facile et intuitif, un compteur de caractères peut être très utile pour des tâches qui autrefois nécessitaient beaucoup d'efforts. Essayez-le et partagez vos résultats avec nous en utilisant les outils de commentaires, nous aimerions beaucoup savoir ce que vous en pensez.",
+    "footer_text": "Maîtrisez les limites du texte et optimisez vos publications avec le Compteur de Caractères !"
+  },
+  "dynamic": {
+    "standard_phrase": "Bonjour, bienvenue. Tapez votre texte ici...",
+    "char_no_spaces": "Caractères (sans espaces)",
+    "characters": "Caractères",
+    "words": "Mots",
+    "sentences": "Phrases",
+    "lines": "Lignes",
+    "paragraphs": "Paragraphes"
+  }
+}

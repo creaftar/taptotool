@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Ordenador Alfabético Online - Tap to Tool",
+    "description": "Ordena al instante listas, palabras o frases en orden alfabético (A-Z) o inverso (Z-A). Soporta saltos de línea, comas y frases complejas.",
+    "keywords": "ordenador alfabético, poner en orden alfabético, ordenar lista, organizar texto, clasificar palabras, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "Ordenador Alfabético Online",
+    "app_description": "Ordena al instante listas, palabras o frases en orden alfabético (A-Z) o inverso (Z-A). Soporta saltos de línea, comas y frases complejas. Rápido y fácil con Tap to Tool.",
+    "howto_name": "Cómo Usar el Ordenador Alfabético Online",
+    "howto_description": "El Ordenador Alfabético es una herramienta gratuita que organiza cualquier lista de palabras, frases o elementos en orden alfabético.",
+    "step1_name": "Ingresar la Lista",
+    "step1_text": "Copia y pega o escribe los elementos (separados por espacio, coma o saltos de línea) en el cuadro de entrada.",
+    "step2_name": "Visualización Automática",
+    "step2_text": "La lista se ordenará automáticamente de A-Z en el campo de al lado, preservando el formato de separación original (salto de línea o coma).",
+    "step3_name": "Copiar Resultado",
+    "step3_text": "Copia la lista ordenada alfabéticamente en el campo de resultado.",
+    "breadcrumb_home": "Página Principal",
+    "breadcrumb_current": "Ordenador Alfabético Online"
+  },
+  "ui": {
+    "h1_main": "ORDENADOR ALFABÉTICO",
+    "placeholder_input": "Escribe o pega tu lista aquí...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "Haz clic para pegar tu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Intenta pegar con Ctrl + V o revisa si el acceso al portapapeles está permitido.",
+    "tooltip_copy": "Copiar el texto",
+    "tooltip_delete": "Borrar texto",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Ordenador Alfabético Online",
+    "intro_text": "La herramienta más rápida y sencilla para ordenar cualquier lista de palabras, nombres o frases en orden alfabético.",
+    "usage_title": "¿Cómo usar el Ordenador Alfabético?",
+    "step_1": "Ingresa la Lista: Copia y pega o escribe los elementos que deseas organizar en el área de texto designada. Los elementos pueden estar separados por saltos de línea, comas o espacios.",
+    "step_2": "Ordenación Automática: La herramienta hace todo el trabajo por ti y ordena los elementos alfabéticamente (A-Z / Z-A).",
+    "step_3": "Copia el Resultado: El texto ordenado se muestra al instante en el campo de al lado, manteniendo el separador original.",
+    "benefits_title": "¿Cuáles son los beneficios de usar un Ordenador Alfabético?",
+    "benefits_intro": "Un ordenador alfabético de texto es extremadamente útil para:",
+    "benefit_1_title": "Organización de Datos",
+    "benefit_1_text": "Organizar rápidamente listas de nombres, códigos, inventarios o cualquier conjunto de datos para una fácil consulta.",
+    "benefit_2_title": "Estudios y Referencias",
+    "benefit_2_text": "Crear listas de referencias bibliográficas, glosarios o vocabularios en un orden estándar.",
+    "benefit_3_title": "Procesamiento de Texto",
+    "benefit_3_text": "Clasificar palabras clave, etiquetas o frases complejas (como 'crema de cacahuete') como un único elemento, sin separarlos.",
+    "benefit_4_title": "Estandarización",
+    "benefit_4_text": "Garantizar que todos los documentos o listas sigan el mismo patrón de ordenación sin errores humanos.",
+    "footer_text": "¡Organiza tus listas y mejora tu productividad con el Ordenador Alfabético!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hola, bienvenido(a). Escribe tu texto aquí...",
+    "dynamic_phrase": "¡Hola, bienvenido(a)! Escribe tu lista separando por espacios o pulsando Enter en tu teclado, por ejemplo:\nbanana, ejemplo, avión",
+    "result_phrase": "Tu resultado aparecerá así:\navión, banana, ejemplo"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

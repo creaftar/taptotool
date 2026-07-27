@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "टूल के बारे में प्रतिक्रिया",
+    "email_placeholder": "example@gmail.com (वैकल्पिक)",
+    "textarea_placeholder": "अपनी प्रतिक्रिया यहाँ लिखें",
+    "send_button": "भेजें",
+    "copy_button": "कॉपी करें"
+  },
+  "dynamic":{
+    "success_message": "आपकी प्रतिक्रिया सफलतापूर्वक भेज दी गई है!",
+    "error_message": "प्रतिक्रिया भेजने में त्रुटि हुई, कृपया बाद में पुनः प्रयास करें।",
+    "COPIED": "कॉपी हो गया!"
+  }
+}

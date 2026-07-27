@@ -1,0 +1,50 @@
+{
+  "legal": {
+    "terms": {
+      "seo": {
+        "title": "Conditions d'utilisation - Tap to Tool",
+        "description": "Lisez les conditions d'utilisation de Tap to Tool. Comprenez vos libertés commerciales et vos responsabilités lors de l'utilisation de nos outils en ligne.",
+        "keywords": "conditions d'utilisation, licence commerciale, confidentialité, sécurité, outils en ligne"
+      },
+      "title": "Conditions d'utilisation",
+      "intro": "En accédant au site Tap to Tool, vous acceptez de vous conformer à ces conditions d'utilisation, à toutes les lois et réglementations applicables, et vous reconnaissez être responsable du respect de toutes les lois locales en vigueur.",
+      "sections": {
+        "one": {
+          "title": "1. Licence d'utilisation et Liberté Commerciale",
+          "content": "Contrairement aux plateformes restrictives, Tap to Tool encourage la productivité et l'utilisation professionnelle de ses utilitaires :",
+          "items": [
+            "Vous êtes autorisé à utiliser les résultats générés par nos outils (codes formatés, textes, générateurs, etc.) à des fins personnelles et commerciales.",
+            "Nous n'exigeons pas le paiement de redevances, d'attributions obligatoires ou de crédits sur le contenu que vous produisez en utilisant nos outils."
+          ]
+        },
+        "two": {
+          "title": "2. Restrictions de Propriété",
+          "content": "Bien que le résultat que vous générez vous appartienne, la plateforme et son infrastructure sont notre propriété. En vertu de cette licence, vous ne pouvez pas :",
+          "items": [
+            "Modifier ou copier le code source, la conception de l'interface ou l'architecture de Tap to Tool ;",
+            "Tenter de décompiler ou de faire de l'ingénierie inverse sur tout logiciel contenu sur le site ;",
+            "Supprimer tout droit d'auteur ou autre mention de propriété des matériaux ;",
+            "« Dupliquer » le site sur tout autre serveur ou tenter de reproduire la marque Tap to Tool de manière trompeuse."
+          ]
+        },
+        "three": {
+          "title": "3. Clause de non-responsabilité",
+          "content": "Les matériaux sur le site de Tap to Tool sont fournis « tels quels ».",
+          "items": [
+            "Nous ne garantissons pas que les utilitaires soient 100% exempts d'erreurs techniques, orthographiques ou photographiques.",
+            "Tap to Tool n'est pas responsable des pertes de données, des pertes de profits ou de l'interruption d'activités résultant de l'utilisation ou de l'incapacité à utiliser les outils. La vérification finale du résultat généré relève de l'entière responsabilité de l'utilisateur."
+          ]
+        },
+        "four": {
+          "title": "4. Liens",
+          "content": "Tap to Tool n'a pas examiné tous les sites liés à son propre site et n'est pas responsable du contenu de tout site lié. L'inclusion de tout lien n'implique pas notre approbation. L'utilisation de tout site lié est aux risques et périls de l'utilisateur."
+        },
+        "five": {
+          "title": "5. Modifications",
+          "content": "Nous pouvons réviser ces conditions d'utilisation à tout moment, sans préavis, pour refléter les améliorations apportées à nos services. En continuant à utiliser ce site, vous acceptez d'être lié par la version actuelle de ces conditions."
+        }
+      },
+      "footer": "Ces conditions sont effectives à compter du 20 février 2026."
+    }
+  }
+}

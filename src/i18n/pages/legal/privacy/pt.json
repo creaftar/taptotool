@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Política de Privacidade | Tap to Tool",
+    "description": "Sua privacidade é nossa prioridade. Saiba como o Tap to Tool garante a segurança dos seus dados através do processamento local direto no seu navegador.",
+    "keywords": "política de privacidade, privacidade de dados, processamento local, segurança digital, tap to tool"
+  },
+  "schema": {
+    "page_name": "Política de Privacidade",
+    "page_description": "Documento detalhando as práticas de privacidade e processamento local de dados do Tap to Tool.",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Privacidade"
+  },
+  "content": {
+    "title": "Política de Privacidade",
+    "intro": "No Tap to Tool, privacidade não é apenas um termo jurídico; é a base de como construímos nossas ferramentas. Esta política explica de forma clara como tratamos suas informações.",
+    "sections": [
+      {
+        "title": "1. Processamento Local de Dados",
+        "text": "A maioria das nossas ferramentas opera sob o princípio de Processamento no Cliente (Client-Side). Isso significa que os dados que você insere (textos para formatar, códigos, listas, etc.) são processados diretamente no seu navegador.",
+        "list": [
+          "Não enviamos seus dados de entrada para nossos servidores na maioria das operações.",
+          "O que você digita permanece no seu ambiente local até que você feche a aba ou limpe o cache."
+        ]
+      },
+      {
+        "title": "2. Coleta de Informações",
+        "text": "Coletamos apenas o mínimo necessário para manter o site funcional:",
+        "list": [
+          "Logs do Servidor: Recebemos informações básicas como seu endereço IP e tipo de navegador para fins de segurança e prevenção de abusos.",
+          "Cookies: Podemos utilizar cookies para salvar suas preferências (como o modo escuro) e entender quais ferramentas são as mais populares para melhorarmos o serviço."
+        ]
+      },
+      {
+        "title": "3. Links para Terceiros",
+        "text": "Nosso site pode conter links para sites externos. Não temos controle sobre o conteúdo ou as práticas de privacidade de terceiros e não podemos assumir responsabilidade por suas respectivas políticas."
+      },
+      {
+        "title": "4. Segurança",
+        "text": "Não mantemos bancos de dados com informações pessoais de usuários. Caso você entre em contato conosco por e-mail, seus dados serão usados exclusivamente para responder à sua solicitação e serão excluídos após o atendimento."
+      },
+      {
+        "title": "5. Consentimento",
+        "text": "Ao utilizar o Tap to Tool, você concorda com as práticas descritas nesta página. Esta política pode ser atualizada ocasionalmente para refletir melhorias em nossas ferramentas."
+      }
+    ],
+    "last_updated": "Última atualização: 20 de Fevereiro de 2026."
+  }
+}

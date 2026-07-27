@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Zufallszahlengenerator zwischen zwei Zahlen - Tap to Tool",
+    "description": "Benötigen Sie eine Zufallsnummer? Verwenden Sie den Online-Zufallszahlengenerator von Tap to Tool. Definieren Sie einen Mindest- und Maximalwert und erhalten Sie ein sofortiges und faires Ergebnis. Kostenlose Werkzeug für Spiele, Lotterien und Verlosungen.",
+    "keywords": "zufallszahlen generieren, zahlen online zufällige auswählen, zwischen zwei zahlen erzeugen, zufallszahlen, generator zwischen 2 zahlen, auslosung, lotterie, zahlenauswahl"
+  },
+  "schema": {
+    "app_name": "Zufallszahlengenerator zwischen zwei Zahlen",
+    "app_description": "Benötigen Sie eine Zufallsnummer? Verwenden Sie den Online-Zufallszahlengenerator von Tap to Tool. Definieren Sie einen Mindest- und Maximalwert und erhalten Sie ein sofortiges und faires Ergebnis. Kostenlose Werkzeug für Spiele, Lotterien und Verlosungen.",
+    "howto_name": "So verwenden Sie den Online-Zufallszahlengenerator",
+    "howto_description": "Der Zufallszahlengenerator ist ein kostenloses Online-Tool, das eine neue Zahl aus 2 ausgewählten Zahlen generiert. Geben Sie zwei beliebige Zahlen ein und sehen Sie die Magie!",
+    "step1_name": "Grenzen festlegen",
+    "step1_text": "Geben Sie den Mindest- und Maximalwert (Intervall) für das Losverfahren ein.",
+    "step2_name": "Zahl generieren",
+    "step2_text": "Klicken Sie auf die Schaltfläche 'Generieren', um die zufällige Zahl innerhalb des definierten Intervalls zu erhalten.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Zufallszahlengenerator zwischen zwei Zahlen"
+  },
+  "ui": {
+    "h1_main": "ZUFÄLLIGE ZAHL GENERIEREN",
+    "label_min": "Minimalwert",
+    "label_max": "Maximalwert",
+    "label_checkbox": "Nur ganze Zahlen",
+    "button_generate": "ZAHLEN GENERIEREN",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Zufallszahlengenerator",
+    "intro_text": "Der Zufallszahlengenerator ist ein kostenloses Online-Tool, das eine neue Zahl aus 2 ausgewählten Zahlen generiert. Geben Sie zwei beliebige Zahlen ein und sehen Sie die Magie!",
+    "usage_title": "So verwenden Sie den Zufallszahlengenerator",
+    "usage_instruction": "Geben Sie einfach in die beiden Felder oben Werte ein, um das Ergebnis zu erhalten:",
+    "list_item_integers": "Ganzzahlige Zahlen: [min, max]",
+    "list_item_decimals": "Dezimalzahlen: [min, max)",
+    "usage_checkbox_info": "Wenn Sie die Option \"Nur ganze Zahlen\" aktivieren, erhalten Sie Werte ohne Komma (Dezimalstellen). Deaktivieren Sie diese Option, um bis zu zwei Dezimalstellen zu erhalten.",
+    "why_use_title": "Warum unseren Zufallszahlengenerator verwenden?",
+    "why_use_text": "Programmiert für Einfachheit und Effizienz können Sie mit minimalem Aufwand ein Ergebnis zwischen 2 gewünschten Zahlen erhalten.",
+    "footer_text": "Generieren Sie zufällige Zahlen zwischen zwei Zahlen!"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Informativa sulla Privacy | Tap to Tool",
+    "description": "La tua privacy è la nostra priorità. Scopri come Tap to Tool garantisce la sicurezza dei tuoi dati tramite l'elaborazione locale diretta nel tuo browser.",
+    "keywords": "informativa sulla privacy, privacy dei dati, elaborazione locale, sicurezza digitale, tap to tool"
+  },
+  "schema": {
+    "page_name": "Informativa sulla Privacy",
+    "page_description": "Documento che dettaglia le pratiche di privacy ed elaborazione locale dei dati di Tap to Tool.",
+    "breadcrumb_home": "Inizio",
+    "breadcrumb_current": "Privacy"
+  },
+  "content": {
+    "title": "Informativa sulla Privacy",
+    "intro": "Su Tap to Tool, la privacy non è solo un termine legale; è la base su cui costruiamo i nostri strumenti. Questa informativa spiega chiaramente come trattiamo le tue informazioni.",
+    "sections": [
+      {
+        "title": "1. Elaborazione Locale dei Dati",
+        "text": "La maggior parte dei nostri strumenti opera secondo il principio dell'elaborazione lato client (Client-Side). Ciò significa che i dati inseriti (testi da formattare, codici, elenchi, ecc.) vengono elaborati direttamente nel tuo browser.",
+        "list": [
+          "Non inviamo i tuoi dati di input ai nostri server nella maggior parte delle operazioni.",
+          "Ciò che digiti rimane nel tuo ambiente locale finché non chiudi la scheda o svuoti la cache."
+        ]
+      },
+      {
+        "title": "2. Raccolta di Informazioni",
+        "text": "Raccogliamo solo il minimo necessario per mantenere il sito funzionale:",
+        "list": [
+          "Log del Server: Riceviamo informazioni di base come il tuo indirizzo IP e il tipo di browser per scopi di sicurezza e prevenzione degli abusi.",
+          "Cookie: Possiamo utilizzare i cookie per salvare le tue preferenze (come la modalità scura) e capire quali strumenti sono i più popolari per migliorare il servizio."
+        ]
+      },
+      {
+        "title": "3. Link a Terze Parti",
+        "text": "Il nostro sito può contenere link a siti esterni. Non abbiamo alcun controllo sul contenuto o sulle pratiche di privacy di terzi e non possiamo assumerci la responsabilità delle loro rispettive politiche."
+      },
+      {
+        "title": "4. Sicurezza",
+        "text": "Non manteniamo database con informazioni personali degli utenti. Se ci contatti via e-mail, i tuoi dati saranno utilizzati esclusivamente per rispondere alla tua richiesta e saranno cancellati dopo l'assistenza."
+      },
+      {
+        "title": "5. Consenso",
+        "text": "Utilizzando Tap to Tool, acconsenti alle pratiche descritte in questa pagina. Questa informativa può essere aggiornata occasionalmente per riflettere i miglioramenti dei nostri strumenti."
+      }
+    ],
+    "last_updated": "Ultimo aggiornamento: 20 febbraio 2026."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Generador de Números Aleatorios Entre Dos Números - Tap to Tool",
+    "description": "¿Necesitas sortear? Usa el Generador de Números Aleatorios Online de Tap to Tool. Define un número mínimo y máximo y obtén un resultado instantáneo y justo. Herramienta gratuita para juegos, rifas y sorteos.",
+    "keywords": "generador de números aleatorios, sortear números online, generar números entre, números aleatorios, generador de números entre 2, sorteo, rifa, ordenador de números"
+  },
+  "schema": {
+    "app_name": "Generador de Números Aleatorios Entre Dos Números",
+    "app_description": "¿Necesitas sortear? Usa el Generador de Números Aleatorios Online de Tap to Tool. Define un número mínimo y máximo y obtén un resultado instantáneo y justo. Herramienta gratuita para juegos, rifas y sorteos.",
+    "howto_name": "Cómo Usar el Generador de Números Online",
+    "howto_description": "El Generador de Números Aleatorios es una herramienta online gratuita que genera un nuevo número a partir de 2 números elegidos. Introduce dos números que sean de tu preferencia y ¡observa la magia!",
+    "step1_name": "Define los Límites",
+    "step1_text": "Introduce el número mínimo y máximo (intervalo) para el sorteo.",
+    "step2_name": "Generar Número",
+    "step2_text": "Haz clic en el botón 'Generar' para obtener el número aleatorio sorteado dentro del intervalo definido.",
+    "breadcrumb_home": "Página Principal",
+    "breadcrumb_current": "Generador de Números Aleatorios Entre Dos Números"
+  },
+  "ui": {
+    "h1_main": "GENERAR NÚMERO ALEATORIO",
+    "label_min": "Valor mínimo",
+    "label_max": "Valor máximo",
+    "label_checkbox": "Solo números enteros",
+    "button_generate": "GENERAR NÚMERO",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Generador de Números Aleatorios",
+    "intro_text": "El Generador de Números Aleatorios es una herramienta online gratuita que genera un nuevo número a partir de 2 números elegidos. Introduce dos números que sean de tu preferencia y ¡observa la magia!",
+    "usage_title": "Cómo usar el Generador de Números Aleatorios",
+    "usage_instruction": "Solo tienes que introducir en los dos campos arriba valores para obtener el resultado:",
+    "list_item_integers": "Enteros: [min, max]",
+    "list_item_decimals": "Decimales: [min, max)",
+    "usage_checkbox_info": "Si marcas la selección descrita como \"Solo números enteros\", obtendrás valores sin punto flotante (decimales), si lo desmarcas, podrás obtener valores con hasta dos decimales.",
+    "why_use_title": "¿Por qué usar nuestro Generador de Números Aleatorios?",
+    "why_use_text": "Programado para ser simple y eficiente, conseguirás en el menor tiempo posible un resultado entre 2 números deseados.",
+    "footer_text": "¡Genera números aleatorios entre dos números!"
+  }
+}

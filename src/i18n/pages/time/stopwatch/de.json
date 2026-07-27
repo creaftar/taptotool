@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Online-Stoppuhr - Tap to Tool",
+    "description": "Nutzen Sie die Online-Stoppuhr von Tap to Tool für präzise Zeitmessung. Ideal für Sport, Studium und Geschwindigkeitstests. Runden speichern und jederzeit neu starten.",
+    "keywords": "Online-Stoppuhr, Stoppuhr digital, Zeitmessung, Lap-Timer, Präzisionsstoppuhr, Rundenzeit messen"
+  },
+  "schema": {
+    "app_name": "Online-Stoppuhr",
+    "app_description": "Digitale Online-Stoppuhr mit Millisekundengenauigkeit. Messen Sie die verstrichene Zeit, speichern Sie Rundenzeiten und setzen Sie die Zählung jederzeit fort.",
+    "howto_name": "So verwenden Sie die Online-Stoppuhr",
+    "howto_description": "Die Online-Stoppuhr ist ein kostenloses und präzises Werkzeug zur Zeitmessung.",
+    "step1_name": "Start und Pause",
+    "step1_text": "Klicken Sie auf das Play/Pause-Symbol (▶/⏸), um die Zeitzählung zu steuern.",
+    "step2_name": "Runde registrieren",
+    "step2_text": "Klicken Sie auf die Schaltfläche 'Runde', um Zwischenzeiten und die Gesamtzeit der aktuellen Runde zu speichern.",
+    "step3_name": "Zurücksetzen",
+    "step3_text": "Klicken Sie auf das Reset-Symbol (↺), um die Stoppuhr auf Null zu stellen und alle gespeicherten Runden zu löschen.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Online-Stoppuhr"
+  },
+  "ui": {
+    "h1": "Online-Stoppuhr mit Rundenzeiten",
+    "intro_text": "Die Online-Stoppuhr von Tap to Tool bietet Millisekundengenauigkeit für all Ihre Anforderungen. Perfekt für Fitness, Studium, Kochen und Leistungstests.",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "usage_title": "Bedienungsanleitung",
+    "usage_instructions": "Nutzen Sie einfach die Steuerungselemente:",
+    "control_play": "Play/Pause (▶/⏸): Startet und pausiert die Zeitzählung.",
+    "control_lap": "Runde (Lap): Registriert die Zwischenzeit und die Gesamtzeit der Runde in der Liste unten.",
+    "control_reset": "Zurücksetzen (↺): Setzt die Stoppuhr zurück und löscht den Rundenverlauf.",
+    "persistence_note": "Die verstrichene Zeit und Ihre Runden werden automatisch im Browser gespeichert. Sie können die Seite schließen und später genau dort weitermachen, wo Sie aufgehört haben.",
+    "purpose_title": "Wofür ist diese Stoppuhr geeignet?",
+    "purpose_text": "Ideal für Lauftraining, Lernzyklen (wie die Pomodoro-Technik), Kochzeiten oder jede Aktivität, die eine exakte Zeitmessung und Protokollierung von Intervallen (Runden) erfordert.",
+    "footer_share_text": "Meistern Sie Ihr Zeitmanagement mit der präzisen Online-Stoppuhr von Tap to Tool!"
+  }
+}

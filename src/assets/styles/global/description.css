@@ -1,0 +1,17 @@
+h1, h2{
+    font-size: 1.3em;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+h1{
+    font-size: 1.5em;
+}
+
+#description-area p, #description-area ol, #description-area ul{
+    padding: 9px;
+    text-align: justify;
+    list-style-position: inside;
+}

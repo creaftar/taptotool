@@ -1,0 +1,60 @@
+{
+  "carousel_section": {
+    "header": {
+      "main_title": "EXPLORE NEW TOOLS"
+    },
+    "cards": {
+      "alarm": {
+        "title": "ONLINE ALARM CLOCK",
+        "alt_text": "Alarm clock page image"
+      },
+      "char_counter": {
+        "title": "CHARACTER COUNTER",
+        "alt_text": "Character counter page image"
+      },
+      "stopwatch": {
+        "title": "ONLINE STOPWATCH",
+        "alt_text": "Stopwatch page image"
+      },
+      "random_number": {
+        "title": "RANDOM NUMBER GENERATOR",
+        "alt_text": "Random number generator page image"
+      },
+      "alphabetical_order": {
+        "title": "ALPHABETICAL SORT",
+        "alt_text": "Alphabetical order page image"
+      }
+    }
+  },
+  "newsletter_section": {
+    "title": "STAY UPDATED!",
+    "tooltip": "We'll send updates to your email so you never miss a thing from Tap to Tool!",
+    "input_placeholder": "user.example@email.com",
+    "button_text": "Subscribe"
+  },
+  "updates_section": {
+    "labels": {
+      "new": "NEW!",
+      "ad": "AD"
+    },
+    "items": {
+      "text_inverter": {
+        "title": "Text Inverter",
+        "description": "Reverse your text with our new tool!"
+      },
+      "tool_kit": {
+        "title": "Tool Kit",
+        "description": "Select a kit with multiple tools at once!"
+      },
+      "alarm_clock": {
+        "title": "Online Alarm Clock",
+        "description": "Set multiple alarms in one place!"
+      },
+      "creaftar_ad": {
+        "title": "Creaftar",
+        "description": "Play or create crosswords online!",
+        "alt_text": "Creaftar advertisement page image"
+      }
+    }
+  }
+}

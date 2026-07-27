@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Pengubah Kapitalisasi Teks Online - Tap to Tool",
+    "description": "Ubah format teks Anda secara instan menjadi huruf kecil, huruf besar, huruf kapital di awal kalimat, atau gaya troll. Cepat dan mudah dengan Tap to Tool.",
+    "keywords": "pengubah teks, ubah huruf kecil, ubah huruf besar, kapitalisasi teks, ganti format teks, pengubah casing teks"
+  },
+  "schema": {
+    "app_name": "Pengubah Kapitalisasi Teks Online",
+    "app_description": "Ubah format teks Anda secara instan menjadi huruf kecil, huruf besar, huruf kapital di awal kalimat, atau gaya troll. Cepat dan mudah dengan Tap to Tool.",
+    "howto_name": "Cara Menggunakan Pengubah Kapitalisasi Teks",
+    "howto_description": "Pengubah Teks adalah alat online gratis yang memungkinkan Anda mengubah format teks apa pun yang Anda ketik atau tempel.",
+    "step1_name": "Masukkan Teks",
+    "step1_text": "Salin dan tempel atau ketik teks di area input alat.",
+    "step2_name": "Pilih Format",
+    "step2_text": "Klik pada ikon yang mewakili format teks yang diinginkan (Huruf Kecil, Huruf Besar, Awal Kalimat, atau Gaya Troll).",
+    "step3_name": "Salin Hasil",
+    "step3_text": "Salin hasil teks yang telah diubah dari kolom hasil di sampingnya.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Pengubah Teks"
+  },
+  "ui": {
+    "h1_main": "PENGUBAH KAPITALISASI TEKS",
+    "placeholder_input": "Masukkan atau tempel teks Anda di sini...",
+    "paste_text": "Klik untuk menempelkan teks",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Gagal menempel. Gunakan Ctrl + V atau periksa izin clipboard browser Anda.",
+    "tooltip_copy": "Salin teks",
+    "tooltip_delete": "Hapus semua",
+    "tooltip_copy_results": "Salin hasil",
+    "price_currency": "IDR"
+  },
+  "content": {
+    "h1_seo": "Ubah Huruf Besar dan Kecil Secara Online",
+    "intro_text": "Alat tercepat dan termudah untuk mengatur format huruf teks Anda (huruf kecil atau besar).",
+    "usage_title": "Bagaimana Cara Menggunakan Pengubah Teks Online?",
+    "step_1": "Masukkan Teks: Tempelkan teks yang ingin Anda format pada area teks yang tersedia.",
+    "step_2": "Pilih Format: Klik pada ikon gaya yang Anda inginkan: ",
+    "type_lower_title": "Huruf Kecil (abcd)",
+    "type_lower_text": "Mengubah seluruh teks menjadi huruf kecil.",
+    "type_upper_title": "Huruf Besar (ABCD)",
+    "type_upper_text": "Mengubah seluruh teks menjadi huruf besar (kapital).",
+    "type_sentence_title": "Huruf Kapital di Awal Kalimat (Ab. C)",
+    "type_sentence_text": "Mengubah teks dengan huruf kapital hanya pada huruf pertama setiap kalimat.",
+    "type_troll_title": "Gaya Troll (AbCd)",
+    "type_troll_text": "Mengubah teks dengan huruf besar dan kecil yang berselang-seling secara otomatis.",
+    "step_3": "Salin Hasil: Teks yang diformat akan muncul secara instan di kolom sebelah untuk Anda salin.",
+    "benefits_title": "Apa Manfaat Menggunakan Pengubah Teks?",
+    "benefits_intro": "Alat pengubah teks sangat berguna untuk:",
+    "benefit_1_title": "Standardisasi Cepat",
+    "benefit_1_text": "Memastikan seluruh dokumen mengikuti format yang diperlukan (misalnya: judul kapital atau konten huruf kecil).",
+    "benefit_2_title": "Koreksi Kesalahan",
+    "benefit_2_text": "Memperbaiki teks yang tidak sengaja diketik dengan tombol 'Caps Lock' aktif atau tanpa huruf kapital di awal kalimat.",
+    "benefit_3_title": "Pemasaran dan Media Sosial",
+    "benefit_3_text": "Membuat judul yang menarik perhatian (dengan huruf besar) atau postingan dengan gaya unik (Gaya Troll) untuk meningkatkan interaksi.",
+    "benefit_4_title": "Optimasi Konten",
+    "benefit_4_text": "Mengatur blok teks untuk meningkatkan keterbacaan dan kerapian visual.",
+    "footer_text": "Standarisasi tulisan Anda dan hemat waktu pengeditan dengan Tap to Tool!"
+  },
+  "dynamic": {
+    "standard_phrase": "Halo, selamat datang. Masukkan teks Anda di sini...",
+    "result_phrase": "Halo, selamat datang. Masukkan teks Anda di sini..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "aBcD"
+  }
+}

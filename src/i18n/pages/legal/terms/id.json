@@ -1,0 +1,50 @@
+{
+  "legal": {
+    "terms": {
+      "seo": {
+        "title": "Ketentuan Penggunaan - Tap to Tool",
+        "description": "Baca ketentuan layanan Tap to Tool. Pahami kebebasan komersial dan tanggung jawab Anda saat menggunakan alat online kami.",
+        "keywords": "ketentuan penggunaan, lisensi komersial, privasi, keamanan, utilitas online"
+      },
+      "title": "Ketentuan Penggunaan",
+      "intro": "Dengan mengakses situs Tap to Tool, Anda setuju untuk terikat oleh ketentuan layanan ini, semua hukum dan peraturan yang berlaku, dan setuju bahwa Anda bertanggung jawab untuk mematuhi setiap hukum lokal yang berlaku.",
+      "sections": {
+        "one": {
+          "title": "1. Lisensi Penggunaan dan Kebebasan Komersial",
+          "content": "Berbeda dengan platform yang membatasi, Tap to Tool mendorong produktivitas dan penggunaan profesional dari utilitasnya:",
+          "items": [
+            "Anda diizinkan untuk menggunakan hasil yang dihasilkan oleh alat kami (kode terformat, teks, generator, dll.) untuk tujuan pribadi dan komersial.",
+            "Kami tidak memerlukan pembayaran royalti, atribusi wajib, atau kredit atas konten yang Anda produksi menggunakan alat kami."
+          ]
+        },
+        "two": {
+          "title": "2. Batasan Kepemilikan",
+          "content": "Meskipun hasil yang Anda buat adalah milik Anda, platform dan infrastrukturnya adalah milik kami. Berdasarkan lisensi ini, Anda tidak boleh:",
+          "items": [
+            "Memodifikasi atau menyalin kode sumber, desain antarmuka, atau arsitektur Tap to Tool;",
+            "Mencoba mendekompilasi atau merekayasa balik perangkat lunak apa pun yang terkandung di situs web;",
+            "Menghapus hak cipta atau notasi kepemilikan lainnya dari materi;",
+            "\"Mencerminkan\" situs web di server lain atau mencoba mereplikasi merek Tap to Tool dengan cara yang menyesatkan."
+          ]
+        },
+        "three": {
+          "title": "3. Penafian Tanggung Jawab",
+          "content": "Materi di situs web Tap to Tool disediakan \"sebagaimana adanya\".",
+          "items": [
+            "Kami tidak menjamin bahwa utilitas bebas 100% dari kesalahan teknis, ejaan, atau fotografi.",
+            "Tap to Tool tidak bertanggung jawab atas kehilangan data, kehilangan keuntungan, atau gangguan bisnis yang timbul dari penggunaan atau ketidakmampuan menggunakan alat-alat tersebut. Verifikasi akhir dari hasil yang dihasilkan adalah tanggung jawab penuh pengguna."
+          ]
+        },
+        "four": {
+          "title": "4. Tautan",
+          "content": "Tap to Tool belum meninjau semua situs yang tertaut ke situsnya dan tidak bertanggung jawab atas konten situs yang tertaut. Penyertaan tautan apa pun tidak menyiratkan dukungan dari pihak kami. Penggunaan situs tertaut apa pun adalah risiko pengguna sendiri."
+        },
+        "five": {
+          "title": "5. Modifikasi",
+          "content": "Kami dapat merevisi ketentuan layanan ini kapan saja tanpa pemberitahuan sebelumnya, untuk mencerminkan peningkatan dalam layanan kami. Dengan terus menggunakan situs ini, Anda setuju untuk terikat oleh versi saat ini dari ketentuan ini."
+        }
+      },
+      "footer": "Ketentuan ini berlaku mulai 20 Februari 2026."
+    }
+  }
+}

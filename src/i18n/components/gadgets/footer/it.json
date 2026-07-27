@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "tagline": "Strumenti semplici per grandi idee.",
+    "description_p1": "<strong>Tap to Tool</strong> è il coltellino svizzero digitale per chi cerca produttività. Sviluppato per essere leggero, gratuito e accessibile ovunque nel mondo.",
+    "description_p2": "Funzionando come un centro di utilità progettato per offrire precisione e velocità, i nostri strumenti sono costruiti con un focus su privacy, performance e accessibilità, garantendoti ciò di cui hai bisogno, quando ne hai bisogno, senza complicazioni.",
+    "links": {
+      "about": "Chi siamo",
+      "contact": "Contatti",
+      "privacy": "Privacy",
+      "terms": "Termini"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - Tutti i diritti riservati.",
+    "alt_tap_to_tool": "Logo di Tap to Tool",
+    "alt_creaftar": "Logo di Creaftar"
+  }
+}

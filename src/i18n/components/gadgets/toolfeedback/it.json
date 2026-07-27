@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "Feedback sulla Fornitura di Strumenti",
+    "email_placeholder": "esempio@gmail.com (opzionale)",
+    "textarea_placeholder": "Inserisci il tuo feedback qui",
+    "send_button": "INVIA",
+    "copy_button": "COPPIA"
+  },
+  "dynamic":{
+    "success_message": "Il tuo feedback è stato inviato con successo!",
+    "error_message": "È avvenuto un errore nell'invio del tuo feedback, riprova più tardi.",
+    "COPIED": "COPIATO!"
+  }
+}

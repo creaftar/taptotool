@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Cronómetro en Línea - Tap to Tool",
+    "description": "Usa el Cronómetro en Línea de Tap to Tool para medir el tiempo con precisión. Perfecto para ejercicios, estudios y pruebas de velocidad. Guarda vueltas y reinicia en cualquier momento.",
+    "keywords": "cronómetro en línea, stopwatch, medir tiempo, temporizador, contador de tiempo, cronómetro con vueltas"
+  },
+  "schema": {
+    "app_name": "Cronómetro en Línea",
+    "app_description": "Cronómetro digital en línea con precisión de milisegundos para medir el tiempo transcurrido. Guarda vueltas, pausa y reinicia.",
+    "howto_name": "Cómo usar el cronómetro en línea",
+    "howto_description": "El cronómetro en línea es una herramienta gratuita y precisa para la medición del tiempo.",
+    "step1_name": "Iniciar y Pausar",
+    "step1_text": "Haz clic en el icono de Play/Pause (▶/⏸) para controlar el conteo.",
+    "step2_name": "Registrar Vuelta",
+    "step2_text": "Haz clic en el botón Lap/Vuelta para registrar el tiempo parcial y el tiempo total de la vuelta.",
+    "step3_name": "Restablecer",
+    "step3_text": "Haz clic en el botón de Reset (↺) para poner a cero el cronómetro y borrar todas las vueltas registradas.",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Cronómetro en Línea"
+  },
+  "ui": {
+    "h1": "Cronómetro en Línea con Vueltas",
+    "intro_text": "El Cronómetro en Línea de Tap to Tool ofrece precisión de milisegundos para todas tus necesidades de medición de tiempo. Perfecto para deportes, estudios, cocina y pruebas de velocidad.",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "usage_title": "Cómo usar el cronómetro en línea",
+    "usage_instructions": "Solo tienes que utilizar los botones de control:",
+    "control_play": "Play/Pause (▶/⏸): Inicia y pausa el conteo.",
+    "control_lap": "Vuelta (Lap): registra el tiempo parcial y el tiempo total de la vuelta en la lista de abajo.",
+    "control_reset": "Reset (↺): Reinicia el cronómetro, limpia la pantalla y el historial de vueltas.",
+    "persistence_note": "El tiempo transcurrido y las vueltas se guardan automáticamente en tu navegador, permitiéndote cerrar la página y continuar desde donde lo dejaste.",
+    "purpose_title": "¿Para qué sirve este cronómetro?",
+    "purpose_text": "Ideal para monitorear entrenamientos, ciclos de estudio (como la técnica Pomodoro), tiempos de cocción o cualquier actividad que requiera una medición precisa con registro de tiempos parciales (vueltas).",
+    "footer_share_text": "¡Gestiona tu tiempo con precisión con el Cronómetro en Línea de Tap to Tool!"
+  }
+}

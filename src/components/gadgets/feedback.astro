@@ -1,0 +1,105 @@
+---
+import "@/assets/styles/addons/gadget.css"
+
+// 1. Imports dos JSONs (ajuste os caminhos conforme sua estrutura)
+import pt from "@/i18n/components/gadgets/toolfeedback/pt.json";
+import en from "@/i18n/components/gadgets/toolfeedback/en.json";
+import es from "@/i18n/components/gadgets/toolfeedback/es.json";
+import fr from "@/i18n/components/gadgets/toolfeedback/fr.json";
+import it from "@/i18n/components/gadgets/toolfeedback/it.json";
+import de from "@/i18n/components/gadgets/toolfeedback/de.json";
+import ru from "@/i18n/components/gadgets/toolfeedback/ru.json";
+import id from "@/i18n/components/gadgets/toolfeedback/id.json";
+import hi from "@/i18n/components/gadgets/toolfeedback/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+// 2. Recebe a prop 'lang' do pai (ToolLayout)
+const { lang = 'en' } = Astro.props;
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const currentUrl = Astro.url.href;
+const encodedUrl = encodeURIComponent(currentUrl);
+---
+
+<div id="gadget-positioner" data-i18n={JSON.stringify(d.dynamic)}>
+    <div id="container-gadget-container">
+        <div id="gadget-container">
+            <div id="like" class="icon-gadget">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div id="deslike" class="icon-gadget">
+                <i class="fa-regular fa-thumbs-down"></i>
+            </div>
+
+            <div id="commentary" class="icon-gadget">
+                <div id="iconCommentary">
+                    <i class="fa-regular fa-message"></i>
+                </div>
+                <div id="container-userComment">
+                    <form id="formCommment">
+                        <p id="tituloComment">{d.gadget.feedback_title}</p>
+                        
+                        <input 
+                            id="emailComment" 
+                            type="email" 
+                            placeholder={d.gadget.email_placeholder} 
+                            autocomplete="off"
+                        >
+                        
+                        <textarea 
+                            placeholder={d.gadget.textarea_placeholder} 
+                            id="commentArea"
+                        ></textarea>
+                        
+                        <button id="sendComment">{d.gadget.send_button}</button>
+                    </form>
+
+                    <div id="containerFeedbackComment">
+                        <div id="iconFeedback">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <p id="msgFeedback">{d.dynamic.success_message}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="share" class="icon-gadget">
+                <i class="fa-solid fa-share"></i>
+                <div id="containerShare">
+                    <div id="copy-link">
+                        <input type="text" value={currentUrl} readonly id="shareLink">
+                        <button id="btnCopy">{d.gadget.copy_button}</button>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href={`https://wa.me/?text=${encodedUrl}`} target="_blank" id="wpp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        
+                        <a href={`https://twitter.com/intent/tweet?url=${encodedUrl}`} target="_blank" id="ttr">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href={`https://t.me/share/url?url=${encodedUrl}`} target="_blank" id="tel">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+
+                        <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" id="fbk">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`} target="_blank" id="ldn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    import '@/assets/scripts/utility/gadgets/feedback/import.js';
+</script>

@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Online-Timer - Tap to Tool",
+    "description": "Verwenden Sie den Online-Timer von Tap to Tool, um mehrere Countdowns zu erstellen. Ideal für Produktivität, Training und Kochen. Ihre Einstellungen werden automatisch gespeichert.",
+    "keywords": "online timer, timer online, countdown, zeitablauf, mehrere timer, timer fürs studium",
+    "canonical": "https://taptotool.com/timer"
+  },
+  "schema": {
+    "app_name": "Online-Timer Tap to Tool",
+    "app_description": "Erstellen Sie online mehrere Countdown-Timer mit automatischer Speicherung und Personalisierung.",
+    "howto_name": "So verwenden Sie den Online-Timer",
+    "howto_description": "Der Online-Timer ist ein kostenloses und präzises Werkzeug zur Zeitmessung.",
+    "step1_name": "Starten und Pausieren",
+    "step1_text": "Klicken Sie auf das Play/Pause-Symbol (▶/⏸), um die Zeit anzuhalten oder fortzusetzen.",
+    "step2_name": "Runde registrieren",
+    "step2_text": "Klicken Sie auf die Schaltfläche Runde/Lap, damit Ihr Timer 5 Mal hintereinander klingelt (oder nicht).",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Online-Timer"
+  },
+  "ui": {
+    "h1": "Online-Countdown-Timer",
+    "intro_text": "Der Online-Timer von Tap to Tool ermöglicht die gleichzeitige Verwaltung mehrerer Countdowns – ideal für alle, die Präzision und Organisation benötigen.",
+    "new_timer_button": "+ Neuer Timer",
+    "current_time_label": "Aktuelle Uhrzeit",
+    "placeholder_timer_name": "Timer-Name (z. B. Fokus, Kochen)",
+    "unit_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Timer-Funktionen",
+    "feature_1_title": "Mehrere Timer",
+    "feature_1_text": "Starten Sie mehrere Zeitläufe gleichzeitig für verschiedene Aufgaben.",
+    "feature_2_title": "Personalisierung",
+    "feature_2_text": "Benennen Sie jeden Timer, um seine Funktion schnell zu identifizieren.",
+    "feature_3_title": "Organisation",
+    "feature_3_text": "Ziehen Sie die Karten, um die Countdowns zu priorisieren, die zuerst ablaufen.",
+    "feature_4_title": "Speicher",
+    "feature_4_text": "Die konfigurierten Timer werden in Ihrem Browser für die dauerhafte Nutzung gespeichert.",
+    "usage_title": "Bedienungsanleitung",
+    "usage_step_1": "1. Klicken Sie auf '+ Neuer Timer', um einen neuen Zähler zu Ihrer Liste hinzuzufügen.",
+    "usage_step_2": "2. Stellen Sie die gewünschte Zeit (Stunden, Minuten und Sekunden) in den Zahlenfeldern ein.",
+    "usage_step_3": "3. Klicken Sie auf den Titel der Karte, um sie umzubenennen.",
+    "usage_step_4": "4. Starten Sie den Countdown und verschieben Sie die Karten, um Ihre Ansicht zu organisieren.",
+    "footer_share_text": "Benötigen Sie mehrere Timer? Entdecken Sie den Timer von Tap to Tool!"
+  },
+  "dynamic": {
+    "default_timer_name": "Unbenannter Timer",
+    "choose_audio": "Ton wählen"
+  }
+}

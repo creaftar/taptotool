@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Random Number Generator Between Two Numbers - Tap to Tool",
+    "description": "Need to draw numbers? Use the Tap to Tool Online Random Number Generator. Define a minimum and maximum number and get an instant, fair result. Free tool for games, raffles, and lotteries.",
+    "keywords": "random number generator, generate random numbers online, generate numbers between, random numbers, number generator between 2, raffle, lottery, number picker"
+  },
+  "schema": {
+    "app_name": "Random Number Generator Between Two Numbers",
+    "app_description": "Need to draw numbers? Use the Tap to Tool Online Random Number Generator. Define a minimum and maximum number and get an instant, fair result. Free tool for games, raffles, and lotteries.",
+    "howto_name": "How to Use the Online Number Generator",
+    "howto_description": "The Random Number Generator is a free online tool that generates a new number from 2 chosen numbers. Enter two numbers of your preference and see the magic happen!",
+    "step1_name": "Set Limits",
+    "step1_text": "Enter the minimum and maximum (range) number for the draw.",
+    "step2_name": "Generate Number",
+    "step2_text": "Click the 'Generate' button to get the randomly generated number within the defined range.",
+    "breadcrumb_home": "Home Page",
+    "breadcrumb_current": "Random Number Generator Between Two Numbers"
+  },
+  "ui": {
+    "h1_main": "GENERATE RANDOM NUMBER",
+    "label_min": "Minimum Value",
+    "label_max": "Maximum Value",
+    "label_checkbox": "Integers Only",
+    "button_generate": "GENERATE NUMBER",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "USD"
+  },
+  "content": {
+    "h1_seo": "Random Number Generator",
+    "intro_text": "The Random Number Generator is a free online tool that generates a new number from 2 chosen numbers. Enter two numbers of your preference and see the magic happen!",
+    "usage_title": "How to Use the Random Number Generator",
+    "usage_instruction": "Simply enter values in the two fields above to get the result:",
+    "list_item_integers": "Integers: [min, max]",
+    "list_item_decimals": "Decimals: [min, max)",
+    "usage_checkbox_info": "If you check \"Integers Only\", you will receive whole numbers (no decimals). If unchecked, you can get values with up to two decimal places.",
+    "why_use_title": "Why Use Our Random Number Generator",
+    "why_use_text": "Programmed for simplicity and efficiency, you'll be able to obtain a result between two desired numbers in the shortest amount of time possible.",
+    "footer_text": "Generate random numbers between two numbers!"
+  }
+}

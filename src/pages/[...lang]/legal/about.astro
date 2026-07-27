@@ -1,0 +1,146 @@
+---
+import LegalLayout from "@/layout/LegalLayout.astro";
+import '@/assets/styles/pages/about/about.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+import pt from "@/i18n/pages/legal/about/pt.json";
+import en from "@/i18n/pages/legal/about/en.json";
+import es from "@/i18n/pages/legal/about/es.json";
+import fr from "@/i18n/pages/legal/about/fr.json";
+import it from "@/i18n/pages/legal/about/it.json";
+import de from "@/i18n/pages/legal/about/de.json";
+import ru from "@/i18n/pages/legal/about/ru.json";
+import id from "@/i18n/pages/legal/about/id.json";
+import hi from "@/i18n/pages/legal/about/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang: paramLang } = Astro.params;
+const lang = (paramLang === 'en' || !paramLang) ? 'en' : paramLang; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/legal/about`;
+---
+
+<LegalLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+>
+
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "description": d.seo.description,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": "https://taptotool.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema.breadcrumb_current,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/engrenagensPNG.svg",
+        "width": "512",
+        "height": "512"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "taptotool@gmail.com",
+        "contactType": "customer support"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+
+<article class="legal-content">
+  <h1>{d.content.title}</h1>
+  
+  <p>
+    <strong>{d.content.subtitle}</strong>
+  </p>
+
+  <p>{d.content.description_p1}</p>
+
+  <p>{d.content.description_p2}</p>
+
+  <h2>{d.content.principles_title}</h2>
+  <ul>
+    {d.content.principles.map((principle) => (
+      <li>
+        <strong>{principle.label}:</strong> {principle.text}
+      </li>
+    ))}
+  </ul>
+
+  <p>{d.content.footer_text}</p>
+
+  <hr />
+
+  <h2>{d.content.contact_title}</h2>
+  <p>
+    {d.content.contact_text}
+    <br />
+    <a href="mailto:taptotool@gmail.com" id="contactMail">taptotool@gmail.com</a>
+  </p>
+</article>
+  
+</LegalLayout>

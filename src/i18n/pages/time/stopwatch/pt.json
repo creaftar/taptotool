@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Cronômetro Online - Tap to Tool",
+    "description": "Use o Cronômetro Online da Tap to Tool para medir tempo com precisão. Perfeito para exercícios, estudos e testes de velocidade. Salva voltas e reinicia a qualquer momento.",
+    "keywords": "cronômetro online, stopwatch, medir tempo, temporizador, contador de tempo, cronômetro com voltas"
+  },
+  "schema": {
+    "app_name": "Cronômetro Online",
+    "app_description": "Cronômetro digital online com precisão de milissegundos para medir o tempo decorrido. Salve voltas, pause e reinicie.",
+    "howto_name": "Como Usar o Cronômetro Online",
+    "howto_description": "O Cronômetro Online é uma ferramenta gratuita e precisa para medição de tempo.",
+    "step1_name": "Iniciar e Pausar",
+    "step1_text": "Clique no ícone de Play/Pause (▶/⏸) para controlar a contagem.",
+    "step2_name": "Registrar Volta",
+    "step2_text": "Clique no botão Lap/Volta para registrar o tempo parcial e o tempo total da volta.",
+    "step3_name": "Zerar",
+    "step3_text": "Clique no botão de Reset (↺) para zerar o cronômetro e limpar todas as voltas registradas.",
+    "breadcrumb_home": "Página Inicial",
+    "breadcrumb_current": "Cronômetro Online"
+  },
+  "ui": {
+    "h1": "Cronômetro Online com Voltas",
+    "intro_text": "O Cronômetro Online da Tap to Tool oferece precisão de milissegundos para todas as suas necessidades de medição de tempo. Perfeito para exercícios, estudos, culinária e testes de velocidade.",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "usage_title": "Como usar o Cronômetro Online",
+    "usage_instructions": "Basta utilizar os botões de controle:",
+    "control_play": "Play/Pause (▶/⏸): Inicia e pausa a contagem.",
+    "control_lap": "Volta (Lap): registra o tempo parcial (volta) e o tempo total da volta na lista abaixo.",
+    "control_reset": "Reset (↺): Zera o cronômetro, limpa a tela e o histórico de voltas.",
+    "persistence_note": "O tempo decorrido e as voltas são automaticamente salvos no seu navegador, permitindo que você feche a página e continue de onde parou.",
+    "purpose_title": "Para que serve este Cronômetro?",
+    "purpose_text": "Ideal para monitorar treinos de corrida, ciclos de estudo (como a técnica Pomodoro), tempo de cozimento ou qualquer atividade que exija medição de tempo precisa e registro de marcos parciais (voltas).",
+    "footer_share_text": "Gerencie seu tempo de forma precisa com o Cronômetro Online da Tap to Tool!"
+  }
+}

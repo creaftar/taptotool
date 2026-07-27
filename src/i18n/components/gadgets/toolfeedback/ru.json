@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "Отзыв об инструменте",
+    "email_placeholder": "example@gmail.com (необязательно)",
+    "textarea_placeholder": "Оставьте ваш отзыв здесь",
+    "send_button": "ОТПРАВИТЬ",
+    "copy_button": "КОПИРОВАТЬ"
+  },
+  "dynamic":{
+    "success_message": "Ваш отзыв успешно отправлен!",
+    "error_message": "Произошла ошибка при отправке отзыва, попробуйте позже.",
+    "COPIED": "СКОПИРОВАНО!"
+  }
+}

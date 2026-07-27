@@ -1,0 +1,60 @@
+{
+  "carousel_section": {
+    "header": {
+      "main_title": "EXPLORAR NOVAS FERRAMENTAS"
+    },
+    "cards": {
+      "alarm": {
+        "title": "DESPERTADOR ONLINE",
+        "alt_text": "Imagem da página de despertador"
+      },
+      "char_counter": {
+        "title": "CONTADOR DE CARACTERES",
+        "alt_text": "Imagem da página de contador de caracteres"
+      },
+      "stopwatch": {
+        "title": "CRONÔMETRO ONLINE",
+        "alt_text": "Imagem da página de cronômetro"
+      },
+      "random_number": {
+        "title": "GERADOR DE NÚMEROS ALEATÓRIOS",
+        "alt_text": "Imagem da página do gerador de números"
+      },
+      "alphabetical_order": {
+        "title": "ORDEM ALFABÉTICA",
+        "alt_text": "Imagem da página de ordem alfabética"
+      }
+    }
+  },
+  "newsletter_section": {
+    "title": "FIQUE POR DENTRO DAS NOVIDADES!",
+    "tooltip": "Enviaremos mensagens para o e-mail cadastrado, deixando você por dentro de todas as novidades do Tap to Tool!",
+    "input_placeholder": "usuario.exemplo@email.com",
+    "button_text": "Cadastrar"
+  },
+  "updates_section": {
+    "labels": {
+      "new": "NOVO!",
+      "ad": "ANÚNCIO"
+    },
+    "items": {
+      "text_inverter": {
+        "title": "Inversor de Texto",
+        "description": "Inverta seu texto com nossa nova ferramenta!"
+      },
+      "tool_kit": {
+        "title": "Kit de Ferramentas",
+        "description": "Agora é possível selecionar um kit com diversas ferramentas!"
+      },
+      "alarm_clock": {
+        "title": "Despertador Online",
+        "description": "Crie vários despertadores em um só lugar!"
+      },
+      "creaftar_ad": {
+        "title": "Creaftar",
+        "description": "Jogue ou crie cruzadinhas online!",
+        "alt_text": "Imagem da página de anúncio do Creaftar"
+      }
+    }
+  }
+}

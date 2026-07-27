@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Convertitore di Maiuscole e Minuscole - Tap to Tool",
+    "description": "Converti il tuo testo in maiuscolo o minuscolo, prima lettera della frase in maiuscolo o stile TROLL. Veloce e facile con Tap to Tool.",
+    "keywords": "convertitore di maiuscole e minuscole, testo in maiuscolo, testo in minuscolo, convertire il testo, cambiare testo, capitalizzare testo"
+  },
+  "schema": {
+    "app_name": "Convertitore di Maiuscole e Minuscole Online",
+    "app_description": "Converti il tuo testo in maiuscolo o minuscolo, prima lettera della frase in maiuscolo o stile TROLL. Veloce e facile con Tap to Tool.",
+    "howto_name": "Come usare il Convertitore di Maiuscole e Minuscole Online",
+    "howto_description": "Il convertitore di testo è uno strumento online gratuito che permette di convertire il formato del testo scritto o copiato.",
+    "step1_name": "Inserisci il Testo",
+    "step1_text": "Copia e incolla o digita il testo nell'area di input dello strumento.",
+    "step2_name": "Seleziona il Formato",
+    "step2_text": "Clicca sull'icona che rappresenta lo stile di testo desiderato (Minuscolo, Maiuscolo, Prima Lettera, TROLL).",
+    "step3_name": "Copia il Risultato",
+    "step3_text": "Copia il risultato del tuo testo convertito nel campo accanto.",
+    "breadcrumb_home": "Homepage",
+    "breadcrumb_current": "Convertitore di Maiuscole e Minuscole"
+  },
+  "ui": {
+    "h1_main": "CONVERTITORE DI MAIUSCOLE E MINUSCOLE",
+    "placeholder_input": "Inserisci o incolla il testo che desideri convertire...",
+    "paste_text": "Clicca per incollare il tuo testo",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Prova a incollare con CTRL + V o verifica se è permesso l'accesso agli appunti",
+    "tooltip_copy": "Copia il testo",
+    "tooltip_delete": "Cancella testo",
+    "tooltip_copy_results": "Copia il risultato",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Convertitore di Maiuscole e Minuscole Online",
+    "intro_text": "Lo strumento più veloce e semplice per formattare il registro (maiuscolo e minuscolo) del tuo testo.",
+    "usage_title": "Come usare il Convertitore di Maiuscole e Minuscole?",
+    "step_1": "Inserisci il Testo: Copia e incolla o digita il testo che desideri formattare nell'area di testo designata.",
+    "step_2": "Seleziona la Formattazione: Clicca sull'icona corrispondente allo stile desiderato:",
+    "type_lower_title": "Minuscolo (abcd)",
+    "type_lower_text": "Converte tutto il testo in minuscolo.",
+    "type_upper_title": "Maiuscolo (ABCD)",
+    "type_upper_text": "Converte tutto il testo in maiuscolo.",
+    "type_sentence_title": "Prima Lettera della Frase in Maiuscolo (Ab. C)",
+    "type_sentence_text": "Converte il testo con la prima lettera di ogni frase in maiuscolo.",
+    "type_troll_title": "Stile TROLL (AbCd)",
+    "type_troll_text": "Converte il testo alternando maiuscolo e minuscolo.",
+    "step_3": "Copia il Risultato: Il testo formattato viene visualizzato immediatamente nel campo accanto per poterlo copiare.",
+    "benefits_title": "Quali sono i vantaggi di un Convertitore di Testo?",
+    "benefits_intro": "Un convertitore di formato testo è estremamente utile per:",
+    "benefit_1_title": "Standardizzazione Rapida",
+    "benefit_1_text": "Garantire che un documento intero sia nel formato standard richiesto (es: titoli in maiuscolo o contenuto in minuscolo).",
+    "benefit_2_title": "Correzione di Errori",
+    "benefit_2_text": "Correggere rapidamente testi scritti accidentalmente con il tasto 'Caps Lock' attivato o senza maiuscole all'inizio delle frasi.",
+    "benefit_3_title": "Marketing e Social Media",
+    "benefit_3_text": "Attirare l'attenzione (con il maiuscolo) o creare post per un maggiore coinvolgimento.",
+    "benefit_4_title": "Ottimizzazione dei Contenuti",
+    "benefit_4_text": "Formattare blocchi di testo per migliorare la leggibilità e l'organizzazione visiva.",
+    "footer_text": "Standardizza la tua scrittura e risparmia tempo nella modifica con il Convertitore di Maiuscole e Minuscole!"
+  },
+  "dynamic": {
+    "standard_phrase": "Ciao, benvenuto(a). Inserisci il tuo testo qui...",
+    "result_phrase": "ciao, benvenuto(a). inserisci il tuo testo qui..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "aBcD"
+  }
+}

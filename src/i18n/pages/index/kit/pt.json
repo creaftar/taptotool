@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "ENCONTRE UM KIT DE FERRAMENTAS"
+    },
+    "text_kit": {
+      "title": "TEXTOS",
+      "alt_text": "Kit de ferramentas de texto"
+    },
+    "math_kit": {
+      "title": "MATEMÁTICA",
+      "alt_text": "Kit de ferramentas matemáticas"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Logo Creaftar",
+      "description": "O Creaftar é seu lugar para criar, editar e excluir cruzadinhas online. Desafie amigos e jogue as criações exclusivas da nossa comunidade.",
+      "button_text": "Acesse o Creaftar agora!"
+    }
+  }
+}

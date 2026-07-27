@@ -1,0 +1,50 @@
+{
+  "legal": {
+    "terms": {
+      "seo": {
+        "title": "Nutzungsbedingungen - Tap to Tool",
+        "description": "Lesen Sie die Nutzungsbedingungen von Tap to Tool. Verstehen Sie Ihre kommerziellen Freiheiten und Verantwortlichkeiten bei der Nutzung unserer Online-Tools.",
+        "keywords": "Nutzungsbedingungen, kommerzielle Lizenz, Datenschutz, Sicherheit, Online-Dienstprogramme"
+      },
+      "title": "Nutzungsbedingungen",
+      "intro": "Durch den Zugriff auf die Website von Tap to Tool erklären Sie sich mit diesen Nutzungsbedingungen, allen anwendbaren Gesetzen und Vorschriften einverstanden und bestätigen, dass Sie für die Einhaltung aller geltenden lokalen Gesetze verantwortlich sind.",
+      "sections": {
+        "one": {
+          "title": "1. Nutzungslizenz und kommerzielle Freiheit",
+          "content": "Im Gegensatz zu restriktiven Plattformen fördert Tap to Tool die Produktivität und den professionellen Einsatz seiner Dienstprogramme:",
+          "items": [
+            "Sie dürfen die mit unseren Tools generierten Ergebnisse (formatierte Codes, Texte, Generatoren usw.) für persönliche und kommerzielle Zwecke nutzen.",
+            "Wir verlangen keine Lizenzgebühren, obligatorischen Namensnennungen oder Credits für Inhalte, die Sie mit unseren Tools erstellen."
+          ]
+        },
+        "two": {
+          "title": "2. Eigentumsbeschränkungen",
+          "content": "Obwohl das von Ihnen generierte Ergebnis Ihnen gehört, sind die Plattform und ihre Infrastruktur unser Eigentum. Im Rahmen dieser Lizenz ist es Ihnen nicht gestattet:",
+          "items": [
+            "Den Quellcode, das Schnittstellendesign oder die Architektur von Tap to Tool zu modifizieren oder zu kopieren;",
+            "Zu versuchen, Software auf der Website zu dekompilieren oder Reverse Engineering zu betreiben;",
+            "Jegliche Urheberrechte oder andere Eigentumshinweise aus den Materialien zu entfernen;",
+            "Die Website auf einem anderen Server zu \"spiegeln\" oder die Marke Tap to Tool in irreführender Weise nachzubilden."
+          ]
+        },
+        "three": {
+          "title": "3. Haftungsausschluss",
+          "content": "Die Materialien auf der Website von Tap to Tool werden \"wie besehen\" bereitgestellt.",
+          "items": [
+            "Wir übernehmen keine Garantie dafür, dass die Dienstprogramme 100% frei von technischen, Rechtschreib- oder fotografischen Fehlern sind.",
+            "Tap to Tool haftet nicht für Datenverluste, entgangene Gewinne oder Betriebsunterbrechungen, die sich aus der Nutzung oder der Unfähigkeit zur Nutzung der Tools ergeben. Die abschließende Überprüfung des generierten Ergebnisses liegt in der alleinigen Verantwortung des Benutzers."
+          ]
+        },
+        "four": {
+          "title": "4. Links",
+          "content": "Tap to Tool hat nicht alle mit seiner Website verknüpften Websites überprüft und ist nicht verantwortlich für den Inhalt einer verknüpften Website. Die Aufnahme eines Links impliziert keine Billigung durch uns. Die Nutzung einer verknüpften Website erfolgt auf eigene Gefahr des Nutzers."
+        },
+        "five": {
+          "title": "5. Änderungen",
+          "content": "Wir können diese Nutzungsbedingungen jederzeit und ohne vorherige Ankündigung überarbeiten, um Verbesserungen unserer Dienste widerzuspiegeln. Durch die weitere Nutzung dieser Website erklären Sie sich damit einverstanden, an die aktuelle Version dieser Bedingungen gebunden zu sein."
+        }
+      },
+      "footer": "Diese Bedingungen treten ab dem 20. Februar 2026 in Kraft."
+    }
+  }
+}

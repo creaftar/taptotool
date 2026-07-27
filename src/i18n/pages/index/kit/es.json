@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "ENCUENTRE UN KIT DE HERRAMIENTAS"
+    },
+    "text_kit": {
+      "title": "TEXTOS",
+      "alt_text": "Kit de herramientas de texto"
+    },
+    "math_kit": {
+      "title": "MATEMÁTICAS",
+      "alt_text": "Kit de herramientas matemáticas"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Logo Creaftar",
+      "description": "Creaftar es su lugar para crear, editar y eliminar crucigramas en línea. Desafíe a amigos y juegue a las creaciones exclusivas de nuestra comunidad.",
+      "button_text": "¡Acceda a Creaftar ahora!"
+    }
+  }
+}

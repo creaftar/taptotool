@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "tagline": "Simple tools for great ideas.",
+    "description_p1": "<strong>Tap to Tool</strong> is the digital Swiss Army knife for those seeking productivity. Developed to be lightweight, free, and accessible anywhere in the world.",
+    "description_p2": "Operating as a utility hub designed to offer precision and speed, our tools are built with a focus on privacy, performance, and accessibility, ensuring you have what you need, when you need it, without complications.",
+    "links": {
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - All rights reserved.",
+    "alt_tap_to_tool": "Tap to Tool Logo",
+    "alt_creaftar": "Creaftar Logo"
+  }
+}

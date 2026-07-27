@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Contador de Caracteres Online - Tap to Tool",
+    "description": "Herramienta online simple y rápida para contar letras, caracteres, palabras, líneas y párrafos de cualquier texto.",
+    "keywords": "contador de letras, contador de palabras, contador de frases, contador de párrafos, contador de líneas, contador de caracteres sin espacios, contador de caracteres online, contador de palabras y caracteres"
+  },
+  "schema": {
+    "app_name": "Contador de Caracteres, Palabras y Líneas Online",
+    "app_description": "Herramienta online simple y rápida para contar letras, caracteres, palabras, líneas y párrafos de cualquier texto, con o sin espacios.",
+    "howto_name": "Cómo Usar el Contador de Caracteres Online",
+    "howto_description": "Guía rápida para empezar a contar tu texto en tiempo real.",
+    "step1_name": "Copiar y Pegar",
+    "step1_text": "Pega el texto deseado en el campo principal de la herramienta.",
+    "step2_name": "Análisis Instantáneo",
+    "step2_text": "Los resultados (caracteres, palabras, frases, líneas) se calculan y muestran automáticamente en tiempo real.",
+    "breadcrumb_home": "Página Principal",
+    "breadcrumb_current": "Contador de Caracteres"
+  },
+  "ui": {
+    "h1_main": "CONTADOR DE CARACTERES",
+    "placeholder_input": "Escribe o pega tu texto aquí...",
+    "paste_text": "Haz clic para pegar tu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Intenta pegar con CTRL + V o verifica si se permite que veamos tu área de transferencia",
+    "tooltip_copy": "Copiar el texto",
+    "tooltip_delete": "Borrar texto",
+    "tooltip_copy_results": "Copiar los resultados",
+    "res_chars_no_spaces": "Caracteres sin espacios",
+    "res_chars": "Caracteres",
+    "res_words": "Palabras",
+    "res_sentences": "Frases",
+    "res_lines": "Líneas",
+    "res_paragraphs": "Párrafos",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Contador de Caracteres",
+    "intro_text": "El contador de caracteres es una herramienta que trabaja a partir de un texto escrito, calculando la cantidad de palabras, caracteres, frases, líneas y párrafos. Con un diseño simple, fácil y muy común, solo necesitas escribir o pegar tu texto en el campo arriba y listo, ¡verás el resultado al lado!",
+    "usage_title": "Cómo usar el contador de caracteres",
+    "step_1": "Escribe o pega un texto copiado en el área destacada arriba;",
+    "step_2": "Mira el resultado a la derecha del campo.",
+    "why_use_title": "¿Por qué utilizar un contador de caracteres?",
+    "why_use_text": "Además de ser extremadamente fácil e intuitivo, un contador de caracteres puede ser muy útil para tareas que antes requerían mucho esfuerzo. Pruébalo y comparte tu resultado con nosotros utilizando las herramientas de retroalimentación, nos encantaría saber qué opinas.",
+    "footer_text": "¡Domina los límites del texto y optimiza tus publicaciones con el Contador de Caracteres!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hola, bienvenido. Escribe tu texto aquí...",
+    "char_no_spaces": "Caracteres sin espacios",
+    "characters": "Caracteres",
+    "words": "Palabras",
+    "sentences": "Frases",
+    "lines": "Líneas",
+    "paragraphs": "Párrafos"
+  }
+}

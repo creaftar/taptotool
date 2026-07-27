@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "FINDE EIN WERKZEUG-KIT"
+    },
+    "text_kit": {
+      "title": "TEXTE",
+      "alt_text": "Textwerkzeug-Kit"
+    },
+    "math_kit": {
+      "title": "MATHEMATIK",
+      "alt_text": "Mathematik-Werkzeug-Kit"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Creaftar-Logo",
+      "description": "Creaftar ist dein Ort, um Kreuzworträtsel online zu erstellen, zu bearbeiten und zu löschen. Fordere Freunde heraus und spiele exklusive Kreationen aus unserer Community.",
+      "button_text": "Jetzt auf Creaftar zugreifen!"
+    }
+  }
+}

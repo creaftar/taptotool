@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Inversor de Texto Online - Tap to Tool",
+    "description": "Inverta seu texto online de forma rápida! Use o Inversor de Texto da Tap to Tool para inverter a ordem de todos os caracteres.",
+    "keywords": "inversor de texto, inverter texto online, texto invertido, inverter palavras, inverter caracteres, text inverter, texto ao contrário"
+  },
+  "schema": {
+    "app_name": "Inversor de Texto Online",
+    "app_description": "Inverta seu texto online de forma rápida! Use o Inversor de Texto da Tap to Tool para inverter a ordem de todos os caracteres.",
+    "howto_name": "Como Usar o Inversor de Texto Online",
+    "howto_description": "O Inversor de Texto é uma ferramenta online gratuita que permite inverter a ordem dos caracteres de qualquer texto digitado ou colado.",
+    "step1_name": "Insira o Texto",
+    "step1_text": "Copie e cole ou digite o texto na área de entrada da ferramenta.",
+    "step2_name": "Copiar Resultado",
+    "step2_text": "Copie o resultado do seu texto invertido gerado no campo ao lado.",
+    "breadcrumb_home": "Página Inicial",
+    "breadcrumb_current": "Inversor de Texto Online"
+  },
+  "ui": {
+    "h1_main": "INVERSOR DE TEXTO",
+    "placeholder_input": "Digite ou cole o texto que deseja inverter...",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "tooltip_copy": "Copiar o texto",
+    "tooltip_delete": "Limpar texto",
+    "tooltip_copy_results": "Copiar o resultado",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "Inversor de Texto Online",
+    "intro_text": "A ferramenta mais rápida e simples para inverter a ordem dos caracteres do seu texto.",
+    "usage_title": "Como usar o Inversor de Texto?",
+    "step_1": "Insira o Texto: Copie e cole ou digite o texto que você deseja inverter na área de texto designada.",
+    "step_2": "Veja o resultado ao lado: Você não precisa fazer mais nada, deixe o resto com a gente! Basta copiar sua resposta gerada no campo ao lado.",
+    "why_use_title": "Por que utilizar um Inversor de Texto?",
+    "why_use_intro": "Um inversor de texto é útil por diversas razões:",
+    "benefit_1_title": "Criatividade e Estilo",
+    "benefit_1_text": "Geração de efeitos visuais ou de escrita únicos para redes sociais, artes digitais, ou jogos.",
+    "benefit_2_title": "Criptografia Leve",
+    "benefit_2_text": "Adicionar uma camada básica de ofuscação a mensagens que não requerem segurança robusta.",
+    "benefit_3_title": "Testes e Debugging",
+    "benefit_3_text": "Ajuda a testar a manipulação de strings em programação ou a verificar a funcionalidade de layouts de texto.",
+    "benefit_4_title": "Entretenimento",
+    "benefit_4_text": "Simplesmente para diversão e para ver como seu texto ficaria ao contrário.",
+    "footer_text": "Crie efeitos criativos e transforme suas mensagens instantaneamente com o Inversor de Texto!"
+  },
+  "dynamic":{
+    "standard_phrase": "Olá, seja bem vindo(a). Digite seu texto aqui...",
+    "result_phrase": "...iuqa otxet ues etigiD .)a(odniv meb ajes ,álO"
+  }
+}

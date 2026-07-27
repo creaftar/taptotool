@@ -1,0 +1,192 @@
+#roletas-container {
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wheel-card {
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    aspect-ratio: 1 / 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wheel-container{
+    width:100%; 
+    height:100%;
+    position:relative;
+    /*border: solid 1px rgba(var(--padrao), 1);*/
+}
+/*
+#linhavertical{
+    position: absolute;
+    right: 50%;
+    height: 50%;
+    z-index: 50;
+    border: solid 1px rgba(var(--padrao), 1);
+}
+#linhahorizontal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    z-index: 50;
+    border: solid 1px rgba(var(--padrao), 1);
+}
+#linhadiagonal {
+    position: absolute;
+    bottom: calc(50% - 2px);
+    right: 50%;
+    
+    /* Valor exato da hipotenusa para um quadrado de 50% */
+    /*height: 70.710678%; 
+    width: 1px;
+    
+    background-color: rgba(var(--padrao), 1);
+    border: none; 
+
+    transform-origin: bottom; 
+    transform: rotate(45deg);
+    z-index: 50;
+}
+
+#toollayout{
+    margin: 90px;
+}
+#container-conteudo{
+    overflow: visible !important;
+}
+#linhamediamarker{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    width: 1px;
+    border: solid 1px rgba(var(--padrao), 1);
+}*/
+
+.marker > i {
+    opacity: 1;
+    transform: rotate(134deg);
+    font-size: xx-large;
+}
+.marker {
+    position: absolute;
+    z-index: 50;
+    /*border: solid 1px rgba(var(--padrao), 1);*/
+    
+    top: 10%;
+    right: 10%;
+
+    /* 3. A Mágica da Centralização:
+       'translate(50%, -50%)' move o quadrado metade da sua própria largura para a direita
+       e metade da sua própria altura para cima. Isso faz o CENTRO do quadrado 
+       coincidir com a QUINA do container. */
+    transform: translate(50%, -50%) rotate(45deg);
+
+    /* Opcional: se quiser que ele gire a partir do seu novo centro */
+    transform-origin: center; 
+}
+/*
+.marker {
+    border: solid 1px rgba(var(--padrao), 1);
+    display: flex;
+    position: absolute;
+    top: 0;   /* Valor aproximado para a diagonal de um círculo inscrito */
+    /*right: 0; /* Ajusta para alinhar com a borda da roleta */
+    /*z-index: 10;
+    font-size: 3em; /* cqi baseia-se no tamanho do container pai */
+    /*color: gold;
+    
+    /* Mantendo o seu scale e a origem de rotação que você definiu */
+    /*transform: translate(100%, -100%) scale(-1, -1);
+    will-change: transform, color;
+    pointer-events: none;
+    height: fit-content;
+}*/
+
+/*.marker > i{
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+}*/
+
+
+@keyframes brilho-passante {
+  to { background-position: 200% center; }
+}
+
+.wheel-instance {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    /* A mágica da performance: *//* No seu CSS ou onde define o estilo da roleta */
+    will-change: transform;
+}
+
+.wheel-canvas-target{
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius:50%; 
+    background-size:cover; 
+    will-change: transform;
+    width:100%; 
+    height: 100%;
+    box-shadow: 
+        /* 1. O Fio de Luz (Rim Light) no canto superior esquerdo */
+        /* Mantemos um pequeno deslocamento aqui para dar a direção da luz */
+        inset 4px 4px 6px -2px rgba(205, 205, 205, 0.3),
+
+
+        /* 3. Sombra Externa Uniforme (Aura/Contorno) */
+        /* Cria uma profundidade igual em toda a volta da roleta */
+        0 0 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Regra para navegadores modernos */
+@supports (aspect-ratio: 1 / 1) {
+    .wheel-card {
+        height: auto; /* Deixa o aspect-ratio trabalhar */
+        aspect-ratio: 1 / 1;
+    }
+}
+
+.wheel-canvas-target::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Tamanho do círculo central */
+    width: 20%;
+    height: 20%;
+    
+    background-color: var(--fundo-card);
+    border-radius: 50%;
+    z-index: 3; /* Garante que fique acima da roleta e do marcador */
+    
+    /* Sombra para dar profundidade (opcional) */
+    
+    /* Bordinha interna para detalhe (opcional) */
+    background: var(--fundo-card);
+    box-shadow: 
+    inset -4px -4px 6px -2px rgba(205, 205, 205, 0.3),
+    inset 0 2px 5px rgba(0,0,0,0.2), 0 4px 10px rgba(0,0,0,0.3);
+    border: 6px solid var(--fundo-body);
+}
+
+.fa-paper-plane:before {
+    content: "\f1d8"
+}
+
+@media (max-width: 1024px) {
+    #roletas-container {
+        max-width: 100%;
+    }
+}

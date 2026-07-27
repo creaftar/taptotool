@@ -1,0 +1,141 @@
+---
+import LegalLayout from "@/layout/LegalLayout.astro";
+import '@/assets/styles/pages/about/about.css'; // Mantendo seu CSS de páginas legais
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+import pt from "@/i18n/pages/legal/terms/pt.json";
+import en from "@/i18n/pages/legal/terms/en.json";
+import es from "@/i18n/pages/legal/terms/es.json";
+import fr from "@/i18n/pages/legal/terms/fr.json";
+import it from "@/i18n/pages/legal/terms/it.json";
+import de from "@/i18n/pages/legal/terms/de.json";
+import ru from "@/i18n/pages/legal/terms/ru.json";
+import id from "@/i18n/pages/legal/terms/id.json";
+import hi from "@/i18n/pages/legal/terms/hi.json";
+// Importe os outros conforme você for criando
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang: paramLang } = Astro.params;
+const lang = (paramLang === 'en' || !paramLang) ? 'en' : paramLang; 
+
+const d = locales[lang as keyof typeof locales].legal.terms;
+
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/legal/terms`;
+---
+
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "description": d.seo.description,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": {
+        "@type": "DigitalDocument",
+        "@id": `${currentUrl}#terms`,
+        "name": d.title,
+        "description": d.seo.description,
+        "url": currentUrl,
+        "publisher": { "@id": "https://taptotool.com/#organization" }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.seo.title,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/engrenagensPNG.svg",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+
+<LegalLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+>
+  <article class="legal-content">
+    <h1>{d.title}</h1>
+    
+    <p>{d.intro}</p>
+
+    {Object.values(d.sections).map((section) => (
+      <section>
+        <h2>{section.title}</h2>
+        <p>{section.content}</p>
+        
+        {/* Usamos o operador 'in' ou verificação opcional para calar o erro do TS */}
+        {"items" in section && section.items && (
+          <ul>
+            {section.items.map((item: string) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        )}
+      </section>
+    ))}
+
+    <p class="effective-date">
+      <em>{d.footer}</em>
+    </p>
+  </article>
+</LegalLayout>

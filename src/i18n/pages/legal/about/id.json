@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Tentang Tap to Tool | Perangkat Lunak Online Mudah dan Cepat",
+    "description": "Alat sederhana untuk ide besar. Pelajari misi, nilai-nilai, dan bagaimana Tap to Tool memudahkan rutinitas digital Anda dengan utilitas gratis dan cepat",
+    "keywords": "tentang tap to tool, alat online, utilitas digital, produktivitas, alat gratis, konverter file, formater teks"
+  },
+  "schema": {
+    "page_name": "Tentang Tap to Tool",
+    "page_description": "Misi, prinsip, dan kontak Tap to Tool - Alat sederhana untuk ide besar.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Tentang"
+  },
+  "content": {
+    "title": "Tentang Tap to Tool",
+    "subtitle": "Alat sederhana untuk ide besar.",
+    "description_p1": "Tap to Tool lahir dari kebutuhan solusi cepat dan mudah untuk tugas digital sehari-hari. Kami percaya Anda tidak harus berurusan dengan situs berat, iklan yang mengganggu, atau registrasi yang tidak perlu hanya untuk melakukan tugas sederhana seperti format teks, menghasilkan data, atau konversi file.",
+    "description_p2": "Misi kami adalah menjadi alat canggih digital Anda: pusat utilitas yang dirancang untuk menawarkan presisi, kecepatan, dan kemudahan penggunaan.",
+    "principles_title": "Prinsip Kami",
+    "principles": [
+      {
+        "label": "Performa",
+        "text": "Alat-alat kami ringan dan memuat secara instan, menjaga aliran kerja Anda tetap lancar."
+      },
+      {
+        "label": "Privasi",
+        "text": "Kami memprioritaskan pemrosesan lokal (client-side). Sebagian besar yang Anda proses di sini tetap berada di browser Anda dan tidak pernah menyentuh server kami."
+      },
+      {
+        "label": "Aksesibilitas",
+        "text": "Desain yang bersih dan fungsional, tersedia di semua perangkat, di mana saja di dunia, secara gratis."
+      }
+    ],
+    "footer_text": "Apakah Anda seorang pengembang, pembuat konten, atau siapa pun yang mencari produktivitas lebih, Tap to Tool hadir untuk memastikan Anda memiliki apa yang Anda butuhkan, tepat saat Anda membutuhkannya.",
+    "contact_title": "Kontak",
+    "contact_text": "Punya pertanyaan, saran, atau ingin memberikan umpan balik? Anda dapat mengirimkan masukan untuk setiap alat di pojok kanan bawah halaman masing-masing, atau Anda dapat menemukan kami di:"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "Masukan tentang Alat Ini",
+    "email_placeholder": "contoh@gmail.com (opsional)",
+    "textarea_placeholder": "Tuliskan masukan Anda di sini",
+    "send_button": "KIRIM",
+    "copy_button": "SALIN"
+  },
+  "dynamic":{
+    "success_message": "Masukan Anda berhasil dikirim!",
+    "error_message": "Terjadi kesalahan saat mengirim masukan, silakan coba lagi nanti.",
+    "COPIED": "TERSALIN!"
+  }
+}

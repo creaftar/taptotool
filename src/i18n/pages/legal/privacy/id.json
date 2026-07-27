@@ -1,0 +1,49 @@
+  {
+    "seo": {
+      "title": "Kebijakan Privasi | Tap to Tool",
+      "description": "Privasi Anda adalah prioritas kami. Pelajari bagaimana Tap to Tool menjaga keamanan data Anda melalui pemrosesan lokal langsung di browser Anda.",
+      "keywords": "kebijakan privasi, privasi data, pemrosesan lokal, keamanan digital, tap to tool"
+    },
+  "schema": {
+    "page_name": "Kebijakan Privasi",
+    "page_description": "Dokumen yang merinci praktik privasi dan pemrosesan data lokal dari Tap to Tool.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Privasi"
+  },
+  "content": {
+    "title": "Kebijakan Privasi",
+    "intro": "Di Tap to Tool, privasi bukan sekadar istilah hukum; ini adalah fondasi dari cara kami membangun alat-alat kami. Kebijakan ini menjelaskan secara jelas bagaimana kami menangani informasi Anda.",
+    "sections": [
+      {
+        "title": "1. Pemrosesan Data Lokal",
+        "text": "Sebagian besar alat kami beroperasi di bawah prinsip Pemrosesan Sisi Klien (Client-Side). Ini berarti data yang Anda masukkan (teks untuk diformat, kode, daftar, dll.) diproses secara langsung di browser Anda.",
+        "list": [
+          "Kami tidak mengirimkan data input Anda ke server kami pada sebagian besar operasi.",
+          "Apa yang Anda ketik tetap berada di lingkungan lokal Anda sampai Anda menutup tab atau menghapus cache."
+        ]
+      },
+      {
+        "title": "2. Pengumpulan Informasi",
+        "text": "Kami hanya mengumpulkan informasi minimal yang diperlukan untuk menjaga situs tetap berfungsi:",
+        "list": [
+          "Log Server: Kami menerima informasi dasar seperti alamat IP dan jenis browser Anda untuk tujuan keamanan dan pencegahan penyalahgunaan.",
+          "Cookie: Kami mungkin menggunakan cookie untuk menyimpan preferensi Anda (seperti mode gelap) dan memahami alat mana yang paling populer untuk meningkatkan layanan kami."
+        ]
+      },
+      {
+        "title": "3. Tautan ke Pihak Ketiga",
+        "text": "Situs kami mungkin berisi tautan ke situs eksternal. Kami tidak memiliki kendali atas konten atau praktik privasi pihak ketiga dan tidak dapat bertanggung jawab atas kebijakan mereka masing-masing."
+      },
+      {
+        "title": "4. Keamanan",
+        "text": "Kami tidak menyimpan basis data berisi informasi pribadi pengguna. Jika Anda menghubungi kami melalui email, data Anda akan digunakan secara eksklusif untuk menanggapi permintaan Anda dan akan dihapus setelah layanan selesai.",
+        "list": []
+      },
+      {
+        "title": "5. Persetujuan",
+        "text": "Dengan menggunakan Tap to Tool, Anda menyetujui praktik yang dijelaskan dalam halaman ini. Kebijakan ini mungkin diperbarui sewaktu-waktu untuk mencerminkan peningkatan pada alat kami."
+      }
+    ],
+    "last_updated": "Terakhir diperbarui: 20 Februari 2026."
+  }
+}

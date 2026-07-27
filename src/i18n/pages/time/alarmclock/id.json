@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Alarm Online - Tap to Tool",
+    "description": "Atur beberapa alarm online dengan Tap to Tool. Personalisasi dengan musik favorit Anda, geser untuk mengatur, dan kelola waktu Anda dengan mudah dan akurat.",
+    "keywords": "alarm online, jam weker online, pasang alarm, alarm dengan musik sendiri, pengelola alarm, alarm browser, banyak alarm, setel beberapa alarm"
+  },
+  "schema": {
+    "app_name": "Alarm Online - Tap to Tool",
+    "app_description": "Setel beberapa alarm secara online. Personalisasi suara, atur urutan kartu, dan kelola waktu Anda dengan mudah.",
+    "howto_name": "Cara Menggunakan Alarm Online",
+    "howto_description": "Alarm online adalah alat yang hebat untuk mengatur dan mengelola banyak alarm secara bersamaan.",
+    "step1_name": "Buat Alarm",
+    "step1_text": "Klik tombol '+ Alarm Baru' untuk membuat kartu pengaturan baru.",
+    "step2_name": "Atur Waktu",
+    "step2_text": "Pilih jam dan menit yang diinginkan pada bagian angka di setiap kartu.",
+    "step3_name": "Personalisasi Suara dan Nama",
+    "step3_text": "Klik pada nama untuk memberi judul alarm Anda, lalu pilih file audio dari perangkat Anda dengan tombol pilih audio.",
+    "step4_name": "Atur dan Aktifkan",
+    "step4_text": "Geser kartu untuk menentukan urutan visual. Alarm akan berbunyi secara otomatis saat waktu menunjukkan angka nol.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Alarm Online"
+  },
+  "ui": {
+    "h1": "Alarm Online Kustom",
+    "intro_text": "Kelola rutinitas Anda dengan alarm online yang paling intuitif. Atur pengingat, bangun dengan lagu favorit, dan kelola semua alarm Anda.",
+    "add_alarm": "+ Alarm Baru",
+    "price_currency": "IDR"
+  },
+  "content": {
+    "features_title": "Fitur Utama",
+    "feature_audio": "Personalisasi Audio: Gunakan suara bawaan atau unggah file audio Anda sendiri.",
+    "feature_org": "Pengaturan Intuitif: Klik dan tahan untuk mengatur ulang urutan alarm sesuai prioritas.",
+    "feature_multiple": "Banyak Alarm: Buat alarm sebanyak yang Anda butuhkan untuk rutinitas harian.",
+    "feature_save": "Simpan Otomatis: Alarm Anda tersimpan di browser, siap digunakan kembali saat Anda membuka situs ini lagi.",
+    "usage_title": "Cara Penggunaan",
+    "usage_step1": "Klik '+ Alarm Baru' untuk menambahkan kartu baru.",
+    "usage_step2": "Atur jam dan menit pada pemilih waktu digital.",
+    "usage_step3": "Klik pada nama untuk mengubah judul alarm.",
+    "usage_step4": "Klik tombol pilih audio untuk memilih suara favorit langsung dari komputer Anda.",
+    "tips_title": "Tips Interaktif",
+    "tip_drag": "Klik dan geser kartu apa saja untuk mengubah urutan alarm Anda.",
+    "tip_rename": "Klik nama alarm untuk mengubahnya (misalnya: 'Minum Obat', 'Rapat').",
+    "tip_test": "Ikon audio memungkinkan Anda mencoba suara sebelum digunakan.",
+    "footer_text": "Buat banyak alarm dan kelola rutinitas Anda secara instan dengan Alarm Online dari Tap to Tool!"
+  },
+  "dynamic": {
+    "default_alarm_name": "Alarm Tanpa Nama",
+    "choose_audio": "Pilih Audio"
+  }
+}

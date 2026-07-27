@@ -1,0 +1,1 @@
+let count=5;const counterElement=document.getElementById("counter"),interval=setInterval(()=>{count--,counterElement.textContent=count,0===count&&(clearInterval(interval),window.location.href="https://taptotool.com")},1e3);

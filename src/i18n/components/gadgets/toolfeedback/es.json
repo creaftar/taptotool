@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "Comentarios sobre la Herramienta",
+    "email_placeholder": "ejemplo@gmail.com (opcional)",
+    "textarea_placeholder": "Deje su comentario aquí",
+    "send_button": "ENVIAR",
+    "copy_button": "COPIAR"
+  },
+  "dynamic":{
+    "success_message": "Su comentario fue enviado con éxito!",
+    "error_message": "Ocurrió un error al enviar su comentario, intente de nuevo más tarde.",
+    "COPIED": "COPIADO!"
+  }
+}

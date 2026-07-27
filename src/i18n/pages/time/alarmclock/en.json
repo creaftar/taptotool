@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Online Alarm Clock - Tap to Tool",
+    "description": "Set multiple alarms online with Tap to Tool. Customize with your own sounds, drag to organize, and manage your time with precision and ease.",
+    "keywords": "online alarm clock, set multiple alarms, custom sound alarm, browser alarm clock, alarm manager, multi-alarm website, free online alarm"
+  },
+  "schema": {
+    "app_name": "Online Alarm Clock - Tap to Tool",
+    "app_description": "Configure multiple online alarms. Customize with your own sounds, drag to organize and manage your alerts with precision.",
+    "howto_name": "How to Use the Online Alarm Clock",
+    "howto_description": "The online alarm clock is a powerful tool for setting and managing several simultaneous alarms.",
+    "step1_name": "Create Alarm",
+    "step1_text": "Click the '+ New Alarm' button to generate a new configuration card.",
+    "step2_name": "Set Time",
+    "step2_text": "Select the desired hours and minutes using the digital selectors on each card.",
+    "step3_name": "Personalize",
+    "step3_text": "Name your alarm by clicking the title and upload a custom audio file by clicking the audio selection button.",
+    "step4_name": "Organize & Activate",
+    "step4_text": "Drag the cards to set visual priority. The alarm will go off automatically when the countdown reaches zero.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online Alarm Clock"
+  },
+  "ui": {
+    "h1": "Customizable Online Alarm Clock",
+    "intro_text": "Streamline your routine with our intuitive online alarm clock. Set reminders, wake up to your favorite tracks, and stay organized.",
+    "add_alarm": "+ New Alarm",
+    "price_currency": "USD"
+  },
+  "content": {
+    "features_title": "Key Features",
+    "feature_audio": "Audio Customization: Use default sounds or upload your own audio files.",
+    "feature_org": "Smart Organization: Click and hold to reorder alarms based on your priority.",
+    "feature_multiple": "Multiple Alarms: Create as many alarms as you need for your daily tasks.",
+    "feature_save": "Auto-Save: Your alarms are saved in the browser, ready for your next session.",
+    "usage_title": "Quick Guide",
+    "usage_step1": "Click '+ New Alarm' to add a new card.",
+    "usage_step2": "Adjust the hour and minute toggles.",
+    "usage_step3": "Click the name to rename your alarm.",
+    "usage_step4": "Click the audio button to pick a sound from your computer.",
+    "tips_title": "Pro Tips",
+    "tip_drag": "Click and drag any card to reorder your list.",
+    "tip_rename": "Label your alarms (e.g., 'Medicine', 'Meeting') for better tracking.",
+    "tip_test": "Use the play icon to preview your sound before setting it.",
+    "footer_text": "Manage your day instantly with the Tap to Tool Online Alarm Clock!"
+  },
+  "dynamic": {
+    "default_alarm_name": "Unnamed Alarm",
+    "choose_audio": "Choose Audio"
+  }
+}

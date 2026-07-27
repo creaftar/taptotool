@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Trier par Ordre Alphabétique en Ligne - Tap to Tool",
+    "description": "Triez instantanément des listes, mots ou phrases par ordre alphabétique (A-Z) ou inverse (Z-A). Supporte les sauts de ligne, virgules et phrases complexes.",
+    "keywords": "ordre alphabétique, mettre en ordre alphabétique, trier liste, organiser texte, classer mots, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "Trier par Ordre Alphabétique en Ligne",
+    "app_description": "Triez instantanément des listes, mots ou phrases par ordre alphabétique (A-Z) ou inverse (Z-A). Supporte les sauts de ligne, virgules et phrases complexes. Rapide et facile avec Tap to Tool.",
+    "howto_name": "Comment Utiliser le Tri par Ordre Alphabétique en Ligne",
+    "howto_description": "L'outil d'Ordre Alphabétique est un outil gratuit qui organise toute liste de mots, phrases ou éléments par ordre alphabétique.",
+    "step1_name": "Ajoutez la Liste",
+    "step1_text": "Copiez et collez ou saisissez les éléments (séparés par un espace, une virgule ou un saut de ligne) dans la zone de saisie.",
+    "step2_name": "Visualisation Automatique",
+    "step2_text": "La liste sera triée automatiquement de A à Z dans le champ d'à côté, en préservant le format de séparation original (saut de ligne ou virgule).",
+    "step3_name": "Copier le Résultat",
+    "step3_text": "Copiez la liste triée par ordre alphabétique dans le champ de résultat.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Ordre Alphabétique en Ligne"
+  },
+  "ui": {
+    "h1_main": "ORDRE ALPHABÉTIQUE",
+    "placeholder_input": "Entrez ou collez votre liste ici...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "Cliquez pour coller votre texte",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Essayez de coller avec CTRL + V ou vérifiez si l'accès au presse-papiers est autorisé.",
+    "tooltip_copy": "Copier le texte",
+    "tooltip_delete": "Effacer le texte",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Trier par Ordre Alphabétique en Ligne",
+    "intro_text": "L'outil le plus rapide et simple pour mettre n'importe quelle liste de mots, noms ou phrases par ordre alphabétique.",
+    "usage_title": "Comment utiliser l'Ordre Alphabétique ?",
+    "step_1": "Ajoutez la Liste : Copiez et collez ou saisissez les éléments que vous souhaitez organiser dans la zone de texte désignée. Les éléments peuvent être séparés par un saut de ligne, une virgule ou un espace.",
+    "step_2": "Tri Automatique : L'outil fait tout le travail pour vous et trie les éléments alphabétiquement (A-Z / Z-A).",
+    "step_3": "Copier le Résultat : Le texte trié s'affiche instantanément dans le champ d'à côté, en conservant le séparateur original.",
+    "benefits_title": "Quels sont les avantages d'un outil d'Ordre Alphabétique ?",
+    "benefits_intro": "Un trieur de texte par ordre alphabétique est extrêmement utile pour :",
+    "benefit_1_title": "Organisation des Données",
+    "benefit_1_text": "Organiser rapidement des listes de noms, codes, inventaires ou tout autre ensemble de données pour une consultation facile.",
+    "benefit_2_title": "Études et Références",
+    "benefit_2_text": "Créer des listes de références bibliographiques, des glossaires ou des dictionnaires selon les normes standards.",
+    "benefit_3_title": "Traitement de Texte",
+    "benefit_3_text": "Classer des mots-clés, des balises ou des phrases complexes (comme 'pâte d'amandes') en tant qu'élément unique.",
+    "benefit_4_title": "Standardisation",
+    "benefit_4_text": "S'assurer que tous les documents ou listes suivent le même format de classement sans erreur humaine.",
+    "footer_text": "Organisez vos listes et améliorez votre productivité avec l'Ordre Alphabétique !"
+  },
+  "dynamic": {
+    "standard_phrase": "Bonjour, bienvenue. Entrez votre texte ici...",
+    "dynamic_phrase": "Bonjour, bienvenue ! Entrez votre liste en séparant par des espaces ou en appuyant sur Entrée, exemple :\nbanane, exemple, avion",
+    "result_phrase": "Votre résultat apparaîtra ainsi :\navion, banane, exemple"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

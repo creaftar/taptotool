@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Acak Angka Antara Dua Bilangan - Tap to Tool",
+    "description": "Perlu angka acak? Gunakan Generator Angka Acak Online dari Tap to Tool. Tentukan angka minimum dan maksimum untuk hasil instan dan adil. Alat gratis untuk game, undian, dan lotre.",
+    "keywords": "generator angka acak, acak angka online, buat angka antara, angka acak, acak nomor online, undian, lotre, pemilih angka acak"
+  },
+  "schema": {
+    "app_name": "Generator Angka Acak Antara Dua Bilangan",
+    "app_description": "Perlu angka acak? Gunakan Generator Angka Acak Online dari Tap to Tool. Tentukan angka minimum dan maksimum untuk hasil instan dan adil. Alat gratis untuk game, undian, dan lotre.",
+    "howto_name": "Cara Menggunakan Generator Angka Acak Online",
+    "howto_description": "Generator Angka Acak adalah alat online gratis yang menghasilkan angka baru dari 2 angka yang dipilih. Masukkan dua angka pilihan Anda dan lihat hasilnya!",
+    "step1_name": "Tentukan Batasan",
+    "step1_text": "Masukkan angka minimum dan angka maksimum (rentang) untuk pengundian.",
+    "step2_name": "Buat Angka",
+    "step2_text": "Klik tombol 'Acak Angka' untuk mendapatkan angka acak dalam rentang yang telah ditentukan.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Generator Angka Acak Antara Dua Bilangan"
+  },
+  "ui": {
+    "h1_main": "ACAK ANGKA",
+    "label_min": "Nilai Minimum",
+    "label_max": "Nilai Maksimum",
+    "label_checkbox": "Hanya bilangan bulat",
+    "button_generate": "Acak Angka Sekarang",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "IDR"
+  },
+  "content": {
+    "h1_seo": "Generator Angka Acak",
+    "intro_text": "Generator Angka Acak adalah alat online gratis yang menghasilkan angka baru dari 2 angka yang dipilih. Masukkan dua angka pilihan Anda dan lihat hasilnya!",
+    "usage_title": "Cara menggunakan Generator Angka Acak Online",
+    "usage_instruction": "Cukup masukkan nilai pada dua kolom di atas untuk mendapatkan hasil:",
+    "list_item_integers": "Bilangan Bulat: [min, max]",
+    "list_item_decimals": "Desimal: [min, max)",
+    "usage_checkbox_info": "Jika Anda mencentang kotak \"Hanya bilangan bulat\", Anda akan mendapatkan nilai tanpa angka desimal. Jika tidak dicentang, Anda mungkin mendapatkan nilai hingga dua angka di belakang koma.",
+    "why_use_title": "Mengapa menggunakan Generator Angka Acak kami?",
+    "why_use_text": "Diprogram untuk kesederhanaan dan efisiensi, Anda akan mendapatkan hasil antara 2 angka yang diinginkan dalam waktu sesingkat mungkin.",
+    "footer_text": "Hasilkan angka acak antara dua bilangan dengan mudah!"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Generatore di Numeri Casuali Tra Due Numeri - Tap to Tool",
+    "description": "Hai bisogno di un sorteggio? Usa il Generatore di Numeri Casuali Online di Tap to Tool. Definisci un numero minimo e massimo e ottieni un risultato istantaneo ed equo. Strumento gratuito per giochi, tombole e estrazioni.",
+    "keywords": "generatore numeri casuali, sorteggiare numeri online, generare numeri tra, numeri casuali, generatore numeri tra 2, estrazione, tombola, sorteggiatore di numeri"
+  },
+  "schema": {
+    "app_name": "Generatore di Numeri Casuali Tra Due Numeri",
+    "app_description": "Hai bisogno di un sorteggio? Usa il Generatore di Numeri Casuali Online di Tap to Tool. Definisci un numero minimo e massimo e ottieni un risultato istantaneo ed equo. Strumento gratuito per giochi, tombole e estrazioni.",
+    "howto_name": "Come Usare il Generatore di Numeri Online",
+    "howto_description": "Il Generatore di Numeri Casuali è uno strumento online gratuito che genera un nuovo numero a partire da 2 numeri scelti. Inserisci due numeri che siano del tuo gradimento e vedi la magia accadere!",
+    "step1_name": "Definisci i Limiti",
+    "step1_text": "Inserisci il numero minimo e il numero massimo (intervallo) per lo sorteggio.",
+    "step2_name": "Genera Numero",
+    "step2_text": "Clicca sul pulsante 'Genera' per ottenere il numero casuale estratto all'interno dell'intervallo definito.",
+    "breadcrumb_home": "Home Page",
+    "breadcrumb_current": "Generatore di Numeri Casuali Tra Due Numeri"
+  },
+  "ui": {
+    "h1_main": "GENERARE NUMERO CASUALE",
+    "label_min": "Valore minimo",
+    "label_max": "Valore massimo",
+    "label_checkbox": "Solo numeri interi",
+    "button_generate": "GENERA NUMERO",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Generatore di Numeri Casuali",
+    "intro_text": "Il Generatore di Numeri Casuali è uno strumento online gratuito che genera un nuovo numero a partire da 2 numeri scelti. Inserisci due numeri che siano del tuo gradimento e vedi la magia accadere!",
+    "usage_title": "Come usare il Generatore di Numeri Casuali",
+    "usage_instruction": "Basta inserire nei due campi sopra i valori per ottenere il risultato:",
+    "list_item_integers": "Interi: [min, max]",
+    "list_item_decimals": "Decimali: [min, max)",
+    "usage_checkbox_info": "Se selezioni l'opzione \"Solo numeri interi\", otterrai valori senza virgola decimale (decimali), se deselezioni potrai ottenere valori con fino a due cifre decimali.",
+    "why_use_title": "Perché usare il nostro Generatore di Numeri Casuali",
+    "why_use_text": "Programmato per essere semplice ed efficiente, riuscirai ad ottenere in pochissimo tempo un risultato tra 2 numeri desiderati.",
+    "footer_text": "Genera numeri casuali tra due numeri!"
+  }
+}

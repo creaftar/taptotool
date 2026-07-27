@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Cronometro Online - Tap to Tool",
+    "description": "Utilizza il Cronometro Online di Tap to Tool per misurare il tempo con precisione. Perfetto per esercizi, studio e test di velocità. Salva i giri e riavvia in qualsiasi momento.",
+    "keywords": "cronometro online, stopwatch, misurazione del tempo, temporizzatore, conteggio del tempo, cronometro con giri"
+  },
+  "schema": {
+    "app_name": "Cronometro Online",
+    "app_description": "Cronometro digitale online con precisione al millisecondo per misurare il tempo trascorso. Salva i giri, metti in pausa e riavvia.",
+    "howto_name": "Come Usare il Cronometro Online",
+    "howto_description": "Il Cronometro Online è uno strumento gratuito e preciso per la misurazione del tempo.",
+    "step1_name": "Avviare e Mettere in Pausa",
+    "step1_text": "Clicca sull'icona Play/Pause (▶/⏸) per controllare il conteggio.",
+    "step2_name": "Registrare un Giro",
+    "step2_text": "Clicca sul pulsante Lap/Giro per registrare il tempo parziale e il tempo totale del giro.",
+    "step3_name": "Resettare",
+    "step3_text": "Clicca sul pulsante Reset (↺) per azzerare il cronometro e cancellare tutti i giri registrati.",
+    "breadcrumb_home": "Pagina Iniziale",
+    "breadcrumb_current": "Cronometro Online"
+  },
+  "ui": {
+    "h1": "Cronometro Online con Giri",
+    "intro_text": "Il Cronometro Online di Tap to Tool offre una precisione al millisecondo per tutte le tue esigenze di misurazione del tempo. Perfetto per sport, studio, cucina e test di velocità.",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "usage_title": "Come usare il Cronometro Online",
+    "usage_instructions": "Usa semplicemente i pulsanti di controllo:",
+    "control_play": "Play/Pause (▶/⏸): Avvia e mette in pausa il conteggio.",
+    "control_lap": "Giro (Lap): registra il tempo parziale e il tempo totale del giro nell'elenco sottostante.",
+    "control_reset": "Reset (↺): Azzera il cronometro, pulisce lo schermo e la cronologia dei giri.",
+    "persistence_note": "Il tempo trascorso e i giri vengono salvati automaticamente nel browser, permettendoti di chiudere la pagina e riprendere da dove avevi interrotto.",
+    "purpose_title": "A cosa serve questo Cronometro?",
+    "purpose_text": "Ideale per monitorare allenamenti, sessioni di studio (come la tecnica Pomodoro), tempi di cottura o qualsiasi attività che richieda una misurazione precisa del tempo con registrazione di intertempi (giri).",
+    "footer_share_text": "Gestisci il tuo tempo con precisione con il Cronometro Online di Tap to Tool!"
+  }
+}

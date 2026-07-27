@@ -1,0 +1,13 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Outils en ligne",
+    "description": "Trouvez ce que vous cherchez dans une collection d'outils en ligne, gratuits et rapides pour votre quotidien",
+    "keywords": "outils en ligne, outils en ligne, collection d'outils"
+  },
+  "schema": {
+    "siteName": "Tap to Tool - Outils en ligne"
+  },
+  "ui": {
+    "footerText": "Découvrez plus du Tap to Tool ! Lien vers le creaftar"
+  }
+}

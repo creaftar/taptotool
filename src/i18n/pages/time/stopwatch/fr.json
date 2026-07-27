@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Chronomètre en ligne - Tap to Tool",
+    "description": "Utilisez le chronomètre en ligne de Tap to Tool pour mesurer le temps avec précision. Parfait pour le sport, les études et les tests de vitesse. Enregistrez vos tours et réinitialisez à tout moment.",
+    "keywords": "chronomètre en ligne, stopwatch, mesurer le temps, minuteur, compteur de temps, chronomètre avec tours"
+  },
+  "schema": {
+    "app_name": "Chronomètre en ligne",
+    "app_description": "Chronomètre numérique en ligne avec précision au millième de seconde. Enregistrez vos tours, mettez en pause et réinitialisez.",
+    "howto_name": "Comment utiliser le chronomètre en ligne",
+    "howto_description": "Le chronomètre en ligne est un outil gratuit et précis pour la mesure du temps.",
+    "step1_name": "Démarrer et Pause",
+    "step1_text": "Cliquez sur l'icône Play/Pause (▶/⏸) pour contrôler le chronométrage.",
+    "step2_name": "Enregistrer un tour",
+    "step2_text": "Cliquez sur le bouton Lap/Tour pour enregistrer le temps partiel et le temps total du tour.",
+    "step3_name": "Réinitialiser",
+    "step3_text": "Cliquez sur le bouton Reset (↺) pour remettre le chronomètre à zéro et effacer tous os tours enregistrés.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Chronomètre en ligne"
+  },
+  "ui": {
+    "h1": "Chronomètre en ligne avec tours",
+    "intro_text": "Le Chronomètre en ligne de Tap to Tool offre une précision millimétrée pour tous vos besoins de mesure du temps. Idéal pour le sport, les études, la cuisine et les tests de vitesse.",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "usage_title": "Comment utiliser le chronomètre en ligne",
+    "usage_instructions": "Utilisez simplement les boutons de commande :",
+    "control_play": "Play/Pause (▶/⏸) : Démarre et met en pause le chronométrage.",
+    "control_lap": "Tour (Lap) : Enregistre le temps partiel et le temps total du tour dans la liste ci-dessous.",
+    "control_reset": "Réinitialiser (↺) : Remet le chronomètre à zéro e efface l'historique des tours.",
+    "persistence_note": "Le temps écoulé et les tours sont automatiquement sauvegardés dans votre navigateur, vous permettant de fermer la page et de reprendre là où vous vous étiez arrêté.",
+    "purpose_title": "Pourquoi utiliser ce chronomètre ?",
+    "purpose_text": "Idéal pour suivre vos entraînements, vos cycles d'étude (comme la méthode Pomodoro), vos temps de cuisson ou toute activité nécessitant une mesure précise avec enregistrement de temps intermédiaires (tours).",
+    "footer_share_text": "Gérez votre temps avec précision grâce au chronomètre en ligne de Tap to Tool !"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Temporizzatore Online - Tap to Tool",
+    "description": "Usa il Temporizzatore Online della Tap to Tool per creare più conti alla rovescia. Ideale per la produttività, l'allenamento e la cucina. Salva le tue impostazioni automaticamente.",
+    "keywords": "temporizzatore online, timer online, conto alla rovescia, conteggio del tempo, temporizzatori multipli, timer per lo studio",
+    "canonical": "https://taptotool.com/timer"
+  },
+  "schema": {
+    "app_name": "Temporizzatore Online Tap to Tool",
+    "app_description": "Crea più temporizzatori con conto alla rovescia online con salvataggio automatico e personalizzazione.",
+    "howto_name": "Come Usare il Temporizzatore Online",
+    "howto_description": "Il Temporizzatore Online è uno strumento gratuito e preciso per la misurazione del tempo.",
+    "step1_name": "Avviare e Mettere in Pausa",
+    "step1_text": "Clicca sull'icona Play/Pause (▶/⏸) per mettere in pausa e riprendere il tempo.",
+    "step2_name": "Registra Giro",
+    "step2_text": "Clicca sul pulsante Giro/Lap per consentire (o meno) al tuo timer di suonare per 5 volte di seguito.",
+    "breadcrumb_home": "Pagina Iniziale",
+    "breadcrumb_current": "Temporizzatore Online"
+  },
+  "ui": {
+    "h1": "Temporizzatore Online con Conto alla Rovescia",
+    "intro_text": "Il Temporizzatore Online di Tap to Tool consente di gestire più conti alla rovescia contemporaneamente, ideale per chi cerca precisione e organizzazione.",
+    "new_timer_button": "+ Nuovo Temporizzatore",
+    "current_time_label": "Ora Attuale",
+    "placeholder_timer_name": "Nome del temporizzatore (es. Focus, Cucina)",
+    "unit_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Funzionalità del Timer",
+    "feature_1_title": "Timer Multipli",
+    "feature_1_text": "Avvia più conteggi contemporaneamente per diverse attività.",
+    "feature_2_title": "Personalizzazione",
+    "feature_2_text": "Rinomina ogni temporizzatore per identificarne rapidamente la funzione.",
+    "feature_3_title": "Organizzazione",
+    "feature_3_text": "Trascina le schede per dare priorità ai conteggi che terminano per primi.",
+    "feature_4_title": "Memoria",
+    "feature_4_text": "I temporizzatori configurati vengono salvati nel browser per un uso continuo.",
+    "usage_title": "Come utilizzare",
+    "usage_step_1": "1. Clicca su '+ Nuovo Temporizzatore' per aggiungere un nuovo conteggio alla lista.",
+    "usage_step_2": "2. Imposta il tempo desiderato (ore, minuti e secondi) nei campi numerici.",
+    "usage_step_3": "3. Clicca sul titolo della scheda per rinominarla.",
+    "usage_step_4": "4. Avvia il conto alla rovescia e trascina le schede per organizzare la visualizzazione.",
+    "footer_share_text": "Hai bisogno di più temporizzatori? Prova il Temporizzatore di Tap to Tool!"
+  },
+  "dynamic": {
+    "default_timer_name": "Temporizzatore senza nome",
+    "choose_audio": "Scegli Audio"
+  }
+}

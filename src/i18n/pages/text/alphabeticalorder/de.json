@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Alphabetische Sortierung Online - Tap to Tool",
+    "description": "Sortieren Sie Listen, Wörter oder Sätze sofort alphabetisch (A-Z) oder umgekehrt (Z-A). Unterstützt Zeilenumbrüche, Kommas und komplexe Phrasen.",
+    "keywords": "alphabetische sortierung, liste sortieren, text organisieren, wörter klassifizieren, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "Alphabetische Sortierung Online",
+    "app_description": "Sortieren Sie Listen, Wörter oder Sätze sofort alphabetisch (A-Z) oder umgekehrt (Z-A). Unterstützt Zeilenumbrüche, Kommas und komplexe Phrasen. Schnell und einfach mit Tap to Tool.",
+    "howto_name": "So verwenden Sie die alphabetische Sortierung online",
+    "howto_description": "Die alphabetische Sortierung ist ein kostenloses Tool, das Listen von Wörtern, Sätzen oder Elementen alphabetisch ordnet.",
+    "step1_name": "Liste eingeben",
+    "step1_text": "Kopieren und einfügen oder tippen Sie die Elemente (getrennt durch Leerzeichen, Kommas oder Zeilenumbrüche) in das Eingabefeld ein.",
+    "step2_name": "Automatische Ansicht",
+    "step2_text": "Die Liste wird automatisch von A bis Z im nebenstehenden Feld sortiert, wobei das ursprüngliche Trennformat beibehalten wird.",
+    "step3_name": "Ergebnis kopieren",
+    "step3_text": "Kopieren Sie die alphabetisch sortierte Liste aus dem Ergebnisfeld.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Alphabetische Sortierung"
+  },
+  "ui": {
+    "h1_main": "ALPHABETISCHE SORTIERUNG",
+    "placeholder_input": "Geben Sie Ihre Liste hier ein...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "Klicken, um Text einzufügen",
+    "paste_shortcut": "Strg + V",
+    "error_clipboard": "Versuchen Sie es mit Strg + V oder prüfen Sie, ob der Zugriff auf die Zwischenablage erlaubt ist.",
+    "tooltip_copy": "Text kopieren",
+    "tooltip_delete": "Text löschen",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Alphabetische Sortierung Online",
+    "intro_text": "Das schnellste und einfachste Tool, um Listen von Wörtern, Namen oder Sätzen alphabetisch zu ordnen.",
+    "usage_title": "Wie benutzt man die alphabetische Sortierung?",
+    "step_1": "Liste eingeben: Kopieren und einfügen oder tippen Sie die Elemente, die Sie organisieren möchten, in das vorgesehene Textfeld ein.",
+    "step_2": "Automatische Sortierung: Das Tool erledigt die Arbeit für Sie und sortiert die Elemente alphabetisch (A-Z / Z-A).",
+    "step_3": "Ergebnis kopieren: Der sortierte Text wird sofort im Feld nebenan angezeigt, bereit zum Kopieren.",
+    "benefits_title": "Welche Vorteile bietet ein alphabetischer Sortierer?",
+    "benefits_intro": "Ein alphabetischer Text-Sortierer ist äußerst nützlich für:",
+    "benefit_1_title": "Datenorganisation",
+    "benefit_1_text": "Schnelles Ordnen von Namenslisten, Codes, Inventaren oder anderen Datensätzen zur einfachen Referenz.",
+    "benefit_2_title": "Studium und Referenzen",
+    "benefit_2_text": "Erstellen von Literaturverzeichnissen, Glossaren oder Vokabellisten in Standardreihenfolge.",
+    "benefit_3_title": "Textverarbeitung",
+    "benefit_3_text": "Klassifizieren von Schlüsselwörtern, Tags oder komplexen Phrasen (wie 'Erdnussbutter') als einzelne Elemente.",
+    "benefit_4_title": "Standardisierung",
+    "benefit_4_text": "Sicherstellen, dass alle Dokumente oder Listen dem gleichen Sortierstandard folgen, ohne menschliche Fehler.",
+    "footer_text": "Organisieren Sie Ihre Listen und steigern Sie Ihre Produktivität mit der alphabetischen Sortierung!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hallo, willkommen. Geben Sie Ihren Text hier ein...",
+    "dynamic_phrase": "Hallo, willkommen! Geben Sie Ihre Liste ein, getrennt durch Leerzeichen oder die Eingabetaste, zum Beispiel:\nBanane, Beispiel, Flugzeug",
+    "result_phrase": "Ihr Ergebnis wird so aussehen:\nBanane, Beispiel, Flugzeug"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

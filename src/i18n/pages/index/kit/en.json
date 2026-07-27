@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "FIND A TOOL KIT"
+    },
+    "text_kit": {
+      "title": "TEXTS",
+      "alt_text": "Text tool kit"
+    },
+    "math_kit": {
+      "title": "MATHEMATICS",
+      "alt_text": "Math tool kit"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Creaftar Logo",
+      "description": "Creaftar is your place to create, edit, and delete crosswords online. Challenge friends and play exclusive creations from our community.",
+      "button_text": "Access Creaftar now!"
+    }
+  }
+}

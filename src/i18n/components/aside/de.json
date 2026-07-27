@@ -1,0 +1,15 @@
+{
+  "aside": {
+    "search_placeholder": "Werkzeug suchen...",
+    "character_counter": "Zeichenzähler",
+    "text_inverter": "Textumkehrer",
+    "case_converter": "Groß- und Kleinschreibung umwandeln",
+    "alphabetical_order": "Alphabetische Reihenfolge",
+    "random_number": "Zufallszahlengenerator",
+    "alarm_clock": "Online-Wecker",
+    "stopwatch": "Online-Stoppuhr",
+    "timer": "Online-Timer",
+    "creaftar_text": "Creaftar - Kreuzworträtsel erstellen",
+    "name_picker_wheel": "Online-Namensrad"
+  }
+}

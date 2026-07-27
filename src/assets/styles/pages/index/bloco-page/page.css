@@ -1,0 +1,118 @@
+#container-all-icons{
+    width: 100%;
+    background-color: var(--fundo-card);
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 32px;
+}
+
+#container-pesquisa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    border-radius: 6px;
+    padding-top: 32px;
+}
+#container-input-lupa{
+    display: flex;
+    flex-direction: row;
+    color: rgba(var(--padrao), 1);
+    background-color: var(--fundo-body);
+    width: 360px;
+    height: 42px;
+    border-radius: 6px;
+    border: solid 1px rgba(var(--padrao), 0.3);
+}
+#lupa{
+    color: rgba(var(--padrao), 1);
+    background-color: var(--hover);
+    width: 64px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: solid 1px rgba(var(--padrao), 0.2);
+    cursor: pointer;
+}
+#input-pesquisa-pages{
+    color: rgba(var(--padrao), 1);
+    flex-grow: 1;
+    padding: 9px;
+    background-color: var(--fundo-body);
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#input-pesquisa-pages:focus{
+    border: solid 1px rgba(var(--padrao), 0.6);
+	box-shadow: 0 0 0 0;
+	outline: 0;
+}
+
+.opcaoPage > a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 6px;
+    align-items: center;
+    color: var(--texto);
+    transition: background-color 0.1s;
+}
+
+.opcaoPage > a:hover{
+    background-color: var(--hover);
+}
+
+.page-text-icon{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.page-icon{
+    margin-right: 9px;
+	box-shadow: 0px 0px 9px rgba(var(--shadow), 0.1);
+    border: solid 1px rgba(var(--padrao), 0.1);
+    min-width: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.page-text{
+    background-color: var(--footer-texto);
+    color: var(--texto-texto);
+}
+
+.page-math{
+    background-color: var(--footer-matematica);
+    color: var(--texto-matematica);
+}
+
+.page-game{
+    background-color: var(--footer-jogos);
+    color: var(--texto-jogos);
+}
+
+.page-time{
+    background-color: white;
+    color: rgba(63, 63, 116, 1);
+}
+
+.page-random{
+    background-color: var(--footer-random);
+    color: var(--texto-random);
+}
+
+.hr-pages{
+    border: none;
+    margin: 9px 0;
+    border-bottom: solid 1px rgba(var(--padrao), var(--opacidade-hr));
+}

@@ -1,0 +1,50 @@
+{
+  "legal": {
+    "terms": {
+      "seo": {
+        "title": "Termos de Uso - Tap to Tool",
+        "description": "Leia os termos de serviço do Tap to Tool. Entenda suas liberdades comerciais e responsabilidades ao usar nossas ferramentas online.",
+        "keywords": "termos de uso, licença comercial, privacidade, segurança, utilitários online"
+      },
+      "title": "Termos de Uso",
+      "intro": "Ao acessar o site Tap to Tool, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais vigentes.",
+      "sections": {
+        "one": {
+          "title": "1. Licença de Uso e Liberdade Comercial",
+          "content": "Diferente de plataformas restritivas, o Tap to Tool incentiva a produtividade e o uso profissional de seus utilitários:",
+          "items": [
+            "Você tem permissão para utilizar os resultados gerados por nossas ferramentas (códigos formatados, textos, geradores, etc.) para fins pessoais e comerciais.",
+            "Não exigimos o pagamento de royalties, atribuições obrigatórias ou créditos sobre o conteúdo que você produz utilizando nossas ferramentas."
+          ]
+        },
+        "two": {
+          "title": "2. Restrições de Propriedade",
+          "content": "Embora o resultado que você gera seja seu, a plataforma e sua infraestrutura são de nossa propriedade. Sob esta licença, você não pode:",
+          "items": [
+            "Modificar ou copiar o código-fonte, o design da interface ou a arquitetura do Tap to Tool;",
+            "Tentar descompilar ou fazer engenharia reversa de qualquer software contido no site;",
+            "Remover quaisquer direitos autorais ou outras notações de propriedade dos materiais;",
+            "\"Espelhar\" o site em qualquer outro servidor ou tentar replicar a marca Tap to Tool de forma enganosa."
+          ]
+        },
+        "three": {
+          "title": "3. Isenção de Responsabilidade",
+          "content": "Os materiais no site do Tap to Tool são fornecidos \"como estão\".",
+          "items": [
+            "Não oferecemos garantias de que os utilitários estejam 100% livres de erros técnicos, ortográficos ou fotográficos.",
+            "O Tap to Tool não se responsabiliza por perdas de dados, lucros cessantes ou interrupção de negócios decorrentes do uso ou da incapacidade de usar as ferramentas. A conferência final do resultado gerado é de total responsabilidade do usuário."
+          ]
+        },
+        "four": {
+          "title": "4. Links",
+          "content": "O Tap to Tool não analisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica endosso por nossa parte. O uso de qualquer site vinculado é por conta e risco do usuário."
+        },
+        "five": {
+          "title": "5. Modificações",
+          "content": "Podemos revisar estes termos de serviço a qualquer momento, sem aviso prévio, para refletir melhorias em nossos serviços. Ao continuar utilizando este site, você concorda em ficar vinculado à versão atual desses termos."
+        }
+      },
+      "footer": "Estes termos são efetivos a partir de 20 de Fevereiro de 2026."
+    }
+  }
+}

@@ -1,0 +1,133 @@
+---
+import pt from "@/i18n/components/aside/pt.json";
+import en from "@/i18n/components/aside/en.json";
+import es from "@/i18n/components/aside/es.json";
+import fr from "@/i18n/components/aside/fr.json";
+import it from "@/i18n/components/aside/it.json";
+import de from "@/i18n/components/aside/de.json";
+import ru from "@/i18n/components/aside/ru.json";
+import id from "@/i18n/components/aside/id.json";
+import hi from "@/i18n/components/aside/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang = 'en' } = Astro.props;
+const languageCode = lang.split('-')[0] as keyof typeof locales;
+const urlPrefix = languageCode === 'en' ? "" : `/${languageCode}`;
+const d = locales[languageCode] || locales.en;
+
+
+const { pathname } = Astro.url;
+
+const segments = pathname.split('/').filter(Boolean);
+const paginaCerta = segments.pop() || 'index';
+
+const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiva" : null);
+---
+
+<aside id="menuLateral">
+  <div id="container-opcaoAside">
+    
+    <div class="opcaoAside" data-pagina="character-counter" id={getActiveId("character-counter")}>
+      <a href={`${urlPrefix}/text/character-counter`} aria-label={d.aside.character_counter}>
+        <i class="fa-solid fa-a aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.character_counter}</p>
+      </a>
+    </div>
+
+    <div class="opcaoAside" data-pagina="text-inverter" id={getActiveId("text-inverter")}>
+      <a href={`${urlPrefix}/text/text-inverter`} aria-label={d.aside.text_inverter}>
+        <i class="fa-solid fa-right-left aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.text_inverter}</p>
+      </a>
+    </div>
+
+    <div class="opcaoAside" data-pagina="uppercase-lowercase-converter" id={getActiveId("uppercase-lowercase-converter")}>
+      <a href={`${urlPrefix}/text/uppercase-lowercase-converter`} aria-label={d.aside.case_converter}>
+        <i class="fa-solid fa-up-down aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.case_converter}</p>
+      </a>
+    </div>
+
+    <div class="opcaoAside" data-pagina="alphabetical-order" id={getActiveId("alphabetical-order")}>
+      <a href={`${urlPrefix}/text/alphabetical-order`} aria-label={d.aside.alphabetical_order}>
+        <i class="fa-solid fa-arrow-down-a-z aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.alphabetical_order}</p>
+      </a>
+    </div>
+
+    <hr class="hr-aside">
+
+    <div class="opcaoAside" data-pagina="alarm-clock" id={getActiveId("alarm-clock")}>
+      <a href={`${urlPrefix}/time/alarm-clock`} aria-label={d.aside.alarm_clock}>
+        <i class="fa-solid fa-alarm-clock aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.alarm_clock}</p>
+      </a>
+    </div>
+
+    <div class="opcaoAside" data-pagina="stopwatch" id={getActiveId("stopwatch")}>
+      <a href={`${urlPrefix}/time/stopwatch`} aria-label={d.aside.stopwatch}>
+        <i class="fa-solid fa-stopwatch aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.stopwatch}</p>
+      </a>
+    </div>
+
+    <div class="opcaoAside" data-pagina="timer" id={getActiveId("timer")}>
+      <a href={`${urlPrefix}/time/timer`} aria-label={d.aside.timer}>
+        <i class="fa-solid fa-clock aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.timer}</p>
+      </a>
+    </div>
+
+    <hr class="hr-aside">
+
+    <div class="opcaoAside" data-pagina="random-number" id={getActiveId("random-number")}>
+      <a href={`${urlPrefix}/random/random-number`} aria-label={d.aside.random_number}>
+        <i class="fa-solid fa-shuffle aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.random_number}</p>
+      </a>
+    </div>
+
+    <div class="opcaoAside" data-pagina="spin-wheel" id={getActiveId("spin-wheel")}>
+      <a href={`${urlPrefix}/random/spin-wheel`} aria-label={d.aside.name_picker_wheel}>
+        <i class="fa-solid fa-paper-plane aside-icon" style="transform: rotate(180deg);"></i>
+        <p class="aside-text-icon">{d.aside.name_picker_wheel}</p>
+      </a>
+    </div>
+
+    <hr class="hr-aside">
+    <div class="opcaoAside" data-pagina="qrcode-generator" id={getActiveId("qrcode-generator")}>
+      <a href={`${urlPrefix}/encrypt/qrcode-generator`} aria-label={}>
+        <i class="fa-solid fa-qrcode aside-icon"></i>
+        <p class="aside-text-icon">{}</p>
+      </a>
+    </div>
+    
+    <hr class="hr-aside">
+
+    <div class="opcaoAside" data-pagina="creaftar" id={getActiveId("creaftar")}>
+      <a href="https://creaftar.com" target="_blank" aria-label={d.aside.creaftar_text}>
+        <i class="fa-solid fa-book-open aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.creaftar_text}</p>
+      </a>
+    </div>
+  </div>
+
+  <div id="placeholder-aside-container">
+    <div id="container-iconANDinput">
+      <i class="fa-solid fa-magnifying-glass" id="lupa-aside"></i>
+      <input placeholder={d.aside.search_placeholder} id="pesquisar-ferramenta">
+    </div>
+  </div>
+</aside>
+
+<!--<script>
+  // Como o Astro já renderizou o #opcaoAtiva no servidor, 
+  // só precisamos garantir que ele apareça no scroll se a lista for longa.
+  document.addEventListener('astro:page-load', () => {
+    const activeLink = document.querySelector('#opcaoAtiva');
+    if (activeLink) {
+      activeLink.scrollIntoView({ behavior: "instant", block: "center" });
+    }
+  });
+</script>-->

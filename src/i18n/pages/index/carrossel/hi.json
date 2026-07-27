@@ -1,0 +1,60 @@
+{
+  "carousel_section": {
+    "header": {
+      "main_title": "नए उपकरण खोजें"
+    },
+    "cards": {
+      "alarm": {
+        "title": "ऑनलाइन अलार्म घड़ी",
+        "alt_text": "अलार्म घड़ी पृष्ठ की छवि"
+      },
+      "char_counter": {
+        "title": "अक्षर गणक",
+        "alt_text": "अक्षर गणक पृष्ठ की छवि"
+      },
+      "stopwatch": {
+        "title": "ऑनलाइन स्टॉपवॉच",
+        "alt_text": "स्टॉपवॉच पृष्ठ की छवि"
+      },
+      "random_number": {
+        "title": "यादृच्छिक संख्या जनरेटर",
+        "alt_text": "संख्या जनरेटर पृष्ठ की छवि"
+      },
+      "alphabetical_order": {
+        "title": "वर्णमाला क्रम",
+        "alt_text": "वर्णमाला क्रम पृष्ठ की छवि"
+      }
+    }
+  },
+  "newsletter_section": {
+    "title": "नवीनतम अपडेट से जुड़े रहें!",
+    "tooltip": "हम आपके पंजीकृत ईमेल पर संदेश भेजेंगे, जिससे आप Tap to Tool की सभी नई चीज़ों से अवगत रहेंगे!",
+    "input_placeholder": "उपयोगकर्ता.उदाहरण@ईमेल.कॉम",
+    "button_text": "सदस्यता लें"
+  },
+  "updates_section": {
+    "labels": {
+      "new": "नया!",
+      "ad": "विज्ञापन"
+    },
+    "items": {
+      "text_inverter": {
+        "title": "टेक्स्ट इन्वर्टर",
+        "description": "हमारे नए टूल से अपने टेक्स्ट को उल्टा करें!"
+      },
+      "tool_kit": {
+        "title": "टूल किट",
+        "description": "अब कई टूल वाली एक किट चुनना संभव है!"
+      },
+      "alarm_clock": {
+        "title": "ऑनलाइन अलार्म घड़ी",
+        "description": "एक ही जगह पर कई अलार्म घड़ी बनाएं!"
+      },
+      "creaftar_ad": {
+        "title": "Creaftar",
+        "description": "ऑनलाइन क्रॉसवर्ड खेलें या बनाएं!",
+        "alt_text": "Creaftar विज्ञापन पृष्ठ की छवि"
+      }
+    }
+  }
+}

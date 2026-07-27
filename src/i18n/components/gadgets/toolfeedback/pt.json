@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "Feedback sobre a Ferramenta",
+    "email_placeholder": "exemplo@gmail.com (opcional)",
+    "textarea_placeholder": "Deixe seu feedback aqui",
+    "send_button": "ENVIAR",
+    "copy_button": "COPIAR"
+  },
+  "dynamic":{
+    "success_message": "Seu feedback foi enviado com sucesso!",
+    "error_message": "Ocorreu um erro ao enviar seu feedback, tente novamente mais tarde.",
+    "COPIED": "COPIADO!"
+  }
+}

@@ -1,0 +1,44 @@
+---
+import Footer from '@/components/gadgets/footer.astro';
+import BaseLayout from '@/layout/BaseLayout.astro';
+import Aside from '@/components/aside.astro';
+import Gadget from '@/components/gadgets/feedback.astro';
+import '@/assets/styles/global/aside.css';
+import '@/assets/styles/global/description.css';
+import '@/assets/styles/layout/toollayout.css';
+
+const { 
+  title = "Tap to Tool", 
+  description = "Encontre o que quiser em uma coleção de ferramentas online, gratuitas e rápidas para o seu dia a dia", 
+  keywords = "contador de letras, contador de palavras, contador de frases, contador de paragrafos, contador de linhas, contador de caracteres sem espaço, contador de caracteres, contador de caracteres no word, contador de caracteres online, contador de caracteres de texto, contador de caracteres escritos, contador de palavras e caracteres, contador de caracteres em um texto, contador de palavras e caracteres, contador de caracteres online gratis, contador de caracteres sem espaco",
+  lang = "en",
+  canonical = "https://taptotool.com/" 
+} = Astro.props;
+---
+
+<BaseLayout
+  {title}
+  {description} 
+  {keywords}
+  {lang}
+  {canonical}
+>
+    <slot name="ld-json" slot="ld-json" />
+    <div class="adArea" id="adLeft" slot="adLeft"></div>
+    
+    <div id="toollayout">
+      <Aside lang={lang}/>
+      <div id="container-conteudo">          
+        <div id="container-content">
+          <slot />
+        </div>
+        <hr class="hr-content">
+        <slot name="SEO" />
+      </div>
+      <Gadget lang={lang}/>
+    </div>
+    
+    <Footer lang={lang} />
+    <div class="adArea" id="adRight" slot="adRight"></div>
+    <slot name="scripts" slot="scripts" />
+</BaseLayout>

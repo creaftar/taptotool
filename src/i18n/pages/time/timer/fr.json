@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Minuteur en Ligne - Tap to Tool",
+    "description": "Utilisez le minuteur en ligne de Tap to Tool pour créer plusieurs comptes à rebours. Idéal pour la productivité, les entraînements et la cuisine. Sauvegarde automatique de vos paramètres.",
+    "keywords": "minuteur en ligne, timer en ligne, compte à rebours, chronomètre, minuteurs multiples, timer pour étudier",
+    "canonical": "https://taptotool.com/timer"
+  },
+  "schema": {
+    "app_name": "Minuteur en Ligne Tap to Tool",
+    "app_description": "Créez plusieurs minuteurs de compte à rebours en ligne avec sauvegarde automatique et personnalisation.",
+    "howto_name": "Comment utiliser le minuteur en ligne",
+    "howto_description": "Le minuteur en ligne est un outil gratuit et précis pour mesurer le temps.",
+    "step1_name": "Démarrer et Suspendre",
+    "step1_text": "Cliquez sur l'icône Play/Pause (▶/⏸) pour mettre en pause ou reprendre le décompte.",
+    "step2_name": "Enregistrer un tour",
+    "step2_text": "Cliquez sur le bouton Tour/Lap pour permettre (ou non) à votre minuteur de sonner 5 fois de suite.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Minuteur en Ligne"
+  },
+  "ui": {
+    "h1": "Minuteur en Ligne - Compte à Rebours",
+    "intro_text": "Le minuteur en ligne de Tap to Tool vous permet de gérer plusieurs comptes à rebours simultanément, idéal pour la précision et l'organisation.",
+    "new_timer_button": "+ Nouveau Minuteur",
+    "current_time_label": "Heure actuelle",
+    "placeholder_timer_name": "Nom du minuteur (ex: Focus, Cuisine)",
+    "unit_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Fonctionnalités du Timer",
+    "feature_1_title": "Minuteurs multiples",
+    "feature_1_text": "Lancez plusieurs comptes à rebours en même temps pour différentes tâches.",
+    "feature_2_title": "Personnalisation",
+    "feature_2_text": "Nommez chaque minuteur pour identifier rapidement sa fonction.",
+    "feature_3_title": "Organisation",
+    "feature_3_text": "Faites glisser les cartes pour prioriser les comptes à rebours qui se terminent en premier.",
+    "feature_4_title": "Mémoire",
+    "feature_4_text": "Vos minuteurs restent sauvegardés dans votre navigateur pour une utilisation continue.",
+    "usage_title": "Mode d'emploi",
+    "usage_step_1": "1. Cliquez sur '+ Nouveau Minuteur' pour ajouter un décompte à votre liste.",
+    "usage_step_2": "2. Réglez la durée souhaitée (heures, minutes et secondes).",
+    "usage_step_3": "3. Cliquez sur le titre de la carte pour la renommer.",
+    "usage_step_4": "4. Lancez le décompte et organisez vos cartes par glisser-déposer.",
+    "footer_share_text": "Besoin de plusieurs minuteurs ? Découvrez l'outil de Tap to Tool !"
+  },
+  "dynamic": {
+    "default_timer_name": "Minuteur sans nom",
+    "choose_audio": "Choisir la sonnerie"
+  }
+}

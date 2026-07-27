@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Su Tap to Tool | Strumenti Digitali Semplici e Veloci",
+    "description": "Strumenti semplici per grandi idee. Scopri la missione, i valori e come Tap to Tool semplifica la tua routine digitale con utilità gratuite e veloci",
+    "keywords": "su tap to tool, tool online, utilità digitali, produttività, strumenti gratuiti, convertitore file, formattazione testo"
+  },
+  "schema": {
+    "page_name": "Su Tap to Tool",
+    "page_description": "Missione, principi e contatti di Tap to Tool - Strumenti semplici per grandi idee.",
+    "breadcrumb_home": "Inizio",
+    "breadcrumb_current": "Su di noi"
+  },
+  "content": {
+    "title": "Su Tap to Tool",
+    "subtitle": "Strumenti semplici per grandi idee.",
+    "description_p1": "Tap to Tool è nato dalla necessità di soluzioni rapide e semplici per le attività digitali quotidiane. Crediamo che tu non debba affrontare siti pesanti, annunci invasivi o registrazioni non necessarie solo per eseguire compiti semplici come formattare testi, generare dati o convertire file.",
+    "description_p2": "La nostra missione è essere il tuo coltellino svizzero digitale: un centro di utilità progettato per offrire precisione, velocità e facilità d'uso.",
+    "principles_title": "I nostri principi",
+    "principles": [
+      {
+        "label": "Prestazioni",
+        "text": "I nostri strumenti sono leggeri e si caricano istantaneamente, mantenendo il tuo flusso di lavoro continuo."
+      },
+      {
+        "label": "Privacy",
+        "text": "Diamo priorità all'elaborazione locale (client-side). La maggior parte di ciò che elabori qui rimane nel tuo browser e non tocca mai i nostri server."
+      },
+      {
+        "label": "Accessibilità",
+        "text": "Un design pulito e funzionale, disponibile su qualsiasi dispositivo, ovunque nel mondo, gratuitamente."
+      }
+    ],
+    "footer_text": "Che tu sia uno sviluppatore, un creatore di contenuti o qualcuno in cerca di maggiore produttività, Tap to Tool è qui per assicurarti di avere esattamente ciò di cui hai bisogno, nel momento in cui ne hai bisogno.",
+    "contact_title": "Contatti",
+    "contact_text": "Hai domande, suggerimenti o vuoi inviare un feedback? Puoi inviare un feedback su ogni strumento nell'angolo in basso a destra della pagina o puoi trovarci qui:"
+  }
+}

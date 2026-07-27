@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Conversor de Mayúsculas y Minúsculas Online - Tap to Tool",
+    "description": "Convierte tu texto instantáneamente a minúsculas, MAYÚSCULAS, Primera Letra de Frase en Mayúscula o Estilo TROLL. Rápido y fácil con Tap to Tool.",
+    "keywords": "conversor de mayúsculas y minúsculas, texto en mayúsculas, texto en minúsculas, convertir caja de texto, cambiar formato de texto, capitalizar texto"
+  },
+  "schema": {
+    "app_name": "Conversor de Mayúsculas y Minúsculas Online",
+    "app_description": "Convierte tu texto instantáneamente a minúsculas, MAYÚSCULAS, Primera Letra de Frase en Mayúscula o Estilo TROLL. Rápido y fácil con Tap to Tool.",
+    "howto_name": "Cómo Usar el Conversor de Mayúsculas y Minúsculas Online",
+    "howto_description": "El Conversor de Texto es una herramienta online gratuita que permite cambiar el formato de cualquier texto escrito o pegado.",
+    "step1_name": "Ingresa el Texto",
+    "step1_text": "Copia y pega o escribe el texto en el área de entrada de la herramienta.",
+    "step2_name": "Selecciona el Formato",
+    "step2_text": "Haz clic en el icono que representa el formato de texto deseado (Minúsculas, MAYÚSCULAS, Primera Letra, TROLL).",
+    "step3_name": "Copia el Resultado",
+    "step3_text": "Copia el resultado de tu texto convertido en el campo de al lado.",
+    "breadcrumb_home": "Página Principal",
+    "breadcrumb_current": "Conversor de Mayúsculas y Minúsculas"
+  },
+  "ui": {
+    "h1_main": "CONVERSOR DE MAYÚSCULAS Y MINÚSCULAS",
+    "placeholder_input": "Escribe o pega el texto que deseas convertir...",
+    "paste_text": "Haz clic para pegar tu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Intenta pegar con Ctrl + V o verifica si el acceso al portapapeles está permitido",
+    "tooltip_copy": "Copiar texto",
+    "tooltip_delete": "Borrar texto",
+    "tooltip_copy_results": "Copiar resultado",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Conversor de Mayúsculas y Minúsculas Online",
+    "intro_text": "La herramienta más rápida y sencilla para cambiar el formato (mayúsculas y minúsculas) de tu texto.",
+    "usage_title": "¿Cómo usar el Conversor de Mayúsculas y Minúsculas?",
+    "step_1": "Ingresa el Texto: Copia y pega o escribe el texto que deseas formatear en el área de texto designada.",
+    "step_2": "Selecciona el Formato: Haz clic en el icono correspondiente al estilo deseado:",
+    "type_lower_title": "Minúsculas (abcd)",
+    "type_lower_text": "Convierte todo el texto a letras minúsculas.",
+    "type_upper_title": "MAYÚSCULAS (ABCD)",
+    "type_upper_text": "Convierte todo el texto a letras MAYÚSCULAS.",
+    "type_sentence_title": "Primera Letra en Mayúscula (Ab. C)",
+    "type_sentence_text": "Convierte el texto con la primera letra de cada frase en mayúsculas.",
+    "type_troll_title": "Estilo TROLL (AbCd)",
+    "type_troll_text": "Convierte el texto alternando entre mayúsculas y minúsculas.",
+    "step_3": "Copia el Resultado: El texto formateado se muestra al instante en el campo de al lado para que lo copies.",
+    "benefits_title": "¿Cuáles son los beneficios de un Conversor de Texto?",
+    "benefits_intro": "Un conversor de formato de texto es extremadamente útil para:",
+    "benefit_1_title": "Normalización Rápida",
+    "benefit_1_text": "Garantizar que un documento entero esté en el formato estándar exigido (ej: títulos en MAYÚSCULAS o contenido en minúsculas).",
+    "benefit_2_title": "Corrección de Errores",
+    "benefit_2_text": "Corregir rápidamente textos escritos accidentalmente con la tecla 'Bloq Mayús' activada o sin mayúsculas al inicio de las frases.",
+    "benefit_3_title": "Marketing y Redes Sociales",
+    "benefit_3_text": "Crear llamadas de atención (con MAYÚSCULAS) o publicaciones con un estilo de texto diferente (Estilo TROLL) para generar interacción.",
+    "benefit_4_title": "Optimización de Contenido",
+    "benefit_4_text": "Formatear bloques de texto para mejorar la legibilidad y la organización visual.",
+    "footer_text": "¡Normaliza tu escritura y ahorra tiempo en la edición con el Conversor de Mayúsculas y Minúsculas!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hola, bienvenido(a). Escribe tu texto aquí...",
+    "result_phrase": "hola, bienvenido(a). escribe tu texto aquí..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "aBcD"
+  }
+}

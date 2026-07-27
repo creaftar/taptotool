@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Text Inverter Online - Tap to Tool",
+    "description": "Quickly reverse your text online! Use the Text Inverter from Tap to Tool to flip the order of all characters.",
+    "keywords": "text inverter, invert text online, reversed text, reverse words, reverse characters, text flipper, backwords text"
+  },
+  "schema": {
+    "app_name": "Online Text Inverter",
+    "app_description": "Quickly reverse your text online! Use the Text Inverter from Tap to Tool to flip the order of all characters.",
+    "howto_name": "How to Use the Online Text Inverter",
+    "howto_description": "The Text Inverter is a free online tool that allows you to reverse the order of characters in any text entered or pasted.",
+    "step1_name": "Enter Text",
+    "step1_text": "Copy and paste or type your text into the input area of the tool.",
+    "step2_name": "Copy Result",
+    "step2_text": "Copy the result of your inverted text generated in the field next to it.",
+    "breadcrumb_home": "Home Page",
+    "breadcrumb_current": "Online Text Inverter"
+  },
+  "ui": {
+    "h1_main": "TEXT INVERTER",
+    "placeholder_input": "Type or paste the text you want to invert...",
+    "paste_text": "Click to Paste Your Text",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Try pasting with CTRL + V or check if your clipboard access is allowed",
+    "tooltip_copy": "Copy Text",
+    "tooltip_delete": "Clear Text",
+    "tooltip_copy_results": "Copy Result",
+    "price_currency": "USD"
+  },
+  "content": {
+    "h1_seo": "Online Text Inverter",
+    "intro_text": "The fastest and simplest tool to reverse the order of characters in your text.",
+    "usage_title": "How to Use the Text Inverter?",
+    "step_1": "Enter Text: Copy and paste or type the text you want to invert into the designated text area.",
+    "step_2": "View Result Beside: You don't need to do anything else, leave the rest to us! Simply copy your generated response from the field next to it.",
+    "why_use_title": "Why Use a Text Inverter?",
+    "why_use_intro": "A text inverter is useful for various reasons:",
+    "benefit_1_title": "Creativity and Style",
+    "benefit_1_text": "Generate unique visual or writing effects for social media, digital art, or games.",
+    "benefit_2_title": "Light Cryptography",
+    "benefit_2_text": "Add a basic layer of obfuscation to messages that don't require robust security.",
+    "benefit_3_title": "Testing and Debugging",
+    "benefit_3_text": "Helps test string manipulation in programming or verify the functionality of text layouts.",
+    "benefit_4_title": "Entertainment",
+    "benefit_4_text": "Simply for fun and to see how your text would look reversed.",
+    "footer_text": "Create creative effects and transform your messages instantly with the Text Inverter!"
+  },
+  "dynamic":{
+    "standard_phrase": "Hello, welcome. Type your text here...",
+    "result_phrase": "...ereh txet ruoy epyT .emoclew ,olleH"
+  }
+}

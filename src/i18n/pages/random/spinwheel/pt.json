@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Roleta Aleatória de Nomes - Tap to Tool",
+    "description": "Gire a roleta online para sorteios rápidos e justos. Sorteie nomes, opções e tome decisões aleatórias em segundos com nossa Spin Wheel gratuita.",
+    "keywords": "roleta online, sortear nomes, roleta personalizada, spin the wheel, sorteio aleatório, roleta de decisões, sorteador de nomes"
+  },
+  "schema": {
+    "app_name": "Roleta Aleatória de Nomes - Tap to Tool",
+    "app_description": "Ferramenta de roleta virtual personalizável para sorteios de nomes e decisões aleatórias.",
+    "howto_name": "Como usar a Roleta Online",
+    "howto_description": "Aprenda a criar sua roleta personalizada e realizar sorteios em apenas 3 passos simples.",
+    "step1_name": "Inserir Opções",
+    "step1_text": "Digite os nomes, números ou opções que deseja sortear na caixa de texto, separando-os por linha.",
+    "step2_name": "Configurar a Roleta",
+    "step2_text": "Verifique se todas as fatias da roleta estão corretas e personalize os itens se necessário.",
+    "step3_name": "Girar e Sortear",
+    "step3_text": "Clique no botão central da roleta para girar e aguarde o sorteio do vencedor aleatório.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Roleta Aleatória de Nomes"
+  },
+  "ui": {
+    "placeholder_input": "Escolha 1\nEscolha 2\nEscolha 3\nEscolha 4\nEscolha 5\nEscolha 6\nEscolha 7",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "tooltip_copy": "Copiar o texto",
+    "tooltip_delete": "Limpar texto",
+    "winner_label": "O vencedor é:",
+    "btn_close": "Fechar",
+    "btn_remove": "Remover",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "Roleta Aleatória de Nomes - Gire para Sortear Nomes e Itens",
+    "intro_text": "Nossa Roleta Online é a ferramenta gratuita ideal para quem precisa de um sorteio rápido, justo e visual. Seja para decidir onde almoçar, sortear nomes de alunos ou definir o vencedor de um brinde, nossa roleta oferece resultados 100% aleatórios em segundos.",
+    "usage_title": "Como usar a Roleta de Sorteio?",
+    "step_1": "Insira os nomes ou opções que você deseja sortear no campo de texto indicado.",
+    "step_2": "Personalize as opções da sua roleta conforme a sua necessidade:",
+    "type_input_title": "Entrada de Nomes",
+    "type_input_text": "Digite um item por linha para criar as fatias.",
+    "type_edit_title": "Fácil Edição",
+    "type_edit_text": "Adicione ou remova opções a qualquer momento antes de girar.",
+    "type_instant_title": "Resultado Instantâneo",
+    "type_instant_text": "A roleta calcula a física do giro para garantir total imparcialidade.",
+    "type_clean_title": "Interface Limpa",
+    "type_clean_text": "Sem anúncios intrusivos que atrapalham a sua visualização ou o sorteio.",
+    "step_3": "Clique na roleta para girar e aguarde ela parar no vencedor escolhido pela sorte!",
+    "benefits_title": "Vantagens de usar nossa Roleta Aleatória",
+    "benefits_intro": "Diferente de métodos manuais, nossa ferramenta digital garante que ninguém saia prejudicado. Veja por que usar nossa Spin Wheel:",
+    "benefit_1_title": "Totalmente Imparcial",
+    "benefit_1_text": "Utilizamos algoritmos de aleatoriedade baseados em sistemas matemáticos precisos.",
+    "benefit_2_title": "Uso Educacional",
+    "benefit_2_text": "Ferramenta favorita de professores para escolher alunos ou temas de trabalhos de forma divertida.",
+    "benefit_3_title": "Decisões Rápidas",
+    "benefit_3_text": "Elimine a indecisão em grupos de amigos ou no trabalho com um giro rápido.",
+    "benefit_4_title": "Sem Download",
+    "benefit_4_text": "Funciona diretamente no seu navegador, seja no celular ou no computador, sem instalar nada.",
+    "footer_text": "Pronto para decidir? Comece a usar nossa roleta personalizada agora e deixe que o destino faça a escolha por você. Simples, rápido e 100% gratuito."
+  },
+  "dynamic": {
+    "standard_phrase": "Escolha 1\nEscolha 2\nEscolha 3\nEscolha 4\nEscolha 5\n Escolha 6\nEscolha 7",
+    "winner_prefix": "O vencedor é:"
+  }
+}

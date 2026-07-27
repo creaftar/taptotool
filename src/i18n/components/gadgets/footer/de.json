@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "tagline": "Einfache Tools für großartige Ideen.",
+    "description_p1": "<strong>Tap to Tool</strong> ist das digitale Schweizer Taschenmesser für alle, die produktiver sein möchten. Entwickelt, um leicht, kostenlos und weltweit zugänglich zu sein.",
+    "description_p2": "Als zentrale Anlaufstelle für Dienstprogramme, die auf Präzision und Geschwindigkeit ausgelegt sind, legen unsere Tools den Fokus auf Datenschutz, Leistung und Zugänglichkeit. So haben Sie das, was Sie brauchen, wann Sie es brauchen, ohne Komplikationen.",
+    "links": {
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - Alle Rechte vorbehalten.",
+    "alt_tap_to_tool": "Tap to Tool Logo",
+    "alt_creaftar": "Creaftar Logo"
+  }
+}

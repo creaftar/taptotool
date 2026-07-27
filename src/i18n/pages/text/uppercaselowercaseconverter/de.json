@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Groß- und Kleinschreibung Konverter - Tap to Tool",
+    "description": "Wandeln Sie Ihren Text sofort in Kleinbuchstaben, GROSSBUCHSTABEN, Satzanfang groß oder TROLL-Stil um. Schnell und einfach mit Tap to Tool.",
+    "keywords": "text konverter, groß- und kleinschreibung, text umwandeln, großbuchstaben, kleinbuchstaben, text formatieren"
+  },
+  "schema": {
+    "app_name": "Groß- und Kleinschreibung Konverter Online",
+    "app_description": "Wandeln Sie Ihren Text sofort in Kleinbuchstaben, GROSSBUCHSTABEN, Satzanfang groß oder TROLL-Stil um. Schnell und einfach mit Tap to Tool.",
+    "howto_name": "So verwenden Sie den Text-Konverter online",
+    "howto_description": "Der Text-Konverter ist ein kostenloses Online-Tool, mit dem Sie die Groß- und Kleinschreibung von beliebigem Text ändern können.",
+    "step1_name": "Text eingeben",
+    "step1_text": "Kopieren Sie Ihren Text und fügen Sie ihn in das Eingabefeld des Tools ein oder tippen Sie ihn direkt ein.",
+    "step2_name": "Format auswählen",
+    "step2_text": "Klicken Sie auf das Symbol für das gewünschte Textformat (Kleinschreibung, GROSSCHREIBUNG, Satzanfang groß, TROLL).",
+    "step3_name": "Ergebnis kopieren",
+    "step3_text": "Kopieren Sie das Ergebnis des konvertierten Textes aus dem nebenstehenden Feld.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Text-Konverter"
+  },
+  "ui": {
+    "h1_main": "GROSS- UND KLEINSCHREIBUNG KONVERTER",
+    "placeholder_input": "Geben Sie hier Ihren Text ein oder fügen Sie ihn ein...",
+    "paste_text": "Klicken zum Einfügen",
+    "paste_shortcut": "Strg + V",
+    "error_clipboard": "Versuchen Sie es mit Strg + V oder prüfen Sie, ob der Zugriff auf die Zwischenablage erlaubt ist.",
+    "tooltip_copy": "Text kopieren",
+    "tooltip_delete": "Text löschen",
+    "tooltip_copy_results": "Ergebnis kopieren",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Online-Konverter für Groß- und Kleinschreibung",
+    "intro_text": "Das schnellste und einfachste Tool zum Formatieren der Groß- und Kleinschreibung Ihres Textes.",
+    "usage_title": "Wie benutzt man den Text-Konverter?",
+    "step_1": "Text eingeben: Kopieren Sie den Text, den Sie formatieren möchten, und fügen Sie ihn in das vorgesehene Textfeld ein.",
+    "step_2": "Formatierung wählen: Klicken Sie auf das Symbol für den gewünschten Stil:",
+    "type_lower_title": "Kleinschreibung (abcd)",
+    "type_lower_text": "Wandelt den gesamten Text in Kleinbuchstaben um.",
+    "type_upper_title": "GROSSBUCHSTABEN (ABCD)",
+    "type_upper_text": "Wandelt den gesamten Text in Großbuchstaben um.",
+    "type_sentence_title": "Satzanfang groß (Ab. C)",
+    "type_sentence_text": "Wandelt den Text so um, dass der erste Buchstabe jedes Satzes großgeschrieben wird.",
+    "type_troll_title": "TROLL-Stil (AbCd)",
+    "type_troll_text": "Wandelt den Text abwechselnd in Groß- und Kleinbuchstaben um.",
+    "step_3": "Ergebnis kopieren: Der formatierte Text wird sofort im Feld daneben angezeigt, damit Sie ihn kopieren können.",
+    "benefits_title": "Was sind die Vorteile eines Text-Konverters?",
+    "benefits_intro": "Ein Konverter für Groß- und Kleinschreibung ist äußerst nützlich für:",
+    "benefit_1_title": "Schnelle Standardisierung",
+    "benefit_1_text": "Sicherstellen, dass ein gesamtes Dokument im erforderlichen Standardformat vorliegt (z. B. Titel in Großbuchstaben).",
+    "benefit_2_title": "Fehlerkorrektur",
+    "benefit_2_text": "Schnelle Korrektur von Texten, die versehentlich mit aktivierter Feststelltaste (Caps Lock) oder ohne Großschreibung am Satzanfang geschrieben wurden.",
+    "benefit_3_title": "Marketing und Social Media",
+    "benefit_3_text": "Erstellen von aufmerksamkeitsstarken Aufrufen (in Großbuchstaben) oder Posts mit einem besonderen Textstil (Troll-Stil) für mehr Engagement.",
+    "benefit_4_title": "Content-Optimierung",
+    "benefit_4_text": "Formatieren von Textblöcken zur Verbesserung der Lesbarkeit und visuellen Organisation.",
+    "footer_text": "Standardisieren Sie Ihre Texte und sparen Sie Zeit bei der Bearbeitung mit dem Text-Konverter!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hallo, willkommen. Geben Sie Ihren Text hier ein...",
+    "result_phrase": "hallo, willkommen. geben sie ihren text hier ein..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "aBcD"
+  }
+}

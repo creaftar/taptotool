@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Online Text Case Converter - Tap to Tool",
+    "description": "Instantly convert your text to lowercase, UPPERCASE, Sentence case or TROLL style. Fast and easy with Tap to Tool.",
+    "keywords": "text case converter, uppercase, lowercase, sentence case, change text case, capitalize text"
+  },
+  "schema": {
+    "app_name": "Online Text Case Converter",
+    "app_description": "Instantly convert your text to lowercase, UPPERCASE, Sentence case or TROLL style. Fast and easy with Tap to Tool.",
+    "howto_name": "How to Use the Online Text Case Converter",
+    "howto_description": "The Text Case Converter is a free online tool that allows you to change the capitalization of any text entered or pasted.",
+    "step1_name": "Enter Text",
+    "step1_text": "Copy and paste or type your text into the input field of the tool.",
+    "step2_name": "Select Format",
+    "step2_text": "Click on the icon representing the desired text format (Lowercase, UPPERCASE, Sentence case, or TROLL).",
+    "step3_name": "Copy Result",
+    "step3_text": "Copy the result of your converted text from the result field.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Text Case Converter"
+  },
+  "ui": {
+    "h1_main": "TEXT CASE CONVERTER",
+    "placeholder_input": "Enter or paste the text you want to convert...",
+    "paste_text": "Click to paste your text",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Try pasting with CTRL + V or check if clipboard access is allowed.",
+    "tooltip_copy": "Copy Text",
+    "tooltip_delete": "Clear Text",
+    "tooltip_copy_results": "Copy Result",
+    "price_currency": "USD"
+  },
+  "content": {
+    "h1_seo": "Online Text Case Converter",
+    "intro_text": "The fastest and simplest tool to format the case (uppercase and lowercase) of your text.",
+    "usage_title": "How to use the Online Text Case Converter?",
+    "step_1": "Enter Text: Copy and paste or type the text you want to format in the designated text area.",
+    "step_2": "Select Formatting: Click on the icon corresponding to the desired style:",
+    "type_lower_title": "Lowercase (abcd)",
+    "type_lower_text": "Converts all text to lowercase letters.",
+    "type_upper_title": "UPPERCASE (ABCD)",
+    "type_upper_text": "Converts all text to uppercase letters.",
+    "type_sentence_title": "Sentence case (Ab. C)",
+    "type_sentence_text": "Converts the text with the first letter of each sentence in uppercase.",
+    "type_troll_title": "TROLL style (AbCd)",
+    "type_troll_text": "Converts the text by alternating between uppercase and lowercase letters.",
+    "step_3": "Copy Result: The formatted text is displayed instantly in the result field for you to copy.",
+    "benefits_title": "What are the benefits of a Text Case Converter?",
+    "benefits_intro": "A text case converter is extremely useful for:",
+    "benefit_1_title": "Rapid Standardization",
+    "benefit_1_text": "Ensuring that an entire document follows the required standard format (e.g., titles in UPPERCASE or body text in lowercase).",
+    "benefit_2_title": "Error Correction",
+    "benefit_2_text": "Quickly correcting text accidentally typed with Caps Lock on or without proper capitalization at the beginning of sentences.",
+    "benefit_3_title": "Marketing and Social Media",
+    "benefit_3_text": "Creating attention-grabbing headlines (with UPPERCASE) or unique social media posts (TROLL style) for better engagement.",
+    "benefit_4_title": "Content Optimization",
+    "benefit_4_text": "Formatting blocks of text to improve readability and visual organization.",
+    "footer_text": "Standardize your writing and save time on editing with the Text Case Converter!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hello, welcome. Enter your text here...",
+    "result_phrase": "hello, welcome. enter your text here..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "aBcD"
+  }
+}

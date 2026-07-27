@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "TROUVEZ UN KIT D'OUTILS"
+    },
+    "text_kit": {
+      "title": "TEXTES",
+      "alt_text": "Kit d'outils de texte"
+    },
+    "math_kit": {
+      "title": "MATHÉMATIQUES",
+      "alt_text": "Kit d'outils mathématiques"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Logo Creaftar",
+      "description": "Creaftar est votre espace pour créer, éditer et supprimer des mots croisés en ligne. Défiez vos amis et jouez aux créations exclusives de notre communauté.",
+      "button_text": "Accédez à Creaftar maintenant !"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Online Name Picker Wheel - Tap to Tool",
+    "description": "Spin the wheel online for fast and fair random drawings. Pick names, options, and make random decisions in seconds with our free customizable Spin Wheel.",
+    "keywords": "online spinner, name picker, custom spin wheel, random name drawer, decision wheel, random selection tool"
+  },
+  "schema": {
+    "app_name": "Online Name Picker Wheel - Tap to Tool",
+    "app_description": "A customizable virtual wheel tool for random name drawings and quick decision making.",
+    "howto_name": "How to Use the Online Spinner",
+    "howto_description": "Learn how to create your custom wheel and run random drawings in just 3 simple steps.",
+    "step1_name": "Enter Your Options",
+    "step1_text": "Type the names, numbers, or options you want to draw into the text box, placing each on a new line.",
+    "step2_name": "Configure the Wheel",
+    "step2_text": "Check that all wheel segments are correct and customize the entries as needed.",
+    "step3_name": "Spin to Win",
+    "step3_text": "Click the center of the wheel to spin and wait for it to land on a random winner.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online Name Picker"
+  },
+  "ui": {
+    "placeholder_input": "Option 1\nOption 2\nOption 3\nOption 4\nOption 5\nOption 6\nOption 7",
+    "paste_text": "Click to paste your text",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Try pasting with CTRL + V or check your browser's clipboard permissions.",
+    "tooltip_copy": "Copy text",
+    "tooltip_delete": "Clear all",
+    "winner_label": "The winner is:",
+    "btn_close": "Close",
+    "btn_remove": "Remove",
+    "price_currency": "USD"
+  },
+  "content": {
+    "h1_seo": "Customizable Online Spinner - Spin to Pick Names and Make Decisions",
+    "intro_text": "Our Online Spinner is the perfect free tool for anyone needing a fast, fair, and visual random draw. Whether you're deciding where to eat lunch, picking student names, or choosing a giveaway winner, our wheel delivers 100% random results in seconds.",
+    "usage_title": "How to Use the Random Name Picker?",
+    "step_1": "Enter the names or options you want to include in the designated text field.",
+    "step_2": "Customize your wheel settings to fit your needs:",
+    "type_input_title": "Easy Input",
+    "type_input_text": "Type one item per line to automatically create the wheel segments.",
+    "type_edit_title": "Quick Editing",
+    "type_edit_text": "Add or remove options at any time before you spin.",
+    "type_instant_title": "Instant Results",
+    "type_instant_text": "The wheel uses physics-based rotation to ensure total randomness and fairness.",
+    "type_clean_title": "Clean Interface",
+    "type_clean_text": "No intrusive ads to distract you from your drawing or results.",
+    "step_3": "Click the wheel to spin and wait for it to land on the winner chosen by fate!",
+    "benefits_title": "Why Use Our Random Spin Wheel?",
+    "benefits_intro": "Unlike manual methods, our digital tool ensures complete transparency. Here is why you should use our Spin Wheel:",
+    "benefit_1_title": "Completely Unbiased",
+    "benefit_1_text": "We use randomization algorithms based on precise mathematical systems.",
+    "benefit_2_title": "Perfect for Classrooms",
+    "benefit_2_text": "A favorite tool for teachers to call on students or pick lesson topics in a fun way.",
+    "benefit_3_title": "Fast Decision Making",
+    "benefit_3_text": "End indecision among friends or coworkers with a quick, definitive spin.",
+    "benefit_4_title": "No Installation",
+    "benefit_4_text": "Works directly in your web browser on mobile or desktop—no downloads required.",
+    "footer_text": "Ready to decide? Start using our custom wheel now and let fate choose for you. Simple, fast, and 100% free."
+  },
+  "dynamic": {
+    "standard_phrase": "Option 1\nOption 2\nOption 3\nOption 4\nOption 5\nOption 6\nOption 7",
+    "winner_prefix": "The winner is:"
+  }
+}

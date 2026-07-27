@@ -1,0 +1,11 @@
+#toollayout{
+    margin: 56px calc(10% + 64px) 0 10%;
+    display: flex;
+    align-items: stretch;
+}
+
+@media(max-width: 1024px){
+    #toollayout{
+        margin: 56px 0 0 0;
+    }
+}

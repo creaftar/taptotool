@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Despertador Online - Tap to Tool",
+    "description": "Configura múltiples alarmas online con Tap to Tool. Personaliza con tus propios audios, arrastra para organizar y gestiona tus horarios con precisión y facilidad.",
+    "keywords": "alarma online, despertador online, configurar alarma, alarma con música propia, gestor de alarmas, despertador de navegador, múltiples despertadores, varias alarmas"
+  },
+  "schema": {
+    "app_name": "Despertador Online - Tap to Tool",
+    "app_description": "Configura múltiples alarmas online. Personaliza con tus propios audios, arrastra para organizar y gestiona tus horarios con precisión y facilidad.",
+    "howto_name": "Cómo usar el despertador online",
+    "howto_description": "El despertador online es una herramienta poderosa para configurar y gestionar múltiples alarmas simultáneas.",
+    "step1_name": "Crear alarma",
+    "step1_text": "Haz clic en el botón '+ Nueva Alarma' para generar una nueva tarjeta de configuración.",
+    "step2_name": "Configurar horario",
+    "step2_text": "Selecciona las horas y los minutos deseados en los campos digitales de cada tarjeta.",
+    "step3_name": "Personalizar sonido y nombre",
+    "step3_text": "Asigna un título a tu alarma haciendo clic en el nombre e selecciona un archivo de audio de tu dispositivo haciendo clic en el botón de selección de audio.",
+    "step4_name": "Organizar y activar",
+    "step4_text": "Arrastra las tarjetas para definir la prioridad visual. La alarma se activará automáticamente cuando el tiempo restante llegue a cero.",
+    "breadcrumb_home": "Página de inicio",
+    "breadcrumb_current": "Despertador Online"
+  },
+  "ui": {
+    "h1": "Despertador Online Personalizable",
+    "intro_text": "Organiza tu rutina con el despertador online más intuitivo. Configura recordatorios, despierta con tus canciones favoritas y gestiona tus alarmas.",
+    "add_alarm": "+ Nueva Alarma",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Funcionalidades principales",
+    "feature_audio": "Personalización de audio: Usa sonidos estándar o sube tu propio archivo de audio.",
+    "feature_org": "Organización inteligente: Haz clic y mantén presionado para reordenar tus alarmas según la prioridad.",
+    "feature_multiple": "Múltiples alarmas: Crea tantas alarmas como necesites para tu día a día.",
+    "feature_save": "Guardado automático: Tus alarmas se guardan en el navegador, listas para la próxima vez que visites el sitio.",
+    "usage_title": "Instrucciones de uso",
+    "usage_step1": "Haz clic en '+ Nueva Alarma' para crear una tarjeta.",
+    "usage_step2": "Ajusta la hora y los minutos en los selectores digitales.",
+    "usage_step3": "Haz clic en el nombre para editar el título de la alarma.",
+    "usage_step4": "Haz clic en el botón de selección de audio para elegir tu sonido preferido directamente desde tu ordenador.",
+    "tips_title": "Consejos de interactividad",
+    "tip_drag": "Haz clic y arrastra cualquier tarjeta para cambiar el orden de tus alarmas.",
+    "tip_rename": "Haz clic sobre el nombre de la alarma para renombrarla (ej: 'Medicina', 'Reunión').",
+    "tip_test": "El icono de audio te permite probar el sonido antes de usarlo.",
+    "footer_text": "¡Crea diversas alarmas y organiza tu rutina al instante con el Despertador Online de Tap to Tool!"
+  },
+  "dynamic": {
+    "default_alarm_name": "Despertador sin nombre",
+    "choose_audio": "Elegir Audio"
+  }
+}

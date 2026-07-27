@@ -1,0 +1,60 @@
+{
+  "carousel_section": {
+    "header": {
+      "main_title": "JELAJAHI ALAT BARU"
+    },
+    "cards": {
+      "alarm": {
+        "title": "JAM ALARM ONLINE",
+        "alt_text": "Gambar halaman jam alarm"
+      },
+      "char_counter": {
+        "title": "PENGHITUNG KARAKTER",
+        "alt_text": "Gambar halaman penghitung karakter"
+      },
+      "stopwatch": {
+        "title": "STOPWATCH ONLINE",
+        "alt_text": "Gambar halaman stopwatch"
+      },
+      "random_number": {
+        "title": "PEMBUAT ANGKA ACAK",
+        "alt_text": "Gambar halaman pembuat angka"
+      },
+      "alphabetical_order": {
+        "title": "URUTAN ABJAD",
+        "alt_text": "Gambar halaman urutan abjad"
+      }
+    }
+  },
+  "newsletter_section": {
+    "title": "DAPATKAN KABAR TERBARU!",
+    "tooltip": "Kami akan mengirimkan pesan ke email yang terdaftar, membuat Anda selalu mengetahui semua berita terbaru dari Tap to Tool!",
+    "input_placeholder": "pengguna.contoh@email.com",
+    "button_text": "Daftar"
+  },
+  "updates_section": {
+    "labels": {
+      "new": "BARU!",
+      "ad": "IKLAN"
+    },
+    "items": {
+      "text_inverter": {
+        "title": "Pembalik Teks",
+        "description": "Balikkan teks Anda dengan alat baru kami!"
+      },
+      "tool_kit": {
+        "title": "Kit Alat",
+        "description": "Sekarang Anda dapat memilih kit dengan berbagai alat!"
+      },
+      "alarm_clock": {
+        "title": "Jam Alarm Online",
+        "description": "Buat beberapa jam alarm di satu tempat!"
+      },
+      "creaftar_ad": {
+        "title": "Creaftar",
+        "description": "Mainkan atau buat teka-teki silang online!",
+        "alt_text": "Gambar halaman iklan Creaftar"
+      }
+    }
+  }
+}

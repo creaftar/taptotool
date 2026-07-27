@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "À propos de Tap to Tool | Outils en ligne Simples et Rapides",
+    "description": "Des outils simples pour de grandes idées. Découvrez la mission, les valeurs et comment Tap to Tool simplifie votre quotidien numérique avec des utilitaires gratuits et rapides",
+    "keywords": "à propos de tap to tool, outils en ligne, utilitaires numériques, productivité, outils gratuits, convertisseur de fichiers, formateur de texte"
+  },
+  "schema": {
+    "page_name": "À propos de Tap to Tool",
+    "page_description": "Mission, principes et contact de Tap to Tool - Des outils simples pour de grandes idées.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "À propos"
+  },
+  "content": {
+    "title": "À propos de Tap to Tool",
+    "subtitle": "Des outils simples pour de grandes idées.",
+    "description_p1": "Tap to Tool est né du besoin de solutions rapides et simplifiées pour les tâches numériques quotidiennes. Nous pensons que vous ne devriez pas avoir à gérer des sites lourds, des publicités invasives ou des inscriptions inutiles pour effectuer des tâches simples comme formater du texte, générer des données ou convertir des fichiers.",
+    "description_p2": "Notre mission est d'être votre couteau suisse numérique : un hub d'utilitaires conçu pour offrir précision, rapidité et facilité d'utilisation.",
+    "principles_title": "Nos Principes",
+    "principles": [
+      {
+        "label": "Performance",
+        "text": "Nos outils sont légers et se chargent instantanément, préservant ainsi votre flux de travail."
+      },
+      {
+        "label": "Confidentialité",
+        "text": "Nous privilégions le traitement local (client-side). La majeure partie de ce que vous traitez ici reste dans votre navigateur et ne touche jamais nos serveurs."
+      },
+      {
+        "label": "Accessibilité",
+        "text": "Un design épuré et fonctionnel, disponible sur n'importe quel appareil, partout dans le monde, gratuitement."
+      }
+    ],
+    "footer_text": "Que vous soyez développeur, créateur de contenu ou simplement à la recherche de plus de productivité, Tap to Tool est là pour vous garantir d'avoir exactement ce dont vous avez besoin, au moment où vous en avez besoin.",
+    "contact_title": "Contactez-nous",
+    "contact_text": "Vous avez des questions, des suggestions ou vous souhaitez nous envoyer un commentaire ? Vous pouvez envoyer un feedback sur chaque outil dans le coin inférieur droit de la page ou nous trouver ici :"
+  }
+}

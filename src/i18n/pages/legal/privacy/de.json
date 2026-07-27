@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Datenschutzrichtlinie | Tap to Tool",
+    "description": "Ihre Privatsphäre ist unsere Priorität. Erfahren Sie, wie Tap to Tool die Sicherheit Ihrer Daten durch lokale Verarbeitung direkt in Ihrem Browser gewährleistet",
+    "keywords": "Datenschutzerklärung, Datenschutz, lokale Verarbeitung, digitale Sicherheit, Tap to Tool"
+  },
+  "schema": {
+    "page_name": "Datenschutzrichtlinie",
+    "page_description": "Dokumentation der Datenschutz- und Verarbeitungspraktiken von Tap to Tool.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Datenschutz"
+  },
+  "content": {
+    "title": "Datenschutzrichtlinie",
+    "intro": "Bei Tap to Tool ist Datenschutz nicht nur ein juristischer Begriff, sondern die Grundlage für die Entwicklung unserer Tools. Diese Richtlinie erklärt klar und deutlich, wie wir mit Ihren Informationen umgehen.",
+    "sections": [
+      {
+        "title": "1. Lokale Datenverarbeitung",
+        "text": "Die meisten unserer Tools arbeiten nach dem Prinzip der clientseitigen Verarbeitung (Client-Side). Das bedeutet, dass die Daten, die Sie eingeben (Texte zum Formatieren, Code, Listen usw.), direkt in Ihrem Browser verarbeitet werden.",
+        "list": [
+          "Wir senden Ihre Eingabedaten bei den meisten Vorgängen nicht an unsere Server.",
+          "Was Sie eingeben, bleibt in Ihrer lokalen Umgebung, bis Sie den Tab schließen oder den Cache leeren."
+        ]
+      },
+      {
+        "title": "2. Datenerfassung",
+        "text": "Wir erfassen nur das absolute Minimum, das für den Betrieb der Website erforderlich ist:",
+        "list": [
+          "Server-Logs: Wir erhalten grundlegende Informationen wie Ihre IP-Adresse und den Browsertyp zu Sicherheitszwecken und zur Missbrauchsprävention.",
+          "Cookies: Wir können Cookies verwenden, um Ihre Einstellungen (z. B. den Dunkelmodus) zu speichern und zu verstehen, welche Tools am beliebtesten sind, um unseren Service zu verbessern."
+        ]
+      },
+      {
+        "title": "3. Links zu Drittanbietern",
+        "text": "Unsere Website kann Links zu externen Websites enthalten. Wir haben keinen Einfluss auf den Inhalt oder die Datenschutzpraktiken von Drittanbietern und können keine Verantwortung für deren jeweilige Richtlinien übernehmen."
+      },
+      {
+        "title": "4. Sicherheit",
+        "text": "Wir führen keine Datenbanken mit persönlichen Informationen von Nutzern. Sollten Sie uns per E-Mail kontaktieren, werden Ihre Daten ausschließlich zur Beantwortung Ihrer Anfrage verwendet und nach der Bearbeitung gelöscht."
+      },
+      {
+        "title": "5. Einverständnis",
+        "text": "Durch die Nutzung von Tap to Tool stimmen Sie den auf dieser Seite beschriebenen Praktiken zu. Diese Richtlinie kann gelegentlich aktualisiert werden, um Verbesserungen an unseren Tools zu berücksichtigen."
+      }
+    ],
+    "last_updated": "Letzte Aktualisierung: 20. Februar 2026."
+  }
+}

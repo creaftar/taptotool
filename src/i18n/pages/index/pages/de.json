@@ -1,0 +1,27 @@
+{
+  "search_section": {
+    "placeholder": "Werkzeug suchen..."
+  },
+  "tools_list": {
+    "text_tools": {
+      "char_counter": "Zeichenzähler",
+      "text_inverter": "Textumkehrer",
+      "case_converter": "Groß-/Kleinschreibung-Konverter",
+      "alphabetical_order": "Alphabetische Reihenfolge"
+    },
+    "math_tools": {
+    },
+    "random_tools": {
+      "random_number": "Zufallszahlengenerator",
+      "name_picker_wheel": "Online-Namensrad"
+    },
+    "time_tools": {
+      "alarm_clock": "Online-Wecker",
+      "stopwatch": "Online-Stoppuhr",
+      "timer": "Online-Timer"
+    },
+    "external_links": {
+      "creaftar": "Creaftar - Kreuzworträtsel erstellen"
+    }
+  }
+}

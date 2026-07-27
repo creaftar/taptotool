@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Contatore di Caratteri Online - Tap to Tool",
+    "description": "Strumento online semplice e veloce per contare lettere, caratteri, parole, righe e paragrafi di qualsiasi testo.",
+    "keywords": "conteggio caratteri, conteggio parole, contatore lettere, contatore caratteri online, conteggio spazi"
+  },
+  "schema": {
+    "app_name": "Contatore di Caratteri, Parole e Righe Online",
+    "howto_name": "Come Usare il Contatore di Caratteri Online",
+    "breadcrumb_current": "Contatore di Caratteri",
+    "app_description": "Strumento online semplice e veloce per contare lettere, caratteri, parole, righe e paragrafi di qualsiasi testo, con o senza spazi.",
+    "howto_description": "Guida rapida per iniziare a contare il tuo testo in tempo reale.",
+    "step1_name": "Copia e Incolla",
+    "step1_text": "Incolla il testo desiderato nel campo principale dello strumento.",
+    "step2_name": "Analisi istantanea",
+    "step2_text": "I risultati (caratteri, parole, frasi, righe) vengono calcolati e visualizzati automaticamente in tempo reale.",
+    "breadcrumb_home": "Home Page"
+  },
+  "ui": {
+    "h1_main": "CONTATORE DI CARATTERI",
+    "placeholder_input": "Digita o incolla il tuo testo qui...",
+    "paste_text": "Clicca per incollare il tuo testo",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Prova a incollare con CTRL + V oppure verifica se è consentito che visualizziamo la tua area di trasferimento",
+    "tooltip_copy": "Copia il testo",
+    "tooltip_delete": "Cancella il testo",
+    "tooltip_copy_results": "Copia i risultati",
+    "res_chars_no_spaces": "Caratteri senza spazi",
+    "res_chars": "Caratteri",
+    "res_words": "Parole",
+    "res_sentences": "Frasi",
+    "res_lines": "Righe",
+    "res_paragraphs": "Paragrafi",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Contatore di Caratteri",
+    "intro_text": "Il contatore di caratteri è uno strumento che lavora a partire da un testo digitato, calcolando la quantità di parole, caratteri, frasi, righe e paragrafi. Con un design semplice, facile e molto comune, basta digitare o incollare il tuo testo nel campo sopra e pronto, vedi il risultato accanto!",
+    "usage_title": "Come usare il contatore di caratteri",
+    "step_1": "Digita o incolla un testo nella zona evidenziata sopra;",
+    "step_2": "Vedi i risultati a destra del campo.",
+    "why_use_title": "Perché utilizzare un contatore di caratteri?",
+    "why_use_text": "Oltre ad essere estremamente facile e intuitivo, un contatore di caratteri può essere molto utile per compiti che prima richiederebbero uno sforzo considerevole. Provalo e condividi il tuo risultato con noi utilizzando gli strumenti di feedback, saremmo felici di sapere cosa ne pensi.",
+    "footer_text": "Domina i limiti del testo e ottimizza i tuoi post con il Contatore di Caratteri!"
+  },
+  "dynamic": {
+    "standard_phrase": "Ciao, benvenuto. Digita qui il tuo testo...",
+    "char_no_spaces": "Caratteri (senza spazi)",
+    "characters": "Caratteri",
+    "words": "Parole",
+    "sentences": "Frasi",
+    "lines": "Linee",
+    "paragraphs": "Paragrafi"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Online Stopwatch - Tap to Tool",
+    "description": "Accurately track time with the Tap to Tool Online Stopwatch. Perfect for workouts, studying, and speed tests. Record laps and save your progress automatically.",
+    "keywords": "online stopwatch, digital stopwatch, lap timer, time tracker, precision stopwatch"
+  },
+  "schema": {
+    "app_name": "Online Stopwatch",
+    "app_description": "A high-precision digital stopwatch with millisecond accuracy. Track elapsed time, record laps, and resume whenever you need.",
+    "howto_name": "How to Use the Online Stopwatch",
+    "howto_description": "The Online Stopwatch is a free and reliable tool for precision time tracking.",
+    "step1_name": "Start and Pause",
+    "step1_text": "Click the Play/Pause icon (▶/⏸) to start or stop the timer.",
+    "step2_name": "Record a Lap",
+    "step2_text": "Click the Lap button to record split times and total lap duration.",
+    "step3_name": "Reset",
+    "step3_text": "Click the Reset button (↺) to clear the timer and delete all recorded laps.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online Stopwatch"
+  },
+  "ui": {
+    "h1": "Online Stopwatch with Laps",
+    "intro_text": "Tap to Tool's Online Stopwatch provides millisecond precision for all your timing needs. Ideal for fitness, education, cooking, and performance testing.",
+    "price_currency": "USD"
+  },
+  "content": {
+    "usage_title": "How to Use the Online Stopwatch",
+    "usage_instructions": "Control the timer using these buttons:",
+    "control_play": "Play/Pause (▶/⏸): Starts and stops the countdown.",
+    "control_lap": "Lap: Records split times and displays them in the list below.",
+    "control_reset": "Reset (↺): Resets the stopwatch to zero and clears your lap history.",
+    "persistence_note": "Your time and laps are automatically saved in your browser, so you can pick up right where you left off even after closing the page.",
+    "purpose_title": "What can you use this stopwatch for?",
+    "purpose_text": "Perfect for tracking running splits, study sessions (like the Pomodoro technique), cooking times, or any activity that requires accurate timing and interval logging.",
+    "footer_share_text": "Take control of your time with the precision Online Stopwatch from Tap to Tool!"
+  }
+}

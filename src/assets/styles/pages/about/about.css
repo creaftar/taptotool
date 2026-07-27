@@ -1,0 +1,27 @@
+#bloco0 {
+    display: none;
+}
+
+.legal-content{
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin: 65px auto 0 auto;
+    width: 60%;
+    color: rgba(var(--padrao), 1);
+    text-align: justify;
+}
+
+#contactMail{
+    color: rgba(var(--padrao), 1);
+}
+
+
+@media (max-width: 1024px) {
+    .legal-content{
+        margin: 65px auto 0 auto;
+        width: 100%;
+        padding: 9px;
+    }
+}

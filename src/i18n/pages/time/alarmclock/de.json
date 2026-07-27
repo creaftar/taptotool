@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Online-Wecker - Tap to Tool",
+    "description": "Konfigurieren Sie mehrere Online-Alarme mit Tap to Tool. Personalisieren Sie diese mit eigenen Audios, verschieben Sie Karten zum Organisieren und verwalten Sie Ihre Zeiten präzise.",
+    "keywords": "Online-Wecker, Alarm online, Wecker einstellen, Wecker mit eigener Musik, Alarm-Manager, Browser-Wecker, mehrere Wecker, Wecker-Website"
+  },
+  "schema": {
+    "app_name": "Online-Wecker - Tap to Tool",
+    "app_description": "Konfigurieren Sie mehrere Online-Alarme. Personalisieren Sie diese mit eigenen Audios, verschieben Sie Karten zum Organisieren und verwalten Sie Ihre Zeiten präzise.",
+    "howto_name": "So verwenden Sie den Online-Wecker",
+    "howto_description": "Der Online-Wecker ist ein leistungsstarkes Werkzeug zum Konfigurieren und Verwalten mehrerer gleichzeitiger Alarme.",
+    "step1_name": "Wecker erstellen",
+    "step1_text": "Klicken Sie auf die Schaltfläche '+ Neuer Wecker', um eine neue Konfigurationskarte zu erstellen.",
+    "step2_name": "Uhrzeit einstellen",
+    "step2_text": "Wählen Sie die gewünschten Stunden und Minuten in den digitalen Feldern jeder Karte aus.",
+    "step3_name": "Ton und Name anpassen",
+    "step3_text": "Geben Sie Ihrem Wecker einen Titel und wählen Sie eine Audiodatei von Ihrem Gerät aus, indem Sie auf die Audio-Auswahltaste klicken.",
+    "step4_name": "Organisieren und Aktivieren",
+    "step4_text": "Ziehen Sie die Karten, um die visuelle Priorität festzulegen. Der Alarm wird automatisch ausgelöst, wenn die verbleibende Zeit Null erreicht.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Online-Wecker"
+  },
+  "ui": {
+    "h1": "Personalisierbarer Online-Wecker",
+    "intro_text": "Organisieren Sie Ihren Alltag mit dem intuitivsten Online-Wecker. Konfigurieren Sie Erinnerungen, lassen Sie sich von Ihrer Lieblingsmusik wecken und verwalten Sie Ihre Alarme.",
+    "add_alarm": "+ Neuer Wecker",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Hauptfunktionen",
+    "feature_audio": "Audio-Personalisierung: Nutzen Sie Standardtöne oder laden Sie Ihre eigene Audiodatei hoch.",
+    "feature_org": "Intelligente Organisation: Klicken und halten Sie, um Ihre Wecker nach Priorität neu zu ordnen.",
+    "feature_multiple": "Mehrere Wecker: Erstellen Sie so viele Alarme, wie Sie für Ihren Alltag benötigen.",
+    "feature_save": "Automatische Speicherung: Ihre Wecker werden im Browser gespeichert und sind beim nächsten Besuch direkt bereit.",
+    "usage_title": "Bedienungsanleitung",
+    "usage_step1": "Klicken Sie auf '+ Neuer Wecker', um eine Karte zu erstellen.",
+    "usage_step2": "Stellen Sie Stunde und Minute in den digitalen Wählern ein.",
+    "usage_step3": "Klicken Sie auf den Namen, um den Titel des Alarms zu bearbeiten.",
+    "usage_step4": "Klicken Sie auf die Audio-Auswahltaste, um Ihren bevorzugten Ton direkt von Ihrem Computer zu wählen.",
+    "tips_title": "Interaktions-Tipps",
+    "tip_drag": "Klicken und ziehen Sie eine Karte, um die Reihenfolge Ihrer Wecker zu ändern.",
+    "tip_rename": "Klicken Sie auf den Namen des Alarms, um ihn umzubenennen (z. B. 'Medizin', 'Meeting').",
+    "tip_test": "Das Audio-Symbol ermöglicht es Ihnen, den Ton vorab zu testen.",
+    "footer_text": "Erstellen Sie mehrere Alarme und organisieren Sie Ihren Alltag sofort mit dem Online-Wecker von Tap to Tool!"
+  },
+  "dynamic": {
+    "default_alarm_name": "Unbenannter Wecker",
+    "choose_audio": "Audio wählen"
+  }
+}

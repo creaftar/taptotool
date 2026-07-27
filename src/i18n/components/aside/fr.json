@@ -1,0 +1,15 @@
+{
+  "aside": {
+    "search_placeholder": "Rechercher outil... ",
+    "character_counter": "Compteur de caractères",
+    "text_inverter": "Inverseur de texte",
+    "case_converter": "Convertisseur de majuscules et minuscules",
+    "alphabetical_order": "Trier en ordre alphabétique",
+    "random_number": "Générateur de nombres aléatoires",
+    "alarm_clock": "Réveil en ligne",
+    "stopwatch": "Chronomètre en ligne",
+    "timer": "Temporisateur en ligne",
+    "creaftar_text": "Creaftar - créer des mots croisés",
+    "name_picker_wheel": "Roue des noms en ligne"
+  }
+}

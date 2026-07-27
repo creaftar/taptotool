@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Roue des Noms en Ligne - Tap to Tool",
+    "description": "Tournez la roue en ligne pour des tirages au sort rapides et équitables. Tirez au sort des noms, des options et prenez des décisions aléatoires en quelques secondes.",
+    "keywords": "roue de tirage au sort, tirage au sort noms, roue personnalisée, spin the wheel, tirage aléatoire, roue de décision, sélecteur de noms"
+  },
+  "schema": {
+    "app_name": "Roue des Noms en Ligne - Tap to Tool",
+    "app_description": "Outil de roue virtuelle personnalisable pour le tirage au sort de noms et les prises de décision aléatoires.",
+    "howto_name": "Comment utiliser la Roue en Ligne",
+    "howto_description": "Apprenez à créer votre roue personnalisée et à effectuer des tirages au sort en seulement 3 étapes simples.",
+    "step1_name": "Saisir les Options",
+    "step1_text": "Entrez les noms, numéros ou options que vous souhaitez tirer au sort dans la zone de texte, un par ligne.",
+    "step2_name": "Configurer la Roue",
+    "step2_text": "Vérifiez que toutes les sections de la roue sont correctes et personnalisez les éléments si nécessaire.",
+    "step3_name": "Tourner et Tirer au Sort",
+    "step3_text": "Cliquez sur le bouton central de la roue pour la faire tourner et attendez la désignation du gagnant aléatoire.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Roue des Noms en Ligne"
+  },
+  "ui": {
+    "placeholder_input": "Choix 1\nChoix 2\nChoix 3\nChoix 4\nChoix 5\nChoix 6\nChoix 7",
+    "paste_text": "Cliquez pour coller votre texte",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Essayez de coller avec CTRL + V ou vérifiez les autorisations d'accès au presse-papiers.",
+    "tooltip_copy": "Copier le texte",
+    "tooltip_delete": "Effacer le texte",
+    "winner_label": "Le gagnant est :",
+    "btn_close": "Fermer",
+    "btn_remove": "Supprimer",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Roue en Ligne Personnalisable - Tournez pour Tirer au Sort des Noms et Décisions",
+    "intro_text": "Notre Roue en Ligne est l'outil gratuit idéal pour ceux qui ont besoin d'un tirage au sort rapide, équitable et visuel. Que ce soit pour décider où déjeuner, choisir des noms d'élèves ou désigner le gagnant d'un cadeau, notre roue offre des résultats 100 % aléatoires en quelques secondes.",
+    "usage_title": "Comment utiliser la Roue de Tirage au Sort ?",
+    "step_1": "Saisissez les noms ou les options que vous souhaitez tirer au sort dans le champ de texte indiqué.",
+    "step_2": "Personnalisez les options de votre roue selon vos besoins :",
+    "type_input_title": "Saisie des Noms",
+    "type_input_text": "Entrez un élément par ligne pour créer les segments.",
+    "type_edit_title": "Modification Facile",
+    "type_edit_text": "Ajoutez ou supprimez des options à tout moment avant de lancer la rotation.",
+    "type_instant_title": "Résultat Instantané",
+    "type_instant_text": "La roue calcule la physique de la rotation pour garantir une totale impartialité.",
+    "type_clean_title": "Interface Épurée",
+    "type_clean_text": "Sans publicités intrusives qui gênent votre navigation ou le tirage.",
+    "step_3": "Cliquez sur la roue pour la faire tourner et attendez qu'elle s'arrête sur le gagnant choisi par le destin !",
+    "benefits_title": "Avantages de notre Roue Aléatoire",
+    "benefits_intro": "Contrairement aux méthodes manuelles, notre outil numérique garantit l'équité pour tous. Voici pourquoi utiliser notre Spin Wheel :",
+    "benefit_1_title": "Totale Impartialité",
+    "benefit_1_text": "Nous utilisons des algorithmes de hasard basés sur des systèmes mathématiques précis.",
+    "benefit_2_title": "Usage Éducatif",
+    "benefit_2_text": "L'outil préféré des enseignants pour choisir des élèves ou des thèmes de devoirs de manière ludique.",
+    "benefit_3_title": "Décisions Rapides",
+    "benefit_3_text": "Éliminez l'indécision en groupe d'amis ou au travail avec une rotation rapide.",
+    "benefit_4_title": "Sans Téléchargement",
+    "benefit_4_text": "Fonctionne directement dans votre navigateur, sur mobile ou ordinateur, sans rien installer.",
+    "footer_text": "Prêt à décider ? Commencez à utiliser notre roue personnalisée dès maintenant et laissez le destin choisir pour vous. Simple, rapide et 100 % gratuit."
+  },
+  "dynamic": {
+    "standard_phrase": "Choix 1\nChoix 2\nChoix 3\nChoix 4\nChoix 5\nChoix 6\nChoix 7",
+    "winner_prefix": "Le gagnant est :"
+  }
+}

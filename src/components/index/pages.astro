@@ -1,0 +1,152 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import '@/assets/styles/pages/index/bloco-page/page.css';
+
+interface Props {
+  lang?: string;
+}
+
+import pt from "@/i18n/pages/index/pages/pt.json";
+import en from "@/i18n/pages/index/pages/en.json";
+import es from "@/i18n/pages/index/pages/es.json";
+import fr from "@/i18n/pages/index/pages/fr.json";
+import it from "@/i18n/pages/index/pages/it.json";
+import de from "@/i18n/pages/index/pages/de.json";
+import ru from "@/i18n/pages/index/pages/ru.json";
+import id from "@/i18n/pages/index/pages/id.json";
+import hi from "@/i18n/pages/index/pages/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+// Padronização da detecção do idioma
+const { lang: propLang } = Astro.props;
+const lang = propLang || Astro.currentLocale || 'en'; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+// Função auxiliar para encurtar o código no HTML
+const url = (path: string) => getRelativeLocaleUrl(lang, path);
+---
+
+<div class="conteudo-espacado">
+  <div id="container-pesquisa">
+    <div id="container-input-lupa">
+      <input type="text" id="input-pesquisa-pages" placeholder={d.search_section.placeholder}>
+      <div id="lupa">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+  </div>
+
+  <div id="container-pages">
+    
+    <div class="opcaoPage" id="tep">
+      <a href={url("/text/character-counter")}>
+        <div class="page-icon page-text">
+          <i class="fa-solid fa-a"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.text_tools.char_counter}</p>
+      </a>
+    </div>
+
+    <div class="opcaoPage">
+      <a href={url("/text/text-inverter")}>
+        <div class="page-icon page-text">
+          <i class="fa-solid fa-right-left"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.text_tools.text_inverter}</p>
+      </a>
+    </div>
+
+    <div class="opcaoPage">
+      <a href={url("/text/uppercase-lowercase-converter")}>
+        <div class="page-icon page-text">
+          <i class="fa-solid fa-up-down"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.text_tools.case_converter}</p>
+      </a>
+    </div>
+
+    <div class="opcaoPage">
+      <a href={url("/text/alphabetical-order")}>
+        <div class="page-icon page-text">
+          <i class="fa-solid fa-arrow-down-a-z"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.text_tools.alphabetical_order}</p>
+      </a>
+    </div>
+
+    <!--
+    <hr class="hr-pages">
+  
+    <div class="opcaoPage" id="map">
+      <a href={url("/math/random-number")}>
+        <div class="page-icon page-math">
+          <i class="fa-solid fa-shuffle"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.math_tools.random_number}</p>
+      </a>
+    </div>-->
+
+    <hr class="hr-pages">
+
+    <div class="opcaoPage" id="tip">
+      <a href={url("/time/alarm-clock")}>
+        <div class="page-icon page-time">
+          <i class="fa-solid fa-alarm-clock"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.time_tools.alarm_clock}</p>
+      </a>
+    </div>
+
+    <div class="opcaoPage">
+      <a href={url("/time/stopwatch")}>
+        <div class="page-icon page-time">
+          <i class="fa-solid fa-stopwatch"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.time_tools.stopwatch}</p>
+      </a>
+    </div>
+
+    <div class="opcaoPage">
+      <a href={url("/time/timer")}>
+        <div class="page-icon page-time">
+          <i class="fa-solid fa-clock"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.time_tools.timer}</p>
+      </a>
+    </div>
+
+    <hr class="hr-pages">
+  
+    <div class="opcaoPage" id="map">
+      <a href={url("/random/random-number")}>
+        <div class="page-icon page-random">
+          <i class="fa-solid fa-shuffle"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.random_tools.random_number}</p>
+      </a>
+    </div>
+
+    <div class="opcaoPage">
+      <a href={url("/random/spin-wheel")}>
+        <div class="page-icon page-random">
+        <i class="fa-solid fa-paper-plane" style="transform: translate(5%, -5%) rotate(180deg);"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.random_tools.name_picker_wheel}</p>
+      </a>
+    </div>
+
+    <hr class="hr-pages">
+
+    <div class="opcaoPage">
+      <a href="https://creaftar.com" target="_blank">
+        <div class="page-icon page-game">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.external_links.creaftar}</p>
+      </a>
+    </div>
+
+  </div>
+</div>

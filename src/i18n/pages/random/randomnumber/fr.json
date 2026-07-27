@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Générateur de Nombres Aléatoires Entre Deux Nombres - Tap to Tool",
+    "description": "Besoin d'un tirage au sort ? Utilisez le Générateur de Nombres Aléatoires en Ligne de Tap to Tool. Définissez un nombre minimum et maximum et obtenez un résultat instantané et équitable. Outil gratuit pour les jeux, les tirages au sort et les loteries.",
+    "keywords": "générateur de nombres aléatoires, tirer des numéros en ligne, générer des nombres entre, nombres aléatoires, générateur de nombres entre 2, tirage au sort, tombola, distributeur de numéros"
+  },
+  "schema": {
+    "app_name": "Générateur de Nombres Aléatoires Entre Deux Nombres",
+    "app_description": "Besoin d'un tirage au sort ? Utilisez le Générateur de Nombres Aléatoires en Ligne de Tap to Tool. Définissez un nombre minimum et maximum et obtenez un résultat instantané et équitable. Outil gratuit pour les jeux, les tirages au sort et les loteries.",
+    "howto_name": "Comment Utiliser le Générateur de Nombres Online",
+    "howto_description": "Le Générateur de Nombres Aléatoires est un outil en ligne gratuit qui génère un nouveau nombre à partir de 2 nombres choisis. Saisissez deux nombres que vous préférez et voyez la magie opérer !",
+    "step1_name": "Définir les Limites",
+    "step1_text": "Indiquez le nombre minimum et le nombre maximum (intervalle) pour le tirage au sort.",
+    "step2_name": "Générer un Nombre",
+    "step2_text": "Cliquez sur le bouton 'Générer' pour obtenir le nombre aléatoire tiré au sort dans l'intervalle défini.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Générateur de Nombres Aléatoires Entre Deux Nombres"
+  },
+  "ui": {
+    "h1_main": "GÉNÉRER UN NOMBRE ALÉATOIRE",
+    "label_min": "Valeur minimale",
+    "label_max": "Valeur maximale",
+    "label_checkbox": "Seuls les entiers",
+    "button_generate": "GÉNÉRER LE NUMÉRO",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Générateur de Nombres Aléatoires",
+    "intro_text": "Le Générateur de Nombres Aléatoires est un outil en ligne gratuit qui génère un nouveau nombre à partir de 2 nombres choisis. Saisissez deux nombres que vous préférez et voyez la magie opérer !",
+    "usage_title": "Comment utiliser le Générateur de Nombres Aléatoires",
+    "usage_instruction": "Il suffit d'entrer dans les deux champs ci-dessus des valeurs pour obtenir le résultat :",
+    "list_item_integers": "Entiers: [min, max]",
+    "list_item_decimals": "Décimales: [min, max)",
+    "usage_checkbox_info": "Si vous cochez la case \"Seuls les entiers\", vous obtiendrez des valeurs sans virgule flottante (décimales), si vous décochez, vous pourrez obtenir des valeurs avec jusqu'à deux décimales.",
+    "why_use_title": "Pourquoi utiliser notre Générateur de Nombres Aléatoires",
+    "why_use_text": "Programmé pour être simple et efficace, vous obtiendrez en un minimum de temps un résultat entre 2 nombres souhaités.",
+    "footer_text": "Générer des nombres aléatoires entre deux nombres!"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Stopwatch Online - Tap to Tool",
+    "description": "Gunakan Stopwatch Online dari Tap to Tool untuk mengukur waktu dengan akurat. Cocok untuk olahraga, belajar, dan tes kecepatan. Simpan lap dan reset kapan saja.",
+    "keywords": "stopwatch online, kronometer online, mengukur waktu, timer, hitung waktu, stopwatch dengan lap"
+  },
+  "schema": {
+    "app_name": "Stopwatch Online",
+    "app_description": "Stopwatch digital online dengan akurasi milidetik untuk mengukur waktu yang berlalu. Simpan lap, jeda, dan mulai ulang kapan saja.",
+    "howto_name": "Cara Menggunakan Stopwatch Online",
+    "howto_description": "Stopwatch Online adalah alat gratis dan akurat untuk pengukuran waktu.",
+    "step1_name": "Mulai dan Berhenti",
+    "step1_text": "Klik ikon Play/Pause (▶/⏸) untuk mengontrol hitungan.",
+    "step2_name": "Simpan Lap",
+    "step2_text": "Klik tombol Lap untuk menyimpan waktu putaran (lap) dan total waktu.",
+    "step3_name": "Reset",
+    "step3_text": "Klik tombol Reset (↺) untuk mengatur ulang stopwatch dan menghapus semua lap yang disimpan.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Stopwatch Online"
+  },
+  "ui": {
+    "h1": "Stopwatch Online dengan Lap",
+    "intro_text": "Stopwatch Online dari Tap to Tool menawarkan akurasi milidetik untuk semua kebutuhan pengukuran waktu Anda. Cocok untuk latihan, studi, memasak, dan tes kecepatan.",
+    "price_currency": "IDR"
+  },
+  "content": {
+    "usage_title": "Cara Menggunakan Stopwatch Online",
+    "usage_instructions": "Cukup gunakan tombol kontrol:",
+    "control_play": "Play/Pause (▶/⏸): Mulai dan hentikan hitungan.",
+    "control_lap": "Lap: Simpan waktu bagian (lap) dan total lap di daftar di bawah.",
+    "control_reset": "Reset (↺): Atur ulang stopwatch, bersihkan layar dan riwayat lap.",
+    "persistence_note": "Waktu dan lap disimpan secara otomatis di browser Anda, sehingga Anda dapat menutup halaman dan melanjutkannya kapan saja.",
+    "purpose_title": "Apa Fungsinya?",
+    "purpose_text": "Ideal untuk memantau latihan lari, siklus belajar (seperti teknik Pomodoro), waktu memasak, atau aktivitas apa pun yang memerlukan pengukuran waktu akurat dan pencatatan lap.",
+    "footer_share_text": "Kelola waktu Anda dengan akurat menggunakan Stopwatch Online dari Tap to Tool!"
+  }
+}

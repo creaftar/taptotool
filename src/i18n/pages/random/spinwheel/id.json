@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Roda Acak Nama Online - Tap to Tool",
+    "description": "Putar roda online untuk undian yang cepat dan adil. Pilih nama, opsi, dan ambil keputusan acak dalam hitungan detik dengan Roda Acak gratis kami.",
+    "keywords": "roda acak, undian nama, roda pilihan, putar roda, pilih nama acak, pembuat keputusan, roda keberuntungan online"
+  },
+  "schema": {
+    "app_name": "Roda Acak Nama Online - Tap to Tool",
+    "app_description": "Alat roda virtual yang dapat disesuaikan untuk undian nama dan pengambilan keputusan acak.",
+    "howto_name": "Cara Menggunakan Roda Acak Online",
+    "howto_description": "Pelajari cara membuat roda kustom Anda sendiri dan lakukan undian hanya dalam 3 langkah mudah.",
+    "step1_name": "Masukkan Opsi",
+    "step1_text": "Ketik nama, angka, atau opsi yang ingin Anda undi di kotak teks, pisahkan setiap item per baris.",
+    "step2_name": "Konfigurasi Roda",
+    "step2_text": "Pastikan semua bagian roda sudah benar dan sesuaikan item jika diperlukan.",
+    "step3_name": "Putar dan Undi",
+    "step3_text": "Klik tombol tengah roda untuk memutar dan tunggu hasil pemenang acak muncul.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Roda Acak Nama Online"
+  },
+  "ui": {
+    "placeholder_input": "Pilihan 1\nPilihan 2\nPilihan 3\nPilihan 4\nPilihan 5\nPilihan 6\nPilihan 7",
+    "paste_text": "Klik untuk tempel teks",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Coba tempel dengan CTRL + V oder periksa izin akses papan klip Anda.",
+    "tooltip_copy": "Salin teks",
+    "tooltip_delete": "Hapus teks",
+    "winner_label": "Pemenangnya adalah:",
+    "btn_close": "Tutup",
+    "btn_remove": "Hapus",
+    "price_currency": "IDR"
+  },
+  "content": {
+    "h1_seo": "Roda Acak Online Kustom - Putar untuk Pilih Nama dan Keputusan",
+    "intro_text": "Roda Acak Online kami adalah alat gratis yang ideal bagi siapa saja yang membutuhkan undian cepat, adil, undian visual. Baik untuk memutuskan tempat makan siang, memilih nama siswa, atau menentukan pemenang hadiah, roda kami memberikan hasil 100% acak dalam hitungan detik.",
+    "usage_title": "Bagaimana Cara Menggunakan Roda Undian?",
+    "step_1": "Masukkan nama atau opsi que ingin Anda undi di kolom teks yang tersedia.",
+    "step_2": "Sesuaikan opsi roda Anda sesuai kebutuhan:",
+    "type_input_title": "Input Nama",
+    "type_input_text": "Ketik satu item per baris untuk membuat bagian roda.",
+    "type_edit_title": "Edit dengan Mudah",
+    "type_edit_text": "Tambah atau hapus opsi kapan saja sebelum memutar roda.",
+    "type_instant_title": "Hasil Instan",
+    "type_instant_text": "Roda menghitung fisika putaran untuk menjamin keadilan total.",
+    "type_clean_title": "Antarmuka Bersih",
+    "type_clean_text": "Tanpa iklan mengganggu yang menghalangi pandangan atau proses undian Anda.",
+    "step_3": "Klik roda untuk memutar dan tunggu hingga berhenti pada pemenang yang dipilih oleh keberuntungan!",
+    "benefits_title": "Keuntungan Menggunakan Roda Acak Kami",
+    "benefits_intro": "Berbeda dengan metode manual, alat digital kami menjamin tidak ada pihak yang dirugikan. Lihat mengapa Anda harus menggunakan Roda Acak kami:",
+    "benefit_1_title": "Sangat Adil",
+    "benefit_1_text": "Kami menggunakan algoritma pengacakan berdasarkan sistem matematika yang presisi.",
+    "benefit_2_title": "Keperluan Pendidikan",
+    "benefit_2_text": "Alat favorit guru untuk memilih siswa atau tema tugas dengan cara yang menyenangkan.",
+    "benefit_3_title": "Keputusan Cepat",
+    "benefit_3_text": "Hilangkan keraguan dalam kelompok teman atau pekerjaan dengan satu putaran cepat.",
+    "benefit_4_title": "Tanpa Download",
+    "benefit_4_text": "Berjalan langsung di browser Anda, baik di HP maupun komputer, tanpa instalasi apa pun.",
+    "footer_text": "Siap untuk memutuskan? Mulai gunakan roda kustom kami sekarang dan biarkan takdir yang memilih untuk Anda. Sederhana, cepat, dan 100% gratis."
+  },
+  "dynamic": {
+    "standard_phrase": "Pilihan 1\nPilihan 2\nPilihan 3\nPilihan 4\nPilihan 5\nPilihan 6\nPilihan 7",
+    "winner_prefix": "Pemenangnya adalah:"
+  }
+}

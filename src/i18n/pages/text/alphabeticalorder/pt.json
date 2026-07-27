@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Ordenador Alfabético Online - Tap to Tool",
+    "description": "Ordene instantaneamente listas, palavras ou frases em ordem alfabética (A-Z) ou reversa (Z-A). Suporta quebras de linha, vírgulas e frases complexas.",
+    "keywords": "ordenador alfabético, colocar em ordem alfabética, ordenar lista, organizar texto, classificar palavras, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "Ordenador Alfabético Online",
+    "app_description": "Ordene instantaneamente listas, palavras ou frases em ordem alfabética (A-Z) ou reversa (Z-A). Suporta quebras de linha, vírgulas e frases complexas. Rápido e fácil com o Tap to Tool.",
+    "howto_name": "Como Usar o Ordenador Alfabético Online",
+    "howto_description": "O Ordenador Alfabético é uma ferramenta gratuita que organiza qualquer lista de palavras, frases ou itens em ordem alfabética.",
+    "step1_name": "Insira a Lista",
+    "step1_text": "Copie e cole ou digite os itens (separados por espaço, vírgula ou quebra de linha) na área de entrada.",
+    "step2_name": "Visualização Automática",
+    "step2_text": "A lista será ordenada automaticamente de A-Z no campo ao lado, preservando o formato de separação original (quebra de linha ou vírgula).",
+    "step3_name": "Copiar Resultado",
+    "step3_text": "Copie a lista ordenada alfabeticamente no campo de resultado.",
+    "breadcrumb_home": "Página Inicial",
+    "breadcrumb_current": "Ordenador Alfabético Online"
+  },
+  "ui": {
+    "h1_main": "ORDENADOR ALFABÉTICO",
+    "placeholder_input": "Digite ou cole sua lista aqui...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "tooltip_copy": "Copiar o texto",
+    "tooltip_delete": "Limpar texto",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "Ordenador Alfabético Online",
+    "intro_text": "A ferramenta mais rápida e simples para colocar qualquer lista de palavras, nomes ou frases em ordem alfabética.",
+    "usage_title": "Como usar o Ordenador Alfabético?",
+    "step_1": "Insira a Lista: Copie e cole ou digite os itens que você deseja organizar na área de texto designada. Os itens podem ser separados por quebra de linha, vírgula ou espaço.",
+    "step_2": "Ordenação Automática: A ferramenta faz todo o trabalho por você e ordena os itens alfabeticamente (A-Z / Z-A)",
+    "step_3": "Copie o Resultado: O texto ordenado é exibido instantaneamente no campo ao lado, mantendo o separador original para você copiar.",
+    "benefits_title": "Quais os benefícios de usar um Ordenador Alfabético?",
+    "benefits_intro": "Um ordenador alfabético de texto é extremamente útil para:",
+    "benefit_1_title": "Organização de Dados",
+    "benefit_1_text": "Organizar rapidamente listas de nomes, códigos, inventários ou qualquer conjunto de dados para fácil consulta.",
+    "benefit_2_title": "Estudos e Referências",
+    "benefit_2_text": "Criar listas de referências bibliográficas, glossários ou vocabulários em ordem padrão.",
+    "benefit_3_title": "Processamento de Texto",
+    "benefit_3_text": "Classificar palavras-chave, tags ou frases complexas (como 'pasta de amendoim') como um único item, sem separá-los.",
+    "benefit_4_title": "Padronização",
+    "benefit_4_text": "Garantir que todos os documentos ou listas sigam o mesmo padrão de ordenação sem falhas humanas.",
+    "footer_text": "Organize suas listas e melhore sua produtividade com o Ordenador Alfabético!"
+  },
+  "dynamic":{
+    "standard_phrase": "Olá, seja bem vindo(a). Digite seu texto aqui...",
+    "dynamic_phrase": "Olá, seja bem vindo(a)! Digite sua lista separando por espaços ou pressionando Enter no seu teclado, exemplo:\nbanana, exemplo, avião",
+    "result_phrase": "O seu resultado deverá aparecer assim:\navião, banana, exemplo"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

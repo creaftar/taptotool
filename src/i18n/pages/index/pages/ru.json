@@ -1,0 +1,27 @@
+{
+  "search_section": {
+    "placeholder": "Поиск инструмента..."
+  },
+  "tools_list": {
+    "text_tools": {
+      "char_counter": "Счетчик символов",
+      "text_inverter": "Инвертор текста",
+      "case_converter": "Преобразователь регистра",
+      "alphabetical_order": "Сортировка по алфавиту"
+    },
+    "math_tools": {
+    },
+    "random_tools": {
+      "random_number": "Генератор случайных чисел между двумя числами",
+      "name_picker_wheel": "Колесо выбора имен"
+    },
+    "time_tools": {
+      "alarm_clock": "Будильник онлайн",
+      "stopwatch": "Секундомер онлайн",
+      "timer": "Таймер онлайн"
+    },
+    "external_links": {
+      "creaftar": "Creaftar - Создать кроссворды"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+---
+import ToolLayout from "@/layout/ToolLayout.astro";
+import '@/assets/styles/addons/copytext.css';
+import '@/assets/styles/global/scrollbar.css';
+import '@/assets/styles/pages/time/stopwatch.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } }, // /time/stopwatch (default)
+    
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+import pt from "@/i18n/pages/time/stopwatch/pt.json";
+import en from "@/i18n/pages/time/stopwatch/en.json";
+import es from "@/i18n/pages/time/stopwatch/es.json";
+import fr from "@/i18n/pages/time/stopwatch/fr.json";
+import it from "@/i18n/pages/time/stopwatch/it.json";
+import de from "@/i18n/pages/time/stopwatch/de.json";
+import ru from "@/i18n/pages/time/stopwatch/ru.json";
+import id from "@/i18n/pages/time/stopwatch/id.json";
+import hi from "@/i18n/pages/time/stopwatch/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang: paramLang } = Astro.params;
+const lang = paramLang || Astro.currentLocale || 'en'; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/time/stopwatch`;
+---
+
+<ToolLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+>
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.schema.app_name,
+      "alternateName": "Stopwatch Online",
+      "url": currentUrl,
+      "image": "https://taptotool.com/assets/imgs/capa_ferramentas/cronometro.webp",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.ui.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": "HowTo",
+      "@id": `${currentUrl}#howto`,
+      "name": d.schema.howto_name,
+      "description": d.schema.howto_description,
+      "mainEntityOfPage": { "@id": `${currentUrl}#webpage` },
+      "totalTime": "PT1M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": d.content.control_play,
+          "text": d.content.control_play
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.control_lap,
+          "text": d.content.control_lap
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.control_reset,
+          "text": d.content.control_reset
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema.breadcrumb_current,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/engrenagensPNG.svg",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+  
+  <div id="container-cronometro">
+    <span id="cronometro">00:00:00.00</span>
+  </div>
+
+  <div id="container-botoes-cronometro">
+    <div class="botoes-cronometro" id="toggleTimer"><i class="fa-solid fa-play"></i></div>
+    <div class="botoes-cronometro" id="generateLap"><i class="fa-solid fa-arrows-rotate"></i></div>
+    <div class="botoes-cronometro" id="resetTimer"><i class="fa-solid fa-rotate-left"></i></div>
+  </div>
+
+  <div id="container-volta"></div>
+
+  <article id="description-area" slot="SEO">
+    <header>
+      <h1>{d.ui.h1}</h1>
+      <p>{d.ui.intro_text}</p>
+    </header>
+
+    <section>
+      <h2>{d.content.usage_title}</h2>
+      <p>{d.content.usage_instructions}</p>
+      <ul>
+        <li>{d.content.control_play}</li>
+        <li>{d.content.control_lap}</li>
+        <li>{d.content.control_reset}</li>
+      </ul>
+      <p>{d.content.persistence_note}</p>
+    </section>
+
+    <section>
+      <h2>{d.content.purpose_title}</h2>
+      <p>{d.content.purpose_text}</p>
+      <footer>
+        <div class="share-buttons">
+          <p>{d.content.footer_share_text}</p>
+        </div>
+      </footer>
+    </section>
+  </article>
+  
+  <script>
+    import '@/assets/scripts/imports/stopwatch.js';
+  </script>
+</ToolLayout>

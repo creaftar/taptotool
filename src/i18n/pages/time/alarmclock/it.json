@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Sveglia Online - Tap to Tool",
+    "description": "Configura più sveglie online. Personalizza con i tuoi audio, trascina per organizzare e gestisci i tuoi orari con precisione e facilità.",
+    "keywords": "allarme online, sveglia online, configurare allarme, sveglia con musica propria, gestione allarmi, sveglia browser, sveglie multiple, impostare sveglia"
+  },
+  "schema": {
+    "app_name": "Sveglia Online - Tap to Tool",
+    "app_description": "Configura più sveglie online. Personalizza con i tuoi audio, trascina per organizzare e gestisci i tuoi orari con precisione e facilità.",
+    "howto_name": "Come usare la sveglia online",
+    "howto_description": "La sveglia online è uno strumento potente per configurare e gestire più sveglie simultaneamente.",
+    "step1_name": "Creare un allarme",
+    "step1_text": "Clicca sul pulsante '+ Nuova Sveglia' per generare una nuova scheda di configurazione.",
+    "step2_name": "Configurare l'orario",
+    "step2_text": "Seleziona le ore e i minuti desiderati nei campi digitali di ogni scheda.",
+    "step3_name": "Personalizzare suono e nome",
+    "step3_text": "Assegna un titolo al tuo allarme cliccando sul nome e seleziona un file audio dal tuo dispositivo cliccando sul pulsante di scelta audio.",
+    "step4_name": "Organizzare e attivare",
+    "step4_text": "Trascina le schede per definire la priorità visiva. L'allarme suonerà automaticamente quando il tempo rimanente arriverà a zero.",
+    "breadcrumb_home": "Pagina iniziale",
+    "breadcrumb_current": "Sveglia Online"
+  },
+  "ui": {
+    "h1": "Sveglia Online Personalizzabile",
+    "intro_text": "Organizza la tua routine con la sveglia online più intuitiva. Configura promemoria, svegliati con i tuoi brani preferiti e gestisci i tuoi allarmi.",
+    "add_alarm": "+ Nuova Sveglia",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Funzionalità Principali",
+    "feature_audio": "Personalizzazione Audio: Utilizza suoni standard o carica il tuo file audio personalizzato.",
+    "feature_org": "Organizzazione Intelligente: Clicca e tieni premuto per riordinare le tue sveglie in base alla priorità.",
+    "feature_multiple": "Sveglie Multiple: Crea tutti gli allarmi di cui hai bisogno per la tua giornata.",
+    "feature_save": "Salvataggio Automatico: Le tue sveglie rimangono salvate nel browser, pronte per la prossima volta che apri il sito.",
+    "usage_title": "Come usare",
+    "usage_step1": "Clicca su '+ Nuova Sveglia' per creare una scheda.",
+    "usage_step2": "Imposta l'ora e i minuti nei selettori digitali.",
+    "usage_step3": "Clicca sul nome per modificare il titolo dell'allarme.",
+    "usage_step4": "Clicca sul pulsante di scelta audio per selezionare il tuo suono preferito direttamente dal tuo computer.",
+    "tips_title": "Consigli di Interattività",
+    "tip_drag": "Clicca e trascina qualsiasi scheda per cambiare l'ordine delle tue sveglie.",
+    "tip_rename": "Clicca sul nome dell'allarme per rinominarlo (es: 'Medicina', 'Riunione').",
+    "tip_test": "L'icona audio ti permette di testare il suono prima di utilizzarlo.",
+    "footer_text": "Crea diverse sveglie e organizza la tua routine istantaneamente con la Sveglia Online di Tap to Tool!"
+  },
+  "dynamic": {
+    "default_alarm_name": "Sveglia senza nome",
+    "choose_audio": "Scegli Audio"
+  }
+}

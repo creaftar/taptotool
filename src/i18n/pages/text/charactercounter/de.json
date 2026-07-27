@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Charakterzähler Online - Tap to Tool",
+    "description": "Einfaches und schnelles Online-Tool zum Zählen von Buchstaben, Zeichen, Wörtern, Zeilen und Absätzen in jedem Text.",
+    "keywords": "Buchstaben zähler, Wortzähler, Satzzähler, Absatzzähler, Zeilenzähler, Zeichen zählen ohne Leerzeichen, online Charakterzähler, Wort- und Zeichencounter"
+  },
+  "schema": {
+    "app_name": "Online-Charakter-, Wort- und Zeilenzähler",
+    "app_description": "Einfaches und schnelles Online-Tool zum Zählen von Buchstaben, Zeichen, Wörtern, Zeilen und Absätzen in jedem Text, mit oder ohne Leerzeichen.",
+    "howto_name": "So verwenden Sie den Online-Charakterzähler",
+    "howto_description": "Schnelle Anleitung, um Ihren Text sofort zu zählen.",
+    "step1_name": "Kopieren und Einfügen",
+    "step1_text": "Fügen Sie den gewünschten Text in das Hauptfeld der Werkzeugleiste ein.",
+    "step2_name": "Sofortige Analyse",
+    "step2_text": "Die Ergebnisse (Zeichen, Wörter, Sätze, Zeilen) werden automatisch und sofort angezeigt.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Charakterzähler"
+  },
+  "ui": {
+    "h1_main": "ZEICHENZÄHLER",
+    "placeholder_input": "Geben Sie Ihren Text ein oder fügen Sie ihn hier ein...",
+    "paste_text": "Zum Einfügen klicken",
+    "paste_shortcut": "Strg + V",
+    "error_clipboard": "Versuchen Sie es mit STRG + V oder überprüfen Sie, ob die Anzeige Ihrer Zwischenablage erlaubt ist.",
+    "tooltip_copy": "Text kopieren",
+    "tooltip_delete": "Text löschen",
+    "tooltip_copy_results": "Ergebnisse kopieren",
+    "res_chars_no_spaces": "Zeichen ohne Leerzeichen",
+    "res_chars": "Zeichen",
+    "res_words": "Wörter",
+    "res_sentences": "Sätze",
+    "res_lines": "Zeilen",
+    "res_paragraphs": "Absätze",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Charakterzähler",
+    "intro_text": "Der Charakterzähler ist ein Werkzeug, das mit einem eingegebenen Text arbeitet und die Anzahl der Wörter, Zeichen, Sätze, Zeilen und Absätze berechnet. Mit einem einfachen, benutzerfreundlichen Design müssen Sie nur Ihren Text in das obige Feld eintippen oder einfügen, und schon sehen Sie das Ergebnis!",
+    "usage_title": "So verwenden Sie den Charakterzähler",
+    "step_1": "Geben Sie einen Text ein oder fügen Sie ihn in die oben hervorgehobene Fläche ein;",
+    "step_2": "Sehen Sie rechts neben dem Feld die Ergebnisse an.",
+    "why_use_title": "Warum sollte man einen Charakterzähler verwenden?",
+    "why_use_text": "Neben seiner extremen Benutzerfreundlichkeit und Einfachheit kann ein Charakterzähler für Aufgaben sehr nützlich sein, die früher viel Aufwand erforderten. Probieren Sie es aus und teilen Sie uns Ihre Ergebnisse mit den Feedback-Tools. Wir freuen uns darauf von Ihnen zu hören!",
+    "footer_text": "Beherrschen Sie Textgrenzen und optimieren Sie Ihre Beiträge mit dem Charakterzähler!"
+  },
+  "dynamic": {
+    "standard_phrase": "Hallo, willkommen! Geben Sie Ihren Text hier ein...",
+    "char_no_spaces": "Zeichen (ohne Leerzeichen)",
+    "characters": "Zeichen",
+    "words": "Wörter",
+    "sentences": "Sätze",
+    "lines": "Zeilen",
+    "paragraphs": "Absätze"
+  }
+}

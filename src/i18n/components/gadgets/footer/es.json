@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "tagline": "Herramientas sencillas para grandes ideas.",
+    "description_p1": "<strong>Tap to Tool</strong> es la navaja suiza digital para quienes buscan productividad. Desarrollado para ser ligero, gratuito y accesible en cualquier parte del mundo.",
+    "description_p2": "Funcionando como un centro de utilidades diseñado para ofrecer precisión y rapidez, nuestras herramientas están construidas con enfoque en la privacidad, el rendimiento y la accesibilidad, garantizando que tengas lo que necesitas, cuando lo necesitas, sin complicaciones.",
+    "links": {
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - Todos los derechos reservados.",
+    "alt_tap_to_tool": "Logotipo de Tap to Tool",
+    "alt_creaftar": "Logotipo de Creafar"
+  }
+}

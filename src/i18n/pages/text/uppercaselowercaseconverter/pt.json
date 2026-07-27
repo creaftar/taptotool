@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Conversor de Maiúsculas e Minúsculas Online - Tap to Tool",
+    "description": "Converta seu texto instantaneamente para minúsculas, MAIÚSCULAS, Primeira Letra da Frase em Maiúsculo ou Estilo TROLL. Rápido e fácil com o Tap to Tool.",
+    "keywords": "conversor de maiúsculas e minúsculas, texto em maiúsculas, texto em minúsculas, converter caixa de texto, mudar caixa de texto, capitalizar texto"
+  },
+  "schema": {
+    "app_name": "Conversor de Maiúsculas e Minúsculas Online",
+    "app_description": "Converta seu texto instantaneamente para minúsculas, MAIÚSCULAS, Primeira Letra da Frase em Maiúsculo ou Estilo TROLL. Rápido e fácil com o Tap to Tool.",
+    "howto_name": "Como Usar o Conversor de Maiúsculas e Minúsculas Online",
+    "howto_description": "O Conversor de Texto é uma ferramenta online gratuita que permite converter a caixa de qualquer texto digitado ou colado.",
+    "step1_name": "Insira o Texto",
+    "step1_text": "Copie e cole ou digite o texto na área de entrada da ferramenta.",
+    "step2_name": "Selecione o Formato",
+    "step2_text": "Clique no ícone que representa o formato de texto desejado (Minúsculas, MAIÚSCULAS, Primeira Letra, TROLL).",
+    "step3_name": "Copiar Resultado",
+    "step3_text": "Copie o resultado do seu texto convertido no campo ao lado.",
+    "breadcrumb_home": "Página Inicial",
+    "breadcrumb_current": "Conversor de Maiúsculas e Minúsculas"
+  },
+  "ui": {
+    "h1_main": "CONVERSOR DE MAIÚSCULAS E MINÚSCULAS",
+    "placeholder_input": "Digite ou cole o texto que deseja converter...",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "tooltip_copy": "Copiar o texto",
+    "tooltip_delete": "Limpar texto",
+    "tooltip_copy_results": "Copiar o resultado",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "Conversor de Maiúsculas e Minúsculas Online",
+    "intro_text": "A ferramenta mais rápida e simples para formatar a caixa (maiúsculas e minúsculas) do seu texto.",
+    "usage_title": "Como usar o Conversor de Maiúsculas e Minúsculas?",
+    "step_1": "Insira o Texto: Copie e cole ou digite o texto que você deseja formatar na área de texto designada.",
+    "step_2": "Selecione a Formatação: Clique no ícone correspondente ao estilo desejado:",
+    "type_lower_title": "Minúsculas (abcd)",
+    "type_lower_text": "Converte todo o texto para letras minúsculas.",
+    "type_upper_title": "MAIÚSCULAS (ABCD)",
+    "type_upper_text": "Converte todo o texto para letras MAIÚSCULAS.",
+    "type_sentence_title": "Primeira Letra da Frase em Maiúsculo (Ab. C)",
+    "type_sentence_text": "Converte o texto com a primeira letra de cada frase em maiúsculo.",
+    "type_troll_title": "Estilo TROLL (AbCd)",
+    "type_troll_text": "Converte o texto alternando entre maiúsculas e minúsculas.",
+    "step_3": "Copie o Resultado: O texto formatado é exibido instantaneamente no campo ao lado para você copiar.",
+    "benefits_title": "Quais os benefícios de um Conversor de Caixa de Texto?",
+    "benefits_intro": "Um conversor de caixa de texto é extremamente útil para:",
+    "benefit_1_title": "Padronização Rápida",
+    "benefit_1_text": "Garantir que um documento inteiro esteja no formato padrão exigido (ex: títulos em MAIÚSCULAS ou conteúdo em minúsculas).",
+    "benefit_2_title": "Correção de Erros",
+    "benefit_2_text": "Corrigir rapidamente textos que foram digitados acidentalmente com a tecla 'Caps Lock' ativada ou sem capitalização no início das frases.",
+    "benefit_3_title": "Marketing e Mídias Sociais",
+    "benefit_3_text": "Criar chamadas de atenção (com MAIÚSCULAS) ou postagens com um estilo de texto diferente (Estilo TROLL) para engajamento.",
+    "benefit_4_title": "Otimização de Conteúdo",
+    "benefit_4_text": "Formatar blocos de texto para melhorar a legibilidade e a organização visual.",
+    "footer_text": "Padronize sua escrita e economize tempo na edição com o Conversor de Maiúsculas e Minúsculas!"
+  },
+  "dynamic":{
+    "standard_phrase": "Olá, seja bem vindo(a). Digite seu texto aqui...",
+    "result_phrase": "olá, seja bem vindo(a). digite seu texto aqui..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "AbCd"
+  }
+}

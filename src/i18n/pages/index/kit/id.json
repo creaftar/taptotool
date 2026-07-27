@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "TEMUKAN KUMPULAN ALAT"
+    },
+    "text_kit": {
+      "title": "TEKS",
+      "alt_text": "Kumpulan alat teks"
+    },
+    "math_kit": {
+      "title": "MATEMATIKA",
+      "alt_text": "Kumpulan alat matematika"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Logo Creaftar",
+      "description": "Creaftar adalah tempatmu untuk membuat, mengedit, dan menghapus teka-teki silang online. Tantang teman dan mainkan kreasi eksklusif dari komunitas kami.",
+      "button_text": "Akses Creaftar sekarang!"
+    }
+  }
+}

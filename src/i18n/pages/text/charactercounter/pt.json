@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Contador de Caracteres Online - Tap to Tool",
+    "description": "Ferramenta online simples e rápida para contar letras, caracteres, palavras, linhas e parágrafos de qualquer texto.",
+    "keywords": "contador de letras, contador de palavras, contador de frases, contador de paragrafos, contador de linhas, contador de caracteres sem espaço, contador de caracteres online, contador de palavras e caracteres"
+  },
+  "schema": {
+    "app_name": "Contador de Caracteres, Palavras e Linhas Online",
+    "app_description": "Ferramenta online simples e rápida para contar letras, caracteres, palavras, linhas e parágrafos de qualquer texto, com ou sem espaço.",
+    "howto_name": "Como Usar o Contador de Caracteres Online",
+    "howto_description": "Guia rápido para começar a contar o seu texto em tempo real.",
+    "step1_name": "Copie e Cole",
+    "step1_text": "Cole o texto desejado no campo principal da ferramenta.",
+    "step2_name": "Análise Instantânea",
+    "step2_text": "Os resultados (caracteres, palavras, frases, linhas) são calculados e exibidos automaticamente em tempo real.",
+    "breadcrumb_home": "Página Inicial",
+    "breadcrumb_current": "Contador de Caracteres"
+  },
+  "ui": {
+    "h1_main": "CONTADOR DE CARACTERES",
+    "placeholder_input": "Digite ou cole seu texto aqui...",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "tooltip_copy": "Copiar o texto",
+    "tooltip_delete": "Limpar texto",
+    "tooltip_copy_results": "Copiar os resultados",
+    "res_chars_no_spaces": "Caracteres sem contar espaços",
+    "res_chars": "Caracteres",
+    "res_words": "Palavras",
+    "res_sentences": "Frases",
+    "res_lines": "Linhas",
+    "res_paragraphs": "Parágrafos",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "Contador de Caracteres",
+    "intro_text": "O contador de caracteres é uma ferramenta que trabalha a partir de um texto digitado, calculando a quantidade de palavras, caracteres, frases, linhas e parágrafos. Com um design simples, fácil e muito usual, você precisa apenas digitar ou colar seu texto no campo acima e pronto, veja o resultado ao lado!",
+    "usage_title": "Como usar o contador de caracteres",
+    "step_1": "Digite ou cole um campo copiado na área destacada acima;",
+    "step_2": "Veja o resultado ao lado direito do campo.",
+    "why_use_title": "Por que utilizar um contador de caracteres?",
+    "why_use_text": "Além de extremamente fácil e intuitivo, um contador de caracteres pode ser muito útil para tarefas que outrora demandariam um esforço muito grande. Experimente e compartilhe seu resultado conosco utilizando as ferramentas de feedback, vamos gostar muito de saber o que você achou.",
+    "footer_text": "Domine os limites de texto e otimize suas postagens com o Contador de Caracteres!"
+  },
+  "dynamic":{
+    "standard_phrase": "Olá, seja bem-vindo(a). Digite seu texto aqui...",
+    "char_no_spaces": "Caracteres sem contar espaços",
+    "characters": "Caracteres",
+    "words": "Palavras",
+    "sentences": "Frases",
+    "lines": "Linhas",
+    "paragraphs": "Parágrafos"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "carousel_section": {
+    "header": {
+      "main_title": "ESPLORA LE NOVITÀ"
+    },
+    "cards": {
+      "alarm": {
+        "title": "SVEGLIA ONLINE",
+        "alt_text": "Immagine della pagina della sveglia"
+      },
+      "char_counter": {
+        "title": "CONTATORE DI CARATTERI",
+        "alt_text": "Immagine della pagina del contatore di caratteri"
+      },
+      "stopwatch": {
+        "title": "CRONOMETRO ONLINE",
+        "alt_text": "Immagine della pagina do cronometro"
+      },
+      "random_number": {
+        "title": "GENERATORE DI NUMERI CASUALI TRA 2 NUMERI",
+        "alt_text": "Immagine della pagina del generatore di numeri"
+      },
+      "alphabetical_order": {
+        "title": "ORDINA ALFABETICAMENTE",
+        "alt_text": "Immagine della pagina dell'ordinatore alfabetico"
+      }
+    }
+  },
+  "newsletter_section": {
+    "title": "RIMANI AGGIORNATO!",
+    "tooltip": "Invieremo messaggi all'indirizzo email registrato per tenerti aggiornato su tutte le novità di Tap to Tool!",
+    "input_placeholder": "utente.esempio@gmail.com",
+    "button_text": "Iscriviti"
+  },
+  "updates_section": {
+    "labels": {
+      "new": "NUOVO!",
+      "ad": "ANNUNCIO"
+    },
+    "items": {
+      "text_inverter": {
+        "title": "Invertitore di Testo",
+        "description": "Inverti il tuo testo con il nostro nuovo strumento!"
+      },
+      "tool_kit": {
+        "title": "Kit di Strumenti",
+        "description": "Ora è possibile selezionare un kit con diversi strumenti!"
+      },
+      "alarm_clock": {
+        "title": "Sveglia Online",
+        "description": "Crea diverse sveglie in un unico posto!"
+      },
+      "creaftar_ad": {
+        "title": "Creaftar",
+        "description": "Gioca o crea cruciverba online!",
+        "alt_text": "Immagine della pagina di annuncio di Creaftar"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Convertisseur de Majuscules et Minuscules - Tap to Tool",
+    "description": "Convertissez instantanément votre texte en minuscules ou majuscules, première lettre de la phrase en majuscule ou style TROLL. Rapide et facile avec Tap to Tool.",
+    "keywords": "convertisseur de majuscules et minuscules, texte en majuscules, texte en minuscules, convertir texte, modifier casse, mise en majuscule"
+  },
+  "schema": {
+    "app_name": "Convertisseur de Majuscules et Minuscules en Ligne",
+    "app_description": "Convertissez instantanément votre texte en minuscules ou majuscules, première lettre de la phrase en majuscule ou style TROLL. Rapide et facile avec Tap to Tool.",
+    "howto_name": "Comment Utiliser le Convertisseur de Majuscules et Minuscules en Ligne",
+    "howto_description": "Le Convertisseur de Texte est un outil en ligne gratuit qui vous permet de modifier la casse de n'importe quel texte tapé ou collé.",
+    "step1_name": "Entrez le Texte",
+    "step1_text": "Copiez et collez ou tapez votre texte dans la zone de saisie de l'outil.",
+    "step2_name": "Choisissez le Format",
+    "step2_text": "Cliquez sur l'icône représentant le format de texte souhaité (minuscules, majuscules, première lettre en majuscule ou style TROLL).",
+    "step3_name": "Copiez le Résultat",
+    "step3_text": "Copiez le résultat de votre texte converti dans le champ d'à côté.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Convertisseur de Majuscules et Minuscules"
+  },
+  "ui": {
+    "h1_main": "CONVERTISSEUR DE MAJUSCULES ET MINUSCULES",
+    "placeholder_input": "Entrez ou collez votre texte à convertir...",
+    "paste_text": "Cliquez pour coller votre texte",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "Essayez de coller avec CTRL + V ou vérifiez si l'accès au presse-papiers est autorisé.",
+    "tooltip_copy": "Copier le texte",
+    "tooltip_delete": "Effacer le texte",
+    "tooltip_copy_results": "Copier le résultat",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Convertisseur de Majuscules et Minuscules en Ligne",
+    "intro_text": "L'outil le plus rapide et le plus simple pour formater la casse (majuscules et minuscules) de votre texte.",
+    "usage_title": "Comment utiliser le Convertisseur de Majuscules et Minuscules ?",
+    "step_1": "Entrez le Texte : Copiez et collez ou tapez votre texte à convertir dans la zone de texte désignée.",
+    "step_2": "Choisissez le Format : Cliquez sur l'icône correspondant au style souhaité :",
+    "type_lower_title": "Minuscules (abcd)",
+    "type_lower_text": "Convertit tout le texte en lettres minuscules.",
+    "type_upper_title": "Majuscules (ABCD)",
+    "type_upper_text": "Convertit tout le texte en lettres majuscules.",
+    "type_sentence_title": "Première Lettre en Majuscule (Ab. C)",
+    "type_sentence_text": "Convertit le texte avec la première lettre de chaque phrase en majuscule.",
+    "type_troll_title": "Style TROLL (AbCd)",
+    "type_troll_text": "Convertit le texte en alternant entre majuscules et minuscules.",
+    "step_3": "Copiez le Résultat : Le texte formaté s'affiche instantanément dans le champ d'à côté pour que vous puissiez le copier.",
+    "benefits_title": "Quels sont les avantages d'un Convertisseur de Casse ?",
+    "benefits_intro": "Un convertisseur de casse de texte est extrêmement utile pour :",
+    "benefit_1_title": "Normalisation Rapide",
+    "benefit_1_text": "Garantir qu'un document entier soit au format standard requis (ex : titres en majuscules ou contenu en minuscules).",
+    "benefit_2_title": "Correction d'Erreurs",
+    "benefit_2_text": "Corriger rapidement des textes saisis accidentellement avec la touche 'Verr. Maj' activée ou sans majuscule au début des phrases.",
+    "benefit_3_title": "Marketing et Réseaux Sociaux",
+    "benefit_3_text": "Créer des appels à l'action percutants (en majuscules) ou des publications originales (Style TROLL) pour susciter l'engagement.",
+    "benefit_4_title": "Optimisation du Contenu",
+    "benefit_4_text": "Formater des blocs de texte pour améliorer la lisibilité et l'organisation visuelle.",
+    "footer_text": "Normalisez votre écriture et gagnez du temps avec le Convertisseur de Majuscules et Minuscules !"
+  },
+  "dynamic": {
+    "standard_phrase": "Bonjour, bienvenue. Entrez votre texte ici...",
+    "result_phrase": "bonjour, bienvenue. entrez votre texte ici..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "aBcD"
+  }
+}

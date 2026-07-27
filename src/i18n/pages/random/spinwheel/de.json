@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Online-Namensrad - Tap to Tool",
+    "description": "Drehen Sie das Online-Glücksrad für schnelle und faire Verlosungen. Ziehen Sie Namen, Optionen oder treffen Sie Zufallsentscheidungen in Sekunden mit unserem kostenlosen Namensrad.",
+    "keywords": "Online-Rad, Namen ziehen, Namensrad, Glücksrad online, Zufallsgenerator, Entscheidungsrad, Namenloser"
+  },
+  "schema": {
+    "app_name": "Online-Namensrad - Tap to Tool",
+    "app_description": "Anpassbares virtuelles Glücksrad für Namensverlosungen und Zufallsentscheidungen.",
+    "howto_name": "So nutzen Sie das Online-Zufallsrad",
+    "howto_description": "Erfahren Sie, wie Sie Ihr eigenes personalisiertes Rad erstellen und Verlosungen in nur 3 einfachen Schritten durchführen.",
+    "step1_name": "Optionen eingeben",
+    "step1_text": "Geben Sie die Namen, Zahlen oder Optionen, die Sie ziehen möchten, zeilenweise in das Textfeld ein.",
+    "step2_name": "Rad konfigurieren",
+    "step2_text": "Überprüfen Sie, ob alle Segmente des Rads korrekt sind, und passen Sie die Einträge nach Bedarf an.",
+    "step3_name": "Drehen und Ziehen",
+    "step3_text": "Klicken Sie auf die Mitte des Rads, um es zu drehen, und warten Sie auf die Auswahl des zufälligen Gewinners.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online-Namensrad"
+  },
+  "ui": {
+    "placeholder_input": "Option 1\nOption 2\nOption 3\nOption 4\nOption 5\nOption 6\nOption 7",
+    "paste_text": "Klicken, um Text einzufügen",
+    "paste_shortcut": "Strg + V",
+    "error_clipboard": "Versuchen Sie es mit Strg + V oder prüfen Sie, ob der Zugriff auf die Zwischenablage erlaubt ist.",
+    "tooltip_copy": "Text kopieren",
+    "tooltip_delete": "Text löschen",
+    "winner_label": "Der Gewinner ist:",
+    "btn_close": "Schließen",
+    "btn_remove": "Entfernen",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "h1_seo": "Anpassbares Online-Glücksrad – Namen ziehen & Entscheidungen treffen",
+    "intro_text": "Unser Online-Namensrad ist das ideale kostenlose Tool für schnelle, faire und visuelle Auslosungen. Ob Sie entscheiden, wo Sie zu Mittag essen, Schülernamen auslosen oder den Gewinner eines Preises ermitteln möchten – unser Rad liefert 100 % zufällige Ergebnisse in Sekundenschnelle.",
+    "usage_title": "Wie benutzt man das Zufallsrad?",
+    "step_1": "Geben Sie die Namen oder Optionen, die zur Auswahl stehen sollen, in das markierte Textfeld ein.",
+    "step_2": "Personalisieren Sie die Optionen Ihres Rads nach Ihren Bedürfnissen:",
+    "type_input_title": "Namenseingabe",
+    "type_input_text": "Geben Sie einen Eintrag pro Zeile ein, um die Segmente zu erstellen.",
+    "type_edit_title": "Einfache Bearbeitung",
+    "type_edit_text": "Optionen können jederzeit vor dem Drehen hinzugefügt oder entfernt werden.",
+    "type_instant_title": "Sofortiges Ergebnis",
+    "type_instant_text": "Das Rad berechnet die Physik der Drehung, um absolute Unparteilichkeit zu garantieren.",
+    "type_clean_title": "Saubere Benutzeroberfläche",
+    "type_clean_text": "Keine störende Werbung, die die Sicht oder den Auslosungsprozess behindert.",
+    "step_3": "Klicken Sie auf das Rad, um es zu drehen, und warten Sie, bis es beim vom Schicksal gewählten Gewinner anhält!",
+    "benefits_title": "Vorteile unseres Online-Zufallsrads",
+    "benefits_intro": "Im Gegensatz zu manuellen Methoden garantiert unser digitales Tool absolute Transparenz. Warum Sie unser Glücksrad nutzen sollten:",
+    "benefit_1_title": "Völlig unparteiisch",
+    "benefit_1_text": "Wir verwenden Zufallsalgorithmen, die auf präzisen mathematischen Systemen basieren.",
+    "benefit_2_title": "Ideal für den Unterricht",
+    "benefit_2_text": "Lehrer nutzen es gern, um Schüler oder Themen auf spielerische Weise auszulosen.",
+    "benefit_3_title": "Schnelle Entscheidungen",
+    "benefit_3_text": "Beenden Sie Unentschlossenheit im Freundeskreis oder im Büro mit einem kurzen Dreh.",
+    "benefit_4_title": "Kein Download",
+    "benefit_4_text": "Funktioniert direkt im Browser, egal ob auf dem Smartphone oder Computer – ohne Installation.",
+    "footer_text": "Bereit für die Entscheidung? Nutzen Sie jetzt unser personalisiertes Rad und lassen Sie das Schicksal wählen. Einfach, schnell und 100 % kostenlos."
+  },
+  "dynamic": {
+    "standard_phrase": "Option 1\nOption 2\nOption 3\nOption 4\nOption 5\nOption 6\nOption 7",
+    "winner_prefix": "Der Gewinner ist:"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Timer Online - Tap to Tool",
+    "description": "Gunakan Timer Online dari Tap to Tool untuk membuat beberapa hitungan mundur. Ideal untuk produktivitas, latihan, dan memasak. Menyimpan pengaturan Anda secara otomatis.",
+    "keywords": "timer online, penghitung waktu online, hitungan mundur, pengatur waktu, beberapa timer, timer untuk belajar",
+    "canonical": "https://taptotool.com/timer"
+  },
+  "schema": {
+    "app_name": "Timer Online Tap to Tool",
+    "app_description": "Buat beberapa timer hitung mundur online dengan penyimpanan otomatis dan kustomisasi.",
+    "howto_name": "Cara Menggunakan Timer Online",
+    "howto_description": "Timer Online adalah alat gratis dan akurat untuk pengukuran waktu.",
+    "step1_name": "Mulai dan Jeda",
+    "step1_text": "Klik ikon Putar/Jeda (▶/⏸) untuk menjeda dan melanjutkan waktu.",
+    "step2_name": "Catat Putaran",
+    "step2_text": "Klik tombol Putaran/Lap untuk mengizinkan (atau tidak) timer Anda terus berbunyi selama 5x berturut-turut.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Timer Online"
+  },
+  "ui": {
+    "h1": "Timer Online Hitung Mundur",
+    "intro_text": "Timer Online dari Tap to Tool memungkinkan Anda mengelola beberapa hitungan mundur secara bersamaan, ideal bagi mereka yang membutuhkan presisi dan organisasi.",
+    "new_timer_button": "+ Timer Baru",
+    "current_time_label": "Waktu Saat Ini",
+    "placeholder_timer_name": "Nama timer (contoh: Fokus, Memasak)",
+    "unit_currency": "BRL"
+  },
+  "content": {
+    "features_title": "Fitur Timer",
+    "feature_1_title": "Beberapa Timer",
+    "feature_1_text": "Mulai beberapa hitungan mundur secara bersamaan untuk tugas yang berbeda.",
+    "feature_2_title": "Kustomisasi",
+    "feature_2_text": "Beri nama setiap timer untuk mengidentifikasi fungsinya dengan cepat.",
+    "feature_3_title": "Organisasi",
+    "feature_3_text": "Seret kartu untuk memprioritaskan hitungan mundur yang selesai lebih dulu.",
+    "feature_4_title": "Memori",
+    "feature_4_text": "Timer yang dikonfigurasi disimpan di browser Anda untuk penggunaan berkelanjutan.",
+    "usage_title": "Cara Menggunakan",
+    "usage_step_1": "1. Klik '+ Timer Baru' untuk menambahkan penghitung baru ke daftar Anda.",
+    "usage_step_2": "2. Atur waktu yang diinginkan (jam, menit, dan detik) di kolom numerik.",
+    "usage_step_3": "3. Klik judul kartu untuk mengganti namanya.",
+    "usage_step_4": "4. Mulai hitungan mundur dan seret kartu untuk mengatur tampilan Anda.",
+    "footer_share_text": "Butuh beberapa timer? Jelajahi Timer dari Tap to Tool!"
+  },
+  "dynamic": {
+    "default_timer_name": "Timer Tanpa Nama",
+    "choose_audio": "Pilih Audio"
+  }
+}

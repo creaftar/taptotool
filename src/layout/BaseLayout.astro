@@ -1,0 +1,134 @@
+---
+import Nav from '@/components/nav.astro';
+import '@/assets/styles/global/menu.css';
+import '@/assets/styles/global/esqueleto.css';
+import '@/assets/styles/fontawesome/css/all.min.css';
+
+const { 
+  title = "Tap to Tool", 
+  description = "Encontre o que quiser em uma coleção de ferramentas online, gratuitas e rápidas para o seu dia a dia", 
+  keywords = "contador de letras, contador de palavras, contador de frases, contador de paragrafos, contador de linhas, contador de caracteres sem espaço, contador de caracteres, contador de caracteres no word, contador de caracteres online, contador de caracteres de texto, contador de caracteres escritos, contador de palavras e caracteres, contador de caracteres em um texto, contador de palavras e caracteres, contador de caracteres online gratis, contador de caracteres sem espaco",
+  lang = "en",
+  //canonical = "https://taptotool.com/" 
+} = Astro.props;
+
+const supportedLanguages = ['en', 'pt', 'es', 'fr', 'it', 'de', 'ru', 'id', 'hi'];
+const baseUrl = "https://taptotool.com";
+
+const pathname = Astro.url.pathname;
+
+const pathSegments = pathname.split('/').filter(Boolean);
+const firstSegmentIsLang = supportedLanguages.includes(pathSegments[0]);
+const purePath = firstSegmentIsLang ? pathSegments.slice(1).join('/') : pathSegments.join('/');
+
+const langPrefixForCanonical = lang === 'en' ? '' : `/${lang}`;
+const dynamicCanonical = `${baseUrl}${langPrefixForCanonical}/${purePath}`.replace(/\/$/, "");
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+    <head>
+        <meta charset="utf-8">
+        <link rel="canonical" href={dynamicCanonical} />
+
+        {supportedLanguages.map((l) => {
+          // Se for inglês, não coloca prefixo. Se for outro, coloca /l
+          const lPrefix = l === 'en' ? '' : `/${l}`;
+          // Monta a URL final: base + prefixo + rota da ferramenta
+          const altUrl = `${baseUrl}${lPrefix}/${purePath}`.replace(/\/$/, ""); 
+          
+          return <link rel="alternate" hreflang={l} href={altUrl} />;
+        })}
+
+        <link rel="alternate" hreflang="x-default" href={`${baseUrl}/${purePath}`.replace(/\/$/, "")} />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{title}</title>
+        
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-192x192.png" sizes="192x192" type="image/png">
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-512x512.png" sizes="512x512" type="image/png">
+        
+        <link rel="icon" href="/icon-logoPNG.ico" type="image/x-icon">
+        
+        <link rel="shortcut icon" href="/icon-logoPNG-claro.png" type="image/png" media="(prefers-color-scheme: light)" />
+        <link rel="shortcut icon" href="/icon-logoPNG.ico" type="image/png" media="(prefers-color-scheme: dark)" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-180x180.png" />
+        <link rel="mask-icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-512x512.png" color="#3f3f74" />
+
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-16x16.png?v=0" sizes="16x16" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-24x24.png?v=0" sizes="24x24" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-32x32.png?v=0" sizes="32x32" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-42x42.png?v=0" sizes="42x42" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-48x48.png?v=0" sizes="48x48" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-63x63.png?v=0" sizes="63x63" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-72x72.png?v=0" sizes="72x72" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-76x76.png?v=0" sizes="76x76" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-96x96.png?v=0" sizes="96x96" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-128x128.png?v=0" sizes="128x128" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-144x144.png?v=0" sizes="144x144" type="image/png" />
+        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-152x152.png?v=0" sizes="152x152" type="image/png" />
+
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content={description}/>
+        <meta name="keywords" content={keywords}/>
+        <meta name="author" content="Tap to Tool" />
+        <meta name="application-name" content="Tap to Tool" />
+        <meta name="theme-color" content="rgb(255, 255, 255)" />
+        <meta name="google-adsense-account" content="ca-pub-3201959726673479" />
+
+        <meta property="og:locale" content={lang} />
+        <meta property="og:locale:alternate" content="en" />
+        
+        <meta property="og:image" content="/assets/imgs/logo/icon-logo-original-sizePNG.png" />
+        
+        <meta property="og:site" content="Tap to Tool" />
+        <meta property="og:site_name" content="Tap to Tool" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={dynamicCanonical} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content="/assets/imgs/logo/icon-logo-original-sizePNG.png" />
+        <meta name="twitter:title" content={ `${title}` } />
+        <meta property="twitter:site" content="@Tap to Tool" />
+        <meta property="twitter:title" content={ `${title}` }/>
+        <meta property="twitter:creator" content="@taptotool" />
+        
+        <link rel="manifest" href="/manifest.json" />
+        
+        <slot name="ld-json" />
+
+        <script is:inline src="/precarregar.js?v=1.0.0"></script>
+        <link href="/precarregar.css?v=1.0.0" rel="stylesheet" />
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "wg7s0t431n");
+        </script>
+    </head>
+    <body>
+        
+        <div id="carrega_tela">
+            <div id="loadingBar"></div>
+        </div>
+        <slot name="adLeft"><!--Desative seu adblock!--></slot>
+        <header id="menuContainer">
+            <Nav />
+        </header>
+        <main id="container-body">
+            <slot />
+        </main>
+        <slot name="adRight"><!--Desative seu adblock!--></slot>
+
+        
+        <script>
+            import { InicializarMenu } from '@/assets/scripts/menu/menu.js';
+            InicializarMenu();
+        </script>
+        <slot name="scripts" />
+    </body>
+</html>
