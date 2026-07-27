@@ -29,10 +29,10 @@
   },
   "scripts": {
     "dev": "astro dev --host",
-    "start": "astro dev --host",
-    "build": "node update/fontmin.mjs && astro build",
+    "start": "node update/fontmin.mjs && astro dev --host",
+    "build": "astro build && node ping-bing.mjs",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "astro build && node ping-bing.mjs && firebase deploy"
+    "deploy": "astro build && firebase deploy"
   }
 }

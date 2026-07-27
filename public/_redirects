@@ -1,0 +1,20 @@
+# Redirecionamentos de idioma (/en)
+/en https://taptotool.com/ 301
+/en/* /:splat 301
+
+# Ferramentas de Texto
+/character-counter /text/character-counter 301
+/text-inverter /text/text-inverter 301
+/uppercase-lowercase-converter /text/uppercase-lowercase-converter 301
+/alphabetical-order /text/alphabetical-order 301
+
+# Ferramentas de Tempo
+/alarm-clock /time/alarm-clock 301
+/stopwatch /time/stopwatch 301
+/timer /time/timer 301
+
+# Ferramentas Aleatórias
+/random-number /random/random-number 301
+
+# Redirecionamento Global (Catch-all)
+/* https://taptotool.com/:splat 301

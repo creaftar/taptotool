@@ -16,15 +16,15 @@ const { pathname } = Astro.url;
 }*/
 
 function getTargetUrl(targetLang: string) {
-  const langPrefixRegex = new RegExp(`^/${currentLang}(/|$)`);
+   const langPrefixRegex = new RegExp(`^/${currentLang}(/|$)`);
   
-  let basePage = pathname.replace(langPrefixRegex, '');
+   let basePage = pathname.replace(langPrefixRegex, '');
 
-  basePage = basePage.replace(/\/$/, "");
+   basePage = basePage.replace(/\/$/, "");
 
-  const url = getRelativeLocaleUrl(targetLang, basePage || '/');
+   const url = getRelativeLocaleUrl(targetLang, basePage || '/');
 
-  return url.endsWith('/') && url !== '/' ? url.slice(0, -1) : url;
+   return url.endsWith('/') ? url : `${url}/`;
 }
 ---
 
@@ -32,7 +32,7 @@ function getTargetUrl(targetLang: string) {
    <div id="redimensionador">
     <div id="bloco0"><i class="icons fa-solid fa-bars" id="aside_opcoes"></i></div>
       <div class="bloco" id="bloco1">
-         <a href={currentLang === 'en' ? '/' : `/${currentLang}`} aria-label="Voltar para a página inicial">
+         <a href={currentLang === 'en' ? '/' : `/${currentLang}/`} aria-label="Voltar para a página inicial">
             
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <svg
