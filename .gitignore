@@ -33,7 +33,8 @@ pnpm-debug.log*
 #itens auxiliares
 outros/
 traducoes/
-update/
+update/*
+!update/fontmin.mjs
 utensilhos/
 rmvOldFiles.jspdate/
 utensilhos/
