@@ -1,50 +1,10 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
+    "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   },
-  "exclude": ["dist"],
-  "paths": {
-
-      "@/*": ["src/*"]
-
-    }
+  "exclude": ["dist"]
 }
-
-/*
-{
-
- // "extends": "astro/tsconfigs/strict",
-
-  "exclude": ["dist"],
-
-  "compilerOptions": {
-
-    "target": "es2020",
-
-    "module": "esnext",
-
-    "esModuleInterop": true,
-
-    "forceConsistentCasingInFileNames": true,
-
-    "strict": true,
-
-    "skipLibCheck": true,
-
-    "moduleResolution": "node",
-
-    "baseUrl": ".",
-
-    "paths": {
-
-      "@/*": ["src/*"]
-
-    }
-
-  },
-
-}*/

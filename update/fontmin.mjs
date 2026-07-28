@@ -1,6 +1,7 @@
 import Fontmin from 'fontmin';
-import fs from 'fs';
 import path from 'path';
+import fs from 'fs';
+import ttf2woff2 from 'ttf2woff2';
 
 // Defina os glyphs necessários (copiados dos valores de `content` no seu CSS)
 const glyphs = `
@@ -10,68 +11,79 @@ const glyphs = `
   \uf1a0 \uf19e \uf120 \uf085 \ue671 \uf173 \u003f \uf49e \uf144 \uf0c8 \uf338 \uf339 \u0041 \u0061 \uf0d3 \uf15e \uf15d
   \uf34e \uf281 \uf232
 `;
+const rootPath = path.resolve('./'); 
+const srcPath = path.join(rootPath, 'src/assets/styles/fontawesome/webfonts/');
+const destPath = path.join(rootPath, 'src/assets/fonts/fontmin/');
 
-// Caminho para os arquivos de fonte
-const fonts = [
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-regular-400.ttf'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-regular-400.ttf') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-solid-900.ttf'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-solid-900.ttf') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-brands-400.ttf'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-brands-400.ttf') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-regular-400.woff'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-regular-400.woff') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-solid-900.woff'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-solid-900.woff') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-brands-400.woff'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-brands-400.woff') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-regular-400.woff2'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-regular-400.woff2') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-solid-900.woff2'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-solid-900.woff2') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/fa-brands-400.woff2'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-brands-400.woff2') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-regular-400.ttf'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-regular-400.ttf') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-solid-900.ttf'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-solid-900.ttf') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-brands-400.ttf'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-brands-400.ttf') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-regular-400.woff'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-regular-400.woff') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-solid-900.woff'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-solid-900.woff') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-brands-400.woff'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-brands-400.woff') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-regular-400.woff2'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-regular-400.woff2') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-solid-900.woff2'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-solid-900.woff2') },
-  { src: path.resolve('../dist/assets/styles/fontawesome/webfonts/fa-brands-400.woff2'), dest: path.resolve('../dist/assets/fonts/fontmin/subset-fa-brands-400.woff2') },
-
-
-  /*REMOVER ESSAS TRES LINHAS ABAIXO*/
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/Font Awesome 7 Free-Regular-400.otf'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-regular-400.ttf') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/Font Awesome 7 Free-Solid-900.otf'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-solid-900.ttf') },
-  { src: path.resolve('../public/assets/styles/fontawesome/webfonts/Font Awesome 7 Brands-Regular-400.otf'), dest: path.resolve('../public/assets/fonts/fontmin/subset-fa-brands-400.ttf') },
+const fontFiles = [
+  'fa-regular-400.ttf',
+  'fa-solid-900.ttf',
+  'fa-brands-400.ttf'
 ];
 
-const fontminProcesses = fonts.map(({ src, dest }) => {
-  const fontmin = new Fontmin()
-    .src(src, { allowEmpty: true })
-    .use(Fontmin.glyph({
-      text: glyphs.replace(/\s+/g, ''),
-    }))
-    .dest(path.dirname(dest));
+async function processFonts() {
+  console.log(`📂 Pasta de origem: ${srcPath}`);
+  console.log(`📂 Pasta de destino: ${destPath}\n`);
 
-  return new Promise((resolve, reject) => {
-    // Verificação se o arquivo de fonte existe antes de processar
-    if (!fs.existsSync(src)) {
-      console.error(`Arquivo de fonte não encontrado: ${src}`);
-      resolve();
-      return;
+  if (!fs.existsSync(srcPath)) {
+    console.error("❌ ERRO: A pasta de origem não existe! Verifique o caminho.");
+    return;
+  }
+
+  if (fs.existsSync(destPath)) {
+    fs.rmSync(destPath, { recursive: true, force: true });
+  }
+  fs.mkdirSync(destPath, { recursive: true });
+
+  for (const fileName of fontFiles) {
+    const fullSrc = path.join(srcPath, fileName);
+    
+    if (!fs.existsSync(fullSrc)) {
+      console.warn(`⚠️  Arquivo não encontrado, pulando: ${fileName}`);
+      continue;
     }
 
-    fontmin.run((err, files) => {
-      if (err) {
-        reject(err);
-      } else {
-        if (files && files.length > 0) {
-          console.log(`Arquivo de fonte processado: ${files[0].path}`);
-          fs.renameSync(files[0].path, dest);
-          console.log(`Fonte otimizada salva em: ${dest}`);
-        } else {
-          console.error(`Nenhum arquivo gerado para a fonte: ${src}`);
-        }
-        resolve();
-      }
-    });
-  });
-});
+    console.log(`✂️  Cortando ícones de: ${fileName}...`);
 
-Promise.all(fontminProcesses)
-  .then(() => console.log('Fontes otimizadas criadas com sucesso!'))
-  .catch(console.error);
+    const fontmin = new Fontmin()
+      .src(fullSrc)
+      .use(Fontmin.glyph({ text: glyphs.replace(/\s+/g, '') }))
+      .use(Fontmin.ttf2woff())
+      .dest(destPath);
+
+    await new Promise((resolve) => {
+      fontmin.run((err, files) => {
+        if (err) {
+          console.error(`❌ Erro no Fontmin para ${fileName}:`, err);
+          return resolve();
+        }
+
+        if (files.length === 0) {
+          console.error(`❌ Nenhum arquivo gerado para ${fileName}. Algo deu errado no processamento.`);
+        }
+
+        files.forEach(file => {
+          const ext = path.extname(file.path);
+          const baseName = path.basename(file.path, ext);
+          const finalName = `subset-${baseName}${ext}`;
+          const finalPath = path.join(destPath, finalName);
+
+          fs.writeFileSync(finalPath, file.contents);
+          console.log(`   ✅ Gerado: ${finalName} (${(file.contents.length / 1024).toFixed(2)} KB)`);
+
+          if (ext === '.ttf') {
+            console.log(`   ⚡ Convertendo para WOFF2...`);
+            const woff2Buffer = ttf2woff2(file.contents);
+            const woff2Path = path.join(destPath, `subset-${baseName}.woff2`);
+            fs.writeFileSync(woff2Path, woff2Buffer);
+            console.log(`   🚀 Sucesso: subset-${baseName}.woff2 (${(woff2Buffer.length / 1024).toFixed(2)} KB)`);
+          }
+        });
+        resolve();
+      });
+    });
+  }
+  console.log('\n--- TUDO PRONTO! ---');
+}
+
+processFonts();

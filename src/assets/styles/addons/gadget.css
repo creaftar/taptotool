@@ -31,16 +31,17 @@
     border-radius: 30px;
     cursor: pointer;
     color: rgba(var(--padrao), 0.3);
-    /*overflow: hidden;*/
 
     transform: translateY(0);
-    
-    transition: transform 0.4s cubic-bezier(0.175, 0.6, 0.2, 1.5), color 0.2s;
+
+    transition: transform 0.4s 0.6s cubic-bezier(0.175, 0.6, 0.2, 1.5), color 0.2s;
 }
 
 #container-gadget-container:hover > #gadget-container {
     color: rgba(var(--padrao), 0.8);
     transform: translateY(-40px);
+
+    transition: transform 0.4s 0s cubic-bezier(0.175, 0.6, 0.2, 1.5), color 0.2s;
 }
 
 .icon-gadget{

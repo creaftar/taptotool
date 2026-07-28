@@ -1,31 +1,25 @@
 {
   "name": "taptotool",
-  "type": "module",
   "version": "1.0.0",
-  "description": "Tap to Tool - Online tools (Astro Version)",
+  "description": "Tap to Tool - Online tools",
   "author": "jiyuu wo",
   "dependencies": {
-    "@andsfonseca/palavras-pt-br": "^1.0.8",
-    "@astrojs/sitemap": "^3.7.0",
-    "@firebase/app": "^0.10.5",
-    "@firebase/auth": "^1.7.4",
-    "@firebase/firestore": "^4.7.10",
-    "@google/genai": "^1.41.0",
-    "@google/generative-ai": "^0.24.1",
-    "astro": "^5.18.0",
-    "astro-indexnow": "^2.1.0",
+    "@astrojs/sitemap": "^3.7.3",
+    "@firebase/firestore": "^4.16.0",
+    "astro": "^7.1.5",
+    "astro-indexnow": "^2.3.10",
     "canvas-confetti": "^1.9.4",
-    "firebase-admin": "^13.0.2",
-    "puppeteer": "^23.6.0",
+    "firebase-admin": "^14.2.0",
+    "puppeteer": "^25.4.0",
     "random-words": "^2.0.1",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/canvas-confetti": "^1.9.0",
-    "firebase-tools": "^13.11.2",
+    "firebase-tools": "^15.24.0",
     "fonteditor-core": "^2.6.3",
     "fontmin": "^1.1.1",
-    "typescript": "^5.7.3"
+    "typescript": "^7.0.2"
   },
   "scripts": {
     "dev": "astro dev --host",
