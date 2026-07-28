@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'titulo';
+	src: url(../../fonts/Niramit/Niramit-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'titulo';
+	src: url(../../fonts/Niramit/Niramit-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'texto';
+	src: url(../../fonts/Jost/static/Jost-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'texto';
+	src: url(../../fonts/Jost/static/Jost-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'logo';
+	src: url(../../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

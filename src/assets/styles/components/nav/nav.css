@@ -1,0 +1,133 @@
+/*GLOBAL*/
+@keyframes aparecer{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+@keyframes loadingBar{
+	from{
+		left:-25vw;
+	}
+	to{
+		left:calc(100vw);
+	}
+}
+*{
+  /* Garante que o padding e a borda não aumentem o tamanho do elemento */
+  box-sizing: border-box;
+  /* Remove as margens e preenchimentos padrão */
+  margin: 0;
+  padding: 0;
+}
+#navMenu {
+	display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 56px;
+	position: fixed;
+	top: 0;
+	background-color: rgba(var(--fundo-body-rgb), 0.97);
+	color: rgba(var(--padrao), 1);
+	z-index: 999;
+    width: 100%;
+}
+#redimensionador{
+	width: 80%;   
+	margin-left: 10%;
+	height: 100%;
+	display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tapto-letras{
+	fill: rgba(var(--padrao), 1);
+}
+.preenchimento-destaque{
+	fill: var(--destaque);
+}
+.preenchimento-branco{
+	fill: white;
+}
+.borda-engrenagem{
+    fill: rgba(63, 63, 116);
+}
+
+.bloco{
+    height: 100%;
+}
+#bloco1 > a{
+	display: flex;
+	height:100%;
+	align-items: center;
+    text-decoration: none;
+    font-family: titulo;
+}
+#bloco2{
+    flex-grow: 1;
+}
+#aside_opcoes{
+    cursor: pointer;
+    color: rgba(var(--padrao), 1);
+    width: 64px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bloco0{
+	cursor: pointer;
+	height: 100%;
+}
+#bloco0, #bloco3{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 64px;
+    align-items: center;
+}
+#bloco3{
+	width: 128px;
+    justify-content: space-around;
+}
+.logoNavBar{
+	height: 20px;
+    width: auto;
+}
+#logoEscrita{
+	margin-left: 0px;
+}
+#engrenagens{
+	fill: var(--destaque);
+	margin-bottom: 17px;
+}
+#currentLang{
+    height: 100%;
+	display: flex;
+	align-items: center;
+    font-size: x-small;
+	margin-bottom: calc(15px + 1em);
+	margin-left: 6px;
+}
+.padrao{
+	color: rgba(var(--padrao), 1);
+	fill: rgba(var(--padrao), 1);
+}
+/*FIM-GLOBAL*/
+
+
+/**MOBILE + TABLET**/
+@media(max-width: 1024px){
+	#navMenu {
+		width: 100%;
+		height: 56px;
+	}
+	#redimensionador{
+		width: 100%;   
+		margin-left: 0;
+	}
+}

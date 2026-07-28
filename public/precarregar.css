@@ -3,9 +3,9 @@
 	--opacidade-hr: 0.2;
 
 	--padrao: 63, 63, 116;
-	--fundo-card: rgb(252, 252, 252);
-	--fundo-body: rgba(246, 246, 246, 0.96);
-	--fundo-body-rgb: 246, 246, 246;
+	--fundo-card: rgb(255, 255, 255);
+	--fundo-body: rgba(245, 245, 245, 0.96);
+	--fundo-body-rgb: 245, 245, 245;
 	--fundo-body-FILL: rgb(246, 246, 246);
 	--hover: rgba(230, 230, 230, 0.60);
 	
@@ -32,6 +32,8 @@
 	--texto-random: white;
 
 	--borda-copy: 63, 63, 116;
+
+	--logo-borda: 63, 63, 116;
 /*
 e80f7b --> cor destaque padrao antiga
 
@@ -78,6 +80,7 @@ e80f7b --> cor destaque padrao antiga
 	.color1 { #f8db7e };
 
 	*/
+	--logo-borda: 15, 15, 15;
 }
 #carrega_tela{
 	background-color: var(--fundo-body-FILL);

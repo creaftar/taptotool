@@ -1,0 +1,13 @@
+
+#toggleTheme{
+	cursor: pointer;
+	background-color: var(--fundo-card);
+	color: rgba(var(--padrao), 1);
+	border-radius: 3px;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

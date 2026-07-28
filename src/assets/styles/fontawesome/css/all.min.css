@@ -1,50 +1,3 @@
-@font-face{
-    font-family:"Font Awesome 6 Free";
-    font-style:normal;
-    font-weight:400;
-    font-display:block;
-    /*src: url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.ttf) format("truetype");*/
-    src: url(../../../fonts/fontmin/subset-fa-regular-400.woff2) format("woff2"), url(../../../fonts/fontmin/subset-fa-regular-400.ttf) format("truetype");
-}
-@font-face{
-    font-family:"Font Awesome 6 Free";
-    font-style:normal;
-    font-weight:900;
-    font-display:block;
-    /*src: url(../webfonts/fa-solid-900.woff2) format("woff2"), url(../webfonts/fa-solid-900.ttf) format("truetype");*/
-    src: url(../../../fonts/fontmin/subset-fa-solid-900.woff2) format("woff2"), url(../../../fonts/fontmin/subset-fa-solid-900.ttf) format("truetype");
-}
-@font-face {
-    font-family: "Font Awesome 6 Brands";
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    /*src: url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.ttf) format("truetype");*/
-    src: url(../../../fonts/fontmin/subset-fa-brands-400.woff2) format("woff2"), url(../../../fonts/fontmin/subset-fa-brands-400.ttf) format("truetype");
-}
-@font-face {
-    font-family: "Font Awesome 6 Brands";
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    /*src: url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.ttf) format("truetype");*/
-    src: url(../../../fonts/fontmin/subset-fa-brands-400.woff2) format("woff2"), url(../../../fonts/fontmin/subset-fa-brands-400.ttf) format("truetype");
-}
-@font-face {
-    font-family: "Font Awesome 5 Brands";
-    font-display: block;
-    font-weight: 400;
-    /*src: url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.ttf) format("truetype");*/
-    src: url(../../../fonts/fontmin/subset-fa-brands-400.woff2) format("woff2"), url(../../../fonts/fontmin/subset-fa-brands-400.ttf) format("truetype");
-}
-@font-face {
-    font-family: "Font Awesome 5 Free";
-    font-display: block;
-    font-weight: 900;
-/*    src: url(../webfonts/fa-solid-900.woff2) format("woff2"), url(../webfonts/fa-solid-900.ttf) format("truetype");*/
-    src: url(../../../fonts/fontmin/subset-fa-solid-900.woff2) format("woff2"), url(../../../fonts/fontmin/subset-fa-solid-900.ttf) format("truetype");
-}
-
 @font-face {
     font-family: "Font Awesome 7 Free";
     font-style: normal;
@@ -67,11 +20,6 @@
     src: url(../webfonts/fa-brands-400.woff2)
 }
 
-/*@font-face {
-    font-family: "FontAwesome";
-    font-display: block;
-    src: url(../../../../8d3cabfc66809162fb4d.woff2) format("woff2"), url(../../../../6205fd00fb1b573e9f0f.ttf) format("truetype");
-}*/
 :root {
     --fa-family-classic: "Font Awesome 7 Free";
     --fa-font-solid: normal 900 1em/1 var(--fa-family-classic);
@@ -396,9 +344,3 @@
 .fa-paper-plane:before {
     content: "\f1d8"
 }
-
-/*@media(max-width: 1024px){
-    .end-topic{
-        display:none;
-    }
-}*/

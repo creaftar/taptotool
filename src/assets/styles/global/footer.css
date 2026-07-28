@@ -1,87 +1,94 @@
-#footer-img{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    padding: 9px;
-    height: 400px;
-}
-
-.container-footer-img{
-    max-width: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logoFooter{
-    width: 28%;
-    height: auto;
-    margin: 0 6px;
-}
-
-.letrasFooterImg{
-    fill: rgba(var(--padrao), 1);
-}
-
 footer{
     color: rgba(var(--padrao), 1);
-    font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-share-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: small;
+    user-select: none;
+    margin: 0 0 30px 0;
+}
+.square-share-icon{
+    background-color: var(--fundo-card);
+    border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+    width: 36px;
+    height: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.square-share-icon:hover{
+    background-color: rgba(var(--fundo-body-rgb), 1);
+}
+.square-share-icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgba(var(--padrao), 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
 }
 
 nav a{
 	color: rgba(var(--padrao), 1);
 }
 
-#tituloFooter{
-    display: flex;
-    align-items: center;
-}
-
-#tituloFooter > svg{
-    margin: 9px 12px;
-    width: 30px;
-    height: auto;
-}
-
 #footerIndex{
-    background-color: var(--fundo-card);
+    background-color: var(--fundo-body);
     display: flex;
     flex-direction: column;
     justify-content: unset;
     align-items: unset;
     border: none;
-	box-shadow: 0px 0px 9px rgba(var(--shadow), 0.1);
     max-width: 100%;
+    padding: 30px;
 }
 
-#copyright{
+.copyright-container{
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-footer-logo{
+    display: flex;
+    align-items: center;
+    transform: translateX(-12px);
+}
+#icon-footer{
     align-self: flex-end;
-    font-weight: bold;
-    font-size: small;
-    padding: 32px;
+	margin-bottom: calc(1em);
 }
-
-#descricaoFooterIndex{
-    padding: 0 10%;
+#copyright{
+    font-size: small;
 }
 
 #NavFooterIndex{
     align-self: center;
     display: flex;
     width: 80%;
-    justify-content: space-around;
-    margin-top: 32px;
+    justify-content: center;
+    margin: 32px 0;
 }
 #NavFooterIndex a{
     text-decoration: none;
     font-weight: bold;
-    padding: 32px 0;
-    width: 100%;
+    padding: 6px 24px;
     height: 100%;
     text-align: center;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
 }
 
 #NavFooterIndex a:hover{
@@ -115,4 +122,12 @@ nav a{
     #NavFooterIndex{
         width: 100%;
     }
+}
+
+
+.fa-reddit-alien:before {
+    content: "\f281"
+}
+.fa-whatsapp:before {
+    content: "\f232"
 }

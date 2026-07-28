@@ -2,9 +2,6 @@
 html{
     scroll-behavior: smooth;
 }
-#bloco0{
-    display: none;
-}
 
 #container-conteudo{
     margin-left: 0;
