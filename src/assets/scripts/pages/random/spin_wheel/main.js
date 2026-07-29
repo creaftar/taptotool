@@ -49,7 +49,7 @@ async function handleCriarRoleta() {
 };
 
 // Evento de input para atualizar "ao vivo"
-areaTextEl.addEventListener('input', handleCriarRoleta);
+//areaTextEl.addEventListener('input', handleCriarRoleta);
 
 // Inicialização com os placeholders ou valor inicial
 handleCriarRoleta();

@@ -10,10 +10,6 @@ body{
 #container-body{
     top: 0;
 }
-.conteudo-espacado{
-    margin-left: 10%;
-    top: 0;
-}
 #container-conteudo{
     width: 100%;
     overflow: hidden;

@@ -18,6 +18,9 @@ export class WheelInstance {
     
     private wheelDOM!: HTMLDivElement;
     private idleRequestId: number | null = null; // Para cancelar o giro infinito
+    
+    private marker!: HTMLElement;
+    private iconMarker!: HTMLElement;
 
     constructor(id: string, initialItems: string[]) {
         this.id = id;
@@ -27,10 +30,12 @@ export class WheelInstance {
         this.loadTickSound();
 
         this.element = this.createDOM();
+
+        this.marker = this.element.querySelector('.marker') as HTMLElement;
+        this.iconMarker = this.marker?.querySelector('i') as HTMLElement;
         
         this.startIdleAnimation();
     }
-
 
     private async loadTickSound() {
         try {
@@ -82,6 +87,8 @@ export class WheelInstance {
     }
 
         
+    // spin_wheel.ts (Trechos corrigidos)
+
     private startIdleAnimation() {
         this.stopIdleAnimation();
 
@@ -90,30 +97,24 @@ export class WheelInstance {
 
         const rotate = () => {
             if (!this.state.isSpinning) {
-                // Guardamos a rotação anterior para comparar a passagem do pino
                 const lastRotation = this.state.currentRotation;
                 
-                // Incremento da rotação (velocidade do idle)
                 this.state.currentRotation = (this.state.currentRotation + 0.2) % 360;
                 this.wheelDOM.style.transform = `rotate(${this.state.currentRotation}deg)`;
                 
-                // 1. Atualiza Cor e Movimento da Seta
                 this.updateMarkerPhysics(this.state.currentRotation);
 
-                // 2. GATILHO DO "TICK" NO IDLE
-                // Calculamos se cruzou a linha de um segmento entre o frame passado e o atual
                 const totalSegmentsPassedCurrent = Math.floor((this.state.currentRotation + colorOffset) / segmentAngle);
                 const totalSegmentsPassedLast = Math.floor((lastRotation + colorOffset) / segmentAngle);
 
                 if (totalSegmentsPassedCurrent !== totalSegmentsPassedLast) {
-                    // No idle, a velocidade é constante e baixa (usamos 0.1 como valor fixo)
-                    // Isso garante um som suave e grave, sem estourar o áudio
                     this.playTick(0.1); 
                 }
 
                 this.idleRequestId = requestAnimationFrame(rotate);
             }
         };
+        
         this.idleRequestId = requestAnimationFrame(rotate);
     }
     
@@ -125,35 +126,36 @@ export class WheelInstance {
     }
 
     private updateMarkerPhysics(rotation: number) {
-    const marker = this.element.querySelector('.marker') as HTMLElement;
-    const iconMarker = marker.querySelector('i')!;
-    const segmentAngle = 360 / this.items.length;
-    const colorOffset = 45; // Alinhado com seu CSS
+        const segmentAngle = 360 / this.items.length;
+        const colorOffset = 45;
 
-    // 1. Atualiza a Cor do marcador baseado no segmento atual
-    const normalizedRotation = (360 - ((rotation + colorOffset) % 360)) % 360;
-    const safeIndex = Math.floor(normalizedRotation / segmentAngle) % this.items.length;
-    marker.style.color = `hsl(${(safeIndex * 360) / this.items.length}, 70%, 50%)`;
+        const normalizedRotation = (360 - ((rotation + colorOffset) % 360)) % 360;
+        const safeIndex = Math.floor(normalizedRotation / segmentAngle) % this.items.length;
+        
+        // Atualização da cor
+        this.marker.style.color = `hsl(${(safeIndex * 360) / this.items.length}, 70%, 50%)`;
 
-    // 2. Física do Movimento (O "balanço" da seta)
-    let relativePos = ((rotation + colorOffset) % segmentAngle) / segmentAngle;
-    if (relativePos > 0.5) relativePos -= 1;
+        let relativePos = ((rotation + colorOffset) % segmentAngle) / segmentAngle;
+        if (relativePos > 0.5) relativePos -= 1;
 
-    const hitZone = 0.25;
-    let iconRotation = 134; // O ângulo base que você definiu no CSS (.marker > i)
+        const hitZone = 0.25;
+        const iconRotation = 134;
 
-    if (Math.abs(relativePos) < hitZone) {
-        const normalizedHit = relativePos / hitZone;
-        // Adiciona um deslocamento de até 30 graus no impacto
-        const swing = -30 * Math.cos(normalizedHit * (Math.PI / 2));
-        iconMarker.style.transform = `rotate(${iconRotation + swing}deg)`;
-        iconMarker.style.transition = "none";
-    } else {
-        // Volta suavemente para o ângulo base de 134deg
-        iconMarker.style.transform = `rotate(${iconRotation}deg)`;
-        iconMarker.style.transition = "transform 0.1s ease-out";
+        if (Math.abs(relativePos) < hitZone) {
+            const normalizedHit = relativePos / hitZone;
+            const swing = -30 * Math.cos(normalizedHit * (Math.PI / 2));
+            
+            if (this.iconMarker.style.transition !== "none") {
+                this.iconMarker.style.transition = "none";
+            }
+            this.iconMarker.style.transform = `rotate(${iconRotation + swing}deg)`;
+        } else {
+            if (this.iconMarker.style.transition !== "transform 0.1s ease-out") {
+                this.iconMarker.style.transition = "transform 0.1s ease-out";
+            }
+            this.iconMarker.style.transform = `rotate(${iconRotation}deg)`;
+        }
     }
-}
 
     public spin() {
         if (this.state.isSpinning) return;
@@ -196,12 +198,9 @@ export class WheelInstance {
                 this.state.isSpinning = false;
                 this.state.currentRotation = currentRotation % 360;
 
-                const marker = this.element.querySelector('.marker') as HTMLElement;
-                const iconMarker = marker.querySelector('i')!;
-
                 // Reset suave para o ângulo de repouso definido no seu CSS
-                iconMarker.style.transition = "transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
-                iconMarker.style.transform = `rotate(134deg)`; 
+                this.iconMarker.style.transition = "transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
+                this.iconMarker.style.transform = `rotate(134deg)`; 
 
                 this.dispatchResult();
             }

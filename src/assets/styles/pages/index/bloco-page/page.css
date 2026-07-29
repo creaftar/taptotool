@@ -5,6 +5,11 @@
     padding-bottom: 32px;
 }
 
+.conteudo-espacado{
+    margin: 0 10%;
+    top: 0;
+}
+
 #container-pesquisa{
     width: 100%;
     display: flex;
