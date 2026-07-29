@@ -6,7 +6,7 @@
     width: 64px;
     max-width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 999;
 }
 #container-opcaoAside{
     background-color: var(--fundo-body);
@@ -100,7 +100,7 @@
     border-radius: 6px;
     border: solid 1px rgba(var(--padrao), 0.1);
     width: 100%;
-    box-shadow: 0px 0px 9px rgba(var(--shadow), 0.1);
+    box-shadow: 0px 0px 3px rgba(var(--shadow), 0.1);
 }
 #container-iconANDinput > i{
     background-color: green;
@@ -168,11 +168,11 @@
   border: 1px solid rgba(var(--padrao), var(--opacidade-fraca));
   z-index: 999;
 }
-/* 1. Defina o tamanho da barra de rolagem para que ela apareça estilizada */
+
 #container-opcaoAside::-webkit-scrollbar
 {
-    width: 0px; /* Largura para scroll vertical */
-    height: 6px; /* Altura para scroll horizontal (se aplicável) */
+    width: 0px;
+    height: 6px;
     z-index: 999;
     cursor: pointer;
 }
@@ -182,8 +182,11 @@
 }
 
 .fa-location-arrow:before {
-    content: "\f124"
+    content: "\f124";
 }
 .fa-qrcode:before {
-    content: "\f029"
+    content: "\f029";
+}
+.fa-dragon:before {
+    content: "\f6d5";
 }

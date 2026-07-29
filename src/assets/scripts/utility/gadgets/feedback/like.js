@@ -2,7 +2,7 @@ import { db } from "../../../imports/firebase.js";
 import { doc, setDoc, increment } from "@firebase/firestore";
 
 let pageName = window.location.pathname.split('/');
-pageName = pageName[pageName.length - 1];
+pageName = pageName[pageName.length - 2];
 
 let likeEl = document.getElementById("like");
 let deslikeEl = document.getElementById("deslike");

@@ -112,8 +112,13 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
         <p class="aside-text-icon">{d.aside.creaftar_text}</p>
       </a>
     </div>
+    <div class="opcaoAside" data-pagina="creaftar" id={getActiveId("creaftar")}>
+        <a href="https://creaftar.com" target="_blank" aria-label={d.aside.creaftar_text}>
+          <i class="fa-solid fa-dragon aside-icon"></i>
+          <p class="aside-text-icon">{d.aside.elobetter_text}</p>
+        </a>
+    </div>
   </div>
-
   <div id="placeholder-aside-container">
     <div id="container-iconANDinput">
       <i class="fa-solid fa-magnifying-glass" id="lupa-aside"></i>
@@ -121,18 +126,6 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
     </div>
   </div>
 </aside>
-
-<!--<script>
-  // Como o Astro já renderizou o #opcaoAtiva no servidor, 
-  // só precisamos garantir que ele apareça no scroll se a lista for longa.
-  document.addEventListener('astro:page-load', () => {
-    const activeLink = document.querySelector('#opcaoAtiva');
-    if (activeLink) {
-      activeLink.scrollIntoView({ behavior: "instant", block: "center" });
-    }
-  });
-</script>-->
-
 
 <script>
     import '@/assets/scripts/menu/aside/aside.js';

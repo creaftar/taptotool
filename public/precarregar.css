@@ -34,14 +34,7 @@
 	--borda-copy: 63, 63, 116;
 
 	--logo-borda: 63, 63, 116;
-/*
-e80f7b --> cor destaque padrao antiga
-
-	.color1 { #079ea6 };
-.color2 { #f5be58 };
-.color3 { #f0077b };
-.color4 { #1e0c42 };
-.color5 { #e3e0b3 };*/
+	--gradiente-botao: linear-gradient(to bottom, var(--fundo-card),rgba(var(--fundo-body-rgb), 0.88));
 }
 .escuro:root{
 	--opacidade-hr: 0.2;
@@ -81,6 +74,8 @@ e80f7b --> cor destaque padrao antiga
 
 	*/
 	--logo-borda: 15, 15, 15;
+	
+	--gradiente-botao: linear-gradient(to bottom, rgba(var(--fundo-body-rgb), 0.88), var(--fundo-card));
 }
 #carrega_tela{
 	background-color: var(--fundo-body-FILL);

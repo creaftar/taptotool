@@ -23,8 +23,8 @@ function AbrirMenu(){
         hrAside.forEach(hr => hr.style.visibility = "visible");
         menuLateralEl.style.visibility = "visible";    
     }
-    menuLateralEl.style.width = "260px";
-    placeholderAsideEl.style.width = "260px";
+    menuLateralEl.style.width = "300px";
+    placeholderAsideEl.style.width = "300px";
     containerConteudoEl.style.opacity = "0.5";
     DesabilitarCards();
     HabilitarTextIcons();
