@@ -1,0 +1,136 @@
+.container-banner{
+    width: 100%;
+    position: relative;
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.container-icon-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-16px);
+}
+.hero-banner {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Canvas dos Ícones */
+#iconCanvas {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+pointer-events: none;
+
+/* Aplica o desbotado gradiente direto na camada do Canvas */
+-webkit-mask-image: radial-gradient(
+ellipse 85% 85% at 50% 50%,
+black 30%,
+rgba(0, 0, 0, 0.5) 70%,
+transparent 100%
+);
+mask-image: radial-gradient(
+ellipse 85% 85% at 50% 50%,
+black 30%,
+rgba(0, 0, 0, 0.5) 70%,
+transparent 100%
+);
+}
+
+/* Conteúdo por cima */
+.hero-content {
+position: relative;
+z-index: 2;
+text-align: center;
+max-width: 750px;
+padding: 20px;
+pointer-events: none;
+}
+
+.hero-content h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.hero-content h1 span {
+background: linear-gradient(135deg, #60a5fa 0%, #a855f7 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.hero-content p {
+font-size: 1.2rem;
+color: #94a3b8;
+margin-bottom: 2.5rem;
+line-height: 1.6;
+}
+
+.cta-button {
+pointer-events: auto;
+background: linear-gradient(135deg, #2563eb, #1d4ed8);
+color: white;
+padding: 16px 36px;
+border: none;
+border-radius: 10px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4);
+transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+transform: translateY(-2px);
+box-shadow: 0 15px 30px -5px rgba(37, 99, 235, 0.6);
+}
+
+
+.container-abs-footer-banner{
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    gap: 32px;
+    overflow: auto;
+    width: 100%;
+}
+.container-footer-banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.container-footer-banner a{
+    text-decoration: none;
+    color: rgba(var(--padrao), 1);
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    min-height: 56px;
+}

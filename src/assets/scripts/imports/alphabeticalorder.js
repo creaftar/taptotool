@@ -1,6 +1,5 @@
 import { PlaceholderDinamico, PlaceholderResultDinamico } from '../utility/placeholder/placeholder.js';
 
-import('../menu/aside/aside.js');
 import('../pages/text/alphabetical_order/alphabetical_order.js');
 
 const container = document.getElementById('area-text');

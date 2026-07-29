@@ -1,7 +1,5 @@
 import { PlaceholderDinamico, PlaceholderResultDinamico } from "../utility/placeholder/placeholder";
 
-
-import('../menu/aside/aside.js');
 import('../pages/text/uppercase_lowercase_converter/uppercase_lowercase_converter.js');
 import("../pages/text/uppercase_lowercase_converter/Formato.js")
 

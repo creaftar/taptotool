@@ -1,6 +1,5 @@
 import { PlaceholderDinamico, PlaceholderResultDinamico } from "../utility/placeholder/placeholder";
 
-import('../menu/aside/aside.js');
 import('../pages/text/text_inverter/text_inverter.js');
 
 const container = document.getElementById('area-text');

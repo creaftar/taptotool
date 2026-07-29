@@ -1,14 +1,13 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from '@/layout/BaseLayout.astro';
+import Banner from '@/components/index/Banner.astro';
 import Carrossel from '@/components/index/carrossel.astro';
 import Kit from '@/components/index/kit.astro';
 import Pages from '@/components/index/pages.astro';
 import Footer from '@/components/gadgets/footer.astro';
 import '@/assets/styles/pages/index/index.css';
 
-import imgTapToTool from '@/assets/imgs/footer/logoTapToTool.svg';
-import imgCreaftar from '@/assets/imgs/footer/logoCreaftar.svg';
 
 export async function getStaticPaths() {
   return [
@@ -115,7 +114,8 @@ const currentUrl = `https://taptotool.com/${lang}`;
 })}>
 </script>
 
-  <div id="container-conteudo">
+<div id="container-conteudo">
+    <Banner lang={lang} />
     <div class="ferramentas-por-topicos">  
       <Carrossel lang={lang} />
     </div>

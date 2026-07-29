@@ -33,3 +33,8 @@
 	font-style: normal;
 	font-display: swap;
 }
+
+.padrao{
+	color: rgba(var(--padrao), 1);
+	fill: rgba(var(--padrao), 1);
+}

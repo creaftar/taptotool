@@ -67,10 +67,6 @@ nav a{
     align-items: center;
     transform: translateX(-12px);
 }
-#icon-footer{
-    align-self: flex-end;
-	margin-bottom: calc(1em);
-}
 #copyright{
     font-size: small;
 }
