@@ -90,3 +90,6 @@ html{
 .fa-location-arrow:before {
     content: "\f124"
 }
+.fa-dragon:before {
+    content: "\f6d5";
+}
