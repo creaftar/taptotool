@@ -35,6 +35,7 @@
 
 	--logo-borda: 63, 63, 116;
 	--gradiente-botao: linear-gradient(to bottom, var(--fundo-card),rgba(var(--fundo-body-rgb), 0.88));
+	--gradiente-large-botao: linear-gradient(to bottom, var(--fundo-card),rgba(var(--fundo-body-rgb), 0.88));
 }
 .escuro:root{
 	--opacidade-hr: 0.2;
@@ -42,6 +43,7 @@
 	
 	--fundo-card: rgba(40, 40, 40, 0.9);
 	--fundo-body: rgba(15, 15, 15, 1);
+	--fundo-card-rgb: 40, 40, 40;
 	--fundo-body-rgb: 15, 15, 15;
 	--fundo-body-FILL: rgb(15, 15, 15);
 	--hover: #3a3a3a;
@@ -76,6 +78,7 @@
 	--logo-borda: 15, 15, 15;
 	
 	--gradiente-botao: linear-gradient(to bottom, rgba(var(--fundo-body-rgb), 0.88), var(--fundo-card));
+	--gradiente-large-botao: linear-gradient(to bottom, rgba(var(--fundo-card-rgb), 0.6), var(--fundo-card));
 }
 #carrega_tela{
 	background-color: var(--fundo-body-FILL);

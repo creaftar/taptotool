@@ -1,5 +1,6 @@
 import { WheelInstance } from "./spin_wheel";
-import { FirstUpdateRoleta } from "./main";
+import { textoItens } from "./main";
+import { Pagina } from "./Pagina";
 import confetti from 'canvas-confetti';
 
 let containerWinnerEl = document.getElementById('container-winner');
@@ -16,11 +17,14 @@ export class WheelManager {
     private _tabuaSfx: HTMLAudioElement;
     private _aplausosSfx: HTMLAudioElement;
     private _lastWinner: string;
+    private _resultados: any[];
 
-    private wheels: Map<string, WheelInstance> = new Map();
+    private wheels: Map<number, WheelInstance> = new Map();
     private container: HTMLElement;
     private qtdeWheels: number;
     private wheelsFinished: number;
+
+    private _paginas: Pagina;
 
     constructor(containerId: HTMLElement) {
         this._confeteSfx = new Audio('/assets/audios/random/spinwheel/confete-sfx.mp3');
@@ -30,52 +34,100 @@ export class WheelManager {
         this.qtdeWheels = 0;
         this.wheelsFinished = 0;
         this._lastWinner = "";
+        this._resultados = [];
+        this._paginas = new Pagina(0);
     }
 
-    public createWheel(items: string[]): void {
-        const id = crypto.randomUUID();
-        const wheel = new WheelInstance(id, items);
+    public createWheel(items: string[]): WheelInstance {
+        const wheel = this.addWheel(items);
+        wheel.element.classList.add("first-roullete");
+        this.container.appendChild(wheel.element);
+
+        return wheel;
+    }
+
+    public addWheel(items: string[]): WheelInstance {
+        const id = this.wheels.size;
+        const newWheel = new WheelInstance(
+            id, 
+            items, 
+            (targetId) => this.removeWheel(targetId), 
+            this._paginas
+        );
         this.qtdeWheels++;
-        
-        wheel.element.addEventListener('wheelFinished', (e: any) => {
+
+        newWheel.element.addEventListener('wheelFinished', (e: any) => {
             this.VerificarResultado(e);
         });
+        
+        newWheel.updateItems(items);
+        this.wheels.set(id, newWheel);
+        this._paginas.SetPaginaAtual(id);
 
-        this.wheels.set(id, wheel);
-        this.container.appendChild(wheel.element);
+        return newWheel;
     }
 
     public spinAll(): void {
-        this.wheels.forEach(wheel => wheel.spin());
+        this.wheelsFinished = 0;
+        this.wheels.forEach((wheel) => {
+            wheel.spin();
+        });
     }
 
-    public removeWheel(id: string): void {
+    public removeWheel(id: number): void {
         const wheel = this.wheels.get(id);
         if (wheel) {
-            wheel.element.remove();
+            wheel.destroy(id); // Remove do DOM e fecha áudio
             this.wheels.delete(id);
+            
+            // 🔄 Reorganiza os IDs das roletas que sobraram
+            this.reindexWheels();
+            
+            this.qtdeWheels = this.wheels.size;
         }
     }
+
+    private reindexWheels(): void {
+        const remainingWheels = Array.from(this.wheels.values());
+        this.wheels.clear(); // Limpa o mapa atual
+
+        remainingWheels.forEach((wheel, newIndex) => {
+            // Atualiza o ID interno da roleta e o DOM correspondente
+            wheel.updateId(newIndex);
+            
+            // Reinsere no Map com a chave/index correto
+            this.wheels.set(newIndex, wheel);
+        });
+    }
+
     public updateFirstWheel(items: string[]): void {
-        // Pega a primeira roleta do Map (já que você parece ter apenas uma área de texto)
-        const firstWheel = this.wheels.values().next().value;
-        if (firstWheel) {
-            firstWheel.updateItems(items);
+        const firstWheel = this.updateCurrentWheel(items);
+        firstWheel.element.classList.add("roleta-principal");
+        firstWheel.element.addEventListener('click', () => this.spinAll());
+    }
+
+    public updateCurrentWheel(items: string[], armazenar = true): WheelInstance {
+        const wheel = this.wheels.get(this._paginas.GetPaginaAtual());
+        if (wheel) {
+            wheel.updateItems(items);
+            this._paginas.ArmazenarTexto(this._paginas.GetPaginaAtual(), items, armazenar);
         } else {
-            // Se não houver roleta ainda, cria a primeira
-            this.createWheel(items);
+            return this.createWheel(items);
         }
+
+        return wheel;
     }
 
     public VerificarResultado(e: any): void{
         this.wheelsFinished++;
+        this._resultados.push(e);
         if(this.qtdeWheels == this.wheelsFinished){
             this.wheelsFinished = 0;
             this._aplausosSfx.play();
             this._confeteSfx.play();
             this._tabuaSfx.play();
             this.lancarConfete();
-            this.ExibirVencedor(e);
+            this.ExibirVencedor(this._resultados);
         }
     }
 
@@ -111,19 +163,47 @@ export class WheelManager {
         frame();
     }
 
-    private ExibirVencedor(e: any) {
-        this._lastWinner = e.detail.winner;
-        bannerWinnerEl!.style.backgroundColor = `${e.detail.color}`; 
-        textWinnerEl!.textContent += `${e.detail.winner}\n`;
+    private onRemoveClick = () => {
+        this.RemoverVencedor(this._resultados);
+        this._resultados = [];
+    };
+    
+    private ExibirVencedor(resultados: any) {   
+        resultados.forEach((e: any) => {
+            this._lastWinner = e.detail.winner;
+            bannerWinnerEl!.style.backgroundColor = `${e.detail.color}`; 
+            textWinnerEl!.textContent += `${e.detail.winner}\n`;
+        });
         containerWinnerEl!.style.visibility = "visible";
         containerWinnerEl!.style.opacity = "1";
         bgWinnerEl!.style.visibility = "visible";
         bgWinnerEl!.style.opacity = "1";
         fecharWinnerEl!.addEventListener('click', this.FecharVencedor);
         bgWinnerEl!.addEventListener('click', this.FecharVencedor);
-        removeWinnerEl!.addEventListener('click', this.RemoverVencedor);
+        removeWinnerEl!.addEventListener('click', this.onRemoveClick);
     }
-   
+
+    private RemoverVencedor(resultados: any[]) {
+    // 1. Processa a remoção de CADA roleta com o SEU RESPECTIVO vencedor
+    resultados.forEach((e: any) => {
+        const idRoleta = e.detail.id;          // ID único da roleta
+        const vencedorDestaRoleta = e.detail.winner; // Vencedor ESPECÍFICO desta roleta
+
+        // Remove APENAS o vencedor desta roleta no array de textos dela
+        const textosRestantes = this._paginas.RemoverVencedor(idRoleta, vencedorDestaRoleta);
+
+        // Atualiza a roleta específica
+        this._paginas.SetPaginaAtual(idRoleta);
+        if (textosRestantes && textosRestantes.length > 0) {
+            this.updateCurrentWheel(textosRestantes);
+        } else {
+            this.updateCurrentWheel(textoItens);
+        }
+    });
+
+    this.FecharVencedor();
+}
+
     private FecharVencedor = () => {
         bgWinnerEl!.style.visibility = "hidden";
         bgWinnerEl!.style.opacity = "0";
@@ -133,38 +213,6 @@ export class WheelManager {
         textWinnerEl!.textContent = "";
         fecharWinnerEl!.removeEventListener('click', this.FecharVencedor);
         bgWinnerEl!.removeEventListener('click', this.FecharVencedor);
-        removeWinnerEl!.removeEventListener('click', this.RemoverVencedor);
-    }
-
-    private RemoverVencedor = () => {
-        if (textTipEl instanceof HTMLTextAreaElement && this._lastWinner) {
-            if (textTipEl.value === ""){
-                    this.FecharVencedor();
-                    return;
-                };
-            // 1. Limpa o nome do vencedor de espaços extras
-            const winnerClean = this._lastWinner.trim();
-
-            // 2. Divide as linhas e já remove espaços em branco de cada uma
-            const lines = textTipEl.value.split('\n').map(line => line.trim());
-            
-            // 3. Procura o índice (agora ambos estão "limpos")
-            const index = lines.indexOf(winnerClean);
-            
-            if (index > -1) {
-                lines.splice(index, 1);
-                
-                // 4. Filtra linhas vazias para evitar buracos na roleta
-                const finalLines = lines.filter(line => line !== "");
-
-                // 5. Atualiza o textarea e a roleta
-                textTipEl.value = finalLines.join('\n');
-                this.updateFirstWheel(finalLines);
-            }
-            if (textTipEl.value === ""){
-                FirstUpdateRoleta();
-            };
-        }
-        this.FecharVencedor();
+        removeWinnerEl!.removeEventListener('click', this.onRemoveClick);
     }
 }

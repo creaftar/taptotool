@@ -1,4 +1,5 @@
 import { WheelRenderer } from "./renderer";
+import { Pagina } from "./Pagina";
 
 interface WheelState {
     currentRotation: number;
@@ -6,11 +7,11 @@ interface WheelState {
 }
 
 export class WheelInstance {
-    public readonly id: string;
+    private id: number;
+    private _paginas: Pagina;
     private items: string[];
     private state: WheelState = { currentRotation: 0, isSpinning: false };
     public readonly element: HTMLElement;
-    private lastFrameEscaped: boolean = false;
     
     // Propriedades de áudio
     private audioCtx: AudioContext;
@@ -21,19 +22,21 @@ export class WheelInstance {
     
     private marker!: HTMLElement;
     private iconMarker!: HTMLElement;
+    private onRemove: (id: number) => void;
 
-    constructor(id: string, initialItems: string[]) {
+    constructor(id: number, initialItems: string[], onRemove: (id: number) => void, pagina: Pagina) {
+        this._paginas = pagina;
         this.id = id;
         this.items = [...initialItems];
-        
+        this.onRemove = onRemove;
+
         this.audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
         this.loadTickSound();
 
         this.element = this.createDOM();
-
         this.marker = this.element.querySelector('.marker') as HTMLElement;
         this.iconMarker = this.marker?.querySelector('i') as HTMLElement;
-        
+
         this.startIdleAnimation();
     }
 
@@ -51,15 +54,47 @@ export class WheelInstance {
     private createDOM(): HTMLElement {
         const card = document.createElement('div');
         card.className = 'wheel-card';
+        card.dataset.id = `${this.id}`; // Facilita encontrar/mudar via JS
         card.innerHTML = `
+            <div class="fechar-roleta"><i class="fa-solid fa-xmark"></i></div>
             <div class="wheel-container">
                 <div class="marker"><i class="fa-solid fa-paper-plane"></i></div>
                 <div class="wheel-canvas-target"></div>
             </div>
         `;
         this.wheelDOM = card.querySelector('.wheel-canvas-target') as HTMLDivElement;
+        
+        // Escuta o clique de fechar sem depender do ID na string da classe
+        card.querySelector('.fechar-roleta')?.addEventListener("click", (evt) => {
+            evt.preventDefault();
+            this.onRemove(this.id); 
+        });
+
         this.wheelDOM.addEventListener('click', () => this.spin());
+
+        this._paginas.CriarPagina(this.id);
         return card;
+    }
+
+    // Método novo para reindexar ID e Paginação de forma limpa
+    public updateId(newId: number): void {
+        const oldId = this.id;
+        this.id = newId;
+
+        // 1. Atualiza o atributo no DOM do Card
+        this.element.dataset.id = `${newId}`;
+
+        // 2. Atualiza o elemento da Paginação
+        this._paginas.UpdatePagina(oldId, newId);
+    }
+
+    public destroy(id: number): void {
+        this.stopIdleAnimation();
+        this._paginas.RemoverPagina(id); // Remove a página correta antes do destroy
+        this.element.remove();
+        if (this.audioCtx && this.audioCtx.state !== 'closed') {
+            this.audioCtx.close();
+        }
     }
 
     public async updateVisual(): Promise<void> {
@@ -75,19 +110,10 @@ export class WheelInstance {
             });
         };
 
-        // 2. Aguarda a textura
         const texture = await carregarImagem('/assets/textures/metal.png');
-
-        // 3. Gera a imagem da roleta (o disco colorido com a textura)
-        // O Renderer cospe uma string gigante (DataURL) que representa a imagem final
         const textureWheelDataUrl = WheelRenderer.generateTexture(this.items, texture as HTMLImageElement);
-
-        // 4. Aplica o DataURL no DOM
         this.wheelDOM.style.backgroundImage = `url(${textureWheelDataUrl})`;
     }
-
-        
-    // spin_wheel.ts (Trechos corrigidos)
 
     private startIdleAnimation() {
         this.stopIdleAnimation();
@@ -203,6 +229,10 @@ export class WheelInstance {
                 this.iconMarker.style.transform = `rotate(134deg)`; 
 
                 this.dispatchResult();
+
+                setTimeout(()=>{
+                    this.startIdleAnimation();
+                }, 10000);
             }
         };
 
@@ -241,7 +271,7 @@ export class WheelInstance {
             detail: { 
                 id: this.id, 
                 winner: this.items[safeIndex],
-                color: winnerColor // Agora a cor vai aqui!
+                color: winnerColor
             } 
         });
 
@@ -250,6 +280,6 @@ export class WheelInstance {
 
     public async updateItems(newItems: string[]): Promise<void> {
         this.items = [...newItems];
-        await this.updateVisual(); // Isso gera o novo DataURL e aplica ao background
+        await this.updateVisual();
     }
 }

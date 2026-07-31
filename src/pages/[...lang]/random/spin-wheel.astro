@@ -157,6 +157,9 @@ const currentUrl = `https://taptotool.com${urlPath}/random/spin-wheel`;
   <div id="container-roletas-controls">
     <div id="roletas-container"></div>
     <div class="controls">
+      <ul id="paginacao">
+        
+      </ul>
       <div id="area-text" data-i18n={JSON.stringify(d.dynamic)}>
         <textarea id="textTip" placeholder={d.ui.placeholder_input}></textarea>
           <div id="container-paste-text">
@@ -176,6 +179,9 @@ const currentUrl = `https://taptotool.com${urlPath}/random/spin-wheel`;
             </button>
           </div>
       </div>
+      <button id="addRoulette" class="btn-add">
+        <i class="fa-solid fa-plus"></i> {d.ui.add_wheel}
+      </button>
     </div>
   </div>
 
@@ -192,6 +198,7 @@ const currentUrl = `https://taptotool.com${urlPath}/random/spin-wheel`;
     </div>
   </div>
   
+  <div id="container-roletas"></div>
   <div id="confetti-wrapper"></div>
 
   <article id="description-area" slot="SEO">

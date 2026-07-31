@@ -28,7 +28,8 @@
     "winner_label": "The winner is:",
     "btn_close": "Close",
     "btn_remove": "Remove",
-    "price_currency": "USD"
+    "price_currency": "USD",
+    "add_wheel": "ADD WHEEL"
   },
   "content": {
     "h1_seo": "Customizable Online Spinner - Spin to Pick Names and Make Decisions",

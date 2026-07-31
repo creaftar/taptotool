@@ -28,7 +28,8 @@
     "winner_label": "Результат выбора:",
     "btn_close": "Закрыть",
     "btn_remove": "Удалить",
-    "price_currency": "RUB"
+    "price_currency": "RUB",
+    "add_wheel": "ДОБАВИТЬ КОЛЕСО"
   },
   "content": {
     "h1_seo": "Онлайн-колесо для выбора имен и принятия решений",

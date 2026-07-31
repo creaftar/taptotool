@@ -28,7 +28,8 @@
     "winner_label": "Le gagnant est :",
     "btn_close": "Fermer",
     "btn_remove": "Supprimer",
-    "price_currency": "EUR"
+    "price_currency": "EUR",
+    "add_wheel": "AJOUTER UNE ROULETTE"
   },
   "content": {
     "h1_seo": "Roue en Ligne Personnalisable - Tournez pour Tirer au Sort des Noms et Décisions",

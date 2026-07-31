@@ -28,7 +28,8 @@
     "winner_label": "O vencedor é:",
     "btn_close": "Fechar",
     "btn_remove": "Remover",
-    "price_currency": "BRL"
+    "price_currency": "BRL",
+    "add_wheel": "ADICIONAR ROLETA"
   },
   "content": {
     "h1_seo": "Roleta Aleatória de Nomes - Gire para Sortear Nomes e Itens",
