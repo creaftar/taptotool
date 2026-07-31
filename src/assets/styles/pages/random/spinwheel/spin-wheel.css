@@ -104,6 +104,13 @@
     font-size: small;
     color: rgba(var(--padrao), 1);
 }
+.fechar-roleta.enabled{
+    opacity: 1;
+}
+.fechar-roleta.disabled{
+    opacity: 0.6;
+    cursor:auto;
+}
 .marker {
     position: absolute;
     z-index: 50;

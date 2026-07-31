@@ -22,6 +22,7 @@ export class WheelInstance {
     
     private marker!: HTMLElement;
     private iconMarker!: HTMLElement;
+    private closeWheel!: HTMLElement;
     private onRemove: (id: number) => void;
 
     constructor(id: number, initialItems: string[], onRemove: (id: number) => void, pagina: Pagina) {
@@ -36,6 +37,9 @@ export class WheelInstance {
         this.element = this.createDOM();
         this.marker = this.element.querySelector('.marker') as HTMLElement;
         this.iconMarker = this.marker?.querySelector('i') as HTMLElement;
+        this.closeWheel = this.element.querySelector('.fechar-roleta') as HTMLElement;
+
+        console.log(this.closeWheel);
 
         this.startIdleAnimation();
     }
@@ -56,7 +60,7 @@ export class WheelInstance {
         card.className = 'wheel-card';
         card.dataset.id = `${this.id}`; // Facilita encontrar/mudar via JS
         card.innerHTML = `
-            <div class="fechar-roleta"><i class="fa-solid fa-xmark"></i></div>
+            <div class="fechar-roleta enabled"><i class="fa-solid fa-xmark"></i></div>
             <div class="wheel-container">
                 <div class="marker"><i class="fa-solid fa-paper-plane"></i></div>
                 <div class="wheel-canvas-target"></div>
@@ -67,6 +71,7 @@ export class WheelInstance {
         // Escuta o clique de fechar sem depender do ID na string da classe
         card.querySelector('.fechar-roleta')?.addEventListener("click", (evt) => {
             evt.preventDefault();
+            if (this.state.isSpinning) return;
             this.onRemove(this.id); 
         });
 
@@ -187,6 +192,8 @@ export class WheelInstance {
         if (this.state.isSpinning) return;
         this.stopIdleAnimation();
         this.state.isSpinning = true;
+        this.closeWheel.classList.add("disabled");
+        this.closeWheel.classList.remove("enabled");
         
         const duration = 10000;
         const startTime = performance.now();
@@ -223,6 +230,9 @@ export class WheelInstance {
             } else {
                 this.state.isSpinning = false;
                 this.state.currentRotation = currentRotation % 360;
+                
+                this.closeWheel.classList.add("enabled");
+                this.closeWheel.classList.remove("disabled");
 
                 // Reset suave para o ângulo de repouso definido no seu CSS
                 this.iconMarker.style.transition = "transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
