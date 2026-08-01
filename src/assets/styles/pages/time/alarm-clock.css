@@ -167,20 +167,91 @@
     flex-direction: column;
     width: 100%;
 }
-.horario-editavel{
+.horario-editavel {
     background-color: var(--fundo-card);
+    border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+    box-shadow: 0px 0px 9px rgba(var(--padrao), 0.1);
     color: rgba(var(--padrao), 1);
-    border: solid 1px rgba(var(--padrao), 0.3);
-    width: 50px;
+    width: 65px;
     height: 50px;
     font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: medium;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0px 0px 9px rgba(var(--padrao), 0.1);
     transition: box-shadow 0.2s;
+
+    /* Remove estilos padrão de select/input */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    position: relative;
+    padding-right: 18px; /* Espaço para a seta */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Obrigatório para o position: absolute da lista funcionar */
+    overflow: visible !important; /* Impede que o pai corte a lista que sai para fora */
 }
+
+.horario-editavel::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    
+    /* AQUI ESTÁ A MÁGICA: A cor vem da sua variável! */
+    background-color: rgba(var(--padrao), 1); 
+
+    /* Aplica o SVG como formato da máscara */
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+    
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    
+    pointer-events: none;
+}
+
+.lista-opcoes {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    z-index: 9999;
+    right: 0;
+    list-style: none;
+    
+    /* Mude de 'height' para 'max-height' e especifique o eixo Y */
+    max-height: 140px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    
+    width: 65px;
+    background-color: var(--fundo-card);
+    border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+    
+    /* Garante que o scroll e os cliques funcionem */
+    pointer-events: auto;
+    padding: 0;
+    margin: 0;
+}
+.lista-opcoes li{
+    padding: 6px;
+}
+
+/*.horario-editavel li.selected{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}*/
 /* --- 1. OCULTA O INPUT ORIGINAL --- */
 .musica-escolhida input[type="file"] {
   /* Torna o input invisível, mas mantendo a funcionalidade (ele ainda pode ser clicado) */
@@ -251,7 +322,7 @@
     font-size: small;
 }
 
-.horario-editavel::-webkit-scrollbar-track,
+.lista-opcoes::-webkit-scrollbar-track,
 #container-geracao-alarmes::-webkit-scrollbar-track,
 .square-alarme::-webkit-scrollbar-track
 {
@@ -260,7 +331,7 @@
 	border-radius: 6px;
 }
 
-.horario-editavel::-webkit-scrollbar-track,
+.lista-opcoes::-webkit-scrollbar-track,
 #container-geracao-alarmes::-webkit-scrollbar-track,
 .square-alarme::-webkit-scrollbar-track
 {
@@ -269,7 +340,7 @@
   z-index: 999;
 }
 
-.horario-editavel::-webkit-scrollbar-thumb,
+.lista-opcoes::-webkit-scrollbar-thumb,
 #container-geracao-alarmes::-webkit-scrollbar-thumb,
 .square-alarme::-webkit-scrollbar-thumb
 {
@@ -280,7 +351,7 @@
   z-index: 999;
 }
 
-.horario-editavel::-webkit-scrollbar,
+.lista-opcoes::-webkit-scrollbar,
 #container-geracao-alarmes::-webkit-scrollbar,
 .square-alarme::-webkit-scrollbar
 {

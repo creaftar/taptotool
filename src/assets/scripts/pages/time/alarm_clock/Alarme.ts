@@ -1,4 +1,5 @@
 import { alarmes, DeletarAlarmeDoBanco, SalvarAlarmeNoBanco } from "./GerenciadorAlarmes.js";
+import { AlternarVisibilidade } from "../../../utility/config/el_visibilidade.js";
 const container = document.getElementById('container-geracao-alarmes');
 const traducao = JSON.parse(container?.dataset.i18n || '{}');
 
@@ -33,11 +34,12 @@ export class Alarme{
         
         this._tempoDisparoMs = 0;
         this._nome = dadosRecuperados?.nome ?? traducao.default_alarm_name;
-        this._horas = dadosRecuperados?.horas ?? 0;
-        this._minutos = dadosRecuperados?.minutos ?? 0;
+        this.agora = new Date();
+        this._horas = dadosRecuperados?.horas ?? (this.agora.getHours() + 1) % 24;
+        this._minutos = dadosRecuperados?.minutos ?? this.agora.getMinutes();
+        
         this._looping = dadosRecuperados?.looping ?? true;
 
-        this.agora = new Date();
         this.SetTempoDisparo();
         this.divEl = document.createElement("div");
         this.divEl.classList.add("square-alarme");
@@ -215,15 +217,20 @@ export class Alarme{
         this.divEl.innerHTML = `
                 <div><i class="fa-solid fa-xmark x-sq" id="x-sq-${idUnico}" data-alarm-id="${idUnico}"></i></div>
                 <div class="titulo-alarme" contenteditable id="nome-alarme-${idUnico}">${this._nome}</div>
-                
                 <div class="container-horario-despertar">
-                    <select class="horario-editavel" id="horas-${idUnico}">
-                        ${this.gerarOpcoes(0, 23, this._horas)} 
-                    </select>
+                    <div class="horario-editavel" id="horas-${idUnico}">
+                        ${String(this._horas).padStart(2, '0')}
+                        <ul class="lista-opcoes elemento-invisivel">
+                            ${this.gerarOpcoes(0, 23, this._horas)} 
+                        </ul>
+                    </div>
                     :
-                    <select class="horario-editavel" id="minutos-${idUnico}">
-                        ${this.gerarOpcoes(0, 59, this._minutos)}
-                    </select>
+                    <div class="horario-editavel" id="minutos-${idUnico}">
+                        ${String(this._minutos).padStart(2, '0')}
+                        <ul class="lista-opcoes elemento-invisivel">
+                            ${this.gerarOpcoes(0, 59, this._minutos)}
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="musica-escolhida">
@@ -257,6 +264,42 @@ export class Alarme{
         if (!this.divEl) return; 
         
         const idUnico = this._id;
+        const listasContainer = this.divEl.querySelectorAll('.horario-editavel');
+        const listas = this.divEl.querySelectorAll('.lista-opcoes');
+
+        listas.forEach((lista) => {
+            
+            ['mousedown', 'touchstart', 'wheel'].forEach(evento => {
+                lista.addEventListener(evento, (e) => e.stopPropagation());
+            });
+
+            lista.addEventListener("click", (e) => {
+                e.stopPropagation();
+                
+                const alvo = e.target as HTMLElement;
+
+                if (alvo.tagName === 'LI') {
+                    const novoValor = parseInt(alvo.getAttribute('data-value') || alvo.textContent || '0', 10);
+                    const paiHorario = lista.parentElement as HTMLElement;
+                    const isHoras = paiHorario?.id.startsWith('horas-');
+
+                    paiHorario.childNodes[0].nodeValue = String(novoValor).padStart(2, '0');
+                    isHoras ? this.SetHoras(novoValor) : this.SetMinutos(novoValor);
+                    this.SetTempoFaltante();
+                    AlternarVisibilidade(lista as HTMLBodyElement);
+                }
+            });
+        });
+
+        // Clique no container do horário para abrir/fechar o menu dropdown
+        listasContainer.forEach((container) => {
+            container.addEventListener("click", (e) => {
+                const listaInterna = container.querySelector(".lista-opcoes") as HTMLElement;
+                if (listaInterna) {
+                    AlternarVisibilidade(listaInterna as HTMLBodyElement);
+                }
+            });
+        });
         
         const nomeAlarme = this.divEl.querySelector<HTMLSelectElement>(`#nome-alarme-${idUnico}`);
         const selectHoras = this.divEl.querySelector<HTMLSelectElement>(`#horas-${idUnico}`);
@@ -560,7 +603,7 @@ export class Alarme{
             // Se o número atual do loop for igual ao valor que o alarme já tem, adicionamos 'selected'
             const selecionado = i === valorSelecionado ? 'selected' : '';
             
-            opcoes += `<option value="${i}" ${selecionado}>${valorFormatado}</option>`;
+            opcoes += `<li value="${i}" class="${selecionado}">${valorFormatado}</li>`;
         }
         return opcoes;
     }

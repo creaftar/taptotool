@@ -38,3 +38,10 @@
 	color: rgba(var(--padrao), 1);
 	fill: rgba(var(--padrao), 1);
 }
+
+.elemento-invisivel{
+    visibility: hidden;
+}
+.elemento-visivel{
+    visibility: visible;
+}

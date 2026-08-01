@@ -25,9 +25,8 @@
 	border-color: transparent transparent var(--fundo-card) transparent; 	
 	filter: drop-shadow(0px 4px 4px rgba(var(--shadow), 0.7));
 }
-
-#chooseLanguage.ativo::after {
-    display: flex; /* ou block, dependendo do seu triângulo */
+#chooseLanguage:has(#menuIdiomas.elemento-visivel)::after {
+    display: block; /* 'block' funciona melhor que 'flex' para o pseudo-elemento da seta */
 }
 
 #menuIdiomas{
@@ -47,9 +46,9 @@
 	font-size: 0.9em;
 	font-weight: bold;
 	box-shadow: 0px 4px 9px -3px rgba(var(--shadow), 0.1);
-	display: none;
 	flex-direction: column;
 	user-select: none;
+	display: flex;
 }
 
 #menuIdiomas > li{

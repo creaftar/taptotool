@@ -34,6 +34,34 @@ function EnviarNotificacaoAlarme(alarme) {
     }
 }
 
+// Função para destravar o contexto de áudio do navegador
+function inicializarPermissaoAudio() {
+    // Cria um AudioContext e o inicializa
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (AudioCtx) {
+        const ctx = new AudioCtx();
+        if (ctx.state === 'suspended') {
+            ctx.resume();
+        }
+    }
+
+    // Toca um micro-som mudo usando um Audio elemento para garantir no Chrome/Safari
+    const audioSilencioso = new Audio();
+    // Um arquivo de áudio mudo em formato base64
+    audioSilencioso.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+    audioSilencioso.play().catch(() => {
+        // Ignora se o navegador ainda barrar
+    });
+
+    // Remove os eventos assim que o usuário clicar 1 única vez
+    document.removeEventListener('click', inicializarPermissaoAudio);
+    document.removeEventListener('keydown', inicializarPermissaoAudio);
+}
+
+// Registra os ouvintes para destravar o áudio no PRIMEIRO clique ou tecla pressionada
+document.addEventListener('click', inicializarPermissaoAudio);
+document.addEventListener('keydown', inicializarPermissaoAudio);
+
 function atualizarHoraLocal() {
     const agora = new Date(); 
     const horaLocal = timeFormatter.format(agora);

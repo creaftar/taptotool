@@ -86,7 +86,7 @@ function getTargetUrl(targetLang: string) {
          </div>
          <div id="chooseLanguage">
             <i class="fa-solid fa-globe"></i>
-            <ul id="menuIdiomas">
+            <ul id="menuIdiomas" class="elemento-invisivel">
                <li class={Astro.currentLocale === 'id' ? 'idioma-ativo' : ''}>
                   <a href={getTargetUrl('id')} class="linkIdioma">Bahasa Indonesia</a>
                </li>
