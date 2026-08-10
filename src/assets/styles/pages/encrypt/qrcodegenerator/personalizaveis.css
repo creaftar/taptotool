@@ -1,0 +1,102 @@
+.flip_h{
+	transform: scaleX(-1);
+  align-self: flex-start;
+  padding: 1px 6px;
+}
+
+/* Estilo base do container do input */
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 45%;
+  height: 32px;
+  background-color: transparent;
+  border: 2px solid rgba(150,150,150);
+  cursor: pointer;
+  padding: 0;
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Efeito ao passar o mouse ou focar */
+input[type="color"]:hover {
+  border-color: rgba(200, 200, 200);
+}
+
+input[type="color"]:focus {
+  outline: none;
+  border-color: #3f3f74;
+}
+
+/* --- ESTILIZAÇÃO DA COR INTERNA POR NAVEGADOR --- */
+
+/* Chrome, Edge, Safari e Opera */
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+/* Firefox */
+input[type="color"]::-moz-color-swatch {
+  border: none;
+}
+
+/* 1. Reset e Estilo Base da Caixa */
+.slider {
+  -webkit-appearance: none; /* Remove o estilo padrão no Chrome/Safari */
+  appearance: none;          /* Remove o estilo padrão nos outros */
+  width: 70%;
+  height: 6px;
+  background: rgba(var(--padrao), var(--opacidade-media));       /* Cor da trilha (fundo) */
+  border-radius: 5px;
+  outline: none;             /* Remove a borda azul ao clicar */
+  cursor: pointer;
+}
+
+/* ==========================================
+   2. Estilizando o BOTÃO/INDICADOR (Thumb)
+   ========================================== */
+
+/* Para Chrome, Safari, Edge e Opera */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--texto);       /* Cor do botão */
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Para Firefox */
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: none;              /* O Firefox coloca uma borda padrão */
+  border-radius: 50%;
+  background: var(--texto);       /* Cor do botão */
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+/* ==========================================
+   3. Efeito Interativo (Hover / Active)
+   ========================================== */
+
+/* Aumenta o botão levemente quando passar o mouse */
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.slider::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
+
+.last-order{
+  order: 1;
+}

@@ -39,8 +39,6 @@ export class WheelInstance {
         this.iconMarker = this.marker?.querySelector('i') as HTMLElement;
         this.closeWheel = this.element.querySelector('.fechar-roleta') as HTMLElement;
 
-        console.log(this.closeWheel);
-
         this.startIdleAnimation();
     }
 

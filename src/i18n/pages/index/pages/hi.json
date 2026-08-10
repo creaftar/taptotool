@@ -20,6 +20,9 @@
       "stopwatch": "ऑनलाइन स्टॉपवॉच",
       "timer": "ऑनलाइन टाइमर"
     },
+    "encrypt_tools":{
+      "qrcode": "क्यूआर कोड जनरेटर"
+    },
     "external_links": {
       "creaftar": "Creaftar - वर्ग पहेली बनाएं",
       "elobetter": "EloBetter - League of Legends में ELO बढ़ाना सीखें"

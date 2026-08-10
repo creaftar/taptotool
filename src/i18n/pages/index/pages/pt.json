@@ -20,6 +20,9 @@
       "stopwatch": "Cronometro online",
       "timer": "Temporizador online"
     },
+    "encrypt_tools":{
+      "qrcode": "Gerador de QR Code"
+    },
     "external_links": {
       "creaftar": "Creaftar - Criar cruzadinhas",
       "elobetter": "EloBetter - Aprenda a Subir de Elo no League of Legends"

@@ -24,7 +24,7 @@ footer{
     transition: background-color 0.1s;
 }
 .square-share-icon:hover{
-    background-color: rgba(var(--fundo-body-rgb), 1);
+    background-color: var(--hover);
 }
 .square-share-icon a{
     display: flex;

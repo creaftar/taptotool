@@ -11,6 +11,14 @@
     },
     "copyright": "© 2025 - {data} | Tap to Tool - सभी अधिकार सुरक्षित।",
     "alt_tap_to_tool": "Tap to Tool लोगो",
-    "alt_creaftar": "Creaftar लोगो"
+    "alt_creaftar": "Creaftar लोगो",
+    "share": {
+      "x": "X पर साझा करें",
+      "facebook": "Facebook पर साझा करें",
+      "reddit": "Reddit पर साझा करें",
+      "bluesky": "Bluesky पर साझा करें",
+      "whatsapp": "WhatsApp पर साझा करें",
+      "telegram": "Telegram पर साझा करें"
+    }
   }
 }

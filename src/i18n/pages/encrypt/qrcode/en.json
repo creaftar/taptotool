@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Free Unlimited QR Code Generator - Tap to Tool",
+    "description": "Create and customize multiple QR codes for free with no limits. Change colors, adjust sizes, remove backgrounds, and download in high quality instantly.",
+    "keywords": "qr code generator, free qr code, unlimited qr code, create qr code, custom qr code generator, transparent qr code, generate multiple qr codes"
+  },
+  "schema": {
+    "app_name": "Free Unlimited QR Code Generator - Tap to Tool",
+    "app_description": "Free tool to generate and customize unlimited QR codes with color, size, and transparent background options.",
+    "howto_name": "How to Generate and Customize QR Codes",
+    "howto_description": "Learn how to create unlimited custom QR codes using our online tool.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "QR Code Generator"
+  },
+  "ui": {
+    "h1": "Free Unlimited QR Code Generator",
+    "intro_text": "Create, customize, and download as many QR codes as you need quickly, for free, and without restrictions. Change colors, remove background, and organize your codes easily.",
+    "price_currency": "USD"
+  },
+  "content": {
+    "features_title": "Key Features",
+    "feature_custom": "Full Customization: Choose code and background colors or remove the background completely.",
+    "feature_unlimited": "Unlimited Generation: Create multiple QR codes simultaneously with no limits or costs.",
+    "feature_download": "Instant Download: Download your QR codes in high resolution ready for print or digital use.",
+    "feature_privacy": "Guaranteed Privacy: Your data and links are processed directly in your browser.",
+    "usage_title": "How to use",
+    "usage_step1": "Enter the link, text, or desired information in the input field.",
+    "usage_step2": "Customize the title to visually organize your QR codes.",
+    "usage_step3": "Adjust size, choose colors, or check the remove background option.",
+    "usage_step4": "Click the download button to save your QR code image.",
+    "tips_title": "Customization Tips",
+    "tip_colors": "Use high contrast colors between the code and background to ensure easy scanning.",
+    "tip_size": "Adjust the QR code size based on where it will be printed or displayed.",
+    "tip_download": "You can create and download multiple QR codes at once for different purposes.",
+    "footer_text": "Create and customize your unlimited QR codes right now with Tap to Tool!"
+  },
+  "dynamic": {
+    "remove_bg": "Remove background",
+    "default_title": "My QR Code",
+    "placeholder_link": "https://your-link-here.com",
+    "download_btn": "Download QR Code"
+  }
+}

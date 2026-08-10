@@ -11,6 +11,14 @@
     },
     "copyright": "© 2025 - {data} | Tap to Tool - Semua hak dilindungi undang-undang.",
     "alt_tap_to_tool": "Logo Tap to Tool",
-    "alt_creaftar": "Logo Creaftar"
+    "alt_creaftar": "Logo Creaftar",
+    "share": {
+      "x": "Bagikan di X",
+      "facebook": "Bagikan di Facebook",
+      "reddit": "Bagikan di Reddit",
+      "bluesky": "Bagikan di Bluesky",
+      "whatsapp": "Bagikan di WhatsApp",
+      "telegram": "Bagikan di Telegram"
+    }
   }
 }

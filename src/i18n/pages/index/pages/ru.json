@@ -20,6 +20,9 @@
       "stopwatch": "Секундомер онлайн",
       "timer": "Таймер онлайн"
     },
+    "encrypt_tools":{
+      "qrcode": "Генератор QR-кодов"
+    },
     "external_links": {
       "creaftar": "Creaftar - Создать кроссворды",
       "elobetter": "EloBetter - Узнайте, как поднять ELO в League of Legends"

@@ -11,6 +11,14 @@
     },
     "copyright": "© 2025 - {data} | Tap to Tool - Todos los derechos reservados.",
     "alt_tap_to_tool": "Logotipo de Tap to Tool",
-    "alt_creaftar": "Logotipo de Creafar"
+    "alt_creaftar": "Logotipo de Creafar",
+    "share": {
+      "x": "Compartir en X",
+      "facebook": "Compartir en Facebook",
+      "reddit": "Compartir en Reddit",
+      "bluesky": "Compartir en Bluesky",
+      "whatsapp": "Compartir en WhatsApp",
+      "telegram": "Compartir en Telegram"
+    }
   }
 }

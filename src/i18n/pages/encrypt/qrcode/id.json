@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Pembuat Kode QR Gratis Tanpa Batas - Tap to Tool",
+    "description": "Buat dan sesuaikan banyak kode QR secara gratis tanpa batasan. Ubah warna, atur ukuran, hapus latar belakang, dan unduh dalam kualitas tinggi secara instan.",
+    "keywords": "pembuat kode qr, kode qr gratis, kode qr tanpa batas, buat kode qr, pembuat kode qr kustom, kode qr tanpa latar belakang, buat banyak kode qr"
+  },
+  "schema": {
+    "app_name": "Pembuat Kode QR Gratis Tanpa Batas - Tap to Tool",
+    "app_description": "Alat gratis untuk membuat dan menyesuaikan kode QR tanpa batas dengan pilihan warna, ukuran, dan latar belakang transparan.",
+    "howto_name": "Cara Membuat dan Menyesuaikan Kode QR",
+    "howto_description": "Pelajari cara membuat kode QR kustom tanpa batas menggunakan alat online kami.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Pembuat Kode QR"
+  },
+  "ui": {
+    "h1": "Pembuat Kode QR Gratis Tanpa Batas",
+    "intro_text": "Buat, sesuaikan, dan unduh kode QR sebanyak yang Anda butuhkan dengan cepat, gratis, dan tanpa batasan. Ubah warna, hapus latar belakang, dan kelola kode Anda dengan mudah.",
+    "price_currency": "USD"
+  },
+  "content": {
+    "features_title": "Fitur Utama",
+    "feature_custom": "Kustomisasi Penuh: Pilih warna kode dan latar belakang atau hapus latar belakang sepenuhnya.",
+    "feature_unlimited": "Pembuatan Tanpa Batas: Buat beberapa kode QR secara bersamaan tanpa batasan atau biaya.",
+    "feature_download": "Unduh Instan: Unduh kode QR Anda dalam resolusi tinggi yang siap untuk dicetak atau digunakan secara digital.",
+    "feature_privacy": "Privasi Terjamin: Data dan tautan Anda diproses langsung di peramban Anda.",
+    "usage_title": "Cara penggunaan",
+    "usage_step1": "Masukkan tautan, teks, atau informasi yang diinginkan pada kolom input.",
+    "usage_step2": "Sesuaikan judul untuk mengelompokkan kode QR Anda secara visual.",
+    "usage_step3": "Atur ukuran, pilih warna, atau centang opsi hapus latar belakang.",
+    "usage_step4": "Klik tombol unduh untuk menyimpan gambar kode QR Anda.",
+    "tips_title": "Tips Kustomisasi",
+    "tip_colors": "Gunakan warna dengan kontras tinggi antara kode dan latar belakang untuk memastikan pemindaian yang mudah.",
+    "tip_size": "Atur ukuran kode QR sesuai dengan tempat cetak atau tampilannya.",
+    "tip_download": "Anda dapat membuat dan mengunduh beberapa kode QR sekaligus untuk berbagai keperluan.",
+    "footer_text": "Buat dan sesuaikan kode QR tanpa batas Anda sekarang juga bersama Tap to Tool!"
+  },
+  "dynamic": {
+    "remove_bg": "Hapus latar belakang",
+    "default_title": "Kode QR Saya",
+    "placeholder_link": "https://tautan-anda-di-sini.com",
+    "download_btn": "Unduh Kode QR"
+  }
+}

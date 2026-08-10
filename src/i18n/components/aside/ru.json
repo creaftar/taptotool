@@ -11,6 +11,7 @@
     "timer": "Таймер онлайн",
     "creaftar_text": "Creaftar - создание кроссвордов",
     "elobetter_text": "Elobetter - Узнайте, как подняться по рангу в LoL",
-    "name_picker_wheel": "Колесо выбора имен"
+    "name_picker_wheel": "Колесо выбора имен",
+    "qrcode": "Генератор QR-кодов"
   }
 }

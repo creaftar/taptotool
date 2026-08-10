@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Generatore di Codici QR Gratuito e Illimitato - Tap to Tool",
+    "description": "Crea e personalizza più codici QR gratuitamente e senza limiti. Cambia colori, regola le dimensioni, rimuovi lo sfondo e scarica in alta qualità all'istante.",
+    "keywords": "generatore di codice qr, codice qr gratuito, codice qr illimitato, creare codice qr, generatore codice qr personalizzato, codice qr senza sfondo, creare piu codici qr"
+  },
+  "schema": {
+    "app_name": "Generatore di Codici QR Gratuito e Illimitato - Tap to Tool",
+    "app_description": "Strumento gratuito per generare e personalizzare codici QR illimitati con opzioni di colore, dimensione e sfondo trasparente.",
+    "howto_name": "Come Generare e Personalizzare Codici QR",
+    "howto_description": "Impara a creare codici QR personalizzati e illimitati utilizzando il nostro strumento online.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Generatore di Codice QR"
+  },
+  "ui": {
+    "h1": "Generatore di Codici QR Gratuito e Illimitato",
+    "intro_text": "Crea, personalizza e scarica tutti i codici QR di cui hai bisogno in modo rapido, gratuito e senza limitazioni. Cambia i colori, rimuovi lo sfondo e organizza i tuoi codici facilmente.",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Caratteristiche Principali",
+    "feature_custom": "Personalizzazione Totale: Scegli i colori del codice, dello sfondo o rimuovi completamente lo sfondo.",
+    "feature_unlimited": "Generazione Illimitata: Crea più codici QR contemporaneamente senza restrizioni o costi.",
+    "feature_download": "Download Istantaneo: Scarica i tuoi codici QR ad alta risoluzione pronti per la stampa o l'uso digitale.",
+    "feature_privacy": "Privacy Garantita: I tuoi dati e i tuoi link vengono elaborati direttamente nel tuo browser.",
+    "usage_title": "Come usare",
+    "usage_step1": "Inserisci il link, il testo o le informazioni desiderate nel campo di testo.",
+    "usage_step2": "Personalizza il titolo per organizzare visivamente i tuoi codici QR.",
+    "usage_step3": "Regola la dimensione, scegli i colori o seleziona l'opzione per rimuovere lo sfondo.",
+    "usage_step4": "Fai clic sul pulsante di download per salvare l'immagine del tuo codice QR.",
+    "tips_title": "Consigli per la Personalizzazione",
+    "tip_colors": "Usa colori ad alto contrasto tra il codice e lo sfondo per garantire una facile scansione.",
+    "tip_size": "Regola la dimensione del codice QR in base a dove verrà stampato o mostrato.",
+    "tip_download": "Puoi creare e scaricare più codici QR contemporaneamente per scopi diversi.",
+    "footer_text": "Crea e personalizza i tuoi codici QR illimitati ora con Tap to Tool!"
+  },
+  "dynamic": {
+    "remove_bg": "Rimuovi sfondo",
+    "default_title": "Il mio Codice QR",
+    "placeholder_link": "https://il-tuo-link-qui.com",
+    "download_btn": "Scarica Codice QR"
+  }
+}

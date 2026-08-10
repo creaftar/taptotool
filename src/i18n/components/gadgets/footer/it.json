@@ -11,6 +11,14 @@
     },
     "copyright": "© 2025 - {data} | Tap to Tool - Tutti i diritti riservati.",
     "alt_tap_to_tool": "Logo di Tap to Tool",
-    "alt_creaftar": "Logo di Creaftar"
+    "alt_creaftar": "Logo di Creaftar",
+    "share": {
+      "x": "Condividi su X",
+      "facebook": "Condividi su Facebook",
+      "reddit": "Condividi su Reddit",
+      "bluesky": "Condividi su Bluesky",
+      "whatsapp": "Condividi su WhatsApp",
+      "telegram": "Condividi su Telegram"
+    }
   }
 }

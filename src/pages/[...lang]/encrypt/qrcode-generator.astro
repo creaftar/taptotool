@@ -1,12 +1,13 @@
 ---
 import ToolLayout from "@/layout/ToolLayout.astro";
-import '@/assets/styles/pages/encrypt/qrcodegenerator/qrcode-generator.css';
+import '@/assets/styles/pages/encrypt/qrcodegenerator/qrcode.css';
+import '@/assets/styles/pages/encrypt/qrcodegenerator/personalizaveis.css';
+import '@/assets/styles/pages/encrypt/qrcodegenerator/placeholder.css';
 
 export async function getStaticPaths() {
   return [
-    { params: { lang: undefined } }, // /random/randomnumber (default)
+    { params: { lang: undefined } },
     { params: { lang: 'pt' } },
-    
     { params: { lang: 'es' } },
     { params: { lang: 'fr' } },
     { params: { lang: 'it' } },
@@ -16,16 +17,16 @@ export async function getStaticPaths() {
     { params: { lang: 'hi' } },
   ];
 }
-/*
-import pt from "@/i18n/pages/random/randomnumber/pt.json";
-import en from "@/i18n/pages/random/randomnumber/en.json";
-import es from "@/i18n/pages/random/randomnumber/es.json";
-import fr from "@/i18n/pages/random/randomnumber/fr.json";
-import it from "@/i18n/pages/random/randomnumber/it.json";
-import de from "@/i18n/pages/random/randomnumber/de.json";
-import ru from "@/i18n/pages/random/randomnumber/ru.json";
-import id from "@/i18n/pages/random/randomnumber/id.json";
-import hi from "@/i18n/pages/random/randomnumber/hi.json";
+
+import pt from "@/i18n/pages/encrypt/qrcode/pt.json";
+import en from "@/i18n/pages/encrypt/qrcode/en.json";
+import es from "@/i18n/pages/encrypt/qrcode/es.json";
+import fr from "@/i18n/pages/encrypt/qrcode/fr.json";
+import it from "@/i18n/pages/encrypt/qrcode/it.json";
+import de from "@/i18n/pages/encrypt/qrcode/de.json";
+import ru from "@/i18n/pages/encrypt/qrcode/ru.json";
+import id from "@/i18n/pages/encrypt/qrcode/id.json";
+import hi from "@/i18n/pages/encrypt/qrcode/hi.json";
 
 const locales = { pt, en, es, fr, it, de, ru, id, hi };
 
@@ -34,22 +35,183 @@ const lang = paramLang || Astro.currentLocale || 'en';
 
 const d = locales[lang as keyof typeof locales] || locales.en;
 
-const urlPath = lang === 'en' ? '' : `/${lang}`;*/
-/*const currentUrl = `https://taptotool.com${urlPath}/encrypt/qrcode-generator`;*/
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/encrypt/qrcode-generator`;
 ---
 
-<!--title={d.seo.title}
-description={d.seo.description}
-keywords={d.seo.keywords}
-lang={lang}
-canonical={currentUrl}-->
 <ToolLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
 >
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.schema.app_name,
+      "alternateName": "Free Unlimited QR Code Generator",
+      "url": currentUrl,
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.ui.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": "HowTo",
+      "@id": `${currentUrl}#howto`,
+      "name": d.schema.howto_name,
+      "description": d.schema.howto_description,
+      "mainEntityOfPage": { "@id": `${currentUrl}#webpage` },
+      "totalTime": "PT1M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step1,
+          "text": d.content.usage_step1
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step2,
+          "text": d.content.usage_step2
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step3,
+          "text": d.content.usage_step3
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step4,
+          "text": d.content.usage_step4
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema.breadcrumb_current,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/web-app-manifest-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
 
-<!--falta o ldjson -->
+  <div id="container-all-qrcode" data-i18n={JSON.stringify(d.dynamic)}>
+    <div class="qrcode-container last-order skeleton-card" id="novo-qr-code">
+      <div class="qr-card-placeholder">
+        <div id="placeholder-icon" class="sk-icon"></div>
+        <div id="titulo-placeholder" class="skeleton-item sk-titulo"></div>
+        <div id="link-placeholder" class="skeleton-item sk-link"></div>
+        <div id="qrcodebaixavel-placeholder" class="skeleton-item-animado sk-canvas"><i class="icone-animado fa-solid fa-plus fa-lg"></i></div>
+        <div id="range-placeholder" class="skeleton-item sk-slider"></div>
+      </div>
+      
+      <div class="container-opcoes-placeholder">
+        <div class="container-cores">
+          <div id="seletor-placeholder" class="skeleton-item sk-input-color"></div>
+          <div id="seletor-fundo-placeholder" class="skeleton-item sk-input-color"></div>
+        </div>
+        <div id="checkbox-placeholder" class="skeleton-item sk-checkbox"></div>
+      </div>
+    </div>
+  </div>
 
+  <article id="description-area" slot="SEO">
+    <header>
+      <h1>{d.ui.h1}</h1>
+      <p>{d.ui.intro_text}</p>
+    </header>
 
-<!--falta o article -->
+    <section>
+      <h2>{d.content.features_title}</h2>
+      <ul>
+        <li><strong>{d.content.feature_custom.split(':')[0]}:</strong>{d.content.feature_custom.split(':')[1]}</li>
+        <li><strong>{d.content.feature_unlimited.split(':')[0]}:</strong>{d.content.feature_unlimited.split(':')[1]}</li>
+        <li><strong>{d.content.feature_download.split(':')[0]}:</strong>{d.content.feature_download.split(':')[1]}</li>
+        <li><strong>{d.content.feature_privacy.split(':')[0]}:</strong>{d.content.feature_privacy.split(':')[1]}</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>{d.content.usage_title}</h2>
+      <p>1. {d.content.usage_step1}</p>
+      <p>2. {d.content.usage_step2}</p>
+      <p>3. {d.content.usage_step3}</p>
+      <p>4. {d.content.usage_step4}</p>
+    </section>
+
+    <section>
+      <h2>{d.content.tips_title}</h2>
+      <p><i class="fa-solid fa-palette"></i> - {d.content.tip_colors}</p>
+      <p><i class="fa-solid fa-expand"></i> - {d.content.tip_size}</p>
+      <p><i class="fa-solid fa-download"></i> - {d.content.tip_download}</p>
+    </section>
+
+    <footer>
+      <div class="share-buttons">
+        <p>{d.content.footer_text}</p>
+      </div>
+    </footer>
+  </article>
 
   <script>
     import '@/assets/scripts/imports/qrcodegenerator.js';

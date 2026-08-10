@@ -114,6 +114,11 @@
     justify-content: center;
     flex-grow: 1;
     color: rgba(var(--padrao), 1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#container-iconANDinput > i:hover{
+    background-color: var(--hover);
 }
 
 #pesquisar-ferramenta{

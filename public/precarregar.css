@@ -20,16 +20,18 @@
 	--footer-tempo: rgb(245, 243, 242);
 	--footer-jogos: #b628a1;
 	--footer-random: #0abfbc;
+	--footer-encrypt: #FACC15; 
 	
 	--texto: rgb(63, 63, 116);
 	--texto-claro-rgb: 245, 245, 245;
 	--shadow: 63, 63, 116;
-
+	
 	--texto-texto: white;
 	--texto-matematica: white;
 	--texto-tempo: #39187a;
 	--texto-jogos: white;
 	--texto-random: white;
+    --texto-encrypt: #1E1B00;
 
 	--borda-copy: 63, 63, 116;
 
@@ -60,15 +62,17 @@
 	--footer-tempo: rgba(40, 40, 40, 0.9);
 	--footer-jogos: #b628a1;
 	--footer-random: #0abfbcc8;
+	--footer-encrypt: #FACC15; 
 	
 	--texto: rgb(245, 245, 245);
 	--texto-claro-rgb: 63, 63, 116;
 	--shadow: 63, 63, 116;
-
+	
 	--texto-texto: white;
 	--texto-matematica: white;
 	--texto-tempo: white;
 	--texto-jogos: white;
+    --texto-encrypt: #1E1B00;
 
 	--borda-copy: 15, 15, 15;
 	/*

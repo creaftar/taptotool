@@ -1,4 +1,6 @@
 ---
+import '@/assets/styles/components/aside/aside.css';
+
 import pt from "@/i18n/components/aside/pt.json";
 import en from "@/i18n/components/aside/en.json";
 import es from "@/i18n/components/aside/es.json";
@@ -14,11 +16,24 @@ const locales = { pt, en, es, fr, it, de, ru, id, hi };
 const { lang = 'en' } = Astro.props;
 const languageCode = lang.split('-')[0] as keyof typeof locales;
 const urlPrefix = languageCode === 'en' ? "" : `/${languageCode}`;
-const d = locales[languageCode] || locales.en;
+const rawData = locales[languageCode] || locales.en;
 
+// Função Helper para Capitalizar
+const capitalize = (str: string) => 
+  str ? str.charAt(0).toUpperCase() + str.slice(1).toLowerCase() : '';
+
+// Formata todas as strings de d.aside no build
+const d = {
+  ...rawData,
+  aside: Object.fromEntries(
+    Object.entries(rawData.aside).map(([key, value]) => [
+      key, 
+      typeof value === 'string' ? capitalize(value) : value
+    ])
+  )
+};
 
 const { pathname } = Astro.url;
-
 const segments = pathname.split('/').filter(Boolean);
 const paginaCerta = segments.pop() || 'index';
 
@@ -94,15 +109,15 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
         <p class="aside-text-icon">{d.aside.name_picker_wheel}</p>
       </a>
     </div>
-    <!--
+    
     <hr class="hr-aside">
     <div class="opcaoAside" data-pagina="qrcode-generator" id={getActiveId("qrcode-generator")}>
-      <a href={`${urlPrefix}/encrypt/qrcode-generator/`} aria-label={}>
+      <a href={`${urlPrefix}/encrypt/qrcode-generator/`} aria-label={d.aside.qrcode}>
         <i class="fa-solid fa-qrcode aside-icon"></i>
-        <p class="aside-text-icon">{}</p>
+        <p class="aside-text-icon">{d.aside.qrcode}</p>
       </a>
     </div>
-    -->
+    
     
     <hr class="hr-aside">
 

@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Kostenloser Unbegrenzter QR-Code-Generator - Tap to Tool",
+    "description": "Erstellen und personalisieren Sie mehrere QR-Codes kostenlos und ohne Einschränkungen. Ändern Sie Farben, passen Sie Größen an, entfernen Sie Hintergründe und laden Sie sie sofort in hoher Qualität herunter.",
+    "keywords": "qr code generator, kostenloser qr code, unbegrenzter qr code, qr code erstellen, benutzerdefinierter qr code generator, qr code ohne hintergrund, mehrere qr codes erstellen"
+  },
+  "schema": {
+    "app_name": "Kostenloser Unbegrenzter QR-Code-Generator - Tap to Tool",
+    "app_description": "Kostenloses Tool zum Generieren und Anpassen unbegrenzter QR-Codes mit Optionen für Farbe, Größe und transparenten Hintergrund.",
+    "howto_name": "So Generieren und Anpassen von QR-Codes",
+    "howto_description": "Erfahren Sie, wie Sie mit unserem Online-Tool unbegrenzt benutzerdefinierte QR-Codes erstellen.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "QR-Code-Generator"
+  },
+  "ui": {
+    "h1": "Kostenloser Unbegrenzter QR-Code-Generator",
+    "intro_text": "Erstellen, anpassen und herunterladen Sie so viele QR-Codes, wie Sie benötigen – schnell, kostenlos und ohne Einschränkungen. Ändern Sie Farben, entfernen Sie den Hintergrund und organisieren Sie Ihre Codes ganz einfach.",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Hauptfunktionen",
+    "feature_custom": "Vollständige Anpassung: Wählen Sie Code- und Hintergrundfarben oder entfernen Sie den Hintergrund vollständig.",
+    "feature_unlimited": "Unbegrenzte Generierung: Erstellen Sie mehrere QR-Codes gleichzeitig ohne Einschränkungen oder Kosten.",
+    "feature_download": "Sofortiger Download: Laden Sie Ihre QR-Codes in hoher Auflösung druckfertig oder für die digitale Nutzung herunter.",
+    "feature_privacy": "Garantierte Datenschutz: Ihre Daten und Links werden direkt in Ihrem Browser verarbeitet.",
+    "usage_title": "Anleitung",
+    "usage_step1": "Geben Sie den gewünschten Link, Text oder die Information in das Eingabefeld ein.",
+    "usage_step2": "Passen Sie den Titel an, um Ihre QR-Codes visuell zu organisieren.",
+    "usage_step3": "Passen Sie die Größe an, wählen Sie Farben oder aktivieren Sie die Option zum Entfernen des Hintergrunds.",
+    "usage_step4": "Klicken Sie auf die Schaltfläche „Herunterladen“, um das Bild Ihres QR-Codes zu speichern.",
+    "tips_title": "Tipps zur Anpassung",
+    "tip_colors": "Verwenden Sie hohe Kontraste zwischen Code und Hintergrund, um ein einfaches Scannen zu gewährleisten.",
+    "tip_size": "Passen Sie die Größe des QR-Codes an den Ort an, an dem er gedruckt oder angezeigt wird.",
+    "tip_download": "Sie können mehrere QR-Codes gleichzeitig für verschiedene Zwecke erstellen und herunterladen.",
+    "footer_text": "Erstellen und passen Sie Ihre unbegrenzten QR-Codes jetzt mit Tap to Tool an!"
+  },
+  "dynamic": {
+    "remove_bg": "Hintergrund entfernen",
+    "default_title": "Mein QR-Code",
+    "placeholder_link": "https://ihr-link-hier.com",
+    "download_btn": "QR-Code herunterladen"
+  }
+}

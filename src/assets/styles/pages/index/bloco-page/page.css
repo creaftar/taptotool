@@ -116,8 +116,17 @@
     color: var(--texto-random);
 }
 
+.page-encrypt{
+    background-color: var(--footer-encrypt);
+    color: var(--texto-encrypt);
+}
+
 .hr-pages{
     border: none;
     margin: 9px 0;
     border-bottom: solid 1px rgba(var(--padrao), var(--opacidade-hr));
+}
+
+.fa-qrcode:before {
+    content: "\f029";
 }

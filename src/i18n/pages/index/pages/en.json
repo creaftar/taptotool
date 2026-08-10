@@ -20,6 +20,9 @@
       "stopwatch": "Online Stopwatch",
       "timer": "Online Timer"
     },
+    "encrypt_tools":{
+      "qrcode": "QR Code Generator"
+    },
     "external_links": {
       "creaftar": "Creaftar - Create crossword puzzles",
       "elobetter": "EloBetter - Learn how to climb ELO in League of Legends"

@@ -10,7 +10,10 @@
     "astro-indexnow": "^2.3.10",
     "canvas-confetti": "^1.9.4",
     "firebase-admin": "^14.2.0",
+    "idb": "^8.0.3",
     "puppeteer": "^25.4.0",
+    "qr-code-styling": "^1.9.2",
+    "qrcode": "^1.5.4",
     "random-words": "^2.0.1",
     "xml2js": "^0.6.2"
   },

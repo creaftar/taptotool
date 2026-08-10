@@ -11,6 +11,14 @@
     },
     "copyright": "© 2025 - {data} | Tap to Tool - Все права защищены.",
     "alt_tap_to_tool": "Логотип Tap to Tool",
-    "alt_creaftar": "Логотип Creaftar"
+    "alt_creaftar": "Логотип Creaftar",
+    "share": {
+      "x": "Поделиться в X",
+      "facebook": "Поделиться в Facebook",
+      "reddit": "Поделиться в Reddit",
+      "bluesky": "Поделиться в Bluesky",
+      "whatsapp": "Поделиться в WhatsApp",
+      "telegram": "Поделиться в Telegram"
+    }
   }
 }

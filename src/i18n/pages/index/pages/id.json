@@ -20,6 +20,9 @@
       "stopwatch": "Stopwatch Online",
       "timer": "Timer Online"
     },
+    "encrypt_tools":{
+      "qrcode": "Pembuat Kode QR"
+    },
     "external_links": {
       "creaftar": "Creaftar - Buat teka-teki silang",
       "elobetter": "EloBetter - Pelajari cara naik ELO di League of Legends"

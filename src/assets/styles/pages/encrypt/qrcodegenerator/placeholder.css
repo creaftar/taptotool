@@ -1,0 +1,111 @@
+/* Base da Animação Cinza / Pulsante (YouTube Style) */
+.skeleton-item-animado {
+  background: rgba(var(--padrao), 0.08);
+  background: linear-gradient(
+    90deg,
+    rgba(var(--padrao), 0.08) 25%,
+    rgba(var(--padrao), 0.18) 50%,
+    rgba(var(--padrao), 0.08) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 32s infinite ease-in-out;
+  border-radius: 4px;
+}
+.icone-animado {
+    color: rgba(var(--padrao), 1);
+    animation: brilhar 2s infinite ease-in-out;
+}
+.skeleton-item {
+    background-color: rgba(var(--padrao), 0.1);
+}
+
+@keyframes brilhar {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.98);
+    opacity: 0.5;
+  }
+}
+
+@keyframes skeleton-shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+  }
+}
+
+/* Card Skeleton Geral */
+.skeleton-card {
+    padding: 9px;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.container-opcoes-placeholder{
+    border-top: none;
+    padding: 9px;
+}
+
+.sk-icon {
+  width: 24px;
+  height: 32px;
+  margin-left: auto;
+  margin-bottom: 8px;
+}
+
+/* Título e Link */
+.sk-titulo {
+  width: 70%;
+  height: 20px;
+  margin: 0 auto 9px auto;
+}
+
+.sk-link {
+  width: 90%;
+  height: 16px;
+  margin: 0 auto 12px auto;
+}
+
+/* Área do Canvas QR Code */
+.sk-canvas {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 12px auto;
+  border-radius: 6px;
+}
+
+/* Slider (Input Range) */
+.sk-slider {
+  width: 70%;
+  height: 6px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* Inputs de Cor (Acompanha os 45% / 32px do CSS original) */
+.sk-input-color {
+  width: 45%;
+  height: 32px;
+  border-radius: 4px;
+}
+
+/* Checkbox + Label do Fundo */
+.sk-checkbox {
+  width: 60%;
+  height: 18px;
+  margin: 10px auto 0 auto;
+}
+
+#qrcodebaixavel-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
