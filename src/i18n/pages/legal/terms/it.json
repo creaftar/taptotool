@@ -13,8 +13,9 @@
           "title": "1. Licenza d'Uso e Libertà Commerciale",
           "content": "A differenza di piattaforme restrittive, Tap to Tool incoraggia la produttività e l'uso professionale delle sue utility:",
           "items": [
-            "Sei autorizzato a utilizzare i risultati generati dai nostri strumenti (codici formattati, testi, generatori, ecc.) per scopi personali e commerciali.",
-            "Non richiediamo il pagamento di royalty, attribuzioni obbligatorie o crediti sul contenuto che produci utilizzando i nostri strumenti."
+            "Sei autorizzato a utilizzare i risultati generati dai nostri strumenti (codici formattati, testi, dati di test, ecc.) per scopi personali e commerciali legittimi.",
+            "Non richiediamo il pagamento di royalty, attribuzioni obbligatorie o crediti sul contenuto che produci utilizzando i nostri strumenti.",
+            "Uso Vietato: Questa licenza NON autorizza l'uso di alcun strumento o dato generato per scopi illeciti, registrazioni fraudolente, falsificazioni o qualsiasi attività che violi le leggi locali o internazionali. L'utente è l'unico ed esclusivo responsabile dell'uso che fa dei risultati ottenuti."
           ]
         },
         "two": {
@@ -33,6 +34,14 @@
           "items": [
             "Non offriamo garanzie che le utility siano al 100% prive di errori tecnici, ortografici o fotografici.",
             "Tap to Tool non è responsabile per perdite di dati, mancati profitti o interruzioni di attività derivanti dall'uso o dall'incapacità di utilizzare gli strumenti. La verifica finale del risultato generato è di totale responsabilità dell'utente."
+          ]
+        },
+        "three_a": {
+          "title": "3.1. Strumenti di Generazione Dati e Test",
+          "content": "Alcuni dei nostri strumenti (come generatori di numeri, codici o documenti) sono sviluppati esclusivamente per scopi di test software, convalida di moduli e sviluppo.",
+          "items": [
+            "I dati generati sono sequenze numeriche o alfanumeriche casuali create da algoritmi matematici e non rappresentano, consultano o utilizzano dati reali di persone, aziende o enti governativi.",
+            "Tap to Tool non incoraggia né si assume la responsabilità per l'uso improprio di queste informazioni per scopi illeciti o in violazione delle leggi vigenti."
           ]
         },
         "four": {

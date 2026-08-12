@@ -1,0 +1,107 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+interface Props {
+  lang?: string;
+}
+
+import imgAnuncioCreaftar from '@/assets/imgs/capa_cartoes/creaftar.webp';
+
+import '@/assets/styles/pages/index/bloco-carrossel/email.css';
+
+import pt from "@/i18n/pages/index/carrossel/pt.json";
+import en from "@/i18n/pages/index/carrossel/en.json";
+import es from "@/i18n/pages/index/carrossel/es.json";
+import fr from "@/i18n/pages/index/carrossel/fr.json";
+import it from "@/i18n/pages/index/carrossel/it.json";
+import de from "@/i18n/pages/index/carrossel/de.json";
+import ru from "@/i18n/pages/index/carrossel/ru.json";
+import id from "@/i18n/pages/index/carrossel/id.json";
+import hi from "@/i18n/pages/index/carrossel/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+// Detecta o idioma via Props (se passado) ou via URL nativa do Astro
+const { lang: propLang } = Astro.props;
+const lang = propLang || Astro.currentLocale || 'en'; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+// Helper para links: se for 'en' (default), o prefixo é vazio. Se for outro, ex: '/es'
+const langPrefix = lang === 'en' ? '' : `/${lang}`;
+---
+
+<div id="container-email-animacao">
+  <div class="container-animacao">
+    <div class="lottie-container">
+      <dotlottie-player
+        src="/assets/imgs/gadgets/email-lotting.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </div>
+
+    <script>
+      // Importação local via NPM (o Astro/Vite vai empacotar e otimizar pra você)
+      import '@dotlottie/player-component';
+    </script>
+
+    <style>
+      .lottie-container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      dotlottie-player {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </div>
+  <div class="container-email">
+    <div class="container-msg-icon">
+      <p class="description-card">
+        {d.newsletter_section.title}
+      </p>
+      <p class="tooltip-text">
+        {d.newsletter_section.tooltip}
+      </p>
+    </div>
+    <div class="container-msg">
+      <div class="container-label-input">
+        <input name="usermail" type="email" id="user-mail" placeholder={d.newsletter_section.input_placeholder}>
+      </div>
+      
+      <div id="container-accept-privacy">  
+        <input type="checkbox" name="accept-privacy" id="accept-privacy">
+        <label for="accept-privacy">
+          {d.newsletter_section.privacy.agree} 
+          <a href={getRelativeLocaleUrl(lang, 'legal/terms')} class="link-mail">
+            {d.newsletter_section.privacy.terms}
+          </a> 
+          {d.newsletter_section.privacy.and} 
+          <a href={getRelativeLocaleUrl(lang, 'legal/privacy')} class="link-mail">
+            {d.newsletter_section.privacy.policy}
+          </a>
+        </label>
+      </div>
+
+      <div class="container-btn">
+        <button id="cadastrar-email">
+          <i class="fa-regular fa-envelope"></i> {d.newsletter_section.button_text.toUpperCase()}
+        </button>
+      </div>
+
+      <div id="container-frufru">
+        {d.newsletter_section.features.map((feature) => (
+          <div class="frufru">
+            <i class="fa-solid fa-check"></i>{feature}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>

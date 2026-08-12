@@ -136,6 +136,51 @@ const dynamicCanonical = `${baseUrl}${langPrefixForCanonical}/${purePath}`.repla
             import { InicializarMenu } from '@/assets/scripts/menu/menu.js';
             InicializarMenu();
         </script>
+
+        <script>
+            /*interface ElementoVazando {
+            elemento: HTMLElement;
+            tag: string;
+            classe: string;
+            id: string;
+            larguraExcedente: string;
+            }
+
+            function detectarOverflow(): void {
+            const larguraTela = document.documentElement.clientWidth;
+            
+            // Tipamos explicitamente a array aqui
+            const elementosVazando: ElementoVazando[] = [];
+
+            document.querySelectorAll<HTMLElement>('*').forEach((el: HTMLElement) => {
+                const rect = el.getBoundingClientRect();
+                
+                if (rect.right > larguraTela || el.offsetWidth > larguraTela) {
+                elementosVazando.push({
+                    elemento: el,
+                    tag: el.tagName.toLowerCase(),
+                    classe: el.className,
+                    id: el.id,
+                    larguraExcedente: `${Math.round(rect.right - larguraTela)}px`
+                });
+
+                el.style.outline = '2px solid #ef4444';
+                el.style.outlineOffset = '-2px';
+                }
+            });
+
+            if (elementosVazando.length > 0) {
+                console.group('🚨 [Overflow Detector] Elementos vazando encontrados:');
+                console.table(elementosVazando);
+                console.groupEnd();
+            } else {
+                console.log('✅ [Overflow Detector] Nenhum elemento vazando!');
+            }
+            }
+
+            window.addEventListener('load', detectarOverflow);
+            window.addEventListener('resize', detectarOverflow);*/
+        </script>
         <slot name="scripts" />
     </body>
 </html>

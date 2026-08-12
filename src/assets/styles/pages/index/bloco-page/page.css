@@ -130,3 +130,42 @@
 .fa-qrcode:before {
     content: "\f029";
 }
+
+.wave-container{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 80px;
+    position: relative;
+    background-color: var(--fundo-body);
+}
+
+.wave-svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+  fill: var(--fundo-card);
+
+  will-change: transform;
+  contain: strict;
+  
+  /* Volta ao 'linear' (sem alternate) para ir apenas em um sentido continuo */
+  animation: moverOndaPerfeita 8s linear infinite;
+}
+
+.wave-container-reverso{
+  top: 0;
+  transform: scaleY(-1);    
+}
+
+@keyframes moverOndaPerfeita {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    /* Desloca exatamente metade do SVG (100% da largura da tela) */
+    transform: translate3d(-50%, 0, 0); 
+  }
+}

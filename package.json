@@ -5,6 +5,7 @@
   "author": "jiyuu wo",
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
+    "@dotlottie/player-component": "^2.7.12",
     "@firebase/firestore": "^4.16.0",
     "astro": "^7.1.5",
     "astro-indexnow": "^2.3.10",

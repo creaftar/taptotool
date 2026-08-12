@@ -13,8 +13,9 @@
           "title": "1. Lisensi Penggunaan dan Kebebasan Komersial",
           "content": "Berbeda dengan platform yang membatasi, Tap to Tool mendorong produktivitas dan penggunaan profesional dari utilitasnya:",
           "items": [
-            "Anda diizinkan untuk menggunakan hasil yang dihasilkan oleh alat kami (kode terformat, teks, generator, dll.) untuk tujuan pribadi dan komersial.",
-            "Kami tidak memerlukan pembayaran royalti, atribusi wajib, atau kredit atas konten yang Anda produksi menggunakan alat kami."
+            "Anda diizinkan untuk menggunakan hasil yang dihasilkan oleh alat kami (kode terformat, teks, data pengujian, dll.) untuk tujuan pribadi dan komersial yang sah.",
+            "Kami tidak memerlukan pembayaran royalti, atribusi wajib, atau kredit atas konten yang Anda produksi menggunakan alat kami.",
+            "Penggunaan yang Dilarang: Lisensi ini TIDAK mengizinkan penggunaan alat atau data yang dihasilkan untuk tujuan ilegal, pendaftaran yang mengandung penipuan, pemalsuan, atau aktivitas apa pun yang melanggar hukum lokal maupun internasional. Pengguna bertanggung jawab penuh atas penggunaan hasil yang diperoleh."
           ]
         },
         "two": {
@@ -33,6 +34,14 @@
           "items": [
             "Kami tidak menjamin bahwa utilitas bebas 100% dari kesalahan teknis, ejaan, atau fotografi.",
             "Tap to Tool tidak bertanggung jawab atas kehilangan data, kehilangan keuntungan, atau gangguan bisnis yang timbul dari penggunaan atau ketidakmampuan menggunakan alat-alat tersebut. Verifikasi akhir dari hasil yang dihasilkan adalah tanggung jawab penuh pengguna."
+          ]
+        },
+        "three_a": {
+          "title": "3.1. Alat Generator Data dan Pengujian",
+          "content": "Beberapa alat kami (seperti generator angka, kode, atau dokumen) dikembangkan secara eksklusif untuk tujuan pengujian perangkat lunak, validasi formulir, dan pengembangan.",
+          "items": [
+            "Data yang dihasilkan adalah urutan acak angka atau alfanumerik yang dibuat oleh algoritma matematika dan tidak mewakili, berkonsultasi, atau menggunakan data nyata dari individu, perusahaan, atau instansi pemerintah.",
+            "Tap to Tool tidak mendorong dan tidak bertanggung jawab atas penyalahgunaan informasi ini untuk tujuan ilegal atau yang melanggar hukum yang berlaku."
           ]
         },
         "four": {

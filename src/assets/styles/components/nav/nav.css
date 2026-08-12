@@ -34,10 +34,12 @@
 	color: rgba(var(--padrao), 1);
 	z-index: 999;
     width: 100%;
+	max-width: 1920px;
 }
 #fakeNav{
     width: 100%;
     height: 56px;
+	max-width: 1920px;
 }
 #redimensionador{
 	width: 80%;   

@@ -1,60 +1,19 @@
 {
-  "carousel_section": {
-    "header": {
-      "main_title": "NEUE TOOLS ENTDECKEN"
-    },
-    "cards": {
-      "alarm": {
-        "title": "ONLINE-WECKER",
-        "alt_text": "Bild der Wecker-Seite"
-      },
-      "char_counter": {
-        "title": "ZEICHENZÄHLER",
-        "alt_text": "Bild der Zeichenzähler-Seite"
-      },
-      "stopwatch": {
-        "title": "ONLINE-STOPPUHR",
-        "alt_text": "Bild der Stoppuhr-Seite"
-      },
-      "random_number": {
-        "title": "ZUFALLSZAHLEN-GENERATOR",
-        "alt_text": "Bild des Zufallszahlengenerators"
-      },
-      "alphabetical_order": {
-        "title": "ALPHABETISCHE REIHENFOLGE",
-        "alt_text": "Bild der alphabetischen Sortierung"
-      }
-    }
-  },
   "newsletter_section": {
-    "title": "BLEIB AUF DEM LAUFENDEN!",
-    "tooltip": "Wir senden Nachrichten an die angegebene E-Mail-Adresse, um Sie über alle Neuigkeiten von Tap to Tool zu informieren!",
-    "input_placeholder": "beispiel@email.de",
-    "button_text": "Abonnieren"
-  },
-  "updates_section": {
-    "labels": {
-      "new": "NEU!",
-      "ad": "ANZEIGE"
+    "title": "BLEIBEN SIE AUF DEM LAUFENDEN!",
+    "tooltip": "Wir senden Nachrichten an die registrierte E-Mail-Adresse, um Sie über alle Neuigkeiten von Tap to Tool zu informieren!",
+    "input_placeholder": "benutzer.beispiel@email.com",
+    "button_text": "Registrieren",
+    "privacy": {
+      "agree": "Ich stimme den",
+      "terms": "Nutzungsbedingungen",
+      "and": "und der",
+      "policy": "Datenschutzerklärung"
     },
-    "items": {
-      "text_inverter": {
-        "title": "Textumkehrer",
-        "description": "Kehren Sie Ihren Text mit unserem neuen Tool um!"
-      },
-      "tool_kit": {
-        "title": "Tool-Kit",
-        "description": "Jetzt können Sie ein Set aus verschiedenen Tools wählen!"
-      },
-      "alarm_clock": {
-        "title": "Online-Wecker",
-        "description": "Erstellen Sie mehrere Wecker an einem Ort!"
-      },
-      "creaftar_ad": {
-        "title": "Creaftar",
-        "description": "Spielen oder erstellen Sie online Kreuzworträtsel!",
-        "alt_text": "Bild der Creaftar-Anzeige"
-      }
-    }
+    "features": [
+      "Neue Updates",
+      "Neue Werkzeuge",
+      "Mehr Produktivität"
+    ]
   }
 }

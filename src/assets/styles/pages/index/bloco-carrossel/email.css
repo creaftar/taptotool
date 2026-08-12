@@ -1,0 +1,100 @@
+#container-email-animacao{
+    width: 100%;
+    display: flex;
+    align-items: space-around;
+    padding: 30px 10%;
+}
+.container-animacao{
+    width: 50%;
+}
+.container-email{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 24px 0 0;
+    max-width: 460px;
+    width: 50%;
+    color: rgba(var(--padrao), 1);
+    font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.description-card {
+    font-size: x-large; 
+    margin: 10px 0;
+
+    /* Força o texto a ficar em uma única linha */
+    white-space: nowrap; 
+    
+    /* Esconde o texto que passar da largura do container */
+    overflow: hidden; 
+    
+    /* Adiciona as reticências (...) no final do texto cortado */
+    text-overflow: ellipsis; 
+}
+#user-mail{
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0 0 0;
+    font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container-accept-privacy{
+    padding: 0 0 0 6px;
+    display: flex;
+    gap: 6px;
+    font-size: small;
+}
+.link-mail{
+    font-weight: bold;
+    color: rgba(var(--padrao), 1);
+    margin: 0 1ch;
+}
+#container-accept-privacy > *{
+   cursor: pointer;
+}
+#container-accept-privacy > label{
+    padding: 15px 0 15px 0;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+}
+#cadastrar-email{
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: rgba(var(--padrao), 1);
+    color: var(--fundo-body);
+    transition: background-color 0.2s;
+    /*border: none;*/
+}
+#cadastrar-email:hover {
+    background-color: rgba(var(--padrao), 0.9);
+}
+#container-frufru{
+    margin-top: 10px;
+    display: flex;
+    font-size: small;
+    justify-content: space-around;
+    width: 100%;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.frufru{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+@media screen and (max-width: 768px) {
+    #container-email-animacao{
+        flex-direction: column;
+        padding: 0;
+    }
+    .container-email{
+        width: 100%;
+        padding: 10px 12px;
+    }
+    .container-animacao{
+        width: 100%;
+    }
+}

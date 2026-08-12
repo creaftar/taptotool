@@ -15,20 +15,6 @@ html{
     width: unset;
 }
 
-.description-card{
-    cursor: default;
-    width: 100%;
-    text-align: center;
-    margin: 9px 0;
-    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(var(--padrao), 1);
-    font-size: 1em;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; /* Para compatibilidade, embora o line-clamp já faça isso */
-    
-}
 .container-content{
     width: 100%;
     display: flex;

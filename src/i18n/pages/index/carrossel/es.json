@@ -1,60 +1,19 @@
 {
-  "carousel_section": {
-    "header": {
-      "main_title": "EXPLORA NUEVAS HERRAMIENTAS"
-    },
-    "cards": {
-      "alarm": {
-        "title": "DESPERTADOR EN LÍNEA",
-        "alt_text": "Imagen de la página del despertador"
-      },
-      "char_counter": {
-        "title": "CONTADOR DE CARACTERES",
-        "alt_text": "Imagen de la página del contador de caracteres"
-      },
-      "stopwatch": {
-        "title": "CRONÓMETRO EN LÍNEA",
-        "alt_text": "Imagen de la página del cronómetro"
-      },
-      "random_number": {
-        "title": "GENERADOR DE NÚMEROS ALEATORIOS",
-        "alt_text": "Imagen de la página del generador de números"
-      },
-      "alphabetical_order": {
-        "title": "ORDEN ALFABÉTICO",
-        "alt_text": "Imagen de la página del ordenador alfabético"
-      }
-    }
-  },
   "newsletter_section": {
-    "title": "¡MANTENTE INFORMADO!",
-    "tooltip": "¡Enviaremos mensajes a tu correo electrónico para mantenerte al día con todas las novedades de Tap to Tool!",
-    "input_placeholder": "usuario.ejemplo@gmail.com",
-    "button_text": "SUSCRIBIRSE"
-  },
-  "updates_section": {
-    "labels": {
-      "new": "¡NUEVO!",
-      "ad": "ANUNCIO"
+    "title": "¡MANTÉNTE AL DÍA CON LAS NOVEDADES!",
+    "tooltip": "¡Enviaremos mensajes al correo registrado para mantenerte al tanto de todas las novedades de Tap to Tool!",
+    "input_placeholder": "usuario.ejemplo@email.com",
+    "button_text": "Registrarse",
+    "privacy": {
+      "agree": "Acepto los",
+      "terms": "Términos",
+      "and": "y la",
+      "policy": "Política de Privacidad"
     },
-    "items": {
-      "text_inverter": {
-        "title": "Inversor de Texto",
-        "description": "¡Invierte tu texto con nuestra nueva herramienta!"
-      },
-      "tool_kit": {
-        "title": "Kit de Herramientas",
-        "description": "¡Ahora puedes seleccionar un kit con varias herramientas!"
-      },
-      "alarm_clock": {
-        "title": "Despertador en Línea",
-        "description": "¡Configura varios despertadores en un solo lugar!"
-      },
-      "creaftar_ad": {
-        "title": "Creaftar",
-        "description": "¡Juega o crea crucigramas en línea!",
-        "alt_text": "Imagen de la página de anuncio de Creaftar"
-      }
-    }
+    "features": [
+      "Nuevas actualizaciones",
+      "Nuevas herramientas",
+      "Más productividad"
+    ]
   }
 }

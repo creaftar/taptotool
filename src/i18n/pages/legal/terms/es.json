@@ -13,8 +13,9 @@
           "title": "1. Licencia de Uso y Libertad Comercial",
           "content": "A diferencia de las plataformas restrictivas, Tap to Tool fomenta la productividad y el uso profesional de sus utilidades:",
           "items": [
-            "Tiene permiso para utilizar los resultados generados por nuestras herramientas (códigos formateados, textos, generadores, etc.) para fines personales y comerciales.",
-            "No exigimos el pago de regalías, atribuciones obligatorias o créditos sobre el contenido que usted produce utilizando nuestras herramientas."
+            "Tiene permiso para utilizar los resultados generados por nuestras herramientas (códigos formateados, textos, datos de prueba, etc.) para fines personales y comerciales legítimos.",
+            "No exigimos el pago de regalías, atribuciones obligatorias o créditos sobre el contenido que usted produce utilizando nuestras herramientas.",
+            "Uso Prohibido: Esta licencia NO autoriza el uso de cualquier herramienta o dato generado para fines ilícitos, registros fraudulentos, falsificación o cualquier actividad que viole las leyes locales o internacionales. El usuario es el único y exclusivo responsable del uso que haga de los resultados obtenidos."
           ]
         },
         "two": {
@@ -33,6 +34,14 @@
           "items": [
             "No ofrecemos garantías de que las utilidades estén 100% libres de errores técnicos, ortográficos o fotográficos.",
             "Tap to Tool no se responsabiliza por la pérdida de datos, lucro cesante o interrupción de negocios derivados del uso o la incapacidad de usar las herramientas. La verificación final del resultado generado es responsabilidad total del usuario."
+          ]
+        },
+        "three_a": {
+          "title": "3.1. Herramientas de Generación de Datos y Prueba",
+          "content": "Algunas de nuestras herramientas (como generadores de números, códigos o documentos) están desarrolladas exclusivamente para fines de prueba de software, validación de formularios y desarrollo.",
+          "items": [
+            "Los datos generados son secuencias numéricas o alfanuméricas aleatorias creadas mediante algoritmos matemáticos y no representan, consultan ni utilizan datos reales de personas, empresas u organismos gubernamentales.",
+            "Tap to Tool no fomenta ni se responsabiliza por el uso indebido de esta información para fines ilícitos o que infrinjan las leyes vigentes."
           ]
         },
         "four": {
