@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Contador de Clics en Pantalla Online Gratis | Tap to Tool",
+    "description": "Cuenta tus clics en pantalla fácilmente con nuestro contador online gratuito. Compatible con atajos de teclado (Espacio, Enter, Retroceso) y diseño adaptable.",
+    "keywords": "contador de clics, contar clics, contador de pantalla, contador de clics online, contador de toques, contador manual online"
+  },
+  "schema": {
+    "alternate_name": "Contador de Clics Online",
+    "app_description": "Herramienta online para contar clics en pantalla o mediante el teclado. Simple, precisa y gratuita.",
+    "howto_name": "Cómo usar el Contador de Clics",
+    "howto_description": "Aprende a contar tus clics usando el ratón, la pantalla táctil o los atajos del teclado.",
+    "breadcrumb_home": "Inicio"
+  },
+  "ui": {
+    "h1": "Contador de Clics en Pantalla",
+    "intro_text": "Una herramienta simple y eficiente para contar clics en tiempo real en tu navegador. Ideal para conteos rápidos, pruebas de clic y control de repeticiones.",
+    "clicked_prefix": "Has hecho clic",
+    "clicked_suffix": "veces",
+    "aria_add": "Añadir clic",
+    "aria_remove": "Quitar clic",
+    "aria_reset": "Restablecer contador",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Características del Contador de Clics",
+    "feature_keyboard": "Atajos de Teclado:Usa la barra Espaciadora o Enter para sumar y Retroceso para restar.",
+    "feature_modes": "Multiplataforma:Funciona perfectamente en ordenadores, tabletas y teléfonos inteligentes.",
+    "feature_realtime": "Conteo Instantáneo:Actualización inmediata del contador sin ningún retraso.",
+    "feature_responsive": "Interfaz Limpia:Diseño minimalista y sin distracciones enfocado en la usabilidad.",
+    "usage_title": "Cómo Usar el Contador",
+    "usage_step1": "Haz clic en el botón más (+) en la pantalla o presiona Espacio/Enter en el teclado para añadir un clic.",
+    "usage_step2": "Usa el botón menos (-) en la pantalla o la tecla Retroceso para restar un clic del conteo.",
+    "usage_step3": "Presiona el botón de reiniciar para volver la cuenta a cero en cualquier momento.",
+    "usage_step4": "Sigue el número total mostrado en el centro del panel en tiempo real.",
+    "shortcuts_title": "Atajos de Teclado Compatibles",
+    "shortcut_space_enter": "Espacio / Enter: Añade +1 al contador",
+    "shortcut_backspace": "Retroceso (Backspace): Resta -1 al contador",
+    "shortcut_reset": "Botón Reset: Reinicia el número acumulado",
+    "footer_text": "¿Te gustó esta herramienta? ¡Compártela con tus amigos!"
+  },
+  "dynamic": {
+    "singular_label": "vez",
+    "plural_label": "veces",
+    "reset_confirm": "¡Contador restablecido con éxito!"
+  }
+}

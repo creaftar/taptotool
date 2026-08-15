@@ -9,7 +9,6 @@ const {
   description = "Encontre o que quiser em uma coleção de ferramentas online, gratuitas e rápidas para o seu dia a dia", 
   keywords = "contador de letras, contador de palavras, contador de frases, contador de paragrafos, contador de linhas, contador de caracteres sem espaço, contador de caracteres, contador de caracteres no word, contador de caracteres online, contador de caracteres de texto, contador de caracteres escritos, contador de palavras e caracteres, contador de caracteres em um texto, contador de palavras e caracteres, contador de caracteres online gratis, contador de caracteres sem espaco",
   lang = "en",
-  //canonical = "https://taptotool.com/" 
 } = Astro.props;
 
 const supportedLanguages = ['en', 'pt', 'es', 'fr', 'it', 'de', 'ru', 'id', 'hi'];
@@ -17,12 +16,36 @@ const baseUrl = "https://taptotool.com";
 
 const pathname = Astro.url.pathname;
 
+// Trata o caminho limpando barras iniciais/finais e identificando o idioma
 const pathSegments = pathname.split('/').filter(Boolean);
 const firstSegmentIsLang = supportedLanguages.includes(pathSegments[0]);
 const purePath = firstSegmentIsLang ? pathSegments.slice(1).join('/') : pathSegments.join('/');
 
-const langPrefixForCanonical = lang === 'en' ? '' : `/${lang}`;
-const dynamicCanonical = `${baseUrl}${langPrefixForCanonical}/${purePath}`.replace(/\/$/, "");
+// Função auxiliar para construir URLs padronizadas
+const buildUrl = (targetLang: any, path: any) => {
+  const isEnglish = targetLang === 'en';
+  const isHome = !path;
+
+  // Se for a Home em Inglês, retorna sem barra final
+  if (isEnglish && isHome) {
+    return baseUrl;
+  }
+
+  // Prepara o trecho do idioma (vazio para 'en')
+  const langSegment = isEnglish ? '' : `/${targetLang}`;
+  
+  // Prepara o trecho da rota interna
+  const pathSegment = isHome ? '' : `/${path}`;
+
+  // Para qualquer outra combinação, garante a barra no final
+  return `${baseUrl}${langSegment}${pathSegment}/`;
+};
+
+// URL Canônica dinâmica
+const dynamicCanonical = buildUrl(lang, purePath);
+
+// URL do x-default (aponta para a versão padrão sem idioma/inglês)
+const xDefaultUrl = buildUrl('en', purePath);
 ---
 
 <!DOCTYPE html>
@@ -32,42 +55,14 @@ const dynamicCanonical = `${baseUrl}${langPrefixForCanonical}/${purePath}`.repla
         <link rel="canonical" href={dynamicCanonical} />
 
         {supportedLanguages.map((l) => {
-          // Se for inglês, não coloca prefixo. Se for outro, coloca /l
-          const lPrefix = l === 'en' ? '' : `/${l}`;
-          // Monta a URL final: base + prefixo + rota da ferramenta
-          const altUrl = `${baseUrl}${lPrefix}/${purePath}`.replace(/\/$/, ""); 
-          
-          return <link rel="alternate" hreflang={l} href={altUrl} />;
+        const altUrl = buildUrl(l, purePath);
+        return <link rel="alternate" hreflang={l} href={altUrl} />;
         })}
 
-        <link rel="alternate" hreflang="x-default" href={`${baseUrl}/${purePath}`.replace(/\/$/, "")} />
+        <link rel="alternate" hreflang="x-default" href={xDefaultUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{title}</title>
         
-        <!--
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-192x192.png" sizes="192x192" type="image/png">
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-512x512.png" sizes="512x512" type="image/png">
-        
-        
-        <link rel="shortcut icon" href="/icon-logoPNG-claro.png" type="image/png" media="(prefers-color-scheme: light)" />
-        <link rel="shortcut icon" href="/icon-logoPNG.ico" type="image/png" media="(prefers-color-scheme: dark)" />
-        
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-180x180.png" />
-        <link rel="mask-icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-512x512.png" color="#3f3f74" />
-        
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-16x16.png?v=0" sizes="16x16" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-24x24.png?v=0" sizes="24x24" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-32x32.png?v=0" sizes="32x32" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-42x42.png?v=0" sizes="42x42" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-48x48.png?v=0" sizes="48x48" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-63x63.png?v=0" sizes="63x63" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-72x72.png?v=0" sizes="72x72" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-76x76.png?v=0" sizes="76x76" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-96x96.png?v=0" sizes="96x96" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-128x128.png?v=0" sizes="128x128" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-144x144.png?v=0" sizes="144x144" type="image/png" />
-        <link rel="icon" href="/assets/imgs/logo/icon-different-sizes/icon-logoPNG-152x152.png?v=0" sizes="152x152" type="image/png" />
-        -->
         <link rel="shortcut icon" href="/assets/imgs/logo/t.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
         <link rel="shortcut icon" href="/assets/imgs/logo/t_dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" media="(prefers-color-scheme: dark)">
@@ -107,15 +102,6 @@ const dynamicCanonical = `${baseUrl}${langPrefixForCanonical}/${purePath}`.repla
 
         <script is:inline src="/precarregar.js?v=1.0.1"></script>
         <link href="/precarregar.css?v=1.0.2" rel="stylesheet" />
-        <!--
-        <script type="text/javascript">
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "wg7s0t431n");
-        </script>
-         -->
     </head>
     <body>
         
@@ -135,51 +121,6 @@ const dynamicCanonical = `${baseUrl}${langPrefixForCanonical}/${purePath}`.repla
         <script>
             import { InicializarMenu } from '@/assets/scripts/menu/menu.js';
             InicializarMenu();
-        </script>
-
-        <script>
-            /*interface ElementoVazando {
-            elemento: HTMLElement;
-            tag: string;
-            classe: string;
-            id: string;
-            larguraExcedente: string;
-            }
-
-            function detectarOverflow(): void {
-            const larguraTela = document.documentElement.clientWidth;
-            
-            // Tipamos explicitamente a array aqui
-            const elementosVazando: ElementoVazando[] = [];
-
-            document.querySelectorAll<HTMLElement>('*').forEach((el: HTMLElement) => {
-                const rect = el.getBoundingClientRect();
-                
-                if (rect.right > larguraTela || el.offsetWidth > larguraTela) {
-                elementosVazando.push({
-                    elemento: el,
-                    tag: el.tagName.toLowerCase(),
-                    classe: el.className,
-                    id: el.id,
-                    larguraExcedente: `${Math.round(rect.right - larguraTela)}px`
-                });
-
-                el.style.outline = '2px solid #ef4444';
-                el.style.outlineOffset = '-2px';
-                }
-            });
-
-            if (elementosVazando.length > 0) {
-                console.group('🚨 [Overflow Detector] Elementos vazando encontrados:');
-                console.table(elementosVazando);
-                console.groupEnd();
-            } else {
-                console.log('✅ [Overflow Detector] Nenhum elemento vazando!');
-            }
-            }
-
-            window.addEventListener('load', detectarOverflow);
-            window.addEventListener('resize', detectarOverflow);*/
         </script>
         <slot name="scripts" />
     </body>

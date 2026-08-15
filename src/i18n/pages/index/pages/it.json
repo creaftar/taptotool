@@ -26,6 +26,9 @@
     "external_links": {
       "creaftar": "Creaftar - Crea parole crociate",
       "elobetter": "EloBetter - Impara a salire di ELO su League of Legends"
+    },
+    "performance_tools": {
+      "click_counter": "Contatore di clic"
     }
   }
 }

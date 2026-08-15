@@ -2,7 +2,7 @@
     width: 100%;
     background-color: var(--fundo-card);
     font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 32px;
+    
 }
 
 .conteudo-espacado{
@@ -121,14 +121,15 @@
     color: var(--texto-encrypt);
 }
 
+.page-performance{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
 .hr-pages{
     border: none;
     margin: 9px 0;
     border-bottom: solid 1px rgba(var(--padrao), var(--opacidade-hr));
-}
-
-.fa-qrcode:before {
-    content: "\f029";
 }
 
 .wave-container{
@@ -168,4 +169,11 @@
     /* Desloca exatamente metade do SVG (100% da largura da tela) */
     transform: translate3d(-50%, 0, 0); 
   }
+}
+
+.fa-qrcode:before {
+    content: "\f029";
+}
+.fa-hand-point-up:before {
+    content: "\f0a6"
 }

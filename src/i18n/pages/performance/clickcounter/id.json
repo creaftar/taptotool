@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Penghitung Klik Layar Online Gratis | Tap to Tool",
+    "description": "Hitung klik layar Anda dengan mudah menggunakan penghitung online gratis kami. Mendukung pintasan keyboard (Spasi, Enter, Backspace) dan desain responsif.",
+    "keywords": "penghitung klik, hitung klik, penghitung layar, penghitung klik online, penghitung sentuhan, penghitung manual online, tally counter"
+  },
+  "schema": {
+    "alternate_name": "Penghitung Klik Online",
+    "app_description": "Alat online untuk menghitung klik pada layar atau melalui keyboard. Sederhana, akurat, dan gratis.",
+    "howto_name": "Cara Menggunakan Penghitung Klik",
+    "howto_description": "Pelajari cara menghitung klik Anda menggunakan tetikus, layar sentuh, atau pintasan keyboard.",
+    "breadcrumb_home": "Beranda"
+  },
+  "ui": {
+    "h1": "Penghitung Klik Layar",
+    "intro_text": "Alat sederhana dan efisien untuk menghitung klik secara real-time di peramban Anda. Ideal untuk penghitungan cepat, pengujian klik, dan pelacakan pengulangan.",
+    "clicked_prefix": "Anda telah mengklik",
+    "clicked_suffix": "kali",
+    "aria_add": "Tambah klik",
+    "aria_remove": "Kurangi klik",
+    "aria_reset": "Atur ulang penghitung",
+    "price_currency": "IDR"
+  },
+  "content": {
+    "features_title": "Fitur Penghitung Klik",
+    "feature_keyboard": "Pintasan Keyboard:Gunakan tombol Spasi atau Enter untuk menambah dan Backspace untuk mengurangi.",
+    "feature_modes": "Multiplatform:Bekerja dengan lancar di komputer, tablet, dan ponsel pintar.",
+    "feature_realtime": "Penghitungan Instan:Pembaruan penghitung seketika tanpa penundaan.",
+    "feature_responsive": "Antarmuka Bersih:Desain minimalis dan bebas gangguan yang berfokus pada kemudahan penggunaan.",
+    "usage_title": "Cara Menggunakan Penghitung",
+    "usage_step1": "Klik tombol plus (+) di layar atau tekan Spasi/Enter pada keyboard untuk menambahkan klik.",
+    "usage_step2": "Gunakan tombol minus (-) di layar atau tombol Backspace untuk mengurangi klik dari hitungan.",
+    "usage_step3": "Tekan tombol atur ulang untuk mengembalikan hitungan ke nol kapan saja.",
+    "usage_step4": "Pantau jumlah total yang ditampilkan di tengah panel secara real-time.",
+    "shortcuts_title": "Pintasan Keyboard yang Didukung",
+    "shortcut_space_enter": "Spasi / Enter: Menambahkan +1 ke penghitung",
+    "shortcut_backspace": "Backspace: Mengurangi -1 dari penghitung",
+    "shortcut_reset": "Tombol Reset: Mengosongkan jumlah yang terakumulasi",
+    "footer_text": "Suka dengan alat ini? Bagikan dengan teman-teman Anda!"
+  },
+  "dynamic": {
+    "singular_label": "kali",
+    "plural_label": "kali",
+    "reset_confirm": "Penghitung berhasil diatur ulang!"
+  }
+}

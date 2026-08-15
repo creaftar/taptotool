@@ -1,0 +1,211 @@
+---
+import ToolLayout from "@/layout/ToolLayout.astro";
+import '@/assets/styles/pages/performance/click-counter.css';
+import '@/assets/styles/addons/checkbox.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+import pt from "@/i18n/pages/performance/clickcounter/pt.json";
+import en from "@/i18n/pages/performance/clickcounter/en.json";
+import es from "@/i18n/pages/performance/clickcounter/es.json";
+import fr from "@/i18n/pages/performance/clickcounter/fr.json";
+import it from "@/i18n/pages/performance/clickcounter/it.json";
+import de from "@/i18n/pages/performance/clickcounter/de.json";
+import ru from "@/i18n/pages/performance/clickcounter/ru.json";
+import id from "@/i18n/pages/performance/clickcounter/id.json";
+import hi from "@/i18n/pages/performance/clickcounter/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang: paramLang } = Astro.params;
+const lang = paramLang || Astro.currentLocale || 'en'; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/performance/click-counter/`;
+---
+
+<ToolLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+>
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.seo.title,
+      "alternateName": d.schema.alternate_name,
+      "url": currentUrl,
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.ui.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": "HowTo",
+      "@id": `${currentUrl}#howto`,
+      "name": d.schema.howto_name,
+      "description": d.schema.howto_description,
+      "mainEntityOfPage": { "@id": `${currentUrl}#webpage` },
+      "totalTime": "PT1M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step1,
+          "text": d.content.usage_step1
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step2,
+          "text": d.content.usage_step2
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step3,
+          "text": d.content.usage_step3
+        },
+        {
+          "@type": "HowToStep",
+          "name": d.content.usage_step4,
+          "text": d.content.usage_step4
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "description": d.seo.description,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.seo.title,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/web-app-manifest-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+
+  <div id="container-click-counter" data-i18n={JSON.stringify(d.dynamic)}>
+    <div class="container-contador">
+      <p>{d.ui.clicked_prefix}</p>
+      <span id="contador">0</span>
+      <p>{d.ui.clicked_suffix}</p>
+    </div>
+    <div class="container-botoes-clique">
+      <button id="remover-clique" aria-label={d.ui.aria_remove}><i class="fa-solid fa-minus icones-botoes"></i></button>
+      <button id="adicionar-clique" aria-label={d.ui.aria_add}><i class="fa-solid fa-plus icones-botoes"></i></button>
+      <button id="resetar-clique" aria-label={d.ui.aria_reset}><i class="fa-solid fa-rotate-left icones-botoes"></i></button>
+    </div>
+  </div>
+
+  <article id="description-area" slot="SEO">
+    <header>
+      <h1>{d.seo.title}</h1>
+      <p>{d.ui.intro_text}</p>
+    </header>
+
+    <section>
+      <h2>{d.content.features_title}</h2>
+      <ul>
+        <li><strong>{d.content.feature_keyboard.split(':')[0]}:</strong>{d.content.feature_keyboard.split(':')[1]}</li>
+        <li><strong>{d.content.feature_modes.split(':')[0]}:</strong>{d.content.feature_modes.split(':')[1]}</li>
+        <li><strong>{d.content.feature_realtime.split(':')[0]}:</strong>{d.content.feature_realtime.split(':')[1]}</li>
+        <li><strong>{d.content.feature_responsive.split(':')[0]}:</strong>{d.content.feature_responsive.split(':')[1]}</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>{d.content.usage_title}</h2>
+      <p>1. {d.content.usage_step1}</p>
+      <p>2. {d.content.usage_step2}</p>
+      <p>3. {d.content.usage_step3}</p>
+      <p>4. {d.content.usage_step4}</p>
+    </section>
+
+    <section>
+      <h2>{d.content.shortcuts_title}</h2>
+      <p><i class="fa-solid fa-keyboard"></i> - {d.content.shortcut_space_enter}</p>
+      <p><i class="fa-solid fa-delete-left"></i> - {d.content.shortcut_backspace}</p>
+      <p><i class="fa-solid fa-rotate-left"></i> - {d.content.shortcut_reset}</p>
+    </section>
+
+    <footer>
+      <div class="share-buttons">
+        <p>{d.content.footer_text}</p>
+      </div>
+    </footer>
+  </article>
+
+  <script>
+    import '@/assets/scripts/imports/clickcounter.js';
+  </script>
+</ToolLayout>

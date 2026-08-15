@@ -37,7 +37,7 @@ const lang = paramLang || Astro.currentLocale || 'en';
 const d = locales[lang as keyof typeof locales] || locales.en;
 
 const urlPath = lang === 'en' ? '' : `/${lang}`;
-const currentUrl = `https://taptotool.com${urlPath}/time/alarm-clock`;
+const currentUrl = `https://taptotool.com${urlPath}/time/alarm-clock/`;
 ---
 
 <ToolLayout

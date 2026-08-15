@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Free Online Screen Click Counter | Tap to Tool",
+    "description": "Count your screen clicks easily with our free online click counter. Supports keyboard shortcuts (Space, Enter, Backspace) and a responsive design.",
+    "keywords": "click counter, count clicks, screen counter, online click counter, tap counter, manual counter online, tally counter"
+  },
+  "schema": {
+    "alternate_name": "Online Click Counter",
+    "app_description": "Online tool to count clicks on screen or via keyboard. Simple, accurate, and free.",
+    "howto_name": "How to Use the Click Counter",
+    "howto_description": "Learn how to count your clicks using your mouse, touchscreen, or keyboard shortcuts.",
+    "breadcrumb_home": "Home"
+  },
+  "ui": {
+    "h1": "Screen Click Counter",
+    "intro_text": "A simple and efficient tool to count clicks in real time in your browser. Ideal for quick counts, click testing, and repetition tracking.",
+    "clicked_prefix": "You clicked",
+    "clicked_suffix": "times",
+    "aria_add": "Add click",
+    "aria_remove": "Remove click",
+    "aria_reset": "Reset counter",
+    "price_currency": "USD"
+  },
+  "content": {
+    "features_title": "Click Counter Features",
+    "feature_keyboard": "Keyboard Shortcuts:Use Space or Enter to add and Backspace to subtract.",
+    "feature_modes": "Cross-Platform:Works seamlessly on desktops, tablets, and smartphones.",
+    "feature_realtime": "Instant Counting:Immediate counter updates without any delay.",
+    "feature_responsive": "Clean Interface:Minimalist and distraction-free design focused on usability.",
+    "usage_title": "How to Use the Counter",
+    "usage_step1": "Click the plus (+) button on the screen or press Space/Enter on your keyboard to add a click.",
+    "usage_step2": "Use the minus (-) button on the screen or the Backspace key to subtract a click from the count.",
+    "usage_step3": "Press the reset button to set the count back to zero at any time.",
+    "usage_step4": "Track the total number displayed in the center of the panel in real time.",
+    "shortcuts_title": "Supported Keyboard Shortcuts",
+    "shortcut_space_enter": "Space / Enter: Adds +1 to the counter",
+    "shortcut_backspace": "Backspace: Subtracts -1 from the counter",
+    "shortcut_reset": "Reset Button: Clears the accumulated number",
+    "footer_text": "Liked this tool? Share it with your friends!"
+  },
+  "dynamic": {
+    "singular_label": "time",
+    "plural_label": "times",
+    "reset_confirm": "Counter reset successfully!"
+  }
+}

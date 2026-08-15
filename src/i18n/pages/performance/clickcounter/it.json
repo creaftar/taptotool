@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Contatore di Clic su Schermo Online Gratis | Tap to Tool",
+    "description": "Conta facilmente i tuoi clic sullo schermo con il nostro contatore online gratuito. Supporta scorciatoie da tastiera (Spazio, Invio, Backspace) e design reattivo.",
+    "keywords": "contatore di clic, contare i clic, contatore schermo, contatore di clic online, contatore manuale online, tally counter"
+  },
+  "schema": {
+    "alternate_name": "Contatore di Clic Online",
+    "app_description": "Strumento online per contare i clic sullo schermo o tramite tastiera. Semplice, preciso e gratuito.",
+    "howto_name": "Come usare il Contatore di Clic",
+    "howto_description": "Scopri come contare i tuoi clic utilizzando il mouse, lo schermo tattile o le scorciatoie da tastiera.",
+    "breadcrumb_home": "Home"
+  },
+  "ui": {
+    "h1": "Contatore di Clic su Schermo",
+    "intro_text": "Uno strumento semplice ed efficiente per contare i clic in tempo reale nel tuo browser. Ideale per conteggi rapidi, test di clic e monitoraggio delle ripetizioni.",
+    "clicked_prefix": "Hai cliccato",
+    "clicked_suffix": "volte",
+    "aria_add": "Aggiungi clic",
+    "aria_remove": "Rimuovi clic",
+    "aria_reset": "Ripristina contatore",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Caratteristiche del Contatore di Clic",
+    "feature_keyboard": "Scorciatoie da Tastiera:Usa la barra Spaziatrice o Invio per aggiungere e Backspace per sottrarre.",
+    "feature_modes": "Multi-Piattaforma:Funziona perfettamente su computer, tablet e smartphone.",
+    "feature_realtime": "Conteggio Istantaneo:Aggiornamento immediato del contatore senza alcun ritardo.",
+    "feature_responsive": "Interfaccia Pulita:Design minimalista e privo di distrazioni incentrato sull'usabilità.",
+    "usage_title": "Come Usare il Contatore",
+    "usage_step1": "Fai clic sul pulsante più (+) sullo schermo o premi Spazio/Invio sulla tastiera per aggiungere un clic.",
+    "usage_step2": "Usa il pulsante meno (-) sullo schermo o il tasto Backspace per sottrarre un clic dal conteggio.",
+    "usage_step3": "Premi il pulsante di ripristino per azzerare il conteggio in qualsiasi momento.",
+    "usage_step4": "Segui il numero totale visualizzato al centro del pannello in tempo reale.",
+    "shortcuts_title": "Scorciatoie da Tastiera Supportate",
+    "shortcut_space_enter": "Spazio / Invio: Aggiunge +1 al contatore",
+    "shortcut_backspace": "Backspace: Sottrae -1 dal contatore",
+    "shortcut_reset": "Pulsante Reset: Azzera il numero accumulato",
+    "footer_text": "Ti è piaciuto questo strumento? Condividilo con i tuoi amici!"
+  },
+  "dynamic": {
+    "singular_label": "volta",
+    "plural_label": "volte",
+    "reset_confirm": "Contatore ripristinato con successo!"
+  }
+}

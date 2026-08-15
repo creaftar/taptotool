@@ -111,6 +111,7 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
     </div>
     
     <hr class="hr-aside">
+    
     <div class="opcaoAside" data-pagina="qrcode-generator" id={getActiveId("qrcode-generator")}>
       <a href={`${urlPrefix}/encrypt/qrcode-generator/`} aria-label={d.aside.qrcode}>
         <i class="fa-solid fa-qrcode aside-icon"></i>
@@ -118,6 +119,15 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
       </a>
     </div>
     
+    
+    <hr class="hr-aside">
+    
+    <div class="opcaoAside" data-pagina="click-counter" id={getActiveId("click-counter")}>
+      <a href={`${urlPrefix}/performance/click-counter/`} aria-label={d.aside.click_counter}>
+        <i class="fa-solid fa-hand-point-up aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.click_counter}</p>
+      </a>
+    </div>
     
     <hr class="hr-aside">
 

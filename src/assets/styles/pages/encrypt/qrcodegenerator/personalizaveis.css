@@ -55,6 +55,7 @@ input[type="color"]::-moz-color-swatch {
   border-radius: 5px;
   outline: none;             /* Remove a borda azul ao clicar */
   cursor: pointer;
+  margin: 0 0 15px 0;
 }
 
 /* ==========================================

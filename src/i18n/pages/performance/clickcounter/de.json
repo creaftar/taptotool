@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Kostenloser Online-Bildschirm-Klickzähler | Tap to Tool",
+    "description": "Zählen Sie Ihre Bildschirmklicks ganz einfach mit unserem kostenlosen Online-Klickzähler. Unterstützt Tastenkombinationen (Leertaste, Eingabe, Rücktaste) und ein responsives Design.",
+    "keywords": "klickzähler, klicks zählen, bildschirmzähler, online klickzähler, tippzähler, manueller zähler online, handzähler"
+  },
+  "schema": {
+    "alternate_name": "Online-Klickzähler",
+    "app_description": "Online-Tool zum Zählen von Klicks auf dem Bildschirm oder über die Tastatur. Einfach, präzise und kostenlos.",
+    "howto_name": "So verwenden Sie den Klickzähler",
+    "howto_description": "Erfahren Sie, wie Sie Ihre Klicks mit der Maus, dem Touchscreen oder Tastenkombinationen zählen.",
+    "breadcrumb_home": "Startseite"
+  },
+  "ui": {
+    "h1": "Bildschirm-Klickzähler",
+    "intro_text": "Ein einfaches und effizientes Tool zum Zählen von Klicks in Echtzeit in Ihrem Browser. Ideal für schnelles Zählen, Klicktests und die Erfassung von Wiederholungen.",
+    "clicked_prefix": "Sie haben",
+    "clicked_suffix": "Mal geklickt",
+    "aria_add": "Klick hinzufügen",
+    "aria_remove": "Klick entfernen",
+    "aria_reset": "Zähler zurücksetzen",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Funktionen des Klickzählers",
+    "feature_keyboard": "Tastenkombinationen:Verwenden Sie die Leertaste oder Eingabetaste zum Hinzufügen und die Rücktaste zum Abziehen.",
+    "feature_modes": "Plattformübergreifend:Funktioniert reibungslos auf PCs, Tablets und Smartphones.",
+    "feature_realtime": "Sofortige Zählung:Unmittelbare Aktualisierung des Zählers ohne Verzögerung.",
+    "feature_responsive": "Übersichtliche Benutzeroberfläche:Minimalistisches und lenkungsfreies Design mit Fokus auf Benutzerfreundlichkeit.",
+    "usage_title": "So verwenden Sie den Zähler",
+    "usage_step1": "Klicken Sie auf die Plus-Schaltfläche (+) auf dem Bildschirm oder drücken Sie die Leertaste/Eingabetaste, um einen Klick hinzuzufügen.",
+    "usage_step2": "Verwenden Sie die Minus-Schaltfläche (-) auf dem Bildschirm oder die Rücktaste, um einen Klick abzuziehen.",
+    "usage_step3": "Drücken Sie die Zurücksetzen-Taste, um den Zählerstand jederzeit auf Null zurückzusetzen.",
+    "usage_step4": "Verfolgen Sie die Gesamtzahl, die in der Mitte des Bedienfelds in Echtzeit angezeigt wird.",
+    "shortcuts_title": "Unterstützte Tastenkombinationen",
+    "shortcut_space_enter": "Leertaste / Eingabe: Erhöht den Zähler um +1",
+    "shortcut_backspace": "Rücktaste (Backspace): Verringert den Zähler um -1",
+    "shortcut_reset": "Reset-Taste: Setzt die aufgelaufene Zahl zurück",
+    "footer_text": "Gefällt Ihnen dieses Tool? Teilen Sie es mit Ihren Freunden!"
+  },
+  "dynamic": {
+    "singular_label": "Mal",
+    "plural_label": "Mal",
+    "reset_confirm": "Zähler erfolgreich zurückgesetzt!"
+  }
+}

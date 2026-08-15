@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Compteur de Clics sur Écran En Ligne Gratuit | Tap to Tool",
+    "description": "Comptez facilement vos clics sur écran avec notre compteur en ligne gratuit. Prise en charge des raccourcis clavier (Espace, Entrée, Retour arrière) et design réactif.",
+    "keywords": "compteur de clics, compter les clics, compteur d'écran, compteur de clics en ligne, compteur manuel en ligne, tally counter"
+  },
+  "schema": {
+    "alternate_name": "Compteur de Clics En Ligne",
+    "app_description": "Outil en ligne pour compter les clics sur écran ou via le clavier. Simple, précis et gratuit.",
+    "howto_name": "Comment utiliser le Compteur de Clics",
+    "howto_description": "Apprenez à compter vos clics à l'aide de votre souris, de votre écran tactile ou des raccourcis clavier.",
+    "breadcrumb_home": "Accueil"
+  },
+  "ui": {
+    "h1": "Compteur de Clics sur Écran",
+    "intro_text": "Un outil simple et efficace pour compter les clics en temps réel dans votre navigateur. Idéal pour les comptages rapides, les tests de clics et le suivi des répétitions.",
+    "clicked_prefix": "Vous avez cliqué",
+    "clicked_suffix": "fois",
+    "aria_add": "Ajouter un clic",
+    "aria_remove": "Retirer un clic",
+    "aria_reset": "Réinitialiser le compteur",
+    "price_currency": "EUR"
+  },
+  "content": {
+    "features_title": "Fonctionnalités du Compteur de Clics",
+    "feature_keyboard": "Raccourcis Clavier:Utilisez la barre d'Espace ou Entrée pour ajouter et Retour arrière pour soustraire.",
+    "feature_modes": "Multiplateforme:Fonctionne parfaitement sur ordinateurs, tablettes et smartphones.",
+    "feature_realtime": "Comptage Instantané:Mise à jour immédiate du compteur sans aucun délai.",
+    "feature_responsive": "Interface Épurée:Design minimaliste et sans distraction axé sur l'ergonomie.",
+    "usage_title": "Comment Utiliser le Compteur",
+    "usage_step1": "Cliquez sur le bouton plus (+) à l'écran ou appuyez sur Espace/Entrée au clavier pour ajouter un clic.",
+    "usage_step2": "Utilisez le bouton moins (-) à l'écran ou la touche Retour arrière pour soustraire un clic du décompte.",
+    "usage_step3": "Appuyez sur le bouton de réinitialisation pour remettre le compteur à zéro à tout moment.",
+    "usage_step4": "Suivez le nombre total affiché au centre du panneau en temps réel.",
+    "shortcuts_title": "Raccourcis Clavier Pris en Charge",
+    "shortcut_space_enter": "Espace / Entrée : Ajoute +1 au compteur",
+    "shortcut_backspace": "Retour arrière (Backspace) : Soustrait -1 du compteur",
+    "shortcut_reset": "Bouton Reset : Remet le chiffre accumulé à zéro",
+    "footer_text": "Vous aimez cet outil ? Partagez-le avec vos amis !"
+  },
+  "dynamic": {
+    "singular_label": "fois",
+    "plural_label": "fois",
+    "reset_confirm": "Compteur réinitialisé avec succès !"
+  }
+}

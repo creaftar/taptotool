@@ -36,7 +36,7 @@ const lang = paramLang || Astro.currentLocale || 'en';
 const d = locales[lang as keyof typeof locales] || locales.en;
 
 const urlPath = lang === 'en' ? '' : `/${lang}`;
-const currentUrl = `https://taptotool.com${urlPath}/random/random-number`;
+const currentUrl = `https://taptotool.com${urlPath}/random/random-number/`;
 ---
 
 <ToolLayout

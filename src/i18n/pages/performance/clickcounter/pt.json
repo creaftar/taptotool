@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Contador de Cliques na Tela Online Grátis | Tap to Tool",
+    "description": "Conte seus cliques na tela facilmente com nosso contador online gratuito. Suporte a atalhos de teclado (Espaço, Enter, Backspace) e interface responsiva.",
+    "keywords": "contador de cliques, contar cliques, contador de tela, click counter, contador de cliques online, contador de toques, contador manual online"
+  },
+  "schema": {
+    "alternate_name": "Contador de Cliques Online",
+    "app_description": "Ferramenta online para contar cliques na tela ou pelo teclado. Simples, precisa e gratuita.",
+    "howto_name": "Como usar o Contador de Cliques",
+    "howto_description": "Aprenda a contar seus cliques usando o mouse, a tela sensível ao toque ou os atalhos do teclado.",
+    "breadcrumb_home": "Início"
+  },
+  "ui": {
+    "h1": "Contador de Cliques na Tela",
+    "intro_text": "Uma ferramenta simples e eficiente para contar cliques em tempo real no seu navegador. Ideal para contagens rápidas, testes de clique e controle de repetições.",
+    "clicked_prefix": "Você clicou",
+    "clicked_suffix": "vezes",
+    "aria_add": "Adicionar clique",
+    "aria_remove": "Remover clique",
+    "aria_reset": "Resetar contador",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "features_title": "Recursos do Contador de Cliques",
+    "feature_keyboard": "Atalhos no Teclado:Use as teclas Espaço ou Enter para somar e Backspace para subtrair.",
+    "feature_modes": "Multiplataforma:Funciona perfeitamente em computadores, tablets e smartphones.",
+    "feature_realtime": "Contagem Instantânea:Atualização imediata do contador sem nenhum atraso.",
+    "feature_responsive": "Interface Limpa:Design minimalista e sem distrações focado na usabilidade.",
+    "usage_title": "Como Usar o Contador",
+    "usage_step1": "Clique no botão mais (+) na tela ou pressione Espaço/Enter no teclado para adicionar um clique.",
+    "usage_step2": "Use o botão menos (-) na tela ou a tecla Backspace para subtrair um clique da contagem.",
+    "usage_step3": "Pressione o botão de reiniciar para zerar a contagem a qualquer momento.",
+    "usage_step4": "Acompanhe o número total exibido no centro do painel em tempo real.",
+    "shortcuts_title": "Atalhos de Teclado Suportados",
+    "shortcut_space_enter": "Espaço / Enter: Adiciona +1 ao contador",
+    "shortcut_backspace": "Backspace: Subtrai -1 do contador",
+    "shortcut_reset": "Botão Reset: Zera o número acumulado",
+    "footer_text": "Gostou desta ferramenta? Compartilhe com seus amigos!"
+  },
+  "dynamic": {
+    "singular_label": "vez",
+    "plural_label": "vezes",
+    "reset_confirm": "Contador resetado com sucesso!"
+  }
+}

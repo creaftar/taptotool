@@ -26,6 +26,9 @@
     "external_links": {
       "creaftar": "Creaftar - Создать кроссворды",
       "elobetter": "EloBetter - Узнайте, как поднять ELO в League of Legends"
+    },
+    "performance_tools": {
+      "click_counter": "Счетчик кликов"
     }
   }
 }

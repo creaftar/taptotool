@@ -36,7 +36,7 @@ const lang = (paramLang === 'en' || !paramLang) ? 'en' : paramLang;
 const d = locales[lang as keyof typeof locales].legal.terms;
 
 const urlPath = lang === 'en' ? '' : `/${lang}`;
-const currentUrl = `https://taptotool.com${urlPath}/legal/terms`;
+const currentUrl = `https://taptotool.com${urlPath}/legal/terms/`;
 ---
 
 <script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({

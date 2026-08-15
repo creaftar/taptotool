@@ -35,7 +35,7 @@ const lang = (paramLang === 'en' || !paramLang) ? 'en' : paramLang;
 const d = locales[lang as keyof typeof locales] || locales.en;
 
 const urlPath = lang === 'en' ? '' : `/${lang}`;
-const currentUrl = `https://taptotool.com${urlPath}/legal/privacy`;
+const currentUrl = `https://taptotool.com${urlPath}/legal/privacy/`;
 ---
 
 <LegalLayout

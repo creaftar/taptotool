@@ -63,11 +63,7 @@ body{
 /*GLOBAL-FIM*/
 
 
-@media(max-width: 1024px){
-    #area-text, #result-text{
-        width: 90%;
-        margin-left: 5%;
-    }
+@media(max-width: 800px){
     #result-text{
         border: none;
     }
@@ -77,5 +73,16 @@ body{
     }
     #container-content{
         flex-direction: column;
+    }
+    #area-text, #result-text{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media(max-width: 560px){
+    #area-text, #result-text{
+        width: 90%;
+        margin-left: 5%;
     }
 }

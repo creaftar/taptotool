@@ -1,15 +1,20 @@
 let toggleThemeEl = document.getElementById("toggleTheme");
+let htmlEl = document.documentElement;
 
 toggleThemeEl.addEventListener('click', SetTheme);
 
 function SetTheme(){
     if(localStorage.getItem('tema') == 'claro'){
         localStorage.setItem('tema', 'escuro');
+        htmlEl.classList.remove('claro');
+        htmlEl.classList.add('escuro');
     }
     else{
         localStorage.setItem('tema', 'claro');
+        htmlEl.classList.remove('escuro');
+        htmlEl.classList.add('claro');
     }
-    location.reload();
+    ConfigTheme();
 }
 
 ConfigTheme();
