@@ -1,28 +1,52 @@
 import("./salvar.js");
+import { ResetLaps, LoadLaps } from './cartao_volta.js';
+
 let cronometroEl = document.getElementById("cronometro");
 let toggleTimerEl = document.getElementById("toggleTimer");
-import { ResetLaps, LoadLaps } from './cartao_volta';
 let resetTimerEl = document.getElementById("resetTimer");
-let tituloEl = document.querySelector("title");
+//let tituloEl = document.querySelector("title");
 
 export let _estado = false;
 export let _elapsedTime = 0;
 export let _startTime;
-let _timerInterval;
-let _titleInterval;
+
+let _rafId; 
+let _worker = null;
+let _ultimoTitulo = ""; // Guarda o último texto para evitar escritas desnecessárias no DOM
 
 toggleTimerEl.addEventListener('click', ToggleTimer);
 resetTimerEl.addEventListener('click', ResetTimer);
 
+// Monitora se a aba está visível ou em segundo plano
+document.addEventListener("visibilitychange", () => {
+    if (_estado) {
+        if (document.hidden) {
+            // Cancelamos o rAF imediatamente ao ocultar
+            if (_rafId) cancelAnimationFrame(_rafId);
+        } else {
+            // Ao voltar para a aba, forçamos o cancelamento de qualquer rAF pendente antes de iniciar outro
+            if (_rafId) cancelAnimationFrame(_rafId);
+            RenderLoop();
+        }
+    }
+});
+
+if (window.Worker) {
+    _worker = new Worker(new URL('../timerWorker.js', import.meta.url), { type: 'module' });
+    
+    _worker.onmessage = function (e) {
+        // Checagem rigorosa: só atualiza via worker se a aba REALMENTE continuar oculta e o timer estiver rodando
+        if (e.data === 'tick' && _estado && document.hidden) {
+            UpdateUI();
+        }
+    };
+}
 
 function ToggleTimer() {
-    if(_estado == false)
-    {
+    if (_estado === false) {
         toggleTimerEl.innerHTML = `<i class="fa-solid fa-pause"></i>`;
         StartTimer();
-    }
-    else
-    {
+    } else {
         toggleTimerEl.innerHTML = `<i class="fa-solid fa-play"></i>`;
         StopTimer();
     }
@@ -30,42 +54,47 @@ function ToggleTimer() {
 
 function StartTimer() {
     _startTime = performance.now() - _elapsedTime;
-    _timerInterval = requestAnimationFrame(UpdateTimer);
-    UpdateTitle();
-    _titleInterval = setInterval(UpdateTitle, 1000);
     _estado = true;
-}
-
-function UpdateTimer() {
-    _elapsedTime = performance.now() - _startTime;
-    cronometroEl.textContent = FormatTimer(_elapsedTime); // Exibe em segundos com 3 casas decimais
-    _timerInterval = requestAnimationFrame(UpdateTimer);
-}
-
-// Nova função para atualizar o título
-function UpdateTitle() {
-    // Calcula o tempo decorrido REAL usando a hora atual e a hora de início
-    let current_ms = performance.now() - _startTime;
     
-    // Garante que o título não exiba lixo, usando _elapsedTime caso o timer não esteja ativo
-    let timeToDisplay = _estado ? current_ms : _elapsedTime;
+    RenderLoop();
+}
 
-    tituloEl.textContent = `${FormatTimerTitle(timeToDisplay)} - Tap to Tool`; 
+function RenderLoop() {
+    if (!_estado) return;
+    
+    // Só roda a renderização fluida se a aba estiver visível
+    if (!document.hidden) {
+        UpdateUI();
+        _rafId = requestAnimationFrame(RenderLoop);
+    }
+}
+
+function UpdateUI() {
+    _elapsedTime = performance.now() - _startTime;
+    
+    if (cronometroEl) {
+        cronometroEl.textContent = FormatTimer(_elapsedTime);
+    }
+    
+    const novoTitulo = `${FormatTimerTitle(_elapsedTime)} - Tap to Tool`;
+    if (novoTitulo !== _ultimoTitulo) {
+        _ultimoTitulo = novoTitulo;
+        document.title = novoTitulo; // Atualização nativa
+    }
 }
 
 function StopTimer() {
-    cancelAnimationFrame(_timerInterval);
-    clearInterval(_titleInterval);
+    if (_rafId) cancelAnimationFrame(_rafId);
     _estado = false;
 }
 
 function ResetTimer() {
-    if(_estado == true)
-        ToggleTimer();
-    clearInterval(_titleInterval);
+    if (_estado === true) ToggleTimer();
+    
     _elapsedTime = 0;
+    _ultimoTitulo = "";
     cronometroEl.textContent = "00:00:00.00";
-    tituloEl.textContent = `Cronometro Online - Tap to Tool`;
+    document.title = `Cronometro Online - Tap to Tool`;
     ResetLaps();
 }
 
@@ -92,30 +121,29 @@ function Pad(number, digits = 2) {
     return number.toString().padStart(digits, '0');
 }
 
-
+// Carregamento inicial
 const STORAGE_KEY = "stopwatch";
 LoadTimer();
 
 export function LoadTimer() {
     const savedStateJSON = localStorage.getItem(STORAGE_KEY);
-    
     if (savedStateJSON) {
         try {
             const savedState = JSON.parse(savedStateJSON);
-            
             if (savedState.elapsedTime !== null && savedState.elapsedTime !== 0) {
                 _elapsedTime = parseFloat(savedState.elapsedTime);
                 cronometroEl.textContent = FormatTimer(_elapsedTime);
-                tituloEl.textContent = `${FormatTimerTitle(_elapsedTime)} - Tap to Tool`;  
+                
+                const tituloSalvo = `${FormatTimerTitle(_elapsedTime)} - Tap to Tool`;
+                _ultimoTitulo = tituloSalvo;
+                document.title = tituloSalvo;
             }
             if (savedState.laps && savedState.laps.length > 0) {
-                LoadLaps(savedState.laps); 
+                LoadLaps(savedState.laps);
             }
-            
             return true;
-            
         } catch (e) {
-            console.error("Erro ao carregar ou analisar o LocalStorage:", e);
+            console.error("Erro ao carregar do LocalStorage:", e);
         }
     }
     return false;

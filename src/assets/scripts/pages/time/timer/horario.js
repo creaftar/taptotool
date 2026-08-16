@@ -14,12 +14,36 @@ const timeFormatter = new Intl.DateTimeFormat(lang, {
 });
 
 // Substitua sua função StartRelogio por esta:
-export function StartRelogio() {
+/*export function StartRelogio() {
     function loop() {
         atualizarHoraLocal();
         requestAnimationFrame(loop); // O navegador chama isso no momento perfeito para o monitor
     }
     requestAnimationFrame(loop);
+}*/
+export function StartRelogio() {
+    // Pedir permissão ao carregar o relógio
+    if ("Notification" in window && Notification.permission === "default") {
+        Notification.requestPermission();
+    }
+
+    atualizarHoraLocal();
+
+    if (window.Worker) {
+        const worker = new Worker(new URL('../timerWorker.js', import.meta.url), { type: 'module' });
+        
+        worker.onmessage = function (e) {
+            if (e.data === 'tick') {
+                atualizarHoraLocal();
+            }
+        };
+
+        worker.onerror = function (err) {
+            console.error("Erro no Web Worker:", err);
+        };
+    } else {
+        setInterval(atualizarHoraLocal, 1000);
+    }
 }
 
 function atualizarHoraLocal() {

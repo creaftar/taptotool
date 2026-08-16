@@ -94,7 +94,7 @@ export function StartRelogio() {
     atualizarHoraLocal();
 
     if (window.Worker) {
-        const worker = new Worker(new URL('./timerWorker.js', import.meta.url), { type: 'module' });
+        const worker = new Worker(new URL('../timerWorker.js', import.meta.url), { type: 'module' });
         
         worker.onmessage = function (e) {
             if (e.data === 'tick') {

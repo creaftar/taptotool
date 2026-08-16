@@ -10,6 +10,7 @@
     width: 45%; 
     min-height: 300px;
     position: relative;
+    max-width:530px;
 }
 #textTip, #textResult{
     color: rgba(var(--padrao), 1);
@@ -34,9 +35,10 @@
     color: rgba(var(--padrao), 1);
 }
 
-@media(max-width: 1024px){
+@media(max-width: 800px){
     #area-text, #result-text{
         width: 90%;
+        max-width:450px;
     }
     #result-text{
         border: none;

@@ -7,6 +7,7 @@
 }
 #result-text, #area-text{
     width: 45%; 
+    max-width:530px;
     color:rgba(var(--padrao), 1);
     min-height: 300px;
     position: relative;
@@ -82,9 +83,10 @@
     color: rgba(var(--padrao), 1);
 }
 
-@media(max-width: 1024px){
+@media(max-width: 800px){
     #area-text, #result-text{
         width: 90%;
+        max-width:450px;
     }
     #result-text{
         border: none;
