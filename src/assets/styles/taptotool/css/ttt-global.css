@@ -1,0 +1,23 @@
+@font-face {
+  font-display: block;
+  font-family: "ttt-global";
+  src: url("../webfonts/ttt-global.woff2?a1a8085cbd4758e4b1c17411351268f1") format("woff2");
+}
+
+i[class^="ttt-global-"]::before, i[class*=" ttt-global-"]::before {
+  font-family: ttt-global !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ttt-global-heart::before {
+  content: "\e900";
+}
+.ttt-global-sun::before {
+  content: "\e901";
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-display: block;
+  font-family: "ttt";
+  src: url("../webfonts/ttt.woff2?0d57186fd601079b8d895ba26e9d0189") format("woff2");
+}
+
+i[class^="ttt-"]::before, i[class*=" ttt-"]::before {
+  font-family: ttt !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ttt-heart::before {
+  content: "\e900";
+}
+.ttt-sun::before {
+  content: "\e901";
+}

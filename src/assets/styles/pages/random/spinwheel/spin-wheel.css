@@ -23,36 +23,13 @@
     height: 600px;
 }
 
-/* Animação do placeholder */
-@keyframes placeholder-shimmer {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
-}
-
-.wheel-container {
-    width: 100%; 
-    height: 100%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+.wheel-container{
+    width:100%; 
+    height:100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25); /* Sombra estática aqui! */
     border-radius: 50%;
-    position: relative;
-
-    /* Gradiente Leve */
-    background: linear-gradient(
-        90deg, 
-        var(--fundo-card, #2a2a2a) 25%, 
-        rgba(255, 255, 255, 0.1) 50%, 
-        var(--fundo-card, #2a2a2a) 75%
-    );
-    background-size: 200% 100%;
-    animation: placeholder-shimmer 1.8s infinite linear;
-}
-
-/* O TRUQUE DE DESEMPENHO:
-   Quando a roleta (canvas) estiver pronta e visível, 
-   removemos a animação e o fundo da container pai! */
-.wheel-container:has(.wheel-canvas-target) {
-    animation: none; /* Para a animação imediatamente */
-    background: transparent; /* Remove o gradiente da memória de renderização */
+    position:relative;
+    /*border: solid 1px rgba(var(--padrao), 1);*/
 }
 /*
 #linhavertical{
