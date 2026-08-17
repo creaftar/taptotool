@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { execSync } from 'node:child_process';
 import { generateFonts } from '@twbs/fantasticon';
 
 function normalizePath(p) {
@@ -10,15 +11,14 @@ async function buildIcons() {
   const jsonPath = path.resolve('./public/assets/store/icons/jsons/icons.json');
   const tempSvgDir = path.resolve('temp-svgs');
   
-  // Pastas de saída sob a estrutura public/taptotool/
-  const cssOutputDir = path.resolve('src/assets/styles/taptotool/css');
-  const fontsOutputDir = path.resolve('src/assets/styles/taptotool/webfonts');
+  // Pasta base onde seus arquivos css e webfonts são salvos
+  const packageDir = path.resolve('src/assets/styles/taptotool');
+  const cssOutputDir = path.join(packageDir, 'css');
+  const fontsOutputDir = path.join(packageDir, 'webfonts');
 
   console.log('1. Lendo arquivo JSON de:', jsonPath);
   const rawData = await fs.readFile(jsonPath, 'utf-8');
   const iconData = JSON.parse(rawData);
-
-  console.log(`2. Total de ícones encontrados: ${iconData.icons?.length || 0}`);
 
   // Limpar e criar diretórios
   await fs.rm(tempSvgDir, { recursive: true, force: true });
@@ -26,17 +26,14 @@ async function buildIcons() {
   await fs.mkdir(cssOutputDir, { recursive: true });
   await fs.mkdir(fontsOutputDir, { recursive: true });
 
-  console.log('3. Gerando arquivos SVG na pasta temporária...');
+  console.log('2. Gerando arquivos SVG na pasta temporária...');
   for (const icon of iconData.icons) {
     const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${iconData.viewBox}"><path d="${icon.path}" /></svg>`;
     const filePath = path.join(tempSvgDir, `${icon.id}.svg`);
     await fs.writeFile(filePath, svgContent, 'utf-8');
   }
 
-  const filesCreated = await fs.readdir(tempSvgDir);
-  console.log(`4. Arquivos SVG gravados: ${filesCreated.length}`);
-
-  console.log('5. Iniciando gerador Fantasticon...');
+  console.log('3. Iniciando gerador Fantasticon...');
   await generateFonts({
     inputDir: normalizePath(tempSvgDir),
     outputDir: normalizePath(fontsOutputDir),
@@ -55,7 +52,7 @@ async function buildIcons() {
     }, {})
   });
 
-  // Ajusta a URL dentro do CSS para apontar de taptotool/css/ para taptotool/webfonts/
+  // Ajusta o caminho da fonte dentro do CSS gerado
   const cssFilePath = path.join(cssOutputDir, `${iconData.prefix || 'ttt'}.css`);
   let cssContent = await fs.readFile(cssFilePath, 'utf-8');
   cssContent = cssContent.replace(
@@ -66,9 +63,57 @@ async function buildIcons() {
 
   // Limpa pasta temporária
   await fs.rm(tempSvgDir, { recursive: true, force: true });
-  console.log('✅ Arquivos gerados com sucesso!');
-  console.log(`   - CSS: public/taptotool/css/${iconData.prefix || 'ttt'}.css`);
-  console.log(`   - WOFF2: public/taptotool/webfonts/${iconData.prefix || 'ttt'}.woff2`);
+  console.log('✅ Arquivos locais compilados com sucesso!');
+
+  // --- AUTOMAÇÃO DO PACOTE NPM ---
+  const pkgPath = path.join(packageDir, 'package.json');
+  let currentVersion = '1.0.0';
+
+  // Verifica se o package.json já existe em src/assets/styles/taptotool/ para incrementar a versão
+  try {
+    const existingPkg = JSON.parse(await fs.readFile(pkgPath, 'utf-8'));
+    const versionParts = existingPkg.version.split('.').map(Number);
+    
+    // Só incrementa a versão se a flag --publish for informada
+    if (process.argv.includes('--publish')) {
+      versionParts[2] += 1;
+      currentVersion = versionParts.join('.');
+    } else {
+      currentVersion = existingPkg.version;
+    }
+  } catch (e) {
+    // Se o package.json ainda não existe, iniciará em 1.0.0
+  }
+
+  const npmPackageContent = {
+    name: '@taptotool/icons',
+    version: currentVersion,
+    description: 'TapToTool Icons Library',
+    author: 'jiyuu wo',
+    license: 'MIT',
+    main: 'css/ttt.css',
+    style: 'css/ttt.css',
+    files: [
+      'css/',
+      'webfonts/'
+    ],
+    publishConfig: {
+      access: 'public'
+    }
+  };
+
+  await fs.writeFile(pkgPath, JSON.stringify(npmPackageContent, null, 2), 'utf-8');
+
+  // Executa a publicação no NPM apenas se a flag --publish estiver presente
+  if (process.argv.includes('--publish')) {
+    console.log(`🚀 Publicando versão v${currentVersion} no NPM...`);
+    try {
+      execSync('npm publish', { cwd: packageDir, stdio: 'inherit' });
+      console.log(`✅ Publicado na CDN jsDelivr com sucesso!`);
+    } catch (err) {
+      console.error('❌ Erro na publicação. Certifique-se de estar logado no npm com "npm login".');
+    }
+  }
 }
 
 buildIcons().catch((err) => {

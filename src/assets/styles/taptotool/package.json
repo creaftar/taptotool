@@ -1,0 +1,16 @@
+{
+  "name": "@taptotool/icons",
+  "version": "1.0.0",
+  "description": "TapToTool Icons Library",
+  "author": "jiyuu wo",
+  "license": "MIT",
+  "main": "css/ttt.css",
+  "style": "css/ttt.css",
+  "files": [
+    "css/",
+    "webfonts/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -31,9 +31,10 @@
     "dev": "astro dev --host",
     "start": "node update/buildicons.mjs && node update/fontmin.mjs && astro dev --host",
     "build": "astro build && node update/sitemapfix.mjs && node ping-bing.mjs",
+    "build:icons": "node update/buildicons.mjs",
+    "publish:icons": "node update/buildicons.mjs --publish",
     "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "astro build && firebase deploy"
+    "astro": "astro"
   },
   "overrides": {
     "fantasticon": {
