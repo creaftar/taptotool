@@ -14,7 +14,7 @@
     z-index: 1;
     box-shadow: inset 0 2px 4px rgba(var(--shadow), 0.2);
 }
-.lupa-pesquisa{
+i.lupa-pesquisa{
     width: 25%;
     max-width: 100px;
     display: flex;

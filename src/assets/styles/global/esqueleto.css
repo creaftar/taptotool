@@ -10,12 +10,14 @@ body{
 #container-body{
     top: 0;
 }
-#container-conteudo{
-    width: 100%;
-    overflow: hidden;
-    /*margin-top: 65px;
-    margin-bottom: 16px;*/
-    padding: 9px;
+:where(#toollayout){
+    #container-conteudo{
+        width: 100%;
+        overflow: hidden;
+        /*margin-top: 65px;
+        margin-bottom: 16px;*/
+        padding: 9px;
+    }
 }
 .adArea{
     color: transparent;
