@@ -1,5 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
+import '@/assets/styles/pages/index/bloco-page/colors.css';
 import '@/assets/styles/pages/index/bloco-page/page.css';
 
 interface Props {
@@ -39,6 +40,16 @@ const url = (path: string) => getRelativeLocaleUrl(lang, path);
   </div>
 
   <div id="container-pages">
+    <div class="opcaoPage">
+      <a href={url("/assets/icons")}>
+        <div class="page-icon page-assets">
+          <i class="fa-solid fa-shapes"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.assets_tools.icons}</p>
+      </a>
+    </div>
+
+    <hr class="hr-pages">
     
     <div class="opcaoPage" id="tep">
       <a href={url("/text/character-counter")}>
@@ -161,18 +172,6 @@ const url = (path: string) => getRelativeLocaleUrl(lang, path);
 
     <hr class="hr-pages">
 
-    <!--<div class="opcaoPage">
-      <a href={url("/assets/icons")}>
-        <div class="page-icon page-assets">
-          <i class="fa-solid fa-icons"></i>
-        </div>
-        <p class="page-text-icon">{d.tools_list.assets_tools.icons}</p>
-      </a>
-    </div>
-
-
-    <hr class="hr-pages">-->
-    
     <div class="opcaoPage">
       <a href="https://creaftar.com" target="_blank">
         <div class="page-icon page-game">

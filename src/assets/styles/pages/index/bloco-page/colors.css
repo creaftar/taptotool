@@ -1,0 +1,73 @@
+:root, .claro:root{
+	--texto-texto: white;
+	--texto-matematica: white;
+	--texto-tempo: rgba(63, 63, 116, 1);
+	--texto-jogos: white;
+	--texto-random: white;
+    --texto-encrypt: rgba(40, 40, 40, 0.9);
+    --texto-assets: #fffced;
+    
+	--footer-texto: #db9106;
+	--footer-matematica: #39187a;
+	--footer-tempo: white;
+	--footer-jogos: #b628a1;
+	--footer-random: #0abfbc;
+	--footer-encrypt: #FACC15; 
+    --footer-assets: #2e69f5;
+
+}
+.escuro:root{
+	--texto-texto: white;
+	--texto-matematica: white;
+	--texto-tempo: rgba(63, 63, 116, 1);
+	--texto-jogos: white;
+    --texto-encrypt: var(--fundo-card);
+    --texto-assets: #fffced;
+
+	--footer-texto: #cc8707;
+	--footer-matematica: #323e94;
+	--footer-tempo: white;
+	--footer-jogos: #b628a1;
+	--footer-random: #0abfbcc8;
+	--footer-encrypt: #FACC15; 
+    --footer-assets: #1c51cc;
+}
+
+.page-text{
+    background-color: var(--footer-texto);
+    color: var(--texto-texto);
+}
+
+.page-math{
+    background-color: var(--footer-matematica);
+    color: var(--texto-matematica);
+}
+
+.page-game{
+    background-color: var(--footer-jogos);
+    color: var(--texto-jogos);
+}
+
+.page-time{
+    background-color: var(--footer-tempo);
+    color: var(--texto-tempo);
+}
+
+.page-random{
+    background-color: var(--footer-random);
+    color: var(--texto-random);
+}
+
+.page-encrypt{
+    background-color: var(--footer-encrypt);
+    color: var(--texto-encrypt);
+}
+
+.page-performance{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.page-assets{
+    background-color: var(--footer-assets);
+    color: var(--texto-assets);
+}

@@ -41,10 +41,12 @@ body{
     font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#description-area p, #description-area ol{
-    padding: 9px;
-    text-align: justify;
-    list-style-position: inside;
+:where(#description-area, .description) {
+    p, ol{
+        padding: 9px;
+        text-align: justify;
+        list-style-position: inside;
+    }
 }
 .link-description{
     color: rgba(var(--padrao), 1);

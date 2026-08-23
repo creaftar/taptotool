@@ -29,6 +29,9 @@
     },
     "performance_tools": {
       "click_counter": "Счетчик кликов"
+    },
+    "assets_tools": {
+      "icons": "Библиотека иконок"
     }
   }
 }

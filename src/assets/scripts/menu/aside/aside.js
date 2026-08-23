@@ -1,5 +1,5 @@
 import('./pesquisar.js');
-//import('./definirDivAtiva.js');
+import('./definirDivAtiva.js');
 
 let bloco0El = document.getElementById("bloco0");
 let menuLateralEl = document.getElementById("container-opcaoAside");

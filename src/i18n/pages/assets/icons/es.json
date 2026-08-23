@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "h1": "Cómo Usar Nuestra Biblioteca de Iconos",
+    "intro_p1": "Diseñada para ser ligera, rápida y fácil de integrar, puedes elegir a continuación el método de instalación que mejor se adapte a tu proyecto, o",
+    "intro_strong": "crear kits personalizados",
+    "intro_p2": "¡para hacer tu aplicación aún más ligera con solo los iconos que uses!",
+    "h2_cdn": "1. Importación Rápida vía CDN (Recomendado)",
+    "p_cdn_1": "La forma más sencilla de usar los iconos es incluyendo nuestra CDN directamente en el",
+    "p_cdn_2": "de tu HTML. De esta forma, no necesitas descargar archivos locales y aseguras usar siempre la versión más rápida y minificada.",
+    "h2_download": "2. Descargar el Paquete Completo (Autoalojado)",
+    "p_download_1": "Si prefieres alojar los archivos en tu propio servidor, usarlos en proyectos sin conexión o necesitas archivos de fuente",
+    "p_download_2": "locales, puedes descargar el paquete completo compilado en formato",
+    "h2_usage": "3. Añadiendo Iconos a Tu Página",
+    "p_usage_intro_1": "Después de importar la CDN, los archivos locales o tu kit, simplemente elige cualquier icono de nuestra biblioteca y usa la etiqueta",
+    "p_usage_intro_2": "con la clase correspondiente:",
+    "usage_step1": "1. Haz clic en cualquier icono del panel superior para copiar su clase.",
+    "usage_step2_1": "2. Pégalo en tu HTML (ejemplo:",
+    "usage_step2_2": ").",
+    "usage_step3_1": "3. Personaliza el color y tamaño fácilmente usando propiedades CSS como",
+    "usage_step3_2": "y",
+    "footer": "Desarrollado con enfoque en rendimiento y usabilidad por el equipo de Tap to Tool."
+  },
+  "interface": {
+    "search_placeholder": "Buscar {count} Iconos...",
+    "icons_count": "Iconos",
+    "no_icons_title": "No se encontraron iconos...",
+    "no_icons_desc": "Asegúrate de buscar los nombres de los iconos en inglés, limpia la búsqueda e inténtalo de nuevo.",
+    "clear_search": "Limpiar Búsqueda",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}

@@ -1,0 +1,50 @@
+.container-cdn {
+    width: 100%;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Consolas', 'Courier New', monospace;
+    padding: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+.container-cdn p{
+    padding: 3px;
+}
+.head-cdn{
+    opacity: 0.7;
+}
+/* Regra para aplicar reticências na linha do código */
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#copy-link {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+p.link-espacado {
+    padding-left: 20px;
+}
+
+/* Cores de Sintaxe do VS Code */
+.container-cdn .tag { color: #569cd6; }
+.container-cdn .attr { color: #9cdcfe; }
+.container-cdn .string { color: #ce9178; }
+.container-cdn .punct { color: #808080; }
+.container-cdn .variable { color: #4fc1ff; }
+
+@media (max-width: 1024px){
+    .container-cdn {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

@@ -13,7 +13,7 @@
     position: relative; /* Ele flutua sobre o resto */
     top: 0;
     left: 0;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 120px);
     width: 64px;
     overflow-y: auto;
     transition: width 0.3s;
@@ -92,6 +92,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--fundo-body);
+    transform: translateY(100%);
 }
 
 #container-iconANDinput{
@@ -170,7 +172,6 @@
   background-color: var(--hover);
   border-radius: 20px;
   cursor: pointer;
-  border: 1px solid rgba(var(--padrao), var(--opacidade-fraca));
   z-index: 999;
 }
 
@@ -183,7 +184,7 @@
 }
 
 #container-opcaoAside:hover::-webkit-scrollbar{
-    width: 9px;
+    width: 6px;
 }
 
 .fa-location-arrow:before {
@@ -197,4 +198,10 @@
 }
 .fa-hand-point-up:before {
     content: "\f0a6"
+}
+.fa-icons:before {
+    content: "\f86d"
+}
+.fa-shapes:before {
+    content: "\f61f"
 }

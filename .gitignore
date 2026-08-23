@@ -33,7 +33,7 @@ pnpm-debug.log*
 #itens auxiliares
 outros/
 traducoes/
-update/serviceAccountKey.json
+update/*
 utensilhos/
 rmvOldFiles.jspdate/
 utensilhos/
@@ -44,3 +44,4 @@ declarations.d.ts
 firebase.json
 guia.txt
 svgs/
+svgs-tmp/

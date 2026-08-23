@@ -1,0 +1,30 @@
+---
+import '@/assets/styles/pages/assets/icons/interface/exibiricones/exibiricones.css';
+import '@/assets/styles/pages/assets/icons/interface/exibiricones/baloes.css';
+
+const { d } = Astro.props;
+---
+<div class="painel painel-exibicao">
+    <div id="back-to-area">
+        <i class="fa-solid fa-xmark fa-lg voltar"></i>
+    </div>
+    <div class="container-informacoes-icone">
+        <div id="icone-exibido-img"></div>
+        <div class="container-informacoes-descricoes">
+            <p id="titulo-icone-exibido"></p>
+            <p id="release-icone-exibido"></p>
+            <div class="container-baloes-exibidos">
+                <p id="categoria-icone-exibido" class="balao"></p>
+                <div id="container-tags-exibidas"></div>
+            </div>
+            <div class="container-icone-copiavel">
+                <div id="copy-link-icon"><i class="fa-solid fa-copy" id="icone-copiavel"></i></div>
+                <code class="code-line" id="link-icone-exibido"></code>
+            </div>
+            <div class="container-botoes-exibidos">
+                <button class="botao-icone-exibido" id="baixar-png-icone">{d.interface.btn_png}</button>
+                <button class="botao-icone-exibido" id="baixar-svg-icone">{d.interface.btn_svg}</button>
+            </div>
+        </div>
+    </div>
+</div>

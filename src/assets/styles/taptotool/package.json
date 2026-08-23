@@ -1,7 +1,7 @@
 {
   "name": "@taptotool/icons",
-  "version": "1.0.0",
-  "description": "TapToTool Icons Library",
+  "version": "0.0.5",
+  "description": "Tap to Tool Icons Library",
   "author": "jiyuu wo",
   "license": "MIT",
   "main": "css/ttt.css",

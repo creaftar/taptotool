@@ -9,9 +9,10 @@ h1, h2{
 h1{
     font-size: 1.5em;
 }
-
-#description-area p, #description-area ol, #description-area ul{
-    padding: 9px;
-    text-align: justify;
-    list-style-position: inside;
+:where(#description-area, .description) {
+    p, ol, ul{
+        padding: 9px;
+        text-align: justify;
+        list-style-position: inside;
+    }
 }

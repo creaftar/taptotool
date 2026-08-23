@@ -20,19 +20,23 @@
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@google/genai": "^2.18.0",
     "@twbs/fantasticon": "^3.1.0",
     "@types/canvas-confetti": "^1.9.0",
+    "clean-css": "^5.3.3",
     "firebase-tools": "^15.24.0",
     "fonteditor-core": "^2.6.3",
     "fontmin": "^1.1.1",
+    "jsdom": "^29.1.1",
+    "svg-path-bounding-box": "^1.0.4",
+    "svgo": "^4.0.2",
     "typescript": "^7.0.2"
   },
   "scripts": {
     "dev": "astro dev --host",
-    "start": "node update/buildicons.mjs && node update/fontmin.mjs && astro dev --host",
+    "start": "node update/build-icons/buildicons.mjs && node update/fontmin.mjs && astro dev --host",
     "build": "astro build && node update/sitemapfix.mjs && node ping-bing.mjs",
-    "build:icons": "node update/buildicons.mjs",
-    "publish:icons": "node update/buildicons.mjs --publish",
+    "publish:icons": "node update/publishicons.mjs --publish",
     "preview": "astro preview",
     "astro": "astro"
   },

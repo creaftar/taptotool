@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "h1": "How to Use Our Icon Library",
+    "intro_p1": "Designed to be lightweight, fast, and simple to integrate, you can choose below the installation method that best suits your project, or",
+    "intro_strong": "create custom kits",
+    "intro_p2": "to make your application even lighter with only the icons you use!",
+    "h2_cdn": "1. Quick Import via CDN (Recommended)",
+    "p_cdn_1": "The easiest way to use the icons is by including our CDN directly in the",
+    "p_cdn_2": "of your HTML. This way, you don't need to download any local files and ensure you always use the fastest, minified version.",
+    "h2_download": "2. Download Full Package (Self-Hosted)",
+    "p_download_1": "If you prefer to host the files on your own server, use them in offline projects, or need local",
+    "p_download_2": "font files, you can download the full compiled package in",
+    "h2_usage": "3. Adding Icons to Your Page",
+    "p_usage_intro_1": "After importing the CDN, local files, or your kit, simply choose any icon from our library and use the",
+    "p_usage_intro_2": "tag with the corresponding class:",
+    "usage_step1": "1. Click on any icon in the panel above to copy its class.",
+    "usage_step2_1": "2. Paste it into your HTML (example:",
+    "usage_step2_2": ").",
+    "usage_step3_1": "3. Easily customize color and size using CSS properties, such as",
+    "usage_step3_2": "and",
+    "footer": "Developed with a focus on performance and usability by the Tap to Tool team."
+  },
+  "interface": {
+    "search_placeholder": "Search {count} Icons...",
+    "icons_count": "Icons",
+    "no_icons_title": "No icons found...",
+    "no_icons_desc": "Make sure to search for icon names in English, clear the search, and try again.",
+    "clear_search": "Clear Search",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}

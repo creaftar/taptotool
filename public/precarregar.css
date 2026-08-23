@@ -1,4 +1,4 @@
-.claro:root{
+:root, .claro:root{
 	/*--logo: rgb(32, 32, 73);*/ 
 	--opacidade-hr: 0.2;
 
@@ -15,23 +15,9 @@
 	--opacidade-media: 0.4;
 	--opacidade-forte: 0.5;
 	
-	--footer-texto: #db9106;
-	--footer-matematica: #39187a;
-	--footer-tempo: rgb(245, 243, 242);
-	--footer-jogos: #b628a1;
-	--footer-random: #0abfbc;
-	--footer-encrypt: #FACC15; 
-	
 	--texto: rgb(63, 63, 116);
 	--texto-claro-rgb: 245, 245, 245;
 	--shadow: 63, 63, 116;
-	
-	--texto-texto: white;
-	--texto-matematica: white;
-	--texto-tempo: #39187a;
-	--texto-jogos: white;
-	--texto-random: white;
-    --texto-encrypt: #1E1B00;
 
 	--borda-copy: 63, 63, 116;
 
@@ -57,22 +43,9 @@
 	--opacidade-media: 0.2;
 	--opacidade-forte: 0.3;
 	
-	--footer-texto: #cc8707;
-	--footer-matematica: #323e94;
-	--footer-tempo: rgba(40, 40, 40, 0.9);
-	--footer-jogos: #b628a1;
-	--footer-random: #0abfbcc8;
-	--footer-encrypt: #FACC15; 
-	
 	--texto: rgb(245, 245, 245);
 	--texto-claro-rgb: 63, 63, 116;
 	--shadow: 63, 63, 116;
-	
-	--texto-texto: white;
-	--texto-matematica: white;
-	--texto-tempo: white;
-	--texto-jogos: white;
-    --texto-encrypt: #1E1B00;
 
 	--borda-copy: 15, 15, 15;
 	/*

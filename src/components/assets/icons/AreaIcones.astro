@@ -1,0 +1,37 @@
+---
+import '@/assets/styles/pages/assets/icons/interface/areaicones/areaicones.css';
+import '@/assets/styles/pages/assets/icons/interface/areaicones/pesquisar.css';
+import '@/assets/styles/pages/assets/icons/interface/areaicones/erro.css';
+import '@/assets/styles/pages/assets/icons/interface/areaicones/menu.css';
+import JSONData from "@/assets/store/icons/jsons/icons.json"; 
+
+const { d } = Astro.props;
+const qtdeIcones = JSONData.icons.length;
+const searchPlaceholder = d.interface.search_placeholder.replace('{count}', qtdeIcones);
+---
+<div class="painel">
+  <div class="container-input-pesquisa">
+    <i class="fa-solid fa-search lupa-pesquisa"></i>
+    <input type="text" id="pesquisar-icones" placeholder={searchPlaceholder}>
+    <i class="fa-solid fa-xmark" id="limpar-pesquisa"></i>
+  </div>
+  
+  <div class="header-menu">
+    <p class="container-qtde-icones"><span id="qtde-icones-encontrados">0</span> {d.interface.icons_count}</p>
+    <div class="container-navegacao-icones">
+      <i class="fa-solid fa-chevron-left chevron" id="voltar-pagina-icones"></i>
+      <ul id="menu-paginas-icones">
+      </ul>
+      <i class="fa-solid fa-chevron-right chevron" id="passar-pagina-icones"></i>
+    </div>
+  </div>
+  <div id="no-icons-found" class="elemento-sem-display">
+      <i class="fa-solid fa-shapes"></i>
+      <p>{d.interface.no_icons_title}</p>
+      <p>{d.interface.no_icons_desc}</p>
+      <button id="limpar-pesquisa-btn">{d.interface.clear_search}</button>
+  </div>
+  
+  <div id="container-icons">
+  </div>
+</div>

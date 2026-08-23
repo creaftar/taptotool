@@ -29,6 +29,9 @@
     },
     "performance_tools": {
       "click_counter": "Click counter"
+    },
+    "assets_tools": {
+      "icons": "Icon Library"
     }
   }
 }

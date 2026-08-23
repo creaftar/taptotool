@@ -60,13 +60,14 @@
 	fill: white;
 }
 .borda-engrenagem{
-    fill: rgba(63, 63, 116);
+	fill: rgba(63, 63, 116);
 }
 
 .bloco{
-    height: 100%;
+	height: 100%;
 }
 #bloco1 > a{
+	overflow: hidden;
 	display: flex;
 	height:100%;
 	align-items: center;

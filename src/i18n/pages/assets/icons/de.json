@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "h1": "So verwenden Sie unsere Symbolbibliothek",
+    "intro_p1": "Entwickelt, um leicht, schnell und einfach zu integrieren zu sein. Wählen Sie unten die Installationsmethode, die am besten zu Ihrem Projekt passt, oder",
+    "intro_strong": "erstellen Sie benutzerdefinierte Kits",
+    "intro_p2": "um Ihre Anwendung noch leichter zu machen, indem Sie nur die Symbole verwenden, die Sie wirklich brauchen!",
+    "h2_cdn": "1. Schneller Import über CDN (Empfohlen)",
+    "p_cdn_1": "Der einfachste Weg, die Symbole zu verwenden, besteht darin, unser CDN direkt in das",
+    "p_cdn_2": "Ihres HTML einzubinden. Auf diese Weise müssen Sie keine lokalen Dateien herunterladen und verwenden immer die schnellste und minimierte Version.",
+    "h2_download": "2. Vollständiges Paket herunterladen (Self-Hosted)",
+    "p_download_1": "Wenn Sie die Dateien lieber auf Ihrem eigenen Server hosten, in Offline-Projekten verwenden oder lokale",
+    "p_download_2": "-Schriftdateien benötigen, können Sie das vollständige Paket im Format",
+    "h2_usage": "3. Symbole zu Ihrer Seite hinzufügen",
+    "p_usage_intro_1": "Wählen Sie nach dem Importieren des CDN, der lokalen Dateien oder Ihres Kits einfach ein beliebiges Symbol aus unserer Bibliothek und verwenden Sie das Tag",
+    "p_usage_intro_2": "mit der entsprechenden Klasse:",
+    "usage_step1": "1. Klicken Sie auf ein beliebiges Symbol oben, um seine Klasse zu kopieren.",
+    "usage_step2_1": "2. Füge es in dein HTML ein (Beispiel:",
+    "usage_step2_2": ").",
+    "usage_step3_1": "3. Passen Sie Farbe und Größe ganz einfach mit CSS-Eigenschaften an, wie zum Beispiel:",
+    "usage_step3_2": "und",
+    "footer": "Entwickelt mit Fokus auf Leistung und Benutzerfreundlichkeit vom Tap to Tool-Team."
+  },
+  "interface": {
+    "search_placeholder": "{count} Symbole suchen...",
+    "icons_count": "Symbole",
+    "no_icons_title": "Keine Symbole gefunden...",
+    "no_icons_desc": "Stellen Sie sicher, dass Sie nach Symbolnamen auf Englisch suchen, löschen Sie die Suche und versuchen Sie es erneut.",
+    "clear_search": "Suche löschen",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}

@@ -91,41 +91,6 @@
     border-radius: 3px;
 }
 
-.page-text{
-    background-color: var(--footer-texto);
-    color: var(--texto-texto);
-}
-
-.page-math{
-    background-color: var(--footer-matematica);
-    color: var(--texto-matematica);
-}
-
-.page-game{
-    background-color: var(--footer-jogos);
-    color: var(--texto-jogos);
-}
-
-.page-time{
-    background-color: white;
-    color: rgba(63, 63, 116, 1);
-}
-
-.page-random{
-    background-color: var(--footer-random);
-    color: var(--texto-random);
-}
-
-.page-encrypt{
-    background-color: var(--footer-encrypt);
-    color: var(--texto-encrypt);
-}
-
-.page-performance{
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
 .hr-pages{
     border: none;
     margin: 9px 0;
@@ -176,4 +141,10 @@
 }
 .fa-hand-point-up:before {
     content: "\f0a6"
+}
+.fa-icons:before {
+    content: "\f86d"
+}
+.fa-shapes:before {
+    content: "\f61f"
 }

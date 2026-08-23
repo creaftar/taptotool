@@ -29,6 +29,9 @@
     },
     "performance_tools": {
       "click_counter": "क्लिक काउंटर"
+    },
+    "assets_tools": {
+      "icons": "आइकन लाइब्रेरी"
     }
   }
 }

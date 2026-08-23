@@ -1,0 +1,64 @@
+.container-baixavel-kit{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.container-baixavel{
+    width: 100%;
+    background-color: var(--fundo-card);
+    font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-baixavel p{
+    padding: 0px;
+}
+.header-baixavel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: var(--gradiente-large-botao);
+    border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+    color: rgba(var(--padrao), 1);
+    border-radius: 6px;
+    font-size: large;
+    position: relative;
+    text-decoration: none;
+}
+.header-baixavel > i{
+    padding: 12px 24px;
+    font-size: xx-large;
+}
+.version{
+    font-weight: normal;
+    font-size: small;
+}
+.header-baixavel > .end-icon{
+    font-size: 1.2em;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transform: translateY(-40%);
+    transition: opacity 0.3s, transform 0.4s;
+}
+
+.header-baixavel:hover .end-icon{
+    opacity: 1;
+    transform: translateY(0);
+}
+.fa-download:before {
+    content: "\f019"
+}
+
+@media screen and (max-width: 1024px){
+    .container-baixavel{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

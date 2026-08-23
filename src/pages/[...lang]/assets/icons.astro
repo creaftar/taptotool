@@ -1,0 +1,147 @@
+---
+import ToolLayout from "@/layout/ToolLayout.astro";
+import AreaIcones from "@/components/assets/icons/AreaIcones.astro";
+import ExibirIcone from "@/components/assets/icons/ExibirIcone.astro";
+import '@/assets/styles/taptotool/css/ttt.css';
+import '@/assets/styles/pages/assets/icons/integracao/baixavel.css';
+import '@/assets/styles/pages/assets/icons/integracao/cdn.css';
+import '@/assets/styles/pages/assets/icons/integracao/kit.css';
+import '@/assets/styles/pages/assets/icons/interface/interface.css';
+import packageConfig from "@/assets/styles/taptotool/package.json";
+
+const version = packageConfig.version;
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+import pt from "@/i18n/pages/assets/icons/pt.json";
+import en from "@/i18n/pages/assets/icons/en.json";
+import es from "@/i18n/pages/assets/icons/es.json";
+import fr from "@/i18n/pages/assets/icons/fr.json";
+import it from "@/i18n/pages/assets/icons/it.json";
+import de from "@/i18n/pages/assets/icons/de.json";
+import ru from "@/i18n/pages/assets/icons/ru.json";
+import id from "@/i18n/pages/assets/icons/id.json";
+import hi from "@/i18n/pages/assets/icons/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+
+const { lang: paramLang } = Astro.params;
+const lang = paramLang || Astro.currentLocale || 'en'; 
+
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const urlPath = lang === 'en' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/assets/icons/`;
+---
+
+<ToolLayout
+  title="Biblioteca de Ícones Gratuitos - Tap to Tool"
+>
+
+<!-- LDJSON -->
+<!--  
+  <i class="ttt-sun"></i>
+ <i class="fa-solid fa-sun"></i>
+ <i class="ttt-heart"></i>
+-->
+
+<!--<div>
+  <i class="fa-solid fa-shapes"></i>
+  <i class="ttt-heart"></i>
+</div>-->
+<div class="interface-paginas" id="interface-slider">
+  <AreaIcones d={d}/>
+  <ExibirIcone d={d}/>
+</div>
+
+<article id="description-area" slot="SEO">
+  <header>
+    <h1>{d.seo.h1}</h1>
+    <p>
+      {d.seo.intro_p1} <strong>{d.seo.intro_strong}</strong> {d.seo.intro_p2}
+    </p>
+  </header>
+
+  <section>
+    <h2>{d.seo.h2_cdn}</h2>
+    <p>
+      {d.seo.p_cdn_1} <code>&lt;head&gt;</code> {d.seo.p_cdn_2}
+    </p>
+
+    <div class="container-cdn">
+      <div id="copy-link" data-version={version}><i class="fa-solid fa-copy" id="icone-copiavel-cdn"></i></div>
+      
+      <p class="code-line">
+        <span class="punct">&lt;</span><span class="tag head-cdn">head</span><span class="punct">&gt;</span>
+      </p>
+      
+      <p class="code-line link-espacado truncate">
+        <span class="punct">&lt;</span><span class="tag">link </span> 
+        <span class="attr">rel</span><span class="punct">=</span><span class="string">"stylesheet" </span> 
+        <span class="attr">href</span><span class="punct">=</span><span class="string">"https://cdn.jsdelivr.net/npm/@taptotool/icons@</span><span class="variable">{version}</span><span class="string">/css/ttt.css"</span><span class="punct">&gt;</span>
+      </p>
+      
+      <p class="code-line">
+        <span class="punct">&lt;</span><span class="tag head-cdn">/head</span><span class="punct">&gt;</span>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>{d.seo.h2_download}</h2>
+    <p>
+      {d.seo.p_download_1} <code>.woff2</code> {d.seo.p_download_2} <code>.zip</code>:
+    </p>
+
+    <div class="container-baixavel-kit">
+      <div class="container-baixavel">
+        <a href="/assets/library/icons/taptotool.zip" download={`ttt-icons-${version}.zip`} class="header-baixavel">
+          <i class="fa-solid fa-shapes"></i>
+          <div>
+            <p>Tap to Tool - Icons</p>
+            <p class="version">v{version}</p>
+          </div>
+          <i class="fa-solid fa-download end-icon"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>{d.seo.h2_usage}</h2>
+    <p>
+      {d.seo.p_usage_intro_1} <code>&lt;i&gt;</code> {d.seo.p_usage_intro_2}
+    </p>
+    <p>{d.seo.usage_step1}</p>
+    <p>{d.seo.usage_step2_1} <code>&lt;i class="ttt-youtube"&gt;&lt;/i&gt;</code>{d.seo.usage_step2_2}</p>
+    <p>{d.seo.usage_step3_1} <code>color</code> {d.seo.usage_step3_2} <code>font-size</code>.</p>
+  </section>
+
+  <footer>
+    <div class="share-buttons">
+      <p>{d.seo.footer}</p>
+    </div>
+  </footer>
+</article>
+<!--
+  BAIXAVEL
+  KIT - salvar os glifos que o usuário já digitou pra quando ele voltar não ter que ficar copiando tudo de novo
+  -->
+  <!-- ARTICLE -->
+
+<script>
+  import '@/assets/scripts/imports/icons.js';
+</script>
+</ToolLayout>

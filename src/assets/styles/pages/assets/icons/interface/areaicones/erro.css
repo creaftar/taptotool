@@ -1,0 +1,54 @@
+#no-icons-found.elemento-sem-display, #container-icons.elemento-sem-display {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px) scale(0.95); /* Leve deslocamento/escala */
+    pointer-events: none;
+}
+#container-icons,
+#no-icons-found {
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    color: rgba(var(--padrao), 1);
+}
+
+#no-icons-found {
+    z-index: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+    flex-direction: column;
+}
+
+#no-icons-found > i {
+    font-size: xx-large;
+}
+
+#limpar-pesquisa-btn {
+    color: rgba(var(--padrao), 1);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    width: 250px;
+    height: 50px;
+    background-color: var(--fundo-card);
+    border-radius: 6px;
+    border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#limpar-pesquisa-btn:hover {
+    background-color: var(--hover);
+}
+
+#limpar-pesquisa-btn:active {
+    transform: scale(0.98);
+}

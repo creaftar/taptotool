@@ -43,6 +43,15 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
 <aside id="menuLateral">
   <div id="container-opcaoAside">
     
+    <div class="opcaoAside" data-pagina="icons" id={getActiveId("icons")}>
+      <a href={`${urlPrefix}/assets/icons/`} aria-label={d.aside.icons}>
+        <i class="fa-solid fa-shapes aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.icons}</p>
+      </a>
+    </div>
+
+    <hr class="hr-aside">
+
     <div class="opcaoAside" data-pagina="character-counter" id={getActiveId("character-counter")}>
       <a href={`${urlPrefix}/text/character-counter/`} aria-label={d.aside.character_counter}>
         <i class="fa-solid fa-a aside-icon"></i>

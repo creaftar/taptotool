@@ -13,6 +13,10 @@ footer{
     justify-content: center;
 }
 
+#description-area > footer > p{
+    text-align: center;
+}
+
 @media(max-width: 1024px){
     #toollayout{
         margin: 0 0 0 0;

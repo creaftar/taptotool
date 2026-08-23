@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "h1": "Comment Utiliser Notre Bibliothèque d'Icônes",
+    "intro_p1": "Conçue pour être légère, rapide et simple à intégrer, vous pouvez choisir ci-dessous la méthode d'installation qui convient le mieux à votre projet, ou",
+    "intro_strong": "créer des kits personnalisés",
+    "intro_p2": "pour rendre votre application encore plus légère en utilisant uniquement les icônes dont vous avez besoin !",
+    "h2_cdn": "1. Importation Rapide via CDN (Recommandé)",
+    "p_cdn_1": "Le moyen le plus simple d'utiliser les icônes est d'inclure notre CDN directement dans le",
+    "p_cdn_2": "de votre HTML. Ainsi, vous n'avez pas besoin de télécharger de fichiers locaux et vous êtes sûr d'utiliser toujours la version la plus rapide et minifiée.",
+    "h2_download": "2. Télécharger le Pack Complet (Auto-hébergé)",
+    "p_download_1": "Si vous préférez héberger les fichiers sur votre propre serveur, les utiliser hors ligne ou si vous avez besoin des fichiers de police",
+    "p_download_2": "locaux, vous pouvez télécharger le pack complet au format",
+    "h2_usage": "3. Ajouter des Icônes à Votre Page",
+    "p_usage_intro_1": "Après avoir importé le CDN, les fichiers locaux ou votre kit, choisissez simplement une icône dans notre bibliothèque et utilisez la balise",
+    "p_usage_intro_2": "avec la classe correspondante :",
+    "usage_step1": "1. Cliquez sur n'importe quelle icône dans le panneau ci-dessus pour copier sa classe.",
+    "usage_step2_1": "2. Collez-la dans votre HTML (exemple :",
+    "usage_step2_2": ").",
+    "usage_step3_1": "3. Personnalisez facilement la couleur et la taille à l'aide des propriétés CSS, comme",
+    "usage_step3_2": "et",
+    "footer": "Développé avec un souci de performance et d'ergonomie par l'équipe Tap to Tool."
+  },
+  "interface": {
+    "search_placeholder": "Rechercher {count} Icônes...",
+    "icons_count": "Icônes",
+    "no_icons_title": "Aucune icône trouvée...",
+    "no_icons_desc": "Assurez-vous de rechercher les noms d'icônes en anglais, effacez la recherche et réessayez.",
+    "clear_search": "Effacer la recherche",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}

@@ -29,6 +29,9 @@
     },
     "performance_tools": {
       "click_counter": "Hitung klik"
+    },
+    "assets_tools": {
+      "icons": "Pustaka Ikon"
     }
   }
 }

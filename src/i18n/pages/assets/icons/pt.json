@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "h1": "Como Usar a nossa Biblioteca de Ícones",
+    "intro_p1": "Desenvolvida para ser leve, rápida e simples de integrar você pode escolher abaixo o método de instalação que melhor se adapta ao seu projeto, ou",
+    "intro_strong": "criar kits personalizados",
+    "intro_p2": "para tornar sua aplicação ainda mais leve com apenas os ícones que você usar!",
+    "h2_cdn": "1. Importação Rápida via CDN (Recomendado)",
+    "p_cdn_1": "A forma mais simples de usar os ícones é incluindo a nossa CDN diretamente no",
+    "p_cdn_2": "do seu HTML. Dessa forma, você não precisa baixar nenhum arquivo local e garante que sempre usará a versão mais rápida e minificada.",
+    "h2_download": "2. Baixar o Pacote Completo (Self-Hosted)",
+    "p_download_1": "Se você prefere hospedar os arquivos no seu próprio servidor, utilizar em projetos offline ou precisa dos arquivos de fonte",
+    "p_download_2": "locais, você pode baixar o pacote completo compilado em formato",
+    "h2_usage": "3. Adicionando os Ícones na Sua Página",
+    "p_usage_intro_1": "Depois de importar a CDN, os arquivos locais ou seu kit, basta escolher qualquer ícone da nossa biblioteca e utilizar a tag",
+    "p_usage_intro_2": "com a classe correspondente:",
+    "usage_step1": "1. Clique em qualquer ícone no painel acima para copiar sua classe.",
+    "usage_step2_1": "2. Cole no seu HTML (exemplo:",
+    "usage_step2_2": ").",
+    "usage_step3_1": "3. Personalize a cor e o tamanho facilmente usando as propriedades CSS, como por exemplo:",
+    "usage_step3_2": "e",
+    "footer": "Desenvolvido com foco em desempenho e usabilidade pela equipe Tap to Tool."
+  },
+  "interface": {
+    "search_placeholder": "Pesquisar {count} Ícones...",
+    "icons_count": "Ícones",
+    "no_icons_title": "Nenhum ícone encontrado...",
+    "no_icons_desc": "Certifique-se de pesquisar o nome dos ícones em inglês, limpe a busca e tente novamente.",
+    "clear_search": "Limpar Pesquisa",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}

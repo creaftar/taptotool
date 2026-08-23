@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "h1": "Cara Menggunakan Perpustakaan Ikon Kami",
+    "intro_p1": "Dirancang agar ringan, cepat, dan mudah diintegrasikan, Anda dapat memilih metode instalasi di bawah ini yang paling sesuai dengan proyek Anda, atau",
+    "intro_strong": "membuat kit kustom",
+    "intro_p2": "untuk membuat aplikasi Anda lebih ringan hanya dengan ikon yang Anda gunakan!",
+    "h2_cdn": "1. Impor Cepat via CDN (Direkomendasikan)",
+    "p_cdn_1": "Cara termudah untuk menggunakan ikon adalah dengan menyertakan CDN kami langsung di",
+    "p_cdn_2": "HTML Anda. Dengan cara ini, Anda tidak perlu mengunduh file lokal dan memastikan selalu menggunakan versi tercepat dan tersimpan ringkas.",
+    "h2_download": "2. Unduh Paket Lengkap (Self-Hosted)",
+    "p_download_1": "Jika Anda lebih suka meng-host file di server Anda sendiri, menggunakannya dalam proyek offline, atau membutuhkan file font",
+    "p_download_2": "lokal, Anda dapat mengunduh paket lengkap dalam format",
+    "h2_usage": "3. Menambahkan Ikon ke Halaman Anda",
+    "p_usage_intro_1": "Setelah mengimpor CDN, file lokal, atau kit Anda, cukup pilih ikon apa saja dari perpustakaan kami dan gunakan tag",
+    "p_usage_intro_2": "dengan kelas yang sesuai:",
+    "usage_step1": "1. Klik ikon mana saja di panel atas untuk menyalin kelasnya.",
+    "usage_step2_1": "2. Tempelkan ke HTML Anda (contoh:",
+    "usage_step2_2": ").",
+    "usage_step3_1": "3. Sesuaikan warna dan ukuran dengan mudah menggunakan properti CSS seperti",
+    "usage_step3_2": "dan",
+    "footer": "Dikembangkan dengan fokus pada performa dan kemudahan penggunaan oleh tim Tap to Tool."
+  },
+  "interface": {
+    "search_placeholder": "Cari {count} Ikon...",
+    "icons_count": "Ikon",
+    "no_icons_title": "Ikon tidak ditemukan...",
+    "no_icons_desc": "Pastikan untuk mencari nama ikon dalam bahasa Inggris, hapus pencarian dan coba lagi.",
+    "clear_search": "Bersihkan Pencarian",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}
