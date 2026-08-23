@@ -36,7 +36,7 @@
     "dev": "astro dev --host",
     "start": "node update/build-icons/buildicons.mjs && node update/fontmin.mjs && astro dev --host",
     "build": "astro build && node update/sitemapfix.mjs && node ping-bing.mjs",
-    "publish:icons": "node update/publishicons.mjs --publish",
+    "publish": "npm login && node update/build-icons/publishicons.mjs --publish",
     "preview": "astro preview",
     "astro": "astro"
   },

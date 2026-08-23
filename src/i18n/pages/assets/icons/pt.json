@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Biblioteca de Ícones Gratuitos e Kits Personais | Tap to Tool",
+    "description": "Explore centenas de ícones SVG e fontes de ícones leves. Use via CDN, baixe o pacote completo ou crie kits personalizados para otimizar seu projeto.",
+    "keywords": "ícones svg, biblioteca de ícones, ícones cdn, font icons, ícones gratuitos, kit de ícones",
     "h1": "Como Usar a nossa Biblioteca de Ícones",
     "intro_p1": "Desenvolvida para ser leve, rápida e simples de integrar você pode escolher abaixo o método de instalação que melhor se adapta ao seu projeto, ou",
     "intro_strong": "criar kits personalizados",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Personalize a cor e o tamanho facilmente usando as propriedades CSS, como por exemplo:",
     "usage_step3_2": "e",
     "footer": "Desenvolvido com foco em desempenho e usabilidade pela equipe Tap to Tool."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Biblioteca de Ícones Tap to Tool",
+    "app_description": "Biblioteca de ícones grátis e criador de kits personalizados para desenvolvedores web.",
+    "howto_name": "Como integrar ícones no seu site",
+    "howto_description": "Aprenda a instalar a biblioteca de ícones usando CDN, download local ou tags HTML.",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Ícones"
+  },
+  "content": {
+    "usage_step1": "Copie a CDN ou baixe o pacote local",
+    "usage_step2": "Escolha um ícone e copie sua classe CSS",
+    "usage_step3": "Cole a tag de ícone no seu código HTML"
   },
   "interface": {
     "search_placeholder": "Pesquisar {count} Ícones...",

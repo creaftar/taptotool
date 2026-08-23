@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Biblioteca de Iconos Gratis y Kits Personalizados | Tap to Tool",
+    "description": "Explora cientos de iconos SVG ligeros y fuentes de iconos. Usa CDN, descarga el paquete completo o crea kits personalizados para optimizar tu proyecto.",
+    "keywords": "iconos svg, biblioteca de iconos, iconos cdn, font icons, iconos gratis, kit de iconos",
     "h1": "Cómo Usar Nuestra Biblioteca de Iconos",
     "intro_p1": "Diseñada para ser ligera, rápida y fácil de integrar, puedes elegir a continuación el método de instalación que mejor se adapte a tu proyecto, o",
     "intro_strong": "crear kits personalizados",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Personaliza el color y tamaño fácilmente usando propiedades CSS como",
     "usage_step3_2": "y",
     "footer": "Desarrollado con enfoque en rendimiento y usabilidad por el equipo de Tap to Tool."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Biblioteca de Iconos Tap to Tool",
+    "app_description": "Biblioteca de iconos gratis y generador de kits personalizados para desarrolladores web.",
+    "howto_name": "Cómo integrar iconos en tu sitio web",
+    "howto_description": "Aprende a instalar la biblioteca de iconos usando CDN, descarga local o etiquetas HTML.",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Iconos"
+  },
+  "content": {
+    "usage_step1": "Copia el enlace CDN o descarga el paquete local",
+    "usage_step2": "Elige un icono y copia su clase CSS",
+    "usage_step3": "Pega la etiqueta del icono en tu código HTML"
   },
   "interface": {
     "search_placeholder": "Buscar {count} Iconos...",

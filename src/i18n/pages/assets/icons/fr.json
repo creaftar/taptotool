@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Bibliothèque d'Icônes Gratuites & Kits Personnalisés | Tap to Tool",
+    "description": "Explorez des centaines d'icônes SVG légères et de polices d'icônes. Utilisez le CDN, téléchargez le pack complet ou créez des kits personnalisés pour optimiser votre projet.",
+    "keywords": "icônes svg, bibliothèque d'icônes, icônes cdn, font icons, icônes gratuites, kit d'icônes",
     "h1": "Comment Utiliser Notre Bibliothèque d'Icônes",
     "intro_p1": "Conçue pour être légère, rapide et simple à intégrer, vous pouvez choisir ci-dessous la méthode d'installation qui convient le mieux à votre projet, ou",
     "intro_strong": "créer des kits personnalisés",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Personnalisez facilement la couleur et la taille à l'aide des propriétés CSS, comme",
     "usage_step3_2": "et",
     "footer": "Développé avec un souci de performance et d'ergonomie par l'équipe Tap to Tool."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Bibliothèque d'Icônes Tap to Tool",
+    "app_description": "Bibliothèque d'icônes gratuites et générateur de kits personnalisés pour développeurs web.",
+    "howto_name": "Comment intégrer des icônes sur votre site web",
+    "howto_description": "Apprenez à installer la bibliothèque d'icônes via CDN, téléchargement local ou balises HTML.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Icônes"
+  },
+  "content": {
+    "usage_step1": "Copiez le lien CDN ou téléchargez le pack local",
+    "usage_step2": "Choisissez une icône et copiez sa classe CSS",
+    "usage_step3": "Collez la balise d'icône dans votre code HTML"
   },
   "interface": {
     "search_placeholder": "Rechercher {count} Icônes...",

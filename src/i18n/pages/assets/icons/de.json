@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Kostenlose Symbolbibliothek & Benutzerdefinierte Kits | Tap to Tool",
+    "description": "Entdecken Sie hunderte leichte SVG-Symbole und Icon-Fonts. Nutzen Sie CDN, laden Sie das Paket herunter oder erstellen Sie Kits zur Optimierung Ihrer Anwendung.",
+    "keywords": "svg symbole, symbolbibliothek, cdn symbole, font icons, kostenlose symbole, icon kit",
     "h1": "So verwenden Sie unsere Symbolbibliothek",
     "intro_p1": "Entwickelt, um leicht, schnell und einfach zu integrieren zu sein. Wählen Sie unten die Installationsmethode, die am besten zu Ihrem Projekt passt, oder",
     "intro_strong": "erstellen Sie benutzerdefinierte Kits",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Passen Sie Farbe und Größe ganz einfach mit CSS-Eigenschaften an, wie zum Beispiel:",
     "usage_step3_2": "und",
     "footer": "Entwickelt mit Fokus auf Leistung und Benutzerfreundlichkeit vom Tap to Tool-Team."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Tap to Tool Symbolbibliothek",
+    "app_description": "Kostenlose Web-Symbolbibliothek und Kit-Generator für Webentwickler.",
+    "howto_name": "So integrieren Sie Symbole in Ihre Website",
+    "howto_description": "Erfahren Sie, wie Sie die Symbolbibliothek über CDN, lokalen Download oder HTML-Tags installieren.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Symbole"
+  },
+  "content": {
+    "usage_step1": "Kopieren Sie den CDN-Link oder laden Sie das lokale Paket herunter",
+    "usage_step2": "Wählen Sie ein Symbol und kopieren Sie seine CSS-Klasse",
+    "usage_step3": "Fügen Sie das Symbol-Tag in Ihren HTML-Code ein"
   },
   "interface": {
     "search_placeholder": "{count} Symbole suchen...",

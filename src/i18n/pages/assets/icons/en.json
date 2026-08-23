@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Free Icon Library & Custom Kits | Tap to Tool",
+    "description": "Explore hundreds of lightweight SVG icons and icon fonts. Use via CDN, download the full package, or create custom kits to optimize your web application.",
+    "keywords": "svg icons, icon library, cdn icons, font icons, free icons, custom icon kit",
     "h1": "How to Use Our Icon Library",
     "intro_p1": "Designed to be lightweight, fast, and simple to integrate, you can choose below the installation method that best suits your project, or",
     "intro_strong": "create custom kits",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Easily customize color and size using CSS properties, such as",
     "usage_step3_2": "and",
     "footer": "Developed with a focus on performance and usability by the Tap to Tool team."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Tap to Tool Icon Library",
+    "app_description": "Free web icon library and custom kit generator for web developers.",
+    "howto_name": "How to integrate icons into your website",
+    "howto_description": "Learn how to install the icon library using CDN, local download, or HTML tags.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Icons"
+  },
+  "content": {
+    "usage_step1": "Copy the CDN link or download the local package",
+    "usage_step2": "Pick an icon and copy its CSS class",
+    "usage_step3": "Paste the icon tag into your HTML code"
   },
   "interface": {
     "search_placeholder": "Search {count} Icons...",

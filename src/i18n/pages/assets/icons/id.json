@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Perpustakaan Ikon Gratis & Kit Kustom | Tap to Tool",
+    "description": "Jelajahi ratusan ikon SVG ringan dan font ikon. Gunakan via CDN, unduh paket lengkap, atau buat kit kustom untuk mengoptimalkan aplikasi Anda.",
+    "keywords": "ikon svg, perpustakaan ikon, cdn ikon, font ikon, ikon gratis, kit ikon",
     "h1": "Cara Menggunakan Perpustakaan Ikon Kami",
     "intro_p1": "Dirancang agar ringan, cepat, dan mudah diintegrasikan, Anda dapat memilih metode instalasi di bawah ini yang paling sesuai dengan proyek Anda, atau",
     "intro_strong": "membuat kit kustom",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Sesuaikan warna dan ukuran dengan mudah menggunakan properti CSS seperti",
     "usage_step3_2": "dan",
     "footer": "Dikembangkan dengan fokus pada performa dan kemudahan penggunaan oleh tim Tap to Tool."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Perpustakaan Ikon Tap to Tool",
+    "app_description": "Perpustakaan ikon web gratis dan pembuat kit kustom untuk pengembang web.",
+    "howto_name": "Cara mengintegrasikan ikon ke situs web Anda",
+    "howto_description": "Pelajari cara menginstal perpustakaan ikon menggunakan CDN, unduhan lokal, atau tag HTML.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Ikon"
+  },
+  "content": {
+    "usage_step1": "Salin tautan CDN atau unduh paket lokal",
+    "usage_step2": "Pilih ikon dan salin kelas CSS-nya",
+    "usage_step3": "Tempelkan tag ikon ke dalam kode HTML Anda"
   },
   "interface": {
     "search_placeholder": "Cari {count} Ikon...",

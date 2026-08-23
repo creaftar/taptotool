@@ -1,5 +1,8 @@
 {
   "seo": {
+    "title": "Libreria di Icone Gratuite e Kit Personalizzati | Tap to Tool",
+    "description": "Esplora centinaia di icone SVG leggere e font di icone. Usa via CDN, scarica il pacchetto completo o crea kit personalizzati per ottimizzare la tua applicazione.",
+    "keywords": "icone svg, libreria di icone, icone cdn, font icons, icone gratuite, kit di icone",
     "h1": "Come Usare la Nostra Libreria di Icone",
     "intro_p1": "Progettata per essere leggera, veloce e semplice da integrare, puoi scegliere di seguito il metodo di installazione che meglio si adatta al tuo progetto, oppure",
     "intro_strong": "creare kit personalizzati",
@@ -19,6 +22,22 @@
     "usage_step3_1": "3. Personalizza facilmente colore e dimensioni usando le proprietà CSS, come ad esempio:",
     "usage_step3_2": "e",
     "footer": "Sviluppato con attenzione alle prestazioni e all'usabilità dal team di Tap to Tool."
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Libreria di Icone Tap to Tool",
+    "app_description": "Libreria di icone web gratuita e generatore di kit personalizzati per sviluppatori web.",
+    "howto_name": "Come integrare le icone nel tuo sito web",
+    "howto_description": "Impara a installare la libreria di icone tramite CDN, download locale o tag HTML.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Icone"
+  },
+  "content": {
+    "usage_step1": "Copia il link CDN o scarica il pacchetto locale",
+    "usage_step2": "Scegli un'icona e copia la sua classe CSS",
+    "usage_step3": "Incolla il tag dell'icona nel tuo codice HTML"
   },
   "interface": {
     "search_placeholder": "Cerca {count} Icone...",

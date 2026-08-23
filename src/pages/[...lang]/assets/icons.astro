@@ -47,20 +47,116 @@ const currentUrl = `https://taptotool.com${urlPath}/assets/icons/`;
 ---
 
 <ToolLayout
-  title="Biblioteca de Ícones Gratuitos - Tap to Tool"
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
 >
+  <script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": `${currentUrl}#software`,
+        "name": d.schema.app_name,
+        "alternateName": "Free Icon Library & Custom Kits",
+        "url": currentUrl,
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "inLanguage": lang,
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": d.ui?.price_currency || "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "publisher": { "@id": "https://taptotool.com/#organization" },
+        "description": d.schema.app_description
+      },
+      {
+        "@type": "HowTo",
+        "@id": `${currentUrl}#howto`,
+        "name": d.schema.howto_name,
+        "description": d.schema.howto_description,
+        "mainEntityOfPage": { "@id": `${currentUrl}#webpage` },
+        "totalTime": "PT1M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": d.content.usage_step1,
+            "text": d.content.usage_step1
+          },
+          {
+            "@type": "HowToStep",
+            "name": d.content.usage_step2,
+            "text": d.content.usage_step2
+          },
+          {
+            "@type": "HowToStep",
+            "name": d.content.usage_step3,
+            "text": d.content.usage_step3
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${currentUrl}#webpage`,
+        "url": currentUrl,
+        "name": d.seo.title,
+        "isPartOf": { "@id": "https://taptotool.com/#website" },
+        "description": d.seo.description,
+        "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+        "inLanguage": lang,
+        "mainEntity": { "@id": `${currentUrl}#software` }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${currentUrl}#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": d.schema.breadcrumb_home,
+            "item": "https://taptotool.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": d.schema.breadcrumb_current,
+            "item": currentUrl
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://taptotool.com/#website",
+        "url": "https://taptotool.com/",
+        "name": "Tap to Tool",
+        "publisher": { "@id": "https://taptotool.com/#organization" },
+        "inLanguage": lang
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://taptotool.com/#organization",
+        "name": "Tap to Tool",
+        "url": "https://taptotool.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://taptotool.com/web-app-manifest-512x512.png",
+          "width": "512",
+          "height": "512"
+        },
+        "sameAs": [
+          "https://www.youtube.com/@TaptoTool",
+          "https://www.youtube.com/@TaptoTool-English"
+        ]
+      }
+    ]
+  })}>
+</script>
 
-<!-- LDJSON -->
-<!--  
-  <i class="ttt-sun"></i>
- <i class="fa-solid fa-sun"></i>
- <i class="ttt-heart"></i>
--->
-
-<!--<div>
-  <i class="fa-solid fa-shapes"></i>
-  <i class="ttt-heart"></i>
-</div>-->
 <div class="interface-paginas" id="interface-slider">
   <AreaIcones d={d}/>
   <ExibirIcone d={d}/>
