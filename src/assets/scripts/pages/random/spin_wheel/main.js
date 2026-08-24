@@ -35,7 +35,9 @@ async function handleCriarRoleta() {
     }, 150);
 };
 
-FirstUpdateRoleta();
+document.fonts.ready.then(() => {
+  FirstUpdateRoleta();
+});
 
 import { 
   MostrarPasteText, 

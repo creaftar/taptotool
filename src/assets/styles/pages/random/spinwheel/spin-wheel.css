@@ -165,6 +165,7 @@
 }
 
 .wheel-canvas-target{
+    transform: translateZ(0);
     font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     background-size:cover; 
