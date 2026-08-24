@@ -255,7 +255,7 @@ export class Alarme{
             this.divEl.parentNode.removeChild(this.divEl);
             alarmes.delete(this._id-1);
             
-            // Importe essa função do GerenciadorAlarmes.js
+            //Alarme._contadorAlarme--;
             await DeletarAlarmeDoBanco(this._id); 
         }
     }
@@ -312,6 +312,11 @@ export class Alarme{
         if(nomeAlarme){
             nomeAlarme.addEventListener('input', () =>{
                 this.SetNome(nomeAlarme.textContent);
+            });
+            nomeAlarme.addEventListener('paste', () => {
+                setTimeout(() => {
+                    this.SetNome(nomeAlarme.textContent || nomeAlarme.value);
+                }, 0);
             });
             nomeAlarme.addEventListener('keydown', (e) => {
                 if (e.key === 'Enter') {
@@ -609,6 +614,7 @@ export class Alarme{
     }
     
     public toObject() {
+        console.log(this._nome);
         return {
             id: this._id,
             nome: this._nome,
