@@ -58,13 +58,30 @@ export function ExibirIcone(id, icones_dic){
     }, { signal });
 }
 
-function MoverInterface(){
-    interfaceVisivel = !interfaceVisivel;
-    if(interfaceVisivel)
-        interfaceSlider.classList.add("deslocado");
-    else
-        interfaceSlider.classList.remove("deslocado");
+function MoverInterface() {
+  interfaceVisivel = !interfaceVisivel;
+  if (interfaceVisivel) {
+    interfaceSlider.classList.add("deslocado");
+  } else {
+    interfaceSlider.classList.remove("deslocado");
+  }
 }
+
+// 1. Adiciona um estado no histórico para capturar o recuo
+history.pushState(null, "", location.href);
+
+// 2. Intercepta o botão de VOLTAR (do navegador ou do mouse)
+window.addEventListener("popstate", function () {
+  history.pushState(null, "", location.href); // Impede que a página realmente volte
+  MoverInterface();
+});
+
+// 3. Intercepta o movimento de AVANÇAR (quando a página é restaurada do cache)
+window.addEventListener("pageshow", function (event) {
+  if (event.persisted) {
+    MoverInterface();
+  }
+});
 
 export function BaixarSVG(id, icones_dic) {
   const chave = icones_dic.get(id);
