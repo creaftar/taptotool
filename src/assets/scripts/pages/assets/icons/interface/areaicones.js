@@ -2,7 +2,7 @@
 import { Menu } from "./Menu";
 import { debounce } from "@/assets/scripts/utility/config/debounce";
 import { ExibirIcone } from "./exibiricones";
-import JSON from "../../../../../store/icons/jsons/icons.json"; 
+import JSON from "../../../../../store/icons/jsons/icons-search.json"; 
 
 const icones_dic = new Map();
 
