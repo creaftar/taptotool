@@ -614,7 +614,6 @@ export class Alarme{
     }
     
     public toObject() {
-        console.log(this._nome);
         return {
             id: this._id,
             nome: this._nome,

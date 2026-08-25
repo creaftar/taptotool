@@ -62,7 +62,6 @@ export async function SalvarAlarmeNoBanco(alarme) {
 
         // Transforma a classe em objeto simples (dados puros)
         const dados = alarme.toObject();
-        console.log(dados);
         store.put(dados); 
     } catch (erro) {
         console.error("Erro ao salvar no IndexedDB:", erro);

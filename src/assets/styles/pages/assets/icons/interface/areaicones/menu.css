@@ -17,13 +17,13 @@
 }
 .container-navegacao-icones{
     overflow: hidden;
-    max-width: 200px;
+    max-width: 250px;
     font-weight: bold;
     margin: 15px;
     display: flex;
     justify-content: flex-end;
     color: rgba(var(--padrao), 1);
-    gap: 20px;
+    gap: 0px;
     font-size: small;
     align-items: center;
     font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
