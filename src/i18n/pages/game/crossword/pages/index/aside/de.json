@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Navigation",
+    "nav_home": "Startseite",
+    "nav_home_aria": "Zurück zur Startseite",
+    "nav_create": "Rätsel erstellen",
+    "nav_create_aria": "Ein neues Kreuzworträtsel erstellen",
+
+    "other_games_title": "Weitere Spiele",
+    "crosswords": "Kreuzworträtsel",
+    "word_search": "Wortsuchrätsel",
+    
+    "themes_title": "Design",
+    "theme_light": "Heller Modus",
+    "theme_medium": "Grauer Modus",
+    "theme_dark": "Dunkler Modus",
+    
+    "you_title": "Mein Bereich",
+    "your_crosswords": "Meine Rätsel",
+    "history": "Verlauf",
+    "history_progress": "In Bearbeitung",
+    "history_done": "Abgeschlossen",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Statistiken",
+    "stats_total": "Spiele insgesamt:",
+    "stats_users": "Nutzer insgesamt:",
+    "stats_yours": "Deine Spiele:",
+    
+    "feedback": "Feedback geben",
+    "feedback_placeholder": "Schreibe dein Feedback hier...",
+    "btn_send": "SENDEN",
+    "btn_send_aria": "Button zum Senden des Feedbacks",
+    
+    "version": "Version",
+    "version_current": "v3.2.2 - Aktuelle Version",
+    "release_prefix": "Release: ",
+    
+    "social_title": "Social Media",
+    "social_x_aria": "Besuche uns auf Twitter",
+    "social_bsky_aria": "Besuche uns auf BlueSky",
+    "social_feedly_aria": "Besuche uns auf Feedly",
+    
+    "policies": "Datenschutz & Impressum",
+    "more_tools": "Weitere Tools",
+    "copyright": "© 2023 - {year} | Tap to Tool - Online-Kreuzworträtsel"
+  },
+  "daily": {
+    "banner": "Tägliches Kreuzworträtsel spielen",
+    "title": "Tägliches Kreuzworträtsel",
+    "next": "Nächstes Rätsel in:"
+  }
+}

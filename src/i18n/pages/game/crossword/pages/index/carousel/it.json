@@ -1,0 +1,17 @@
+{
+  "carousel": {
+    "btn_prev_aria": "Pulsante per tornare all'immagine precedente",
+    "btn_next_aria": "Pulsante per passare all'immagine successiva",
+    "button_buy": "Pulsante per andare al sito dell'annuncio",
+    "advice": "Cliccando verrai reindirizzato alla pagina del prodotto",
+    "tools": {
+      "case_converter": "Convertitore maiuscolo-minuscolo",
+      "char_counter": "Contatore di caratteri",
+      "num_generator": "Generatore di numeri casuali",
+      "text_inverter": "Invertitore di testo"
+    },
+    "details": "Vedi Dettagli",
+    "advertisement": "Annuncio",
+    "read_more": "Scopri di più"
+  }
+}

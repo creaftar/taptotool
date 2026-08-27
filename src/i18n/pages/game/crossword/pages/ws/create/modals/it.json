@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "TITOLO DEL TUO CRUCIPUZZLE:",
+    "placeholder": "Crucipuzzle",
+    "hints_question": "VUOI ATTIVARE I SUGGERIMENTI PER IL TUO SCHEMA?",
+    "hints_obs": "(Puoi modificare questa opzione in qualsiasi momento)",
+    "hints_yes": "Sì, voglio attivare i suggerimenti per il mio crucipuzzle",
+    "hints_no": "Non attivare i suggerimenti per il mio crucipuzzle",
+    "answer_key_question": "VUOI CREARE UNA SOLUZIONE (GABARITO)?",
+    "answer_key_obs": "(La soluzione permette ai giocatori di visualizzare le risposte – puoi cambiarlo in seguito)",
+    "answer_key_yes": "Sì, voglio creare una soluzione per il mio crucipuzzle",
+    "answer_key_no": "Non creare una soluzione",
+    "share_question": "VORRESTI CONDIVIDERE IL TUO CRUCIPUZZLE SUI NOSTRI SOCIAL NETWORK?",
+    "share_yes": "Sì, voglio condividere il mio schema sui canali Creaftar",
+    "share_no": "Non condividere il mio schema",
+    "save_button": "SALVA",
+    "requirements_alert": "ATTENZIONE: Il salvataggio è disponibile solo per gli utenti registrati"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA DEL CRUCIPUZZLE",
+    "theme_placeholder": "Crucipuzzle",
+    "word_quantity": "Numero di parole",
+    "generate_button": "GENERA"
+  },
+  "copy": {
+    "modal_preview": "ANTEPRIMA",
+    "warning_main": "Non preoccuparti delle verticali e delle orizzontali, analizza i formati previsti qui sotto",
+    "your_text": "Il tuo testo:",
+    "detector_stats": "{words} parole / {clues} indizi",
+    "placeholder": "Incolla qui il tuo testo...",
+    "expected_formats": "Formati previsti:",
+    "btn_generate": "IL MIO TESTO È IN UN FORMATO PREVISTO",
+    "words_suffix": "parole",
+    "clues_suffix": "indizi",
+    "examples": {
+      "dog": "cane",
+      "cat": "gatto",
+      "bat": "pipistrello",
+      "elephant": "elefante",
+      "kangaroo": "canguro",
+      "desc_dog": "Il migliore amico dell'uomo",
+      "desc_cat": "Gli piace cacciare i topi",
+      "desc_bat": "Mammifero che vola",
+      "desc_elephant": "Ha una proboscide",
+      "desc_kangaroo": "Grande marsupiale"
+    },
+    "requirements_alert": "Ops! Sembra che tu non abbia incollato nulla, copia un testo e riprova"
+  }
+}

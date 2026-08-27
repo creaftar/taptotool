@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "IMPOSTAZIONI AVANZATE",
+    "edit_word": "MODIFICA LA PAROLA",
+    "word_to_edit": "PAROLA DA MODIFICARE",
+    "next_word": "PAROLA SUCCESSIVA",
+    "prev_word": "PAROLA PRECEDENTE",
+    "toggle_direction": "ALTERNAR TRA VERTICALE E ORIZZONTALE",
+    "auto_position": "POSIZIONA TUTTE LE PAROLE AUTOMATICAMENTE",
+    "ai_generate": "GENERA CRUCIVERBA DA UN TEMA",
+    "save_crossword": "SALVA IL TUO CRUCIVERBA",
+    "zoom_in": "AUMENTA ZOOM",
+    "zoom_out": "DIMINUISCI ZOOM",
+    "tutorial": "TUTORIAL: COME CREARE UN CRUCIVERBA"
+  }
+}

@@ -1,0 +1,76 @@
+---
+import "@/assets/styles/pages/guide/elobetter/pages/index/curso/quantidadexqualidade.css";
+import "@/assets/styles/pages/guide/elobetter/pages/index/curso/curso.css";
+
+
+const { lang = "en-us" } = Astro.props;
+
+const t = await import(`../../../../i18n/pages/guide/elobetter/pages/index/curso/quantidadexqualidade/${lang}.json`).then(m => m.default);
+const tc = await import(`../../../../i18n/pages/guide/elobetter/pages/index/curso/curso/${lang}.json`).then(m => m.default);
+---
+
+<section class="wrapperGrafico" id="quantidadexqualidade">
+    <h2>{t.graph_title || "Quantidade x Qualidade"}</h2>
+    <h3 class="subtitulo-qtde">{t.graph_subtitle}</h3>
+    
+    <article 
+        class="svg-container"
+        id="traducao-grafico"
+        data-translations={JSON.stringify(t.js_texts)}
+        data-translationspadrao={JSON.stringify(t.js_default_text)}
+    >
+        <figure
+        aria-label={`Gráfico explicativo sobre quantas partidas o usuário deve jogar.`}
+        role="img"
+        >
+            <svg id="graficoSvg" viewBox="-40 0 580 320" preserveAspectRatio="none">
+                <line x1="0" y1="30" x2="500" y2="30" class="hr-line" stroke-width="1" />
+                <line x1="0" y1="95" x2="500" y2="95" class="hr-line" stroke-width="1" />
+                <line x1="0" y1="160" x2="500" y2="160" class="hr-line" stroke-width="1" />
+                <line x1="0" y1="225" x2="500" y2="225" class="hr-line" stroke-width="1" />
+                
+                <text x="-10" y="0" class="texto-eixo italico ocult-mobile" text-anchor="end">{t.axis_y_title || "Aproveitamento"}</text>
+                <text x="-10" y="35" class="texto-eixo" text-anchor="end">100%</text>
+                <text x="-10" y="100" class="texto-eixo" text-anchor="end">75%</text>
+                <text x="-10" y="165" class="texto-eixo" text-anchor="end">50%</text>
+                <text x="-10" y="230" class="texto-eixo" text-anchor="end">25%</text>
+                <text x="-10" y="290" class="texto-eixo" text-anchor="end">0%</text>
+                
+                <line x1="0" y1="290" x2="500" y2="290" class="hr-line-principal" />
+                
+                <text x="30" y="310" class="texto-eixo" text-anchor="middle">{t.game_1 || "1º Jogo"}</text>
+                <text x="150" y="310" class="texto-eixo" text-anchor="middle">{t.game_3 || "3º Jogo"}</text>
+                <text x="270" y="310" class="texto-eixo" text-anchor="middle">{t.game_5 || "5º Jogo"}</text>
+                <text x="390" y="310" class="texto-eixo" text-anchor="middle">{t.game_8 || "8º Jogo+"}</text>
+                <text x="550" y="310" class="texto-eixo italico ocult-mobile" text-anchor="middle">{t.axis_x_title || "Qtde. Jogos"}</text>
+
+                <path id="linhaFerro" data-elo="ferro" d="" stroke="#C4A482" stroke-width="4" fill="none" />
+                <path id="linhaPrata" data-elo="prata" d="" stroke="#bdc3c7" stroke-width="4" fill="none" />
+                <path id="linhaOuro" data-elo="ouro" d="" stroke="#f1c40f" stroke-width="4" fill="none" />
+                <path id="linhaEsmeralda" data-elo="esmeralda" d="" stroke="#2ecc71" stroke-width="4" fill="none" />
+                <path id="linhaDiamante" data-elo="diamante" d="" stroke="#3498db" stroke-width="4" fill="none" />
+                <path id="linhaMestre" data-elo="mestre" d="" stroke="#e74c3c" stroke-width="4" fill="none" />
+            </svg>
+        </figure>
+        
+        <div class="legenda-grafico">
+            <span class="item-legenda" data-elo="ferro"><i style="background: #C4A482"></i> <span>{t.tier_ferro || "Ferro/Bronze"}</span></span>
+            <span class="item-legenda" data-elo="prata"><i style="background: #bdc3c7"></i> <span>{t.tier_prata || "Prata"}</span></span>
+            <span class="item-legenda" data-elo="ouro"><i style="background: #f1c40f"></i> <span>{t.tier_ouro || "Ouro"}</span></span>
+            <span class="item-legenda" data-elo="esmeralda"><i style="background: #2ecc71"></i><span>{t.tier_esmeralda || "Platina/Esmeralda"}</span></span>
+            <span class="item-legenda" data-elo="diamante"><i style="background: #3498db"></i><span>{t.tier_diamante || "Diamante"}</span></span>
+            <span class="item-legenda" data-elo="mestre"><i style="background: #e74c3c"></i> <span>{t.tier_mestre || "Mestre+"}</span></span>
+        </div>
+
+        <div id="detalheElo" class="detalhe-elo-box">
+            {t.js_default_text || "Passe em cima de um elo para ver a análise de ritmo."}
+        </div>
+    </article>
+    <!--<div class="container-buttons-monochampions">
+        <button id="next-step-monochampion" class="next-step">{tc.btn_next || "PRÓXIMO PASSO"}</button>
+    </div>-->
+</section>
+
+<script>
+    import "@/assets/scripts/pages/guide/elobetter/scripts/index/curso/quantidadexqualidade.js";
+</script>

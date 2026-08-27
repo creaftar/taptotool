@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Voltar para a página inicial",
+    "disconnected": "Você está desconectado",
+    "connected": "Você está conectado",
+    "email_label": "EMAIL:",
+    "password_label": "SENHA:",
+    "confirm_password_label": "CONFIRMAR SENHA:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "senha",
+    "already_have_account": "Já possui uma conta?",
+    "no_account": "Ainda não possui uma conta? Cadastre-se!",
+    "btn_register": "CADASTRAR",
+    "btn_login": "ENTRAR",
+    "btn_logout": "DESCONECTAR",
+    "search_crossword_aria": "Pesquisar cruzadinha",
+    "search_placeholder": "Pesquisar cruzadinhas",
+    "hide_menu_aria": "Botão para ocultar o menu",
+    "hide_menu_text": "Ocultar Menu",
+    "expand": "Expandir",
+    "hide": "Ocultar",
+    "lang_display": "Português - BR"
+  },
+  "auth_errors": {
+    "invalid_email": "Endereço de e-mail inválido",
+    "user_not_found": "Endereço de e-mail não encontrado",
+    "wrong_password": "A senha fornecida está incorreta",
+    "too_many_requests": "Muitas tentativas de login sem sucesso",
+    "network_failed": "Erro de rede ao tentar autenticar",
+    "weak_password": "A senha fornecida é muito fraca",
+    "email_in_use": "O endereço de e-mail já está associado a outra conta",
+    "different_credential": "Tentativa de login com um provedor de autenticação diferente (ex. Google)",
+    "operation_not_allowed": "A operação não é permitida",
+    "internal_error": "Erro interno no servidor de autenticação",
+    "missing_password": "Digite a senha",
+    "invalid_credential": "Credencial Inválida (geralmente ocorre quando você migra sua conta para os provedores [google, twitter, yahoo])",
+    "passwords_dont_match": "As senhas não coincidem"
+  }
+}

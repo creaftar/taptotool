@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Menu",
+    "nav_home": "Beranda",
+    "nav_home_aria": "Kembali ke halaman utama",
+    "nav_create": "Buat TTS",
+    "nav_create_aria": "Buat teka-teki silang baru",
+
+    "other_games_title": "Game Lainnya",
+    "crosswords": "Teka-Teki Silang",
+    "word_search": "Cari Kata",
+    
+    "themes_title": "Tema",
+    "theme_light": "Mode terang",
+    "theme_medium": "Mode sedang",
+    "theme_dark": "Mode gelap",
+    
+    "you_title": "Profil",
+    "your_crosswords": "TTS Saya",
+    "history": "Riwayat",
+    "history_progress": "Sedang Dikerjakan",
+    "history_done": "Selesai",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Statistik",
+    "stats_total": "Total Game:",
+    "stats_users": "Total Pengguna:",
+    "stats_yours": "Game Anda:",
+    
+    "feedback": "Kirim Masukan",
+    "feedback_placeholder": "Tulis masukan Anda di sini...",
+    "btn_send": "KIRIM",
+    "btn_send_aria": "Tombol untuk mengirim masukan",
+    
+    "version": "Versi",
+    "version_current": "v3.2.2 - Versi saat ini",
+    "release_prefix": "Rilis: ",
+    
+    "social_title": "Media Sosial",
+    "social_x_aria": "Buka Twitter",
+    "social_bsky_aria": "Buka BlueSky",
+    "social_feedly_aria": "Buka Feedly",
+    
+    "policies": "Kebijakan Privasi",
+    "more_tools": "Alat Lainnya",
+    "copyright": "© 2023 - {year} | Tap to Tool - TTS Online"
+  },
+  "daily": {
+    "banner": "Mainkan teka-teki silang harian",
+    "title": "Teka-Teki Silang Harian",
+    "next": "Teka-teki berikutnya:"
+  }
+}

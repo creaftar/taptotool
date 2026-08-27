@@ -1,0 +1,25 @@
+{
+  "graph_title": "Quantidade x Qualidade",
+  "graph_subtitle": "Descubra o limite exato de jogos diários para manter o alto nível no seu elo atual e consulte novamente a cada novo ranque alcançado",
+  "axis_y_title": "Aproveitamento",
+  "game_1": "1º Jogo",
+  "game_3": "3º Jogo",
+  "game_5": "5º Jogo",
+  "game_8": "8º Jogo+",
+  "axis_x_title": "Qtde. Jogos",
+  "tier_ferro": "Ferro/Bronze",
+  "tier_prata": "Prata",
+  "tier_ouro": "Ouro",
+  "tier_esmeralda": "Platina/Esmeralda",
+  "tier_diamante": "Diamante",
+  "tier_mestre": "Mestre+",
+  "js_default_text": "Passe em cima de um elo para ver a análise de ritmo.",
+  "js_texts": {
+    "mestre": "<strong>Mestre+: Alta Performance Absoluta.</strong> Os erros aqui custam o jogo. Seu pico é de 2 partidas; a partir da 3ª, a fadiga de micro-decisões reduz drasticamente seu ganho de PDL.",
+    "diamante": "<strong>Diamante: Consistência é Rei.</strong> Você consegue manter o foco por até 3 a 4 jogos. Insistir em sessões longas causa 'piloto automático', o maior inimigo da subida no High Elo.",
+    "esmeralda": "<strong>Platina e Esmeralda: Os Elos do Desgaste Mental.</strong> Sua mecânica segura até o 4º jogo, mas a resiliência psicológica cai rápido. Pare de jogar se perder duas seguidas.",
+    "ouro": "<strong>Ouro: Equilíbrio Intermediário.</strong> Você aguenta um volume razoável (até 5-6 jogos) porque os erros ainda não são punidos instantaneamente, mas o foco macro começa a sumir no final.",
+    "prata": "<strong>Prata: Volume de Aprendizado.</strong> Sua performance varia pouco por fadiga porque o elo exige menos foco constante. Vale a pena jogar mais partidas para praticar fundamentos.",
+    "ferro": "<strong>Ferro/Bronze: Força Bruta.</strong> A fadiga não é o fator limitante aqui. O ganho de experiência prática (volume de jogos) supera o desgaste. Pode jogar sessões longas."
+  }
+}

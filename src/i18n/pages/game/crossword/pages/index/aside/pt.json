@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Navegar",
+    "nav_home": "Início",
+    "nav_home_aria": "Botão para voltar para a página inicial",
+    "nav_create": "Criar cruzadinha",
+    "nav_create_aria": "Criar uma nova cruzadinha",
+
+    "other_games_title": "Outros Jogos",
+    "crosswords": "Cruzadinhas",
+    "word_search": "Caça-Palavras",
+    
+    "themes_title": "Temas",
+    "theme_light": "Tema claro",
+    "theme_medium": "Tema médio",
+    "theme_dark": "Tema escuro",
+    
+    "you_title": "Você",
+    "your_crosswords": "Suas cruzadinhas",
+    "history": "Histórico",
+    "history_progress": "Cruzadinhas em Progresso",
+    "history_done": "Cruzadinhas Feitas",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Estatísticas",
+    "stats_total": "Quantidade de jogos:",
+    "stats_users": "Quantidade de usuários:",
+    "stats_yours": "Seus jogos:",
+    
+    "feedback": "Enviar Feedback",
+    "feedback_placeholder": "Digite seu feedback aqui",
+    "btn_send": "ENVIAR",
+    "btn_send_aria": "Botão para enviar o feedback",
+    
+    "version": "Versão",
+    "version_current": "v3.2.2 - Versão atual",
+    "release_prefix": "Release: ",
+    
+    "social_title": "Social",
+    "social_x_aria": "Ir para o site do Twitter",
+    "social_bsky_aria": "Ir para o site do BlueSky",
+    "social_feedly_aria": "Ir para o site do Feedly",
+    
+    "policies": "Políticas",
+    "more_tools": "Mais Ferramentas",
+    "copyright": "© 2023 - {year} | Tap to Tool - Cruzadinhas Online"
+  },
+  "daily": {
+    "banner": "Jogar a cruzadinha diária",
+    "title": "Cruzadinha Diária",
+    "next": "Nova cruzadinha em:"
+  }
+}

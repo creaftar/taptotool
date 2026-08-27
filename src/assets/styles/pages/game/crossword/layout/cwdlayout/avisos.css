@@ -1,0 +1,14 @@
+.fechar-salvar{
+	display: flex;
+	justify-content: flex-end;
+	padding: 0px 12px 0 12px;
+}
+
+#texto-requisitos-copiar, #texto-requisitos{
+	display: -webkit-box;
+	line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

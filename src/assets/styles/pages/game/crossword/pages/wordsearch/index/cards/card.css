@@ -1,0 +1,9 @@
+.grid-container{
+	mask-image: radial-gradient(circle, black 40%, transparent 100%);
+  	-webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+}
+
+.timer-card{
+	justify-self: flex-end;
+	font-style: italic;
+}

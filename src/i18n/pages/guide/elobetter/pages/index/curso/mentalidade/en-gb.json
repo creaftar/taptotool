@@ -1,0 +1,18 @@
+{
+  "title": "The Right Mindset",
+  "main_card_title": "What is Emotional Destabilisation (Tilting)",
+  "card_1_title": "The Mechanism",
+  "card_2_title": "The Impact",
+  "card_3_title": "When It Happens",
+  "card_4_title": "What to Do",
+  "warning_text": "⚠️ In all of your games, you are going to mute the chat (both allied and enemy) and mute enemy emotes to avoid distractions",
+  "img_alt": "How to mute the game chat",
+  "img_subtext": "Keep this configuration above (make sure to also check the emotes box)",
+  "js_texts": [
+    "",
+    "The amygdala takes over. (The part of the brain responsible for 'fight or flight' emotional responses)",
+    "It temporarily deactivates the prefrontal cortex, which is the brain area responsible for logical thinking, planning, and impulse control. <span class=\"destaque\">You stop thinking and start just reacting.</span>",
+    "You tilt when you want the game to go one way, but the actions of your allies or enemies show that you have no control over the match.",
+    "When you notice it, the best technical decision to make is to pause, take a deep breath, and step away from the game for a while until the prefrontal cortex regains control."
+  ]
+}

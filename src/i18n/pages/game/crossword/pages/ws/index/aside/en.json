@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Navigation",
+    "nav_home": "Home",
+    "nav_home_aria": "Back to home page",
+    "nav_create": "Create Word Search",
+    "nav_create_aria": "Create a new word search puzzle",
+
+    "other_games_title": "Other Games",
+    "crosswords": "Crosswords",
+    "word_search": "Word Search",
+    
+    "themes_title": "Themes",
+    "theme_light": "Light Mode",
+    "theme_medium": "Medium Mode",
+    "theme_dark": "Dark Mode",
+    
+    "you_title": "Your Profile",
+    "your_crosswords": "My Games",
+    "history": "History",
+    "history_progress": "In Progress",
+    "history_done": "Completed",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Statistics",
+    "stats_total": "Total Games:",
+    "stats_users": "Total Users:",
+    "stats_yours": "Your Games:",
+    
+    "feedback": "Send Feedback",
+    "feedback_placeholder": "Type your feedback here...",
+    "btn_send": "SEND",
+    "btn_send_aria": "Submit feedback button",
+    
+    "version": "Version",
+    "version_current": "v3.2.2 - Current Version",
+    "release_prefix": "Release: ",
+    
+    "social_title": "Social",
+    "social_x_aria": "Follow us on Twitter",
+    "social_bsky_aria": "Follow us on BlueSky",
+    "social_feedly_aria": "Follow us on Feedly",
+    
+    "policies": "Privacy & Terms",
+    "more_tools": "More Tools",
+    "copyright": "© 2023 - {year} | Tap to Tool - Word Search Online"
+  },
+  "daily": {
+    "banner": "Play daily word search",
+    "title": "Daily Word Search",
+    "next": "Next puzzle in:"
+  }
+}

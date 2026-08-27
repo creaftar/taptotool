@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Вернуться на главную страницу",
+    "disconnected": "Вы не в сети",
+    "connected": "Вы в сети",
+    "email_label": "EMAIL:",
+    "password_label": "ПАРОЛЬ:",
+    "confirm_password_label": "ПОДТВЕРДИТЕ ПАРОЛЬ:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "пароль",
+    "already_have_account": "У вас уже есть аккаунт?",
+    "no_account": "Ещё нет аккаунта? Зарегистрируйтесь!",
+    "btn_register": "РЕГИСТРАЦИЯ",
+    "btn_login": "ВХОД",
+    "btn_logout": "ВЫЙТИ",
+    "search_crossword_aria": "Поиск кроссворда",
+    "search_placeholder": "Искать кроссворды",
+    "hide_menu_aria": "Скрыть меню",
+    "hide_menu_text": "Скрыть меню",
+    "expand": "Развернуть",
+    "hide": "Скрыть",
+    "lang_display": "Русский"
+  },
+  "auth_errors": {
+    "invalid_email": "Неверный адрес электронной почты",
+    "user_not_found": "Пользователь с таким email не найден",
+    "wrong_password": "Введенный пароль неверный",
+    "too_many_requests": "Слишком много неудачных попыток входа",
+    "network_failed": "Ошибка сети при попытке входа",
+    "weak_password": "Пароль слишком слабый",
+    "email_in_use": "Этот адрес электронной почты уже используется",
+    "different_credential": "Попытка входа через другого провайдера (например, Google)",
+    "operation_not_allowed": "Операция не разрешена",
+    "internal_error": "Внутренняя ошибка сервера аутентификации",
+    "missing_password": "Введите пароль",
+    "invalid_credential": "Неверные учетные данные (обычно при миграции на Google/Twitter/Yahoo)",
+    "passwords_dont_match": "Пароли не совпадают"
+  }
+}

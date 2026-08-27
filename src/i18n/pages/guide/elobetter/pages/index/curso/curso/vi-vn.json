@@ -1,0 +1,24 @@
+{
+  "btn_next": "BƯỚC TIẾP THEO",
+  "footer": {
+    "share_telegram": "Chia sẻ trang web lên Telegram",
+    "share_whatsapp": "Chia sẻ trang web lên WhatsApp",
+    "share_bluesky": "Chia sẻ trang web lên Bluesky",
+    "share_x": "Chia sẻ trang web lên X",
+    "share_facebook": "Chia sẻ trang web lên Facebook",
+    "share_reddit": "Chia sẻ trang web lên Reddit"
+  },
+  "banner": {
+    "view_opgg": "Xem hồ sơ của người sáng tạo trên OP.GG",
+    "play_crossword": "Chơi trò chơi ô chữ League of Legends",
+    "watch_videos": "Xem video thực chiến và phân tích cách một người chơi High ELO thi đấu",
+    "more_tools": "Khám phá thêm các công cụ trực tuyến để tự động hóa quy trình làm việc hàng ngày của bạn"
+  },
+  "myaccount": {
+    "badge_current_elo": "Biểu tượng ELO hiện tại của tác giả hướng dẫn",
+    "summoner_icon": "Biểu tượng Anh hùng"
+  },
+  "reset_steps": "Đặt lại tất cả các bước (bắt đầu lại từ đầu)",
+  "copy_profile_nick": "Sao chép tên người chơi trong hồ sơ",
+  "update_profile": "Cập nhật hồ sơ"
+}

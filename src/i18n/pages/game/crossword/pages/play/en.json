@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Play Crossword Online - Tap to Tool",
+    "description": "Challenge your mind with this custom crossword on Tap to Tool. Solve riddles, find words, and enjoy games created by the community.",
+    "keywords": "play crossword, online crosswords, solve crossword, word game, online puzzle, free crossword"
+  },
+  "schema": {
+    "game_name": "Play Online Crossword",
+    "description": "Play this custom online crossword game on Tap to Tool. Free and interactive!",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Play Crossword",
+    "alternateName": "Creaftar Crossword Game",
+    "price_currency": "USD"
+  },
+  "ui": {
+    "hide": "HIDE",
+    "hide_timer": "HIDE TIMER",
+    "show_answers": "SHOW ANSWERS",
+    "hints_prefix": "YOU HAVE",
+    "hints_suffix": "HINTS",
+    "stats_title": "Statistics",
+    "total_time": "Total time",
+    "chars_typed": "Characters typed",
+    "hits": "Hits",
+    "errors": "Errors",
+    "share": "Share",
+    "copy": "COPY",
+    "back_home": "HOME",
+    "add_zoom": "ADD ZOOM",
+    "remove_zoom": "REMOVE ZOOM",
+    "print": "PRINT",
+    "completed_msg_prefix": "You have completed",
+    "completed_msg_suffix": "crosswords!",
+    "other_crosswords": "Other crosswords"
+  },
+  "index": {
+    "horizontals": "HORIZONTAL",
+    "verticals": "VERTICAL",
+    "crossword_by": "Crossword by "
+  },
+  "play": {
+    "challenge_prefix": "Take the challenge! Play the crossword ",
+    "challenge_suffix": " now. Try to solve it with intriguing clues like: ",
+    "challenge_footer": ", and much more. Are you ready?",
+    "kw_cruzadinha": "crossword about ",
+    "kw_jogo": "game about "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Daily Crossword",
+    "next_crossword": "Next daily crossword in:",
+    "curiosidade": "; Solve clues like: ",
+    "CTA": ", and much more. Can you do it?",
+    "seo": {
+      "title": "Daily Crossword - Today's Challenge - Tap to Tool",
+      "description": "Solve today's challenge! A new free crossword puzzle every day to test your knowledge and sharpen your mind on Tap to Tool.",
+      "keywords": "daily crossword, crossword of the day, daily challenge, online word game, free daily puzzle"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Daily Crossword",
+      "description": "A fresh crossword puzzle to solve every day. Challenge yourself with brand-new clues daily!"
+    },
+    "content": {
+      "h1": "Daily Crossword",
+      "subtitle": "A new challenge every 24 hours. Can you solve today's puzzle?",
+      "timer_label": "Challenge time:",
+      "next_in": "Next challenge in:"
+    },
+    "ui": {
+      "start_button": "START CHALLENGE",
+      "check_word": "CHECK WORD",
+      "reveal_letter": "REVEAL LETTER",
+      "hints_remaining": "HINTS REMAINING:",
+      "stats_btn": "VIEW MY STATS",
+      "share_result": "SHARE RESULT",
+      "calendar_view": "VIEW PAST CHALLENGES",
+      "loading": "LOADING TODAY'S CHALLENGE..."
+    },
+    "feedback": {
+      "win_title": "Congrats! Challenge Completed!",
+      "win_msg": "You solved today's crossword in ",
+      "win_footer": "Come back tomorrow for a new puzzle!",
+      "error_msg": "Some letters aren't correct yet. Keep trying!"
+    },
+    "social": {
+      "share_text": "I solved the Tap to Tool Daily Crossword in just {time}! Can you beat my time?"
+    }
+  }
+}

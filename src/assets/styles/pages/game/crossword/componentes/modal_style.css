@@ -1,0 +1,438 @@
+@keyframes surgir{
+	from{
+		top: -35%;
+		opacity: 0;
+	}
+	to{
+		top: 118px;
+		opacity: 1;
+	}
+}
+/*GLOBAL*/
+.container-modal{
+	height: 0;
+	z-index: 50;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	width: 90vw;
+	left: 5vw;
+}
+.texto-req{
+	color: rgba(var(--padrao), 1);
+}
+#escolher_foto{
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+	color: rgba(var(--padrao), 1);
+	margin-bottom: 3px;
+	outline: transparent;
+	padding: 6px;
+	width: 100%;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	transition: background-color 0.2s;
+}
+
+#escolher_foto:hover{
+	background-color: var(--hover);
+}
+.icons-divulgar{
+	padding:0 3px;
+	color: var(--destaque);
+}
+.labelPostar{
+	padding: 0;
+	font-size: small;
+}
+#fotoCrivras{
+	/*opacity: 0.5;*/
+	width: 100%;
+}
+.card_editor{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	overflow:hidden;
+	padding-top: 100%; /* ISSO CRIA A ALTURA IGUAL À LARGURA */
+	box-sizing: border-box; /* Garante que padding e border não adicionem largura */
+}
+.btnCarrossel_editor{
+	z-index: 3;
+	width: 15%;
+	height: 100%;
+	position: absolute;
+	border: none;
+	color: rgba(63, 63, 116);
+	background-color: rgba(245, 245, 245, 0.3);
+	font-size: 2em;
+}
+#carrosselPrevBtn_editor{
+	left: 0;
+	top: 0;
+}
+#carrosselNextBtn_editor{
+	right: 0;
+	top: 0;
+}
+
+#carouselTrack_editor{
+	top: 0;
+	left: 0;
+    display: flex;
+	position: absolute;
+    transition: transform 0.5s ease-in-out;
+	width: 100%; /* + 2px da borda do linkJogar*/
+	height: 100% ; /* + 2px da borda do linkJogar*/
+}
+.slide_editor{
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+#titulo-creaftarIA, #numberSlider{
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom:9px;
+	color:var(--texto);
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	width: 97%;
+	padding: 6px;
+}
+#numberSlider{
+	align-self: center;
+}
+#titulo:focus {
+	border: 1px solid rgba(var(--padrao), 1);
+	border-radius: 3px;
+    outline: none;
+}
+#salvarmodal, #gerar-creaftarIA{
+	width: 100%;
+	padding: 12px;
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	border-radius: 6px;
+	transition: background-color 0.3s;
+	cursor:pointer;
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: large;
+	font-weight: 600;
+	color: rgba(var(--padrao),1);
+}
+#salvarmodal:hover, #gerar-creaftarIA:hover{
+	background-color: var(--hover);
+	border-color: rgba(var(--padrao), var(--opacidade-media));
+	transition: all 0.2s;
+}
+
+/*MODAL SUCESSO - CREIO EU*/
+.requisitos{
+	display: flex;
+	flex-direction: row;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+	position: relative;
+	min-height: 45px;
+	margin-top: 121px; /*112 que seria 56px do menu + 56px do h1 + 9px de espacamento*/
+	z-index: 4;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	border:solid 1px rgba(var(--padrao), var(--opacidade-media));
+	border-radius: 3px;
+	background-color: var(--fundo-card);
+	color: rgba(var(--padrao), 1);
+	box-shadow: 0px 1px 15px 0px rgba(var(--padrao), 0.1);
+}
+
+.requisitos > p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+	line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto; 
+    white-space: normal;
+    word-break: break-word; 
+    overflow-wrap: break-word;
+}
+
+.close-modal{
+	color: var(--texto);
+}
+.left-icon-green{
+	color: var(--destaque);
+	background-color: var(--fundo-card);
+	border-right: solid 1px rgba(var(--padrao), var(--opacidade-media));
+}
+.left-icon, 
+.fechar-msg{
+	padding: 12px;
+	/*display: flex !important;*/
+}
+
+.left-icon, .close-modal{
+	display: flex;
+	justify-self:center;
+	align-items: center;
+	height: 100%;
+}
+#texto-requisitos, #texto-requisitos-copiar, #texto-requisitos-entrar, .texto-req{
+	padding: 9px;
+}
+.close-modal:hover{
+	cursor: pointer;
+	color: var(--close-modal);
+}
+
+.loadBarMsg{
+	height: 1px;
+	background-color: var(--destaque);
+	width: calc(100% - 2px);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	bottom: 0;
+	position: absolute;
+	left: 1px;
+}
+
+.loadBarMsgERROR{
+	background-color: var(--destaque);
+}
+/*FIM MODAL SUCESSO*/
+
+#requisitos-salvar, #requisitos-copiar, #requisitos-entrar, #aviso{
+	max-width: 90vw;
+	text-align: justify;
+	height: 45px;
+}
+/*.modal-creaftarIA{
+	display:none;
+}*/
+
+/******/
+#modal-pergunta{
+	width:600px;
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgba(var(--padrao),1);
+	scroll-behavior: smooth;
+}
+.menu-modal-pergunta {
+	user-select: none;
+	font-weight: 500;
+	color: var(--destaque);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+	padding: 9px;
+	border-bottom: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	box-shadow: 0px 1px 1px 0px rgba(var(--padrao), 0.1);
+}
+
+
+.pergunta-bloco-texto > video{
+	width: 100%;
+	border-radius: 6px;
+}
+.paginas-modal #pagina1.active{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pergunta-titulo-aside{
+	cursor: pointer;
+}
+.sublista {
+	/*display: none;*/
+	overflow: hidden; /* Garante que a animação seja suave */
+	max-height: 0; /* Começa com altura zero */
+	transition: max-height 0.9s ease-in-out; /* Adiciona transição suave */
+	padding: 0 0 0 9px;
+	font-size: 0.8em;
+}
+.item-com-sublista:hover .sublista {
+	/*display: block;*/
+	max-height: 100vh; /* Defina uma altura máxima adequada */
+}
+.pergunta-bloco-conteudo, .pergunta-bloco-aside{
+	padding: 18px;
+	height: 300px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	display: block;
+	scroll-behavior: smooth;
+	text-align: justify;
+}
+.pergunta-bloco-aside > aside > ul > li > a, .sublista > li > a{
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+	color: inherit;
+	transition: color 0.3s;
+}
+.pergunta-bloco-aside > aside > ul > li > a:active{
+	color: inherit;
+}
+.pergunta-bloco-aside > aside > ul > li > a:hover, .sublista > li > a:hover{
+	color: var(--aside-navegar);
+}
+.pergunta-bloco-texto{
+	padding: 9px;
+	scroll-behavior: smooth;
+}
+.pergunta-bloco-texto > p{
+	margin-bottom: 9px;
+}
+.pergunta-bloco-texto > ul, .texto-ul-ul{
+	padding: 0 9px 0 9px;
+}
+.pergunta-bloco-texto > ul > li, .texto-ul-ul > li{
+	margin-top: 3px;
+}
+.pergunta-bloco-conteudo{
+	width: 70%;
+	scroll-behavior: smooth;
+	font-family: "texto";
+	
+}
+.pergunta-bloco-conteudo > h4{
+	font-family: "titulo";
+}
+.pergunta-bloco-texto > h5{
+	font-family: "titulo";
+	font-size: 0.9em;
+}
+.pergunta-bloco-aside{
+	border-left: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	font-size: 0.9em;
+	font-weight: 600;
+	width: 30%;
+    overflow-x: hidden;    /* Esconde o texto que excede o tamanho do contêiner */
+	padding: 18px 18px 0px 9px;
+}
+.parenthesis{
+	font-size: 0.9em;
+	font-weight: 600;
+}
+.pergunta-bloco-aside > aside > ul > li{
+	margin-bottom: 9px;
+	white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    overflow-x: hidden;    /* Esconde o texto que excede o tamanho do contêiner */
+    text-overflow: ellipsis; /* Adiciona "..." ao final do texto excedente */
+}
+/* Estilo para navegadores baseados no Webkit (Chrome, Edge, etc.) */
+.pergunta-bloco-conteudo, .pergunta-bloco-aside, .conteudo-salvar, #escolher_foto {
+    scrollbar-color: var(--fundo-card); /* Cor do thumb e do fundo no Firefox */
+}
+
+/* Personalização para Webkit */
+.pergunta-bloco-conteudo::-webkit-scrollbar,
+.pergunta-bloco-aside::-webkit-scrollbar,
+#escolher_foto::-webkit-scrollbar,
+.conteudo-salvar::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+}
+
+.pergunta-bloco-conteudo::-webkit-scrollbar-track,
+.pergunta-bloco-aside::-webkit-scrollbar-track,
+#escolher_foto::-webkit-scrollbar-track,
+.conteudo-salvar::-webkit-scrollbar-track {
+    background-color: var(--fundo-card); /* Cor do fundo */
+}
+
+.pergunta-bloco-conteudo::-webkit-scrollbar-thumb,
+.pergunta-bloco-aside::-webkit-scrollbar-thumb,
+#escolher_foto::-webkit-scrollbar-thumb,
+.conteudo-salvar::-webkit-scrollbar-thumb {
+    background: rgba(var(--padrao), var(--opacidade-media)); /* Cor do "thumb" da barra */
+	border-radius: 9px;
+}
+
+
+.menu-modal-pergunta > .active{
+	font-weight: 600;
+}
+
+.menu-modal-pergunta li {
+	cursor: pointer;
+    border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	flex-shrink: 0;
+}
+.pergunta-menu-texto{
+	white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+	overflow-x: hidden;    /* Esconde o texto que excede o tamanho do contêiner */
+	text-overflow: ellipsis; /* Adiciona "..." ao final do texto excedente */
+	display:block;
+	/*width: 100%;*/
+}
+
+.menu-modal-pergunta li i{
+	margin-right: 9px;
+}
+
+.menu-modal-pergunta li.active {
+    position: relative;
+}
+
+.menu-modal-pergunta li.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 100%;
+    height: 3px;
+    background-color: var(--aside-navegar);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-modal-pergunta li.active.animar::after {
+    transform: translateX(-50%) scaleX(1);
+}
+  
+.icon-menu-pergunta{
+	color: var(--aside-navegar);
+}
+
+.paginas-modal .pagina, .icon-menu-pergunta{
+    display: none;
+}
+
+.paginas-modal .pagina.active, .icon-menu-pergunta.active {
+    display: flex;
+}
+/*FIM-GLOBAL*/
+
+/**DESKTOP**/
+@media(min-width: 1025px){
+	#texto-requisitos, #texto-requisitos-copiar, #texto-requisitos-entrar, .texto-req{
+		font-size: 0.9rem;
+	}
+	.container-modal-index{
+		width:calc(100vw - 224px);
+		margin-left: 224px;
+		left: 0;
+		height: 1px;
+	}
+	.requisitos{
+		min-height: 40px;
+	}
+}
+
+/**MOBILE + TABLET**/
+@media(max-width:1024px){
+	#texto-requisitos, #texto-requisitos-copiar, #texto-requisitos-entrar, .texto-req{
+		font-size: small;
+	}
+	
+}

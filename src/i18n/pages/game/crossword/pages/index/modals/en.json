@@ -1,0 +1,7 @@
+{
+  "modals": {
+    "feedback_success": "SUCCESS: Your feedback has been sent",
+    "copy_success": "SUCCESS: Link copied to clipboard",
+    "login_prompt": "Log in to create your own games!"
+  }
+}

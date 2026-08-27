@@ -1,0 +1,12 @@
+{
+  "title": "30 / 30 / 40 Kuralı",
+  "subtitle": "Lig atlayamamanızın sebebinin trollere veya AFK'lara değil, kendinize bağlı olduğunu anlamak:",
+  "desc_losses": "<span class=\"destaque\">- %30 Garanti Mağlubiyet (\"Kazanılması İmkansız\" Maçlar):</span> <br>Takım arkadaşınızın oyundan çıkmaya (ragequit), trolleme kararı aldığı veya diğer tüm koridorların tamamen çöktüğü maçlardır. Matematiksel olarak, siz elinizden gelenin en iyisini yapsanız bile diğer 4 oyuncunun hatası sizin taşıma kapasitenizi aşar.",
+  "desc_wins": "<span class=\"destaque\">- %30 Garanti Galibiyet (\"Taşındığınız\" Maçlar):</span> <br>Üst koridor oyuncunuzun (top laner) beş dakikada 10/0 yaptığı, ormancının tüm harita hedeflerini kontrol ettiği ve rakip takımın genel sohbette kavga etmeye başladığı maçlardır. Kötü oynasanız hatta üste (base) hareketsiz bekleseniz bile takımınız maçı 4v5 kazanır.",
+  "desc_impact": "<span class=\"destaque\">- %40 Size Bağlı Olan Maçlar (Enerjinizi odaklamanız gereken yer burasıdır):</span> <br>Her iki takımın da gerçek kazanma şansına sahip olduğu dengeli maçlardır. Nihai sonuç tek bir detaya bağlıdır: bir takım savaşındaki (teamfight) konumlanmanız, rotasyonunuz, harita görüş kontrolünüz veya oyun sonundaki karar alma mekanizmanız.",
+  "conclusion": "Çoğu insanın yaptığı hata, oyunu ciddiye alıp bir mağlubiyet serisine girdikten sonra tilt olmak ve bu dürtüyle yeni maçlara girerek tilt oldukları için normalde kendilerine bağlı olan kazanılabilir maçları da kaybetmektir.",
+  "btn_next": "SONRAKİ ADIM",
+  "label_losses": "İmkansız",
+  "label_impact": "Sana bağlı",
+  "label_wins": "Taşınan"
+}

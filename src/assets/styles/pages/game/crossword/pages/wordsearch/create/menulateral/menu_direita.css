@@ -1,0 +1,44 @@
+.menu-icones{
+	color: rgba(var(--padrao), 1);
+}
+#menu_lateralDesktop{
+	height: 320px; /*40px de cada icone*/
+	right: 9px;
+	/*height: calc(100% - calc(124px + calc(21 * var(--vh)))); /*104px do h1 - 6px pra dar um espacamento*/
+	/*margin-top: calc(calc(100% - calc(112px + 22vh)) / 2);*/ /*112px do h1 + 6px pra dar um espacamento*/
+}
+#interruptor/*, #mpage*/{
+	color: var(--close-modal);
+}
+
+#interruptor:hover/*, #mpage:hover*/{
+	transition: color 0.2s;
+}
+
+#numeditavel{
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	color:rgba(var(--padrao), 1);
+	font-weight: 600;
+}
+#palavraeditavel{
+	background: none !important; 
+	border: none !important;
+}
+#creaftarIA{
+	position: relative;
+}
+#gerar{
+	color:var(--aside-voce);
+	position: relative;
+}
+
+
+@media(min-width: 1025px){
+	#menu_lateralDesktop{
+		right: calc(10% + 9px);
+	}
+}
+
+.fa-shuffle:before {
+    content: "\f074"
+}

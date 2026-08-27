@@ -1,0 +1,90 @@
+#container-idiomas{
+    margin-left: auto;
+    width: 64px;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#menu-idiomas{
+    background-color: rgba(var(--idioma-bg), 1);
+    padding: 3px 0;
+    position: absolute;
+    left: 0;
+    transform: translateX(calc(-100% + 42px));
+    height: 350px;
+    overflow: auto;
+    width: 250px;
+    top: 100%;
+    /* 1. Sombra perfeitamente igual nos 3 lados (Y zerado) */
+    box-shadow: 0 0 9px rgba(var(--fundo), 0.2);
+    
+    /* 2. O truque de mestre: corta qualquer sombra que tente subir além do topo */
+    clip-path: inset(0px -20px -20px -20px);
+    border-top: none;
+}
+#menu-idiomas li{
+    opacity: 0.7;
+    transition: background-color 0.1s, opacity 0.1s;
+}
+#menu-idiomas > li > a{
+    color: rgba(var(--idioma-cor), 1);
+    padding: 9px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#menu-idiomas li:hover{
+    opacity: 1;
+    font-weight: 600;
+    background-color: rgba(var(--idioma-destaque), 1);
+}
+.menu-link{
+    text-decoration: none;
+}
+
+.idioma-ativo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.idioma-ativo::before {
+  content: "\f0ac";
+  font-family: "Font Awesome 7 Free"; 
+  font-weight: 900;
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+/* O triângulo só existirá/aparecerá quando o menu estiver visível */
+#menu-idiomas.elemento-visivel ~ .fa-globe::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    vertical-align: middle;
+    
+    /* Desenha o triângulo apontando para CIMA (em direção ao globo) */
+    border-bottom: 9px solid rgba(var(--idioma-bg), 1); /* Mesma cor de fundo do seu menu */
+    border-right: 9px solid transparent; 
+    border-left: 9px solid transparent;  
+    border-top: 0 solid transparent;
+    
+    z-index: 1000; /* Garante que ele fique por cima da borda do menu */
+}
+
+.fa-globe:before {
+    content: "\f0ac"
+}

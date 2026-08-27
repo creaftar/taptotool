@@ -1,0 +1,18 @@
+{
+  "title": "A Helyes Mentalitás",
+  "main_card_title": "Mi az az Érzelmi Destabilizáció (Tilt)",
+  "card_1_title": "A Mechanizmus",
+  "card_2_title": "A Hatás",
+  "card_3_title": "Mikor Történik",
+  "card_4_title": "Mi a Teendő",
+  "warning_text": "⚠️ Minden játékodban némítani fogod a chatet (szövetségest és ellenségest egyaránt) és az ellenséges hangulatjeleket (emotes) a zavaró tényezők elkerülése érdekében",
+  "img_alt": "Hogyan némítsd a játék chatjét",
+  "img_subtext": "Tartsd meg a fenti beállítást (győződj meg róla, hogy a hangulatjelek négyzetét is bejelölted)",
+  "js_texts": [
+    "",
+    "Az amygdala átveszi az irányítást. (Az agy azon része, amely a „harcolj vagy menekülj” érzelmi válaszokért felelős)",
+    "Ideiglenesen deaktiválja a prefrontális kérget, amely a logikus gondolkodásért, tervezésért és az impulzuskontrollért felelős agyterület. <span class=\"destaque\">Megszűnik a gondolkodás, és átváltasz tiszta reakcióba.</span>",
+    "Akkor tiltelődsz be, amikor azt szeretnéd, hogy a játék egy bizonyos módon alakuljon, de a szövetségeseid vagy az ellenségeid tettei megmutatják, hogy nincs irányításod a meccs felett.",
+    "Amikor ezt észleled, a legjobb technikai döntés, amit tehetsz, hogy megállsz, veszel egy mély levegőt, és eltávolodsz egy kicsit a játéktól, amíg a prefrontális kéreg vissza nem nyeri az irányítást."
+  ]
+}

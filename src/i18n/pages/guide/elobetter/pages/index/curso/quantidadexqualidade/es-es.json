@@ -1,0 +1,25 @@
+{
+  "graph_title": "Cantidad vs. Calidad",
+  "graph_subtitle": "Encuentra el límite exacto de partidas diarias para mantener el win rate alto en tu ELO actual y vuelve a consultar cada vez que subas de rango",
+  "axis_y_title": "% Rendimiento",
+  "game_1": "1.ª Partida",
+  "game_3": "3.ª Partida",
+  "game_5": "5.ª Partida",
+  "game_8": "8.ª Partida+",
+  "axis_x_title": "Partidas Jugadas",
+  "tier_ferro": "Hierro/Bronce",
+  "tier_prata": "Plata",
+  "tier_ouro": "Oro",
+  "tier_esmeralda": "Plat/Esmeralda",
+  "tier_diamante": "Diamante",
+  "tier_mestre": "Master+",
+  "js_default_text": "Pasa el cursor sobre un ELO para ver el análisis de ritmo.",
+  "js_texts": {
+    "mestre": "<strong>Master+: High ELO Absoluto.</strong> Aquí los microerrores te cuestan la partida entera. Tu 'peak' es de 2 partidas; a partir de la 3.ª, la fatiga de microdecisiones te tumba por completo la ganancia de PL.",
+    "diamante": "<strong>Diamante: La Consistencia es Rey.</strong> Puedes mantener el focus unas 3 o 4 partidas. Forzar sesiones más largas activa el 'piloto automático', el mayor enemigo para rushear el elo-climb.",
+    "esmeralda": "<strong>Plat y Esmeralda: El Pozo del Desgaste Mental.</strong> Tu mecánica aguanta hasta la 4.ª partida, pero la resiliência psicológica cae en picado. No te fustigues: si pierdes dos seguidas, chapa el juego.",
+    "ouro": "<strong>Oro: Equilibrio Intermedio.</strong> Puedes farmear un volumen decente (hasta 5-6 partidas) porque los 'throws' no se castigan al instante, pero el focus macro empieza a desaparecer al final.",
+    "prata": "<strong>Plata: Volumen de Aprendizaje.</strong> La fatiga apenas influye en tu win rate porque este rango no exige un macro-control constante. Renta spamear partidas para pulir tus fundamentos básicos.",
+    "ferro": "<strong>Hierro/Bronce: Fuerza Bruta.</strong> La fatiga no es el factor limitante aquí. Mutear a todos, spamear partidas y testear los límites de tu campeón compensa el desgaste. Dale caña sin miedo."
+  }
+}

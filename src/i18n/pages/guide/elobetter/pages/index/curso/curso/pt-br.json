@@ -1,0 +1,24 @@
+{
+  "btn_next": "PRÓXIMO PASSO",
+  "footer": {
+    "share_telegram": "Compartilhar o site no Telegram",
+    "share_whatsapp": "Compartilhar o site no WhatsApp",
+    "share_bluesky": "Compartilhar o site no Bluesky",
+    "share_x": "Compartilhar o site no X",
+    "share_facebook": "Compartilhar o site no Facebook",
+    "share_reddit": "Compartilhar o site no Reddit"
+  },
+  "banner": {
+    "view_opgg": "Ver perfil do criador no OP.GG",
+    "play_crossword": "Jogue cruzadinhas de League of Legends",
+    "watch_videos": "Veja vídeos práticos e analise para ver como um highelo joga",
+    "more_tools": "Explore mais ferramentas online para automatizar seu fluxo diário"
+  },
+  "myaccount": {
+    "badge_current_elo": "Emblema do elo atual do autor do guia",
+    "summoner_icon": "Ícone de Invocador"
+  },
+  "reset_steps": "Resetar todos os passos (começar novamente)",
+  "copy_profile_nick": "Copiar o nick do perfil",
+  "update_profile": "Atualizar o perfil"
+}

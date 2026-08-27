@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "CONFIGURAÇÕES AVANÇADAS",
+    "edit_word": "EDITAR A PALAVRA",
+    "word_to_edit": "PALAVRA A SER EDITADA",
+    "next_word": "AVANÇAR UMA PALAVRA",
+    "prev_word": "VOLTAR UMA PALAVRA",
+    "toggle_direction": "ALTERNAR ENTRE VERTICAL E HORIZONTAL",
+    "auto_position": "POSICIONAR TODAS AS PALAVRAS AUTOMATICAMENTE",
+    "ai_generate": "GERAR CAÇA-PALAVRAS A PARTIR DE UM TEMA",
+    "save_crossword": "SALVE SEU CAÇA-PALAVRAS",
+    "zoom_in": "ADICIONAR ZOOM AO CAÇA-PALAVRAS",
+    "zoom_out": "SUBTRAIR ZOOM DO CAÇA-PALAVRAS",
+    "tutorial": "TUTORIAL DE COMO CRIAR UM CAÇA-PALAVRAS"
+  }
+}

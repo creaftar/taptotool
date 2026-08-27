@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Navigazione",
+    "nav_home": "Home",
+    "nav_home_aria": "Torna alla pagina iniziale",
+    "nav_create": "Crea un cruciverba",
+    "nav_create_aria": "Crea un nuovo cruciverba",
+
+    "other_games_title": "Altri Giochi",
+    "crosswords": "Cruciverba",
+    "word_search": "Crucipuzzle",
+    
+    "themes_title": "Temi",
+    "theme_light": "Tema chiaro",
+    "theme_medium": "Tema medio",
+    "theme_dark": "Tema scuro",
+    
+    "you_title": "Profilo",
+    "your_crosswords": "I tuoi cruciverba",
+    "history": "Cronologia",
+    "history_progress": "In corso",
+    "history_done": "Completati",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Statistiche",
+    "stats_total": "Totale giochi:",
+    "stats_users": "Totale utenti:",
+    "stats_yours": "I tuoi giochi:",
+    
+    "feedback": "Invia Feedback",
+    "feedback_placeholder": "Scrivi il tuo feedback qui...",
+    "btn_send": "INVIA",
+    "btn_send_aria": "Pulsante per inviare il feedback",
+    
+    "version": "Versione",
+    "version_current": "v3.2.2 - Versione attuale",
+    "release_prefix": "Release: ",
+    
+    "social_title": "Social",
+    "social_x_aria": "Vai al sito di Twitter",
+    "social_bsky_aria": "Vai al sito di BlueSky",
+    "social_feedly_aria": "Vai al sito di Feedly",
+    
+    "policies": "Note Legali",
+    "more_tools": "Altri strumenti",
+    "copyright": "© 2023 - {year} | Tap to Tool - Cruciverba Online"
+  },
+  "daily": {
+    "banner": "Gioca al cruciverba giornaliero",
+    "title": "Cruciverba Giornaliero",
+    "next": "Nuovo cruciverba tra:"
+  }
+}

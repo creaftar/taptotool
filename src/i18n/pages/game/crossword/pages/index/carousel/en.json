@@ -1,0 +1,17 @@
+{
+  "carousel": {
+    "btn_prev_aria": "Button to go back to the previous image",
+    "btn_next_aria": "Button to advance to the next image",
+    "button_buy": "Button to go to the advertisement site",
+    "advice": "Upon clicking, you will be directed to the product page",
+    "tools": {
+      "case_converter": "Uppercase and Lowercase Case Converter",
+      "char_counter": "Character Counter",
+      "num_generator": "Random Number Generator",
+      "text_inverter": "Text Inverter"
+    },
+    "details": "View Details",
+    "advertisement": "Advertisement",
+    "read_more": "Learn more"
+  }
+}

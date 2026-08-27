@@ -1,0 +1,34 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Criar Cruzadinhas Online",
+    "description": "Crie suas próprias palavras cruzadas personalizadas...",
+    "keywords": "cruzadinha, criar, gerador, educação"
+  },
+  "schema": {
+    "app_name": "Criar Cruzadinhas Online",
+    "app_description": "Crie facilmente suas próprias cruzadinhas personalizadas online no Tap to Tool.",
+    "page_name": "Criar Cruzadinha",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Criar Cruzadinha",
+    "alternateName": "Creaftar Criador",
+    "description": "Ferramenta gratuita para criar cruzadinhas personalizadas online no Tap to Tool.",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Botão para ocultar o menu",
+    "hide_text": "Ocultar"
+  },
+  "create_page": {
+    "words_title": "PALAVRAS:",
+    "word_placeholder": "exemplo",
+    "add_word_aria": "adicionar palavra",
+    "add_word_btn_aria": "Botão para adicionar palavra",
+    "hints_title": "DICAS:",
+    "hint_placeholder": "Um exemplo é o ato ou a ação de se pegar um fato já existente...",
+    "add_hint_aria": "adicionar conteúdo",
+    "add_hint_btn_aria": "Botão para adicionar conteúdo"
+  }
+}

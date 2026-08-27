@@ -1,0 +1,12 @@
+{
+  "title": "Die 30 / 30 / 40 Regel",
+  "subtitle": "Verstehe, warum der Grund, warum du nicht aufsteigst, nicht an Trollen und AFKs liegt, sondern an dir selbst:",
+  "desc_losses": "<span class=\"destaque\">- 30% garantierte Niederlagen („Ungewinnbare“ Spiele):</span> <br>Dies sind die Spiele, in denen dein Team beschließt, zu leaven (ragequit), zu trollen oder in denen einfach alle anderen Lanes komplett zerstört werden. Mathematisch gesehen übersteigt das Gewicht der anderen 4 Spieler deine Fähigkeit zu carryn, selbst wenn du dein absolut Bestes gibst.",
+  "desc_wins": "<span class=\"destaque\">- 30% garantierte Siege („Gecarriede“ Spiele):</span> <br>Das sind die Spiele, in denen dein Top-Laner in fünf Minuten 10/0 steht, der Jungler alle Objectives kontrolliert und das gegnerische Team anfängt, im All-Chat zu flamen. Du könntest schlecht spielen oder sogar AFK in der Base stehen, und dein Team würde trotzdem 4v5 gewinnen.",
+  "desc_impact": "<span class=\"destaque\">- 40% der Spiele hängen von dir ab (Hier solltest du deine Energie bündeln):</span> <br>Dies sind ausgeglichene Matches, in denen beide Teams echte Siegchancen haben. Das Endergebnis wird durch ein Detail entschieden: dein Positioning in einem Teamfight, deine Rotation, deine Vision-Control oder deine Entscheidungsfindung im Late-Game.",
+  "conclusion": "Der Fehler der meisten Leute ist es, tryzuharden, eine Niederlagenserie zu erwischen und deswegen zu tilten. Dann starten sie aus reinem Impuls neue Spiele und verlieren Partien, die eigentlich von ihnen abgehangen hätten, weil sie tiltet sind.",
+  "btn_next": "NÄCHSTER SCHRITT",
+  "label_losses": "Ungewinnbar",
+  "label_impact": "Hängt von dir ab",
+  "label_wins": "Gecarried"
+}

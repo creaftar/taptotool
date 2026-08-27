@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Kreuzworträtsel Online Spielen - Tap to Tool",
+    "description": "Fordern Sie Ihren Verstand mit diesem individuellen Kreuzworträtsel auf Tap to Tool heraus. Lösen Sie Rätsel, finden Sie Wörter und genießen Sie von der Community erstellte Spiele.",
+    "keywords": "Kreuzworträtsel spielen, online Kreuzworträtsel, Rätsel lösen, Wortspiel, Rätselspaß, kostenloses Kreuzworträtsel"
+  },
+  "schema": {
+    "game_name": "Online-Kreuzworträtsel spielen",
+    "description": "Spielen Sie dieses benutzerdefinierte Kreuzworträtsel online auf Tap to Tool. Kostenlos und interaktiv!",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Kreuzworträtsel spielen",
+    "alternateName": "Creaftar Kreuzworträtsel Spiel",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "AUSBLENDEN",
+    "hide_timer": "TIMER AUSBLENDEN",
+    "show_answers": "ANTWORTEN ZEIGEN",
+    "hints_prefix": "DU HAST",
+    "hints_suffix": "HINWEISE",
+    "stats_title": "Statistiken",
+    "total_time": "Gesamtzeit",
+    "chars_typed": "Getippte Zeichen",
+    "hits": "Treffer",
+    "errors": "Fehler",
+    "share": "Teilen",
+    "copy": "KOPIEREN",
+    "back_home": "STARTSEITE",
+    "add_zoom": "VERGRÖSSERN",
+    "remove_zoom": "VERKLEINERN",
+    "print": "DRUCKEN",
+    "completed_msg_prefix": "Du hast bereits",
+    "completed_msg_suffix": "Kreuzworträtsel gelöst!",
+    "other_crosswords": "Andere Kreuzworträtsel"
+  },
+  "index": {
+    "horizontals": "WAAGERECHT",
+    "verticals": "SENKRECHT",
+    "crossword_by": "Kreuzworträtsel von "
+  },
+  "play": {
+    "challenge_prefix": "Herausforderung annehmen! Spiele jetzt das Kreuzworträtsel ",
+    "challenge_suffix": ". Versuche es mit Hinweisen zu lösen wie: ",
+    "challenge_footer": ", und vieles mehr. Bist du bereit?",
+    "kw_cruzadinha": "Kreuzworträtsel über ",
+    "kw_jogo": "Spiel über "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Tägliches Kreuzworträtsel",
+    "next_crossword": "Nächstes tägliches Rätsel in:",
+    "curiosidade": "; Löse Hinweise wie: ",
+    "CTA": ", und vieles mehr. Wirst du es schaffen?",
+    "seo": {
+      "title": "Tägliches Kreuzworträtsel - Die heutige Herausforderung - Tap to Tool",
+      "description": "Löse die heutige Herausforderung! Jeden Tag ein neues kostenloses Kreuzworträtsel, um dein Wissen zu testen und dein Gehirn auf Tap to Tool zu trainieren.",
+      "keywords": "tägliches kreuzworträtsel, rätsel des tages, tägliche herausforderung, wortspiel online, kostenloser zeitvertreib"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Tägliches Kreuzworträtsel",
+      "description": "Jeden Tag ein neues Kreuzworträtsel zum Lösen. Fordere dich täglich mit brandneuen Hinweisen heraus!"
+    },
+    "content": {
+      "h1": "Tägliches Kreuzworträtsel",
+      "subtitle": "Alle 24 Stunden eine neue Herausforderung. Kannst du das heutige Rätsel lösen?",
+      "timer_label": "Zeit für die Aufgabe:",
+      "next_in": "Nächstes Rätsel in:"
+    },
+    "ui": {
+      "start_button": "HERAUSFORDERUNG STARTEN",
+      "check_word": "WORT PRÜFEN",
+      "reveal_letter": "BUCHSTABEN AUFDECKEN",
+      "hints_remaining": "VERBLEIBENDE HINWEISE:",
+      "stats_btn": "MEINE STATISTIKEN",
+      "share_result": "ERGEBNIS TEILEN",
+      "calendar_view": "FRÜHERE RÄTSEL ANSEHEN",
+      "loading": "DAS RÄTSEL DES TAGES WIRD GELADEN..."
+    },
+    "feedback": {
+      "win_title": "Glückwunsch! Herausforderung bestanden!",
+      "win_msg": "Du hast das heutige Kreuzworträtsel gelöst in ",
+      "win_footer": "Komm morgen für ein neues Rätsel wieder!",
+      "error_msg": "Einige Buchstaben sind noch nicht korrekt. Versuche es weiter!"
+    },
+    "social": {
+      "share_text": "Ich habe das tägliche Kreuzworträtsel von Tap to Tool in nur {time} gelöst! Kannst du meine Zeit schlagen?"
+    }
+  }
+}

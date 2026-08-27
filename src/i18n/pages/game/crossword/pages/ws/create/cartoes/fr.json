@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Créer des Mots Mêlés en Ligne",
+    "description": "Créez vos propres mots mêlés personnalisés. Facile, rapide et gratuit.",
+    "keywords": "mots mêlés, mots cachés, créer, générateur, éducation, puzzle"
+  },
+  "schema": {
+    "app_name": "Créer des Mots Mêlés en Ligne",
+    "app_description": "Créez facilement vos propres mots mêlés personnalisés en ligne sur Tap to Tool.",
+    "page_name": "Créer des Mots Mêlés",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Créer des Mots Mêlés",
+    "alternateName": "Creaftar Créateur de Mots Mêlés",
+    "description": "Outil gratuit pour créer des mots mêlés personnalisés en ligne sur Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "error_clipboard": "Essayez de coller avec CTRL + V ou vérifiez si l'accès au presse-papiers est autorisé.",
+    "paste_text": "Cliquez pour coller votre texte",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Bouton pour masquer le menu",
+    "hide_text": "Masquer"
+  },
+  "create_page": {
+    "words_title": "MOTS :",
+    "word_placeholder": "exemple",
+    "add_word_aria": "ajouter un mot",
+    "add_word_btn_aria": "Bouton pour ajouter un mot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Quy Tắc 30 / 30 / 40",
+  "subtitle": "Hiểu rõ lý do tại sao lý do bạn không thể leo rank không phải do troll hay AFK, mà là do chính bạn:",
+  "desc_losses": "<span class=\"destaque\">- 30% Trận Thua Gặp Sẵn (Trận Đấu \"Không Thể Thắng\"):</span> <br>Đó là những trận đấu mà đồng đội của bạn quyết định phá game (troll), thoát trận (ragequit), hoặc đơn giản là tất cả các đường khác bị hủy diệt hoàn toàn. Về mặt toán học, ngay cả khi bạn chơi tốt nhất có thể, gánh nặng từ 4 người chơi còn lại vẫn vượt quá khả năng gánh đội (carry) của bạn.",
+  "desc_wins": "<span class=\"destaque\">- 30% Trận Thắng Gặp Sẵn (Trận Đấu Được \"Gánh\"):</span> <br>Là những trận đấu mà đường trên (top laner) của bạn xanh 10/0 chỉ trong năm phút, người đi rừng kiểm soát mọi mục tiêu và đội địch bắt đầu chửi bới nhau trên chat tổng. Bạn có thể chơi tệ hoặc thậm chí đứng chơi vơi ở bệ đá cổ (base), đội của bạn vẫn sẽ thắng 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% Trận Đấu Phụ Thuộc Vào Bạn (Đây là nơi bạn nên tập trung năng lượng):</span> <br>Là những trận đấu cân bằng, nơi cả hai đội đều có cơ hội chiến thắng thực sự. Kết quả cuối cùng sẽ được quyết định bởi một chi tiết nhỏ: vị trí của bạn trong giao tranh (teamfight), khả năng đảo đường (rotation), kiểm soát tầm nhìn hoặc quyết định của bạn ở giai đoạn muộn (late game).",
+  "conclusion": "Sai lầm của hầu hết mọi người là chơi nghiêm túc, nhưng khi rơi vào chuỗi thua và bị ức chế (tilt), họ lại tiếp tục bấm tìm trận theo cảm tính dẫn đến việc thua luôn cả những trận vốn phụ thuộc vào họ chỉ vì họ đang bị tilt.",
+  "btn_next": "BƯỚC TIẾP THEO",
+  "label_losses": "Bất khả thi",
+  "label_impact": "Phụ thuộc vào bạn",
+  "label_wins": "Được gánh"
+}

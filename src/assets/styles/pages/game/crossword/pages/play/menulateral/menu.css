@@ -1,0 +1,98 @@
+#menu_lateralDesktop, #menu_lateralDesktopZoom{
+	border-radius: 6px;
+	margin-top: 118px; /*112px do h1 + 6px pra dar um espacamento*/
+	max-height: calc(80vh - 118px - 6px);
+	width: 38px;
+	position: absolute;
+	display:flex;
+	z-index: 4;
+}
+#menu_lateralDesktopZoom:hover, #menu_lateralDesktop:hover{
+	border-radius: 0px;
+}
+.menu-icones{
+	z-index: 7;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	box-sizing: content-box; /* Para não contar o padding na largura */
+	scrollbar-width: none; /* Para Firefox */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu-icones::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari e Opera */
+}
+
+.menu-icones > li{
+	background-color: var(--fundo-card);
+	flex-shrink: 0;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	display:flex;
+	align-items: center;
+	font-size: 0.9em;
+	justify-content: center;
+	height:32px; /*40 px do menu - 8 pra dar uma borda*/
+	width: 32px; /*40 px do menu - 8 pra dar uma borda*/
+	position: relative;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+}
+.menu-icones > li:hover{
+	border: solid 1px rgba(var(--padrao), var(--opacidade-forte));
+	border-radius: 6px;
+	cursor:pointer;
+}
+
+.menu-icones > li:not(:hover){
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	border-radius: 3px;
+	/*border: none;*/
+	transition: all 0.3s;
+}
+#lista-absoluta{
+	position: relative;
+	/*border-left: none;*/
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+#div-relativa{
+	position: fixed;
+	transform: translateX(-50%) translateX(-15px);
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	/*display: flex;*/
+	align-items: center;
+	/*padding-right: 12px;
+	padding-left: 12px;
+	opacity: 0;*/
+	height:32px; /*40 px do menu - 6 pra dar uma borda*/
+	visibility: hidden;
+	display: none;
+}
+#lista-absoluta:hover #div-relativa{
+	visibility: visible;
+	opacity: 1.0;
+	transition: opacity 0.6s;
+	display:flex;
+}
+
+.info-icons{
+	z-index:999;
+	position: fixed;
+	transform: translateX(-50%) translateX(-23px);
+	display:none;
+	user-select: none;
+	flex-direction: row;
+	padding: 6px;
+	border-radius: 6px;
+	font-weight: 500;
+	opacity: 1;
+	font-size: 0.8em;
+	color: var(--texto);
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), 0.3);
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

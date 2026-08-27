@@ -1,0 +1,29 @@
+#menu_lateralDesktopZoom{
+	height: 120px;
+	left: 9px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+#menu-icones-left{
+	justify-content: center;
+}
+
+.left{
+	transform: translateX(50%) translateX(23px);
+}
+
+.zoom, #impressora{
+	color: rgba(var(--padrao), 1);
+}
+
+
+@media (min-width: 1025px){
+	#menu_lateralDesktopZoom{
+		left: calc(10% + 9px);
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	}
+}

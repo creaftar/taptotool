@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Jogar Caça-Palavras Online Grátis - Tap to Tool",
+    "description": "Desafie sua mente e melhore sua percepção visual com este caça-palavras exclusivo no Tap to Tool. Encontre as palavras ocultas e divirta-se com jogos criados pela comunidade!",
+    "keywords": "jogar caça-palavras, caça-palavras online, encontrar palavras, jogo de palavras escondidas, passatempo cerebral, caça-palavras grátis, jogos de inteligência"
+  },
+  "schema": {
+    "game_name": "Jogar Caça-Palavras Online",
+    "description": "Jogue este caça-palavras personalizado online no Tap to Tool. Gratuito e interativo!",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Jogar Caça-Palavras",
+    "alternateName": "Creaftar Jogo de Caça-Palavras",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "hide": "OCULTAR",
+    "hide_timer": "OCULTAR CRONÔMETRO",
+    "show_answers": "REVELAR PALAVRAS",
+    "hints_prefix": "VOCÊ POSSUI",
+    "hints_suffix": "DICAS",
+    "stats_title": "Suas Estatísticas",
+    "total_time": "Tempo total",
+    "chars_typed": "Palavras encontradas",
+    "hits": "Acertos",
+    "errors": "Erros",
+    "share": "Compartilhar",
+    "copy": "COPIAR",
+    "back_home": "INÍCIO",
+    "add_zoom": "AUMENTAR ZOOM",
+    "remove_zoom": "DIMINUIR ZOOM",
+    "print": "IMPRIMIR GRID",
+    "completed_msg_prefix": "Você já dominou e completou",
+    "completed_msg_suffix": "caça-palavras!",
+    "other_crosswords": "Outros Caça-Palavras Recomendados"
+  },
+  "index": {
+    "horizontals": "PALAVRAS",
+    "verticals": "LISTA DE PALAVRAS",
+    "crossword_by": "Caça-palavras criado por "
+  },
+  "play": {
+    "challenge_prefix": "Treine seu cérebro! Jogue agora o caça-palavras ",
+    "challenge_suffix": " e teste sua agilidade visual. Tente encontrar palavras escondidas como: ",
+    "challenge_footer": ", e muitas outras. Está pronto para o desafio?",
+    "kw_cruzadinha": "caça-palavras de ",
+    "kw_jogo": "jogo de buscar palavras sobre "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Caça-Palavras Diário",
+    "next_crossword": "Próximo caça-palavras do dia em:",
+    "curiosidade": "; Encontre termos ocultos como: ",
+    "CTA": ", e muito mais. Será que sua visão é rápida o suficiente?",
+    "seo": {
+      "title": "Caça-Palavras Diário - O Desafio Cerebral de Hoje - Tap to Tool",
+      "description": "Pronto para o desafio de hoje? Um caça-palavras inédito e gratuito todos os dias para treinar seu foco, expandir seu vocabulário e acelerar sua mente no Tap to Tool.",
+      "keywords": "caça-palavras diário, jogo do dia, desafio visual diário, encontrar palavras online, passatempo diário grátis"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Caça-Palavras Diário",
+      "description": "Um novo tabuleiro de caça-palavras para resolver todos os dias. Desafie sua percepção visual diariamente com temas inéditos!"
+    },
+    "content": {
+      "h1": "Caça-Palavras Diário",
+      "subtitle": "Uma nova dose de treino mental a cada 24 horas. Você consegue achar todas as palavras de hoje?",
+      "timer_label": "Tempo de busca:",
+      "next_in": "Próximo tabuleiro em:"
+    },
+    "ui": {
+      "start_button": "INICIAR DESAFIO DIÁRIO",
+      "check_word": "CONFERIR SELEÇÃO",
+      "reveal_letter": "REVELAR UMA LETRA",
+      "hints_remaining": "DICAS DISPONÍVEIS:",
+      "stats_btn": "VER MEU DESEMPENHO",
+      "share_result": "COMPARTILHAR RESULTADO",
+      "calendar_view": "VER JOGOS ANTERIORES",
+      "loading": "PREPARANDO O TABULEIRO DO DIA..."
+    },
+    "feedback": {
+      "win_title": "Incrível! Visão de Águia!",
+      "win_msg": "Você encontrou todas as palavras ocultas de hoje em ",
+      "win_footer": "O seu cérebro agradece! Volte amanhã para um novo tabuleiro.",
+      "error_msg": "Algumas marcações não estão corretas ou faltam palavras. Continue procurando!"
+    },
+    "social": {
+      "share_text": "Achei todas as palavras do Caça-Palavras Diário do Tap to Tool em apenas {time}! Duvido você ser mais rápido que eu!"
+    }
+  }
+}

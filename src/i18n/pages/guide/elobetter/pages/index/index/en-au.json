@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - How to Rank Up in League of Legends",
+    "description": "Tired of trolls, AFKs, and smurfs? Learn how to actually climb the ranks with this ultra-compact, no-nonsense guide.",
+    "keywords": "elo, league of legends, gold lol, how to rank up in lol, how to climb, how to get out of silver, how to get out of gold, how to get out of iron, how to get out of bronze, how to get out of platinum, how to get out of diamond, how to get out of master, rank 1 guide"
+  },
+  "schema": {
+    "app_name": "EloBetter - League Ranking Guide",
+    "app_description": "Learn how to rank up in League of Legends with strategies focused on mindset, champion pool, and quality gameplay.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "EloBetter Guide"
+  },
+  "ui": {
+    "price_currency": "AUD"
+  }
+}

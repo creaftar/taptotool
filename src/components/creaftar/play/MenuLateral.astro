@@ -1,0 +1,60 @@
+---
+
+import "@/assets/styles/pages/game/crossword/pages/play/menulateral/menu_direita.css"
+import "@/assets/styles/pages/game/crossword/pages/play/menulateral/menu.css"
+import "@/assets/styles/pages/game/crossword/pages/play/menulateral/menu_esquerda.css"
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/play/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/play/en.json";
+import es from "@/i18n/pages/game/crossword/pages/play/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/play/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/play/it.json";
+import de from "@/i18n/pages/game/crossword/pages/play/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/play/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/play/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/play/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+---
+
+    <aside id="menu_lateralDesktop">
+        <ul class="menu-icones">
+            <li id="clock">
+                <div class="info-icons">{d.ui.hide_timer}</div>
+                <i class="fa-solid fa-clock"></i>
+            </li>
+            <li id="lista-absoluta">
+                <div class="info-icons" id="div-relativa"><input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1" /></div>
+                <i class="fa-solid fa-volume-high audio"></i>
+            </li>
+            <li id="revelar" tabindex="0">
+                <div class="info-icons">{d.ui.hints_prefix} <span id="qtdeDicas">00</span> {d.ui.hints_suffix}</div>
+                <i class="fa-solid fa-lightbulb"></i>
+            </li>
+            <div id="dica-animada">0</div>
+            <li id="gabarito">
+                <div class="info-icons">{d.ui.show_answers}</div>
+                <i class="fa-solid fa-book"></i>
+            </li>
+        </ul>
+    </aside>
+
+    <aside id="menu_lateralDesktopZoom">
+        <ul class="menu-icones" id="menu-icones-left">
+            <li id="zoomadd">
+                <div class="info-icons left">{d.ui.add_zoom}</div>
+                <i class="fa-solid fa-plus zoom"></i>
+            </li>
+            <li id="zoomrmv">
+                <div class="info-icons left">{d.ui.remove_zoom}</div>
+                <i class="fa-solid fa-minus zoom"></i>
+            </li>
+            <li id="impressora">
+                <div class="info-icons left">{d.ui.print}</div>
+                <i class="fa-solid fa-print"></i>
+            </li>
+        </ul>
+    </aside>

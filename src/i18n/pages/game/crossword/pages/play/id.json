@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Main Teka-teki Silang Online - Tap to Tool",
+    "description": "Tantang pikiran Anda dengan teka-teki silang khusus ini di Tap to Tool. Pecahkan teka-teki, temukan kata-kata, dan nikmati permainan yang dibuat oleh komunitas.",
+    "keywords": "main teka-teki silang, tts online, pecahkan tts, permainan kata, teka-teki online, tts gratis"
+  },
+  "schema": {
+    "game_name": "Mainkan Teka-Teki Silang Online",
+    "description": "Mainkan game teka-teki silang online kustom ini di Tap to Tool. Gratis dan interaktif!",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Mainkan Teka-Teki Silang",
+    "alternateName": "Creaftar Game Teka-Teki Silang",
+    "price_currency": "IDR"
+  },
+  "ui": {
+    "hide": "SEMBUNYIKAN",
+    "hide_timer": "SEMBUNYIKAN TIMER",
+    "show_answers": "TAMPILKAN JAWABAN",
+    "hints_prefix": "ANDA PUNYA",
+    "hints_suffix": "PETUNJUK",
+    "stats_title": "Statistik",
+    "total_time": "Waktu total",
+    "chars_typed": "Karakter diketik",
+    "hits": "Benar",
+    "errors": "Salah",
+    "share": "Bagikan",
+    "copy": "SALIN",
+    "back_home": "BERANDA",
+    "add_zoom": "PERBESAR",
+    "remove_zoom": "PERKECIL",
+    "print": "CETAK",
+    "completed_msg_prefix": "Anda telah menyelesaikan",
+    "completed_msg_suffix": "teka-teki silang!",
+    "other_crosswords": "Teka-teki silang lainnya"
+  },
+  "index": {
+    "horizontals": "MENDATAR",
+    "verticals": "MENURUN",
+    "crossword_by": "Teka-teki silang oleh "
+  },
+  "play": {
+    "challenge_prefix": "Terima tantangannya! Mainkan teka-teki silang ",
+    "challenge_suffix": " sekarang. Cobalah pecahkan dengan petunjuk menarik seperti: ",
+    "challenge_footer": ", dan banyak lagi. Apakah Anda siap?",
+    "kw_cruzadinha": "teka-teki silang tentang ",
+    "kw_jogo": "permainan tentang "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Teka Teki Silang Harian",
+    "next_crossword": "TTS harian berikutnya dalam:",
+    "curiosidade": "; Pecahkan petunjuk seperti: ",
+    "CTA": ", dan banyak lagi. Apakah Anda mampu?",
+    "seo": {
+      "title": "Teka-Teki Silang Harian - Tantangan Hari Ini - Tap to Tool",
+      "description": "Selesaikan tantangan hari ini! Teka-teki silang gratis baru setiap hari untuk menguji pengetahuan dan melatih otak Anda di Tap to Tool.",
+      "keywords": "TTS harian, teka-teki silang hari ini, tantangan harian, game kata online, permainan asah otak gratis"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Teka-Teki Silang Harian",
+      "description": "Teka-teki silang baru untuk diselesaikan setiap hari. Tantang diri Anda dengan petunjuk baru setiap harinya!"
+    },
+    "content": {
+      "h1": "Teka-Teki Silang Harian",
+      "subtitle": "Tantangan baru setiap 24 jam. Bisakah kamu menyelesaikan tantangan hari ini?",
+      "timer_label": "Waktu pengerjaan:",
+      "next_in": "Tantangan berikutnya dalam:"
+    },
+    "ui": {
+      "start_button": "MULAI TANTANGAN",
+      "check_word": "CEK KATA",
+      "reveal_letter": "BUKA HURUF",
+      "hints_remaining": "SISA PETUNJUK:",
+      "stats_btn": "LIHAT HASIL SAYA",
+      "share_result": "BAGIKAN HASIL",
+      "calendar_view": "LIHAT TANTANGAN SEBELUMNYA",
+      "loading": "MENYIAPKAN TANTANGAN HARI INI..."
+    },
+    "feedback": {
+      "win_title": "Selamat! Tantangan Selesai!",
+      "win_msg": "Kamu berhasil menyelesaikan TTS hari ini dalam waktu ",
+      "win_footer": "Kembali lagi besok untuk teka-teki baru!",
+      "error_msg": "Beberapa huruf masih belum tepat. Ayo coba lagi!"
+    },
+    "social": {
+      "share_text": "Saya berhasil menyelesaikan Teka-Teki Silang Harian di Tap to Tool hanya dalam {time}! Bisa kalahkan rekor saya?"
+    }
+  }
+}

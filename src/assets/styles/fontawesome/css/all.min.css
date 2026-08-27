@@ -134,12 +134,6 @@
 .fa-plus-square:before,.fa-square-plus:before{
     content:"\f0fe";
 }
-.fa-sun:before{
-    content:"\f185";
-}
-.fa-moon:before{
-    content:"\f186";
-}
 .fa-check-square:before,.fa-square-check:before{
     content:"\f14a";
 }
@@ -213,15 +207,6 @@
 .fa-arrow-right-from-bracket:before {
     content: "\f08b";
 }
-.fa-facebook-f:before {
-    content: "\f39e";
-}
-.fa-x-twitter:before {
-    content: "\e61b";
-}
-.fa-tiktok:before {
-    content: "\e07b";
-}
 .fa-robot:before {
     content: "\f544";
 }
@@ -261,9 +246,6 @@
 }
 .fa-gears:before {
     content: "\f085";
-}
-.fa-bluesky:before {
-    content: "\e671";
 }
 .fa-tumblr:before {
     content: "\f173";
@@ -392,9 +374,6 @@
 }
 .fa-hand:before {
     content: "\f256"
-}
-.fa-paper-plane:before {
-    content: "\f1d8"
 }
 
 /*@media(max-width: 1024px){

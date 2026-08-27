@@ -1,0 +1,244 @@
+@media print{
+	.padrao:root{
+		--opacidade-palavra:1;
+		--logo: rgb(32, 32, 73);
+		--bloco: rgb(178, 178, 255);
+		--aside-temaClaro: #5a5a5a;
+		--aside-temaEscuro: black;
+		--aside-temaCerejeira: #b81265;
+		--aside-temaCarpa: #ff8c00;
+		--aside-voce: rgb(20, 102, 13); 
+		--padrao: 63, 63, 116;
+		--padrao-logo: 116, 63, 116;
+		--feedback-negativo: rgb(233, 124, 124);
+		--fundo-card: rgb(252, 252, 252);
+		/*--fundo-body: whitesmoke;*/
+		--fundo-body: rgba(246, 246, 246, 0.96);
+		--fundo-body-rgb: 246, 246, 246;
+		--hover: rgba(240, 248, 255, 0.418);
+		--texto: black;
+		--aside-navegar: rgb(0, 133, 255);
+		--aside-navegar-rgb: 29, 68, 240;
+		--destaque: rgb(0, 133, 255);
+		--destaque-rgb: 29, 155, 240;
+		--cruzadinha: black;
+		
+		--bg-cruzadinha: rgb(191, 255, 185);
+		--bg-cruzadinhaN: rgb(255, 178, 178);
+		--divAtiva: #dadadaa2;
+		
+		--close-modal:rgb(141, 25, 25);
+		--opacidade-fraca: 0.3;
+		--opacidade-media: 0.4;
+		--opacidade-forte: 0.5;
+
+		--quadrado-cor: 63, 63, 116;
+		--quadrado-cor-jogar: 63, 63, 116;
+		--quadrado-cor-create: 120, 120, 170;
+		
+		--shadow: 63, 63, 116;
+		--borda-copy: 63, 63, 116;
+		
+		--quadrado-cor-jogar: rgb(255, 255, 255);
+		--stroke-cor-jogar: 63, 63, 116;
+	}
+	.dim:root{	
+		--opacidade-palavra:1;
+		--logo: rgb(32, 32, 73);
+		--bloco: rgb(178, 178, 255);
+		--aside-temaClaro: #5a5a5a;
+		--aside-temaEscuro: black;
+		--aside-temaCerejeira: #b81265;
+		--aside-temaCarpa: #ff8c00;
+		--aside-voce: rgb(20, 102, 13); 
+		--padrao: 63, 63, 116;
+		--padrao-logo: 116, 63, 116;
+		--feedback-negativo: rgb(233, 124, 124);
+		--fundo-card: rgb(252, 252, 252);
+		/*--fundo-body: whitesmoke;*/
+		--fundo-body: rgba(246, 246, 246, 0.96);
+		--fundo-body-rgb: 246, 246, 246;
+		--hover: rgba(240, 248, 255, 0.418);
+		--texto: black;
+		--aside-navegar: rgb(0, 133, 255);
+		--aside-navegar-rgb: 29, 68, 240;
+		--destaque: rgb(0, 133, 255);
+		--destaque-rgb: 29, 155, 240;
+		--cruzadinha: black;
+		
+		--bg-cruzadinha: rgb(191, 255, 185);
+		--bg-cruzadinhaN: rgb(255, 178, 178);
+		--divAtiva: #dadadaa2;
+		
+		--close-modal:rgb(141, 25, 25);
+		--opacidade-fraca: 0.3;
+		--opacidade-media: 0.4;
+		--opacidade-forte: 0.5;
+
+		--quadrado-cor: 63, 63, 116;
+		--quadrado-cor-jogar: 63, 63, 116;
+		--quadrado-cor-create: 120, 120, 170;
+		
+		--shadow: 63, 63, 116;
+		--borda-copy: 63, 63, 116;
+		
+		--quadrado-cor-jogar: rgb(255, 255, 255);
+		--stroke-cor-jogar: 63, 63, 116;
+	}
+	.darktheme:root{
+		
+		--opacidade-palavra:1;
+		--logo: rgb(32, 32, 73);
+		--bloco: rgb(178, 178, 255);
+		--aside-temaClaro: #5a5a5a;
+		--aside-temaEscuro: black;
+		--aside-temaCerejeira: #b81265;
+		--aside-temaCarpa: #ff8c00;
+		--aside-voce: rgb(20, 102, 13); 
+		--padrao: 63, 63, 116;
+		--padrao-logo: 116, 63, 116;
+		--feedback-negativo: rgb(233, 124, 124);
+		--fundo-card: rgb(252, 252, 252);
+		/*--fundo-body: whitesmoke;*/
+		--fundo-body: rgba(246, 246, 246, 0.96);
+		--fundo-body-rgb: 246, 246, 246;
+		--hover: rgba(240, 248, 255, 0.418);
+		--texto: black;
+		--aside-navegar: rgb(0, 133, 255);
+		--aside-navegar-rgb: 29, 68, 240;
+		--destaque: rgb(0, 133, 255);
+		--destaque-rgb: 29, 155, 240;
+		--cruzadinha: black;
+		
+		--bg-cruzadinha: rgb(191, 255, 185);
+		--bg-cruzadinhaN: rgb(255, 178, 178);
+		--divAtiva: #dadadaa2;
+		
+		--close-modal:rgb(141, 25, 25);
+		--opacidade-fraca: 0.3;
+		--opacidade-media: 0.4;
+		--opacidade-forte: 0.5;
+
+		--quadrado-cor: 63, 63, 116;
+		--quadrado-cor-jogar: 63, 63, 116;
+		--quadrado-cor-create: 120, 120, 170;
+		
+		--shadow: 63, 63, 116;
+		--borda-copy: 63, 63, 116;
+		
+		--quadrado-cor-jogar: rgb(255, 255, 255);
+		--stroke-cor-jogar: 63, 63, 116;
+	}
+	* {
+        box-sizing: border-box !important;
+    }
+	@page {
+		/* Margem: Topo Direita Baixo Esquerda */
+		margin: 1cm 1cm 1cm 1cm; 
+	}
+	body {
+		height: auto !important; /* Permite que o corpo cresça infinitamente */
+		overflow: visible !important;
+		max-height: unset !important;
+		position: static !important;
+	}
+	nav, #menu_lateralDesktop, #menu_lateralDesktopZoom, #timer{ 
+		display: none !important; 
+	}
+	.ads-Google{
+		display: none !important;
+	}
+	#container-geral-cwd{
+		height: unset !important;
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	#container-h1{
+		width: 100% !important;
+		left: 0 !important;
+		margin-left: 0 !important;
+		top: 0 !important;
+		margin-top: 0 !important;
+		border-right: 0 !important;
+		border-left: none !important;
+	}
+	#container-area-cruzadinhas{
+		position: relative !important;
+		margin-top: 56px !important;
+		height: unset !important;
+		position: relative !important;
+		border: none !important;
+		height: fit-content !important;
+		min-height: fit-content !important;
+		max-height: unset !important;
+	}
+	svg, table, .cell {
+        print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+	rect{
+		print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+	}
+	#area-cruzadinhas {
+		position: relative !important;
+		height: fit-content !important;
+		width: 94% !important;
+		margin-left: 3% !important;
+		border: none !important;
+        overflow: visible !important;
+		order: 1 !important; /* Primeiro o grid */
+    }
+	#container-cruzadinhas{
+		position: relative !important;
+	}
+	#container-vertical_horizontal{
+		border-right: none !important;
+		border-left: none !important;
+		position: relative !important;
+		order: 2 !important;
+		flex-grow: 1;
+	}
+	#VERTICAL, #HORIZONTAL{
+		height: fit-content !important;
+	}
+
+    #container-cruzadinhas {
+        /* Aqui está o segredo: 
+           90vw significa 90% da largura da folha, não importa se é A4, A3 ou Paisagem.
+           O navegador recalcula o 'vw' se o usuário mudar a orientação na caixa de print!
+        */
+        width: 100% !important; 
+        max-width: 100% !important;
+        
+        /* Resetamos o transform do JS da tela para não bugar o papel */
+        transform: none !important; 
+        
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    /* Se o seu grid for um SVG ou Table, ele precisa ocupar 100% desse container */
+    #container-cruzadinhas svg, 
+    #container-cruzadinhas table {
+        width: 100% !important;
+        height: auto !important;
+    }
+	#area-quadrados { 
+        width: 100% !important; 
+    }
+	.svg-container rect{
+		fill: var(--quadrado-cor-jogar) !important;
+		stroke-width: 1px;
+		stroke: rgba(var(--stroke-cor-jogar), 1) !important;
+	}
+	.paragrafos{
+		background-color: transparent;
+		border: none;
+	}
+	.cell text, 
+	.icon-end-topic,
+    .svg-container text{ 
+        visibility: hidden !important;
+    }
+}

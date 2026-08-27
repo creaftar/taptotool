@@ -1,0 +1,227 @@
+---
+import WsLayout from '@/layout/crossword/WsLayout.astro';
+import MenuLateral from '@/components/creaftar/play/MenuLateral.astro';
+import IconeNavBar from "@/components/creaftar/logos/IconeNavBar.astro";
+
+
+import '@/assets/styles/pages/game/crossword/pages//wordsearch/play/play.css';
+import '@/assets/styles/pages/game/crossword/pages//wordsearch/play/cartoes.css';
+import '@/assets/styles/pages/game/crossword/pages//play/vencer.css';
+import '@/assets/styles/pages/game/crossword/pages//play/timer.css';
+
+import '@/assets/styles/pages/game/crossword/pages//play/print.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/ws/play/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/ws/play/en.json";
+import es from "@/i18n/pages/game/crossword/pages/ws/play/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/ws/play/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/ws/play/it.json";
+import de from "@/i18n/pages/game/crossword/pages/ws/play/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/ws/play/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/ws/play/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/ws/play/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+const currentUrl = `https://taptotool.com/${lang == 'en' ? '' : lang + '/'}game/word-search/play/`;
+
+const { url } = Astro;
+
+// IMPORTANTE: Use Astro.url para pegar os parâmetros de busca
+const gameId = url.searchParams.get('cr');
+
+const serverCanonical = currentUrl;
+---
+
+<WsLayout  
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={serverCanonical}
+  pageId="play"
+>
+
+<script type="application/ld+json" id="ldjson-script" slot="ld-json" is:inline set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Game",
+      "@id": `${currentUrl}#game`,
+      "name": d.schema.game_name,
+      "alternateName": d.schema.alternateName || "Creaftar Word Search Game",
+      "description": d.schema.description,
+      "author": { "@id": "https://taptotool.com/#organization" },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.schema.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#game` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema?.breadcrumb_home || "Home",
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema?.breadcrumb_current || d.schema.game_name,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/web-app-manifest-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}></script>
+
+    <div id="traducoes" data-i18n={JSON.stringify(d)}></div>
+
+    <div id="container-menu" slot="containermenu">
+        <button id="menu" aria-label={d.ui.hide}>
+            <i class="fa-solid fa-bars icons"></i>
+        </button>
+        <!--<div id="info">{d.ui.hide}</div> -->
+    </div>
+  
+    <div id="container-vertical_horizontal">
+        <div id="timer">
+            <div id="timerstamp">00:00:00</div>
+            <div id="botoesCronometro">
+                <button id="starttimer"><i class="fa-solid fa-play"></i></button> 
+                <button id="stoptimer"><i class="fa-solid fa-pause"></i></button> 
+                <button id="resettimer"><i class="fa-solid fa-rotate-left"></i></button>
+            </div>
+        </div>
+        <div id="HORIZONTAL" class="container-dicas">
+            <h2 class="title_card">{d.index.horizontals}:</h2>
+            <div id="respostas"></div>
+        </div>
+    </div>
+
+    <MenuLateral />
+
+    <div id="bg-card-vencer">
+        <div class="card-vencer" id="card-vencer_00">
+            <div class="img-card-vencer">
+                <IconeNavBar id="logoNavbar-vencer" />
+            </div>
+            <div class="conteudo-card-vencer">
+                <h3 id="titulo-vencer"></h3>
+                <hr id="hrh3" />
+                <div class="corpo-vencer">
+                    <h4>{d.ui.stats_title}</h4>
+                    <p><i class="fa-solid fa-clock"></i> - {d.ui.total_time}: <span id="tempo-vencer"></span></p>
+                    <p><i class="fa-solid fa-font"></i> - {d.ui.chars_typed}: <span id="caracteres-vencer"></span></p>
+                    <p>
+                        <i class="fa-solid fa-check green"></i> {d.ui.hits}: <span id="acertos-vencer"></span> - 
+                        <i class="fa-solid fa-xmark red"></i> {d.ui.errors}: <span id="erros-vencer"></span>
+                    </p>
+                    <p>{d.ui.completed_msg_prefix} <span id="cruzadinhas-vencer"></span> {d.ui.completed_msg_suffix}</p>
+                    
+                    <div class="compartilhar-vencer">
+                        <h4>{d.ui.share}</h4>
+                        <div class="copiar-vencer">
+                          <input id="input-link-vencer" value="" readonly /> 
+                          <button id="copiar-button-vencer">{d.ui.copy}</button>
+                        </div>
+                        <div class="icones-vencer">
+                            <div class="topico-vencer">
+                                <i class="icons-aside fa-brands fa-x-twitter purple brand"></i>
+                                <div class="purple descricao-topico-vencer">Twitter - X</div>
+                            </div>
+                            <div class="topico-vencer">
+                                <i class="fa-brands fa-reddit"></i>
+                                <div class="purple descricao-topico-vencer">Reddit</div>
+                            </div>
+                            <div class="topico-vencer">
+                                <i class="icons-aside fa-brands fa-facebook-f brand"></i>
+                                <div class="purple descricao-topico-vencer">Facebook</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sugestoes-vencer">
+                        <h4>{d.ui.other_crosswords}</h4>
+                        <div class="container-cruzadinhas-vencer">
+                            <a class="link-vencer"><p class="titulo-link-vencer">Pokémons ➞ região: KANTO</p></a>
+                            <a class="link-vencer"><p class="titulo-link-vencer">Pokémons ➞ região: JOHTO</p></a>
+                            <a class="link-vencer"><p class="titulo-link-vencer">Animais | A - Z</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-card-vencer">
+                  <a href={lang === 'en' ? '/' : `/${lang}`} aria-label={d.ui.back_home} id="botao-voltar-vencer">
+                    {d.ui.back_home}
+                  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        import '@/assets/scripts/pages/game/wordsearch/imports/play.js';
+    </script>
+    
+    <audio id="win-sound" preload="auto"><source src="/assets/audios/game/creaftar/trumpet/trumpet.ogg" type="audio/ogg" /></audio>
+    <audio id="correct-sound" preload="auto"><source src="/assets/audios/game/creaftar/correct-sound.ogg" type="audio/ogg" /></audio>
+    <audio id="wrong-sound" preload="auto"><source src="/assets/audios/game/creaftar/wrong-sound.mp3" type="audio/mp3" /></audio>
+    
+  </WsLayout>

@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Gioca Cruciverba Online - Tap to Tool",
+    "description": "Sfida la tua mente con questo cruciverba personalizzato su Tap to Tool. Risolvi enigmi, trova parole e divertiti.",
+    "keywords": "gioca cruciverba, cruciverba online, risolvere cruciverba, gioco di parole, parole crociate"
+  },
+  "schema": {
+    "game_name": "Gioca alle Parole Crociate Online",
+    "description": "Gioca a questo gioco di parole crociate personalizzato online su Tap to Tool. Gratuito e interattivo!",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Gioca alle Parole Crociate",
+    "alternateName": "Creaftar Gioco di Parole Crociate",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "NASCONDI",
+    "hide_timer": "NASCONDI TIMER",
+    "show_answers": "MOSTRA RISPOSTE",
+    "hints_prefix": "HAI",
+    "hints_suffix": "SUGGERIMENTI",
+    "stats_title": "Statistiche",
+    "total_time": "Tempo totale",
+    "chars_typed": "Caratteri digitati",
+    "hits": "Corrette",
+    "errors": "Errori",
+    "share": "Condividi",
+    "copy": "COPIA",
+    "back_home": "INIZIO",
+    "add_zoom": "AUMENTA ZOOM",
+    "remove_zoom": "RIDUCI ZOOM",
+    "print": "STAMPA",
+    "completed_msg_prefix": "Hai completato",
+    "completed_msg_suffix": "cruciverba!",
+    "other_crosswords": "Altri cruciverba"
+  },
+  "index": {
+    "horizontals": "ORIZZONTALE",
+    "verticals": "VERTICALE",
+    "crossword_by": "Cruciverba di "
+  },
+  "play": {
+    "challenge_prefix": "Accetta la sfida! Gioca subito al cruciverba ",
+    "challenge_suffix": ". Prova a risolverlo con indizi intriganti come: ",
+    "challenge_footer": ", e molto altro ancora. Sei pronto?",
+    "kw_cruzadinha": "cruciverba di ",
+    "kw_jogo": "gioco di "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Cruciverba Quotidiano",
+    "next_crossword": "Prossimo cruciverba giornaliero tra:",
+    "curiosidade": "; Scopri indizi come: ",
+    "CTA": ", e molto altro ancora. Riuscirai a risolverlo?",
+    "seo": {
+      "title": "Cruciverba del Giorno - Sfida di Oggi - Tap to Tool",
+      "description": "Risolvi la sfida di oggi! Un nuovo cruciverba gratuito ogni giorno per mettere alla prova le tue conoscenze e allenare la mente su Tap to Tool.",
+      "keywords": "cruciverba del giorno, parole crociate oggi, sfida quotidiana, gioco di parole online, passatempo giornaliero gratuito"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Cruciverba del Giorno",
+      "description": "Un nuovo enigma di parole crociate da risolvere ogni giorno. Mettiti alla prova con nuovi indizi quotidianamente!"
+    },
+    "content": {
+      "h1": "Cruciverba del Giorno",
+      "subtitle": "Una nuova sfida ogni 24 ore. Riuscirai a risolvere quella di oggi?",
+      "timer_label": "Tempo della sfida:",
+      "next_in": "Prossima sfida tra:"
+    },
+    "ui": {
+      "start_button": "INIZIA LA SFIDA",
+      "check_word": "CONTROLLA PAROLA",
+      "reveal_letter": "RIVELA LETTERA",
+      "hints_remaining": "SUGGERIMENTI RIMASTI:",
+      "stats_btn": "VEDI I MIEI RISULTATI",
+      "share_result": "CONDIVIDI RISULTATO",
+      "calendar_view": "VEDI SFIDE PRECEDENTI",
+      "loading": "PREPARAZIONE DELLA SFIDA DEL GIORNO..."
+    },
+    "feedback": {
+      "win_title": "Congratulazioni! Sfida Completata!",
+      "win_msg": "Hai risolto il cruciverba di oggi in ",
+      "win_footer": "Torna domani per un nuovo enigma!",
+      "error_msg": "Alcune lettere non sono ancora corrette. Continua a provare!"
+    },
+    "social": {
+      "share_text": "Ho risolto il Cruciverba del Giorno di Tap to Tool in soli {time}! Riesci a battere il mio tempo?"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Affiliate-Programm",
+    "description": "Erfahren Sie, wie das Affiliate-Programm von Tap to Tool funktioniert und mehr über unsere Partnerschaft mit führenden E-Commerce-Plattformen.",
+    "keywords": "Affiliate, Tap to Tool, Provision, Online-Shopping, Partner"
+  },
+  "ui": {
+    "h1": "Tap to Tool - Affiliate-Programm",
+    "nav_home": "STARTSEITE",
+    "nav_create": "ERSTELLEN",
+    "nav_partner": "PARTNER"
+  },
+  "content": {
+    "program_title": "Das Programm",
+    "program_text": "Tap to Tool nimmt an einem Affiliate-Programm teil. Das bedeutet: Wenn Sie ein Produkt über einen unserer Werbelinks kaufen, erhalten wir eine kleine Provision, sofern der Verkauf durch unseren Partner bestätigt wird.",
+    "costs_title": "Entstehen für mich zusätzliche Kosten beim Klicken?",
+    "costs_text": "Nein, für Sie entstehen keinerlei zusätzliche Kosten. Der einzige Unterschied besteht darin, dass unser Partner erfährt, dass Sie über unsere Empfehlung auf seine Website gelangt sind, wodurch er uns eine Vergütung auszahlen kann, wie oben beschrieben.",
+    "products_title": "Welche Arten von Produkten werden angeboten?",
+    "products_text": "Wir bemühen uns, durch eine sorgfältige Analyse nur die besten Produkte anzubieten, die thematisch zu unserer Website passen. Wenn Sie weitere Produkte entdecken und uns unterstützen möchten, können Sie",
+    "click_here": "hier klicken",
+    "criteria_intro": "Unsere Auswahlkriterien basieren hauptsächlich auf:",
+    "criterion_1": "Relevanz für Tap to Tool",
+    "criterion_2": "Verkaufszahlen",
+    "criterion_3": "Produktqualität",
+    "criterion_4": "Preis-Leistungs-Verhältnis",
+    "criterion_5": "Zuverlässigkeit",
+    "criterion_6": "Langlebigkeit",
+    "criterion_7": "Kundenbewertungen"
+  }
+}

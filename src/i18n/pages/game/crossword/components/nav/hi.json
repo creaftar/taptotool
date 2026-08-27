@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "होम पेज पर वापस जाएं",
+    "disconnected": "आप लॉग आउट हैं",
+    "connected": "आप लॉग इन हैं",
+    "email_label": "ईमेल:",
+    "password_label": "पासवर्ड:",
+    "confirm_password_label": "पासवर्ड की पुष्टि करें:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "पासवर्ड",
+    "already_have_account": "क्या आपके पास पहले से खाता है?",
+    "no_account": "खाता नहीं है? रजिस्टर करें!",
+    "btn_register": "रजिस्टर करें",
+    "btn_login": "लॉग इन",
+    "btn_logout": "लॉग आउट",
+    "search_crossword_aria": "क्रॉसवर्ड खोजें",
+    "search_placeholder": "क्रॉसवर्ड खोजें",
+    "hide_menu_aria": "मेनू छुपाने का बटन",
+    "hide_menu_text": "मेनू छुपाएं",
+    "expand": "विस्तार करें",
+    "hide": "छुपाएं",
+    "lang_display": "हिन्दी"
+  },
+  "auth_errors": {
+    "invalid_email": "ईमेल पता अमान्य है",
+    "user_not_found": "ईमेल पता नहीं मिला",
+    "wrong_password": "गलत पासवर्ड",
+    "too_many_requests": "लॉगिन के बहुत सारे असफल प्रयास",
+    "network_failed": "नेटवर्क त्रुटि, कृपया फिर से प्रयास करें",
+    "weak_password": "पासवर्ड बहुत कमजोर है",
+    "email_in_use": "यह ईमेल पहले से ही उपयोग में है",
+    "different_credential": "दूसरे क्रेडेंशियल के साथ लॉगिन का प्रयास करें",
+    "operation_not_allowed": "इस ऑपरेशन की अनुमति नहीं है",
+    "internal_error": "सर्वर में आंतरिक त्रुटि",
+    "missing_password": "कृपया पासवर्ड डालें",
+    "invalid_credential": "अमान्य क्रेडेंशियल (अक्सर Google/Twitter/Yahoo लॉगिन के दौरान होता है)",
+    "passwords_dont_match": "पासवर्ड मेल नहीं खाते"
+  }
+}

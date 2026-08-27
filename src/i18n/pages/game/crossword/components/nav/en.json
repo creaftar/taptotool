@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Go to the home page",
+    "disconnected": "You are disconnected",
+    "connected": "You are connected",
+    "email_label": "EMAIL:",
+    "password_label": "PASSWORD:",
+    "confirm_password_label": "CONFIRM PASSWORD:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "password",
+    "already_have_account": "Already have an account?",
+    "no_account": "Don't have an account? Sign up!",
+    "btn_register": "REGISTER",
+    "btn_login": "LOGIN",
+    "btn_logout": "LOGOUT",
+    "search_crossword_aria": "Search crossword",
+    "search_placeholder": "Search crosswords",
+    "hide_menu_aria": "Button to hide the menu",
+    "hide_menu_text": "Hide Menu",
+    "expand": "Expand",
+    "hide": "Hide",
+    "lang_display": "English"
+  },
+  "auth_errors": {
+    "invalid_email": "Invalid email address",
+    "user_not_found": "Email address not found",
+    "wrong_password": "The password provided is incorrect",
+    "too_many_requests": "Too many unsuccessful login attempts",
+    "network_failed": "Network error during authentication",
+    "weak_password": "The password provided is too weak",
+    "email_in_use": "Email address is already in use",
+    "different_credential": "Login attempt with a different provider (e.g., Google)",
+    "operation_not_allowed": "Operation not allowed",
+    "internal_error": "Internal error in the authentication server",
+    "missing_password": "Please enter your password",
+    "invalid_credential": "Invalid credential (usually occurs when migrating your account to providers like Google, Twitter, or Yahoo)",
+    "passwords_dont_match": "Passwords do not match"
+  }
+}

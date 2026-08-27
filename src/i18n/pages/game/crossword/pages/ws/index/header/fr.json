@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Mots Mêlés",
+    "results_found": "grilles trouvées",
+    "no_results": "Aucune grille trouvée"
+  },
+  "daily": {
+    "banner": "Jouer aux mots mêlés quotidiens",
+    "title": "Mots Mêlés Quotidiens",
+    "next": "Nouveaux mots mêlés dans :"
+  }
+}

@@ -1,0 +1,6 @@
+---
+const { lang = "en-us" } = Astro.props;
+
+const t = await import(`../../i18n/pages/index/banner/${lang}.json`).then(m => m.default);
+---
+<div data-i18n={JSON.stringify(t)} id="i18n"></div>

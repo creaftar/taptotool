@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Kreuzworträtsel",
+    "results_found": "Rätsel gefunden",
+    "no_results": "Keine Rätsel gefunden"
+  },
+  "daily": {
+    "banner": "Tägliches Kreuzworträtsel spielen",
+    "title": "Tägliches Kreuzworträtsel",
+    "next": "Nächstes Rätsel in:"
+  }
+}

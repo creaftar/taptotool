@@ -1,0 +1,95 @@
+.container-monochampion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    isolation: isolate;
+    padding: 30px 0 0 30px;
+    background-image: 
+        var(--svg-onda),
+        linear-gradient(to bottom, rgba(var(--fundo), 0.45) 0%, transparent 30px),
+        linear-gradient(rgba(var(--fundo-alternativo), 1), rgba(var(--fundo-alternativo), 0.9));
+    background-repeat: repeat-x, no-repeat, no-repeat;
+    background-position: 0 top, top center, center;
+    background-size: auto 15px, 100% 40px, 100% 100%;
+    will-change: transform;
+    animation: moverOnda 150s linear infinite;
+}
+.container-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 1;
+}
+#truedamage-bg{
+    display: flex;
+    max-width: 100%;
+    order: 1;
+    max-height: 450px;
+}
+#img-monochampions{
+    fill: rgba(var(--fundo), 1);
+}
+
+.li-monochampion{
+    text-align: justify;
+    padding: 6px;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.li-monochampion.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+.container-buttons-monochampions{
+    display: flex;
+    gap: 9px;
+    height: 30%;
+    align-items: center;
+}
+.next-step{
+    height: fit-content;
+}
+
+@media screen and (max-width: 1359px){
+    .container-monochampion{
+        flex-direction: column;
+        height: fit-content;
+        animation: moverOnda 30s linear infinite;
+        padding: 12px 12px 0 12px;
+    }
+    .container-conteudo{
+        justify-content: flex-start;
+        padding: 24px;
+        flex-direction: column;
+    }
+    
+    #truedamage-bg{
+        order: 1;
+        height: unset;
+        max-width: 100%;
+        bottom: 0;
+        z-index: 0;
+    }
+}
+/* PASSO 3: Ajuste no @keyframes para mover APENAS o primeiro background (a onda) */
+@keyframes moverOnda {
+    from {
+        background-position: 0 top, top center, center;
+    }
+    to {
+        background-position: 100% top, top center, center; 
+    }
+}
+
+.fa-rotate-back:before,
+.fa-rotate-backward:before,
+.fa-rotate-left:before,
+.fa-undo-alt:before {
+    content: "\f2ea"
+}

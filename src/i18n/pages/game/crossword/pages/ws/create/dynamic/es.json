@@ -1,0 +1,11 @@
+{
+  "js_messages": {
+    "move_allow": "PERMITIR MOVIMIENTO DE LA PALABRA",
+    "move_block": "BLOQUEAR MOVIMIENTO DE LA PALABRA",
+    "auto_pos_enabled": "HABILITADO: POSICIONAR TODAS LAS PALABRAS AUTOMÁTICAMENTE",
+    "auto_pos_disabled": "BLOQUEADO: POSICIONAR TODAS LAS PALABRAS AUTOMÁTICAMENTE",
+    "toggle_direction": "ALTERNAR ENTRE VERTICAL Y HORIZONTAL",
+    "req_min_words": "REQUISITOS: 5 palabras creadas, título completado",
+    "req_registration": "REQUISITOS: Regístrate para guardar tu sopa de letras"
+  }
+}

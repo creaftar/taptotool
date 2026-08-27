@@ -1,0 +1,25 @@
+{
+  "graph_title": "Cantitate vs. Calitate",
+  "graph_subtitle": "Află limita exactă de meciuri zilnice για a-ți menține win rate-ul ridicat în ELO-ul actual și verifică din nou la fiecare rank up",
+  "axis_y_title": "Win Rate %",
+  "game_1": "Meciul 1",
+  "game_3": "Meciul 3",
+  "game_5": "Meciul 5",
+  "game_8": "Meciul 8+",
+  "axis_x_title": "Meciuri Jucate",
+  "tier_ferro": "Iron/Bronze",
+  "tier_prata": "Silver",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Emerald",
+  "tier_diamante": "Diamond",
+  "tier_mestre": "Master+",
+  "js_default_text": "Treci με mouse-ul peste un ELO pentru a vedea analiza de ritm.",
+  "js_texts": {
+    "mestre": "<strong>Master+: High Performance Absolut.</strong> Aici micro-greșelile te costă tot meciul. Peak-ul tău este de maxim 2 meciuri; de la al 3-lea încolo, oboseala decizională îți va distruge complet câștigurile de LP.",
+    "diamante": "<strong>Diamond: Consistența este Cheia.</strong> Poți să rămâi focusat în jur de 3-4 meciuri. Dacă forțezi sesiuni lungi, intri pe 'autopilot' – cel mai mare inamic al climb-ului în High ELO.",
+    "esmeralda": "<strong>Plat & Emerald: ELO-urile de Mental Break.</strong> Mecanica ta ține până la al 4-lea meci, dar reziliența psihică scade rapid. Protejează-ți ELO-ul: dacă pierzi două la rând, dă-i alt+f4 și lasă-l.",
+    "ouro": "<strong>Gold: Echilibru Intermediar.</strong> Poți duce un volum decent (până la 5-6 meciuri) pentru că throw-urile nu sunt pedepsite instant, dar focusul tău pe macro începe să dispară spre final.",
+    "prata": "<strong>Silver: Volum de Învățare.</strong> Oboseala nu îți afectează prea mult win rate-ul aici, deoarece acest tier nu cere un focus constant pe macro. Merită să spamezi meciuri pentru a-ți pune la punct fundamentele mecanice.",
+    "ferro": "<strong>Iron/Bronze: Forță Brută.</strong> Oboseala nu este un factor limitator aici. Decât să-ți faci griji pentru mental, mai bine dai /mute all, strângi experiență de joc și testezi limitele campionilor. Poți băga sesiuni lungi fără probleme."
+  }
+}

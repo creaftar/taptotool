@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Wortsuchrätsel Online Erstellen",
+    "description": "Erstellen Sie Ihre eigenen benutzerdefinierten Wortsuchrätsel. Einfach, schnell und kostenlos.",
+    "keywords": "wortsuchrätsel, erstellen, generator, bildung, rätsel, wortsuche"
+  },
+  "schema": {
+    "app_name": "Online-Wortsuchrätsel erstellen",
+    "app_description": "Erstellen Sie ganz einfach Ihre eigenen individuellen Wortsuchrätsel online auf Tap to Tool.",
+    "page_name": "Wortsuchrätsel erstellen",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Wortsuchrätsel erstellen",
+    "alternateName": "Creaftar Wortsuchrätsel Ersteller",
+    "description": "Kostenloses Tool zum Erstellen von individuellen Online-Wortsuchrätseln auf Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "error_clipboard": "Versuchen Sie es mit Strg + V oder prüfen Sie, ob der Zugriff auf die Zwischenablage erlaubt ist.",
+    "paste_text": "Zum Einfügen klicken",
+    "paste_shortcut": "Strg + V",
+    "hide_menu_aria": "Schaltfläche zum Ausblenden des Menüs",
+    "hide_text": "Ausblenden"
+  },
+  "create_page": {
+    "words_title": "WÖRTER:",
+    "word_placeholder": "beispiel",
+    "add_word_aria": "Wort hinzufügen",
+    "add_word_btn_aria": "Schaltfläche zum Hinzufügen eines Wortes"
+  }
+}

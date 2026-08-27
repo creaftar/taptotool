@@ -1,0 +1,165 @@
+---
+interface Props {}
+
+/*export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}*/
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/ws/create/modals/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/ws/create/modals/en.json";
+import es from "@/i18n/pages/game/crossword/pages/ws/create/modals/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/ws/create/modals/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/ws/create/modals/it.json";
+import de from "@/i18n/pages/game/crossword/pages/ws/create/modals/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/ws/create/modals/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/ws/create/modals/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/ws/create/modals/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+---
+
+<div class="container-modal">
+    <div class="modal-salvar elemento-invisivel">
+        <div class="fechar-salvar-modal"><i class="fa-solid fa-xmark close-salvar"></i></div>
+        <div class="conteudo-salvar">
+            <h3 class="titulo-modal" id="h3-salvar-moodal">{d.modal_save.title}</h3>
+            <div id="container-input-emoji-salvar">
+                <input 
+                id="titulo-input" 
+                maxlength="36" 
+                placeholder=`📚 ${d.modal_save.placeholder}` 
+                />
+                
+                <div id="container-emojis-salvar">
+                    <button id="btn-emoji-salvar">
+                        🙂
+                    </button>
+                    <div id="preview-card-emojis" class="elemento-invisivel">
+                        <div id="container-grid-emojis"></div>
+                        <div id="footer-emojis-salvar">
+                            <button class="tab-btn" data-categoria="Populares">🔥</button>
+                            <button class="tab-btn" data-categoria="Rostos">😊</button>
+                            <button class="tab-btn" data-categoria="Natureza">🐶</button>
+                            <button class="tab-btn" data-categoria="Comida">🍎</button>
+                            <button class="tab-btn" data-categoria="Corpo">👕</button>
+                            <button class="tab-btn" data-categoria="Atividades">🎮</button>
+                            <button class="tab-btn tab-btn-last" data-categoria="Lugares">🏠</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--{import.meta.env.DEV && (
+                <div class="container-input-postar">
+                    <label>Data da Diária:</label>
+                    <input type="date" id="input-data-diaria" />
+                </div>
+            )}-->
+            
+            <div class="area-postagem">
+                <div class="container-input-postar">
+                    <h3 class="titulo-modal">
+                        <span class="destacado"><i class="fa-solid fa-lightbulb"></i></span><div class="titulo-com-dica-save">{d.modal_save.hints_question} 
+                        <span class="observacao">{d.modal_save.hints_obs}</span></div>
+                    </h3>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoDicas" name="desejoxnaoDicas" value="desejoDicas" checked>
+                        <label class="labelPostar" for="desejoDicas">{d.modal_save.hints_yes}</label>
+                    </div>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoNaoDicas" name="desejoxnaoDicas" value="desejoNaoDicas">
+                        <label class="labelPostar" for="desejoNaoDicas">{d.modal_save.hints_no}</label>
+                    </div>
+                </div>
+
+                <div class="container-input-postar">
+                    <h3 class="titulo-modal">
+                        <span class="destacado"><i class="fa-solid fa-book"></i></span><div class="titulo-com-dica-save">{d.modal_save.answer_key_question} 
+                        <span class="observacao">{d.modal_save.answer_key_obs}</span></div>
+                    </h3>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoGabarito" name="desejoxnaoGabarito" value="desejoGabarito" checked>
+                        <label class="labelPostar" for="desejoGabarito">{d.modal_save.answer_key_yes}</label>
+                    </div>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoNaoGabarito" name="desejoxnaoGabarito" value="desejoNaoGabarito">
+                        <label class="labelPostar" for="desejoNaoGabarito">{d.modal_save.answer_key_no}</label>
+                    </div>
+                </div>
+
+                <!--<div class="container-input-postar">
+                    <h3 class="titulo-modal">
+                        <a href="https://bsky.app/profile/creaftarbrasil.bsky.social" target="_blank" class="link-copy destacado" aria-label="Go to bluesky website"><i class="icons-divulgar fa-brands fa-bluesky brand"></i></a>
+                        {d.modal_save.share_question}
+                    </h3>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoPostar" name="desejoxnaoPostar" value="desejoPostar" checked>
+                        <label class="labelPostar" for="desejoPostar">{d.modal_save.share_yes}</label>
+                    </div>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoNaoPostar" name="desejoxnaoPostar" value="desejoNaoPostar">
+                        <label class="labelPostar" for="desejoNaoPostar">{d.modal_save.share_no}</label>
+                    </div>
+                </div>-->
+            </div>
+            <button id="salvarmodal" aria-label="Botão para salvar sua cruzadinha">{d.modal_save.save_button}</button>
+        </div>
+    </div>
+
+    <div id="requisitos-salvar" class="requisitos elemento-invisivel">
+        <i class="fa-solid fa-ban left-icon left-icon-red"></i>
+        <p id="texto-requisitos">{d.modal_save.requirements_alert}</p>
+        <div class="fechar-salvar alert"><i class="fa-solid fa-xmark close-modal"></i></div>
+        <div class="loadBarMsg loadBarMsgERROR"></div>
+    </div>
+</div>
+
+<div class="container-modal">
+    <div class="modal-salvar elemento-invisivel modal-gerar">
+        <div class="fechar-salvar-modal"><i class="fa-solid fa-xmark close-salvar"></i></div>
+        <div class="conteudo-salvar">
+            <h3 class="titulo-modal traduzirbody">{d.modal_generate.theme_title}</h3>
+            <input id="titulo-creaftarIA" maxlength="36" placeholder={d.modal_generate.theme_placeholder} /> 
+            <div class="slider-container">
+                <div class="container-qtde">
+                    <label for="numberSlider">{d.modal_generate.word_quantity}</label><span id="sliderValue"> 12</span>
+                </div>
+                <input type="range" id="numberSlider" min="5" max="30" value="12" step="1" />
+                <div class="setinhas-numberslider">
+                    <div class="setinhas" id="decreaseBtn">
+                        <i class="fa-solid fa-angle-left fa-lg recuar-avancar-icon"></i>
+                    </div>
+                    <div class="setinhas" id="increaseBtn">                    
+                        <i class="fa-solid fa-angle-right fa-lg recuar-avancar-icon"></i>
+                    </div>
+                </div>
+            </div>                                     
+            <button id="gerar-creaftarIA" aria-label="Botão para gerar uma nova cruzadinha">{d.modal_generate.generate_button}</button>                    
+            <div class="progress-container" id="gerar_progresso_ia">
+                <div class="progress-bar"></div>
+            </div>                    
+        </div>
+    </div>
+</div>
+
+<div class="container-modal">
+    <div class="requisitos elemento-invisivel" id="container-texto-vazio-copy">
+        <i class="fa-regular fa-clipboard left-icon"></i>
+        <p id="texto-vazio-copy" class="texto-req">{d.copy.requirements_alert}</p>
+        <div class="fechar-salvar alert" id="fechar-modal"><i class="fa-solid fa-xmark close-modal"></i></div>
+        <div class="loadBarMsg"></div>
+    </div>
+</div>

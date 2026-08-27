@@ -1,0 +1,18 @@
+{
+  "title": "Mentalitatea Corectă",
+  "main_card_title": "Ce este Destabilizarea Emoțională (Tilt)",
+  "card_1_title": "Mecanismul",
+  "card_2_title": "Impactul",
+  "card_3_title": "Când Apare",
+  "card_4_title": "Ce e de Făcut",
+  "warning_text": "⚠️ În toate jocurile tale vei da mute la chat (atât cel al aliaților, cât și al inamicilor) și vei opri emotisloanele inamice pentru a evita distragerile",
+  "img_alt": "Cum să oprești chat-ul în joc",
+  "img_subtext": "Păstrează această configurație de mai sus (asigură-te că bifezi și caseta pentru emoticoane)",
+  "js_texts": [
+    "",
+    "Amygdala preia controlul. (Partea creierului responsabilă de răspunsurile emoționale de tip „luptă sau fugi”)",
+    "Dezactivează temporar cortexul prefrontal, care este zona creierului responsabilă de gândirea logică, planificare și controlul impulsurilor. <span class=\"destaque\">Te oprești din gândit și începi doar să reacționezi.</span>",
+    "Te tiltezi atunci când vrei ca jocul să se desfășoare într-un anumit fel, dar acțiunile aliaților sau inamicilor tăi îți arată că nu deții controlul asupra meciului.",
+    "Când observi acest lucru, cea mai bună decizie tehnică pe care o poți lua este să pui pauză, să respiri adânc și să te îndepărtezi de joc pentru un timp, până când cortexul prefrontal reia controlul."
+  ]
+}

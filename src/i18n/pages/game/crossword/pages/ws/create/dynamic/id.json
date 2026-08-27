@@ -1,0 +1,11 @@
+{
+  "js_messages": {
+    "move_allow": "IZINKAN PERGERAKAN KATA",
+    "move_block": "KUNCI PERGERAKAN KATA",
+    "auto_pos_enabled": "AKTIF: POSISIKAN SEMUA KATA OTOMATIS",
+    "auto_pos_disabled": "TERKUNCI: POSISIKAN SEMUA KATA OTOMATIS",
+    "toggle_direction": "GANTI ANTARA VERTIKAL DAN HORIZONTAL",
+    "req_min_words": "SYARAT: 5 kata dibuat, judul diisi",
+    "req_registration": "SYARAT: Daftar untuk menyimpan cari kata Anda"
+  }
+}

@@ -1,0 +1,65 @@
+---
+import "@/assets/styles/pages/guide/elobetter/pages/index/myaccount.css";
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+
+const t = await import(`../../../i18n/pages/guide/elobetter/pages/index/myaccount/${lang}.json`).then(m => m.default);
+const tc = await import(`../../../i18n/pages/guide/elobetter/pages/index/curso/curso/${lang}.json`).then(m => m.default);
+---
+
+<section 
+  class="container-account" 
+  data-lang={lang}
+  data-translations={JSON.stringify(t)}
+  data-translationscurso={JSON.stringify(tc.myaccount)}
+  id="myaccount"
+  aria-live="polite"
+  itemscope 
+  itemtype="https://schema.org/Person"
+>
+  <div id="container-perfil-infos">
+    <div id="container-img-nivel">
+      <div id="container-img-perfil"></div>
+      <p id="perfil-nivel">...</p>
+    </div>
+    <div class="perfil-infos">
+      <div class="container-nickname">
+        <p id="nickname" class="skeleton-text"></p>
+        <span id="tag-br1" class="skeleton-text"></span>
+        <div class="container-perfil-button">
+          <button id="copiar-perfil" class="perfil-button" aria-label={tc.copy_profile_nick}>
+            <i class="fa-regular fa-copy"></i>
+          </button>
+          <button id="atualizar-perfil" class="perfil-button disabled" disabled aria-label={tc.update_profile}>
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </button>
+        </div>
+      </div>
+      <div class="container-elo">
+        <div id="elo-perfil">
+        </div>
+        <div>
+          <div class="linha">
+            <p id="tier-perfil-name"></p>
+            <p id="tier-perfil-division"></p>
+            <p id="tier-perfil-lp"></p>
+          </div>
+          <p class="winrate-perfil">
+            <span id="tier-perfil-win">0</span>{t.win_symbol || "W"} / 
+            <span id="tier-perfil-losses">0</span>{t.loss_symbol || "L"}
+          </p>
+          <p class="winrate-perfil" id="tier-perfil-winrate">{t.winrate}</p>
+        </div>
+      </div>
+      <p id="atualizacao-perfil"></p>
+    </div>
+  </div>
+</section>
+
+<script>
+  import '@/assets/scripts/pages/guide/elobetter/scripts/index/account/interface.js';
+</script>

@@ -1,0 +1,96 @@
+---
+interface Props {}
+
+import "@/assets/styles/pages/game/crossword/pages/create/menulateral/menu_direita.css"
+import "@/assets/styles/pages/game/crossword/pages/create/menulateral/menu.css"
+import "@/assets/styles/pages/game/crossword/pages/create/menulateral/menu_esquerda.css"
+
+/*export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}*/
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/create/menulateral/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/create/menulateral/en.json";
+import es from "@/i18n/pages/game/crossword/pages/create/menulateral/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/create/menulateral/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/create/menulateral/it.json";
+import de from "@/i18n/pages/game/crossword/pages/create/menulateral/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/create/menulateral/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/create/menulateral/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/create/menulateral/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+---
+<aside id="menu_lateralDesktop">
+    <ul class="menu-icones">
+        <li id="botao-menu-avancado" class="lista-menu-lateral-create">
+            <div class="info-icons">{d.sidebar.advanced_config}</div>
+            <i class="fa-solid fa-gears fa-lg"></i>
+        </li>
+        <ul id="menu-avancado" class="elemento-invisivel">
+            <li id="interruptor" class="lista-menu-lateral-create">
+                <div class="info-icons">{d.sidebar.edit_word}</div>
+                <i class="fa-regular fa-pen-to-square fa-lg"></i>
+            </li>
+            <li id="palavraeditavel" class="lista-menu-lateral-create">
+                <div class="info-icons">{d.sidebar.word_to_edit}</div>
+                <div id="numeditavel">0</div>
+            </li>
+            <li id="avancar" class="lista-menu-lateral-create">
+                <div class="info-icons">{d.sidebar.next_word}</div>
+                <i class="fa-solid fa-angle-right fa-lg recuar-avancar-icon"></i>
+            </li>
+            <li id="recuar" class="lista-menu-lateral-create">
+                <div class="info-icons">{d.sidebar.prev_word}</div>
+                <i class="fa-solid fa-angle-left fa-lg recuar-avancar-icon"></i>
+            </li>
+            <li id="verthoriz" class="lista-menu-lateral-create">
+                <div class="info-icons">{d.sidebar.toggle_direction}</div>
+                <i class="fa-solid fa-grip fa-lg verthoriz-icon"></i>
+            </li>
+            <li id="gerar" class="lista-menu-lateral-create">
+                <div class="info-icons">{d.sidebar.auto_position}</div>
+                <i class="fa-solid fa-object-ungroup fa-lg"></i>
+            </li>
+        </ul>
+        <li id="creaftarIA" class="lista-menu-lateral-create">
+            <div class="info-icons">{d.sidebar.ai_generate}</div>
+            <i class="fa-solid fa-robot fa-lg gerar-icon"></i>
+        </li>
+        <li id="salvar" class="lista-menu-lateral-create">
+            <div class="info-icons">{d.sidebar.save_crossword}</div>
+            <i class="fa-solid fa-box-open fa-lg salvar-icon"></i>
+        </li>
+    </ul>
+</aside>
+
+<aside id="menu_lateralDesktopZoom">
+    <ul class="menu-icones" id="menu-icones-left">
+        <li id="zoomadd">
+            <div class="info-icons left">{d.sidebar.zoom_in}</div>
+            <i class="fa-solid fa-plus zoom"></i>
+        </li>
+        <li id="zoomrmv">
+            <div class="info-icons left">{d.sidebar.zoom_out}</div>
+            <i class="fa-solid fa-minus zoom"></i>
+        </li>
+        <li id="pergunta" class="brilhanteLi">
+            <div class="info-icons left">{d.sidebar.tutorial}</div>
+            <i class="fa-solid fa-clipboard-question fa-lg brilhante askIcon"></i>
+        </li>
+    </ul>
+</aside>

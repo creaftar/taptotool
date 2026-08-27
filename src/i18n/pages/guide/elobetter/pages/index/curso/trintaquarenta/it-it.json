@@ -1,0 +1,12 @@
+{
+  "title": "La Regola del 30 / 30 / 40",
+  "subtitle": "Capire perché il motivo per cui non sali di rank non sono i troll e gli AFK, ma tu stesso:",
+  "desc_losses": "<span class=\"destaque\">- 30% di Sconfitte Garantite (Partite \"Impossibili\"):</span> <br>Sono quelle partite in cui il tuo team decide di fare ragequit, trollare o semplicemente tutte le altre corsie vengono distrutte. Matematicamente, anche se giochi al tuo meglio, il peso degli altri 4 giocatori supera la tua capacità di carryare.",
+  "desc_wins": "<span class=\"destaque\">- 30% di Vittorie Garantite (Partite \"Carryate\"):</span> <br>Sono i game in cui il tuo top laner va 10/0 in cinque minuti, il jungler controlla tutti gli obiettivi e il team nemico inizia a litigare in chat globale. Potresti giocare male o persino stare AFK in base, e il tuo team vincerebbe comunque 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% di Partite che Dipendono da Te (Qui è dove devi concentrare le tue energie):</span> <br>Sono match equilibrati in cui entrambi i team hanno reali possibilità di vittoria. Il risultato finale sarà deciso da un dettaglio: il tuo posizionamento in un teamfight, la tua rotazione, il tuo controllo della visione o la tua presa di decisione nel late game.",
+  "conclusion": "L'errore della maggior parte delle persone è tryhardare, entrare in una scia di sconfitte e tiltare per questo motivo, avviando nuove partite d'impulso e perdendo game che dipendevano da loro proprio perché sono tiltati.",
+  "btn_next": "PASSO SUCCESSIVO",
+  "label_losses": "Impossibili",
+  "label_impact": "Dipendono da te",
+  "label_wins": "Carryate"
+}

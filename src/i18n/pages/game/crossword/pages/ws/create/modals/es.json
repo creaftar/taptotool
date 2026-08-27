@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "TÍTULO DE TU SOPA DE LETRAS:",
+    "placeholder": "Sopa de letras",
+    "hints_question": "¿QUIERES ACTIVAR PISTAS PARA TU JUEGO?",
+    "hints_obs": "(Puedes cambiar esta opción más tarde en cualquier momento)",
+    "hints_yes": "Sí, quiero activar pistas para mi sopa de letras",
+    "hints_no": "No activar pistas para mi sopa de letras",
+    "answer_key_question": "¿QUIERES CREAR UN GABARITO (SOLUCIONES)?",
+    "answer_key_obs": "(El gabarito permite que los jugadores vean las respuestas; puedes cambiar esto después)",
+    "answer_key_yes": "Sí, quiero crear un gabarito para mi sopa de letras",
+    "answer_key_no": "No crear un gabarito",
+    "share_question": "¿TE GUSTARÍA COMPARTIR TU SOPA DE LETRAS EN NUESTRAS REDES SOCIALES?",
+    "share_yes": "Sí, quiero compartir mi sopa de letras en los canales de Creaftar",
+    "share_no": "No compartir mi sopa de letras",
+    "save_button": "GUARDAR",
+    "requirements_alert": "ATENCIÓN: Guardar solo está disponible para usuarios registrados"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA DE LA SOPA DE LETRAS",
+    "theme_placeholder": "Sopa de letras",
+    "word_quantity": "Cantidad de palabras",
+    "generate_button": "GENERAR"
+  },
+  "copy": {
+    "modal_preview": "VISTA PREVIA",
+    "warning_main": "No te preocupes por las verticales y horizontales, solo sigue los formatos de abajo",
+    "your_text": "Tu Texto:",
+    "detector_stats": "{words} palabras / {clues} pistas",
+    "placeholder": "¡Pega tu texto aquí!",
+    "expected_formats": "Formatos Esperados:",
+    "btn_generate": "MI TEXTO TIENE UN FORMATO ESPERADO",
+    "words_suffix": "palabras",
+    "clues_suffix": "pistas",
+    "examples": {
+      "dog": "perro",
+      "cat": "gato",
+      "bat": "murciélago",
+      "elephant": "elefante",
+      "kangaroo": "canguro",
+      "desc_dog": "El mejor amigo del hombre",
+      "desc_cat": "Le gusta cazar ratones",
+      "desc_bat": "Mamífero que vuela",
+      "desc_elephant": "Tiene una trompa",
+      "desc_kangaroo": "Gran marsupial"
+    },
+    "requirements_alert": "¡Ops! Parece que no has pegado nada, copia un texto e inténtalo de nuevo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "js_messages": {
+    "describe_prefix": "Describe here what it would be ",
+    "move_allow": "ALLOW WORD MOVEMENT",
+    "move_block": "LOCK WORD MOVEMENT",
+    "auto_pos_enabled": "ENABLED: POSITION ALL WORDS AUTOMATICALLY",
+    "auto_pos_disabled": "LOCKED: POSITION ALL WORDS AUTOMATICALLY",
+    "toggle_direction": "TOGGLE BETWEEN VERTICAL AND HORIZONTAL",
+    "req_min_words": "REQUIREMENTS: 5 words created, title filled in",
+    "req_registration": "REQUIREMENTS: Register to save your crossword"
+  }
+}

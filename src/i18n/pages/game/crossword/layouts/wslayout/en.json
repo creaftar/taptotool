@@ -1,0 +1,12 @@
+{
+  "seo": {
+    "title": "Create Word Search Puzzles Online - Tap to Tool",
+    "description": "Create your own custom word search puzzles, edit or delete as you wish. Generate printable or online word searches that everyone can play from anywhere!",
+    "keywords": "create word search, make word search, word search maker, online word search generator, custom word search, create word find puzzles, word search creator, build word search online, generate word search, make word search online, free word search maker, word search printables, how to make a word search, site to create word search, app to make word search, word puzzle maker, create word seek puzzle, set up online word search, word search puzzle for kids, classroom word search generator, custom word find, generate word puzzles"
+  },
+  "ui": {
+    "h1": "New Word Search",
+    "minimize_aria": "Button to minimize word cards and content",
+    "zoom_note": "Use the + and - buttons on the left to adjust the word search zoom."
+  }
+}

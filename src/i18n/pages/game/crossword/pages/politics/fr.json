@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Programme d'Affiliation",
+    "description": "Découvrez le fonctionnement du programme d'affiliation de Tap to Tool et notre partenariat avec les plus grandes plateformes de commerce électronique.",
+    "keywords": "affiliation, Tap to Tool, commission, achats en ligne, partenaire"
+  },
+  "ui": {
+    "h1": "Tap to Tool - Programme d'affiliation",
+    "nav_home": "ACCUEIL",
+    "nav_create": "CRÉER",
+    "nav_partner": "PARTENAIRE"
+  },
+  "content": {
+    "program_title": "Le Programme",
+    "program_text": "Tap to Tool participe à un programme d'affiliation. Cela signifie que lorsque vous achetez un produit en cliquant sur l'une de nos publicités, nous recevons un petit pourcentage de commission, à condition que la vente soit validée par notre partenaire.",
+    "costs_title": "Y aura-t-il des frais supplémentaires si je clique sur un produit ?",
+    "costs_text": "Non, vous n'aurez aucun frais supplémentaire. La seule différence est que notre partenaire saura que vous avez accédé à son site via nos recommandations, ce qui lui permet de nous rémunérer, comme expliqué précédemment.",
+    "products_title": "Quels types de produits sont proposés ?",
+    "products_text": "Nous nous efforçons, grâce à une analyse approfondie, de proposer les meilleurs produits qui sont en accord avec la thématique de notre site. Si vous souhaitez découvrir d'autres produits et nous soutenir, vous pouvez",
+    "click_here": "cliquer ici",
+    "criteria_intro": "Les critères de sélection sont principalement basés sur :",
+    "criterion_1": "Pertinence avec Tap to Tool",
+    "criterion_2": "Volume de ventes",
+    "criterion_3": "Qualité du produit",
+    "criterion_4": "Rapport Qualité-Prix",
+    "criterion_5": "Fiabilité",
+    "criterion_6": "Durabilité",
+    "criterion_7": "Avis des clients"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sorting": {
+    "sort_by": "क्रमबद्ध करें",
+    "display_per_page": "प्रति पेज",
+    "opt_latest": "सबसे नए",
+    "opt_oldest": "सबसे पुराने",
+    "opt_az": "क - ज्ञ",
+    "opt_za": "ज्ञ - क",
+    "btn_prev_aria": "पिछला पेज",
+    "btn_next_aria": "अगला पेज"
+  }
+}

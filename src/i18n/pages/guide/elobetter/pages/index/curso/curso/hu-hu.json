@@ -1,0 +1,24 @@
+{
+  "btn_next": "KÖVETKEZŐ LÉPÉS",
+  "footer": {
+    "share_telegram": "Weboldal megosztása Telegramon",
+    "share_whatsapp": "Weboldal megosztása WhatsAppon",
+    "share_bluesky": "Weboldal megosztása Blueskyn",
+    "share_x": "Weboldal megosztása X-en",
+    "share_facebook": "Weboldal megosztása Facebookon",
+    "share_reddit": "Weboldal megosztása Redditen"
+  },
+  "banner": {
+    "view_opgg": "Készítő profiljának megtekintése OP.GG-n",
+    "play_crossword": "League of Legends keresztrejtvény játék",
+    "watch_videos": "Nézz gyakorlati videókat és elemezd, hogyan játszik egy High ELO játékos",
+    "more_tools": "Fedezzen fel további online eszközöket a napi munkafolyamat automatizálásához"
+  },
+  "myaccount": {
+    "badge_current_elo": "Útmutató készítőjének jelenlegi ELO jelvénye",
+    "summoner_icon": "Idéző ikon"
+  },
+  "reset_steps": "Összes lépés visszaállítása (kezdés elölről)",
+  "copy_profile_nick": "Profil idézőnevének másolása",
+  "update_profile": "Profil frissítése"
+}

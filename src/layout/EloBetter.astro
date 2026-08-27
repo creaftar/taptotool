@@ -1,0 +1,112 @@
+---
+import "@/assets/styles/fontawesome/css/all.min.css";
+import "@/assets/styles/pages/guide/elobetter/layout/BaseLayout.css";
+import "@/assets/styles/pages/guide/elobetter/global.css";
+
+import Nav from "@/components/elobetter/Nav.astro";
+import Footer from "@/components/elobetter/Footer.astro";
+import { getAbsoluteLocaleUrl } from 'astro:i18n';
+
+interface Props {
+  title?: string;
+  description?: string;
+  keywords?: string;
+  lang?: string;
+}
+
+const idiomaAtual = Astro.currentLocale || "en-us";
+
+const { 
+  title = "EloBetter - Aprenda a Subir de Elo no League of Legends", 
+  description = "Cansado de trolls, afk's e smurfs? Aprenda a subir de elo de verdade com este guia extremamente compacto, sem enrolações.", 
+  keywords = "elo, league of legends, como subir de elo no lol, como sair do prata",
+  lang="en-us"
+} = Astro.props as Props;
+
+const todosOsIdiomas = [
+  "en-us", "en-gb", "en-au", "pt-br", "es-mx", "es-es", "ko-kr", "ja-jp",
+  "tr-tr", "vi-vn", "de-de", "fr-fr", "it-it", "pl-pl", "el-gr", "ro-ro",
+  "hu-hu", "cs-cz", "ru-ru", "en-sg", "en-ph", "th-th", "zh-tw", "ar-ae"
+];
+
+const padraoIdioma = new RegExp(`^/(${todosOsIdiomas.join('|')})`);
+const subCaminhoLimpo = Astro.url.pathname.replace(padraoIdioma, '').replace(/\/$/, '') || '/';
+
+const urlSite = "https://elobetter.com"; 
+
+const urlCanonica = getAbsoluteLocaleUrl(idiomaAtual, subCaminhoLimpo).replace(/\/$/, "");
+const urlDefaultX = getAbsoluteLocaleUrl('en-us', subCaminhoLimpo).replace(/\/$/, "");
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+const scriptPath = path.resolve('./src/assets/scripts/pages/guide/elobetter/scripts/tema.js');
+const estiloPath = path.resolve('./src/assets/styles/pages/guide/elobetter/tema.css');
+
+const scriptCritico = fs.readFileSync(scriptPath, 'utf-8');
+const estiloCritico = fs.readFileSync(estiloPath, 'utf-8');
+---
+
+<!DOCTYPE html>
+<html lang={idiomaAtual}>
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <link rel="preconnect" href="https://ddragon.leagueoflegends.com" crossorigin>
+        <link rel="preconnect" href="https://firestore.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://wsrv.nl" crossorigin>
+
+        <meta name="generator" content={Astro.generator} />
+        
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
+        <meta name="robots" content="index, follow" />
+
+        <link rel="canonical" href={urlCanonica == urlSite ? urlSite : urlCanonica + '/'} />
+
+        {todosOsIdiomas.map((idioma) => {
+            const urlTraduzida = getAbsoluteLocaleUrl(idioma, subCaminhoLimpo).replace(/\/$/, "");
+            return <link rel="alternate" hreflang={idioma} href={urlTraduzida == urlSite ? urlSite : urlTraduzida + '/'} />;
+        })}
+
+        <link rel="alternate" hreflang="x-default" href={urlDefaultX} />
+
+       
+        <meta property="og:site" content="Tap to Tool" />
+        <meta property="og:site_name" content="Tap to Tool" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={urlCanonica} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content="/assets/imgs/logo/icon-logo-original-sizePNG.png" />
+        <meta name="twitter:title" content={ `${title}` } />
+        <meta property="twitter:site" content="@Tap to Tool" />
+        <meta property="twitter:title" content={ `${title}` }/>
+        <meta property="twitter:creator" content="@taptotool" />
+       
+        <link rel="shortcut icon" href="/assets/imgs/logo/t.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
+        <link rel="shortcut icon" href="/assets/imgs/logo/t_dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" media="(prefers-color-scheme: dark)">
+        <link rel="icon" href="/assets/imgs/logo/t.svg" type="image/svg+xml">
+
+        <link rel="manifest" href="/manifest.json" />
+        
+        <slot name="ld-json" />
+
+        <style is:inline set:html={estiloCritico} />
+        <script is:inline set:html={scriptCritico} />
+    </head>
+    <body>
+        <Nav lang={idiomaAtual} />
+        <main id="content-bl-body">
+          <slot></slot>
+        </main>
+        <Footer lang={idiomaAtual} />
+    </body>
+</html>

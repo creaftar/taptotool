@@ -1,0 +1,7 @@
+{
+  "modals": {
+    "feedback_success": "BERHASIL: Masukan Anda telah terkirim",
+    "copy_success": "BERHASIL: Tautan disalin ke papan klip",
+    "login_prompt": "Masuk untuk membuat game-mu sendiri!"
+  }
+}

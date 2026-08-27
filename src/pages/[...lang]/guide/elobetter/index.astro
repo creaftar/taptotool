@@ -1,0 +1,185 @@
+---
+import EloBetter from "@/layout/EloBetter.astro";
+import MyAccount from "@/components/elobetter/index/MyAccount.astro";
+import Banner from "@/components/elobetter/index/Banner.astro";
+import MonoChampion from "@/components/elobetter/index/curso/MonoChampion.astro";
+import Mentalidade from "@/components/elobetter/index/curso/Mentalidade.astro";
+import TrintaQuarenta from "@/components/elobetter/index/curso/TrintaQuarenta.astro";
+import QuantidadexQualidade from "@/components/elobetter/index/curso/QuantidadexQualidade.astro";
+import Conclusao from "@/components/elobetter/index/Conclusao.astro";
+import "@/assets/styles/pages/index/index.css";
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'en-gb' } },
+    { params: { lang: 'en-au' } },
+    { params: { lang: 'pt-br' } },
+    { params: { lang: 'es-mx' } },
+    { params: { lang: 'es-es' } },
+    { params: { lang: 'ko-kr' } },
+    { params: { lang: 'ja-jp' } },
+    { params: { lang: 'tr-tr' } },
+    { params: { lang: 'vi-vn' } },
+    { params: { lang: 'de-de' } },
+    { params: { lang: 'fr-fr' } },
+    { params: { lang: 'it-it' } },
+    { params: { lang: 'pl-pl' } },
+    { params: { lang: 'el-gr' } },
+    { params: { lang: 'ro-ro' } },
+    { params: { lang: 'hu-hu' } },
+    { params: { lang: 'cs-cz' } },
+    { params: { lang: 'ru-ru' } },
+    { params: { lang: 'en-sg' } },
+    { params: { lang: 'en-ph' } },
+    { params: { lang: 'th-th' } },
+    { params: { lang: 'zh-tw' } },
+    { params: { lang: 'ar-ae' } },
+  ];
+}
+
+import en_us from "@/i18n/pages/guide/elobetter/pages/index/index/en-us.json";
+import en_gb from "@/i18n/pages/guide/elobetter/pages/index/index/en-gb.json";
+import en_au from "@/i18n/pages/guide/elobetter/pages/index/index/en-au.json";
+import pt_br from "@/i18n/pages/guide/elobetter/pages/index/index/pt-br.json";
+import es_mx from "@/i18n/pages/guide/elobetter/pages/index/index/es-mx.json";
+import es_es from "@/i18n/pages/guide/elobetter/pages/index/index/es-es.json";
+import ko_kr from "@/i18n/pages/guide/elobetter/pages/index/index/ko-kr.json";
+import ja_jp from "@/i18n/pages/guide/elobetter/pages/index/index/ja-jp.json";
+import tr_tr from "@/i18n/pages/guide/elobetter/pages/index/index/tr-tr.json";
+import vi_vn from "@/i18n/pages/guide/elobetter/pages/index/index/vi-vn.json";
+import de_de from "@/i18n/pages/guide/elobetter/pages/index/index/de-de.json";
+import fr_fr from "@/i18n/pages/guide/elobetter/pages/index/index/fr-fr.json";
+import it_it from "@/i18n/pages/guide/elobetter/pages/index/index/it-it.json";
+import pl_pl from "@/i18n/pages/guide/elobetter/pages/index/index/pl-pl.json";
+import el_gr from "@/i18n/pages/guide/elobetter/pages/index/index/el-gr.json";
+import ro_ro from "@/i18n/pages/guide/elobetter/pages/index/index/ro-ro.json";
+import hu_hu from "@/i18n/pages/guide/elobetter/pages/index/index/hu-hu.json";
+import cs_cz from "@/i18n/pages/guide/elobetter/pages/index/index/cs-cz.json";
+import ru_ru from "@/i18n/pages/guide/elobetter/pages/index/index/ru-ru.json";
+import en_sg from "@/i18n/pages/guide/elobetter/pages/index/index/en-sg.json";
+import en_ph from "@/i18n/pages/guide/elobetter/pages/index/index/en-ph.json";
+import th_th from "@/i18n/pages/guide/elobetter/pages/index/index/th-th.json";
+import zh_tw from "@/i18n/pages/guide/elobetter/pages/index/index/zh-tw.json";
+import ar_ae from "@/i18n/pages/guide/elobetter/pages/index/index/ar-ae.json";
+
+// Mapeamento dos objetos importados (usando hífens para bater com a URL)
+const locales = {
+  "en-us": en_us, "en-gb": en_gb, "en-au": en_au, "pt-br": pt_br,
+  "es-mx": es_mx, "es-es": es_es, "ko-kr": ko_kr, "ja-jp": ja_jp,
+  "tr-tr": tr_tr, "vi-vn": vi_vn, "de-de": de_de, "fr-fr": fr_fr,
+  "it-it": it_it, "pl-pl": pl_pl, "el-gr": el_gr, "ro-ro": ro_ro,
+  "hu-hu": hu_hu, "cs-cz": cs_cz, "ru-ru": ru_ru, "en-sg": en_sg,
+  "en-ph": en_ph, "th-th": th_th, "zh-tw": zh_tw, "ar-ae": ar_ae
+};
+
+// Captura e definição da linguagem atual
+const { lang: paramLang } = Astro.params;
+let lang = paramLang || Astro.currentLocale || 'en-us';
+
+lang === "en" ? lang = "en-us" : lang = lang;
+// Fallback seguro caso a linguagem não exista no objeto de locales
+const d = locales[lang as keyof typeof locales] || locales["en-us"];
+
+
+const urlPath = lang === 'en-us' ? '' : `/${lang}`;
+const currentUrl = `https://taptotool.com${urlPath}/guide/elobetter/`;
+---
+
+<EloBetter
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+>
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.schema.app_name,
+      "alternateName": "EloBetter LoL Guide",
+      "url": currentUrl,
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.ui.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema.breadcrumb_current,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/web-app-manifest-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+
+  <Banner lang={lang}/>
+  <MyAccount lang={lang}/>
+  <MonoChampion lang={lang}/>
+  <TrintaQuarenta lang={lang}/>
+  <Mentalidade lang={lang}/>
+  <QuantidadexQualidade lang={lang}/>
+  <Conclusao lang={lang}/>
+  <!--
+  <EloTips /> Dicas e principais erros para cada elo
+  <Afiliado /> --:> quando começar a pegar um volume de tráfego decente (100+ todo dia)
+  --> 
+</EloBetter>

@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Sopa de Letras",
+    "results_found": "sopas de letras encontradas",
+    "no_results": "No se encontraron sopas de letras"
+  },
+  "daily": {
+    "banner": "Jugar sopa de letras diaria",
+    "title": "Sopa de Letras Diaria",
+    "next": "Nueva sopa de letras en:"
+  }
+}

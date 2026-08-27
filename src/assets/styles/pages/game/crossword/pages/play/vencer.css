@@ -1,0 +1,279 @@
+#bg-card-vencer{
+	z-index: 999;
+    backdrop-filter: blur(9px); /* Embaça o fundo */
+	width: 100%;
+	height: 100vh;
+	visibility: hidden;
+	opacity: 0;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	display: flex;
+	transition: opacity 1.2;
+}
+.card-vencer{
+	/*background-color: aliceblue;*/
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	width: 500px;
+	max-width: 90%;
+	height: 250px;
+	max-height: 90%;
+	position: relative;
+	align-self: center;
+	justify-self: center;
+	z-index: 99;
+	transition: 0.3s, opacity 1.2;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-vencer:hover{
+	height: 400px;
+	max-height: 70%;
+}
+
+.card-vencer:hover .img-card-vencer{
+	width: 84px;
+	height: 84px;
+	top: -84px;
+}
+.img-card-vencer{
+	text-align: center;
+	height: 201px;
+	width: auto;
+	top: 0px;
+	position: absolute;
+	transition: 0.3s;
+}
+#logoNavbar-vencer{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	fill: rgba(var(--padrao), 1);
+}
+#titulo-vencer{
+	font-size: 25px;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+	color: var(--destaque);
+	transition: 0.3s;
+}
+.card-vencer:hover #titulo-vencer{
+	padding: 9px;
+}
+
+.conteudo-card-vencer, .footer-card-vencer{
+	width: 100%;
+}
+#hrh3{
+	text-align: center;
+	align-self: center;
+	justify-self: center;
+	width: 90%;
+	opacity: 0;
+	transition: 1.2s;
+	border: 0;
+    border-top: 1px solid rgba(var(--padrao), 0.3);
+}
+
+.card-vencer:hover #hrh3{
+	opacity: 1.0;
+}
+
+.corpo-vencer{
+	padding: 9px;
+	width: 90%;
+	align-self: center;
+	justify-self: center;
+}
+.corpo-vencer > h4{
+	font-size: large;
+	margin-bottom: 3px;
+}
+.corpo-vencer > p{
+	padding:3px 0;
+}
+.conteudo-card-vencer{
+	color: rgba(var(--padrao), 1);
+	position:absolute;
+	top: 210px;
+	height: 40px;
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), 0.3);
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+    word-wrap: break-word; /* Permite a quebra de palavras longas */
+    overflow-wrap: break-word; /* Para compatibilidade com navegadores */
+	overflow: auto; /* Permite rolagem */
+    /*scrollbar-width: none; /* Para navegadores Firefox */
+	transition: 0.3s;
+	box-shadow: 0px 0px 5px rgba(var(--padrao), 0.1);
+}
+
+.conteudo-card-vencer::-webkit-scrollbar{
+	width: 9px;
+    background-color: var(--fundo-card);
+    border-radius: 20px;
+}
+.conteudo-card-vencer::-webkit-scrollbar-thumb{
+	background-color: var(--fundo-card);
+    border-radius: 20px;
+    border: 1px solid rgba(var(--padrao), var(--opacidade-media));
+}
+.conteudo-card-vencer::-webkit-scrollbar-track{
+	background: var(--fundo-card);
+    border-radius: 6px;
+}
+.card-vencer:hover .conteudo-card-vencer{
+	height: 341px;
+	top: 9px;
+	max-height: 90%;
+}
+.compartilhar-vencer{
+	padding: 9px;
+}
+.copiar-vencer{
+	border: solid 1px rgba(var(--padrao), 0.3);
+	margin-top: 9px;
+	margin-bottom: 9px;
+	display: flex;
+	height: 60px;
+	border-radius: 6px;
+	padding: 9px;
+	justify-content: space-between;
+}
+#input-link-vencer{
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width: calc(100% - 117px);
+	height: 100%;
+	border: none;
+	border-radius: 6px;
+	background-color: var(--fundo-card);
+	color: var(--texto);
+}
+#copiar-button-vencer{
+	height: 40px;
+	width: 90px;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgba(var(--padrao), 1);
+	color: var(--fundo-card);
+	border: none;
+	border-radius: 6px;
+	font-weight: 600;
+	cursor: pointer;
+    white-space: nowrap;     /* Impede a quebra de linha */
+    overflow: hidden;        /* Oculta o texto que ultrapassa o contêiner */
+    text-overflow: ellipsis;/* Adiciona os três pontinhos */
+	padding: 0 9px;
+}
+#copiar-button-vencer:active{
+	color: var(--hover);
+}
+#input-link-vencer:focus{
+	outline: none;
+}
+.descricao-topico-vencer{
+	font-size: 0.9em;
+	display: block;          /* Garante que o elemento se comporte como um bloco */
+	text-align: center;
+    white-space: nowrap;     /* Impede a quebra de linha */
+    overflow: hidden;        /* Oculta o texto que ultrapassa o contêiner */
+    text-overflow: ellipsis;/* Adiciona os três pontinhos */
+	width:100%;
+	height: 100%;
+}
+.icones-vencer{
+	display:flex;
+	flex: row;
+	width: 100%;
+	justify-content: space-around;
+	overflow-x: auto; /* Permite rolagem */
+    scrollbar-width: none; /* Para navegadores Firefox */
+}
+.topico-vencer{
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+	background-color: var(--fundo-card);
+	cursor: pointer;
+	padding: 9px;
+	transition: 0.3s;
+	border: solid 1px rgba(var(--padrao), 0);
+	border-radius: 6px;
+	width: 25%;
+	height: 100%;
+}
+.topico-vencer:hover{
+	background-color: var(--hover);
+	border: solid 1px rgba(var(--padrao), 0.3);
+}
+.footer-card-vencer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 9px;
+}
+#botao-voltar-vencer{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	border: solid 1px rgba(var(--padrao), 0.3);
+	border-radius: 6px;
+	padding: 9px;
+	transition: 0.3s;
+	font-weight: 600;
+    font-size: 1em;
+	color: rgba(var(--padrao), 1);
+}
+#botao-voltar-vencer:hover{
+	background-color: var(--hover);
+}
+.container-cruzadinhas-vencer{
+	margin-top: 9px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 60px;
+}
+
+.link-vencer p{
+	font-size: 0.9em;
+	display: block;          /* Garante que o elemento se comporte como um bloco */
+	text-align: center;
+    white-space: nowrap;     /* Impede a quebra de linha */
+    overflow: hidden;        /* Oculta o texto que ultrapassa o contêiner */
+    text-overflow: ellipsis;/* Adiciona os três pontinhos */
+}
+.link-vencer{
+	text-decoration: none;
+	cursor: pointer;
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	padding: 9px;
+	height: 100%;
+	width: 30%;
+	border: solid 1px rgba(var(--padrao), 0.3);
+	background-color: var(--fundo-card);
+	transition: border-radius 0.3s;
+	color: rgba(var(--padrao), 1);
+}
+.link-vencer:active{
+	color: rgba(var(--padrao), 1);
+}
+
+.link-vencer:hover{
+	border-radius: 6px;
+}
+
+.card-vencer::-webkit-scrollbar, .icones-vencer::-webkit-scrollbar {
+    display: none; /* Para navegadores WebKit (Chrome, Safari) */
+}

@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "CONFIGURACIÓN AVANZADA",
+    "edit_word": "EDITAR LA PALABRA",
+    "word_to_edit": "PALABRA A SER EDITA",
+    "next_word": "AVANZAR UNA PALABRA",
+    "prev_word": "VOLVER UNA PALABRA",
+    "toggle_direction": "ALTERNAR ENTRE VERTICAL Y HORIZONTAL",
+    "auto_position": "POSICIONAR TODAS LAS PALABRAS AUTOMÁTICAMENTE",
+    "ai_generate": "GENERAR SOPA DE LETRAS A PARTIR DE UN TEMA",
+    "save_crossword": "GUARDAR TU SOPA DE LETRAS",
+    "zoom_in": "AUMENTAR ZOOM A LA SOPA DE LETRAS",
+    "zoom_out": "REDUCIR ZOOM DE LA SOPA DE LETRAS",
+    "tutorial": "TUTORIAL DE CÓMO CREAR UNA SOPA DE LETRAS"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Cari Kata",
+    "results_found": "Teka-teki ditemukan",
+    "no_results": "Teka-teki tidak ditemukan"
+  },
+  "daily": {
+    "banner": "Mainkan cari kata harian",
+    "title": "Cari Kata Harian",
+    "next": "Teka-teki berikutnya:"
+  }
+}

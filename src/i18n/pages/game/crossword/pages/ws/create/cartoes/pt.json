@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Criar Caça-Palavras Online",
+    "description": "Crie seus próprios caça-palavras personalizados. Fácil, rápido e gratuito.",
+    "keywords": "caça-palavras, criar, gerador, educação, passatempo"
+  },
+  "schema": {
+    "app_name": "Criar Caça-Palavras Online",
+    "app_description": "Crie facilmente seus próprios caça-palavras personalizados online no Tap to Tool.",
+    "page_name": "Criar Caça-Palavras",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Criar Caça-Palavras",
+    "alternateName": "Creaftar Criador de Caça-Palavras",
+    "description": "Ferramenta gratuita para criar caça-palavras personalizados online no Tap to Tool.",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "error_clipboard": "Tente colar com CTRL + V ou veja se está permitido que vejamos sua área de transferência",
+    "paste_text": "Clique para colar seu texto",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Botão para ocultar o menu",
+    "hide_text": "Ocultar"
+  },
+  "create_page": {
+    "words_title": "PALAVRAS:",
+    "word_placeholder": "exemplo",
+    "add_word_aria": "adicionar palavra",
+    "add_word_btn_aria": "Botão para adicionar palavra"
+  }
+}

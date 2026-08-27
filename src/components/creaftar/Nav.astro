@@ -1,0 +1,221 @@
+---
+
+interface Props {
+  pageId: string
+}
+const { 
+  pageId = "index"
+} = Astro.props as Props;
+
+import '@/assets/styles/pages/game/crossword/componentes/menu/menu_style.css';
+import '@/assets/styles/pages/game/crossword/componentes/menu/idiomas.css';
+
+import IconeNavBar from "./logos/IconeNavBar.astro";
+import LogoEscritaNavBar from "./logos/logoEscritaNavBar.astro";
+
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+import pt from "@/i18n/pages/game/crossword/components/nav/pt.json";
+import en from "@/i18n/pages/game/crossword/components/nav/en.json";
+import es from "@/i18n/pages/game/crossword/components/nav/es.json";
+import fr from "@/i18n/pages/game/crossword/components/nav/fr.json";
+import it from "@/i18n/pages/game/crossword/components/nav/it.json";
+import de from "@/i18n/pages/game/crossword/components/nav/de.json";
+import ru from "@/i18n/pages/game/crossword/components/nav/ru.json";
+import id from "@/i18n/pages/game/crossword/components/nav/id.json";
+import hi from "@/i18n/pages/game/crossword/components/nav/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const vetLocales = ['id', 'de', 'en', 'es', 'fr', 'hi', 'it', 'pt', 'ru'];
+const currentLang = Astro.currentLocale || 'en';
+const displayLang = currentLang.toUpperCase();
+const d = locales[currentLang as keyof typeof locales] || locales.en;
+
+const { pathname } = Astro.url;
+
+function getTargetUrl(targetLang: string) {
+  // 1. Pegamos o pathname e garantimos que comece com /
+  let path = Astro.url.pathname;
+  if (!path.startsWith('/')) path = '/' + path;
+
+  // 2. Removemos extensões comuns que o Astro injeta no build
+  path = path.replace(/\.html$/, '').replace(/\/index$/, '');
+
+  // 3. Quebramos a URL em partes para identificar o idioma atual
+  // Ex: "/pt/contato" -> ["", "pt", "contato"]
+  const pathSegments = path.split('/').filter(Boolean);
+
+  // 4. Verificamos se o primeiro segmento é um dos seus idiomas
+  let purePath = '';
+
+  if (pathSegments.length > 0 && vetLocales.includes(pathSegments[0])) {
+    // Se o primeiro segmento for um idioma, o "caminho real" é o resto
+    purePath = '/' + pathSegments.slice(1).join('/');
+  } else {
+    // Se não tiver idioma no início, o caminho já é o purePath
+    purePath = path;
+  }
+
+  // 5. Agora usamos a função do Astro com o caminho estritamente limpo
+  // Se purePath for "/" ou vazio, ele gera a home do idioma alvo
+  let url = getRelativeLocaleUrl(targetLang, purePath || '/');
+
+  // 6. Limpeza final para Cloudflare (remover .html e barras duplas)
+  url = url.replace(/\.html$/, '').replace(/\/index$/, '');
+  
+  // Se for a home do idioma padrão (ex: inglês), retorna apenas "/"
+  if (url === '/en' || url === '') return '/';
+
+  // Remove barra final de URLs como "/id/" para virar "/id"
+  return url;
+}
+
+// Função para descobrir qual a "Home" ideal baseada na URL atual
+function getLogoHref() {
+  const pathSegments = pathname.split('/').filter(Boolean);
+  
+  // Se o primeiro segmento for o idioma, olhamos o segundo
+  const hasLang = vetLocales.includes(pathSegments[0]);
+  const subAppIndex = hasLang ? 1 : 0;
+  
+  // Se existir um sub-app (ex: "word-search"), a home dele será /lang/sub-app
+  if (pathSegments[subAppIndex] === 'word-search') {
+    return currentLang === 'en' ? '/word-search' : `/${currentLang}/word-search`;
+  }
+  
+  // Caso contrário, vai para a home padrão do idioma
+  return currentLang === 'en' ? '/' : `/${currentLang}`;
+}
+
+const isGuideHome = pathname.endsWith('/game/crossword/') || pathname.endsWith('/game/crossword') || pathname.endsWith('/game/word-search/') || pathname.endsWith('/game/word-search')
+
+const logoHref: string = isGuideHome 
+    ?  `/${currentLang === "en" ? '' : currentLang + '/'}`
+    : "../";
+---
+
+<nav id="navegacao" data-translations={JSON.stringify(d)}>
+    <div id="bloco0" class={"bloco0 bloco0-"+pageId}>
+        <slot name="containermenu" />
+    </div>
+    <div id="bloco1" class="bloco-nav">
+        <a href={logoHref} aria-label={d.nav.home_aria} id="pagInicial">
+            <IconeNavBar id="logoNavbar" />
+            <div id="h1-creaftar">
+                <LogoEscritaNavBar id="logoEscritaImg"/>
+                <span id="langNav">{displayLang}</span>
+            </div>
+        </a>
+    </div>
+    <div id="bloco1-2" class="bloco-nav">
+        <slot name="pesquisa"/>
+    </div>
+    <div id="bloco2" class="bloco-nav">
+        <div id="toggleTheme">
+            <i class="fa-solid fa-sun"></i>
+        </div>
+        <div id="chooseLanguage">
+            <i class="fa-solid fa-globe"></i>
+            <ul id="menuIdiomas" class="elemento-invisivel">
+                {['id', 'de', 'en', 'es', 'fr', 'hi', 'it', 'pt', 'ru'].map((l) => (
+                    <li class={Astro.currentLocale === l ? 'idioma-ativo' : ''}>
+                        <a href={getTargetUrl(l)} class="linkIdioma">
+                            {l === 'id' ? 'Bahasa Indonesia' : l === 'de' ? 'Deutsch' : l === 'en' ? 'English' : l === 'es' ? 'Español' : l === 'fr' ? 'Français' : l === 'hi' ? 'हिन्दी' : l === 'it' ? 'Italiano' : l === 'pt' ? 'Português' : 'Русский'}
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    </div>
+    <div id="bloco3" class="bloco-nav">
+        
+        <div id="container-perfil">
+            <div id="conectar">
+                <div class="container-foto-perfil">
+                    <i class="icons fa-solid fa-user" id="userIcon"></i>
+                </div>
+            </div>
+            
+            <form class="submenu">
+                <IconeNavBar class="logoSubmenu" />
+                <p id="conexao">{d.nav.disconnected}</p>
+                <label for="inptitulo">{d.nav.email_label}</label> 
+                <input id="inptitulo" maxlength="400" placeholder={d.nav.placeholder_email} /> 
+                
+                <label for="inpsenha">{d.nav.password_label}</label>
+                <input type="password" id="inpsenha" maxlength="400" placeholder={d.nav.placeholder_password} /> 
+                
+                <label for="confinpsenha">{d.nav.confirm_password_label}</label>
+                <input type="password" id="confinpsenha" maxlength="400" placeholder={d.nav.placeholder_password} />
+                
+                <div class="containerLoginBtns">
+                    <button type="button" class="twitterLoginBtn"><i class="fa-brands fa-x-twitter"></i></button> 
+                    <button type="button" class="googleLoginBtn"><i class="fa-brands fa-google"></i></button>
+                    <button type="button" class="yahooLoginBtn"><i class="fa-brands fa-yahoo"></i></button>
+                </div>
+                <p id="entrar">{d.nav.already_have_account}</p>
+                <button id="criarBtn" aria-label={d.nav.btn_register}>{d.nav.btn_register}</button>
+                <div class="sair">{d.nav.btn_logout}</div>
+            </form>
+
+            <form class="submenu">
+                <IconeNavBar class="logoSubmenu" />
+                <p id="conexaoEnt">{d.nav.disconnected}</p>
+                <label for="inpuser">{d.nav.email_label}</label> 
+                <input id="inpuser" maxlength="400" placeholder={d.nav.placeholder_email} /> 
+                
+                <label for="inppass">{d.nav.password_label}</label>
+                <input type="password" id="inppass" maxlength="400" placeholder={d.nav.placeholder_password} />
+                
+                <div class="containerLoginBtns">
+                    <button type="button" class="twitterLoginBtn"><i class="fa-brands fa-x-twitter"></i></button> 
+                    <button type="button" class="googleLoginBtn"><i class="fa-brands fa-google"></i></button>
+                    <button type="button" class="yahooLoginBtn"><i class="fa-brands fa-yahoo"></i></button>
+                </div>
+                <p id="cadastrar">{d.nav.no_account}</p>
+                <button id="entrarBtn" aria-label={d.nav.btn_login}>{d.nav.btn_login}</button>
+                <div class="sair">{d.nav.btn_logout}</div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<script is:inline>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    
+    const gameKeys = ['cr', 'ws']; 
+    
+    const activeKey = gameKeys.find(key => params.has(key));
+
+    if (activeKey) {
+      const gameId = params.get(activeKey);
+      
+      const gameQuery = `?${activeKey}=${gameId}`;
+      
+      const linksIdioma = document.querySelectorAll('.linkIdioma');
+
+      linksIdioma.forEach(link => {
+        const url = new URL(link.href);
+        
+        if (url.pathname.includes('/play') || url.pathname.includes('/create') || url.pathname.includes('/word-search')) {
+          link.href = url.origin + url.pathname + gameQuery;
+        }
+      });
+    }
+  })();
+</script>
+
+<script>
+  // Só carrega o arquivo quando tudo (imagens, estilos, outros scripts) terminar
+  window.addEventListener('load', () => {
+    // requestIdleCallback garante que o navegador só baixe quando estiver "descansando"
+    const carregarMenu = () => import('@/assets/scripts/pages/game/crossword/menu/menu.js');
+
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(carregarMenu);
+    } else {
+      setTimeout(carregarMenu, 200);
+    }
+  });
+</script>

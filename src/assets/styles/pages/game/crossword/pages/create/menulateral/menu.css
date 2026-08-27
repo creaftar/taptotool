@@ -1,0 +1,115 @@
+#menu_lateralDesktop, #menu_lateralDesktopZoom{
+	border-radius: 6px;
+	/*border: solid 1px rgba(var(--padrao), 0.3);
+	background-color: var(--fundo-card);*/
+	margin-top: 118px; /*112px do h1 + 6px pra dar um espacamento*/
+	max-height: calc(80vh - 118px - 6px);
+	width: 40px;
+	position: absolute;
+	display:flex;
+	z-index: 4;
+}
+
+#menu_lateralDesktopZoom:hover, #menu_lateralDesktop:hover{
+	border-radius: 0px;
+}
+
+.menu-icones, #menu-avancado{
+	z-index: 4;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	box-sizing: content-box; /* Para não contar o padding na largura */
+	scrollbar-width: none; /* Para Firefox */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#menu-avancado{
+	position: absolute;
+	right: 100%;
+	width: calc(100% + 9px);
+	height: 270px;
+}
+
+.elemento-flex{
+	display:flex;
+}
+.elemento-none{
+	display:none;
+}
+#menu-icones-left{
+	justify-content: center;
+}
+.menu-icones::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari e Opera */
+}
+
+.menu-icones > li, #menu-avancado > li{
+	background-color: var(--fundo-card);
+	flex-shrink: 0;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	display:flex;
+	align-items: center;
+	font-size: 0.9em;
+	justify-content: center;
+	height:32px; /*40 px do menu - 8 pra dar uma borda*/
+	width: 32px; /*40 px do menu - 8 pra dar uma borda*/
+	position: relative;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+}
+
+#menu-avancado > li{
+	margin-bottom: 0px;
+}
+
+#creaftarIA, #botao-menu-avancado, .recuar-avancar-icon, .verthoriz-icon, .salvar-icon, .zoom{
+	color: rgba(var(--padrao), 1);
+}
+
+.menu-icones > li:hover, #menu-avancado > li:hover{
+	border: solid 1px rgba(var(--padrao), var(--opacidade-forte));
+	border-radius: 6px;
+	cursor:pointer;
+}
+
+.menu-icones > li:not(:hover), #menu-avancado > li:not(:hover){
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	border-radius: 3px;
+	/*border: none;*/
+	transition: all 0.3s;
+}
+#menu-avancado > li:not(:hover){
+	transition: none;
+}
+
+/**MOBILE**/
+@media(max-width:1024px){
+    .menu-icones{
+		z-index: 2;
+	}
+
+	.info-icons{
+		width: max-content;
+		max-width: 50vw;
+	}
+}
+/**FIM-MOBILE**/
+
+/**DESKTOP**/
+@media(min-width: 1025px){
+	.info-icons{
+		width: max-content;
+	}
+	.lista-menu-lateral-create:hover .info-icons{
+		display: flex;
+	}
+}
+/**FIM-DESKTOP**/
+
+@media(max-width: 1024px){
+	.lista-menu-lateral-create:active .info-icons{
+		display: flex;
+	}
+}

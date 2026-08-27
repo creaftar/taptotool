@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "TÍTULO DA SUA PALAVRA CRUZADA:",
+    "placeholder": "Cruzadinha",
+    "hints_question": "VOCÊ DESEJA HABILITAR DICAS PARA A SUA CRUZADINHA?",
+    "hints_obs": "(você poderá alterar essa opção mais tarde)",
+    "hints_yes": "Sim, quero habilitar dicas para a minha cruzadinha",
+    "hints_no": "Não habilite dicas para a minha cruzadinha",
+    "answer_key_question": "VOCÊ DESEJA CRIAR UM GABARITO PARA A SUA CRUZADINHA?",
+    "answer_key_obs": "(O gabarito permitirá os jogadores verem as suas respostas - você poderá mudar essa opção mais tarde)",
+    "answer_key_yes": "Sim, eu quero criar um gabarito para a minha cruzadinha",
+    "answer_key_no": "Não crie um gabarito para a minha cruzadinha",
+    "share_question": "VOCÊ DESEJA COMPARTILHAR SUA CRUZADINHA EM NOSSAS REDES SOCIAIS?",
+    "share_yes": "Sim, eu quero divulgar minha cruzadinha nas redes sociais do Creaftar",
+    "share_no": "Não compartilhe minha cruzadinha",
+    "save_button": "SALVAR",
+    "requirements_alert": "ATENÇÃO: Só será possível salvar sua cruzadinha se você se cadastrar"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA DA CRUZADINHA",
+    "theme_placeholder": "Cruzadinha",
+    "word_quantity": "Quantidade de palavras",
+    "generate_button": "GERAR"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "VÍDEOS EXEMPLO",
+      "create": "CRIAR CRUZADINHA",
+      "generate": "GERAR CRUZADINHA"
+    },
+    "page1": {
+      "title_generate": "COMO GERAR UMA CRUZADINHA",
+      "title_auto": "COMO CRIAR UMA CRUZADINHA",
+      "title_manual": "COMO CRIAR UMA CRUZADINHA",
+      "subtitle_video": "(Vídeo)",
+      "subtitle_auto": "(Automaticamente - Vídeo)",
+      "subtitle_manual": "(Manualmente - Vídeo)",
+      "video_fallback": "Seu navegador não suporta vídeos HTML5.",
+      "aside": {
+        "how_generate": "- COMO GERAR",
+        "how_create_auto": "- COMO CRIAR (automaticamente)",
+        "how_create_manual": "- COMO CRIAR (manualmente)"
+      }
+    },
+    "page2": {
+      "main_title": "COMO CRIAR UMA CRUZADINHA",
+      "intro_text": "Nesta seção será detalhado como você criará sua própria cruzadinha a partir do 0 (caso queira, você pode combinar a geração com essa parte de criar). Navegue no menu ao lado para encontrar os tópicos desejados rapidamente",
+      "start_title": "POR ONDE COMEÇAR",
+      "start_text_1": "No cartão abaixo com o título \"PALAVRAS\", clique no campo com a descrição \"exemplo\" e digite sua primeira palavra (não se preocupe, você poderá alterar depois). Pressione o botão \"ENTER\" do seu teclado ou clique no botão \"+\"",
+      "start_text_2": "Feito isso, você vai perceber que surgirão:",
+      "start_list_1": "1. Dentro de quadrados, uma palavra na tela:",
+      "start_list_1_sub": "Esta será a palavra que seu público-alvo terá que acertar",
+      "start_list_2": "2. No cartão \"PALAVRAS\", uma palavra:",
+      "start_list_2_sub": "Esta é exclusiva para você, é possível alterar (clique em cima dela) ou excluir, o que refletirá na palavra que surgiu na tela",
+      "start_list_3": "3. No cartão \"DICAS\" uma dica:",
+      "start_list_3_sub": "Aqui você dará a dica da palavra para o seu público-alvo. Perceba que cada dica e cada palavra tem uma numeração, então a dica: 1 - o que seria \"exemplo\" descreve a palavra 1 - exemplo e assim por diante.",
+      "before_continue": "ANTES DE CONTINUAR",
+      "instruction_1": "- Altere a palavra e a descrição clicando em cima dos textos gerados",
+      "instruction_2": "- Crie pelo menos 2 palavras",
+      "move_title": "COMO MOVIMENTAR AS PALAVRAS",
+      "move_intro": "Para mover as palavras criadas, você deve encaixar elas entre si conforme as letras correspondentes. Para isso, você tem duas alternativas:",
+      "move_option_1": "1. mover cada palavra unicamente, conforme você queira encaixar",
+      "move_option_2": "2. mover todas as palavras automaticamente, fazendo com que elas se encaixem apenas com um clique",
+      "auto_pos_title": "POSICIONAR TODAS AUTOMATICAMENTE",
+      "auto_pos_text": "Para posicionar todas as palavras automaticamente, você deve clicar no ícone de engrenagem no menu à sua direita. Caso alguma palavra não esteja encaixando, tente mais alguma vezes, e, se o erro persistir, verifique a ortografia. Serão consideradas iguais palavras maiúsculas e minúsculas, mas palavras com e sem acentuação não",
+      "single_move_title": "MOVIMENTAÇÃO ÚNICA",
+      "single_move_text": "Todas as palavras inicialmente são fixas, o que significa que você não conseguirá movê-las. Para alterar este comportamento e mover cada palavra unicamente:",
+      "single_move_li_1": "Clique neste ícone para permitir que a palavra seja movida",
+      "single_move_li_2": "Clique, mantenha pressionado e arraste dentro da área para mover a palavra",
+      "single_move_li_3": "Agora que você já moveu sua primeira palavra, atualize a palavra que deseja mover:",
+      "single_move_li_3_sub1": "Utilize esta seta direcional para que você avance uma palavra",
+      "single_move_li_3_sub2": "Utilize esta seta direcional para que você volte uma palavra",
+      "direction_title": "HORIZONTAL x VERTICAL",
+      "direction_text": "Você também pode alterar sua palavra entre vertical e horizontal; Para efetuar tal ação, basta clicar no ícone (grade), mas lembre-se de deixar permitida a edição da palavra (lápis)",
+      "aside": {
+        "create_crossword": "- CRIAR CRUZADINHA",
+        "where_start": "- POR ONDE COMEÇAR",
+        "how_move": "COMO MOVIMENTAR AS PALAVRAS",
+        "auto_pos": "- POSICIONAR AUTOMATICAMENTE",
+        "single_move": "- MOVIMENTAÇÃO ÚNICA",
+        "horiz_vert": "- HORIZONTAL x VERTICAL"
+      }
+    },
+    "page3": {
+      "main_title": "COMO GERAR UMA CRUZADINHA",
+      "intro_text": "Nesta seção será detalhado como você pode gerar toda a sua cruzadinha a partir de um único tema (caso queira, você pode combinar a criação com essa parte de gerar). Navegue no menu ao lado para encontrar los tópicos desejados rapidamente",
+      "steps_title": "PASSO A PASSO",
+      "steps_intro": "Para gerar uma cruzadinha através de um tema você deve seguir os seguintes passos:",
+      "step_1": "1. Clique no ícone do robô no menu à sua direita",
+      "step_2": "2. Na janela que abrir, digite no campo o tema desejado",
+      "step_3": "3. Ajuste a quantidade de palavras que a cruzadinha terá através da barra ou das setas direcionais",
+      "step_4": "4. Clique no botão \"GERAR\" para que sua cruzadinha seja processada por nossa IA",
+      "recom_title": "RECOMENDAÇÕES",
+      "recom_1": "- Caso seu tema não seja gerado, tente recarregar a página, e, caso o erro persista, descreva seu tema de forma diferente (não se preocupe, você poderá alterar o título depois)",
+      "recom_2": "- Verifique as respostas e as dicas geradas, você poderá alterá-las clicando em cima de cada uma respectivamente",
+      "recom_3": "- Para a quantidade de palavras, tenha em mente o público-alvo que for jogar sua criação e a dificuldade do tema escolhido (cruzadinhas com 15 a 30 palavras tendem a ser bem aceitas no geral)",
+      "dont_title": "O QUE NÃO FAZER",
+      "dont_1": "- Evite temas muito complexos",
+      "dont_2": "- Evite temas muito abstratos",
+      "dont_3": "- Evite dar a resposta nas dicas",
+      "dont_4": "- Lembre-se que você conhece as respostas, mas seu público-alvo não. Tente criar dicas que todos saibam responder",
+      "aside": {
+        "generate_crossword": "- GERAR CRUZADINHA",
+        "step_by_step": "PASSO A PASSO",
+        "step_1": "- 1° Passo",
+        "step_2": "- 2° Passo",
+        "step_3": "- 3° Passo",
+        "step_4": "- 4° Passo",
+        "recommendations": "- RECOMENDAÇÕES",
+        "what_not_to_do": "- O QUE NÃO FAZER"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "PRÉ-VISUALIZAÇÃO",
+    "warning_main": "Não se preocupe com verticais e horizontais, analise os formatos esperados abaixo",
+    "your_text": "Seu Texto:",
+    "detector_stats": "{words} palavras / {clues} dicas",
+    "placeholder": "Cole seu texto aqui!",
+    "expected_formats": "Formatos Esperados:",
+    "btn_generate": "O TEXTO ESTÁ PRONTO",
+    "words_suffix": "palavras",
+    "clues_suffix": "dicas",
+    "examples": {
+      "dog": "Cachorro",
+      "cat": "Gato",
+      "bat": "Morcego",
+      "elephant": "Elefante",
+      "kangaroo": "Canguru",
+      "desc_dog": "O melhor amigo do homem",
+      "desc_cat": "Gosta de caçar ratos",
+      "desc_bat": "Mamífero que voa",
+      "desc_elephant": "Tem uma tromba",
+      "desc_kangaroo": "Grande marsupial"
+    },
+    "requirements_alert": "Ops! Parece que você não colou nada, copie um texto e tente novamente"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "js_messages": {
+    "move_allow": "PERMITIR MOVIMENTAÇÃO DA PALAVRA",
+    "move_block": "BLOQUEAR MOVIMENTAÇÃO DA PALAVRA",
+    "auto_pos_enabled": "HABILITADO: POSICIONAR TODAS AS PALAVRAS AUTOMATICAMENTE",
+    "auto_pos_disabled": "BLOQUEADO: POSICIONAR TODAS AS PALAVRAS AUTOMATICAMENTE",
+    "toggle_direction": "ALTERNAR ENTRE VERTICAL E HORIZONTAL",
+    "req_min_words": "REQUISITOS: 5 palavras criadas, título preenchido",
+    "req_registration": "REQUISITOS: Cadastre-se para salvar seu caça-palavras"
+  }
+}

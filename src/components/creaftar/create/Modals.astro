@@ -1,0 +1,479 @@
+---
+interface Props {}
+
+/*export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}*/
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/create/modals/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/create/modals/en.json";
+import es from "@/i18n/pages/game/crossword/pages/create/modals/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/create/modals/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/create/modals/it.json";
+import de from "@/i18n/pages/game/crossword/pages/create/modals/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/create/modals/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/create/modals/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/create/modals/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+---
+
+<div class="container-modal">
+    <div class="modal-salvar elemento-invisivel">
+        <div class="fechar-salvar-modal"><i class="fa-solid fa-xmark close-salvar"></i></div>
+        <div class="conteudo-salvar">
+            <h3 class="titulo-modal" id="h3-salvar-moodal">{d.modal_save.title}</h3>
+            <div id="container-input-emoji-salvar">
+                <input 
+                id="titulo-input" 
+                maxlength="36" 
+                placeholder=`📚 ${d.modal_save.placeholder}` 
+                />
+                
+                <div id="container-emojis-salvar">
+                    <button id="btn-emoji-salvar">
+                        🙂
+                    </button>
+                    <div id="preview-card-emojis" class="elemento-invisivel">
+                        <div id="container-grid-emojis"></div>
+                        <div id="footer-emojis-salvar">
+                            <button class="tab-btn" data-categoria="Populares">🔥</button>
+                            <button class="tab-btn" data-categoria="Rostos">😊</button>
+                            <button class="tab-btn" data-categoria="Natureza">🐶</button>
+                            <button class="tab-btn" data-categoria="Comida">🍎</button>
+                            <button class="tab-btn" data-categoria="Corpo">👕</button>
+                            <button class="tab-btn" data-categoria="Atividades">🎮</button>
+                            <button class="tab-btn tab-btn-last" data-categoria="Lugares">🏠</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="area-postagem">
+                <div class="container-input-postar">
+                    <h3 class="titulo-modal">
+                        <span class="destacado"><i class="fa-solid fa-lightbulb"></i></span><div class="titulo-com-dica-save">{d.modal_save.hints_question} 
+                        <span class="observacao">{d.modal_save.hints_obs}</span></div>
+                    </h3>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoDicas" name="desejoxnaoDicas" value="desejoDicas" checked>
+                        <label class="labelPostar" for="desejoDicas">{d.modal_save.hints_yes}</label>
+                    </div>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoNaoDicas" name="desejoxnaoDicas" value="desejoNaoDicas">
+                        <label class="labelPostar" for="desejoNaoDicas">{d.modal_save.hints_no}</label>
+                    </div>
+                </div>
+
+                <div class="container-input-postar">
+                    <h3 class="titulo-modal">
+                        <span class="destacado"><i class="fa-solid fa-book"></i></span><div class="titulo-com-dica-save">{d.modal_save.answer_key_question} 
+                        <span class="observacao">{d.modal_save.answer_key_obs}</span></div>
+                    </h3>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoGabarito" name="desejoxnaoGabarito" value="desejoGabarito" checked>
+                        <label class="labelPostar" for="desejoGabarito">{d.modal_save.answer_key_yes}</label>
+                    </div>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoNaoGabarito" name="desejoxnaoGabarito" value="desejoNaoGabarito">
+                        <label class="labelPostar" for="desejoNaoGabarito">{d.modal_save.answer_key_no}</label>
+                    </div>
+                </div>
+
+                <div class="container-input-postar">
+                    <h3 class="titulo-modal">
+                        <a href="https://bsky.app/profile/creaftarbrasil.bsky.social" target="_blank" class="link-copy destacado" aria-label="Go to bluesky website"><i class="icons-divulgar fa-brands fa-bluesky brand"></i></a>
+                        {d.modal_save.share_question}
+                    </h3>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoPostar" name="desejoxnaoPostar" value="desejoPostar" checked>
+                        <label class="labelPostar" for="desejoPostar">{d.modal_save.share_yes}</label>
+                    </div>
+                    <div class="conteudoInteracao">
+                        <input type="radio" id="desejoNaoPostar" name="desejoxnaoPostar" value="desejoNaoPostar">
+                        <label class="labelPostar" for="desejoNaoPostar">{d.modal_save.share_no}</label>
+                    </div>
+                </div>
+            </div>
+            <button id="salvarmodal" aria-label="Botão para salvar sua cruzadinha">{d.modal_save.save_button}</button>
+        </div>
+    </div>
+
+    <div id="requisitos-salvar" class="requisitos elemento-invisivel">
+        <i class="fa-solid fa-ban left-icon left-icon-red"></i>
+        <p id="texto-requisitos">{d.modal_save.requirements_alert}</p>
+        <div class="fechar-salvar alert"><i class="fa-solid fa-xmark close-modal"></i></div>
+        <div class="loadBarMsg loadBarMsgERROR"></div>
+    </div>
+</div>
+
+<div class="container-modal">
+    <div class="modal-salvar elemento-invisivel modal-gerar">
+        <div class="fechar-salvar-modal"><i class="fa-solid fa-xmark close-salvar"></i></div>
+        <div class="conteudo-salvar">
+            <h3 class="titulo-modal traduzirbody">{d.modal_generate.theme_title}</h3>
+            <input id="titulo-creaftarIA" maxlength="36" placeholder={d.modal_generate.theme_placeholder} /> 
+            <div class="slider-container">
+                <div class="container-qtde">
+                    <label for="numberSlider">{d.modal_generate.word_quantity}</label><span id="sliderValue"> 12</span>
+                </div>
+                <input type="range" id="numberSlider" min="5" max="30" value="12" step="1" />
+                <div class="setinhas-numberslider">
+                    <div class="setinhas" id="decreaseBtn">
+                        <i class="fa-solid fa-angle-left fa-lg recuar-avancar-icon"></i>
+                    </div>
+                    <div class="setinhas" id="increaseBtn">                    
+                        <i class="fa-solid fa-angle-right fa-lg recuar-avancar-icon"></i>
+                    </div>
+                </div>
+            </div>                                     
+            <button id="gerar-creaftarIA" aria-label="Botão para gerar uma nova cruzadinha">{d.modal_generate.generate_button}</button>                    
+            <div class="progress-container" id="gerar_progresso_ia">
+                <div class="progress-bar"></div>
+            </div>                    
+        </div>
+    </div>
+</div>
+
+<div class="container-modal">
+    <div class="modal-salvar elemento-invisivel" id="modal-pergunta">
+        <div class="fechar-salvar-modal"><i class="fa-solid fa-xmark close-salvar"></i></div>
+        
+        <ul class="menu-modal-pergunta">
+            <li data-pagina="pagina1" class="active animar"><i class="fa-solid fa-circle-play icon-menu-pergunta active"></i> <span class="pergunta-menu-texto">{d.modal_tutorial.menu.videos}</span></li>
+            <li data-pagina="pagina2"><i class="fa-solid fa-pen-to-square icon-menu-pergunta"></i> <span class="pergunta-menu-texto">{d.modal_tutorial.menu.create}</span></li>
+            <li data-pagina="pagina3"><i class="fa-solid fa-robot icon-menu-pergunta"></i> <span class="pergunta-menu-texto">{d.modal_tutorial.menu.generate}</span></li>
+        </ul>
+
+        <div class="paginas-modal">
+            <div id="pagina1" class="pagina active">
+                <div class="pergunta-bloco-conteudo">
+                    <h4 id="pergunta-gerar-video">{d.modal_tutorial.page1.title_generate} <span class="parenthesis">{d.modal_tutorial.page1.subtitle_video}</span></h4>
+                    <div class="pergunta-bloco-texto">
+                        <iframe 
+                            width="100%" 
+                            src="https://www.youtube.com/embed/CVMrcKnoe3g"
+                            title={d.modal_tutorial.page1.video_fallback} 
+                            loading="lazy" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h4 id="pergunta-automaticamente-video">{d.modal_tutorial.page1.title_auto} <span class="parenthesis">{d.modal_tutorial.page1.subtitle_auto}</span></h4>
+                    <div class="pergunta-bloco-texto">
+                        <iframe 
+                            width="100%" 
+                            src="https://www.youtube.com/embed/ks93lPg5VZQ"
+                            title={d.modal_tutorial.page1.video_fallback} 
+                            loading="lazy" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h4 id="pergunta-manualmente-video">{d.modal_tutorial.page1.title_manual} <span class="parenthesis">{d.modal_tutorial.page1.subtitle_manual}</span></h4>
+                    <div class="pergunta-bloco-texto">
+                        <iframe 
+                            width="100%" 
+                            src="https://www.youtube.com/embed/7EZFdN3Inbc"
+                            title={d.modal_tutorial.page1.video_fallback} 
+                            loading="lazy" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="pergunta-bloco-aside">
+                    <aside>
+                        <ul>
+                            <li><a href="#pergunta-gerar-video" class="link-interno" data-destino="pergunta-gerar-video"><span class="parenthesis">{d.modal_tutorial.page1.aside.how_generate}</span></a></li>
+                            <li><a href="#pergunta-automaticamente-video" class="link-interno" data-destino="pergunta-automaticamente-video"><span class="parenthesis">{d.modal_tutorial.page1.aside.how_create_auto}</span></a></li>
+                            <li><a href="#pergunta-manualmente-video" class="link-interno" data-destino="pergunta-manualmente-video"><span class="parenthesis">{d.modal_tutorial.page1.aside.how_create_manual}</span></a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="pagina2" class="pagina">
+                <div class="pergunta-bloco-conteudo">
+                    <h4 id="pergunta-como-criar">{d.modal_tutorial.page2.main_title}</h4>
+                    <div class="pergunta-bloco-texto"><p>{d.modal_tutorial.page2.intro_text}</p></div>
+                    
+                    <h4 id="pergunta-comecar">{d.modal_tutorial.page2.start_title}</h4>
+                    <div class="pergunta-bloco-texto">
+                        <p>{d.modal_tutorial.page2.start_text_1}</p>
+                        <p>{d.modal_tutorial.page2.start_text_2}</p>
+                        <ul>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.start_list_1}</span><br>{d.modal_tutorial.page2.start_list_1_sub}</li>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.start_list_2}</span><br>{d.modal_tutorial.page2.start_list_2_sub}</li>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.start_list_3}</span><br>{d.modal_tutorial.page2.start_list_3_sub}</li>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.before_continue}</span></li>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.instruction_1}</span></li>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.instruction_2}</span></li>
+                        </ul>
+                    </div>
+
+                    <h4 id="pergunta-movimentar">{d.modal_tutorial.page2.move_title}</h4>
+                    <div class="pergunta-bloco-texto">
+                        <p>{d.modal_tutorial.page2.move_intro}</p>
+                        <ul>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.move_option_1}</span></li>
+                            <li><span class="parenthesis">{d.modal_tutorial.page2.move_option_2}</span></li>
+                        </ul>
+                    </div>
+
+                    <h5 id="pergunta-engrenagem">{d.modal_tutorial.page2.auto_pos_title}</h5>
+                    <div class="pergunta-bloco-texto"><p>{d.modal_tutorial.page2.auto_pos_text}</p></div>
+
+                    <h5 id="pergunta-movimentacao-unica">{d.modal_tutorial.page2.single_move_title}</h5>
+                    <div class="pergunta-bloco-texto">
+                        <p>{d.modal_tutorial.page2.single_move_text}</p>
+                        <ul>
+                            <li><span class="parenthesis"><i class="fa-regular fa-pen-to-square"></i></span> {d.modal_tutorial.page2.single_move_li_1}</li>
+                            <li><span class="parenthesis"><i class="fa-solid fa-square"></i></span> {d.modal_tutorial.page2.single_move_li_2}</li>
+                            <li><span class="parenthesis roxo">1</span> {d.modal_tutorial.page2.single_move_li_3}
+                                <ul class="texto-ul-ul">
+                                    <li><span class="parenthesis"><i class="fa-solid fa-angle-right"></i></span> {d.modal_tutorial.page2.single_move_li_3_sub1}</li>
+                                    <li><span class="parenthesis"><i class="fa-solid fa-angle-left"></i></span> {d.modal_tutorial.page2.single_move_li_3_sub2}</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h4 id="pergunta-verthorz">{d.modal_tutorial.page2.direction_title}</h4>
+                    <div class="pergunta-bloco-texto"><p>{d.modal_tutorial.page2.direction_text}</p></div>
+                </div>
+                <div class="pergunta-bloco-aside">
+                    <aside>
+                        <ul>
+                            <li><a href="#pergunta-como-criar" class="link-interno" data-destino="pergunta-como-criar"><span class="parenthesis">{d.modal_tutorial.page2.aside.create_crossword}</span></a></li>
+                            <li><a href="#pergunta-comecar" class="link-interno" data-destino="pergunta-comecar"><span class="parenthesis">{d.modal_tutorial.page2.aside.where_start}</span></a></li>
+                            <li class="item-com-sublista">
+                                <a href="#pergunta-movimentar" class="link-interno" data-destino="pergunta-movimentar"><span class="parenthesis"><i class="fa-solid fa-caret-down"></i> {d.modal_tutorial.page2.aside.how_move}</span></a>
+                                <ul class="sublista">
+                                    <li><a href="#pergunta-engrenagem" class="link-interno" data-destino="pergunta-engrenagem"><span class="parenthesis">{d.modal_tutorial.page2.aside.auto_pos}</span></a></li>
+                                    <li><a href="#pergunta-movimentacao-unica" class="link-interno" data-destino="pergunta-movimentacao-unica"><span class="parenthesis">{d.modal_tutorial.page2.aside.single_move}</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#pergunta-verthorz" class="link-interno" data-destino="pergunta-verthorz"><span class="parenthesis">{d.modal_tutorial.page2.aside.horiz_vert}</span></a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="pagina3" class="pagina">
+                <div class="pergunta-bloco-conteudo">
+                    <h4 id="pergunta-como-gerar">{d.modal_tutorial.page3.main_title}</h4>
+                    <div class="pergunta-bloco-texto"><p>{d.modal_tutorial.page3.intro_text}</p></div>
+                    
+                    <h4 id="pergunta-passo-a-passo">{d.modal_tutorial.page3.steps_title}</h4>
+                    <div class="pergunta-bloco-texto">
+                        <p>{d.modal_tutorial.page3.steps_intro}</p>
+                        <ul>
+                            <li id="pergunta-passo1">{d.modal_tutorial.page3.step_1}</li>
+                            <li id="pergunta-passo2">{d.modal_tutorial.page3.step_2}</li>
+                            <li id="pergunta-passo3">{d.modal_tutorial.page3.step_3}</li>
+                            <li id="pergunta-passo4">{d.modal_tutorial.page3.step_4}</li>
+                        </ul>
+                    </div>
+
+                    <h4 id="pergunta-recomendacoes">{d.modal_tutorial.page3.recom_title}</h4>
+                    <div class="pergunta-bloco-texto">
+                        <p>{d.modal_tutorial.page3.recom_1}</p>
+                        <p>{d.modal_tutorial.page3.recom_2}</p>
+                        <p>{d.modal_tutorial.page3.recom_3}</p>
+                    </div>
+
+                    <h4 id="pergunta-nao-fazer">{d.modal_tutorial.page3.dont_title}</h4>
+                    <div class="pergunta-bloco-texto">
+                        <p>{d.modal_tutorial.page3.dont_1}</p>
+                        <p>{d.modal_tutorial.page3.dont_2}</p>
+                        <p>{d.modal_tutorial.page3.dont_3}</p>
+                        <p>{d.modal_tutorial.page3.dont_4}</p>
+                    </div>
+                </div>
+                <div class="pergunta-bloco-aside">
+                    <aside>
+                        <ul>
+                            <li><a href="#pergunta-como-gerar" class="link-interno" data-destino="pergunta-como-gerar"><span class="parenthesis">{d.modal_tutorial.page3.aside.generate_crossword}</span></a></li>
+                            <li class="item-com-sublista">
+                                <a href="#pergunta-passo-a-passo" class="link-interno" data-destino="pergunta-passo-a-passo"><span class="parenthesis"><i class="fa-solid fa-caret-down"></i> {d.modal_tutorial.page3.aside.step_by_step}</span></a>
+                                <ul class="sublista">
+                                    <li><a href="#pergunta-passo1" class="link-interno" data-destino="pergunta-passo1"><span class="parenthesis">{d.modal_tutorial.page3.aside.step_1}</span></a></li>
+                                    <li><a href="#pergunta-passo2" class="link-interno" data-destino="pergunta-passo2"><span class="parenthesis">{d.modal_tutorial.page3.aside.step_2}</span></a></li>
+                                    <li><a href="#pergunta-passo3" class="link-interno" data-destino="pergunta-passo3"><span class="parenthesis">{d.modal_tutorial.page3.aside.step_3}</span></a></li>
+                                    <li><a href="#pergunta-passo4" class="link-interno" data-destino="pergunta-passo4"><span class="parenthesis">{d.modal_tutorial.page3.aside.step_4}</span></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#pergunta-recomendacoes" class="link-interno" data-destino="pergunta-recomendacoes"><span class="parenthesis">{d.modal_tutorial.page3.aside.recommendations}</span></a></li>
+                            <li><a href="#pergunta-nao-fazer" class="link-interno" data-destino="pergunta-nao-fazer"><span class="parenthesis">{d.modal_tutorial.page3.aside.what_not_to_do}</span></a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-modal">
+    <div class="modal-salvar elemento-invisivel" id="modal-copy">
+        <div class="fechar-salvar-modal"><i class="fa-solid fa-xmark close-salvar"></i></div>
+        <div id="child-modal-copy">
+            <h3 id="preview">{d.copy.modal_preview}</h3>
+            <span class="aviso-copy">
+                <span class="non-italic">💡</span> - <strong>{d.copy.warning_main}</strong>
+            </span>
+            <div id="container-text-format-copy">
+                <div class="container-textarea-copy" id="container-formatos-esperados">
+                    <div class="titulo-textarea-copy" id="formatos-esperados">{d.copy.expected_formats}</div>
+                    <div id="container-button-esperado-copy">
+                        <button class="button-esperado-copy active">1</button>
+                        <button class="button-esperado-copy">2</button>
+                        <button class="button-esperado-copy">3</button>
+                        <button class="button-esperado-copy">4</button>
+                        <button class="button-esperado-copy">5</button>
+                        <button class="button-esperado-copy">6</button>
+                        <button class="button-esperado-copy">7</button>
+                        <button class="button-esperado-copy">8</button>
+                        <button class="button-esperado-copy">9</button>
+                        <button class="button-esperado-copy">10</button>
+                    </div>
+                    <div id="carousel-copy" class="textarea-copy">
+                        <div class="button-carousel-copy" id="carrossel-btnslide-left"><i class="fa-solid fa-angle-left"></i></div>
+                        <div contenteditable="false" class="div-textarea-copy" id="creaftar-div-textarea-copy">
+                            <div class="item-carousel active" data-pagina="1">
+                                <p><strong>{d.copy.examples.dog}:</strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat}:</strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat}:</strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant}:</strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo}:</strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="2">
+                                <p><strong>{d.copy.examples.dog} —</strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} —</strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} —</strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} —</strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} —</strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="3">
+                                <p><strong>{d.copy.examples.dog} /</strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} /</strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} /</strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} /</strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} /</strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="4">
+                                <p><strong>{d.copy.examples.dog} =</strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} =</strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} =</strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} =</strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} =</strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="5">
+                                <p><strong>{d.copy.examples.dog} -</strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} -</strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} -</strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} -</strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} -</strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="6">
+                                <p><strong>{d.copy.examples.dog} ></strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} ></strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} ></strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} ></strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} ></strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="7">
+                                <p><strong>{d.copy.examples.dog} -></strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} -></strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} -></strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} -></strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} -></strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="8">
+                                <p><strong>{d.copy.examples.dog} --></strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} --></strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} --></strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} --></strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} --></strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="9">
+                                <p><strong>{d.copy.examples.dog} =></strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} =></strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} =></strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} =></strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} =></strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                            <div class="item-carousel" data-pagina="10">
+                                <p><strong>{d.copy.examples.dog} ==></strong> {d.copy.examples.desc_dog}</p>
+                                <p><strong>{d.copy.examples.cat} ==></strong> {d.copy.examples.desc_cat}</p>
+                                <p><strong>{d.copy.examples.bat} ==></strong> {d.copy.examples.desc_bat}</p>
+                                <p><strong>{d.copy.examples.elephant} ==></strong> {d.copy.examples.desc_elephant}</p>
+                                <p><strong>{d.copy.examples.kangaroo} ==></strong> {d.copy.examples.desc_kangaroo}</p>
+                            </div>
+                        </div>
+                        <div class="button-copy-contenteditable">
+                            <div id="copy-text-creaftar-copy">
+                                <i class="fa-solid fa-copy"></i>
+                            </div>
+                        </div>
+                        <div class="button-carousel-copy" id="carrossel-btnslide-right"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+                </div>
+                <div class="container-textarea-copy">
+                    <div class="titulo-textarea-copy">{d.copy.your_text}</div>
+                    <span class="title-aviso-copy aviso-copy aviso-copy-nobg no-margin">
+                        <span id="detector-palavras-copy">0</span> {d.copy.words_suffix} / 
+                        <span id="detector-dicas-copy">0</span> {d.copy.clues_suffix}
+                    </span>
+                     <div id="carousel-copy" class="textarea-copy">
+                        <div class="button-carousel-copy"></div>
+                            <div id="user-div-textarea-copy" class="div-textarea-copy" contenteditable="true" data-placeholder={d.copy.placeholder}>
+                               
+                            </div>
+                            <div class="button-copy-contenteditable">
+                                <div id="copy-text-user-copy">
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <div id="paste-text-user-copy">
+                                    <i class="fa-regular fa-clipboard"></i>
+                                </div>
+                                <div id="clear-text-user-copy">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </div>
+                            </div>
+                        <div class="button-carousel-copy"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-salvar-copy">
+                <button id="salvar-copy">{d.copy.btn_generate}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-modal">
+    <div class="requisitos elemento-invisivel" id="container-texto-vazio-copy">
+        <i class="fa-regular fa-clipboard left-icon"></i>
+        <p id="texto-vazio-copy" class="texto-req">{d.copy.requirements_alert}</p>
+        <div class="fechar-salvar alert" id="fechar-modal"><i class="fa-solid fa-xmark close-modal"></i></div>
+        <div class="loadBarMsg"></div>
+    </div>
+</div>

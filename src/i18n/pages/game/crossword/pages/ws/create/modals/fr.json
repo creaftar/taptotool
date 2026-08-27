@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "TITRE DE VOS MOTS MÊLÉS :",
+    "placeholder": "Mots mêlés",
+    "hints_question": "SOUHAITEZ-VOUS ACTIVER LES INDICES POUR VOTRE GRILLE ?",
+    "hints_obs": "(Vous pourrez modifier cette option plus tard à tout moment)",
+    "hints_yes": "Oui, je souhaite activer les indices pour mes mots mêlés",
+    "hints_no": "Ne pas activer les indices pour mes mots mêlés",
+    "answer_key_question": "SOUHAITEZ-VOUS CRÉER UN CORRIGÉ ?",
+    "answer_key_obs": "(Le corrigé permet aux joueurs de voir les réponses – vous pourrez changer cela plus tard)",
+    "answer_key_yes": "Oui, je souhaite créer un corrigé pour mes mots mêlés",
+    "answer_key_no": "Ne pas créer de corrigé",
+    "share_question": "SOUHAITEZ-VOUS PARTAGER VOTRE GRILLE SUR NOS RÉSEAUX SOCIAUX ?",
+    "share_yes": "Oui, je souhaite partager mes mots mêlés sur les réseaux Creaftar",
+    "share_no": "Ne pas partager mes mots mêlés",
+    "save_button": "ENREGISTRER",
+    "requirements_alert": "ATTENTION : L'enregistrement n'est disponible que pour les utilisateurs inscrits"
+  },
+  "modal_generate": {
+    "theme_title": "THÈME DES MOTS MÊLÉS",
+    "theme_placeholder": "Mots mêlés",
+    "word_quantity": "Nombre de mots",
+    "generate_button": "GÉNÉRER"
+  },
+  "copy": {
+    "modal_preview": "APERÇU",
+    "warning_main": "Ne vous souciez pas des verticales et des horizontales, suivez simplement les modèles ci-dessous",
+    "your_text": "Votre Texte :",
+    "detector_stats": "{words} mots / {clues} indices",
+    "placeholder": "Collez votre text ici...",
+    "expected_formats": "Formats Attendus :",
+    "btn_generate": "MON TEXTE EST AU BON FORMAT",
+    "words_suffix": "mots",
+    "clues_suffix": "indices",
+    "examples": {
+      "dog": "chien",
+      "cat": "chat",
+      "bat": "chauve-souris",
+      "elephant": "éléphant",
+      "kangaroo": "kangourou",
+      "desc_dog": "Le meilleur ami de l'homme",
+      "desc_cat": "Aime attraper les souris",
+      "desc_bat": "Mammifère qui vole",
+      "desc_elephant": "A une trompe",
+      "desc_kangaroo": "Grand marsupial"
+    },
+    "requirements_alert": "Oups ! Il semble que vous n'ayez rien collé, copiez un texte et réessayez"
+  }
+}

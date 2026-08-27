@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Zurück zur Startseite",
+    "disconnected": "Sie sind nicht angemeldet",
+    "connected": "Sie sind angemeldet",
+    "email_label": "E-MAIL:",
+    "password_label": "PASSWORT:",
+    "confirm_password_label": "PASSWORT BESTÄTIGEN:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "passwort",
+    "already_have_account": "Haben Sie bereits ein Konto?",
+    "no_account": "Noch kein Konto? Jetzt registrieren!",
+    "btn_register": "REGISTRIEREN",
+    "btn_login": "ANMELDEN",
+    "btn_logout": "ABMELDEN",
+    "search_crossword_aria": "Kreuzworträtsel suchen",
+    "search_placeholder": "Kreuzworträtsel suchen",
+    "hide_menu_aria": "Menü ausblenden",
+    "hide_menu_text": "Menü ausblenden",
+    "expand": "Erweitern",
+    "hide": "Ausblenden",
+    "lang_display": "Deutsch"
+  },
+  "auth_errors": {
+    "invalid_email": "Ungültige E-Mail-Adresse",
+    "user_not_found": "E-Mail-Adresse wurde nicht gefunden",
+    "wrong_password": "Das eingegebene Passwort ist falsch",
+    "too_many_requests": "Zu viele fehlgeschlagene Anmeldeversuche",
+    "network_failed": "Netzwerkfehler bei der Authentifizierung",
+    "weak_password": "Das gewählte Passwort ist zu schwach",
+    "email_in_use": "Diese E-Mail-Adresse wird bereits verwendet",
+    "different_credential": "Anmeldung mit einem anderen Anbieter fehlgeschlagen (z. B. Google)",
+    "operation_not_allowed": "Vorgang nicht zulässig",
+    "internal_error": "Interner Serverfehler bei der Authentifizierung",
+    "missing_password": "Bitte geben Sie ein Passwort ein",
+    "invalid_credential": "Ungültige Anmeldedaten (tritt meist bei der Migration zu Google, Twitter oder Yahoo auf)",
+    "passwords_dont_match": "Die Passwörter stimmen nicht überein"
+  }
+}

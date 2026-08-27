@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Jugar Sopa de Letras Online Gratis - Tap to Tool",
+    "description": "Desafía tu mente y mejora tu enfoque visual con esta sopa de letras exclusiva en Tap to Tool. ¡Encuentra las palabras ocultas y diviértete con los mejores juegos creados por la comunidad!",
+    "keywords": "jugar sopa de letras, sopa de letras online, encontrar palabras, juego de palabras ocultas, entrenar la mente, sopa de letras gratis, juegos de agilidad mental"
+  },
+  "schema": {
+    "game_name": "Jugar Sopa de Letras en Línea",
+    "description": "¡Juega esta sopa de letras personalizada en línea en Tap to Tool. ¡Gratis e interactiva!",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Jugar Sopa de Letras",
+    "alternateName": "Creaftar Juego de Sopa de Letras",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "OCULTAR",
+    "hide_timer": "OCULTAR CRONÓMETRO",
+    "show_answers": "REVELAR PALABRAS",
+    "hints_prefix": "TIENES",
+    "hints_suffix": "PISTAS",
+    "stats_title": "Tus Estadísticas",
+    "total_time": "Tiempo total",
+    "chars_typed": "Palabras encontradas",
+    "hits": "Aciertos",
+    "errors": "Errores",
+    "share": "Compartir",
+    "copy": "COPIAR",
+    "back_home": "INICIO",
+    "add_zoom": "AUMENTAR ZOOM",
+    "remove_zoom": "REDUCIR ZOOM",
+    "print": "IMPRIMIR REJILLA",
+    "completed_msg_prefix": "¡Has dominado y completado",
+    "completed_msg_suffix": "sopas de letras!",
+    "other_crosswords": "Otras Sopas de Letras Recomendadas"
+  },
+  "index": {
+    "horizontals": "PALABRAS",
+    "verticals": "LISTA DE PALABRAS",
+    "crossword_by": "Sopa de letras creada por "
+  },
+  "play": {
+    "challenge_prefix": "¡Entrena tu cerebro! Juega ahora a la sopa de letras ",
+    "challenge_suffix": " y pon a prueba tu velocidad visual. Intenta encontrar palabras ocultas como: ",
+    "challenge_footer": ", y mucho más. ¿Estás listo para el desafío?",
+    "kw_cruzadinha": "sopa de letras de ",
+    "kw_jogo": "juego de buscar palabras sobre "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Sopa de Letras Diaria",
+    "next_crossword": "Próxima sopa de letras del día en:",
+    "curiosidade": "; Encuentra términos ocultos como: ",
+    "CTA": ", y mucho más. ¿Será tu vista lo suficientemente rápida?",
+    "seo": {
+      "title": "Sopa de Letras Diaria - El Desafío Mental de Hoy - Tap to Tool",
+      "description": "¡Resuelve el desafío definitivo de hoy! Una sopa de letras inédita y gratuita cada día para poner a prueba tu enfoque, expandir tu vocabulario y entrenar tu mente en Tap to Tool.",
+      "keywords": "sopa de letras diaria, juego del día, desafío visual diario, encontrar palabras online, pasatiempo diario gratuito"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Sopa de Letras Diaria",
+      "description": "Un nuevo tablero de sopa de letras para resolver todos los días. ¡Desafía tu percepción visual diariamente con temas inéditos!"
+    },
+    "content": {
+      "h1": "Sopa de Letras Diaria",
+      "subtitle": "Una nueva dosis de entrenamiento mental cada 24 horas. ¿Podrás encontrar todas las palabras de hoy?",
+      "timer_label": "Tiempo de búsqueda:",
+      "next_in": "Próximo tablero en:"
+    },
+    "ui": {
+      "start_button": "COMENZAR DESAFÍO DIARIO",
+      "check_word": "COMPROBAR SELECCIÓN",
+      "reveal_letter": "REVELAR UNA LETRA",
+      "hints_remaining": "PISTAS RESTANTES:",
+      "stats_btn": "VER MI RENDIMIENTO",
+      "share_result": "COMPARTIR RESULTADO",
+      "calendar_view": "VER JUEGOS ANTERIORES",
+      "loading": "PREPARANDO EL TABLERO DEL DIÁ..."
+    },
+    "feedback": {
+      "win_title": "¡Increíble! ¡Vista de Águila!",
+      "win_msg": "Has encontrado todas las palabras ocultas de hoy en ",
+      "win_footer": "¡Tu cerebro te lo agradece! Vuelve mañana para un nuevo tablero.",
+      "error_msg": "Algunas selecciones no son correctas o faltan palabras. ¡Sigue buscando!"
+    },
+    "social": {
+      "share_text": "¡Encontré todas las palabras en la Sopa de Letras Diaria de Tap to Tool en solo {time}! ¡Dudo que puedas superar mi tiempo!"
+    }
+  }
+}

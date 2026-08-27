@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Πώς να Ανέβετε Division στο League of Legends",
+    "description": "Κουραστήκατε από trolls, AFK και smurfs; Μάθετε πώς να ανεβείτε πραγματικά rank με αυτόν τον σύντομο οδηγό.",
+    "keywords": "elo, league of legends, gold lol, πως να ανεβω division στο lol, πως να ανεβω rank, πως να βγω απο silver, πως να βγω απο gold, πως να βγω απο iron, πως να βγω απο bronze, πως να βγω απο platinum, πως να βγω απο diamond, πως να βγω απο master, οδηγος για rank 1"
+  },
+  "schema": {
+    "app_name": "EloBetter - Οδηγός Ranked LoL",
+    "app_description": "Μάθετε πώς να ανεβείτε rank στο League of Legends με στρατηγικές που εστιάζουν στη νοοτροπία, τους champions και την ποιότητα παιχνιδιού.",
+    "breadcrumb_home": "Αρχική",
+    "breadcrumb_current": "Οδηγός EloBetter"
+  },
+  "ui": {
+    "price_currency": "EUR"
+  }
+}

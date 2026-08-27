@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home_aria": "Volver a la página de inicio",
+    "disconnected": "Estás desconectado",
+    "connected": "Estás conectado",
+    "email_label": "EMAIL:",
+    "password_label": "CONTRASEÑA:",
+    "confirm_password_label": "CONFIRMAR CONTRASEÑA:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "contraseña",
+    "already_have_account": "¿Ya tienes una cuenta?",
+    "no_account": "¿Aún no tienes una cuenta? ¡Regístrate!",
+    "btn_register": "REGISTRAR",
+    "btn_login": "INGRESAR",
+    "btn_logout": "CERRAR SESIÓN",
+    "search_crossword_aria": "Buscar crucigrama",
+    "search_placeholder": "Buscar crucigramas",
+    "hide_menu_aria": "Botón para ocultar el menú",
+    "hide_menu_text": "Ocultar menú",
+    "expand": "Expandir",
+    "hide": "Ocultar",
+    "lang_display": "Español"
+  },
+  "auth_errors": {
+    "invalid_email": "Dirección de correo electrónico no válida",
+    "user_not_found": "Dirección de correo electrónico no encontrada",
+    "wrong_password": "La contraseña proporcionada es incorrecta",
+    "too_many_requests": "Demasiados intentos de inicio de sesión fallidos",
+    "network_failed": "Error de red al intentar autenticar",
+    "weak_password": "La contraseña proporcionada es muy débil",
+    "email_in_use": "La dirección de correo electrónico ya está asociada a otra cuenta",
+    "different_credential": "Intento de inicio de sesión con un proveedor diferente (ej. Google)",
+    "operation_not_allowed": "La operación no está permitida",
+    "internal_error": "Error interno en el servidor de autenticación",
+    "missing_password": "Por favor, introduce la contraseña",
+    "invalid_credential": "Credencial no válida (suele ocurrir al migrar la cuenta a Google, Twitter o Yahoo)",
+    "passwords_dont_match": "Las contraseñas no coinciden"
+  },
+  "pesquisa": {
+    "search_crossword": "Buscar crucigramas..."
+  },
+  "ui": {
+    "search_placeholder": "Buscar crucigramas",
+    "search_aria": "Buscar crucigrama"
+  }
+}

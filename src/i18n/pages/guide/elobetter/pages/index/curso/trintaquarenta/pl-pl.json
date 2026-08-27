@@ -1,0 +1,12 @@
+{
+  "title": "Reguła 30 / 30 / 40",
+  "subtitle": "Zrozumienie, dlaczego powodem, dla którego nie awansujesz, nie są trolle i AFK, ale ty sam:",
+  "desc_losses": "<span class=\"destaque\">- 30% Gwarantowanych Przegranych (Gry \"Nie do wygrania\"):</span> <br>To są te mecze, w których twój kolega z drużyny decyduje się na ragequit, trollowanie lub po prostu każda inna aleja zostaje zmieciona z powierzchni ziemi. Matematycznie rzecz biorąc, nawet jeśli grasz na absolutnie najwyższym poziomie, waga pozostałych 4 graczy przewyższa twoją zdolność do carrowania.",
+  "desc_wins": "<span class=\"destaque\">- 30% Gwarantowanych Wygranych (Gry \"Zcarrowane\"):</span> <br>To gry, w których twój top laner ma statystyki 10/0 w pięć minut, jungler kontroluje każdy cel na mapie, a przeciwna drużyna zaczyna się kłócić na czacie ogólnym. Mógłbyś grać fatalnie lub nawet stać AFK w bazie, a twoja drużyna i tak wygrałaby 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% Gier, Które Zależą od Ciebie (Tutaj powinieneś skupić swoją energię):</span> <br>To zbalansowane mecze, w których obie drużyny mają realną szansę na wygraną. Ostateczny wynik zależy od jednego szczegółu: twojego pozycjonowania w teamfightach, rotacji, kontroli wizji lub podejmowania decyzji w late game.",
+  "conclusion": "Błąd, który popełnia większość ludzi, polega na tym, że grają na poważnie (tryhardują), wpadają w losestreak i tiltują z tego powodu, po czym pod wpływem impulsu szukają kolejnej gry i przegrywają mecze, które faktycznie zależały od nich, ponieważ są ztiltowani.",
+  "btn_next": "NASTĘPNY KROK",
+  "label_losses": "Nie do wygrania",
+  "label_impact": "Zależą od Ciebie",
+  "label_wins": "Zcarrowane"
+}

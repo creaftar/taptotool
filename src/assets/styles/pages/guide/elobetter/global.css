@@ -1,0 +1,64 @@
+/*GLOBAL*/
+@font-face {
+	font-family: 'titulo';
+	src: url("../../../../fonts/Niramit/Niramit-Regular.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'titulo';
+	src: url("../../../../fonts/Niramit/Niramit-Bold.woff2") format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+    overflow: auto;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.next-step{
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgba(var(--padrao), 1);
+}
+	
+
+.elemento-invisivel{
+    visibility: hidden;
+}
+.elemento-visivel{
+    visibility: visible;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+h2{
+    font-size: x-large;
+}
+h3{
+	font-size: 1em;
+}
+
+.destaque{
+	font-weight: bold;
+    color: rgba(var(--destaque), 1);
+}
+
+.italico{
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.padrao{
+    fill: rgba(var(--padrao), 1);
+	color: rgba(var(--padrao), 1)
+}
+
+.sr-only{
+	visibility: hidden;
+	display: none;
+}

@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "TITEL DEINES KREUZWORTRÄTSELS:",
+    "placeholder": "Kreuzworträtsel",
+    "hints_question": "MÖCHTEST DU HINWEISE FÜR DEIN RÄTSEL AKTIVIEREN?",
+    "hints_obs": "(Du kannst diese Option später jederzeit ändern)",
+    "hints_yes": "Ja, ich möchte Hinweise für mein Rätsel aktivieren",
+    "hints_no": "Keine Hinweise für mein Rätsel aktivieren",
+    "answer_key_question": "MÖCHTEST DU EINE LÖSUNGSHILFE ERSTELLEN?",
+    "answer_key_obs": "(Die Lösungshilfe ermöglicht es den Spielern, die Antworten zu sehen – du kannst dies später ändern)",
+    "answer_key_yes": "Ja, ich möchte eine Lösungshilfe für mein Rätsel erstellen",
+    "answer_key_no": "Keine Lösungshilfe für mein Rätsel erstellen",
+    "share_question": "MÖCHTEST DU DEIN RÄTSEL IN UNSEREN SOZIALEN NETZWERKEN TEILEN?",
+    "share_yes": "Ja, ich möchte mein Rätsel auf den Creaftar-Kanälen teilen",
+    "share_no": "Mein Rätsel nicht teilen",
+    "save_button": "SPEICHERN",
+    "requirements_alert": "ACHTUNG: Speichern ist nur möglich, wenn du registriert bist"
+  },
+  "modal_generate": {
+    "theme_title": "THEMA DES RÄTSELS",
+    "theme_placeholder": "Kreuzworträtsel",
+    "word_quantity": "Anzahl der Wörter",
+    "generate_button": "GENERIEREN"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "BEISPIEL-VIDEOS",
+      "create": "RÄTSEL ERSTELLEN",
+      "generate": "RÄTSEL GENERIEREN"
+    },
+    "page1": {
+      "title_generate": "SO GENERIERST DU EIN RÄTSEL",
+      "title_auto": "SO ERSTELLST DU EIN RÄTSEL",
+      "title_manual": "SO ERSTELLST DU EIN RÄTSEL",
+      "subtitle_video": "(Video)",
+      "subtitle_auto": "(Automatisch - Video)",
+      "subtitle_manual": "(Manuell - Video)",
+      "video_fallback": "Dein Browser unterstützt keine HTML5-Videos.",
+      "aside": {
+        "how_generate": "- GENERIEREN",
+        "how_create_auto": "- ERSTELLEN (automatisch)",
+        "how_create_manual": "- ERSTELLEN (manuell)"
+      }
+    },
+    "page2": {
+      "main_title": "WIE MAN EIN KREUZWORTRÄTSEL ERSTELLT",
+      "intro_text": "In diesem Abschnitt wird erklärt, wie du dein eigenes Kreuzworträtsel von Grund auf neu erstellst (falls gewünscht, kannst du die Generierung mit der manuellen Erstellung kombinieren). Nutze das Menü an der Seite, um schnell zu den gewünschten Themen zu gelangen.",
+      "start_title": "WO MAN ANFÄNGT",
+      "start_text_1": "Klicke auf der Karte unten mit dem Titel „WÖRTER“ in das Feld mit der Beschreibung „Beispiel“ und tippe dein erstes Wort ein (keine Sorge, du kannst es später ändern). Drücke die „ENTER“-Taste auf deiner Tastatur oder klicke auf die „+“-Schaltfläche.",
+      "start_text_2": "Sobald dies erledigt ist, wirst du feststellen, dass folgendes erscheint:",
+      "start_list_1": "1. Ein Wort in Quadraten auf dem Bildschirm:",
+      "start_list_1_sub": "Dies ist das Wort, das dein Publikum erraten muss.",
+      "start_list_2": "2. Ein Wort auf der „WÖRTER“-Karte:",
+      "start_list_2_sub": "Dies ist exklusiv für dich; du kannst es ändern (darauf klicken) oder löschen, was sich direkt auf das Wort auf dem Bildschirm auswirkt.",
+      "start_list_3": "3. Ein Hinweis auf der „HINWEISE“-Karte:",
+      "start_list_3_sub": "Hier gibst du den Hinweis für dein Publikum ein. Beachte, dass jeder Hinweis und jedes Wort nummeriert ist. Der Hinweis: 1 - was „Beispiel“ wäre, beschreibt also das Wort 1 - Beispiel, und so weiter.",
+      "before_continue": "BEVOR DU FORTFÄHRST",
+      "instruction_1": "- Ändere das Wort und die Beschreibung, indem du auf die generierten Texte klickst.",
+      "instruction_2": "- Erstelle mindestens 2 Wörter.",
+      "move_title": "WIE MAN WÖRTER BEWEGT",
+      "move_intro": "Um die erstellten Wörter zu bewegen, musst du sie anhand der entsprechenden Buchstaben miteinander verbinden. Dafür hast du zwei Möglichkeiten:",
+      "move_option_1": "1. Jedes Wort einzeln bewegen, so wie du es einfügen möchtest.",
+      "move_option_2": "2. Alle Wörter automatisch bewegen, sodass sie mit nur einem Klick zusammenpassen.",
+      "auto_pos_title": "ALLE AUTOMATISCH POSITIONIEREN",
+      "auto_pos_text": "Um alle Wörter automatisch zu positionieren, klicke auf das Zahnrad-Symbol im Menü auf der rechten Seite. Falls ein Wort nicht passt, versuche es noch ein paar Mal. Wenn der Fehler weiterhin besteht, überprüfe die Rechtschreibung. Groß- und Kleinschreibung wird ignoriert, aber Wörter mit und ohne Akzente gelten als unterschiedlich.",
+      "single_move_title": "EINZELNE BEWEGUNG",
+      "single_move_text": "Alle Wörter sind anfangs fixiert, was bedeutet, dass du sie nicht bewegen kannst. Um dies zu ändern und jedes Wort einzeln zu verschieben:",
+      "single_move_li_1": "Klicke auf dieses Symbol, um das Wort beweglich zu machen.",
+      "single_move_li_2": "Klicke, halte die Maustaste gedrückt und ziehe das Wort innerhalb des Bereichs.",
+      "single_move_li_3": "Nachdem du dein erstes Wort bewegt hast, wähle das nächste Wort aus:",
+      "single_move_li_3_sub1": "Nutze diesen Richtungspfeil, um zum nächsten Wort zu springen.",
+      "single_move_li_3_sub2": "Nutze diesen Richtungspfeil, um zum vorherigen Wort zurückzukehren.",
+      "direction_title": "HORIZONTAL x VERTIKAL",
+      "direction_text": "Du kannst dein Wort auch zwischen vertikal und horizontal umstellen. Klicke dazu auf das Symbol (Raster), aber denke daran, die Bearbeitung des Wortes (Stift-Symbol) vorher zu erlauben.",
+      "aside": {
+        "create_crossword": "- RÄTSEL ERSTELLEN",
+        "where_start": "- WO MAN ANFÄNGT",
+        "how_move": "WÖRTER BEWEGEN",
+        "auto_pos": "- AUTOM. POSITIONIEREN",
+        "single_move": "- EINZELNE BEWEGUNG",
+        "horiz_vert": "- HORIZONTAL x VERTIKAL"
+      }
+    },
+    "page3": {
+      "main_title": "SO GENERIERST DU EIN RÄTSEL",
+      "intro_text": "In diesem Abschnitt wird erklärt, wie du ein komplettes Kreuzworträtsel basierend auf einem einzigen Thema generieren kannst (du kannst dies auch mit der manuellen Erstellung kombinieren). Nutze das Seitenmenü für eine schnelle Navigation.",
+      "steps_title": "SCHRITT FÜR SCHRITT",
+      "steps_intro": "Um ein Kreuzworträtsel über ein Thema zu generieren, folge diesen Schritten:",
+      "step_1": "1. Klicke auf das Roboter-Symbol im Menü auf der rechten Seite.",
+      "step_2": "2. Gib im erscheinenden Fenster das gewünschte Thema ein.",
+      "step_3": "3. Passe die Anzahl der Wörter über den Schieberegler oder die Pfeiltasten an.",
+      "step_4": "4. Klicke auf „GENERIEREN“, damit unsere KI dein Rätsel erstellt.",
+      "recom_title": "EMPFEHLUNGEN",
+      "recom_1": "- Falls dein Thema nicht generiert wird, lade die Seite neu. Besteht der Fehler weiterhin, beschreibe das Thema anders (den Titel kannst du später ändern).",
+      "recom_2": "- Überprüfe die generierten Antworten und Hinweise. Du kannst sie jederzeit durch Anklicken bearbeiten.",
+      "recom_3": "- Behalte bei der Anzahl der Wörter deine Zielgruppe und den Schwierigkeitsgrad im Kopf (Rätsel mit 15 bis 30 Wörtern sind meist ideal).",
+      "dont_title": "WAS MAN VERMEIDEN SOLLTE",
+      "dont_1": "- Vermeide zu komplexe Themen.",
+      "dont_2": "- Vermeide zu abstrakte Themen.",
+      "dont_3": "- Verrate die Antwort nicht direkt im Hinweis.",
+      "dont_4": "- Denke daran: Du kennst die Antworten, aber dein Publikum nicht. Erstelle Hinweise, die lösbar sind.",
+      "aside": {
+        "generate_crossword": "- RÄTSEL GENERIEREN",
+        "step_by_step": "SCHRITT FÜR SCHRITT",
+        "step_1": "- 1. Schritt",
+        "step_2": "- 2. Schritt",
+        "step_3": "- 3. Schritt",
+        "step_4": "- 4. Schritt",
+        "recommendations": "- EMPFEHLUNGEN",
+        "what_not_to_do": "- WAS MAN VERMEIDEN SOLLTE"
+      }
+    }
+  },
+  "copy": { 
+    "modal_preview": "VORSCHAU",
+    "warning_main": "Keine Sorge wegen vertikaler oder horizontaler Ausrichtung, achte einfach auf die Formate unten",
+    "your_text": "Dein Text:",
+    "detector_stats": "{words} Wörter / {clues} Hinweise",
+    "placeholder": "Füge deinen Text hier ein...",
+    "expected_formats": "Erwartete Formate:",
+    "btn_generate": "MEIN TEXT ENTSPRICHT EINEM FORMAT",
+    "words_suffix": "Wörter",
+    "clues_suffix": "Hinweise",
+    "examples": {
+      "dog": "Hund",
+      "cat": "Katze",
+      "bat": "Fledermaus",
+      "elephant": "Elefant",
+      "kangaroo": "Känguru",
+      "desc_dog": "Der beste Freund des Menschen",
+      "desc_cat": "Jagd gerne Mäuse",
+      "desc_bat": "Fliegendes Säugetier",
+      "desc_elephant": "Hat einen Rüssel",
+      "desc_kangaroo": "Großes Beuteltier"
+    },
+    "requirements_alert": "Ups! Es sieht so aus, als hätten Sie nichts eingefügt. Kopieren Sie einen Text und versuchen Sie es erneut."
+  }
+}

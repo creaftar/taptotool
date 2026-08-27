@@ -1,0 +1,96 @@
+#container-paste-text{
+    color: rgba(var(--padrao), 1);
+    z-index: 50;
+    min-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fundo-body);
+    border-radius: 6px;
+    padding: 18px;
+    border: dashed 2px rgba(var(--borda-copy), 1);
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-shadow: 0px 0px 12px rgba(var(--shadow), 0.1);
+    user-select: none;
+    cursor: pointer;
+}
+
+#container-paste-text > i{
+    font-size: 2em;
+    margin-bottom: 9px;
+    transition: color 0.2s;
+}
+#container-paste-text:hover i{
+    color: var(--destaque);
+}
+#ctrlv{
+    font-size: 0.8em;
+    margin-top: 9px;
+}
+
+#container-bloco-error{
+    color: rgba(var(--padrao), 1);
+    z-index: 6;
+    min-width: 0; 
+    flex-grow: 1;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    user-select: none;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 0;
+    background-color: var(--fundo-body);
+    transition: height 0.3s, opacity 0.3s;
+}
+
+#container-bloco-error > p{
+    padding: 18px;
+    font-size: 0.8em;
+}
+
+.container-icones-result, .container-icones-text{
+    margin-right: 9px;
+    display: flex;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    padding: 3px;
+}
+.container-icones-result-body{
+    background-color: var(--fundo-body);
+}
+#btn-copiar-result, #btn-copiar-areatext, #btn-exlcuir-areatext{
+    font-size: 1.2em;
+    padding: 12px;
+    background-color: var(--fundo-body);
+    color: rgba(var(--padrao), 1);
+    border: none;
+}
+#btn-copiar-result{
+    cursor: pointer;
+    background-color: transparent;
+}
+#btn-copiar-areatext, #btn-exlcuir-areatext{
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.container-icones-text > button{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.fa-clipboard:before {
+    content: "\f328"
+}

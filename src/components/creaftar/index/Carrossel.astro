@@ -1,0 +1,65 @@
+---
+import '@/assets/styles/pages/game/crossword/pages/index/cards/carrossel.css';
+import { Image } from 'astro:assets';
+const { t = {}, linksAmazon = [], imgsAmazon = [] } = Astro.props;
+
+// Criamos variáveis seguras para o "clone" do carrossel e para o botão de detalhes
+const primeiroLink = linksAmazon && linksAmazon.length > 0 ? linksAmazon[0] : "#";
+const primeiraImg = imgsAmazon && imgsAmazon.length > 0 ? imgsAmazon[0] : null;
+---
+
+<div class="main-card container-card anuncio">
+  <div class="card">
+    <div class="linkJogar" id="card-area">
+      <button class="btnCarrossel traduzirbody" aria-label={t.carousel.btn_prev_aria} id="carrosselPrevBtn">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      
+      <div class="carousel-track" id="carouselTrack">
+        {linksAmazon && linksAmazon.length > 0 && linksAmazon.map((link: string, i: number) => (
+        <a href={link} target="_blank" class="card slide">
+            <Image 
+                src={imgsAmazon[i]} 
+                alt={t.carousel.advertisement} 
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchpriority={i === 0 ? "high" : "low"}
+                width={383} 
+                height={252}
+            />
+        </a>
+        ))}
+        {primeiraImg && (
+          <a href={primeiroLink} target="_blank" class="card slide">
+            <Image src={primeiraImg} alt={t.carousel.advertisement} width={400} height={250} />
+          </a>
+        )}
+      </div>
+
+      <button class="btnCarrossel traduzirbody" aria-label={t.btn_next_aria} id="carrosselNextBtn">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div> 
+
+    <div class="card-botoes">
+      <button class="traduzirbody" aria-label={t.carousel.button_buy}>
+        <a class="icon-link blue traduzirbody" href="https://taptotool.com" target="_blank" id="icon-card">
+          <i class="fa-solid fa-gears"></i>
+        </a>
+      </button>
+    </div>
+  </div>
+
+  <div class="card-infos">
+    <div class="header-card-infos header-card-infos-ad">
+      <a class="blue button-topico" id="comprarCarrosselBtn" href={primeiroLink} target="_blank">
+        <i class="fa-solid fa-gears"></i> 
+        <span>{t.carousel.details}</span> 
+        <i class="fa-solid fa-arrow-up-right-from-square end-topic blue end-topic-btn"></i>
+      </a>
+      <p class="ad blue no-break-lines text-advertisement">
+        <span class="icone-pequeno">●</span> {t.carousel.advertisement}
+      </p>
+    </div>
+    <p class="ad aviso-ad">{t.carousel.advice} - <a href="/politics.html" target="_blank" class="blue">{t.carousel.read_more}</a></p>
+  </div>
+</div>

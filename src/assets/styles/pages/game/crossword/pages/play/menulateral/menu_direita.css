@@ -1,0 +1,82 @@
+#menu_lateralDesktop{
+	height: 160px; /*40px de cada icone*/
+	right: 9px;
+}
+
+.audio{
+	color: rgba(var(--padrao), 1);
+}
+
+#volume-slider{
+	appearance: none;
+    background-color: rgba(var(--padrao), 1); /* Substitua pela cor desejada */
+	color: rgba(var(--padrao), 1); /* Substitua pela cor desejada */
+    height: 3px; /* Altura desejada */
+    width: 60px; /* Largura desejada */
+	border-radius: 9px;
+	border-right: none;
+}
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remova a aparência padrão do polegar */
+    appearance: none;
+    width: 12px; /* Largura do polegar */
+    height: 12px; /* Altura do polegar */
+    background-color: rgba(var(--padrao), 1); /* Cor do polegar */
+    border-radius: 50%; /* Borda arredondada */
+    cursor: pointer;
+}
+
+#clock, #gabarito{
+	color: rgba(var(--padrao), 1);
+}
+
+#revelar{
+	transition: color 0.3s;
+	color: rgba(var(--padrao), 1);	
+}
+#qtdeDicas{
+	color: var(--destaque);
+}
+
+#revelar:hover, #qtdeDicas:hover{
+	color: var(--destaque);
+}
+#qtdeDicas{
+	margin: 0 3px;
+}
+
+#dica-animada {
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -100%; /* Isso pode estar jogando ela muito para longe, cuidado */
+    bottom: 48px;
+    color: var(--destaque);
+    font-weight: bold;
+    pointer-events: none; /* Evita que bloqueie cliques no menu */
+    
+    opacity: 0;
+    transform: translateX(30px);
+    
+    transition: opacity 0.4s ease-out, transform 0s 0.4s;
+}
+#dica-animada.animar {
+    opacity: 1;
+    /* ESTADO FINAL DA ANIMAÇÃO: Termina na esquerda */
+    transform: translateX(-20px); 
+    
+    /* TRANSIÇÃO DE IDA: Suave e elegante */
+    transition: opacity 0.3s ease-out, transform 1.5s cubic-bezier(0.1, 0.7, 0.1, 1);
+}
+
+@media (min-width: 1025px){
+	#menu_lateralDesktop{
+		right: calc(10% + 9px);
+		/*height: calc(100% - calc(124px + calc(21 * var(--vh)))); /*104px do h1 - 6px pra dar um espacamento*/
+		/*margin-top: calc(calc(100% - calc(112px + 22vh)) / 2);*/ /*112px do h1 + 6px pra dar um espacamento*/
+	}
+}

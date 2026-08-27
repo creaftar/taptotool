@@ -1,0 +1,25 @@
+{
+  "graph_title": "Số Trận vs. Chất Lượng",
+  "graph_subtitle": "Khám phá giới hạn số trận chơi mỗi ngày để giữ tỷ lệ thắng cao nhất ở bậc rank hiện tại và kiểm tra lại mỗi khi lên ELO mới",
+  "axis_y_title": "Tỷ Lệ Thắng %",
+  "game_1": "Trận 1",
+  "game_3": "Trận 3",
+  "game_5": "Trận 5",
+  "game_8": "Trận 8+",
+  "axis_x_title": "Số Trận Đã Chơi",
+  "tier_ferro": "Sắt/Đồng",
+  "tier_prata": "Bạc",
+  "tier_ouro": "Vàng",
+  "tier_esmeralda": "Plat/Lục Bảo",
+  "tier_diamante": "Kim Cương",
+  "tier_mestre": "Cao Thủ+",
+  "js_default_text": "Di chuột qua một bậc rank để xem phân tích nhịp độ chơi.",
+  "js_texts": {
+    "mestre": "<strong>Cao Thủ+: Cực Hạn Trình Độ.</strong> Ở ELO này, một bước di chuyển lỗi (micro-mistake) sẽ khiến bạn trả giá bằng cả ván đấu. Phong độ đỉnh cao chỉ duy trì trong 2 trận đầu; từ trận thứ 3, sự mệt mỏi trong các quyết định nhỏ sẽ làm tụt thảm hại điểm LP.",
+    "diamante": "<strong>Kim Cương: Sự Ổn Định Là Vua.</strong> Bạn chỉ có thể giữ sự tập trung cao độ trong khoảng 3 đến 4 trận. Cố đấm ăn xôi cày tiếp sẽ khiến bạn rơi vào trạng thái 'auto-pilot' (đánh không não) — kẻ thù số một nếu muốn leo High ELO.",
+    "esmeralda": "<strong>Plat & Lục Bảo: Cái Bẫy Tâm Lý.</strong> Kỹ năng tay tay của bạn có thể trụ được đến trận thứ 4, nhưng độ kiên nhẫn và khả năng chịu đựng 'bóp team' sẽ cạn kiệt rất nhanh. Bảo vệ ELO của mình đi: thua 2 trận liên tiếp thì tắt máy tắt game.",
+    "ouro": "<strong>Vàng: Cân Bằng Tầm Trung.</strong> Bạn có thể cày một số lượng trận khá ổn (lên đến 5-6 trận) vì đối thủ chưa biết trừng phạt sai lầm ngay lập tức, nhưng tư duy chiến thuật (macro) sẽ bắt đầu bay màu vào cuối chuỗi trận.",
+    "prata": "<strong>Bạc: Cày Trận Lấy Kỹ Năng.</strong> Sự mệt mỏi ít khi làm giảm tỷ lệ thắng ở ELO này vì game không đòi hỏi kiểm soát macro liên tục. Việc bạn cần làm là spam thật nhiều trận để luyện thuần thục bộ kỹ năng cơ bản và combo tướng.",
+    "ferro": "<strong>Sắt/Đồng: Khô Máu Bằng Số Lượng.</strong> Mệt mỏi không phải là vấn đề ở đây. Thay vì lo lắng về tâm lý, hãy cấm chat hết (/mute all), nện thật nhiều trận để lấy kinh nghiệm thực chiến và test giới hạn sát thương của tướng. Cứ thoải mái cày chuỗi trận dài."
+  }
+}

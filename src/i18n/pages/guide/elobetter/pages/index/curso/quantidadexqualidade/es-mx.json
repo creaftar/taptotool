@@ -1,0 +1,25 @@
+{
+  "graph_title": "Cantidad vs. Calidad",
+  "graph_subtitle": "Encuentra el límite exacto de juegos diarios para mantener tu win rate alto en tu ELO actual y vuelve a consultar cada que subas de rango",
+  "axis_y_title": "% Rendimiento",
+  "game_1": "1.er Juego",
+  "game_3": "3.er Juego",
+  "game_5": "5.º Juego",
+  "game_8": "8.º Juego+",
+  "axis_x_title": "Juegos Jugados",
+  "tier_ferro": "Hierro/Bronce",
+  "tier_prata": "Plata",
+  "tier_ouro": "Oro",
+  "tier_esmeralda": "Plat/Esmeralda",
+  "tier_diamante": "Diamante",
+  "tier_mestre": "Master+",
+  "js_default_text": "Pasa el cursor sobre un ELO para ver el análisis de ritmo.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Alto Rendimiento Absoluto.</strong> Aquí los microerrores te cuestan la partida. Tu 'peak' es de 2 juegos max; a partir del 3.º, la fatiga de microdecisiones tumba drásticamente tu ganancia de PL.",
+    "diamante": "<strong>Diamante: Consistencia es Rey.</strong> Puedes mantener el focus por unos 3 o 4 juegos. Terquear con sesiones largas te va a meter en 'piloto automático', el peor enemigo para salir de High ELO.",
+    "esmeralda": "<strong>Plat y Esmeralda: Los Elos del Desgaste Mental.</strong> Tu mecánica aguanta hasta el 4.º juego, pero la resiliencia psicológica cae rápido. Cuida tus puntos: si encadenas dos derrotas, dale 'skip' al juego.",
+    "ouro": "<strong>Oro: Equilibrio Intermedio.</strong> Aguantas un volumen decente (hasta 5-6 juegos) porque las 'fedeadas' aún no se castigan al instante, pero el enfoque macro se empieza a ir a la basura al final.",
+    "prata": "<strong>Plata: Volumen de Aprendizaje.</strong> La fatiga casi no afecta tu win rate porque en esta liga no se exige tanto focus macro. Lo ideal es spamear juegos para mecanizar bien tus fundamentos básicos.",
+    "ferro": "<strong>Hierro/Bronce: Fuerza Bruta.</strong> La fatiga no es el cuello de botella aquí. Metियरle volumen de juegos para ganar experiencia práctica y probar los límites de tu campeón supera el desgaste. Puedes grindear sesiones largas."
+  }
+}

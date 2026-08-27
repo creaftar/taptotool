@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Jak Awansować w League of Legends",
+    "description": "Masz dość trolli, AFK-ów i smurfów? Dowiedz się, jak naprawdę wbijać rangi dzięki temu zwięzłemu przewodnikowi.",
+    "keywords": "elo, league of legends, gold lol, jak awansowac w lol, jak podniesc elo, jak wyjsc z srebra, jak wyjsc z złota, jak wyjsc z żelaza, jak wyjsc z brązu, jak wyjsc z platyny, jak wyjsc z diamentu, jak wyjsc z mastera, poradnik rank 1"
+  },
+  "schema": {
+    "app_name": "EloBetter - Poradnik Awansu LoL",
+    "app_description": "Dowiedz się, jak awansować w League of Legends dzięki strategiom skupionym na nastawieniu, bohaterach i jakości gry.",
+    "breadcrumb_home": "Strona główna",
+    "breadcrumb_current": "Poradnik EloBetter"
+  },
+  "ui": {
+    "price_currency": "PLN"
+  }
+}

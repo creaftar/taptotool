@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - 英雄聯盟爬分指南與技巧",
+    "description": "厭倦了擺爛、AFK 和炸魚玩家嗎？透過這份超精簡、直奔主題的指南，學習如何真正提升你的牌位。",
+    "keywords": "elo, 英雄聯盟, lol 黃金, lol 爬分技巧, 如何提升牌位, 離開白銀, 離開黃金, 離開鐵牌, 離開青銅, 離開白金, 離開鑽石, 離開大師, 韓服第一指南"
+  },
+  "schema": {
+    "app_name": "EloBetter - 英雄聯盟爬分指南",
+    "app_description": "學習如何透過專注於心態、英雄池和對局質量的策略，在英雄聯盟中快速提升牌位。",
+    "breadcrumb_home": "首頁",
+    "breadcrumb_current": "EloBetter 指南"
+  },
+  "ui": {
+    "price_currency": "TWD"
+  }
+}

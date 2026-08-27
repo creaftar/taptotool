@@ -1,0 +1,18 @@
+{
+  "title": "La Mentalidad Correcta",
+  "main_card_title": "Qué es la Desestabilización Emocional (tiltearse)",
+  "card_1_title": "El Mecanismo",
+  "card_2_title": "El Impacto",
+  "card_3_title": "Cuándo Ocurre",
+  "card_4_title": "Qué Hacer",
+  "warning_text": "⚠️ En todas tus partidas vas a mutear el chat (tanto aliado como enemigo) y mutear los gestos enemigos para evitar distracciones",
+  "img_alt": "Cómo mutear el chat del juego",
+  "img_subtext": "Mantén esta configuración de arriba (asegúrate de marcar también la casilla de gestos)",
+  "js_texts": [
+    "",
+    "La amígdala toma el control. (La parte del cerebro responsable de las respuestas emocionales de \"lucha o huida\")",
+    "Desactiva temporalmente la corteza prefrontal, que es el área del cerebro responsable del pensamiento lógico, la planificación y el control de impulsos. <span class=\"destaque\">Dejas de pensar y pasas solo a reaccionar.</span>",
+    "Te tilteas cuando quieres que la partida suceda de una manera, pero las acciones de tus aliados o de los enemigos te demuestran que no tienes el control de la partida.",
+    "Cuando te des cuenta, la mejor decisión técnica que puedes tomar es pausar, respirar profundo y alejarte del juego por un tiempo hasta que la corteza prefrontal recupere el control."
+  ]
+}

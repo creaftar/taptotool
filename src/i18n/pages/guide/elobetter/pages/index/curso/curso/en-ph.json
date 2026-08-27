@@ -1,0 +1,24 @@
+{
+  "btn_next": "NEXT STEP",
+  "footer": {
+    "share_telegram": "Share the site on Telegram",
+    "share_whatsapp": "Share the site on WhatsApp",
+    "share_bluesky": "Share the site on Bluesky",
+    "share_x": "Share the site on X",
+    "share_facebook": "Share the site on Facebook",
+    "share_reddit": "Share the site on Reddit"
+  },
+  "banner": {
+    "view_opgg": "View creator's OP.GG profile",
+    "play_crossword": "Play League of Legends crossword puzzles",
+    "watch_videos": "Watch gameplay videos and analyze how a high-ELO player plays",
+    "more_tools": "Explore more online tools to automate your daily workflow"
+  },
+  "myaccount": {
+    "badge_current_elo": "Guide creator's current ELO emblem",
+    "summoner_icon": "Summoner Icon"
+  },
+  "reset_steps": "Reset all steps (start over)",
+  "copy_profile_nick": "Copy profile IGN",
+  "update_profile": "Update profile"
+}

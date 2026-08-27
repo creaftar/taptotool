@@ -1,0 +1,24 @@
+{
+  "btn_next": "다음 단계",
+  "footer": {
+    "share_telegram": "Telegramでサイトを共有する",
+    "share_whatsapp": "WhatsAppでサイトを共有する",
+    "share_bluesky": "Blueskyでサイトを共有する",
+    "share_x": "Xでサイトを共有する",
+    "share_facebook": "Facebookでサイトを共有する",
+    "share_reddit": "Redditでサイトを共有する"
+  },
+  "banner": {
+    "view_opgg": "OP.GGで作成者のプロフィールを表示する",
+    "play_crossword": "League of Legendsのクロスワードパズルで遊ぶ",
+    "watch_videos": "実戦動画を見てハイレート帯のプレイを分析する",
+    "more_tools": "毎日のワークフローを自動化するその他のオンラインツールを見る"
+  },
+  "myaccount": {
+    "badge_current_elo": "ガイド作成者の現在のレートエンブレム",
+    "summoner_icon": "サモナーアイコン"
+  },
+  "reset_steps": "すべてのステップをリセット（最初からやり直す）",
+  "copy_profile_nick": "プロフィールのサモナー名をコピー",
+  "update_profile": "プロフィールを更新"
+}

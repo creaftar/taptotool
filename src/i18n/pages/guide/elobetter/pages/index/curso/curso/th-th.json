@@ -1,0 +1,24 @@
+{
+  "btn_next": "ขั้นตอนต่อไป",
+  "footer": {
+    "share_telegram": "แชร์เว็บไซต์บน Telegram",
+    "share_whatsapp": "แชร์เว็บไซต์บน WhatsApp",
+    "share_bluesky": "แชร์เว็บไซต์บน Bluesky",
+    "share_x": "แชร์เว็บไซต์บน X",
+    "share_facebook": "แชร์เว็บไซต์บน Facebook",
+    "share_reddit": "แชร์เว็บไซต์บน Reddit"
+  },
+  "banner": {
+    "view_opgg": "ดูโปรไฟล์ผู้สร้างบน OP.GG",
+    "play_crossword": "เล่นเกมอักษรไขว้ League of Legends",
+    "watch_videos": "ดูวิดีโอสาธิตจริงและวิเคราะห์วิธีเล่นของผู้เล่นระดับ High ELO",
+    "more_tools": "สำรวจเครื่องมือออนไลน์เพิ่มเติมเพื่อช่วยจัดระเบียบและจัดการเวิร์กโฟลว์ประจำวันของคุณ"
+  },
+  "myaccount": {
+    "badge_current_elo": "ตราสัญลักษณ์ ELO ปัจจุบันของผู้เขียนคู่มือ",
+    "summoner_icon": "ไอคอนผู้อัญเชิญ"
+  },
+  "reset_steps": "รีเซ็ตขั้นตอนทั้งหมด (เริ่มต้นใหม่)",
+  "copy_profile_nick": "คัดลอกชื่อผู้เล่นจากโปรไฟล์",
+  "update_profile": "อัปเดตโปรไฟล์"
+}

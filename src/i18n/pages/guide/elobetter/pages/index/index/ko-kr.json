@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - 리그 오브 레전드 티어 올리는 법",
+    "description": "트롤, AFK, 스머프에 지치셨나요? 군더더기 없는 초압축 가이드로 진짜 티어를 올려보세요.",
+    "keywords": "elo, 리그오브레전드, 롤 골드, 롤 티어 올리는 법, 티어 올리는 법, 실버 탈출, 골드 탈출, 아이언 탈출, 브론즈 탈출, 플래티넘 탈출, 다이아 탈출, 마스터 탈출, 랭킹 1위 가이드"
+  },
+  "schema": {
+    "app_name": "EloBetter - 롤 티어 상승 가이드",
+    "app_description": "마인드셋, 챔피언 폭, 게임의 질에 집중한 전략으로 리그 오브 레전드 티어를 올리는 방법을 알아보세요.",
+    "breadcrumb_home": "홈",
+    "breadcrumb_current": "EloBetter 가이드"
+  },
+  "ui": {
+    "price_currency": "KRW"
+  }
+}

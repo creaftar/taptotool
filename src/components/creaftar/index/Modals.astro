@@ -1,0 +1,66 @@
+---
+interface Props {}
+
+/*export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}*/
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/index/modals/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/index/modals/en.json";
+import es from "@/i18n/pages/game/crossword/pages/index/modals/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/index/modals/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/index/modals/it.json";
+import de from "@/i18n/pages/game/crossword/pages/index/modals/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/index/modals/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/index/modals/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/index/modals/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales].modals || locales.en.modals;
+---
+
+<div class="container-modal container-modal-index">
+    <div id="requisitos-salvar" class="requisitos elemento-invisivel">
+        <i class="fa-solid fa-check left-icon green"></i>
+        <p id="texto-requisitos">{d.feedback_success}</p>
+        <div class="fechar-salvar fechar-msg alert">
+            <i class="fa-solid fa-xmark close-modal"></i>
+        </div>
+        <div class="loadBarMsg"></div>
+    </div>
+</div>
+
+<div class="container-modal container-modal-index">
+    <div id="requisitos-copiar" class="requisitos elemento-invisivel">
+        <i class="fa-solid fa-check left-icon left-icon-green green"></i>
+        <p id="texto-requisitos-copiar">{d.copy_success}</p>
+        <div class="fechar-salvar fechar-msg alert">
+            <i class="fa-solid fa-xmark close-modal"></i>
+        </div>
+        <div class="loadBarMsg"></div>
+    </div>
+</div>
+
+<div class="container-modal container-modal-index">
+    <div id="requisitos-entrar" class="requisitos elemento-invisivel">
+        <i class="fa-solid fa-plus left-icon green"></i>
+        <p id="texto-requisitos-entrar">{d.login_prompt}</p>
+        <div class="fechar-salvar fechar-msg alert">
+            <i class="fa-solid fa-xmark close-modal"></i>
+        </div>
+        <div class="loadBarMsg"></div>
+    </div>
+</div>

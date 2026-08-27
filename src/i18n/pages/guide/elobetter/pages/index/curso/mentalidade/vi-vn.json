@@ -1,0 +1,18 @@
+{
+  "title": "Tâm Lý Đúng Đắn",
+  "main_card_title": "Sự Mất Kiểm Soát Cảm Xúc (Tilt) Là Gì",
+  "card_1_title": "Cơ Chế",
+  "card_2_title": "Tác Động",
+  "card_3_title": "Khi Nào Xảy Ra",
+  "card_4_title": "Nên Làm Gì",
+  "warning_text": "⚠️ Trong tất cả các trận đấu, bạn sẽ tắt chat (cả đồng đội và đối thủ) và tắt biểu cảm của đối thủ để tránh bị phân tâm",
+  "img_alt": "Cách tắt chat trong trò chơi",
+  "img_subtext": "Giữ nguyên cấu hình trên (hãy chắc chắn rằng đã tích vào ô biểu cảm)",
+  "js_texts": [
+    "",
+    "Hạch hạnh nhân (amygdala) nắm quyền kiểm soát. (Phần não chịu trách nhiệm cho các phản ứng cảm xúc 'chiến đấu hay bỏ chạy')",
+    "Nó tạm thời vô hiệu hóa vỏ não trước trán, vùng não chịu trách nhiệm suy nghĩ logic, lập kế hoạch và kiểm soát xung động. <span class=\"destaque\">Bạn ngừng suy nghĩ và chỉ phản xạ theo bản năng.</span>",
+    "Bạn bị tilt khi muốn trận đấu diễn ra theo một cách cụ thể, nhưng hành động của đồng đội hoặc đối thủ cho thấy bạn hoàn toàn không có quyền kiểm soát trận đấu.",
+    "Khi nhận ra điều đó, quyết định kỹ thuật tốt nhất nên làm là tạm dừng, hít một hơi thật sâu và rời xa trò chơi một thời gian cho đến khi vỏ cortex trước trán giành lại quyền kiểm soát."
+  ]
+}

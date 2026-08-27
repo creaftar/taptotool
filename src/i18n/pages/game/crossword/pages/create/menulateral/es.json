@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "CONFIGURACIÓN AVANZADA",
+    "edit_word": "EDITAR LA PALABRA",
+    "word_to_edit": "PALABRA A SER EDITADA",
+    "next_word": "AVANZAR UNA PALAVRA",
+    "prev_word": "VOLVER UNA PALABRA",
+    "toggle_direction": "ALTERNAR ENTRE VERTICAL Y HORIZONTAL",
+    "auto_position": "POSICIONAR TODAS LAS PALABRAS AUTOMÁTICAMENTE",
+    "ai_generate": "GENERAR CRUCIGRAMA A PARTIR DE UN TEMA",
+    "save_crossword": "GUARDAR TU CRUCIGRAMA",
+    "zoom_in": "AUMENTAR ZOOM AL CRUCIGRAMA",
+    "zoom_out": "REDUCIR ZOOM DEL CRUCIGRAMA",
+    "tutorial": "TUTORIAL DE CÓMO CREAR UN CRUCIGRAMA"
+  }
+}

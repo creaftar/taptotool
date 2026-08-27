@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Навигация",
+    "nav_home": "Главная",
+    "nav_home_aria": "Вернуться на главную страницу",
+    "nav_create": "Создать кроссворд",
+    "nav_create_aria": "Создать новый кроссворд",
+
+    "other_games_title": "Другие игры",
+    "crosswords": "Кроссворды",
+    "word_search": "Филворды",
+    
+    "themes_title": "Темы оформления",
+    "theme_light": "Светлая",
+    "theme_medium": "Средняя",
+    "theme_dark": "Темная",
+    
+    "you_title": "Личный кабинет",
+    "your_crosswords": "Мои кроссворды",
+    "history": "История",
+    "history_progress": "В процессе",
+    "history_done": "Завершенные",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Статистика",
+    "stats_total": "Всего игр:",
+    "stats_users": "Всего пользователей:",
+    "stats_yours": "Ваши игры:",
+    
+    "feedback": "Обратная связь",
+    "feedback_placeholder": "Введите ваше сообщение здесь...",
+    "btn_send": "ОТПРАВИТЬ",
+    "btn_send_aria": "Кнопка отправки отзыва",
+    
+    "version": "Версия",
+    "version_current": "v3.2.2 — Текущая версия",
+    "release_prefix": "Релиз: ",
+    
+    "social_title": "Соцсети",
+    "social_x_aria": "Перейти в Twitter",
+    "social_bsky_aria": "Перейти в BlueSky",
+    "social_feedly_aria": "Перейти в Feedly",
+    
+    "policies": "Политика конфиденциальности",
+    "more_tools": "Другие инструменты",
+    "copyright": "© 2023 - {year} | Tap to Tool — Кроссворды онлайн"
+  },
+  "daily": {
+    "banner": "Играть в ежедневный кроссворд",
+    "title": "Ежедневный кроссворд",
+    "next": "Следующий через:"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Teka-Teki Silang",
+    "results_found": "TTS ditemukan",
+    "no_results": "TTS tidak ditemukan"
+  },
+  "daily": {
+    "banner": "Mainkan teka-teki silang harian",
+    "title": "Teka-Teki Silang Harian",
+    "next": "Teka-teki berikutnya:"
+  }
+}

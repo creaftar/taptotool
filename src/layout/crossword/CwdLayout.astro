@@ -1,0 +1,95 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import AD from "@/components/creaftar/AD.astro";
+
+import '@/assets/styles/pages/game/crossword/componentes/modal_style.css';
+import "@/assets/styles/pages/game/crossword/layout/cwdlayout/cwdlayout.css";
+import "@/assets/styles/pages/game/crossword/layout/cwdlayout/avisos.css";
+import "@/assets/styles/pages/game/crossword/componentes/ad.css";
+    
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+const lang = Astro.currentLocale || 'en';
+
+import pt from "@/i18n/pages/game/crossword/layouts/cwdlayout/pt.json";
+import en from "@/i18n/pages/game/crossword/layouts/cwdlayout/en.json";
+import es from "@/i18n/pages/game/crossword/layouts/cwdlayout/es.json";
+import fr from "@/i18n/pages/game/crossword/layouts/cwdlayout/fr.json";
+import it from "@/i18n/pages/game/crossword/layouts/cwdlayout/it.json";
+import de from "@/i18n/pages/game/crossword/layouts/cwdlayout/de.json";
+import ru from "@/i18n/pages/game/crossword/layouts/cwdlayout/ru.json";
+import id from "@/i18n/pages/game/crossword/layouts/cwdlayout/id.json";
+import hi from "@/i18n/pages/game/crossword/layouts/cwdlayout/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const currentUrl = `https://taptotool.com/${lang === 'en' ? 'create/' : `${lang}/create/`}`;
+
+interface Props {
+  title: string;
+  description: string;
+  keywords: string;
+  lang: string;
+  canonical: string;
+  pageId: string;
+ // children?: any; // Adicione isso se o erro persistir
+}
+const { title, description, keywords, canonical, pageId } = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  keywords={keywords}
+  lang={lang}
+  canonical={canonical}
+  pageId={pageId}
+  classe="html-cwd body-cwd"
+>
+<AD />
+<slot name="ldjson" slot="ldjson"/>
+
+<slot name="containermenu" slot="containermenu" />
+
+    <div id="container-geral-cwd">
+      <div id="container-h1"><h1 id="h1-play">{d.ui.h1}</h1></div>
+        <div id="container-area-cruzadinhas">
+        <slot name="copytext" />
+        <slot name="errorcopy" />
+        <slot name="texto-copiado" />
+        <div id="area-cruzadinhas">
+          <div id="area-restante"><div id="container-cruzadinhas"></div></div>
+        </div>
+      </div>
+      
+      <slot />
+    
+      <!--<div id="container-minimizar_conteudos">
+        <button id="minimizar" aria-label={d.ui.minimize_aria}><i class="fa-solid fa-caret-down"></i></button>
+    </div>-->
+    
+      <div class="container-modal">
+          <div class="requisitos elemento-invisivel" id="aviso">
+              <i class="fa-solid fa-plus left-icon left-icon-green green"></i>
+              <p id="texto-requisitos-copiar" class="traduzirbody texto-req">{d.ui.zoom_note}</p>
+              <div class="fechar-salvar alert" id="fechar-modal"><i class="fa-solid fa-xmark close-modal"></i></div>
+              <div class="loadBarMsg" id="loadBarMsg-id"></div>
+          </div>
+      </div>
+      
+    </div>
+</BaseLayout>

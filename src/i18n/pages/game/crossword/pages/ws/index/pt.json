@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Caça-Palavras Online",
+    "description": "Jogue caça-palavras grátis ou crie os seus próprios jogos! Compartilhe com amigos e desafie a comunidade...",
+    "keywords": "caça-palavras online, criar caça-palavras online, gerador de caça-palavras, palavras escondidas, sopa de letras online, caça palavras personalizado, fazer caça-palavras grátis, jogos de procurar palavras, passatempo inteligente, tabuleiro de letras"
+  },
+  "schema": {
+    "app_name": "Fazer Caça-Palavras Online",
+    "app_description": "Venha explorar o Tap to Tool e fazer caça-palavras online! Crie, edite e jogue caça-palavras personalizados.",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Caça-Palavras Online",
+    "alternateName": "Creaftar Caça-Palavras",
+    "description": "Ferramenta gratuita para criar, editar e jogar caça-palavras online no Tap to Tool.",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "search_placeholder": "Pesquisar caça-palavras",
+    "search_aria": "Pesquisar caça-palavras"
+  },
+  "pesquisa":{
+    "search_crossword": "Pesquisar caça-palavras..."
+  },
+  "index": {
+    "login_prompt": "Entre para criar caça-palavras!",
+    "logged_prompt": "Seus caça-palavras:",
+    "words_found": "palavras encontradas",
+    "horizontals": "Horizontais e Verticais",
+    "verticals": "Diagonais e Invertidas",
+    "crossword_by": "Caça-palavras de ",
+    "aria": {
+      "play_button": "Botão para jogar o caça-palavras",
+      "options_button": "Botão para mais opções do caça-palavras",
+      "copy_link": "Botão para copiar o link do caça-palavras",
+      "edit_button": "Botão para editar o caça-palavras",
+      "delete_button": "Botão para excluir o caça-palavras"
+    },
+    "time": {
+      "second": "segundo atrás",
+      "seconds": "segundos atrás",
+      "minute": "minuto atrás",
+      "minutes": "minutos atrás",
+      "hour": "hora atrás",
+      "hours": "horas atrás",
+      "day": "dia atrás",
+      "days": "dias atrás",
+      "month": "mês atrás",
+      "meses": "meses atrás",
+      "year": "ano atrás",
+      "years": "anos atrás"
+    },
+    "js_messages": {
+      "js_create_title": "CRIAR CAÇA-PALAVRAS",
+      "js_create_desc": "Crie ou gere um novo caça-palavras personalizado",
+      "js_create_link": "Criar caça-palavras",
+      "js_create_aria": "Clique para criar ou gerar novos caça-palavras"
+    }
+  }
+}

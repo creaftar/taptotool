@@ -1,0 +1,24 @@
+{
+  "btn_next": "다음 단계",
+  "footer": {
+    "share_telegram": "텔레그램에 사이트 공유하기",
+    "share_whatsapp": "왓츠앱에 사이트 공유하기",
+    "share_bluesky": "블루스카이에 사이트 공유하기",
+    "share_x": "X에 사이트 공유하기",
+    "share_facebook": "페이스북에 사이트 공유하기",
+    "share_reddit": "레딧에 사이트 공유하기"
+  },
+  "banner": {
+    "view_opgg": "OP.GG에서 제작자 전적 보기",
+    "play_crossword": "리그 오브 레전드 십자말풀이 게임하기",
+    "watch_videos": "인게임 분석 영상을 통해 천상계 유저의 플레이 스타일 확인하기",
+    "more_tools": "일상적인 워크플로를 자동화하기 위한 더 많은 온라인 도구를 찾아보세요"
+  },
+  "myaccount": {
+    "badge_current_elo": "가이드 제작자의 현재 티어 엠블럼",
+    "summoner_icon": "소환사 아이콘"
+  },
+  "reset_steps": "모든 단계 초기화 (처음부터 다시 시작)",
+  "copy_profile_nick": "프로필 닉네임 복사",
+  "update_profile": "프로필 업데이트"
+}

@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Play Word Search Online Free - Tap to Tool",
+    "description": "Challenge your mind and boost your visual focus with this exclusive online word search puzzle on Tap to Tool. Find hidden words and enjoy top-rated games created by the community!",
+    "keywords": "play word search, online word search, find words puzzle, hidden word game, brain training, free word search, mental agility games"
+  },
+  "schema": {
+    "game_name": "Play Online Word Search",
+    "description": "Play this custom online word search game on Tap to Tool. Free and interactive!",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Play Word Search",
+    "alternateName": "Creaftar Word Search Game",
+    "price_currency": "USD"
+  },
+  "ui": {
+    "hide": "HIDE",
+    "hide_timer": "HIDE TIMER",
+    "show_answers": "REVEAL WORDS",
+    "hints_prefix": "YOU HAVE",
+    "hints_suffix": "HINTS",
+    "stats_title": "Your Statistics",
+    "total_time": "Total time",
+    "chars_typed": "Words found",
+    "hits": "Hits",
+    "errors": "Errors",
+    "share": "Share",
+    "copy": "COPY",
+    "back_home": "HOME",
+    "add_zoom": "ADD ZOOM",
+    "remove_zoom": "REMOVE ZOOM",
+    "print": "PRINT GRID",
+    "completed_msg_prefix": "You have mastered and completed",
+    "completed_msg_suffix": "word searches!",
+    "other_crosswords": "Other Recommended Word Searches"
+  },
+  "index": {
+    "horizontals": "WORDS",
+    "verticals": "WORD LIST",
+    "crossword_by": "Word search by "
+  },
+  "play": {
+    "challenge_prefix": "Train your brain! Play the word search ",
+    "challenge_suffix": " now and test your visual speed. Try to find hidden words like: ",
+    "challenge_footer": ", and much more. Are you ready for the challenge?",
+    "kw_cruzadinha": "word search about ",
+    "kw_jogo": "word find game about "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Daily Word Search",
+    "next_crossword": "Next daily word search in:",
+    "curiosidade": "; Find hidden terms like: ",
+    "CTA": ", and much more. Is your vision sharp enough?",
+    "seo": {
+      "title": "Daily Word Search - Today's Brain Challenge - Tap to Tool",
+      "description": "Solve today's ultimate challenge! A fresh, free daily word search puzzle to test your focus, expand your vocabulary, and sharpen your mind on Tap to Tool.",
+      "keywords": "daily word search, puzzle of the day, daily visual challenge, online word find, free daily puzzle"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Daily Word Search",
+      "description": "A brand-new word search grid to solve every day. Challenge your visual perception daily with unique themes!"
+    },
+    "content": {
+      "h1": "Daily Word Search",
+      "subtitle": "A new dose of mental workout every 24 hours. Can you find all of today's words?",
+      "timer_label": "Search time:",
+      "next_in": "Next challenge in:"
+    },
+    "ui": {
+      "start_button": "START DAILY CHALLENGE",
+      "check_word": "CHECK SELECTION",
+      "reveal_letter": "REVEAL A LETTER",
+      "hints_remaining": "HINTS REMAINING:",
+      "stats_btn": "VIEW MY PERFORMANCE",
+      "share_result": "SHARE RESULT",
+      "calendar_view": "VIEW PAST CHALLENGES",
+      "loading": "LOADING TODAY'S GRID..."
+    },
+    "feedback": {
+      "win_title": "Awesome! Eagle Eyes!",
+      "win_msg": "You found all the hidden words today in ",
+      "win_footer": "Your brain thanks you! Come back tomorrow for a new grid.",
+      "error_msg": "Some selections aren't correct or words are missing. Keep searching!"
+    },
+    "social": {
+      "share_text": "I found every single word in the Tap to Tool Daily Word Search in just {time}! I bet you can't beat my time!"
+    }
+  }
+}

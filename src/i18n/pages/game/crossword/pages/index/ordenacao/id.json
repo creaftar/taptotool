@@ -1,0 +1,12 @@
+{
+  "sorting": {
+    "sort_by": "Urutkan",
+    "display_per_page": "Per halaman",
+    "opt_latest": "Terbaru",
+    "opt_oldest": "Terlama",
+    "opt_az": "A-Z",
+    "opt_za": "Z-A",
+    "btn_prev_aria": "Halaman sebelumnya",
+    "btn_next_aria": "Halaman berikutnya"
+  }
+}

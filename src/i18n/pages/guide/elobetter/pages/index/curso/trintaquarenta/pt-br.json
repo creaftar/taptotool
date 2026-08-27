@@ -1,0 +1,12 @@
+{
+  "title": "A Regra do 30 / 30 / 40",
+  "subtitle": "Entendendo porque o motivo de você não subir não são trolls e afk's, mas sim você mesmo:",
+  "desc_losses": "<span class=\"destaque\">- 30% de Derrotas Garantidas (Jogos \"Impossíveis\"):</span> <br>São aquelas partidas em que o seu time decide \"quitar\", trollar, ou simplesmente todas as outras lanes são destruídas. Matematicamente, mesmo que você jogue o seu melhor possível, o peso dos outros 4 jogadores superam a sua capacidade de carregar.",
+  "desc_wins": "<span class=\"destaque\">- 30% de Vitórias Garantidas (Jogos \"Carregados\"):</span> <br>São os jogos onde o seu top laner fica 10/0 em cinco minutos, o caçador controla todos os objetivos e o time inimigo começa a brigar no chat global. Você poderia jogar mal ou até ficar parado base, e seu time ainda venceria 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% de Jogos que Dependem de Você (Aqui é onde você deve focar suas energias):</span> <br>São partidas equilibradas onde os dois times têm chances reais de vitória. O resultado final será decidido por um detalhe: o seu posicionamento em uma luta, a sua rotação, o seu controle de visão ou a sua tomada de decisão no late game.",
+  "conclusion": "O erro da maioria das pessoas é jogar sério, entrar em uma série de jogos perdidos e tiltar com eles, iniciando novas partidas por impulso e perdendo jogos que dependiam delas por estarem tiltadas.",
+  "btn_next": "PRÓXIMO PASSO",
+  "label_losses": "Impossíveis",
+  "label_impact": "Dependem de você",
+  "label_wins": "Carregados"
+}

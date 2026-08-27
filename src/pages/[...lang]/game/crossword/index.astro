@@ -1,0 +1,216 @@
+---
+import BaseLayout from '@/layout/crossword/BaseLayout.astro';
+import Ordenacao from '@/components/creaftar/index/Ordenacao.astro';
+import Cabecalho from '@/components/creaftar/index/Cabecalho.astro';
+import FooterOrdenacao from '@/components/creaftar/index/FooterOrdenacao.astro';
+import Modals from '@/components/creaftar/index/Modals.astro';
+import Aside from '@/components/creaftar/index/Aside.astro';
+import Carrossel from '@/components/creaftar/index/Carrossel.astro';
+import LoadCard from '@/components/creaftar/index/LoadCard.astro';
+
+import '@/assets/styles/pages/game/crossword/pages/index/index.css';
+import '@/assets/styles/pages/game/crossword/pages/index/cards/card.css';
+import '@/assets/styles/pages/game/crossword/componentes/modal_style.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/index/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/index/en.json";
+import es from "@/i18n/pages/game/crossword/pages/index/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/index/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/index/it.json";
+import de from "@/i18n/pages/game/crossword/pages/index/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/index/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/index/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/index/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+const currentUrl = `https://taptotool.com/${lang == 'en' ? '' : lang + '/'}game/crossword/`;
+
+import ptC from "@/i18n/pages/game/crossword/pages/index/carousel/pt.json";
+import enC from "@/i18n/pages/game/crossword/pages/index/carousel/en.json";
+import esC from "@/i18n/pages/game/crossword/pages/index/carousel/es.json";
+import frC from "@/i18n/pages/game/crossword/pages/index/carousel/fr.json";
+import itC from "@/i18n/pages/game/crossword/pages/index/carousel/it.json";
+import deC from "@/i18n/pages/game/crossword/pages/index/carousel/de.json";
+import ruC from "@/i18n/pages/game/crossword/pages/index/carousel/ru.json";
+import idC from "@/i18n/pages/game/crossword/pages/index/carousel/id.json";
+import hiC from "@/i18n/pages/game/crossword/pages/index/carousel/hi.json";
+
+const localesC = { 
+  pt: ptC, 
+  en: enC, 
+  es: esC, 
+  fr: frC, 
+  it: itC, 
+  de: deC, 
+  ru: ruC, 
+  id: idC, 
+  hi: hiC 
+};
+
+const t = localesC[lang as keyof typeof localesC] || localesC.en;
+
+import imgMaiuscula from '@/assets/imgs/anuncios/taptotool-ad.png';
+import imgCaracteres from '@/assets/imgs/anuncios/gerador_caracteres.webp';
+import imgNumeros from '@/assets/imgs/anuncios/elobetter.png';
+import imgInverter from '@/assets/imgs/anuncios/inverter_texto.webp';
+
+const linksAmazon = [
+    'https://taptotool.com/',
+    'https://taptotool.com/text/character-counter',
+    'https://taptotool.com/guide/elobetter/',
+    'https://taptotool.com/text/text-inverter'
+];
+
+// Agora o array contém os objetos das imagens processadas pelo Astro
+const imgsAmazon = [
+    imgMaiuscula,
+    imgCaracteres,
+    imgNumeros,
+    imgInverter
+];
+---
+<BaseLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+  pageId="index"
+  classe=''
+>
+<script type="application/ld+json" slot="ld-json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.schema.app_name,
+      "alternateName": d.schema.alternateName,
+      "url": currentUrl,
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.schema.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": ["WebPage", "CollectionPage"],
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema.breadcrumb_home,
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema.breadcrumb_current,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/web-app-manifest-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}>
+</script>
+    <i class="fa-solid fa-bars icons" id="aside_opcoes" slot="containermenu"></i>
+    
+    <div id="pesquisa" slot="pesquisa">
+        <div id="inicioDoInput">
+            <input placeholder={d.pesquisa.search_crossword} id="input_pesquisa" aria-label="Pesquisar cruzadinha" class="" />
+            <div id="cooldownTimer">/</div>
+        </div>
+        <i class="fa-solid fa-magnifying-glass icons" id="lupa"></i>
+    </div>
+
+    <div id="container">
+        <Aside />
+    </div>
+    <main id="conteudo-principal" data-i18n={JSON.stringify(d)}>
+        <div class="container-paginacaoANDcontent-cruzadinhas" id="main-container">
+            
+            <Cabecalho />
+
+            <hr class="hr-main" />
+            
+            <Ordenacao />
+            
+            <div id="content-cruzadinhas" data-i18n={JSON.stringify(t)}>
+                <Carrossel t={t} linksAmazon={linksAmazon} imgsAmazon={imgsAmazon} />
+                <!--<Banner /> -->
+                <LoadCard />
+            </div>
+            
+            <hr class="hr-main" />
+            
+            <FooterOrdenacao />
+        </div>
+    </main>
+    
+    <Modals />
+
+    <script>
+        import '@/assets/scripts/pages/game/crossword/imports/index.js';
+    </script>
+</BaseLayout>

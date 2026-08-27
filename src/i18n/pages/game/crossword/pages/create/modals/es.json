@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "TÍTULO DE TU CRUCIGRAMA:",
+    "placeholder": "Crucigrama",
+    "hints_question": "¿QUIERES ACTIVAR PISTAS PARA TU JUEGO?",
+    "hints_obs": "(Puedes cambiar esta opción más tarde en cualquier momento)",
+    "hints_yes": "Sí, quiero activar pistas para mi crucigrama",
+    "hints_no": "No activar pistas para mi crucigrama",
+    "answer_key_question": "¿QUIERES CREAR UN GABARITO (SOLUCIONES)?",
+    "answer_key_obs": "(El gabarito permite que los jugadores vean las respuestas; puedes cambiar esto después)",
+    "answer_key_yes": "Sí, quiero crear un gabarito para mi crucigrama",
+    "answer_key_no": "No crear un gabarito",
+    "share_question": "¿TE GUSTARÍA COMPARTIR TU CRUCIGRAMA EN NUESTRAS REDES SOCIALES?",
+    "share_yes": "Sí, quiero compartir mi crucigrama en los canales de Creaftar",
+    "share_no": "No compartir mi crucigrama",
+    "save_button": "GUARDAR",
+    "requirements_alert": "ATENCIÓN: Guardar solo está disponible para usuarios registrados"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA DEL CRUCIGRAMA",
+    "theme_placeholder": "Crucigrama",
+    "word_quantity": "Cantidad de palabras",
+    "generate_button": "GENERAR"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "VIDEOS DE EJEMPLO",
+      "create": "CREAR CRUCIGRAMA",
+      "generate": "GENERAR CRUCIGRAMA"
+    },
+    "page1": {
+      "title_generate": "CÓMO GENERAR UN CRUCIGRAMA",
+      "title_auto": "CÓMO CREAR UN CRUCIGRAMA",
+      "title_manual": "CÓMO CREAR UN CRUCIGRAMA",
+      "subtitle_video": "(Video)",
+      "subtitle_auto": "(Automático - Video)",
+      "subtitle_manual": "(Manual - Video)",
+      "video_fallback": "Tu navegador no soporta videos HTML5.",
+      "aside": {
+        "how_generate": "- GENERAR",
+        "how_create_auto": "- CREAR (automático)",
+        "how_create_manual": "- CREAR (manual)"
+      }
+    },
+    "page2": {
+      "main_title": "CÓMO CREAR UN CRUCIGRAMA",
+      "intro_text": "En esta sección explicaremos cómo crear tu propio crucigrama desde cero (si lo prefieres, puedes combinar la generación con la creación manual). Usa el menú lateral para una navegación rápida.",
+      "start_title": "POR DÓNDE EMPEZAR",
+      "start_text_1": "En la tarjeta de abajo titulada 'PALABRAS', haz clic en el campo con la descripción 'Ejemplo' y escribe tu primera palabra (no te preocupes, puedes cambiarla después). Pulsa 'ENTER' en tu teclado o haz clic en el botón '+'.",
+      "start_text_2": "Una vez hecho esto, notarás que aparece lo siguiente:",
+      "start_list_1": "1. Una palabra en cuadros en la pantalla:",
+      "start_list_1_sub": "Esta es la palabra que tu público deberá adivinar.",
+      "start_list_2": "2. Una palabra en la tarjeta 'PALABRAS':",
+      "start_list_2_sub": "Esto es exclusivo para ti; puedes cambiarla (haciendo clic) o borrarla, lo que afectará directamente a la palabra en pantalla.",
+      "start_list_3": "3. Una pista en la tarjeta 'PISTAS':",
+      "start_list_3_sub": "Aquí es donde escribes la pista para tu público. Nota que cada pista y palabra está numerada. Pista: 1 - que sería 'Ejemplo', describe la palabra 1 - Ejemplo, y así sucesivamente.",
+      "before_continue": "ANTES DE CONTINUAR",
+      "instruction_1": "- Cambia la palabra y la descripción haciendo clic en los textos generados.",
+      "instruction_2": "- Crea al menos 2 palabras.",
+      "move_title": "CÓMO MOVER LAS PALABRAS",
+      "move_intro": "Para mover las palabras creadas, necesitas conectarlas usando sus letras coincidentes. Tienes dos opciones para esto:",
+      "move_option_1": "1. Mover cada palabra individualmente según desees colocarlas.",
+      "move_option_2": "2. Mover todas las palabras automáticamente para que encajen con un solo clic.",
+      "auto_pos_title": "POSICIONAMIENTO AUTOMÁTICO",
+      "auto_pos_text": "Para posicionar todas las palabras automáticamente, haz clic en el icono del engranaje en el menú de la derecha. Si una palabra no encaja, inténtalo un par de veces más. Si el error persiste, revisa la ortografía. Se ignoran mayúsculas y minúsculas, pero las palabras con y sin acento se consideran diferentes.",
+      "single_move_title": "MOVIMIENTO INDIVIDUAL",
+      "single_move_text": "Todas las palabras están inicialmente bloqueadas, lo que significa que no puedes moverlas. Para cambiar esto y mover cada palabra individualmente:",
+      "single_move_li_1": "Haz clic en este icono para que la palabra sea móvil.",
+      "single_move_li_2": "Haz clic, mantén presionado y arrastra la palabra dentro del área.",
+      "single_move_li_3": "Después de mover tu primera palabra, selecciona la siguiente:",
+      "single_move_li_3_sub1": "Usa esta flecha de dirección para saltar a la siguiente palabra.",
+      "single_move_li_3_sub2": "Usa esta flecha de dirección para volver a la palabra anterior.",
+      "direction_title": "HORIZONTAL vs VERTICAL",
+      "direction_text": "También puedes alternar tu palabra entre vertical y horizontal. Haz clic en el icono (rejilla), pero recuerda permitir la edición de la palabra (icono del lápiz) primero.",
+      "aside": {
+        "create_crossword": "- CREAR CRUCIGRAMA",
+        "where_start": "- DÓNDE EMPEZAR",
+        "how_move": "MOVER PALABRAS",
+        "auto_pos": "- AUTO POSICIÓN",
+        "single_move": "- MOVIMIENTO INDIV.",
+        "horiz_vert": "- HORIZ. vs VERT."
+      }
+    },
+    "page3": {
+      "main_title": "CÓMO GENERAR UN CRUCIGRAMA",
+      "intro_text": "Esta sección explica cómo generar un crucigrama completo basado en un solo tema (también puedes combinarlo con la creación manual). Usa el menú lateral para una navegación rápida.",
+      "steps_title": "PASO A PASO",
+      "steps_intro": "Para generar un crucigrama sobre un tema, sigue estos pasos:",
+      "step_1": "1. Haz clic en el icono del robot en el menú de la derecha.",
+      "step_2": "2. En la ventana que aparece, escribe el tema deseado.",
+      "step_3": "3. Ajusta la cantidad de palabras usando el deslizador o las flechas.",
+      "step_4": "4. Haz clic en 'GENERAR' para que nuestra IA cree tu juego.",
+      "recom_title": "RECOMENDACIONES",
+      "recom_1": "- Si tu tema no se genera, recarga la página. Si el error persiste, intenta describir el tema de forma diferente (puedes cambiar el título más tarde).",
+      "recom_2": "- Revisa las respuestas y pistas generadas. Puedes editarlas en cualquier momento haciendo clic sobre ellas.",
+      "recom_3": "- Ten en cuenta a tu público y el nivel de dificultad al elegir el número de palabras (de 15 a 30 suele ser ideal).",
+      "dont_title": "QUÉ EVITAR",
+      "dont_1": "- Evita temas excesivamente complejos.",
+      "dont_2": "- Evita temas que sean demasiado abstractos.",
+      "dont_3": "- No des la respuesta directamente en la pista.",
+      "dont_4": "- Recuerda: tú conoces las respuestas, pero tu público no. Crea pistas que sean resolubles.",
+      "aside": {
+        "generate_crossword": "- GENERAR CRUCIGRAMA",
+        "step_by_step": "PASO A PASO",
+        "step_1": "- 1er Paso",
+        "step_2": "- 2do Paso",
+        "step_3": "- 3er Paso",
+        "step_4": "- 4to Paso",
+        "recommendations": "- RECOMENDACIONES",
+        "what_not_to_do": "- QUÉ EVITAR"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "VISTA PREVIA",
+    "warning_main": "No te preocupes por las verticales y horizontales, solo sigue los formatos de abajo",
+    "your_text": "Tu Texto:",
+    "detector_stats": "{words} palabras / {clues} pistas",
+    "placeholder": "¡Pega tu texto aquí!",
+    "expected_formats": "Formatos Esperados:",
+    "btn_generate": "MI TEXTO TIENE UN FORMATO ESPERADO",
+    "words_suffix": "palabras",
+    "clues_suffix": "pistas",
+    "examples": {
+      "dog": "perro",
+      "cat": "gato",
+      "bat": "murciélago",
+      "elephant": "elefante",
+      "kangaroo": "canguro",
+      "desc_dog": "El mejor amigo del hombre",
+      "desc_cat": "Le gusta cazar ratones",
+      "desc_bat": "Mamífero volador",
+      "desc_elephant": "Tiene una trompa",
+      "desc_kangaroo": "Gran marsupial"
+    },
+    "requirements_alert": "¡Ups! Parece que no has pegado nada. Copia un texto e inténtalo de nuevo."
+  }
+}

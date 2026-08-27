@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Come Salire di Elo su League of Legends",
+    "description": "Stanco di troll, AFK e smurf? Impara a salire davvero di grado con questa guida ultra compatta e diretta al punto.",
+    "keywords": "elo, league of legends, oro lol, come salire di elo su lol, come salire di grado, uscire dal argento, uscire dal oro, uscire dal ferro, uscire dal bronzo, uscire dal platino, uscire dal diamante, uscire dal master, guida rank 1"
+  },
+  "schema": {
+    "app_name": "EloBetter - Guida per Salire di Elo LoL",
+    "app_description": "Impara a salire di elo su League of Legends con strategie incentrate su mentalità, pool di campioni e qualità di gioco.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Guida EloBetter"
+  },
+  "ui": {
+    "price_currency": "EUR"
+  }
+}

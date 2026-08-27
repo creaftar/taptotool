@@ -1,0 +1,18 @@
+{
+  "title": "Doğru Zihniyet",
+  "main_card_title": "Duygusal Dengenin Bozulması (Tilt Olmak) Nedir",
+  "card_1_title": "Mekanizma",
+  "card_2_title": "Etki",
+  "card_3_title": "Ne Zaman Gerçekleşir",
+  "card_4_title": "Ne Yapmalı",
+  "warning_text": "⚠️ Dikkat dağınıklığını önlemek için tüm maçlarınızda sohbeti (hem takım arkadaşı hem de rakip) ve rakip ifadelerini susturacaksınız (mute)",
+  "img_alt": "Oyun içi sohbet nasıl susturulur",
+  "img_subtext": "Yukarıdaki ayarı koruyun (ifadeler kutusunu da işaretlediğinizden emin olun)",
+  "js_texts": [
+    "",
+    "Amigdala kontrolü ele geçirir. (Beynin 'savaş ya da kaç' duygusal tepkilerinden sorumlu bölgesi)",
+    "Mantıklı düşünme, planlama ve dürtü kontrolünden sorumlu olan prefrontal korteksi geçici olarak devre dışı bırakır. <span class=\"destaque\">Düşünmeyi bırakır ve sadece tepki vermeye başlarsınız.</span>",
+    "Oyunun sizin istediğiniz gibi gitmesini istediğinizde, ancak takım arkadaşlarınızın veya rakiplerinizin eylemleri maçın kontrolünün sizde olmadığını gösterdiğinde tilt olursunuz.",
+    "Bunu fark ettiğinizde, alınacak en iyi teknik karar duraklatmak, derin bir nefes almak ve prefrontal korteks kontrolü yeniden ele geçirene kadar bir süre oyundan uzaklaşmaktır."
+  ]
+}

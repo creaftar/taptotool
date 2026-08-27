@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Gioca Crucipuzzle Online Gratis - Tap to Tool",
+    "description": "Sfida la tua mente e migliora la tua concentrazione visiva con questo crucipuzzle esclusivo su Tap to Tool. Trova le parole nascoste e divertiti con i migliori giochi della community!",
+    "keywords": "gioca crucipuzzle, parole intrecciate online, trovare parole, gioco di parole nascoste, allenamento cerebrale, crucipuzzle gratuito, giochi di agilità mentale"
+  },
+  "schema": {
+    "game_name": "Gioca alla Caccia alle Parole Online",
+    "description": "Gioca a questo gioco di caccia alle parole personalizzato online su Tap to Tool. Gratuito e interattivo!",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Gioca alla Caccia alle Parole",
+    "alternateName": "Creaftar Gioco di Caccia alle Parole",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "NASCONDI",
+    "hide_timer": "NASCONDI TIMER",
+    "show_answers": "RIVELA PAROLE",
+    "hints_prefix": "HAI",
+    "hints_suffix": "SUGGERIMENTI",
+    "stats_title": "Le Tue Statistiche",
+    "total_time": "Tempo totale",
+    "chars_typed": "Parole trovate",
+    "hits": "Corrette",
+    "errors": "Errori",
+    "share": "Condividi",
+    "copy": "COPIA",
+    "back_home": "INIZIO",
+    "add_zoom": "AUMENTA ZOOM",
+    "remove_zoom": "RIDUCI ZOOM",
+    "print": "STAMPA GRIGLIA",
+    "completed_msg_prefix": "Hai dominato e completato",
+    "completed_msg_suffix": "crucipuzzle!",
+    "other_crosswords": "Altri Crucipuzzle Consigliati"
+  },
+  "index": {
+    "horizontals": "PAROLE",
+    "verticals": "ELENCO PAROLE",
+    "crossword_by": "Crucipuzzle creato da "
+  },
+  "play": {
+    "challenge_prefix": "Allena il tuo cervello! Gioca subito al crucipuzzle ",
+    "challenge_suffix": " e metti alla prova la tua velocità visiva. Prova a trovare parole nascoste come: ",
+    "challenge_footer": ", e molto altro ancora. Sei pronto per la sfida?",
+    "kw_cruzadinha": "crucipuzzle di ",
+    "kw_jogo": "gioco di ricerca parole su "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Crucipuzzle Quotidiano",
+    "next_crossword": "Prossimo crucipuzzle del giorno tra:",
+    "curiosidade": "; Trova termini nascosti come: ",
+    "CTA": ", e molto altro ancora. La tua vista sarà abbastanza veloce?",
+    "seo": {
+      "title": "Crucipuzzle Quotidiano - La Sfida Cerebrale di Oggi - Tap to Tool",
+      "description": "Risolvi l'ultima sfida di oggi! Un crucipuzzle inedito e gratuito ogni giorno per mettere alla prova la tua concentrazione, espandere il tuo vocabolario e allenare la mente su Tap to Tool.",
+      "keywords": "crucipuzzle quotidiano, gioco del giorno, sfida visiva quotidiana, parole intrecciate online, passatempo giornaliero gratuito"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Crucipuzzle Quotidiano",
+      "description": "Una nuova griglia di crucipuzzle da risolvere ogni giorno. Sfida la tua percezione visiva quotidianamente con temi inediti!"
+    },
+    "content": {
+      "h1": "Crucipuzzle Quotidiano",
+      "subtitle": "Una nuova dose di allenamento mentale ogni 24 ore. Riuscirai a trovare tutte le parole di oggi?",
+      "timer_label": "Tempo di ricerca:",
+      "next_in": "Prossima griglia tra:"
+    },
+    "ui": {
+      "start_button": "INIZIA LA SFIDA QUOTIDIANA",
+      "check_word": "CONTROLLA SELEZIONE",
+      "reveal_letter": "RIVELA UNA LETTERA",
+      "hints_remaining": "SUGGERIMENTI RIMASTI:",
+      "stats_btn": "VEDI I MIEI RISULTATI",
+      "share_result": "CONDIVIDI RISULTATO",
+      "calendar_view": "VEDI GIOCHI PRECEDENTI",
+      "loading": "PREPARAZIONE DELLA GRIGLIA DEL GIORNO..."
+    },
+    "feedback": {
+      "win_title": "Incredibile! Occhio d'Aquila!",
+      "win_msg": "Hai trovato tutte le parole nascoste di oggi in ",
+      "win_footer": "Il tuo cervello ti ringrazia! Torna domani per una nuova griglia.",
+      "error_msg": "Alcune selezioni non sono corrette o mancano delle parole. Continua a cercare!"
+    },
+    "social": {
+      "share_text": "Ho trovato tutte le parole nel Crucipuzzle Quotidiano di Tap to Tool in soli {time}! Scommetto che non riesci a battere il mio tempo!"
+    }
+  }
+}

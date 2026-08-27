@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Navegación",
+    "nav_home": "Inicio",
+    "nav_home_aria": "Botón para volver a la página de inicio",
+    "nav_create": "Crear crucigrama",
+    "nav_create_aria": "Crear un nuevo crucigrama",
+
+    "other_games_title": "Otros Juegos",
+    "crosswords": "Crucigramas",
+    "word_search": "Sopa de Letras",
+    
+    "themes_title": "Temas",
+    "theme_light": "Tema claro",
+    "theme_medium": "Tema medio",
+    "theme_dark": "Tema oscuro",
+    
+    "you_title": "Tu perfil",
+    "your_crosswords": "Mis crucigramas",
+    "history": "Historial",
+    "history_progress": "En progreso",
+    "history_done": "Completados",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Estadísticas",
+    "stats_total": "Total de juegos:",
+    "stats_users": "Total de usuarios:",
+    "stats_yours": "Tus juegos:",
+    
+    "feedback": "Enviar Feedback",
+    "feedback_placeholder": "Escribe tu comentario aquí...",
+    "btn_send": "ENVIAR",
+    "btn_send_aria": "Botón para enviar el feedback",
+    
+    "version": "Versión",
+    "version_current": "v3.2.2 - Versión actual",
+    "release_prefix": "Versión: ",
+    
+    "social_title": "Redes sociales",
+    "social_x_aria": "Ir al Twitter de Tap to Tool",
+    "social_bsky_aria": "Ir al BlueSky de Tap to Tool",
+    "social_feedly_aria": "Ir al Feedly de Tap to Tool",
+    
+    "policies": "Aviso legal",
+    "more_tools": "Más herramientas",
+    "copyright": "© 2023 - {year} | Tap to Tool - Crucigramas Online"
+  },
+  "daily": {
+    "banner": "Jugar crucigrama diario",
+    "title": "Crucigrama Diario",
+    "next": "Nuevo crucigrama en:"
+  }
+}

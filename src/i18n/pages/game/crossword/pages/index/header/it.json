@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Cruciverba",
+    "results_found": "Cruciverba trovati",
+    "no_results": "Nessun cruciverba trovato"
+  },
+  "daily": {
+    "banner": "Gioca al cruciverba giornaliero",
+    "title": "Cruciverba Giornaliero",
+    "next": "Nuovo cruciverba tra:"
+  }
+}

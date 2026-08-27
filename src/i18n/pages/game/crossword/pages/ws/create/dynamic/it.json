@@ -1,0 +1,11 @@
+{
+  "js_messages": {
+    "move_allow": "CONSENTI SPOSTAMENTO DELLA PAROLA",
+    "move_block": "BLOCCA SPOSTAMENTO DELLA PAROLA",
+    "auto_pos_enabled": "ABILITATO: POSIZIONA TUTTE LE PAROLE AUTOMATICAMENTE",
+    "auto_pos_disabled": "BLOCCATO: POSIZIONA TUTTE LE PAROLE AUTOMATICAMENTE",
+    "toggle_direction": "ALTERNÀ TRA VERTICALE E ORIZZONTALE",
+    "req_min_words": "REQUISITI: 5 parole create, titolo inserito",
+    "req_registration": "REQUISITI: Registrati per salvare il tuo crucipuzzle"
+  }
+}

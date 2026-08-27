@@ -1,0 +1,18 @@
+{
+  "title": "Správná Mentalita",
+  "main_card_title": "Co je Emoční Destabilizace (Tilt)",
+  "card_1_title": "Mechanismus",
+  "card_2_title": "Dopad",
+  "card_3_title": "Kdy Nastává",
+  "card_4_title": "Co Dělat",
+  "warning_text": "⚠️ Ve všech svých hrách si ztlumíš chat (spojenecký i nepřátelský) a ztlumíš nepřátelské emoty, abys zabránil rozptylování",
+  "img_alt": "Jak ztlumit herní chat",
+  "img_subtext": "Udržuj toto nastavení výše (ujisti se, že zaškrtneš také políčko pro emoty)",
+  "js_texts": [
+    "",
+    "Amygdala přebírá velení. (Část mozku zodpovědná za emociální reakce typu „bojuj nebo uteč“)",
+    "Dočasně deaktivuje prefrontální kůru, což je oblast mozku zodpovědná za logické myšlení, plánování a kontrolu impulsů. <span class=\"destaque\">Přestáváš myslet a začínáš pouze reagovat.</span>",
+    "Tiltneš se, když chceš, aby se hra vyvíjela určitým způsobem, ale akce tvých spojenců nebo nepřátel ti ukazují, że nad zápasem nemáš kontrolu.",
+    "Jakmile si to uvědomíš, nejlepším technickým rozhodnutím je dát si pauzu, zhluboka se nadechnout a na chvíli odejít od hry, dokud prefrontální kůra znovu nezíská kontrolu."
+  ]
+}

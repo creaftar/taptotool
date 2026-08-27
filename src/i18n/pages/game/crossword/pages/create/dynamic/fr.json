@@ -1,0 +1,12 @@
+{
+  "js_messages": {
+    "describe_prefix": "Décrivez ici ce que serait ",
+    "move_allow": "AUTORISER LE DÉPLACEMENT DU MOT",
+    "move_block": "BLOQUER LE DÉPLACEMENT DU MOT",
+    "auto_pos_enabled": "ACTIVÉ : PLACER TOUS LES MOTS AUTOMATIQUEMENT",
+    "auto_pos_disabled": "BLOQUÉ : PLACER TOUS LES MOTS AUTOMATIQUEMENT",
+    "toggle_direction": "BASCULER ENTRE VERTICAL ET HORIZONTAL",
+    "req_min_words": "CONDITIONS : 5 mots créés, titre rempli",
+    "req_registration": "CONDITIONS : Inscrivez-vous pour enregistrer votre grille"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "La Regla del 30 / 30 / 40",
+  "subtitle": "Entendiendo por qué la razón por la que no subes de elo no son los trolls ni los AFK, sino tú mismo:",
+  "desc_losses": "<span class=\"destaque\">- 30% de Derrotas Garantizadas (Partidas \"Imposibles\"):</span> <br>Son aquellas partidas en las que tu equipo decide irse AFK, trolear, o simplemente todas las demás líneas terminan destrozadas. Matemáticamente, por más que juegues lo mejor posible, el peso de los otros 4 jugadores supera tu capacidad de acarrear.",
+  "desc_wins": "<span class=\"destaque\">- 30% de Victorias Garantizadas (Partidas \"Acarreadas\"):</span> <br>Son las partidas donde tu top laner va 10/0 en cinco minutos, el jungla controla todos los objetivos y el equipo enemigo empieza a pelear en el chat global. Podrías jugar mal o incluso quedarte parado en base, y tu equipo aun así ganaría 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% de Partidas que Dependen de Ti (Aquí es donde debes enfocar tus energías):</span> <br>Son partidas equilibradas donde ambos equipos tienen posibilidades reales de ganar. El resultado final se decidirá por un detalle: tu posicionamiento en una pelea en equipo, tu rotación, tu control de visión o tu toma de decisiones en el juego tardío.",
+  "conclusion": "El error de la mayoría de las personas es jugar en serio, entrar en una racha de derrotas y tiltearse con ellas, iniciando nuevas partidas por impulso y perdiendo juegos que dependían de ellos por estar tilteados.",
+  "btn_next": "SIGUIENTE PASO",
+  "label_losses": "Imposibles",
+  "label_impact": "Dependen de ti",
+  "label_wins": "Acarreadas"
+}

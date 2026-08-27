@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Caça-Palavras",
+    "results_found": "Caça-palavras encontrados",
+    "no_results": "Nenhum caça-palavras encontrado"
+  },
+  "daily": {
+    "banner": "Jogar o caça-palavras diário",
+    "title": "Caça-Palavras Diário",
+    "next": "Novo caça-palavras em:"
+  }
+}

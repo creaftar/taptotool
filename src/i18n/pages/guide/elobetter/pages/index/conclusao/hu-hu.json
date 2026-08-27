@@ -1,0 +1,12 @@
+{
+  "title": "Büszkén, egy Ingyenes Útmutató",
+  "description": "2020 és 2021 között készítettem egy egyszerű útmutatót, hogy segítsek egy játékosnak, aki privát üzenetben kérdezte meg tőlem, hogyan jutottam feljebb elo-ban. Az eredmény? Kevesebb mint egy hónap alatt Platina divízióból Gyémántba jutott. 2026-ban úgy döntöttem, hogy ugyanezt az alapot weboldallá alakítom, ötvözve a League of Legends-ben szerzett tapasztalataimat a programozási tanulmányaimmal, hogy még több embernek segítsek fejlődni.",
+  "card_1_title": "Gyakorlati Útmutatás",
+  "card_1_text": "Kipróbált és validált stratégiák olyasvalakitől, aki a saját bőrén tapasztalta meg a ranglétra megmászásának nehézségeit. Mellébeszélés nélkül.",
+  "card_2_title": "Játékostól Játékosnak",
+  "card_2_text": "Vállalati zsargon és alkalmazhatatlan elemzések nélkül. Ez egy olyan ember látásmódja, aki aktívan játszik, és érti a rangsorolt meccsek valóságát.",
+  "card_3_title": "Folyamatos Fejlődés",
+  "card_3_text": "A fókusz nem csak azon van, hogy megmutassuk a könnyebb utat, hanem azon, hogy megtanítsuk a folyamatos felemelkedéshez szükséges gondolkodásmódot.",
+  "support_text": "Szeretnéd támogatni ezt a projektet? Itt hagyhatod a hozzájárulásodat",
+  "btn_donate": "Támogatás ☕"
+}

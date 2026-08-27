@@ -1,0 +1,58 @@
+.next-step{
+    width: 200px;
+    height: 62px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: solid 1px rgba(var(--ns-border));
+    background-color: rgba(var(--ns-bg), 1);
+    background: linear-gradient(rgba(var(--ns-bg), 0), rgba(var(--ns-bg), 1));
+    border-bottom: solid 6px rgba(var(--ns-border));
+    border-radius: 9px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 3px rgba(var(--fumaca), 0.1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.reset-step{
+    color: rgba(var(--padrao), 1);
+    width: 62px;
+    height: 62px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: solid 1px rgba(var(--ns-border));
+    background-color: rgba(var(--ns-bg), 1);
+    background: linear-gradient(rgba(var(--ns-bg), 0), rgba(var(--ns-bg), 1));
+    border-bottom: solid 6px rgba(var(--ns-border));
+    border-radius: 9px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 3px rgba(var(--fumaca), 0.1);
+}
+
+.next-step:not(.disabled):hover, 
+.reset-step:not(.disabled):hover{
+   border-bottom: solid 3px rgba(var(--ns-border));
+}
+
+.ns-alternativo{
+    padding: 9px 18px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: solid 1px rgba(var(--ns-alternativo-border));
+    background-color: rgba(var(--ns-alternativo-bg), 1);
+    background: linear-gradient(rgba(var(--ns-alternativo-bg), var(--opacidade-btn)), rgba(var(--ns-alternativo-bg), 1));
+    border-bottom: solid 6px rgba(var(--ns-alternativo-border));
+    border-radius: 9px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 3px rgba(var(--fumaca), 0.1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ns-alternativo:not(.disabled):hover{
+    border-bottom: solid 4px rgb(var(--ns-alternativo-border));
+}

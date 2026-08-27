@@ -1,0 +1,24 @@
+{
+  "btn_next": "下一步",
+  "footer": {
+    "share_telegram": "分享網站到 Telegram",
+    "share_whatsapp": "分享網站到 WhatsApp",
+    "share_bluesky": "分享網站到 Bluesky",
+    "share_x": "分享網站到 X",
+    "share_facebook": "分享網站到 Facebook",
+    "share_reddit": "分享網站到 Reddit"
+  },
+  "banner": {
+    "view_opgg": "在 OP.GG 上查看創作者的個人檔案",
+    "play_crossword": "玩《英雄聯盟》填字遊戲",
+    "watch_videos": "觀看實戰影片並分析 High ELO 玩家的打法",
+    "more_tools": "探索更多線上工具以自動化您的日常工作流程"
+  },
+  "myaccount": {
+    "badge_current_elo": "攻略作者當前 ELO 的徽章",
+    "summoner_icon": "召喚師頭像"
+  },
+  "reset_steps": "重設所有步驟（重新開始）",
+  "copy_profile_nick": "複製個人檔案的召喚師名稱",
+  "update_profile": "更新個人檔案"
+}

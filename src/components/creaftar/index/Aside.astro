@@ -1,0 +1,219 @@
+---
+interface Props {}
+
+import '@/assets/styles/pages/game/crossword/pages/index/aside/aside.css';
+import '@/assets/styles/pages/game/crossword/pages/index/aside/card_lateral.css';
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/index/aside/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/index/aside/en.json";
+import es from "@/i18n/pages/game/crossword/pages/index/aside/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/index/aside/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/index/aside/it.json";
+import de from "@/i18n/pages/game/crossword/pages/index/aside/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/index/aside/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/index/aside/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/index/aside/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+
+const currentYear = new Date().getFullYear();
+const copyrightFormatted = d?.aside.copyright ? d.aside.copyright.replace('{year}', currentYear.toString()) : `© ${currentYear}`;
+---
+<aside id="aside-main">
+    <div id="container-aside">
+        <div class="aside-bloco">
+            <h3 class="h3-aside purple">{d.aside.nav_title}</h3>
+            <a href=`/${lang === 'en' ? '' : lang}` class="link" aria-label={d.aside.nav_home_aria}>
+                <div class="topico" id="ao_topo">
+                    <i class="icons-aside fa-solid fa-house"></i>
+                    <div class="purple descricao-topico">{d.aside.nav_home}</div>
+                </div>
+            </a>
+            <a href="./create/" class="link" aria-label={d.aside.nav_create_aria} id="linkToEditor">
+                <div class="topico create-aside">
+                    <i class="icons-aside fa-solid fa-plus blue"></i>
+                    <h2 class="purple descricao-topico blue">{d.aside.nav_create}</h2>
+                    <i class="icons-aside fa-solid fa-arrow-right-from-bracket end-topic blue"></i>
+                </div>
+            </a>
+            <!--<a href={`./${lang === 'en' ? '' : lang + '/'}daily`} class="link" aria-label={d.daily.banner}>
+                <div class="topico">
+                    <i class="icons-aside fa-solid fa-newspaper"></i>
+                    <h2 class="purple descricao-topico">{d.daily.title}</h2>
+                    <i class="icons-aside fa-solid fa-arrow-right-from-bracket end-topic blue"></i>
+                </div>
+            </a>-->
+        </div>
+
+        <hr class="hr-aside" />
+
+        <div class="aside-bloco" id="bloco_voce">
+            <h3 class="h3-aside purple">{d.aside.you_title}</h3>
+            <div class="topico" id="minhas_cruzadinhas">
+                <i class="icons-aside fa-solid fa-square-check"></i>
+                <h2 class="purple descricao-topico">{d.aside.your_crosswords}</h2>
+            </div>
+            <div class="topico topico-com-card" id="historico">
+                <i class="icons-aside fa-solid fa-clock-rotate-left"></i>
+                <div class="purple descricao-topico">{d.aside.history}</div>
+                <div class="card-lateral-container">
+                    <div class="card-lateral elemento-invisivel" id="card_historico">
+                        <div class="card-lateral-text-with-icon">
+                            <div class="card-lateral-titulo">{d.aside.history}</div>
+                            <i class="icons-aside fa-solid fa-clock-rotate-left blue"></i>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-conteudo" id="card-historico-conteudo">
+                            <h3 class="card-lateral-titulo">{d.aside.history_progress}</h3>
+                            <hr class="hr-lateral" />
+                            <div class="card-lateral-conteudo-links" id="card-lateral-conteudo-emProgresso"></div>
+                            <h3 class="card-lateral-titulo">{d.aside.history_done}</h3>
+                            <hr class="hr-lateral" />
+                            <div class="card-lateral-conteudo-links" id="card-lateral-conteudo-feitas"></div>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-versionamento"><p>{d.aside.release_prefix}3.2.1</p></div>
+                        <div class="loadBarCard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-aside" id="hr_voce" />
+
+        <div class="aside-bloco">
+            <h3 class="h3-aside purple">{d.aside.other_games_title}</h3>
+            <a class="topico" href={`${lang === 'en' ? '' : '/' + lang}/game/word-search/`}>
+                <i class="icons-aside fa-solid fa-table-cells-large"></i>
+                <div class="purple descricao-topico">{d.aside.word_search}</div>
+                <i class="icons-aside fa-solid fa-arrow-right-from-bracket end-topic blue"></i>
+            </a>
+        </div>
+        
+        <hr class="hr-aside" />
+
+        <div class="aside-bloco">
+            <h2 class="h3-aside purple">{d.aside.creaftar_title}</h2>
+            <div class="topico topico-com-card" id="estatisticas-topico">
+                <i class="icons-aside fa-solid fa-chart-simple"></i>
+                <div class="purple descricao-topico">{d.aside.stats}</div>
+                <div class="card-lateral-container">
+                    <div class="card-lateral elemento-invisivel" id="card_estatisticas">
+                        <div class="card-lateral-text-with-icon">
+                            <div class="card-lateral-titulo">{d.aside.stats}</div>
+                            <i class="icons-aside fa-solid fa-chart-simple blue"></i>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-conteudo">
+                            <p id="qtdCrzd">{d.aside.stats_total}</p>
+                            <p id="qtdUser">{d.aside.stats_users}</p>
+                            <p id="qtdCrzdUser">{d.aside.stats_yours}</p>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-versionamento"><p>{d.aside.release_prefix}3.2.1</p></div>
+                        <div class="loadBarCard"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topico topico-com-card" id="feedback-topico">
+                <i class="icons-aside fa-solid fa-reply purple"></i>
+                <div class="purple descricao-topico">{d.aside.feedback}</div>
+                <div class="card-lateral-container">
+                    <div class="card-lateral elemento-invisivel" id="card_feedback">
+                        <div class="card-lateral-text-with-icon">
+                            <div class="card-lateral-titulo">Feedback</div>
+                            <i class="icons-aside fa-solid fa-reply blue"></i>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-conteudo">
+                            <textarea placeholder={d.aside.feedback_placeholder} id="campo_feedback" maxlength="500"></textarea>
+                            <button id="enviar_feedback" aria-label={d.aside.btn_send_aria}>{d.aside.btn_send}</button>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-versionamento"><p>{d.aside.release_prefix}3.2.1</p></div>
+                        <div class="loadBarCard"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topico topico-com-card" id="versionamento-topico">
+                <i class="icons-aside fa-solid fa-code-pull-request"></i>
+                <div class="purple descricao-topico">{d.aside.version}</div>
+                <div class="card-lateral-container">
+                    <div class="card-lateral elemento-invisivel" id="card_versionamento">
+                        <div class="card-lateral-text-with-icon">
+                            <div class="card-lateral-titulo">{d.aside.version}</div>
+                            <i class="icons-aside fa-solid fa-code-pull-request blue"></i>
+                        </div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-conteudo"><p class="versao">{d.aside.version_current}</p></div>
+                        <hr class="hr-lateral" />
+                        <div class="card-lateral-versionamento"><p>{d.aside.release_prefix}3.2.1</p></div>
+                        <div class="loadBarCard"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-aside" id="hr_voce" />
+
+        <div class="aside-bloco">
+            <h3 class="h3-aside purple">{d.aside.themes_title}</h3>
+            <div class="topico" id="tema-claro">
+                <i class="icons-aside fa-solid fa-sun"></i>
+                <div class="purple descricao-topico">{d.aside.theme_light}</div>
+            </div>
+            <div class="topico" id="tema-tarde">
+                <i class="icons-aside fa-solid fa-circle-half-stroke"></i>
+                <div class="purple descricao-topico">{d.aside.theme_medium}</div>
+            </div>
+            <div class="topico" id="tema-escuro">
+                <i class="icons-aside fa-solid fa-moon"></i>
+                <div class="purple descricao-topico">{d.aside.theme_dark}</div>
+            </div>
+        </div>
+
+        <hr class="hr-aside" />
+
+        <div class="aside-bloco" id="bloco_social">
+            <h3 class="h3-aside purple">{d.aside.social_title}</h3>
+            <a href="https://x.com/Creaftar" target="_blank" class="link" aria-label={d.aside.social_x_aria}>
+                <div class="topico">
+                    <i class="icons-aside fa-brands fa-x-twitter purple brand"></i>
+                    <div class="purple descricao-topico">Twitter - X</div>
+                    <i class="icons-aside fa-solid fa-arrow-up-right-from-square end-topic"></i>
+                </div>
+            </a>
+            <a href="https://bsky.app/profile/creaftar.com" target="_blank" class="link" aria-label="Ir para o site do BlueSky">
+                <div class="topico">
+                    <i class="icons-aside fa-brands fa-bluesky brand"></i>
+                    <div class="purple descricao-topico">Bluesky</div>
+                    <i class="icons-aside fa-solid fa-arrow-up-right-from-square end-topic"></i>
+                </div>
+            </a>
+            <a href=`https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fcreaftar.com%2Fassets%2Ffeeds%2Ffeed${lang}.xml` target="_blank" class="link" aria-label="Ir para o site do feedly">
+                <div class="topico">
+                    <i class="icons-aside fa-solid fa-rss"></i>
+                    <div class="purple descricao-topico">Feedly</div>
+                    <i class="icons-aside fa-solid fa-arrow-up-right-from-square end-topic"></i>
+                </div>
+            </a>
+        </div>
+
+        <hr class="hr-aside" />
+
+        <div class="aside-bloco bloco-politicas bloco-ocultavel">
+            <div class="container-bloco-politicas">
+                <a href=`/${lang === 'en' ? '' : lang + '/'}` target="_blank" class="link" aria-label="Initial Page">Tap to Tool - </a>
+                <a href={`./${lang === 'en' ? '' : lang + '/'}politics`} target="_blank" class="link" aria-label={d.aside.policies}>{d.aside.policies} - </a>
+                <a href={`./${lang === 'en' ? '' : lang + '/'}create`} target="_blank" class="link" aria-label={d.aside.nav_create}>{d.aside.nav_create} - </a>
+                <a href=`https://taptotool.com${lang === 'en' ? '' : '/' + lang}` target="_blank" class="link" aria-label={d.aside.more_tools}>{d.aside.more_tools}</a>
+            </div>
+        </div>
+    </div>
+    <footer id="footer-aside"><h2 id="copyright">{copyrightFormatted}</h2></footer>
+</aside>

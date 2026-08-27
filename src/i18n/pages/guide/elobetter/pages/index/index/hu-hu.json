@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Hogyan Lépj Rangot a League of Legendsben",
+    "description": "Eleged van a trollokból, AFK-sokból és smurfökből? Tanuld meg, hogyan léphetsz valóban rangot ezzel a rendkívül tömör útmutatóval.",
+    "keywords": "elo, league of legends, gold lol, hogyan lepjel rangot lol, elo növelése, kijutás ezüstből, kijutás aranyból, kijutás vasból, kijutás bronzból, kijutás platinából, kijutás gyémántból, kijutás mesterből, rank 1 útmutató"
+  },
+  "schema": {
+    "app_name": "EloBetter - LoL Ranglétra Útmutató",
+    "app_description": "Tanuld meg, hogyan léphetsz rangot a League of Legendsben a szemléletmódra, hősökre és a játékminőségre összpontosító stratégiákkal.",
+    "breadcrumb_home": "Kezdőlap",
+    "breadcrumb_current": "EloBetter Útmutató"
+  },
+  "ui": {
+    "price_currency": "HUF"
+  }
+}

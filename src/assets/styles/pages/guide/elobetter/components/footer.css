@@ -1,0 +1,94 @@
+.footer-principal{
+    padding: 30px;
+}
+.container-share-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: small;
+    user-select: none;
+    margin: 0 0 30px 0;
+}
+.square-share-icon{
+    background-color: rgba(var(--fundo-alternativo), 1);
+    width: 36px;
+    height: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.square-share-icon:hover{
+    background-color: rgba(var(--square-share-hover), 1);
+}
+.square-share-icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgba(var(--padrao), 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+.container-copyright-footer{
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    user-select: none;
+}
+.footer-apagado{
+    fill: rgba(var(--destaque), 1);
+}
+.lista-footer{
+    font-weight: bold;
+    margin: 30px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.lista-footer li{
+    cursor: pointer;
+    padding: 6px 24px;
+    border-radius: 6px;
+}
+.lista-footer > li a{
+    color: rgba(var(--padrao), 1);
+    text-decoration: none;
+}
+
+.lista-footer li:hover{
+    background: linear-gradient(rgba(var(--li-footer-hover), 1), rgba(var(--fundo-alternativo), 1));
+}
+
+.fa-x-twitter:before {
+    content: "\e61b"
+}
+.fa-facebook-f:before {
+    content: "\f39e"
+}
+.fa-reddit-alien:before {
+    content: "\f281"
+}
+.fa-bluesky:before {
+    content: "\e671"
+}
+.fa-whatsapp:before {
+    content: "\f232"
+}
+.fa-telegram:before,
+.fa-telegram-plane:before {
+    content: "\f2c6"
+}
+.fa-paper-plane:before {
+    content: "\f1d8"
+}

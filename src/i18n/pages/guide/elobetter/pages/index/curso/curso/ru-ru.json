@@ -1,0 +1,24 @@
+{
+  "btn_next": "СЛЕДУЮЩИЙ ШАГ",
+  "footer": {
+    "share_telegram": "Поделиться сайтом в Telegram",
+    "share_whatsapp": "Поделиться сайтом в WhatsApp",
+    "share_bluesky": "Поделиться сайтом в Bluesky",
+    "share_x": "Поделиться сайтом в X",
+    "share_facebook": "Поделиться сайтом в Facebook",
+    "share_reddit": "Поделиться сайтом в Reddit"
+  },
+  "banner": {
+    "view_opgg": "Посмотреть профиль создателя на OP.GG",
+    "play_crossword": "Играть в кроссворды по League of Legends",
+    "watch_videos": "Смотрите практические видео и анализируйте игру High ELO игроков",
+    "more_tools": "Изучите больше онлайн-инструментов для автоматизации повседневного рабочего процесса"
+  },
+  "myaccount": {
+    "badge_current_elo": "Эмблема текущего ELO автора руководства",
+    "summoner_icon": "Иконка призывателя"
+  },
+  "reset_steps": "Сбросить все шаги (начать заново)",
+  "copy_profile_nick": "Скопировать имя призывателя из профиля",
+  "update_profile": "Обновить профиль"
+}

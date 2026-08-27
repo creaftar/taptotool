@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Cari Kata Online",
+    "description": "Mainkan game cari kata gratis atau buat game-mu sendiri! Bagikan dengan teman dan tantang komunitas...",
+    "keywords": "cari kata online, game cari kata, teka-teki kata tersembunyi, word search indonesia, buat game cari kata gratis, pencarian kata otomatis, generator cari kata, main game kata online"
+  },
+  "schema": {
+    "app_name": "Buat Cari Kata Online",
+    "app_description": "Jelajahi Tap to Tool dan mainkan cari kata online! Buat, edit, dan mainkan cari kata kustom.",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Cari Kata Online",
+    "alternateName": "Creaftar Cari Kata",
+    "description": "Alat gratis untuk membuat, mengedit, dan memainkan cari kata online di Tap to Tool.",
+    "price_currency": "IDR"
+  },
+  "ui": {
+    "search_placeholder": "Cari teka-teki cari kata",
+    "search_aria": "Cari teka-teki cari kata"
+  },
+  "pesquisa": {
+    "search_crossword": "Cari teka-teki cari kata..."
+  },
+  "index": {
+    "login_prompt": "Masuk untuk membuat game cari kata!",
+    "logged_prompt": "Teka-teki cari kata Anda:",
+    "words_found": "kata ditemukan",
+    "horizontals": "Mendatar & Menurun",
+    "verticals": "Diagonal & Terbalik",
+    "crossword_by": "Cari kata oleh ",
+    "aria": {
+      "play_button": "Tombol untuk bermain cari kata",
+      "options_button": "Tombol untuk opsi lainnya",
+      "copy_link": "Tombol untuk menyalin tautan",
+      "edit_button": "Tombol untuk mengedit",
+      "delete_button": "Tombol untuk menghapus"
+    },
+    "time": {
+      "second": "detik yang lalu", "seconds": "detik yang lalu",
+      "minute": "menit yang lalu", "minutes": "menit yang lalu",
+      "hour": "jam yang lalu", "hours": "jam yang lalu",
+      "day": "hari yang lalu", "days": "hari yang lalu",
+      "month": "bulan yang lalu", "meses": "bulan yang lalu",
+      "year": "tahun yang lalu", "years": "tahun yang lalu"
+    },
+    "js_messages": {
+      "js_create_title": "BUAT GAME CARI KATA",
+      "js_create_desc": "Buat atau buat otomatis teka-teki cari kata baru",
+      "js_create_link": "Buat game cari kata",
+      "js_create_aria": "Klik untuk membuat atau menghasilkan teka-teki cari kata"
+    }
+  }
+}

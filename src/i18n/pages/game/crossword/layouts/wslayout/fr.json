@@ -1,0 +1,12 @@
+{
+  "seo": {
+    "title": "Créer des Mots Mêlés en Ligne - Tap to Tool",
+    "description": "Créez vos propres mots mêlés et mots cachés personnalisés. Générez des grilles de mots mêlés à imprimer ou pour jouer en ligne facilement !",
+    "keywords": "créer des mots mêlés, faire des mots mêlés, générateur de mots mêlés, mots cachés en ligne, créer des mots cachés, générateur de mots cachés gratuit, mots mêlés personnalisés, créer grille de mots mêlés, comment faire des mots mêlés, créateur de mots mêlés, site pour faire des mots mêlés, application mots mêlés, créer des mots cachés à imprimer, jeu de mots mêlés en ligne, générer des mots mystères, mots mêlés pour l'école"
+  },
+  "ui": {
+    "h1": "Nouveaux Mots Mêlés",
+    "minimize_aria": "Bouton pour réduire les cartes de mots et de contenu",
+    "zoom_note": "Utilisez les boutons + et - à gauche pour ajuster le zoom du mots mêlés."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "JUDUL CARI KATA ANDA:",
+    "placeholder": "Cari Kata",
+    "hints_question": "APAKAH ANDA INGIN MENGAKTIFKAN PETUNJUK UNTUK TEKA-TEKI ANDA?",
+    "hints_obs": "(Anda dapat mengubah opsi ini nanti kapan saja)",
+    "hints_yes": "Ya, saya ingin mengaktifkan petunjuk untuk cari kata saya",
+    "hints_no": "Jangan aktifkan petunjuk untuk cari kata saya",
+    "answer_key_question": "APAKAH ANDA INGIN MEMBAGIKAN TEKA-TEKI ANDA DI JEJARING SOSIAL KAMI?",
+    "answer_key_obs": "(Kunci jawaban memungkinkan pemain melihat jawaban – Anda dapat mengubah ini nanti)",
+    "answer_key_yes": "Ya, saya ingin membuat kunci jawaban untuk cari kata saya",
+    "answer_key_no": "Jangan buat kunci jawaban",
+    "share_question": "APAKAH ANDA INGIN MEMBAGIKAN TEKA-TEKI ANDA DI JEJARING SOSIAL KAMI?",
+    "share_yes": "Ya, saya ingin membagikan teka-teki saya di saluran Creaftar",
+    "share_no": "Jangan bagikan teka-teki saya",
+    "save_button": "SIMPAN",
+    "requirements_alert": "PERHATIAN: Menyimpan hanya tersedia untuk pengguna terdaftar"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA CARI KATA",
+    "theme_placeholder": "Cari Kata",
+    "word_quantity": "Jumlah kata",
+    "generate_button": "BUAT"
+  },
+  "copy": {
+    "modal_preview": "PRATINJAU",
+    "warning_main": "Jangan khawatir tentang vertikal dan horizontal, cukup ikuti format di bawah ini",
+    "your_text": "Teks Anda:",
+    "detector_stats": "{words} kata / {clues} petunjuk",
+    "placeholder": "Tempel teks Anda di sini...",
+    "expected_formats": "Format yang Didukung:",
+    "btn_generate": "TEKS SAYA SUDAH SESUAI FORMAT",
+    "words_suffix": "kata",
+    "clues_suffix": "petunjuk",
+    "examples": {
+      "dog": "anjing",
+      "cat": "kucing",
+      "bat": "kelelawar",
+      "elephant": "gajah",
+      "kangaroo": "kanguru",
+      "desc_dog": "Sahabat terbaik manusia",
+      "desc_cat": "Suka menangkap tikus",
+      "desc_bat": "Mamalia yang bisa terbang",
+      "desc_elephant": "Memiliki belalai",
+      "desc_kangaroo": "Marsupial besar"
+    },
+    "requirements_alert": "Ups! Sepertinya Anda belum menempelkan apa pun, salin teks dan coba lagi"
+  }
+}

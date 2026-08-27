@@ -1,0 +1,204 @@
+---
+import WsLayout from '@/layout/crossword/WsLayout.astro';
+import MenuLateral from '@/components/creaftar/wordsearch/create/MenuLateral.astro';
+import Modals from '@/components/creaftar/wordsearch/create/Modals.astro';
+import CarregarCopy from '@/components/creaftar/wordsearch/create/CarregarCopy.astro';
+
+import '@/assets/styles/pages/game/crossword/pages/wordsearch/create/create.css';
+import '@/assets/styles/pages/game/crossword/pages/wordsearch/create/cartoes.css';
+import '@/assets/styles/pages/game/crossword/componentes/copytext.css';
+import '@/assets/styles/pages/game/crossword/pages/wordsearch/create/modal/salvar.css';
+import '@/assets/styles/pages/game/crossword/pages/wordsearch/create/modal/gerar.css';
+import '@/assets/styles/pages/game/crossword/pages/wordsearch/create/modal/copy.css';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/en.json";
+import es from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/it.json";
+import de from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+const currentUrl = `https://creaftar.com/${lang == 'en' ? '' : lang + '/'}word-search/create`;
+
+import ptD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/pt.json";
+import enD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/en.json";
+import esD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/es.json";
+import frD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/fr.json";
+import itD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/it.json";
+import deD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/de.json";
+import ruD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/ru.json";
+import idD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/id.json";
+import hiD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/hi.json";
+
+const localesD = { 
+  pt: ptD, 
+  en: enD, 
+  es: esD, 
+  fr: frD, 
+  it: itD, 
+  de: deD, 
+  ru: ruD, 
+  id: idD, 
+  hi: hiD 
+};
+const t = localesD[lang as keyof typeof localesD] || localesD.en;
+---
+
+<WsLayout
+  title={d.seo.title}
+  description={d.seo.description}
+  keywords={d.seo.keywords}
+  lang={lang}
+  canonical={currentUrl}
+  pageId="create"
+>
+<script type="application/ld+json" slot="ld-json" is:inline set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": `${currentUrl}#software`,
+      "name": d.schema.app_name,
+      "alternateName": d.schema.alternateName || "Creaftar Word Search Creator",
+      "url": currentUrl,
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any",
+      "inLanguage": lang,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": d.schema.price_currency || "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "description": d.schema.app_description
+    },
+    {
+      "@type": ["WebPage", "CollectionPage"],
+      "@id": `${currentUrl}#webpage`,
+      "url": currentUrl,
+      "name": d.schema.page_name || d.seo.title,
+      "isPartOf": { "@id": "https://taptotool.com/#website" },
+      "description": d.seo.description,
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` },
+      "inLanguage": lang,
+      "mainEntity": { "@id": `${currentUrl}#software` }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${currentUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": d.schema?.breadcrumb_home || "Home",
+          "item": "https://taptotool.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": d.schema?.breadcrumb_current || d.schema.page_name,
+          "item": currentUrl
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://taptotool.com/#website",
+      "url": "https://taptotool.com/",
+      "name": "Tap to Tool",
+      "publisher": { "@id": "https://taptotool.com/#organization" },
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://taptotool.com/#organization",
+      "name": "Tap to Tool",
+      "url": "https://taptotool.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://taptotool.com/web-app-manifest-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TaptoTool",
+        "https://www.youtube.com/@TaptoTool-English"
+      ]
+    }
+  ]
+})}></script>
+
+    <CarregarCopy />
+
+    <div id="container-menu" slot="containermenu">
+        <button id="menu" aria-label={d.ui.hide_menu_aria}>
+            <i class="fa-solid fa-bars icons"></i>
+        </button>
+        <!--<div id="info" class="">{d.ui.hide_text}</div>-->
+    </div>
+
+    <div id="container-paste-text" class="elemento-visivel" slot="copytext">
+        <i class="fa-solid fa-clipboard"></i>
+        <p>{d.ui.paste_text}</p>
+        <p id="ctrlv">{d.ui.paste_shortcut}</p>
+    </div>
+    <div id="container-bloco-error" slot="errorcopy">
+        <p>{d.ui.error_clipboard}</p>
+    </div>
+
+    <div id="container-palavras_conteudos">
+        <div id="PALAVRAS">
+            <h2 class="title_card">{d.create_page.words_title}</h2>
+            <div class="container-input_btn">
+                <div class="input-with-button">
+                    <input  
+                        id="palavra" 
+                        aria-label={d.create_page.add_word_aria} 
+                        placeholder={d.create_page.word_placeholder} 
+                    />
+                    <button id="palavraBtn" aria-label={d.create_page.add_word_btn_aria}>
+                        <i class="fa-solid fa-plus"></i>
+                    </button> 
+                </div>
+                <button id="palavra-copy" aria-label={d.ui.paste_text}>
+                    <i class="fa-solid fa-clipboard"></i>
+                </button>
+                <button id="remover-all-palavras" aria-label="Remove All"><i class="fa-solid fa-trash-can trash-red"></i></button>
+            </div>
+            <div id="container-p-el" class="container-pc-el"></div>
+        </div>
+    </div>
+    
+    <MenuLateral />
+
+    <Modals />
+
+    <div id="traducoes-create" data-i18n={JSON.stringify(t)}></div>
+    
+    <script>
+        import '@/assets/scripts/pages/game/wordsearch/imports/create.js';
+    </script>
+</WsLayout>

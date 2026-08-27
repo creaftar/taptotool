@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Kembali ke halaman utama",
+    "disconnected": "Kamu terputus",
+    "connected": "Kamu tersambung",
+    "email_label": "EMAIL:",
+    "password_label": "KATA SANDI:",
+    "confirm_password_label": "KONFIRMASI KATA SANDI:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "kata sandi",
+    "already_have_account": "Sudah punya akun?",
+    "no_account": "Belum punya akun? Daftar!",
+    "btn_register": "DAFTAR",
+    "btn_login": "MASUK",
+    "btn_logout": "KELUAR",
+    "search_crossword_aria": "Cari teka-teki silang",
+    "search_placeholder": "Cari teka-teki silang",
+    "hide_menu_aria": "Tombol untuk menyembunyikan menu",
+    "hide_menu_text": "Sembunyikan Menu",
+    "expand": "Perluas",
+    "hide": "Sembunyikan",
+    "lang_display": "Bahasa Indonesia"
+  },
+  "auth_errors": {
+    "invalid_email": "Alamat email tidak valid",
+    "user_not_found": "Alamat email tidak ditemukan",
+    "wrong_password": "Kata sandi yang Anda masukkan salah",
+    "too_many_requests": "Terlalu banyak percobaan masuk yang gagal",
+    "network_failed": "Kesalahan jaringan saat mencoba autentikasi",
+    "weak_password": "Kata sandi yang Anda masukkan terlalu lemah",
+    "email_in_use": "Alamat email sudah terdaftar di akun lain",
+    "different_credential": "Percobaan masuk dengan penyedia autentikasi berbeda (misalnya Google)",
+    "operation_not_allowed": "Operasi tidak diperbolehkan",
+    "internal_error": "Kesalahan internal pada server autentikasi",
+    "missing_password": "Masukkan kata sandi",
+    "invalid_credential": "Kredensial tidak valid (biasanya terjadi saat beralih akun ke Google, Twitter, atau Yahoo)",
+    "passwords_dont_match": "Kata sandi tidak cocok"
+  }
+}

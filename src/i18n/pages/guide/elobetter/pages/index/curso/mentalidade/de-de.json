@@ -1,0 +1,18 @@
+{
+  "title": "Die richtige Einstellung",
+  "main_card_title": "Was ist emotionale Destabilisierung (Tilten)",
+  "card_1_title": "Der Mechanismus",
+  "card_2_title": "Die Auswirkung",
+  "card_3_title": "Wann es passiert",
+  "card_4_title": "Was zu tun ist",
+  "warning_text": "⚠️ In all deinen Spielen wirst du den Chat stummschalten (sowohl Verbündete als auch Gegner) und gegnerische Emotes deaktivieren, um Ablenkungen zu vermeiden",
+  "img_alt": "Wie man den Chat im Spiel stummschaltet",
+  "img_subtext": "Behalte diese Einstellung oben bei (stelle sicher, dass du auch das Häkchen bei Emotes setzt)",
+  "js_texts": [
+    "",
+    "Die Amygdala übernimmt das Kommando. (Der Teil des Gehirns, der für die emotionalen „Kampf-oder-Flucht“-Reaktionen verantwortlich ist)",
+    "Sie deaktiviert vorübergehend den präfrontalen Kortex, also den Bereich des Gehirns, der für logisches Denken, Planung und Impulskontrolle zuständig ist. <span class=\"destaque\">Du hörst auf zu denken und reagierst nur noch.</span>",
+    "Du tiltest, wenn du möchtest, dass das Spiel auf eine bestimmte Weise verläuft, aber die Aktionen deiner Verbündeten oder Gegner dir zeigen, dass du keine Kontrolle über das Match hast.",
+    "Wenn du das bemerkst, ist die beste technische Entscheidung, innezuhalten, tief durchzuatmen und dich für einige Zeit vom Spiel zu entfernen, bis der präfrontale Kortex die Kontrolle wiedererlangt."
+  ]
+}

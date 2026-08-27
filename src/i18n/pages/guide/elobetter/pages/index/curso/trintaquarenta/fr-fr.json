@@ -1,0 +1,12 @@
+{
+  "title": "La Règle des 30 / 30 / 40",
+  "subtitle": "Comprendre pourquoi la raison pour laquelle vous ne montez pas n'est pas due aux trolls et aux AFK, mais à vous-même :",
+  "desc_losses": "<span class=\"destaque\">- 30% de Défaites Garanties (Parties \"Ingagnables\") :</span> <br>Ce sont ces matchs où un coéquipier décide de ragequit, de troll, ou simplement où toutes les autres lanes se font détruire. Mathématiquement, même si vous jouez de votre mieux, le poids des 4 autres joueurs dépasse votre capacité à carry.",
+  "desc_wins": "<span class=\"destaque\">- 30% de Victoires Garanties (Parties \"Carried\") :</span> <br>Ce sont les games où votre top laner est en 10/0 en cinq minutes, le jungler contrôle tous les objectifs et l'équipe ennemie commence à s'insulter dans le chat général. Vous pourriez mal jouer ou même rester AFK à la base, et votre équipe l'emporterait quand même à 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% de Matchs qui Dépendent de Vous (C'est là que vous devez concentrer votre énergie) :</span> <br>Ce sont des matchs équilibrés où les deux équipes ont de réelles chances de victoire. Le résultat final se jouera sur un détail : votre positionnement dans un teamfight, votre rotation, votre contrôle de la vision ou votre prise de décision en late game.",
+  "conclusion": "L'erreur de la plupart des gens est de tryhard, de tomber dans une série de défaites et de tilter à cause de cela, puis de relancer des parties par impulsion et de perdre des matchs qui dépendaient d'eux parce qu'ils sont tiltés.",
+  "btn_next": "ETAPE SUIVANTE",
+  "label_losses": "Ingagnables",
+  "label_impact": "Dépendent de vous",
+  "label_wins": "Carried"
+}

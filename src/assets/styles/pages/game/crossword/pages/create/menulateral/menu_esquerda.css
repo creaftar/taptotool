@@ -1,0 +1,81 @@
+@keyframes brilho {
+  0% {
+    filter: brightness(0.5);
+    /*transform: rotate(-9deg);*//* Inclina para a esquerda */
+  }
+  50% {
+    filter: brightness(2);
+    /*transform: rotate(9deg);*//* Inclina para a direita */
+  }
+  100% {
+    filter: brightness(0.5);
+    /*transform: rotate(-9deg);*//* Inclina para a esquerda */
+  }
+}
+
+@keyframes brilhoLi {
+  0% {
+    border-color: rgba(var(--padrao), var(--opacidade-fraca));
+    box-shadow: 0 0 6px rgba(var(--padrao), var(--opacidade-fraca));
+  }
+  50% {
+    border-color: rgba(var(--padrao), var(--opacidade-forte));;
+    box-shadow: 0 0 0px rgba(var(--padrao), var(--opacidade-fraca));
+  }
+  100% {
+    border-color: rgba(var(--padrao), var(--opacidade-fraca));
+    box-shadow: 0 0 6px rgba(var(--padrao), var(--opacidade-fraca));
+  }
+}
+
+#menu_lateralDesktopZoom{
+	height: 120px;
+	left: 9px;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.brilhante {
+	animation: brilho 1.2s infinite;
+}
+
+.brilhanteLi{
+	animation: brilhoLi 1.2s infinite;
+}
+
+.askIcon{
+	color: var(--destaque);
+}
+
+.info-icons{
+	z-index:999;
+	position: fixed;
+	transform: translateX(-50%) translateX(-23px);
+	display:none;
+	user-select: none;
+	flex-direction: row;
+	padding: 6px;
+	border-radius: 6px;
+	font-weight: 500;
+	opacity: 1;
+	font-size: 0.8em;
+	color: var(--texto);
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left{
+	transform: translateX(50%) translateX(23px);
+}
+
+@media(min-width: 1025px){
+	#menu_lateralDesktopZoom{
+		left: calc(10% + 9px);
+	}
+}
+
+.fa-clipboard-question:before {
+    content: "\e4e3"
+}

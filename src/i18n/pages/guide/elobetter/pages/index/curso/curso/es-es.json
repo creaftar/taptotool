@@ -1,0 +1,24 @@
+{
+  "btn_next": "SIGUIENTE PASO",
+  "footer": {
+    "share_telegram": "Compartir la web en Telegram",
+    "share_whatsapp": "Compartir la web en WhatsApp",
+    "share_bluesky": "Compartir la web en Bluesky",
+    "share_x": "Compartir la web en X",
+    "share_facebook": "Compartir la web en Facebook",
+    "share_reddit": "Compartir la web en Reddit"
+  },
+  "banner": {
+    "view_opgg": "Ver el perfil del creador en OP.GG",
+    "play_crossword": "Jugar a crucigramas de League of Legends",
+    "watch_videos": "Ver vídeos prácticos y analizar cómo juega un jugador de High ELO",
+    "more_tools": "Explora más herramientas en línea para automatizar tu flujo de trabajo diario"
+  },
+  "myaccount": {
+    "badge_current_elo": "Emblema del ELO actual del autor de la guía",
+    "summoner_icon": "Icono de invocador"
+  },
+  "reset_steps": "Restablecer todos los pasos (empezar de nuevo)",
+  "copy_profile_nick": "Copiar el nombre de invocador del perfil",
+  "update_profile": "Actualizar el perfil"
+}

@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Crucipuzzle Online",
+    "description": "Gioca gratis ai crucipuzzle o crea i tuoi giochi personalizzati! Condividili con gli amici e sfida la community...",
+    "keywords": "crucipuzzle online, creare crucipuzzle online, caccia al tesoro di parole, parole intrecciate, trovare parole nascoste, generatore di crucipuzzle, parole intrecciate gratis, giochi di parole online"
+  },
+  "schema": {
+    "app_name": "Crea Caccia alle Parole Online",
+    "app_description": "Esplora Tap to Tool e gioca alla caccia alle parole online! Crea, modifica e gioca a caccia alle parole personalizzate.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Caccia alle Parole Online",
+    "alternateName": "Creaftar Caccia alle Parole",
+    "description": "Strumento gratuito per creare, modificare e giocare alla caccia alle parole online su Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Cerca crucipuzzle",
+    "search_aria": "Cerca crucipuzzle"
+  },
+  "pesquisa": {
+    "search_crossword": "Cerca crucipuzzle..."
+  },
+  "index": {
+    "login_prompt": "Accedi per creare crucipuzzle!",
+    "logged_prompt": "I tuoi crucipuzzle:",
+    "words_found": "parole trovate",
+    "horizontals": "Orizzontali & Verticali",
+    "verticals": "Diagonali & Invertite",
+    "crossword_by": "Crucipuzzle di ",
+    "aria": {
+      "play_button": "Pulsante per giocare al crucipuzzle",
+      "options_button": "Pulsante per altre opzioni",
+      "copy_link": "Pulsante per copiare il link",
+      "edit_button": "Pulsante per modificare",
+      "delete_button": "Pulsante per eliminare"
+    },
+    "time": {
+      "second": "un secondo fa", "seconds": "secondi fa",
+      "minute": "un minuto fa", "minutes": "minuti fa",
+      "hour": "un'ora fa", "hours": "ore fa",
+      "day": "un giorno fa", "days": "giorni fa",
+      "month": "un mese fa", "meses": "mesi fa",
+      "year": "un anno fa", "years": "anni fa"
+    },
+    "js_messages": {
+      "js_create_title": "CREA CRUCIPUZZLE",
+      "js_create_desc": "Crea o genera un nuovo schema di parole intrecciate",
+      "js_create_link": "Crea crucipuzzle",
+      "js_create_aria": "Clicca per creare o generare crucipuzzle"
+    }
+  }
+}

@@ -10,6 +10,8 @@
     "astro": "^7.1.5",
     "astro-indexnow": "^2.3.10",
     "canvas-confetti": "^1.9.4",
+    "dexie": "^4.4.5",
+    "firebase": "^12.18.0",
     "firebase-admin": "^14.2.0",
     "idb": "^8.0.3",
     "proxy-agent": "^8.0.2",

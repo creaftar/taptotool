@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "नेविगेशन",
+    "nav_home": "होम",
+    "nav_home_aria": "होम पेज पर वापस जाने के लिए端",
+    "nav_create": "शब्द खोज बनाएँ",
+    "nav_create_aria": "नई शब्द खोज पहेली बनाएँ",
+
+    "other_games_title": "अन्य खेल",
+    "crosswords": "वर्ग पहेली",
+    "word_search": "शब्द खोज",
+    
+    "themes_title": "थीम",
+    "theme_light": "लाइट थीम",
+    "theme_medium": "मीडियम थीम",
+    "theme_dark": "डार्क थीम",
+    
+    "you_title": "आपका खाता",
+    "your_crosswords": "आपके गेम",
+    "history": "इतिहास",
+    "history_progress": "प्रगति पर",
+    "history_done": "पूरी हो चुकी",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "आंकड़े",
+    "stats_total": "कुल गेम:",
+    "stats_users": "कुल उपयोगकर्ता:",
+    "stats_yours": "आपके गेम:",
+    
+    "feedback": "फीडबैक भेजें",
+    "feedback_placeholder": "अपना फीडबैक यहाँ लिखें...",
+    "btn_send": "भेजें",
+    "btn_send_aria": "फीडबैक भेजने के लिए बटन",
+    
+    "version": "वर्जन",
+    "version_current": "v3.2.2 - वर्तमान वर्जन",
+    "release_prefix": "रिलीज़: ",
+    
+    "social_title": "सोशल",
+    "social_x_aria": "ट्विटर (X) पर जाएँ",
+    "social_bsky_aria": "BlueSky पर जाएँ",
+    "social_feedly_aria": "Feedly पर जाएँ",
+    
+    "policies": "नीतियां",
+    "more_tools": "अन्य टूल",
+    "copyright": "© 2023 - {year} | Tap to Tool - शब्द खोज पहेली ऑनलाइन"
+  },
+  "daily": {
+    "banner": "दैनिक शब्द खोज खेलें",
+    "title": "दैनिक शब्द खोज",
+    "next": "अगली शब्द पहेली:"
+  }
+}

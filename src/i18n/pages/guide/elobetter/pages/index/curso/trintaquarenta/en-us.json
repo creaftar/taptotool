@@ -1,0 +1,12 @@
+{
+  "title": "The 30 / 30 / 40 Rule",
+  "subtitle": "Understanding why the reason you aren't climbing isn't trolls and AFKs, but yourself:",
+  "desc_losses": "<span class=\"destaque\">- 30% Guaranteed Losses (\"Unwinable\" Games):</span> <br>These are the matches where your teammate decides to ragequit, troll, or simply every other lane gets obliterated. Mathematically, even if you play your absolute best, the weight of the other 4 players outweighs your ability to carry.",
+  "desc_wins": "<span class=\"destaque\">- 30% Guaranteed Wins (\"Carried\" Games):</span> <br>These are the games where your top laner goes 10/0 in five minutes, the jungler controls every objective, and the enemy team starts flaming in all chat. You could play terribly or even sit AFK in base, and your team would still win 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% of Games That Depend on You (This is where you should focus your energy):</span> <br>These are balanced matches where both teams have a real shot at winning. The final outcome will be decided by a single detail: your positioning in a teamfight, your rotation, your vision control, or your late-game decision-making.",
+  "conclusion": "The mistake most people make is tryharding, hitting a losing streak and tilting because of it, then queuing up again on impulse and losing games that actually depended on them because they are tilted.",
+  "btn_next": "NEXT STEP",
+  "label_losses": "Unwinnable",
+  "label_impact": "Depends on you",
+  "label_wins": "Carried"
+}

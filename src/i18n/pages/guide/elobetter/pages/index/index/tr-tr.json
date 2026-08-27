@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - League of Legends'ta Nasıl Lig Atlanır",
+    "description": "Trollerden, AFK'lardan ve smurf'lerden bıktınız mı? Bu süper özlü rehberle lig atlamayı öğrenin.",
+    "keywords": "elo, league of legends, gold lol, lol lig atlama, elo nasıl yükseltilir, gümüşten çıkma, altın çıkma, demirden çıkma, bronzdan çıkma, platinden çıkma, elmastan çıkma, ustalık ligi, rank 1 rehberi"
+  },
+  "schema": {
+    "app_name": "EloBetter - LoL Lig Atlama Rehberi",
+    "app_description": "Zihniyet, şampiyon havuzu ve oyun kalitesine odaklanan stratejilerle League of Legends'ta lig atlamayı öğrenin.",
+    "breadcrumb_home": "Ana Sayfa",
+    "breadcrumb_current": "EloBetter Rehberi"
+  },
+  "ui": {
+    "price_currency": "TRY"
+  }
+}

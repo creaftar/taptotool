@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Crea e Gioca a Cruciverba Online",
+    "description": "Scopri Tap to Tool e divertiti con i cruciverba online! Crea, modifica ed elimina i tuoi schemi come preferisci. Sfida i tuoi amici e gioca con i cruciverba personalizzati creati dalla nostra community.",
+    "keywords": "cruciverba online, creare cruciverba online, cruciverba personalizzati, parole crociate, creare parole crociate, come creare un cruciverba, generatore di cruciverba, cruciverba per bambini, cruciverba didattici, cruciverba per la scuola, cruciverba di film, cruciverba di animali, temi per cruciverba, creare parole crociate online, giochi di parole, rompicapo online, parole crociate gratis"
+  },
+  "schema": {
+    "app_name": "Crea Parole Crociate Online",
+    "app_description": "Esplora Tap to Tool e gioca alle parole crociate online! Crea, modifica e gioca a parole crociate personalizzate.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Parole Crociate Online",
+    "alternateName": "Creaftar Parole Crociate",
+    "description": "Strumento gratuito per creare, modificare e giocare a parole crociate online su Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Cerca cruciverba",
+    "search_aria": "Cerca cruciverba"
+  },
+  "pesquisa": {
+    "search_crossword": "Cerca cruciverba..."
+  },
+  "index": {
+    "login_prompt": "Accedi per creare cruciverba!",
+    "logged_prompt": "I tuoi cruciverba:",
+    "words_found": "parole trovate",
+    "horizontals": "Orizzontali",
+    "verticals": "Verticali",
+    "crossword_by": "Cruciverba di ",
+    "aria": {
+      "play_button": "Pulsante per giocare al cruciverba",
+      "options_button": "Pulsante per altre opzioni",
+      "copy_link": "Pulsante per copiare il link",
+      "edit_button": "Pulsante per modificare",
+      "delete_button": "Pulsante per eliminare"
+    },
+    "time": {
+      "second": "un secondo fa", "seconds": "secondi fa",
+      "minute": "un minuto fa", "minutes": "minuti fa",
+      "hour": "un'ora fa", "hours": "ore fa",
+      "day": "un giorno fa", "days": "giorni fa",
+      "month": "un mese fa", "meses": "mesi fa",
+      "year": "un anno fa", "years": "anni fa"
+    },
+    "js_messages": {
+      "js_create_title": "CREA CRUCIVERBA",
+      "js_create_desc": "Crea o genera un nuovo cruciverba",
+      "js_create_link": "Crea cruciverba",
+      "js_create_aria": "Clicca per creare o generare cruciverba"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+import('../jogar/jogar_script.js');

@@ -1,0 +1,19 @@
+.ads-Google{
+	display: none;
+	width:10%;
+	position:absolute;
+	top: 56px;
+	height: calc(calc(100 * var(--vh)) - 56px)
+}
+#ad-right{
+	right: 0;
+}
+#ad-left{
+	left: 0;
+}
+
+@media(min-width: 1025px) {
+	.ads-Google{
+		display: unset;
+	}
+}

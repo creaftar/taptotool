@@ -1,0 +1,109 @@
+.main-card{
+	order: -1;
+}
+.anuncio-estatico{
+	order: var(--random-order, 0);
+}
+.carousel-track {
+    display: flex;
+	position: absolute;
+    transition: transform 0.5s ease-in-out;
+	width: calc(100% + 2px); /* + 2px da borda do linkJogar*/
+	height: calc(100% + 2px); /* + 2px da borda do linkJogar*/
+}
+
+.icon-link{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+}
+.icon-link:active{
+	color: rgba(var(--padrao), 1);
+}
+
+#carrosselPrevBtn{
+	left: 0;
+}
+
+.btnCarrossel{
+	color: var(--fundo-card);
+	z-index:15;
+	position: absolute;
+	border: none;
+	background-color: transparent;
+	height:100%;
+	width: 15%;
+	cursor: pointer;
+}
+#comprarCarrosselBtn, .comprar-btn{
+	text-decoration: none;
+	font-size: 0.9em;
+	cursor: pointer;
+	position: relative;
+	width:50%;
+	padding: 3px 0 3px 6px;
+	border-radius: 3px;
+	border: solid 1px rgba(var(--padrao), 0.3);
+	background-color: var(--fundo-card);
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.btnCarrossel > i{
+	font-size: large;
+}
+
+#carrosselNextBtn{
+	right: 0;
+}
+.card.slide > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card.slide{
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--fundo-card);
+	height: 100%;
+}
+
+.ad{
+	font-weight: 600;
+	font-size: 0.9em;
+	padding: 9px 9px 0 9px;
+}
+.aviso-ad{
+	padding: 3px 9px 0px 9px;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+/**MOBILE**/
+@media(max-width: 1024px){
+	#comprarCarrosselBtn, .comprar-btn{
+		padding: 3px;
+	}
+}
+/**MOBILE-FIM**/
+
+/**DESKTOP**/
+@media(min-width: 993px) and (max-width: 1575px){
+	#comprarCarrosselBtn, .comprar-btn{
+		padding: 0 0 0 6px;
+	}
+}
+
+@media(min-width: 1025px){	
+	.button-topico{
+		margin-top:3px;
+		border: solid 1px rgba(var(--aside-navegar-rgb), 0.3);
+	}
+}
+/**DESKTOP-FIM**/

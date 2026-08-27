@@ -1,0 +1,12 @@
+{
+  "title": "Regula 30 / 30 / 40",
+  "subtitle": "Înțelegerea motivului pentru care nu crești în elo nu este din cauza trollilor și AFK-urilor, ci din cauza ta:",
+  "desc_losses": "<span class=\"destaque\">- 30% Înfrângeri Garantate (Meciuri \"Imposibil de Câștigat\"):</span> <br>Acestea sunt meciurile în care coechipierul tău decide să dea ragequit, să facă troll sau, pur și simplu, toate celelalte linii sunt distruse. Matematic, chiar dacă joci cât poți tu de bine, greutatea celorlalți 4 jucători depășește capacitatea ta de a da carry.",
+  "desc_wins": "<span class=\"destaque\">- 30% Victorii Garantate (Meciuri în care ești \"Carried\"):</span> <br>Sunt jocurile în care top laner-ul tău are 10/0 în cinci minute, jungler-ul controlează toate obiectivele, iar echipa adversă începe să se certe pe chat-ul general. Ai putea să joci prost sau chiar să stai AFK în bază, iar echipa ta tot ar câștiga 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% din Meciuri care Depind de Tine (Aici ar trebui să-ți concentrezi energia):</span> <br>Sunt meciuri echilibrate în care ambele echipe au o șansă reală de câștig. Rezultatul final va fi decis de un singur detaliu: poziționarea ta într-un teamfight, rotația ta, controlul viziunii sau luarea deciziilor în late game.",
+  "conclusion": "Greșeala pe care o fac majoritatea oamenilor este că joacă serios (tryhard), intră într-o serie de înfrângeri și se tiltează din această cauză, iar apoi dau meci după meci din impuls, pierzând jocuri care de fapt depindeau de ei pentru că sunt tiltați.",
+  "btn_next": "PASUL URMĂTOR",
+  "label_losses": "Imposibile",
+  "label_impact": "Depind de tine",
+  "label_wins": "Purtate"
+}

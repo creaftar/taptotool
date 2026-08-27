@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Word Search Online",
+    "description": "Play free word search puzzles or create your own games! Share them with friends and challenge the community...",
+    "keywords": "online word search, create word search online, custom word find puzzles, free word search, word search maker, how to make a word search, word search for kids, educational puzzles, school puzzles, word find generator, play word search online, hidden words game"
+  },
+  "schema": {
+    "app_name": "Make Online Word Searches",
+    "app_description": "Explore Tap to Tool and play online word searches! Create, edit, and play custom word searches.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online Word Searches",
+    "alternateName": "Creaftar Word Search",
+    "description": "Free tool to create, edit, and play online word searches on Tap to Tool.",
+    "price_currency": "USD"
+  },
+  "ui": {
+    "search_placeholder": "Search word searches",
+    "search_aria": "Search word search"
+  },
+  "pesquisa": {
+    "search_crossword": "Search word searches..."
+  },
+  "index": {
+    "login_prompt": "Sign in to create word searches!",
+    "logged_prompt": "Your word searches:",
+    "words_found": "words found",
+    "horizontals": "Horizontal / Vertical",
+    "verticals": "Diagonal / Reverse",
+    "crossword_by": "Word search by ",
+    "aria": {
+      "play_button": "Button to play the word search",
+      "options_button": "Button for more word search options",
+      "copy_link": "Button to copy the word search link",
+      "edit_button": "Button to edit the word search",
+      "delete_button": "Button to delete the word search"
+    },
+    "time": {
+      "second": "second ago", "seconds": "seconds ago",
+      "minute": "minute ago", "minutes": "minutes ago",
+      "hour": "hour ago", "hours": "hours ago",
+      "day": "day ago", "days": "days ago",
+      "month": "month ago", "meses": "months ago",
+      "year": "year ago", "years": "years ago"
+    },
+    "js_messages": {
+      "js_create_title": "CREATE WORD SEARCH",
+      "js_create_desc": "Create or generate a new word search puzzle",
+      "js_create_link": "Create word search",
+      "js_create_aria": "Click to create or generate word searches"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Main Game Cari Kata Online Gratis - Tap to Tool",
+    "description": "Tantang pikiran Anda dan tingkatkan fokus visual dengan game cari kata eksklusif di Tap to Tool. Temukan kata-kata tersembunyi dan nikmati permainan terbaik buatan komunitas!",
+    "keywords": "main cari kata, game cari kata online, temukan kata, permainan kata tersembunyi, asah otak, cari kata gratis, permainan ketangkasan mental"
+  },
+  "schema": {
+    "game_name": "Mainkan Cari Kata Online",
+    "description": "Mainkan game cari kata online kustom ini di Tap to Tool. Gratis dan interaktif!",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Mainkan Cari Kata",
+    "alternateName": "Creaftar Game Cari Kata",
+    "price_currency": "IDR"
+  },
+  "ui": {
+    "hide": "SEMBUNYIKAN",
+    "hide_timer": "SEMBUNYIKAN TIMER",
+    "show_answers": "TAMPILKAN KATA",
+    "hints_prefix": "ANDA PUNYA",
+    "hints_suffix": "PETUNJUK",
+    "stats_title": "Statistik Anda",
+    "total_time": "Waktu total",
+    "chars_typed": "Kata ditemukan",
+    "hits": "Benar",
+    "errors": "Salah",
+    "share": "Bagikan",
+    "copy": "SALIN",
+    "back_home": "BERANDA",
+    "add_zoom": "PERBESAR",
+    "remove_zoom": "PERKECIL",
+    "print": "CETAK GRID",
+    "completed_msg_prefix": "Anda telah menguasai dan menyelesaikan",
+    "completed_msg_suffix": "game cari kata!",
+    "other_crosswords": "Rekomendasi Game Cari Kata Lainnya"
+  },
+  "index": {
+    "horizontals": "KATA",
+    "verticals": "DAFTAR KATA",
+    "crossword_by": "Cari kata oleh "
+  },
+  "play": {
+    "challenge_prefix": "Latih otak Anda! Mainkan game cari kata ",
+    "challenge_suffix": " sekarang dan uji kecepatan visual Anda. Cobalah temukan kata tersembunyi seperti: ",
+    "challenge_footer": ", dan banyak lagi. Apakah Anda siap menghadapi tantangan ini?",
+    "kw_cruzadinha": "cari kata tentang ",
+    "kw_jogo": "game mencari kata tentang "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Cari Kata Harian",
+    "next_crossword": "Game cari kata harian berikutnya dalam:",
+    "curiosidade": "; Temukan istilah tersembunyi seperti: ",
+    "CTA": ", dan banyak lagi. Apakah penglihatan Anda cukup cepat?",
+    "seo": {
+      "title": "Cari Kata Harian - Tantangan Otak Hari Ini - Tap to Tool",
+      "description": "Pecahkan tantangan utama hari ini! Game cari kata baru dan gratis setiap hari untuk menguji fokus, memperluas kosakata, dan melatih otak Anda di Tap to Tool.",
+      "keywords": "cari kata harian, game hari ini, tantangan visual harian, mencari kata online, permainan asah otak gratis"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Cari Kata Harian",
+      "description": "Papan permainan cari kata baru untuk diselesaikan setiap hari. Tantang persepsi visual Anda setiap hari dengan tema-tema unik!"
+    },
+    "content": {
+      "h1": "Cari Kata Harian",
+      "subtitle": "Dosis latihan mental baru setiap 24 jam. Bisakah kamu menemukan semua kata hari ini?",
+      "timer_label": "Waktu pencarian:",
+      "next_in": "Papan berikutnya dalam:"
+    },
+    "ui": {
+      "start_button": "MULAI TANTANGAN HARIAN",
+      "check_word": "PERIKSA PILIHAN",
+      "reveal_letter": "BUKA SATU HURUF",
+      "hints_remaining": "SISA PETUNJUK:",
+      "stats_btn": "LIHAT HASIL SAYA",
+      "share_result": "BAGIKAN HASIL",
+      "calendar_view": "LIHAT PERMAINAN SEBELUMNYA",
+      "loading": "MENYIAPKAN PAPAN HARI INI..."
+    },
+    "feedback": {
+      "win_title": "Luar Biasa! Mata Elang!",
+      "win_msg": "Kamu berhasil menemukan semua kata tersembunyi hari ini dalam waktu ",
+      "win_footer": "Otakmu berterima kasih! Kembali lagi besok untuk papan permainan baru.",
+      "error_msg": "Beberapa pilihan kata belum tepat atau ada kata yang terlewat. Ayo cari lagi!"
+    },
+    "social": {
+      "share_text": "Saya menemukan semua kata di Cari Kata Harian Tap to Tool hanya dalam waktu {time}! Taruhan kamu tidak bisa mengalahkan rekor saya!"
+    }
+  }
+}

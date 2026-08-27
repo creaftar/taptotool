@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Jak Postupovat v Rangu v League of Legends",
+    "description": "Už tě nebaví trollové, AFK a smurfové? Nauč se, jak skutečně stoupat v rangu díky tomuto stručnému průvodci.",
+    "keywords": "elo, league of legends, gold lol, jak postupovat v lol, jak zvednout elo, jak se dostat ze stribra, jak se dostat z zlata, jak se dostat z zeleza, jak se dostat z bronzu, jak se dostat z platiny, jak se dostat z diamantu, jak se dostat z mastera, rank 1 pruvodce"
+  },
+  "schema": {
+    "app_name": "EloBetter - LoL Rangový Průvodce",
+    "app_description": "Nauč se, jak postupovat v rangu v League of Legends pomocí strategií zaměřených na mentalitu, šampióny a kvalitu hry.",
+    "breadcrumb_home": "Domů",
+    "breadcrumb_current": "Průvodce EloBetter"
+  },
+  "ui": {
+    "price_currency": "CZK"
+  }
+}

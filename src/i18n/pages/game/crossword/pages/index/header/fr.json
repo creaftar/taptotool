@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Mots croisés",
+    "results_found": "grilles trouvées",
+    "no_results": "Aucune grille trouvée"
+  },
+  "daily": {
+    "banner": "Jouer aux mots croisés quotidiens",
+    "title": "Mots Croisés Quotidiens",
+    "next": "Nouveaux mots croisés dans :"
+  }
+}

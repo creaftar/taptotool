@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Wortsuchrätsel Online Kostenlos Spielen - Tap to Tool",
+    "description": "Fordern Sie Ihren Verstand heraus und verbessern Sie Ihren visuellen Fokus mit diesem exklusiven Wortsuchrätsel auf Tap to Tool. Finden Sie versteckte Wörter und genießen Sie die besten Spiele der Community!",
+    "keywords": "Wortsuchrätsel spielen, online Wortsuche, Wörter finden, Buchstabensalat, Gehirntraining, kostenlose Wortsuche, Suchspiel online"
+  },
+  "schema": {
+    "game_name": "Online-Wortsuchrätsel spielen",
+    "description": "Spielen Sie dieses benutzerdefinierte Wortsuchrätsel online auf Tap to Tool. Kostenlos und interaktiv!",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Wortsuchrätsel spielen",
+    "alternateName": "Creaftar Wortsuchrätsel Spiel",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "AUSBLENDEN",
+    "hide_timer": "TIMER AUSBLENDEN",
+    "show_answers": "WÖRTER ANZEIGEN",
+    "hints_prefix": "DU HAST",
+    "hints_suffix": "HINWEISE",
+    "stats_title": "Ihre Statistiken",
+    "total_time": "Gesamtzeit",
+    "chars_typed": "Gefundene Wörter",
+    "hits": "Treffer",
+    "errors": "Fehler",
+    "share": "Teilen",
+    "copy": "KOPIEREN",
+    "back_home": "STARTSEITE",
+    "add_zoom": "VERGRÖSSERN",
+    "remove_zoom": "VERKLEINERN",
+    "print": "GRID DRUCKEN",
+    "completed_msg_prefix": "Du hast bereits",
+    "completed_msg_suffix": "Wortsuchrätsel gemeistert!",
+    "other_crosswords": "Andere empfohlene Wortsuchrätsel"
+  },
+  "index": {
+    "horizontals": "WÖRTER",
+    "verticals": "WORTLISTE",
+    "crossword_by": "Wortsuchrätsel von "
+  },
+  "play": {
+    "challenge_prefix": "Trainiere dein Gehirn! Spiele jetzt das Wortsuchrätsel ",
+    "challenge_suffix": " und teste deine visuelle Schnelligkeit. Versuche versteckte Wörter zu finden wie: ",
+    "challenge_footer": ", und vieles mehr. Bist du bereit für die Herausforderung?",
+    "kw_cruzadinha": "Wortsuchrätsel über ",
+    "kw_jogo": "Wortsuchspiel über "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Tägliches Wortsuchrätsel",
+    "next_crossword": "Nächstes tägliches Suchrätsel in:",
+    "curiosidade": "; Finde versteckte Begriffe wie: ",
+    "CTA": ", und vieles mehr. Ist deine Sehkraft schnell genug?",
+    "seo": {
+      "title": "Tägliches Wortsuchrätsel - Die heutige mentale Herausforderung - Tap to Tool",
+      "description": "Löse die ultimative Herausforderung von heute! Jeden Tag ein neues, kostenloses Wortsuchrätsel, um deinen Fokus zu testen, deinen Wortschatz zu erweitern und dein Gehirn auf Tap to Tool zu trainieren.",
+      "keywords": "tägliches wortsuchrätsel, rätsel des tages, tägliche visuelle herausforderung, wortsuche online, kostenloser zeitreibe"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Tägliches Wortsuchrätsel",
+      "description": "Jeden Tag ein brandneues Wortsuchrätsel zum Lösen. Fordere deine visuelle Wahrnehmung täglich mit neuen Themen heraus!"
+    },
+    "content": {
+      "h1": "Tägliches Wortsuchrätsel",
+      "subtitle": "Alle 24 Stunden eine neue Dosis Gehirntraining. Kannst du alle heutigen Wörter finden?",
+      "timer_label": "Suchzeit:",
+      "next_in": "Nächstes Rätsel in:"
+    },
+    "ui": {
+      "start_button": "TÄGLICHE HERAUSFORDERUNG STARTEN",
+      "check_word": "AUSWAHL PRÜFEN",
+      "reveal_letter": "BUCHSTABEN AUFDECKEN",
+      "hints_remaining": "VERBLEIBENDE HINWEISE:",
+      "stats_btn": "MEINE STATISTIKEN",
+      "share_result": "ERGEBNIS TEILEN",
+      "calendar_view": "FRÜHERE RÄTSEL ANSEHEN",
+      "loading": "DAS SUCHRÄTSEL DES TAGES WIRD GELADEN..."
+    },
+    "feedback": {
+      "win_title": "Unglaublich! Adleraugen!",
+      "win_msg": "Du hast alle versteckten Wörter von heute gefunden in ",
+      "win_footer": "Dein Gehirn dankt dir! Komm morgen für ein neues Rätsel wieder.",
+      "error_msg": "Einige Auswahlen sind noch nicht korrekt oder es fehlen Wörter. Suche weiter!"
+    },
+    "social": {
+      "share_text": "Ich habe alle Wörter im Täglichen Wortsuchrätsel von Tap to Tool in nur {time} gefunden! Wetten, du bist nicht schneller?"
+    }
+  }
+}

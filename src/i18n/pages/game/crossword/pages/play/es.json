@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Jugar Crucigrama Online - Tap to Tool",
+    "description": "Desafía tu mente con este crucigrama personalizado en Tap to Tool. Resuelve acertijos, encuentra palabras y diviértete con juegos creados por la comunidad.",
+    "keywords": "jugar crucigrama, crucigramas online, resolver crucigrama, juego de palabras, pasatiempos online, crucigrama gratis"
+  },
+  "schema": {
+    "game_name": "Jugar Crucigrama en Línea",
+    "description": "¡Juega este crucigrama personalizado en línea en Tap to Tool. ¡Gratis e interactivo!",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Jugar Crucigrama",
+    "alternateName": "Creaftar Juego de Crucigrama",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "OCULTAR",
+    "hide_timer": "OCULTAR CRONÓMETRO",
+    "show_answers": "MOSTRAR RESPUESTAS",
+    "hints_prefix": "TIENES",
+    "hints_suffix": "PISTAS",
+    "stats_title": "Estadísticas",
+    "total_time": "Tiempo total",
+    "chars_typed": "Caracteres escritos",
+    "hits": "Aciertos",
+    "errors": "Errores",
+    "share": "Compartir",
+    "copy": "COPIAR",
+    "back_home": "INICIO",
+    "add_zoom": "AUMENTAR ZOOM",
+    "remove_zoom": "REDUCIR ZOOM",
+    "print": "IMPRIMIR",
+    "completed_msg_prefix": "¡Has completado",
+    "completed_msg_suffix": "crucigramas!",
+    "other_crosswords": "Otros crucigramas"
+  },
+  "index": {
+    "horizontals": "HORIZONTAL",
+    "verticals": "VERTICAL",
+    "crossword_by": "Crucigrama de "
+  },
+  "play": {
+    "challenge_prefix": "¡Acepta el desafío! Juega ahora al crucigrama ",
+    "challenge_suffix": ". Intenta resolverlo con pistas intrigantes como: ",
+    "challenge_footer": ", y mucho más. ¿Estás preparado?",
+    "kw_cruzadinha": "crucigrama de ",
+    "kw_jogo": "juego de "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Crucigrama Diario",
+    "next_crossword": "Próximo crucigrama diario en:",
+    "curiosidade": "; Resuelve pistas como: ",
+    "CTA": ", y mucho más. ¿Serás capaz?",
+    "seo": {
+      "title": "Crucigrama Diario - El Desafío de Hoy - Tap to Tool",
+      "description": "¡Resuelve el desafío de hoy! Un nuevo crucigrama gratuito cada día para poner a prueba tus conocimientos y entrenar tu mente en Tap to Tool.",
+      "keywords": "crucigrama diario, crucigrama de hoy, desafío diario, juego de palabras online, pasatiempo diario gratuito"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Crucigrama Diario",
+      "description": "Un nuevo enigma de crucigramas para resolver todos los días. ¡Desafíate con nuevas pistas diariamente!"
+    },
+    "content": {
+      "h1": "Crucigrama Diario",
+      "subtitle": "Un nuevo desafío cada 24 horas. ¿Podrás resolver el de hoy?",
+      "timer_label": "Tiempo del desafío:",
+      "next_in": "Próximo desafío en:"
+    },
+    "ui": {
+      "start_button": "COMENZAR DESAFÍO",
+      "check_word": "COMPROBAR PALABRA",
+      "reveal_letter": "REVELAR LETRA",
+      "hints_remaining": "PISTAS RESTANTES:",
+      "stats_btn": "VER MI RENDIMIENTO",
+      "share_result": "COMPARTIR RESULTADO",
+      "calendar_view": "VER DESAFÍOS ANTERIORES",
+      "loading": "PREPARANDO EL DESAFÍO DEL DÍA..."
+    },
+    "feedback": {
+      "win_title": "¡Felicidades! ¡Desafío Completado!",
+      "win_msg": "Has resuelto el crucigrama de hoy en ",
+      "win_footer": "¡Vuelve mañana para un nuevo enigma!",
+      "error_msg": "Algunas letras aún no son correctas. ¡Sigue intentándolo!"
+    },
+    "social": {
+      "share_text": "¡He resuelto el Crucigrama Diario de Tap to Tool en solo {time}! ¿Puedes superar mi tiempo?"
+    }
+  }
+}

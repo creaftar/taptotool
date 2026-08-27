@@ -1,0 +1,114 @@
+---
+import EloBetter from "@/layout/EloBetter.astro";
+import "@/assets/styles/pages/guide/elobetter/pages/legal/legal.css"
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } }, // Rota padrão (ex: home sem subpasta)
+    { params: { lang: 'en-gb' } }, // Europa Ocidental - Inglês (EUW)
+    { params: { lang: 'en-au' } }, // Oceania (OCE)
+    { params: { lang: 'pt-br' } }, // Brasil (BR)
+    { params: { lang: 'es-mx' } }, // América Latina (LAN / LAS)
+    { params: { lang: 'es-es' } }, // Europa Ocidental - Espanhol (EUW)
+    { params: { lang: 'ko-kr' } }, // Coreia do Sul (KR)
+    { params: { lang: 'ja-jp' } }, // Japão (JP)
+    { params: { lang: 'tr-tr' } }, // Turquia (TR)
+    { params: { lang: 'vi-vn' } }, // Vietnã (VN)
+    { params: { lang: 'de-de' } }, // Alemanha / Alemão
+    { params: { lang: 'fr-fr' } }, // França / Francês
+    { params: { lang: 'it-it' } }, // Itália / Italiano
+    { params: { lang: 'pl-pl' } }, // Polônia / Polonês
+    { params: { lang: 'el-gr' } }, // Grécia / Grego
+    { params: { lang: 'ro-ro' } }, // Romênia / Romeno
+    { params: { lang: 'hu-hu' } }, // Hungria / Húngaro
+    { params: { lang: 'cs-cz' } }, // República Checa / Checo
+    { params: { lang: 'ru-ru' } }, // Rússia / Russo
+    { params: { lang: 'en-sg' } }, // Singapura - Inglês (SG)
+    { params: { lang: 'en-ph' } }, // Filipinas - Inglês (PH)
+    { params: { lang: 'th-th' } }, // Tailândia / Tailandês
+    { params: { lang: 'zh-tw' } }, // Taiwan / Chinês Tradicional
+    { params: { lang: 'ar-ae' } }, // Emirados Árabes Unidos / Árabe
+  ];
+}
+
+// Imports dos arquivos de tradução JSON
+import en_us from "@/i18n/pages/guide/elobetter/pages/terms/en-us.json";
+import en_gb from "@/i18n/pages/guide/elobetter/pages/terms/en-gb.json";
+import en_au from "@/i18n/pages/guide/elobetter/pages/terms/en-au.json";
+import pt_br from "@/i18n/pages/guide/elobetter/pages/terms/pt-br.json";
+import es_mx from "@/i18n/pages/guide/elobetter/pages/terms/es-mx.json";
+import es_es from "@/i18n/pages/guide/elobetter/pages/terms/es-es.json";
+import ko_kr from "@/i18n/pages/guide/elobetter/pages/terms/ko-kr.json";
+import ja_jp from "@/i18n/pages/guide/elobetter/pages/terms/ja-jp.json";
+import tr_tr from "@/i18n/pages/guide/elobetter/pages/terms/tr-tr.json";
+import vi_vn from "@/i18n/pages/guide/elobetter/pages/terms/vi-vn.json";
+import de_de from "@/i18n/pages/guide/elobetter/pages/terms/de-de.json";
+import fr_fr from "@/i18n/pages/guide/elobetter/pages/terms/fr-fr.json";
+import it_it from "@/i18n/pages/guide/elobetter/pages/terms/it-it.json";
+import pl_pl from "@/i18n/pages/guide/elobetter/pages/terms/pl-pl.json";
+import el_gr from "@/i18n/pages/guide/elobetter/pages/terms/el-gr.json";
+import ro_ro from "@/i18n/pages/guide/elobetter/pages/terms/ro-ro.json";
+import hu_hu from "@/i18n/pages/guide/elobetter/pages/terms/hu-hu.json";
+import cs_cz from "@/i18n/pages/guide/elobetter/pages/terms/cs-cz.json";
+import ru_ru from "@/i18n/pages/guide/elobetter/pages/terms/ru-ru.json";
+import en_sg from "@/i18n/pages/guide/elobetter/pages/terms/en-sg.json";
+import en_ph from "@/i18n/pages/guide/elobetter/pages/terms/en-ph.json";
+import th_th from "@/i18n/pages/guide/elobetter/pages/terms/th-th.json";
+import zh_tw from "@/i18n/pages/guide/elobetter/pages/terms/zh-tw.json";
+import ar_ae from "@/i18n/pages/guide/elobetter/pages/terms/ar-ae.json";
+
+// Mapeamento dos objetos importados (usando hífens para bater com a URL)
+const locales = {
+  "en-us": en_us, "en-gb": en_gb, "en-au": en_au, "pt-br": pt_br,
+  "es-mx": es_mx, "es-es": es_es, "ko-kr": ko_kr, "ja-jp": ja_jp,
+  "tr-tr": tr_tr, "vi-vn": vi_vn, "de-de": de_de, "fr-fr": fr_fr,
+  "it-it": it_it, "pl-pl": pl_pl, "el-gr": el_gr, "ro-ro": ro_ro,
+  "hu-hu": hu_hu, "cs-cz": cs_cz, "ru-ru": ru_ru, "en-sg": en_sg,
+  "en-ph": en_ph, "th-th": th_th, "zh-tw": zh_tw, "ar-ae": ar_ae
+};
+
+// Captura e definição da linguagem atual
+const { lang: paramLang } = Astro.params;
+const lang = paramLang || Astro.currentLocale || 'en-us';
+
+// Fallback seguro caso a linguagem não exista no objeto de locales
+const t = locales[lang as keyof typeof locales] || locales["en-us"];
+---
+
+<EloBetter
+  title={t.meta_title || "EloBetter - Termos de Uso"}
+  description={t.meta_description || "Leia os Termos de Uso do EloBetter..."}
+  keywords={t.meta_keywords || "termos de uso elobetter, regulamento elobetter..."}
+  lang={lang}
+>
+  <section>
+    <h1>{t.title || "Termos de Uso"}</h1>
+
+    <p>{t.p1}</p>
+
+    <h2>{t.h2_license || "1. Licença de Uso e Compartilhamento"}</h2>
+    <p>{t.p2}</p>
+    <ul>
+        <li><strong>{t.li_sharing_title || "Divulgação incentivada:"}</strong> {t.li_sharing_text}</li>
+        <li><strong>{t.li_plagiarism_title || "Plágio proibido:"}</strong> {t.li_plagiarism_text}</li>
+        <li><strong>{t.li_commercial_title || "Uso comercial restrito:"}</strong> {t.li_commercial_text}</li>
+    </ul>
+
+    <h2>{t.h2_disclaimer || "2. Isenção de Responsabilidade"}</h2>
+    <p>{t.p3}</p>
+    <p>{t.p4}</p>
+
+    <h2>{t.h2_limitation || "3. Limitação de Responsabilidade"}</h2>
+    <p>{t.p5}</p>
+
+    <h2>{t.h2_links || "4. Link e Vinculação Externa"}</h2>
+    <p>{t.p6}</p>
+
+    <h2>{t.h2_modifications || "5. Modificação do Termo"}</h2>
+    <p>{t.p7}</p>
+    <hr>
+    <p>
+      <strong>{t.last_update || "Última atualização:"}</strong> {t.date || "5 de Julho de 2026."}
+    </p>
+  </section>
+</EloBetter>

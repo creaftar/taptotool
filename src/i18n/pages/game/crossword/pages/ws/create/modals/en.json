@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "YOUR WORD SEARCH TITLE:",
+    "placeholder": "Word Search Puzzle",
+    "hints_question": "DO YOU WANT TO ENABLE CLUES FOR YOUR PUZZLE?",
+    "hints_obs": "(You can change this option later at any time)",
+    "hints_yes": "Yes, I want to enable clues for my puzzle",
+    "hints_no": "Do not enable clues for my puzzle",
+    "answer_key_question": "DO YOU WANT TO CREATE AN ANSWER KEY?",
+    "answer_key_obs": "(The answer key allows players to see the answers – you can change this later)",
+    "answer_key_yes": "Yes, I want to create an answer key for my puzzle",
+    "answer_key_no": "Do not create an answer key",
+    "share_question": "WOULD YOU LIKE TO SHARE YOUR PUZZLE ON OUR SOCIAL NETWORKS?",
+    "share_yes": "Yes, I want to share my puzzle on Creaftar channels",
+    "share_no": "Do not share my puzzle",
+    "save_button": "SAVE",
+    "requirements_alert": "ATTENTION: Saving is only available for registered users"
+  },
+  "modal_generate": {
+    "theme_title": "PUZZLE THEME",
+    "theme_placeholder": "Word Search Puzzle",
+    "word_quantity": "Number of words",
+    "generate_button": "GENERATE"
+  },
+  "copy": {
+    "modal_preview": "PREVIEW",
+    "warning_main": "Don't worry about verticals and horizontals, just follow the expected formats below",
+    "your_text": "Your Text:",
+    "detector_stats": "{words} words / {clues} clues",
+    "placeholder": "Paste your text here!",
+    "expected_formats": "Expected Formats:",
+    "btn_generate": "MY TEXT FOLLOWS AN EXPECTED FORMAT",
+    "words_suffix": "words",
+    "clues_suffix": "clues",
+    "examples": {
+      "dog": "dog",
+      "cat": "cat",
+      "bat": "bat",
+      "elephant": "elephant",
+      "kangaroo": "kangaroo",
+      "desc_dog": "Man's best friend",
+      "desc_cat": "Likes to catch mice",
+      "desc_bat": "Mammal that flies",
+      "desc_elephant": "Has a trunk",
+      "desc_kangaroo": "Large marsupial"
+    },
+    "requirements_alert": "Oops! Looks like you didn't paste anything, copy some text and try again"
+  }
+}

@@ -122,3 +122,18 @@ nav a{
 .fa-whatsapp:before {
     content: "\f232"
 }
+.fa-x-twitter:before {
+    content: "\e61b";
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+.fa-tiktok:before {
+    content: "\e07b";
+}
+.fa-bluesky:before {
+    content: "\e671";
+}
+.fa-paper-plane:before {
+    content: "\f1d8"
+}

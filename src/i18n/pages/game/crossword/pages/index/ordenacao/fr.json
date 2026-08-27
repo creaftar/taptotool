@@ -1,0 +1,12 @@
+{
+  "sorting": {
+    "sort_by": "Trier par",
+    "display_per_page": "Par page",
+    "opt_latest": "Plus récents",
+    "opt_oldest": "Plus anciens",
+    "opt_az": "A-Z",
+    "opt_za": "Z-A",
+    "btn_prev_aria": "Page précédente",
+    "btn_next_aria": "Page suivante"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Créer des Mots Croisés en Ligne",
+    "description": "Découvrez Tap to Tool et créez vos propres mots croisés en ligne ! Concevez, modifiez et partagez vos grilles personnalisées. Relevez le défi avec vos amis et jouez aux créations de notre communauté.",
+    "keywords": "mots croisés en ligne, créer des mots croisés, mots croisés personnalisés, mots fléchés, créer une grille de mots croisés, générateur de mots croisés, mots cachés, jeux de lettres, jeux de mots en ligne, mots croisés gratuits, créer un puzzle de mots, mots croisés pour l'école, mots croisés éducatifs, remue-méninges"
+  },
+  "schema": {
+    "app_name": "Faire des Mots Croisés en Ligne",
+    "app_description": "Explorez Tap to Tool et jouez aux mots croisés en ligne ! Créez, modifiez et jouez à des mots croisés personnalisés.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Mots Croisés en Ligne",
+    "alternateName": "Creaftar Mots Croisés",
+    "description": "Outil gratuit pour créer, modifier et jouer à des mots croisés en ligne sur Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Rechercher des mots croisés",
+    "search_aria": "Rechercher des mots croisés"
+  },
+  "pesquisa": {
+    "search_crossword": "Rechercher des mots croisés..."
+  },
+  "index": {
+    "login_prompt": "Connectez-vous pour créer des mots croisés !",
+    "logged_prompt": "Vos mots croisés :",
+    "words_found": "mots trouvés",
+    "horizontals": "Horizontaux",
+    "verticals": "Verticaux",
+    "crossword_by": "Mots croisés de ",
+    "aria": {
+      "play_button": "Bouton pour jouer aux mots croisés",
+      "options_button": "Bouton pour plus d'options",
+      "copy_link": "Bouton pour copier le lien",
+      "edit_button": "Bouton pour modifier",
+      "delete_button": "Bouton pour supprimer"
+    },
+    "time": {
+      "second": "il y a une seconde", "seconds": "il y a quelques secondes",
+      "minute": "il y a une minute", "minutes": "il y a quelques minutes",
+      "hour": "il y a une heure", "hours": "il y a quelques heures",
+      "day": "il y a un jour", "days": "il y a quelques jours",
+      "month": "il y a un mois", "meses": "il y a quelques mois",
+      "year": "il y a un an", "years": "il y a quelques années"
+    },
+    "js_messages": {
+      "js_create_title": "CRÉER DES MOTS CROISÉS",
+      "js_create_desc": "Créez ou générez une nouvelle grille",
+      "js_create_link": "Créer des mots croisés",
+      "js_create_aria": "Cliquez pour créer ou générer des mots croisés"
+    }
+  }
+}

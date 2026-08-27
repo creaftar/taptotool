@@ -1,0 +1,779 @@
+/* Шаблон 3: Универсальный слайдер размером 100% x Auto (min: 240px)
+   Размер блока по ширине: 80%.
+   Для использования внутри контента.
+   
+   Подходит для использования на сайтах, использующих 
+   единую верстку для мобильных устройств и десктопов */
+
+
+/* Шаблоны не работают в браузерах IE 11 версии и ниже */
+
+/* РМП — Реклама Мобильных Приложений */
+
+
+/* -------- Переменные цветов -------- */
+/* изменив значение цвета тут — изменится во всех элементах шаблона */
+.ya-container {
+
+  --color-blue: #3377FF;
+  --color-blue-dark: #0055FF;
+
+  --color-blue-transparent: #3377FF1A;
+  --color-blue-dark-transparent: #0055FF1A;
+
+  --color-yellow: #FFCC33;
+  --color-yellow-dark: #FFBF00;
+
+  --color-black: #232526;
+  --color-grey: #575c66;
+  --color-grey-alt: #A3ACBF;
+  --color-light: #f4f4f6;
+  --color-light-alt: #ececef;
+}
+
+/* Переменные цветов для устройств с поддержкой 
+   цветового профиля Display P3 (устройства Apple) */
+
+/* Устройства Apple поддерживают цветовой профиль 
+   с более яркими цветами (цветовой профиль Display P3). 
+   Если вы хотите поддержать его, то следует поменять 
+   значения цветов в блоке ниже */
+@supports (color: color(display-p3)) {
+  .ya-container {
+    --color-blue: color(display-p3 0.2 0.47 1.0);
+    --color-blue-dark: color(display-p3 0.0 0.33 1.0);
+
+    --color-blue-transparent: color(display-p3 0.2 0.47 1.0 / 0.1);
+    --color-blue-dark-transparent: color(display-p3 0.0 0.33 1.0 / 0.1);
+
+    --color-yellow: color(display-p3 1.0 0.8 0.2);
+    --color-yellow-dark: color(display-p3 1.0 0.75 0.0);
+  }
+}
+
+
+
+/* -------- Переменные для отрисовки объявления -------- */
+
+.ya-container {
+
+  /* Адаптивность объявления по ширине.
+     Укажите значение none, чтобы зафиксировать размер объявления.
+     Укажите auto, чтобы объявление занимало всю доступную ширину */
+  --banner-flex: none;
+
+  /* Фиксированная ширина объявления.
+     Работает при --banner-flex: none */
+  --banner-width: 80%;
+
+  /* Минимальная и максимальная ширина объявления.
+     Работает при --banner-flex: auto */
+  --banner-min-width: 200px;
+  --banner-max-width: 320px;
+
+  /* Минимальная и максимальная высота объявления.
+     Объявление будет растягиваться по высоте 
+     в зависимости от количества контента */
+  --banner-min-height: 240px;
+  --banner-max-height: none;
+
+
+  /* Отображение фавиконки: 
+     вкл - block, выкл - none; */
+  --display-favicon: block;
+  /* Отображение изображения: 
+     вкл - block, выкл - none; */
+  --display-image: block;
+  /* Отображение текста: 
+     вкл - block, выкл - none; */
+  --display-desc: inline;
+  /* Отображение цен: 
+     вкл - inline, выкл - none */
+  --display-price: inline;
+  /* Отображение количества отзывов (для РМП): 
+     вкл - inline, выкл - none */
+  --display-rmp-rating-count: inline;
+
+
+  /* Максимальная ширина картинки */
+  --image-max-width: 100%;
+
+  /* Высота картинки */
+  --image-height: 160px;
+
+  /* Размер иконки приложения.
+     Только для рекламы мобильных приложений */
+  --app-icon-size: 48px;
+
+  /* Горизонтальное позиционирование сетки баннеров
+     center - по середине, flex-start - слева,
+     space-between - по всей ширине, space-around - по всей ширине с отступами
+     Подробнее: https://developer.mozilla.org/ru/docs/Web/CSS/justify-content */
+  --banners-justify-content: center;
+
+  /* Отступы вокруг объявления */
+  --banner-margin: 5px;
+  
+  /* Отступы первых и последних объявлений от края 
+     по горизонтали и вертикали. Значение var(--banner-margin) 
+     повторяет общее значение отступов. 
+     ! Неприменимо для одиночных объявлений */
+  --banners-grid-first-item-top-margin: 0;
+  --banners-grid-first-item-left-margin: 4px;
+  --banners-grid-first-item-right-margin: 4px;
+  --banners-grid-first-item-bottom-margin: 0;
+
+  /* Цвет фона объявления. Пример: white или #f0f2f8;
+     Допустимо использование переменных. См. начало документа */
+  --banner-background: var(--color-light);
+  /* Цвет фона при наведении на объявление */
+  --banner-background-hover: var(--color-light-alt);
+
+  /* Обводка объявления. Для отключения укажите значение none
+     Пример: solid 1px rgba(0 0 0 / 15%);
+     Подробнее: https://developer.mozilla.org/ru/docs/Web/CSS/border */
+  --banner-stroke: none;
+  
+  /* Тень объявления. Пример: 0px 8px 24px rgba(0, 21, 64, 0.125);
+     Подробнее: https://developer.mozilla.org/ru/docs/Web/CSS/box-shadow */
+  --banner-shadow: none;
+  /* Тень объявления при наведении */
+  --banner-shadow-hover: none;
+  /* Трансформация объявления при наведении. Пример: translateY(-2px); */
+  --banner-transform-hover: none;
+  /* Анимация изменений при наведении */
+  --banner-transition: box-shadow 120ms ease, transform 120ms ease;
+
+  /* Скругление углов объявления */
+  --banner-outer-border-radius: 8px;
+  /* Скругление углов внутренних элементов объявления (картинка, кнопки) */
+  --banner-inner-border-radius: 8px;
+  
+  /* Отступы элементов от краев объявления */
+  --banner-padding-outer: 10px;
+  /* Отступы между элементами объявления */
+  --banner-padding-inner: 10px;
+
+
+  /* Цвет заголовка в объявлении */
+  --color-text-header: var(--color-black); 
+  /* Цвет текста в объявлении */
+  --color-text-desc: var(--color-grey-alt);
+  /* Цвет цены в объявлении */
+  --color-text-price: var(--color-black);
+  /* Цвет ссылки в объявлении */
+  --color-text-domain: var(--color-blue);
+  /* Цвет ссылки в объявлении при наведении */
+  --color-text-domain-hover: var(--color-blue-dark);
+  /* Фон кнопки действия. Не применимо, если кнопка 
+     не предусмотрена в шаблоне (для форматов маленького размера) */
+  --color-background-domain: var(--color-blue-transparent);
+  /* Фон кнопки действия при наведении */
+  --color-background-domain-hover: var(--color-blue-dark-transparent);
+
+  /* Цвет названия приложения в объявления (для РМП) */
+  --color-text-app-name: var(--color-grey-alt);
+
+
+  /* Цепочка используемых шрифтов в объявлении. По умолчанию указана 
+     цепочка системных шрифтов. Если шрифт не поддерживается, используется 
+     следующий по цепочке. При использовании собственного шрифта, 
+     следует указывать его название в самом начале */
+  --font-family: 
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, 
+    Apple Color Emoji, Segoe UI Emoji;
+
+  /* Размер шрифта и межстрочное расстояние для коротких заголовков
+     (до 21 символа) */
+  --font-size-title-short: 24px;
+  --line-height-title-short: calc(1em + 0px);
+
+  /* Размер шрифта и межстрочное расстояние для заголовков средней длины 
+     (от 22 до 31 символа) */
+  --font-size-title-mid: 20px;
+  --line-height-title-mid: calc(1em + 2px);
+
+  /* Размер шрифта и межстрочное расстояние для длинных заголовков 
+     (от 32 символов) */
+  --font-size-title-long: 20px;
+  --line-height-title-long: calc(1em + 2px);
+
+  /* Размер шрифта и межстрочное расстояние для заголовков РМП */
+  --font-size-title-rmp: 20px;
+  --line-height-title-rmp: calc(1em + 2px);
+
+  /* Размер шрифта и межстрочное расстояние для цен */
+  --font-size-price: 16px;
+  --line-height-price: calc(1em + 4px);
+
+  /* Размер шрифта и межстрочное расстояние для текста объявления */
+  --font-size-desc: 15px;
+  --line-height-desc: calc(1em + 3px);
+
+  /* Размер шрифта и межстрочное расстояние для ссылки */
+  --font-size-domain: 15px;
+  --line-height-domain: 18px;
+
+  /* Размер шрифта и межстрочное расстояние для названия приложения 
+     (для РМП) */
+  --font-size-app-name: 14px;
+  --line-height-app-name: calc(1em + 2px);
+
+
+  
+
+  width: 100%;
+  margin: 0 auto;
+
+  height: auto;
+  padding: 0;
+  overflow: visible;
+}
+
+/* Специальные переменные для Рекламы Мобильных Приложений */
+.ya-unit-item-rmp {
+  /* Цвет текста ссылки */
+  --color-text-domain: var(--color-blue);
+  /* Цвет текста ссылки при наведении */
+  --color-text-domain-hover: var(--color-blue-dark);
+  /* Цвет фона кнопки объявления.
+     Не применимо если, кнопки не предусмотрено (для маленьких форматов) */
+  --color-background-domain: var(--color-blue-transparent);
+  /* Цвет фона кнопки объявления при наведении */
+  --color-background-domain-hover: var(--color-blue-dark-transparent);
+}
+
+/* Специальные значения для размеров экрана шире 400px */
+@media screen and (min-width: 400px) {
+
+  .ya-container {
+    --image-height: 200px;
+
+    --app-icon-size: 64px;
+
+    --font-size-title: 18px;
+    --line-height-title: calc(1em + 2px);
+
+    --font-size-title-short: 28px;
+    --line-height-title-short: calc(1em + 0px);
+  
+    --font-size-title-mid: 24px;
+    --line-height-title-mid: calc(1em + 2px);
+  
+    --font-size-title-long: 22px;
+    --line-height-title-long: calc(1em + 2px);
+
+    --font-size-price: 20px;
+    --line-height-price: calc(1em + 0px);
+
+    --font-size-desc: 16px;
+    --line-height-desc: calc(1em + 4px);
+
+    --font-size-app-name: 18px;
+    --line-height-app-name: calc(1em + 2px);
+
+    --font-size-domain: 16px;
+    --line-height-domain: 20px;
+
+    --banner-padding-outer: 12px;
+    --banner-padding-inner: 12px;
+  }
+}
+
+
+
+/* -------- Далее — настройка стилей объявления. -------- */
+/* -------- Не рекомендуется редактировать -------- */
+
+.ya-units-grid {
+  margin: 0px auto;
+}
+
+.grid-row {
+  justify-content: var(--banners-justify-content);
+  align-content: var(--banners-align-content);
+  padding: 0px 0;
+}
+
+.grid-item,
+.ya-slider-item {
+  width: var(--banner-width);
+  min-width: var(--banner-min-width);
+  max-width: var(--banner-max-width);
+  
+  min-height: var(--banner-min-height);
+  max-height: var(--banner-max-height);
+
+  font-family: var(--font-family);
+  background: var(--banner-background);
+  border: var(--banner-stroke);
+  margin: var(--banner-margin, inherit);
+  border-radius: var(--banner-outer-border-radius);
+  overflow: hidden;
+  box-sizing: border-box;
+  flex: var(--banner-flex);
+
+  box-shadow: var(--banner-shadow);
+  transform: none;
+  transition: var(--banner-transition);
+}
+
+.grid-item:hover,
+.ya-slider-item:hover {
+  transform: var(--banner-transform-hover);
+  box-shadow: var(--banner-shadow-hover);
+  background: var(--banner-background-hover);
+  --color-text-domain: var(--color-text-domain-hover);
+}
+
+.grid-item:first-child,
+.ya-slider-item:first-child {
+  margin-left: var(--banners-grid-first-item-left-margin);
+}
+
+.grid-item:last-child,
+.ya-slider-item:last-child {
+  margin-right: var(--banners-grid-first-item-right-margin);
+}
+
+.grid-row:first-child .grid-item {
+  margin-top: var(--banners-grid-first-item-top-margin);
+}
+
+.grid-row:last-child .grid-item {
+  margin-bottom: var(--banners-grid-first-item-bottom-margin);
+}
+
+.unit-wrapper {
+  height: 100%;
+}
+
+.ya-unit-wrapper  {
+  opacity: 0.8;
+  transition: opacity 120ms ease;
+}
+
+.ya-unit-wrapper-visible {
+  opacity: 1.0;
+}
+
+
+
+.ya-unit-favicon {
+  display: block !important;
+}
+
+a.yrw-url {
+  color: inherit;
+  cursor: pointer;
+}
+
+.unit-misc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.unit-meta {
+  position: absolute;
+  top: 10px;
+  left: var(--banner-padding-outer);
+  z-index: 2;
+  padding: 0px 4px 0px;
+  text-transform: uppercase;
+  height: 12px;
+  background: transparent;
+  color: var(--color-grey);
+  border-radius: 4px;
+  font-size: 8px;
+  line-height: 13px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  vertical-align: 5px;
+  margin: 0;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.ya-unit-item-rmp .unit-meta {
+  background: transparent;
+  /* position: relative; */
+}
+
+.unit-age::before {
+  content: " | ";
+}
+
+.unit-age:empty {
+  display: none;
+}
+
+.ya-unit-kebab_button svg circle {
+  fill: var(--color-grey);
+}
+
+.ya-unit-kebab_bg {
+  background: transparent;
+  opacity: 1.0;
+}
+
+.ya-unit-kebab_icon {
+  filter: var(--display-image, none);
+}
+
+.ya-unit-kebab_icon circle {
+  fill: var(--color-grey) !important;
+}
+
+.ya-unit-kebab_button {
+  position: absolute;
+  z-index: 940;
+  top: 4px;
+  right: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.yrw-body_warning {
+  position: relative;
+}
+
+.yrw-body_warning div {
+  padding: 0;
+}
+
+.yrw-body_warning div:not(.yrw-warning-wrapper):not(.yrw-warning-text) {
+  position: relative;
+  background-color: var(--color-light-alt);
+  color: #575c66;
+  display: flex;
+  padding: 0 calc(var(--inner-border-radius) / 2);
+}
+
+.yrw-body_warning div text {
+  fill: #575c66;
+}
+
+.yrw-body_warning div:not(.yrw-warning-wrapper) {
+  padding: 0 calc(var(--inner-border-radius) / 2 + 4px);
+}
+
+.yrw-warning-text {
+  text-shadow: none;
+}
+
+
+
+.unit-container {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  max-width: var(--max-content-width, --banner-max-width, 960px);
+  margin: auto;
+}
+
+.unit-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  height: 100%;
+  padding: 8px;
+  padding: var(--banner-padding-outer);
+  padding-top: 32px;
+}
+
+.unit-text-content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  flex: auto;
+}
+
+.rmp-app-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.rmp-text-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.unit-text-content > div {
+  margin-top: var(--banner-padding-inner);
+}
+
+.rmp-text-content > div {
+  margin-top: calc(var(--banner-padding-inner) / 2);
+}
+
+.rmp-text-content > div:first-child {
+  margin-top: 0;
+}
+
+
+
+.ya-unit-title, .unit-title {
+  color: var(--color-text-header);
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
+  font-weight: 600;
+  display: flex;
+}
+
+.title-short {
+  font-size: var(--font-size-title-short);
+  line-height: var(--line-height-title-short);
+}
+
+.title-mid {
+  font-size: var(--font-size-title-mid);
+  line-height: var(--line-height-title-mid);
+}
+
+.title-long {
+  font-size: var(--font-size-title-long);
+  line-height: var(--line-height-title-long);
+}
+
+.title-rmp {
+  font-size: var(--font-size-title-rmp);
+  line-height: var(--line-height-title-rmp);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.unit-app-name {
+  font-size: var(--font-size-app-name);
+  line-height: var(--line-height-app-name);
+  color: var(--color-text-app-name);
+}
+
+.unit-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 12px;
+
+  font-size: var(--domain-font-size);
+  line-height: var(--domain-line-height);
+  text-align: center;
+
+  color: var(--color-cta-color);
+  background-color: var(--color-background-domain);
+  border-radius: var(--banner-inner-border-radius);
+
+  margin-top: var(--banner-padding-inner);
+
+  transition: var(--cta-transition);
+}
+
+.unit-cta:hover {
+  color: var(--color-cta-hover-color);
+  background-color: var(--color-background-domain-hover);
+}
+
+.unit-favicon {
+  width: var(--line-height-domain);
+  background-color: transparent;
+  border-radius: 3px;
+  align-self: center;
+  display: var(--display-favicon, inline);
+}
+
+.ya-unit-favicon {
+  width: var(--line-height-domain);
+  height: var(--line-height-domain);
+}
+
+.ya-unit-rating {
+  margin-right: 4px;
+  height: 16px;
+  display: inline;
+}
+
+.ya-unit-review-count {
+  display: var(--display-rmp-rating-count);
+  transform: translateY(1px);
+  color: var(--color-grey-alt);
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.unit-favicon:empty,
+.ya-unit-domain:empty,
+.unit-domain:empty {
+  display: none;
+}
+
+.unit-domain {
+  display: flex;
+  margin-right: auto;
+  border-radius: 4px;
+  color: var(--color-text-domain);
+  font-size: var(--font-size-domain);
+  line-height: var(--line-height-domain);
+  
+  padding: 0;
+  width: 100%;
+  height: var(--line-height-domain, 16px);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+  overflow: hidden;
+}
+
+.unit-domain > *,
+.unit-domain .unit-domain-no-wrap > * {
+  margin-right: calc(var(--line-height-domain) / 3.5);
+}
+
+.unit-domain span {
+  flex: none;
+}
+
+.unit-domain-no-wrap {
+  display: flex;
+}
+
+
+
+.unit-app-rating {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.unit-prices {
+  display: var(--display-price, inline);
+  white-space: nowrap;
+  font-size: var(--font-size-price);
+  line-height: var(--line-height-price);
+}
+
+.ya-unit-price {
+  color: var(--color-text-price);
+  font-weight: 600;
+  display: inline;
+  white-space: nowrap;
+}
+
+.ya-unit-old-price {
+  margin-left: 8px;
+  font-size: max(0.9em, 12px);
+  line-height: max(0.9em, 12px);
+
+  color: var(--color-grey-alt);
+  position: relative;
+  white-space: nowrap;
+  display: inline;
+}
+
+.ya-unit-old-price::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><line class='line' x1='0' y1='65%' x2='100%' y2='50%' stroke='%23A3ACBF' stroke-width='8vh' /></svg>");
+  background-repeat: no-repeat;
+}
+
+.unit-desc {
+  display: var(--display-desc);
+  color: var(--color-text-desc);
+  font-size: var(--font-size-desc);
+  line-height: var(--line-height-desc);
+}
+
+
+
+.unit-image-block {
+  display: var(--display-image);
+  width: 100%;
+  max-width: var(--image-max-width, none);
+  height: var(--image-height);
+  flex: none;
+  border-radius: var(--banner-inner-border-radius);
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--color-light-alt);
+  overflow: hidden;
+}
+
+.unit-image {
+  width: 100%;
+  height: 100%;
+  display: var(--display-image);
+  position: relative;
+}
+
+.video-source-container {
+  border-radius: var(--banner-inner-border-radius, 8px);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ya-unit-app-icon {
+  position: relative;
+  border-radius: calc(var(--app-icon-size) / 4);
+  margin-right: var(--banner-padding-inner);
+  display: flex;
+}
+
+.unit-app-icon {
+  margin: auto;
+}
+
+.ya-unit-app-icon .yrw-img-component {
+  width: var(--app-icon-size);
+  height: var(--app-icon-size);
+}
+
+.ya-unit-image {
+  height: 100%;
+}
+
+.yrw-img-component {
+  height: 100%;
+  padding-bottom: 0;
+}
+
+.unit-image .img-source-component {
+  border-radius: var(--banner-inner-border-radius);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256'><rect x='80' y='80' width='96' height='96' rx='19.2' fill='%23405580' fill-opacity='0.15'/><path d='M144.619 110.181H147.619C147.619 108.524 146.276 107.181 144.619 107.181V110.181ZM111.102 147.94L146.74 112.302L142.498 108.06L106.86 143.698L111.102 147.94ZM114.072 113.181H144.619V107.181L114.072 107.181V113.181ZM141.619 110.181V140.728H147.619V110.181L141.619 110.181Z' fill='white'/></svg>");
+  background-position: center;
+}
+
+.ya-unit-app-icon .img-source-component {
+  border-radius: calc(var(--app-icon-size) / 4 - 4px);
+}
+
+.ya-clamp {
+  width: 100%;
+}
+
+.yrw-content {
+  overflow: visible;
+}
+
+.ya-grid-template:empty {
+  display: none;
+}

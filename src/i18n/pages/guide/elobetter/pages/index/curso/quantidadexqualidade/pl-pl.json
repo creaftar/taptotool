@@ -1,0 +1,25 @@
+{
+  "graph_title": "Ilość vs. Jakość",
+  "graph_subtitle": "Odkryj dokładny limit dziennych gier, aby utrzymać wysokie win rate w swoim obecnym ELO i sprawdzaj ponownie po każdym awansie",
+  "axis_y_title": "Win Rate %",
+  "game_1": "1. Gra",
+  "game_3": "3. Gra",
+  "game_5": "5. Gra",
+  "game_8": "8. Gra+",
+  "axis_x_title": "Rozegrane Gry",
+  "tier_ferro": "Iron/Bronze",
+  "tier_prata": "Silver",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Emerald",
+  "tier_diamante": "Diamond",
+  "tier_mestre": "Master+",
+  "js_default_text": "Najedź kursorem na rangę, aby zobaczyć analizę tempa gry.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Absolutna Peak Performance.</strong> Tutaj mikro-błędy kosztują całą grę. Twój szczyt formy to maksymalnie 2 mecze; od 3. gry zmęczenie decyzjami kompletnie niszczy Twoje zyski LP.",
+    "diamante": "<strong>Diamond: Konsystencja to Podstawa.</strong> Jesteś w stanie utrzymać pełny focus przez około 3 do 4 gier. Wymuszanie dłuższych sesji odpala 'autopilota' – największego zabójcę climbowania w High ELO.",
+    "esmeralda": "<strong>Plat & Emerald: ELO Mentalnego Wyniszczenia.</strong> Twoje mechaniki wytrzymają do 4. gry, ale odporność psychiczna odpada niesamowicie szybko. Szanuj swoje LP: jeśli przegrasz dwie gry z rzędu, wyłącz LoL-a.",
+    "ouro": "<strong>Gold: Średniopoziomowy Balans.</strong> Możesz wykręcić całkiem spory wolumen (do 5-6 gier), ponieważ rzucanie przewag (throwy) nie jest jeszcze natychmiastowo karane, ale pod koniec sesji Twój focus macro całkowicie znika.",
+    "prata": "<strong>Silver: Wolumen do Nauki.</strong> Zmęczenie rzadko zbija Twoje win rate, ponieważ ta ranga wymaga mniej stałego skupienia na makro. Warto spamować gry, żeby do perfekcji opanować mechaniczne podstawy.",
+    "ferro": "<strong>Iron/Bronze: Czysta Siła.</strong> Zmęczenie nie jest tutaj Twoim bottleneckiem. Zamiast przejmować się mentalem, wpisz /mute all, nabijaj doświadczenie meczowe i testuj limity swoich postaci. Śmiało możesz grindować długie sesje."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "YOUR CROSSWORD TITLE:",
+    "placeholder": "Crossword Puzzle",
+    "hints_question": "DO YOU WANT TO ENABLE CLUES FOR YOUR PUZZLE?",
+    "hints_obs": "(You can change this option later at any time)",
+    "hints_yes": "Yes, I want to enable clues for my puzzle",
+    "hints_no": "Do not enable clues for my puzzle",
+    "answer_key_question": "DO YOU WANT TO CREATE AN ANSWER KEY?",
+    "answer_key_obs": "(The answer key allows players to see the answers – you can change this later)",
+    "answer_key_yes": "Yes, I want to create an answer key for my puzzle",
+    "answer_key_no": "Do not create an answer key",
+    "share_question": "WOULD YOU LIKE TO SHARE YOUR PUZZLE ON OUR SOCIAL NETWORKS?",
+    "share_yes": "Yes, I want to share my puzzle on Creaftar channels",
+    "share_no": "Do not share my puzzle",
+    "save_button": "SAVE",
+    "requirements_alert": "ATTENTION: Saving is only available for registered users"
+  },
+  "modal_generate": {
+    "theme_title": "PUZZLE THEME",
+    "theme_placeholder": "Crossword Puzzle",
+    "word_quantity": "Number of words",
+    "generate_button": "GENERATE"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "EXAMPLE VIDEOS",
+      "create": "CREATE CROSSWORD",
+      "generate": "GENERATE CROSSWORD"
+    },
+    "page1": {
+      "title_generate": "HOW TO GENERATE A CROSSWORD",
+      "title_auto": "HOW TO CREATE A CROSSWORD",
+      "title_manual": "HOW TO CREATE A CROSSWORD",
+      "subtitle_video": "(Video)",
+      "subtitle_auto": "(Automatic - Video)",
+      "subtitle_manual": "(Manual - Video)",
+      "video_fallback": "Your browser does not support HTML5 video.",
+      "aside": {
+        "how_generate": "- GENERATE",
+        "how_create_auto": "- CREATE (automatic)",
+        "how_create_manual": "- CREATE (manual)"
+      }
+    },
+    "page2": {
+      "main_title": "HOW TO CREATE A CROSSWORD",
+      "intro_text": "In this section, we will explain how to create your own crossword from scratch (if you prefer, you can combine generation with manual creation). Use the side menu for quick navigation.",
+      "start_title": "WHERE TO START",
+      "start_text_1": "In the card below titled 'WORDS', click on the field with the description 'Example' and type your first word (don't worry, you can change it later). Press 'ENTER' on your keyboard or click the '+' button.",
+      "start_text_2": "Once done, you will notice the following appears:",
+      "start_list_1": "1. A word in squares on the screen:",
+      "start_list_1_sub": "This is the word your audience needs to guess.",
+      "start_list_2": "2. A word on the 'WORDS' card:",
+      "start_list_2_sub": "This is exclusive to you; you can change it (click on it) or delete it, which directly affects the word on the screen.",
+      "start_list_3": "3. A clue on the 'CLUES' card:",
+      "start_list_3_sub": "This is where you type the hint for your audience. Note that each clue and word is numbered. Clue: 1 - which would be 'Example', describes word 1 - Example, and so on.",
+      "before_continue": "BEFORE CONTINUING",
+      "instruction_1": "- Change the word and description by clicking on the generated texts.",
+      "instruction_2": "- Create at least 2 words.",
+      "move_title": "HOW TO MOVE WORDS",
+      "move_intro": "To move the words you've created, you need to connect them using their matching letters. You have two options for this:",
+      "move_option_1": "1. Move each word individually as you wish to place them.",
+      "move_option_2": "2. Move all words automatically so they fit together with a single click.",
+      "auto_pos_title": "AUTOMATIC POSITIONING",
+      "auto_pos_text": "To position all words automatically, click the gear icon in the menu on the right. If a word doesn't fit, try a few more times. If the error persists, check the spelling. Case is ignored, but words with and without accents are considered different.",
+      "single_move_title": "INDIVIDUAL MOVEMENT",
+      "single_move_text": "All words are initially locked, meaning you cannot move them. To change this and move each word individually:",
+      "single_move_li_1": "Click this icon to make the word movable.",
+      "single_move_li_2": "Click, hold, and drag the word within the area.",
+      "single_move_li_3": "After moving your first word, select the next one:",
+      "single_move_li_3_sub1": "Use this arrow to jump to the next word.",
+      "single_move_li_3_sub2": "Use this arrow to go back to the previous word.",
+      "direction_title": "HORIZONTAL vs VERTICAL",
+      "direction_text": "You can also toggle your word between vertical and horizontal. Click the (grid) icon, but remember to allow word editing (pencil icon) first.",
+      "aside": {
+        "create_crossword": "- CREATE CROSSWORD",
+        "where_start": "- WHERE TO START",
+        "how_move": "MOVE WORDS",
+        "auto_pos": "- AUTO POSITION",
+        "single_move": "- INDIVIDUAL MOVE",
+        "horiz_vert": "- HORIZ. vs VERT."
+      }
+    },
+    "page3": {
+      "main_title": "HOW TO GENERATE A CROSSWORD",
+      "intro_text": "This section explains how to generate a complete crossword based on a single theme (you can also combine this with manual creation). Use the side menu for quick navigation.",
+      "steps_title": "STEP BY STEP",
+      "steps_intro": "To generate a crossword about a theme, follow these steps:",
+      "step_1": "1. Click the robot icon in the menu on the right.",
+      "step_2": "2. In the window that appears, type the desired theme.",
+      "step_3": "3. Adjust the number of words using the slider or arrows.",
+      "step_4": "4. Click 'GENERATE' for our AI to create your puzzle.",
+      "recom_title": "RECOMMENDATIONS",
+      "recom_1": "- If your theme doesn't generate, refresh the page. If the error persists, try describing the theme differently (you can change the title later).",
+      "recom_2": "- Check the generated answers and clues. You can edit them anytime by clicking on them.",
+      "recom_3": "- Keep your audience and difficulty level in mind when choosing the number of words (15 to 30 words is usually ideal).",
+      "dont_title": "WHAT TO AVOID",
+      "dont_1": "- Avoid overly complex themes.",
+      "dont_2": "- Avoid themes that are too abstract.",
+      "dont_3": "- Don't give away the answer directly in the clue.",
+      "dont_4": "- Remember: You know the answers, but your audience doesn't. Create clues that are solvable.",
+      "aside": {
+        "generate_crossword": "- GENERATE CROSSWORD",
+        "step_by_step": "STEP BY STEP",
+        "step_1": "- Step 1",
+        "step_2": "- Step 2",
+        "step_3": "- Step 3",
+        "step_4": "- Step 4",
+        "recommendations": "- RECOMMENDATIONS",
+        "what_not_to_do": "- WHAT TO AVOID"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "PREVIEW",
+    "warning_main": "Don't worry about verticals and horizontals, just follow the expected formats below",
+    "your_text": "Your Text:",
+    "detector_stats": "{words} words / {clues} clues",
+    "placeholder": "Paste your text here!",
+    "expected_formats": "Expected Formats:",
+    "btn_generate": "MY TEXT FOLLOWS AN EXPECTED FORMAT",
+    "words_suffix": "words",
+    "clues_suffix": "clues",
+    "examples": {
+      "dog": "dog",
+      "cat": "cat",
+      "bat": "bat",
+      "elephant": "elephant",
+      "kangaroo": "kangaroo",
+      "desc_dog": "Man's best friend",
+      "desc_cat": "Likes to chase mice",
+      "desc_bat": "Flying mammal",
+      "desc_elephant": "Has a trunk",
+      "desc_kangaroo": "Large marsupial"
+    },
+    "requirements_alert": "Oops! It looks like you haven't pasted anything. Copy some text and try again."
+  }
+}

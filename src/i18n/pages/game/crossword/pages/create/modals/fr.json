@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "TITRE DE VOS MOTS CROISÉS :",
+    "placeholder": "Mots croisés",
+    "hints_question": "SOUHAITEZ-VOUS ACTIVER LES INDICES POUR VOTRE GRILLE ?",
+    "hints_obs": "(Vous pourrez modifier cette option plus tard à tout moment)",
+    "hints_yes": "Oui, je souhaite activer les indices pour ma grille",
+    "hints_no": "Ne pas activer les indices pour ma grille",
+    "answer_key_question": "SOUHAITEZ-VOUS CRÉER UN CORRIGÉ ?",
+    "answer_key_obs": "(Le corrigé permet aux joueurs de voir les réponses – vous pourrez changer cela plus tard)",
+    "answer_key_yes": "Oui, je souhaite créer un corrigé pour ma grille",
+    "answer_key_no": "Ne pas créer de corrigé",
+    "share_question": "SOUHAITEZ-VOUS PARTAGER VOTRE GRILLE SUR NOS RÉSEAUX SOCIAUX ?",
+    "share_yes": "Oui, je souhaite partager ma grille sur les réseaux Creaftar",
+    "share_no": "Ne pas partager ma grille",
+    "save_button": "ENREGISTRER",
+    "requirements_alert": "ATTENTION : L'enregistrement n'est disponible que pour les utilisateurs inscrits"
+  },
+  "modal_generate": {
+    "theme_title": "THÈME DE LA GRILLE",
+    "theme_placeholder": "Mots croisés",
+    "word_quantity": "Nombre de mots",
+    "generate_button": "GÉNÉRER"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "VIDÉOS D'EXEMPLE",
+      "create": "CRÉER LA GRILLE",
+      "generate": "GÉNÉRER LA GRILLE"
+    },
+    "page1": {
+      "title_generate": "COMMENT GÉNÉRER UNE GRILLE",
+      "title_auto": "COMMENT CRÉER UNE GRILLE",
+      "title_manual": "COMMENT CRÉER UNE GRILLE",
+      "subtitle_video": "(Vidéo)",
+      "subtitle_auto": "(Automatique - Vidéo)",
+      "subtitle_manual": "(Manuel - Vidéo)",
+      "video_fallback": "Votre navigateur ne supporte pas les vidéos HTML5.",
+      "aside": {
+        "how_generate": "- GÉNÉRER",
+        "how_create_auto": "- CRÉER (automatique)",
+        "how_create_manual": "- CRÉER (manuel)"
+      }
+    },
+    "page2": {
+      "main_title": "COMMENT CRÉER DES MOTS CROISÉS",
+      "intro_text": "Dans cette section, nous expliquerons comment créer vos propres mots croisés à partir de zéro (si vous préférez, vous pouvez combiner la génération avec la création manuelle). Utilisez le menu latéral pour une navigation rapide.",
+      "start_title": "PAR OÙ COMMENCER",
+      "start_text_1": "Dans la carte ci-dessous intitulée 'MOTS', cliquez sur le champ avec la description 'Exemple' et tapez votre premier mot (ne vous inquiétez pas, vous pourrez le modifier plus tard). Appuyez sur 'ENTRÉE' ou cliquez sur le bouton '+'.",
+      "start_text_2": "Une fois cela fait, vous remarquerez que les éléments suivants apparaissent :",
+      "start_list_1": "1. Un mot dans des cases à l'écran :",
+      "start_list_1_sub": "C'est le mot que votre public devra deviner.",
+      "start_list_2": "2. Un mot sur la carte 'MOTS' :",
+      "start_list_2_sub": "Ceci est exclusif pour vous ; vous pouvez le modifier (en cliquant dessus) ou le supprimer, ce qui affecte directement le mot à l'écran.",
+      "start_list_3": "3. Un indice sur la carte 'INDICES' :",
+      "start_list_3_sub": "C'est ici que vous tapez l'indice pour votre public. Notez que chaque indice et mot est numéroté. Indice : 1 - qui serait 'Exemple', décrit le mot 1 - Exemple, et ainsi de suite.",
+      "before_continue": "AVANT DE CONTINUER",
+      "instruction_1": "- Modifiez le mot et la description en cliquant sur les textes générés.",
+      "instruction_2": "- Créez au moins 2 mots.",
+      "move_title": "COMMENT DÉPLACER LES MOTS",
+      "move_intro": "Pour déplacer les mots créés, vous devez les relier en utilisant leurs lettres correspondantes. Vous avez deux options pour cela :",
+      "move_option_1": "1. Déplacez chaque mot individuellement selon l'endroit où vous souhaitez le placer.",
+      "move_option_2": "2. Déplacez tous les mots automatiquement pour qu'ils s'emboîtent en un seul clic.",
+      "auto_pos_title": "POSITIONNEMENT AUTOMATIQUE",
+      "auto_pos_text": "Pour positionner tous les mots automatiquement, cliquez sur l'icône d'engrenage dans le menu de droite. Si un mot ne s'emboîte pas, réessayez quelques fois. Si l'erreur persiste, vérifiez l'orthographe. La casse est ignorée, mais les mots avec et sans accents sont considérés comme différents.",
+      "single_move_title": "MOUVEMENT INDIVIDUEL",
+      "single_move_text": "Tous les mots sont initialement verrouillés, ce qui signifie que vous ne pouvez pas les déplacer. Pour changer cela et déplacer chaque mot individuellement :",
+      "single_move_li_1": "Cliquez sur cette icône pour rendre le mot mobile.",
+      "single_move_li_2": "Cliquez, maintenez et faites glisser le mot dans la zone.",
+      "single_move_li_3": "Après avoir déplacé votre premier mot, sélectionnez le suivant :",
+      "single_move_li_3_sub1": "Utilisez cette flèche de direction pour passer au mot suivant.",
+      "single_move_li_3_sub2": "Utilisez cette flèche de direction pour revenir au mot précédent.",
+      "direction_title": "HORIZONTAL vs VERTICAL",
+      "direction_text": "Vous pouvez également basculer votre mot entre vertical et horizontal. Cliquez sur l'icône (grille), mais n'oubliez pas d'autoriser l'édition du mot (icône crayon) au préalable.",
+      "aside": {
+        "create_crossword": "- CRÉER LA GRILLE",
+        "where_start": "- OÙ COMMENCER",
+        "how_move": "DÉPLACER LES MOTS",
+        "auto_pos": "- AUTO POSITION",
+        "single_move": "- MOUVEMENT INDIV.",
+        "horiz_vert": "- HORIZ. vs VERT."
+      }
+    },
+    "page3": {
+      "main_title": "COMMENT GÉNÉRER DES MOTS CROISÉS",
+      "intro_text": "Cette section explique comment générer des mots croisés complets basés sur un seul thème (vous pouvez également combiner cela avec la création manuelle). Utilisez le menu latéral pour une navigation rapide.",
+      "steps_title": "ÉTAPE PAR ÉTAPE",
+      "steps_intro": "Pour générer des mots croisés sur un thème, suivez ces étapes :",
+      "step_1": "1. Cliquez sur l'icône du robot dans le menu de droite.",
+      "step_2": "2. Dans la fenêtre qui apparaît, tapez le thème souhaité.",
+      "step_3": "3. Ajustez le nombre de mots à l'aide du curseur ou des flèches.",
+      "step_4": "4. Cliquez sur 'GÉNÉRER' pour que notre IA crée votre grille.",
+      "recom_title": "RECOMMANDATIONS",
+      "recom_1": "- Si votre thème ne se génère pas, rechargez la page. Si l'erreur persiste, essayez de décrire le thème différemment (vous pourrez changer le titre plus tard).",
+      "recom_2": "- Vérifiez les réponses et les indices générés. Vous pouvez les modifier à tout moment en cliquant dessus.",
+      "recom_3": "- Gardez votre public et le niveau de difficulté à l'esprit lors du choix du nombre de mots (15 à 30 mots est généralement idéal).",
+      "dont_title": "CE QU'IL FAUT ÉVITER",
+      "dont_1": "- Évitez les thèmes trop complexes.",
+      "dont_2": "- Évitez les thèmes trop abstraits.",
+      "dont_3": "- Ne donnez pas la réponse directement dans l'indice.",
+      "dont_4": "- N'oubliez pas : vous connaissez les réponses, mais pas votre public. Créez des indices qui peuvent être résolus.",
+      "aside": {
+        "generate_crossword": "- GÉNÉRER LA GRILLE",
+        "step_by_step": "ÉTAPE PAR ÉTAPE",
+        "step_1": "- 1ère Étape",
+        "step_2": "- 2ème Étape",
+        "step_3": "- 3ème Étape",
+        "step_4": "- 4ème Étape",
+        "recommendations": "- RECOMMANDATIONS",
+        "what_not_to_do": "- CE QU'IL FAUT ÉVITER"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "APERÇU",
+    "warning_main": "Ne vous souciez pas des verticales et des horizontales, suivez simplement les modèles ci-dessous",
+    "your_text": "Votre Texte :",
+    "detector_stats": "{words} mots / {clues} indices",
+    "placeholder": "Collez votre texte ici...",
+    "expected_formats": "Formats Attendus :",
+    "btn_generate": "MON TEXTE EST AU BON FORMAT",
+    "words_suffix": "mots",
+    "clues_suffix": "indices",
+    "examples": {
+      "dog": "chien",
+      "cat": "chat",
+      "bat": "chauve-souris",
+      "elephant": "éléphant",
+      "kangaroo": "kangourou",
+      "desc_dog": "Le meilleur ami de l'homme",
+      "desc_cat": "Aime chasser les souris",
+      "desc_bat": "Mammifère volant",
+      "desc_elephant": "Possède une trompe",
+      "desc_kangaroo": "Grand marsupial"
+    },
+    "requirements_alert": "Oups ! Il sembler-t-il que vous n'ayez rien collé. Copiez un texte et réessayez."
+  }
+}

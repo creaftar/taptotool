@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Comment Monter de Rang sur League of Legends",
+    "description": "Fatigué des trolls, des AFK et des smurfs ? Apprenez à vraiment monter en elo grâce à ce guide ultra-compact et sans blabla.",
+    "keywords": "elo, league of legends, or lol, comment monter de rang lol, monter en elo, sortir de argent, sortir de or, sortir de fer, sortir de bronze, sortir de platine, sortir de diamant, sortir de maître, guide rank 1"
+  },
+  "schema": {
+    "app_name": "EloBetter - Guide pour Monter de Rank LoL",
+    "app_description": "Apprenez à monter de rang sur League of Legends grâce à des stratégies axées sur le mental, les champions et la qualité de jeu.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Guide EloBetter"
+  },
+  "ui": {
+    "price_currency": "EUR"
+  }
+}

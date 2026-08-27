@@ -1,0 +1,24 @@
+{
+  "btn_next": "الخطوة التالية",
+  "footer": {
+    "share_telegram": "مشاركة الموقع على Telegram",
+    "share_whatsapp": "مشاركة الموقع على WhatsApp",
+    "share_bluesky": "مشاركة الموقع على Bluesky",
+    "share_x": "مشاركة الموقع على X",
+    "share_facebook": "مشاركة الموقع على Facebook",
+    "share_reddit": "مشاركة الموقع على Reddit"
+  },
+  "banner": {
+    "view_opgg": "عرض ملف المنشئ الشخصي على OP.GG",
+    "play_crossword": "لعب الكلمات المتقاطعة الخاصة بـ League of Legends",
+    "watch_videos": "شاهد فيديوهات عملية وحلل طريقة لعب لاعب High ELO",
+    "more_tools": "استكشف المزيد من الأدوات عبر الإنترنت لأتمتة تدفق عملك اليومي"
+  },
+  "myaccount": {
+    "badge_current_elo": "شعار الـ ELO الحالي لكاتب الدليل",
+    "summoner_icon": "أيقونة المستدعي"
+  },
+  "reset_steps": "إعادة تعيين كل الخطوات (البدء من جديد)",
+  "copy_profile_nick": "نسخ اسم المستدعي الخاص بالملف الشخصي",
+  "update_profile": "تحديث الملف الشخصي" 
+}

@@ -1,0 +1,12 @@
+{
+  "title": "A 30 / 30 / 40-es Szabály",
+  "subtitle": "Megérteni, hogy miért nem a trollok és az AFK-k miatt nem jutsz feljebb, hanem saját magad miatt:",
+  "desc_losses": "<span class=\"destaque\">- 30% Garantált Vereség (\"Nyerhetetlen\" Játékok):</span> <br>Ezek azok a meccsek, ahol a csapattársad úgy dönt, hogy kilép (ragequit), trollkodik, vagy egyszerűen az összes többi ösvény teljesen összeomlik. Matematikailag, még ha a legjobb formádat is hozod, a másik 4 játékos súlya felülmúlja a te carryzési képességedet.",
+  "desc_wins": "<span class=\"destaque\">- 30% Garantált Győzelem (\"El-carryzett\" Játékok):</span> <br>Ezek azok a meccsek, ahol a top lanered 5 perc alatt 10/0-ba megy, a jungler minden sárkányt és objektívát kontrollál, az ellenséges csapat pedig elkezd veszekedni all chaten. Játszhatnál borzalmasan, vagy akár AFK-olhatnál a bázison, a csapatod így is nyerne 4v5-ben.",
+  "desc_impact": "<span class=\"destaque\">- 40% Játék, ami Csak Rajtad Múlik (Itt kell fókuszálnod az energiáidat):</span> <br>Ezek kiegyensúlyozott mérkőzések, ahol mindkét csapatnak valós esélye van a győzelemre. A végeredményt egyetlen részlet dönti el: a helyezkedésed egy teamfightban, a rotációd, a vision controlod vagy a döntéshozatalod a late game-ben.",
+  "conclusion": "A legtöbb ember ott hibázza el, hogy komolyan játszik (tryhardol), belefut egy vereségsorozatba, emiatt el-tiltelődik, majd impulzusból újra sorba áll, és elveszíti azokat a játékokat, amelyek valójában rajta múltak volna, csak azért, mert tiltelt állapotban van.",
+  "btn_next": "KÖVETKEZŐ LÉPÉS",
+  "label_losses": "Nyerhetetlen",
+  "label_impact": "Rajtad múlik",
+  "label_wins": "El-carryzett"
+}

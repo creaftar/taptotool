@@ -1,0 +1,24 @@
+{
+  "btn_next": "DALŠÍ KROK",
+  "footer": {
+    "share_telegram": "Sdílet web na Telegramu",
+    "share_whatsapp": "Sdílet web na WhatsAppu",
+    "share_bluesky": "Sdílet web na Bluesky",
+    "share_x": "Sdílet web na X",
+    "share_facebook": "Sdílet web na Facebooku",
+    "share_reddit": "Sdílet web na Redditu"
+  },
+  "banner": {
+    "view_opgg": "Zobrazit profil tvůrce na OP.GG",
+    "play_crossword": "Hrát křížovky z League of Legends",
+    "watch_videos": "Sleduj praktická videa a analyzuj, jak hraje High ELO hráč",
+    "more_tools": "Prozkoumejte další online nástroje pro automatizaci vašeho daily workflow"
+  },
+  "myaccount": {
+    "badge_current_elo": "Znak aktuálního ELO autora průvodce",
+    "summoner_icon": "Ikona vyvolávače"
+  },
+  "reset_steps": "Resetovat všechny kroky (začít znovu)",
+  "copy_profile_nick": "Zkopírovat jméno vyvolávače z profilu",
+  "update_profile": "Aktualizovat profil"
+}

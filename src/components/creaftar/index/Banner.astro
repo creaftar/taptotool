@@ -1,0 +1,52 @@
+---
+import { Image } from 'astro:assets';
+import bannerImg from '@/assets/imgs/anuncios/png/banner_daily.png';
+import '@/assets/styles/pages/game/crossword/pages/index/cards/banner.css';
+
+const currentLang = Astro.currentLocale || 'en';
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/index/header/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/index/header/en.json";
+import es from "@/i18n/pages/game/crossword/pages/index/header/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/index/header/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/index/header/it.json";
+import de from "@/i18n/pages/game/crossword/pages/index/header/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/index/header/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/index/header/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/index/header/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales] || locales.en;
+---
+
+<div class="main-card container-card anuncio container-daily">
+    <div class="card">
+        <a class="linkJogar" href={currentLang === 'en' ? '/daily' : `/${currentLang}/daily`}>
+            <Image 
+                src={bannerImg}
+                alt={d.daily.banner}
+                loading={"eager"}
+                fetchpriority={"high"}
+                width={891} 
+                height={252} 
+            />    
+        </a>
+        <div class="card-botoes">
+            <button class="opcBtn" aria-label="Botão para mais opções da cruzadinha Animais">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+            <div class="containerOpc elemento-invisivel">
+                <button>
+                    <i class="fa-solid fa-link linkBtn"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card-infos">
+        <div class="header-card-infos-daily">
+            <h2 class="titulo-daily">{d.daily.title}</h2>
+            <p id="proximaDiariaEm">{d.daily.next} <span id="tempoProximaCruzadinha">00:00:00</span></p>
+        </div>
+    </div>
+</div>

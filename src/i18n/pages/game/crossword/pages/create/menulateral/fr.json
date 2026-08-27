@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "PARAMÈTRES AVANCÉS",
+    "edit_word": "MODIFIER LE MOT",
+    "word_to_edit": "MOT À MODIFIER",
+    "next_word": "MOT SUIVANT",
+    "prev_word": "MOT PRÉCÉDENT",
+    "toggle_direction": "BASCOULER ENTRE VERTICAL ET HORIZONTAL",
+    "auto_position": "PLACER TOUS LES MOTS AUTOMATIQUEMENT",
+    "ai_generate": "GÉNÉRER DES MOTS FLÉCHÉS PAR THÈME",
+    "save_crossword": "ENREGISTRER VOTRE GRILLE",
+    "zoom_in": "AUGMENTER LE ZOOM",
+    "zoom_out": "RÉDUIRE LE ZOOM",
+    "tutorial": "TUTORIEL : COMMENT CRÉER UNE GRILLE"
+  }
+}

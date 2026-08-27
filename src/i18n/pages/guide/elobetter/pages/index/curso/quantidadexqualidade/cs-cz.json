@@ -1,0 +1,25 @@
+{
+  "graph_title": "Počet her vs. Kvalita",
+  "graph_subtitle": "Zjisti přesný limit denních her pro udržení vysokého win rate ve tvém aktuálním ELO a mrkni sem znovu po každém rank upu",
+  "axis_y_title": "Win Rate %",
+  "game_1": "1. Hra",
+  "game_3": "3. Hra",
+  "game_5": "5. Hra",
+  "game_8": "8. Hra+",
+  "axis_x_title": "Odehrané Hry",
+  "tier_ferro": "Iron/Bronze",
+  "tier_prata": "Silver",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Emerald",
+  "tier_diamante": "Diamond",
+  "tier_mestre": "Master+",
+  "js_default_text": "Najjeď myší na rank pro zobrazení analýzy tempa.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Absolutní Peak Performance.</strong> Tady tě každá mikro-chyba stojí celou hru. Tvůj vrchol jsou maximálně 2 hry; od 3. zápasu dál ti únava z mikro-rozhodování totálně zruinuje LP gains.",
+    "diamante": "<strong>Diamond: Konzistence je Král.</strong> Dokážeš se plně soustředit tak na 3 až 4 hry. Tlačit session dál tě přepne do 'autopilota' – největšího zabijáka climbování v High ELO.",
+    "esmeralda": "<strong>Plat & Emerald: ELO Mentálního Vyhoření.</strong> Tvoje mechanika sice vydrží do 4. hry, ale psychická odolnost padá extrémně rychle. Šetři své LP: pokud prohraješ dvě hry v řadě, vypni to.",
+    "ouro": "<strong>Gold: Solidní Střední Cesta.</strong> Můžeš točit docela solidní objem (až 5-6 her), protože throwy soupeři ještě netrestají okamžitě, ale ke konci session už tvůj makro focus úplně mizí.",
+    "prata": "<strong>Silver: Objem na Procvičení.</strong> Únava ti tady win rate skoro neshazuje, protože tahle liga nevyžaduje neustálý makro přehled. Vyplatí se hry spamovat, abys zautomatizoval core základy.",
+    "ferro": "<strong>Iron/Bronze: Čistá Síla.</strong> Únava tady není tvůj bottleneck. Místo řešení mentalu prostě nahoď /mute all, sbírej herní zkušenosti a limit-testuj svoje šampiony. Dlouhé session můžeš jezdit úplně bez obav."
+  }
+}

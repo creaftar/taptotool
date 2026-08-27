@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Buat Cari Kata Online",
+    "description": "Buat teka-teki cari kata kustom Anda sendiri. Mudah, cepat, dan gratis.",
+    "keywords": "cari kata, pencarian kata, buat, generator, pendidikan, teka-teki"
+  },
+  "schema": {
+    "app_name": "Buat Cari Kata Online",
+    "app_description": "Buat cari kata online kustom Anda sendiri dengan mudah di Tap to Tool.",
+    "page_name": "Buat Cari Kata",
+    "breadcrumb_home": "Beranda",
+    "breadcrumb_current": "Buat Cari Kata",
+    "alternateName": "Creaftar Pembuat Cari Kata",
+    "description": "Alat gratis untuk membuat cari kata online kustom di Tap to Tool.",
+    "price_currency": "IDR"
+  },
+  "ui": {
+    "error_clipboard": "Gagal menempel. Gunakan Ctrl + V atau periksa izin clipboard browser Anda.",
+    "paste_text": "Klik untuk menempelkan teks",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Tombol untuk menyembunyikan menu",
+    "hide_text": "Sembunyikan"
+  },
+  "create_page": {
+    "words_title": "KATA:",
+    "word_placeholder": "contoh",
+    "add_word_aria": "tambah kata",
+    "add_word_btn_aria": "Tombol untuk menambah kata"
+  }
+}

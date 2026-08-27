@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Crossword Puzzles",
+    "results_found": "Crosswords found",
+    "no_results": "No crosswords found"
+  },
+  "daily": {
+    "banner": "Play daily crossword",
+    "title": "Daily Crossword",
+    "next": "Next crossword in:"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Retour à la page d'accueil",
+    "disconnected": "Vous êtes déconnecté",
+    "connected": "Vous êtes connecté",
+    "email_label": "E-MAIL :",
+    "password_label": "MOT DE PASSE :",
+    "confirm_password_label": "CONFIRMER LE MOT DE PASSE :",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "mot de passe",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "no_account": "Pas encore de compte ? Inscrivez-vous !",
+    "btn_register": "S'INSCRIRE",
+    "btn_login": "SE CONNECTER",
+    "btn_logout": "DÉCONNEXION",
+    "search_crossword_aria": "Rechercher des mots croisés",
+    "search_placeholder": "Rechercher des mots croisés",
+    "hide_menu_aria": "Bouton pour masquer le menu",
+    "hide_menu_text": "Masquer le menu",
+    "expand": "Agrandir",
+    "hide": "Masquer",
+    "lang_display": "Français"
+  },
+  "auth_errors": {
+    "invalid_email": "Adresse e-mail invalide",
+    "user_not_found": "Adresse e-mail introuvable",
+    "wrong_password": "Le mot de passe fourni est incorrect",
+    "too_many_requests": "Trop de tentatives de connexion infructueuses",
+    "network_failed": "Erreur réseau lors de l'authentification",
+    "weak_password": "Le mot de passe fourni est trop faible",
+    "email_in_use": "Cette adresse e-mail est déjà associée à un autre compte",
+    "different_credential": "Tentative de connexion avec un autre fournisseur (ex. Google)",
+    "operation_not_allowed": "L'opération n'est pas autorisée",
+    "internal_error": "Erreur interne du serveur d'authentification",
+    "missing_password": "Veuillez saisir le mot de passe",
+    "invalid_credential": "Identifiants invalides (se produit généralement lors de la migration vers Google, Twitter ou Yahoo)",
+    "passwords_dont_match": "Les mots de passe ne correspondent pas"
+  }
+}

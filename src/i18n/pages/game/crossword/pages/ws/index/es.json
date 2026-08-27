@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Sopa de Letras Online",
+"description": "¡Juega a sopas de letras gratis ou crea tus propios juegos! Comparte tus partidas con amigos y desafía a la comunidad...",
+    "keywords": "sopa de letras online, crear sopa de letras online, buscar palabras ocultas, sopa de letras personalizada, crear sopa de letras gratis, cómo hacer una sopa de letras, generador de sopa de letras, sopa de letras para niños, pasatiempos de palabras, juegos de buscar palabras"
+  },
+  "schema": {
+    "app_name": "Hacer Sopa de Letras en Línea",
+    "app_description": "¡Explora Tap to Tool y juega sopas de letras en línea! Crea, edita y juega sopas de letras personalizadas.",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Sopa de Letras en Línea",
+    "alternateName": "Creaftar Sopa de Letras",
+    "description": "Herramienta gratuita para crear, editar y jugar sopas de letras en línea en Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Buscar sopa de letras",
+    "search_aria": "Buscar sopa de letras"
+  },
+  "pesquisa": {
+    "search_crossword": "Buscar sopa de letras..."
+  },
+  "index": {
+    "login_prompt": "¡Inicia sesión para crear sopa de letras!",
+    "logged_prompt": "Tus sopas de letras:",
+    "words_found": "palabras encontradas",
+    "horizontals": "Horizontal y Vertical",
+    "verticals": "Diagonal e Inversa",
+    "crossword_by": "Sopa de letras de ",
+    "aria": {
+      "play_button": "Botón para jugar a la sopa de letras",
+      "options_button": "Botón para más opciones del juego",
+      "copy_link": "Botón para copiar el enlace de la sopa de letras",
+      "edit_button": "Botón para editar la sopa de letras",
+      "delete_button": "Botón para eliminar la sopa de letras"
+    },
+    "time": {
+      "second": "hace un segundo", "seconds": "hace segundos",
+      "minute": "hace un minuto", "minutes": "hace minutos",
+      "hour": "hace una hora", "hours": "hace horas",
+      "day": "hace un día", "days": "hace días",
+      "month": "hace un mes", "meses": "hace meses",
+      "year": "hace un año", "years": "hace años"
+    },
+    "js_messages": {
+      "js_create_title": "CREAR SOPA DE LETRAS",
+      "js_create_desc": "Crea o genera una nueva sopa de letras",
+      "js_create_link": "Crear sopa de letras",
+      "js_create_aria": "Haz clic para crear o generar sopa de letras"
+    }
+  }
+}

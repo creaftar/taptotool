@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "ADVANCED SETTINGS",
+    "edit_word": "EDIT THE WORD",
+    "word_to_edit": "WORD TO BE EDITED",
+    "next_word": "NEXT WORD",
+    "prev_word": "PREVIOUS WORD",
+    "toggle_direction": "TOGGLE VERTICAL AND HORIZONTAL",
+    "auto_position": "POSITION ALL WORDS AUTOMATICALLY",
+    "ai_generate": "GENERATE WORD SEARCH FROM A THEME",
+    "save_crossword": "SAVE YOUR WORD SEARCH PUZZLE",
+    "zoom_in": "ZOOM IN ON PUZZLE",
+    "zoom_out": "ZOOM OUT OF PUZZLE",
+    "tutorial": "TUTORIAL ON HOW TO CREATE A WORD SEARCH"
+  }
+}

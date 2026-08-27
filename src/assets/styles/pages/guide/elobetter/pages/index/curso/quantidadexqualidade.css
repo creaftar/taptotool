@@ -1,0 +1,145 @@
+.wrapperGrafico{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 0 0 0;
+    background: linear-gradient(180deg, rgba(var(--fundo-alternativo), 0.1), rgba(var(--fundo), 1));
+    padding: 30px 9px;
+    
+}
+.subtitulo-qtde{
+    font-weight: normal;
+    text-align: center;
+}
+
+.wrapperGrafico{
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hr-line{
+    stroke: rgba(var(--padrao), 1);
+    opacity: 0.2;
+}
+.hr-line-principal{
+    stroke: rgba(var(--padrao), 1);
+    opacity: 0.3;
+    stroke-width: 2px;
+}
+.wrapperGrafico .svg-container {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 4px;
+}
+
+.wrapperGrafico svg {
+    padding: 30px 9px 20px 9px;
+    overflow: visible;
+    max-width: 100%;
+}
+
+/* Estilo dos textos dos eixos dentro do SVG */
+.wrapperGrafico .texto-eixo {
+    fill: #8892b0;
+    font-size: small;
+    font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estado base das linhas */
+.wrapperGrafico path {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 1200;
+    transition: stroke-dashoffset 2s ease, opacity 0.3s ease, stroke-width 0.3s ease;
+    cursor: pointer;
+}
+
+.wrapperGrafico path.animar {
+    stroke-dashoffset: 0;
+}
+
+/* Lógica de Destaque (Hover) */
+/* Quando o container está sob efeito de hover em algum elemento */
+.wrapperGrafico.tem-foco path {
+    opacity: 0.15; /* Apaga as outras linhas */
+}
+
+/* Mantém acesa e engrossa a linha que está focada */
+.wrapperGrafico path.focado {
+    opacity: 1 !important;
+    stroke-width: 6px;
+}
+
+/* Legendas */
+.wrapperGrafico .legenda-grafico {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 6px;
+}
+
+.wrapperGrafico .item-legenda {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(var(--padrao), 0.9);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px;
+    transition: color 0.2s;
+    background-color: rgba(var(--fundo-alternativo), 1);
+    border-left: 4px solid rgba(var(--destaque), 0.1);
+    width: 30%;
+    transition: all 0.1s;
+}
+
+/* O truque acontece aqui: as propriedades de corte vão para o texto */
+.wrapperGrafico .item-legenda span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrapperGrafico .item-legenda i {
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+    flex-shrink: 0;
+    border-radius: 2px;
+}
+
+/* Destaque na legenda do elo selecionado */
+.wrapperGrafico .item-legenda.focado {
+    color: rgba(var(--destaque), 1);
+    font-weight: bold;
+    background-color: rgba(var(--fundo-alternativo), 1);
+    border-left: 4px solid rgba(var(--destaque), 0.3);
+}
+
+/* Box de texto descritivo */
+.wrapperGrafico .detalhe-elo-box {
+    padding: 15px;
+    background-color: rgba(var(--fundo-alternativo), 1);
+    border-left: 4px solid rgba(var(--destaque), 1);
+    border-radius: 0 4px 4px 0;
+    font-size: 13px;
+    line-height: 1.4;
+    min-height: 40px;
+    color: rgba(var(--padrao), 1);
+    text-align: justify;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 1024px){
+    .ocult-mobile{
+        display: none;
+    }
+    .wrapperGrafico .item-legenda {
+        width: 33%;
+    }
+    .wrapperGrafico .legenda-grafico {
+        gap: 6px;
+    }
+}

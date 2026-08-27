@@ -1,0 +1,25 @@
+{
+  "graph_title": "Quantität vs. Qualität",
+  "graph_subtitle": "Finde das exakte Limit für deine täglichen Games, um deine Winrate im aktuellen ELO hoch zu halten, und schaue nach jedem Up-Rank erneut rein",
+  "axis_y_title": "Winrate %",
+  "game_1": "1. Game",
+  "game_3": "3. Game",
+  "game_5": "5. Game",
+  "game_8": "8. Game+",
+  "axis_x_title": "Gespielte Games",
+  "tier_ferro": "Eisen/Bronze",
+  "tier_prata": "Silber",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Smaragd",
+  "tier_diamante": "Dias",
+  "tier_mestre": "Master+",
+  "js_default_text": "Bewege den Mauszeiger über eine Liga, um die Pace-Analyse zu sehen.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Absolute Peak-Performance.</strong> Hier kostet dich jeder Mikro-Misfit direkt das gesamte Game. Dein Fokus-Höhepunkt liegt bei maximal 2 Matches; ab dem 3. Game sorgt die geistige Erschöpfung dafür, dass deine LP-Gains komplett einbrechen.",
+    "diamante": "<strong>Diamant: Konstanz ist alles.</strong> Du kannst deinen Fokus für etwa 3 bis 4 Games voll aufrechterhalten. Wer danach noch weitererzwingt, landet im 'Autopilot' – dem ultimativen ELO-Killer im High-ELO-Bereich.",
+    "esmeralda": "<strong>Plat & Smaragd: Die pure mentale Belastung.</strong> Deine Mechanics halten locker bis zum 4. Game durch, aber deine Tilt-Resistenz sinkt extrem schnell. Schone deine Nerven: Wenn du zwei Games am Stück verlierst, mach das Spiel aus.",
+    "ouro": "<strong>Gold: Solides Mittelfeld.</strong> Du verkraftest hier ein recht hohes Pensum (bis zu 5–6 Games), weil gegnerische Throws dich noch nicht sofort bestrafen. Gegen Ende der Session schwindet dein Makro-Fokus allerdings spürbar.",
+    "prata": "<strong>Silber: Grind für die Basics.</strong> Müdigkeit drückt deine Winrate hier kaum, da die Liga weniger konstanten Makro-Fokus verlangt. Es lohnt sich, mehr Games zu spamen, um die Core-Fundamentals deines Gameplays zu festigen.",
+    "ferro": "<strong>Eisen/Bronze: Reine Muskelkraft.</strong> Erschöpfung ist hier nicht dein Bottleneck. Anstatt dir Sorgen um die mentale Verfassung zu machen, mute einfach alle (/mute all), sammle Match-Erfahrung und teste die Limits deiner Champions aus. Lange Sessions sind absolut feuerfrei."
+  }
+}

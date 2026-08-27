@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "TITEL DEINES WORTSUCHRÄTSELS:",
+    "placeholder": "Wortsuchrätsel",
+    "hints_question": "MÖCHTEST DU HINWEISE FÜR DEIN RÄTSEL AKTIVIEREN?",
+    "hints_obs": "(Du kannst diese Option später jederzeit ändern)",
+    "hints_yes": "Ja, ich möchte Hinweise für mein Rätsel aktivieren",
+    "hints_no": "Keine Hinweise für mein Rätsel aktivieren",
+    "answer_key_question": "MÖCHTEST DU EINE LÖSUNGSHILFE ERSTELLEN?",
+    "answer_key_obs": "(Die Lösungshilfe ermöglicht es den Spielern, die Antworten zu sehen – du kannst dies später ändern)",
+    "answer_key_yes": "Ja, ich möchte eine Lösungshilfe für mein Rätsel erstellen",
+    "answer_key_no": "Keine Lösungshilfe für mein Rätsel erstellen",
+    "share_question": "MÖCHTEST DU DEIN RÄTSEL IN UNSEREN SOZIALEN NETZWERKEN TEILEN?",
+    "share_yes": "Ja, ich möchte mein Rätsel auf den Creaftar-Kanälen teilen",
+    "share_no": "Mein Rätsel nicht teilen",
+    "save_button": "SPEICHERN",
+    "requirements_alert": "ACHTUNG: Speichern ist nur möglich, wenn du registriert bist"
+  },
+  "modal_generate": {
+    "theme_title": "THEMA DES WORTSUCHRÄTSELS",
+    "theme_placeholder": "Wortsuchrätsel",
+    "word_quantity": "Anzahl der Wörter",
+    "generate_button": "GENERIEREN"
+  },
+  "copy": {
+    "modal_preview": "VORSCHAU",
+    "warning_main": "Keine Sorge wegen vertikaler oder horizontaler Ausrichtung, achte einfach auf die Formate unten",
+    "your_text": "Dein Text:",
+    "detector_stats": "{words} Wörter / {clues} Hinweise",
+    "placeholder": "Füge deinen Text hier ein...",
+    "expected_formats": "Erwartete Formate:",
+    "btn_generate": "MEIN TEXT ENTSPRICHT EINEM FORMAT",
+    "words_suffix": "Wörter",
+    "clues_suffix": "Hinweise",
+    "examples": {
+      "dog": "Hund",
+      "cat": "Katze",
+      "bat": "Fledermaus",
+      "elephant": "Elefant",
+      "kangaroo": "Känguru",
+      "desc_dog": "Der beste Freund des Menschen",
+      "desc_cat": "Mag es, Mäuse zu jagen",
+      "desc_bat": "Säugetier, das fliegt",
+      "desc_elephant": "Hat einen Rüssel",
+      "desc_kangaroo": "Großes Beuteltier"
+    },
+    "requirements_alert": "Hoppla! Es sieht so aus, als hätten Sie nichts eingefügt. Kopieren Sie einen Text und versuchen Sie es erneut"
+  }
+}

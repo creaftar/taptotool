@@ -1,0 +1,24 @@
+{
+  "btn_next": "PASUL URMĂTOR",
+  "footer": {
+    "share_telegram": "Distribuie site-ul pe Telegram",
+    "share_whatsapp": "Distribuie site-ul pe WhatsApp",
+    "share_bluesky": "Distribuie site-ul pe Bluesky",
+    "share_x": "Distribuie site-ul pe X",
+    "share_facebook": "Distribuie site-ul pe Facebook",
+    "share_reddit": "Distribuie site-ul pe Reddit"
+  },
+  "banner": {
+    "view_opgg": "Vizualizează profilul creatorului pe OP.GG",
+    "play_crossword": "Joacă rebusuri League of Legends",
+    "watch_videos": "Urmărește videoclipuri practice și analizează cum joacă un jucător High ELO",
+    "more_tools": "Explorați mai multe instrumente online pentru a vă automatiza fluxul de lucru zilnic"
+  },
+  "myaccount": {
+    "badge_current_elo": "Emblema ELO-ului actual al autorului ghidului",
+    "summoner_icon": "Pictogramă invocator"
+  },
+  "reset_steps": "Resetează toți pașii (ia-o de la capăt)",
+  "copy_profile_nick": "Copiază numele de invocator din profil",
+  "update_profile": "Actualizează profilul"
+}

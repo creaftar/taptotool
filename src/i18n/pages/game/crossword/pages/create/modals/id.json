@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "JUDUL TEKA-TEKI SILANG ANDA:",
+    "placeholder": "Teka-teki Silang",
+    "hints_question": "APAKAH ANDA INGIN MENGAKTIFKAN PETUNJUK UNTUK TEKA-TEKI ANDA?",
+    "hints_obs": "(Anda dapat mengubah opsi ini nanti kapan saja)",
+    "hints_yes": "Ya, saya ingin mengaktifkan petunjuk untuk teka-teki saya",
+    "hints_no": "Jangan aktifkan petunjuk untuk teka-teki saya",
+    "answer_key_question": "APAKAH ANDA INGIN MEMBUAT KUNCI JAWABAN?",
+    "answer_key_obs": "(Kunci jawaban memungkinkan pemain melihat jawaban – Anda dapat mengubah ini nanti)",
+    "answer_key_yes": "Ya, saya ingin membuat kunci jawaban untuk teka-teki saya",
+    "answer_key_no": "Jangan buat kunci jawaban",
+    "share_question": "APAKAH ANDA INGIN MEMBAGIKAN TEKA-TEKI ANDA DI JEJARING SOSIAL KAMI?",
+    "share_yes": "Ya, saya ingin membagikan teka-teki saya di saluran Creaftar",
+    "share_no": "Jangan bagikan teka-teki saya",
+    "save_button": "SIMPAN",
+    "requirements_alert": "PERHATIAN: Menyimpan hanya tersedia untuk pengguna terdaftar"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA TEKA-TEKI",
+    "theme_placeholder": "Teka-teki Silang",
+    "word_quantity": "Jumlah kata",
+    "generate_button": "BUAT"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "VIDEO CONTOH",
+      "create": "BUAT TEKA-TEKI",
+      "generate": "GENERATE TEKA-TEKI"
+    },
+    "page1": {
+      "title_generate": "CARA MEMBUAT TEKA-TEKI OTOMATIS",
+      "title_auto": "CARA MEMBUAT TEKA-TEKI",
+      "title_manual": "CARA MEMBUAT TEKA-TEKI",
+      "subtitle_video": "(Video)",
+      "subtitle_auto": "(Otomatis - Video)",
+      "subtitle_manual": "(Manual - Video)",
+      "video_fallback": "Browser Anda tidak mendukung video HTML5.",
+      "aside": {
+        "how_generate": "- BUAT OTOMATIS",
+        "how_create_auto": "- BUAT (otomatis)",
+        "how_create_manual": "- BUAT (manual)"
+      }
+    },
+    "page2": {
+      "main_title": "CARA MEMBUAT TEKA-TEKI SILANG",
+      "intro_text": "Di bagian ini, kami akan menjelaskan cara membuat teka-teki silang Anda sendiri dari awal (jika Anda mau, Anda bisa menggabungkan pembuatan otomatis dengan pembuatan manual). Gunakan menu samping untuk navigasi cepat.",
+      "start_title": "DARI MANA MEMULAI",
+      "start_text_1": "Pada kartu di bawah berjudul 'WORDS', klik pada kolom dengan deskripsi 'Example' dan ketik kata pertama Anda (jangan khawatir, Anda bisa mengubahnya nanti). Tekan 'ENTER' pada keyboard atau klik tombol '+'.",
+      "start_text_2": "Setelah selesai, Anda akan melihat hal berikut muncul:",
+      "start_list_1": "1. Sebuah kata dalam kotak-kotak di layar:",
+      "start_list_1_sub": "Ini adalah kata yang harus ditebak oleh audiens Anda.",
+      "start_list_2": "2. Sebuah kata di kartu 'WORDS':",
+      "start_list_2_sub": "Ini khusus untuk Anda; Anda bisa mengubahnya (klik pada kata tersebut) atau menghapusnya, yang akan langsung memengaruhi kata di layar.",
+      "start_list_3": "3. Sebuah petunjuk di kartu 'HINTS':",
+      "start_list_3_sub": "Di sinilah Anda mengetik petunjuk untuk audiens Anda. Perhatikan bahwa setiap petunjuk dan kata diberi nomor. Petunjuk: 1 - yang merupakan 'Example', menjelaskan kata 1 - Example, dan seterusnya.",
+      "before_continue": "SEBELUM MELANJUTKAN",
+      "instruction_1": "- Ubah kata dan deskripsi dengan mengklik teks yang dihasilkan.",
+      "instruction_2": "- Buat setidaknya 2 kata.",
+      "move_title": "CARA MEMINDAHKAN KATA",
+      "move_intro": "Untuk memindahkan kata yang telah Anda buat, Anda perlu menghubungkannya menggunakan huruf yang cocok. Anda memiliki dua opsi untuk ini:",
+      "move_option_1": "1. Pindahkan setiap kata secara individual sesuai keinginan Anda.",
+      "move_option_2": "2. Pindahkan semua kata secara otomatis sehingga pas dengan satu klik.",
+      "auto_pos_title": "PENEMPATAN OTOMATIS",
+      "auto_pos_text": "Untuk menempatkan semua kata secara otomatis, klik ikon gerigi di menu sebelah kanan. Jika kata tidak pas, coba beberapa kali lagi. Jika kesalahan berlanjut, periksa ejaan. Huruf besar/kecil diabaikan, tetapi kata dengan dan tanpa aksen dianggap berbeda.",
+      "single_move_title": "PERGERAKAN INDIVIDUAL",
+      "single_move_text": "Semua kata awalnya terkunci, artinya Anda tidak dapat memindahkannya. Untuk mengubah ini dan memindahkan setiap kata secara individual:",
+      "single_move_li_1": "Klik ikon ini untuk membuat kata dapat dipindahkan.",
+      "single_move_li_2": "Klik, tahan, dan seret kata di dalam area.",
+      "single_move_li_3": "Setelah memindahkan kata pertama, pilih kata berikutnya:",
+      "single_move_li_3_sub1": "Gunakan panah arah ini untuk lompat ke kata berikutnya.",
+      "single_move_li_3_sub2": "Gunakan panah arah ini untuk kembali ke kata sebelumnya.",
+      "direction_title": "HORIZONTAL vs VERTIKAL",
+      "direction_text": "Anda juga dapat mengganti kata antara vertikal dan horizontal. Klik ikon (grid), tapi ingat untuk mengizinkan pengeditan kata (ikon pensil) terlebih dahulu.",
+      "aside": {
+        "create_crossword": "- BUAT TEKA-TEKI",
+        "where_start": "- MULAI DARI MANA",
+        "how_move": "PINDAHKAN KATA",
+        "auto_pos": "- POSISI OTOMATIS",
+        "single_move": "- GERAK INDIVIDUAL",
+        "horiz_vert": "- HORIZ. vs VERT."
+      }
+    },
+    "page3": {
+      "main_title": "CARA MEMBUAT TEKA-TEKI OTOMATIS",
+      "intro_text": "Bagian ini menjelaskan cara membuat teka-teki silang lengkap berdasarkan satu tema (Anda juga dapat menggabungkannya dengan pembuatan manual). Gunakan menu samping untuk navigasi cepat.",
+      "steps_title": "LANGKAH DEMI LANGKAH",
+      "steps_intro": "Untuk membuat teka-teki silang tentang sebuah tema, ikuti langkah-langkah berikut:",
+      "step_1": "1. Klik ikon robot di menu sebelah kanan.",
+      "step_2": "2. Di jendela yang muncul, ketik tema yang diinginkan.",
+      "step_3": "3. Sesuaikan jumlah kata menggunakan slider atau panah.",
+      "step_4": "4. Klik 'BUAT' agar AI kami membuatkan teka-teki untuk Anda.",
+      "recom_title": "REKOMENDASI",
+      "recom_1": "- Jika tema tidak muncul, muat ulang halaman. Jika tetap gagal, coba deskripsikan tema dengan cara berbeda (Anda bisa mengubah judulnya nanti).",
+      "recom_2": "- Periksa jawaban dan petunjuk yang dihasilkan. Anda dapat mengeditnya kapan saja dengan mengkliknya.",
+      "recom_3": "- Pertimbangkan audiens dan tingkat kesulitan saat memilih jumlah kata (15 hingga 30 kata biasanya ideal).",
+      "dont_title": "HAL YANG HARUS DIHINDARI",
+      "dont_1": "- Hindari tema yang terlalu rumit.",
+      "dont_2": "- Hindari tema yang terlalu abstrak.",
+      "dont_3": "- Jangan memberikan jawaban langsung di dalam petunjuk.",
+      "dont_4": "- Ingat: Anda tahu jawabannya, tapi audiens Anda tidak. Buat petunjuk yang bisa dipecahkan.",
+      "aside": {
+        "generate_crossword": "- BUAT OTOMATIS",
+        "step_by_step": "LANGKAH-LANGKAH",
+        "step_1": "- Langkah 1",
+        "step_2": "- Langkah 2",
+        "step_3": "- Langkah 3",
+        "step_4": "- Langkah 4",
+        "recommendations": "- REKOMENDASI",
+        "what_not_to_do": "- HAL DIHINDARI"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "PRATINJAU",
+    "warning_main": "Jangan khawatir tentang vertikal dan horizontal, cukup ikuti format di bawah ini",
+    "your_text": "Teks Anda:",
+    "detector_stats": "{words} kata / {clues} petunjuk",
+    "placeholder": "Tempel teks Anda di sini...",
+    "expected_formats": "Format yang Didukung:",
+    "btn_generate": "TEKS SAYA SUDAH SESUAI FORMAT",
+    "words_suffix": "kata",
+    "clues_suffix": "petunjuk",
+    "examples": {
+      "dog": "anjing",
+      "cat": "kucing",
+      "bat": "kelelawar",
+      "elephant": "gajah",
+      "kangaroo": "kanguru",
+      "desc_dog": "Sahabat terbaik manusia",
+      "desc_cat": "Suka mengejar tikus",
+      "desc_bat": "Mamalia yang bisa terbang",
+      "desc_elephant": "Memiliki belalai",
+      "desc_kangaroo": "Hewan berkantung besar"
+    },
+    "requirements_alert": "Ups! Sepertinya Anda belum menempelkan apa pun. Salin teks dan coba lagi."
+  }
+}

@@ -1,0 +1,266 @@
+#container-palavras_conteudos{
+	background-color: var(--fundo-body);
+	width: 80%;
+	margin-left:10%;
+	height: calc(var(--vh) * 21);
+	display:flex;
+	justify-content: center;
+	border-left: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+	border-right: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+	flex-grow: 1;
+}
+#PALAVRAS, #CONTEUDOS{
+	font-size: 1em;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 31%;
+	display: flex;
+	color: rgba(var(--padrao), 1);
+	border-radius: 6px;
+	flex-direction: column;
+	padding-left: 9px;
+	padding-right: 18px; /*9px de padding + 9px da area de rolagem*/
+	z-index: 7;
+    box-sizing: border-box; /* Adicione esta linha */
+}
+.container-pc-el{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+}
+
+#PALAVRAS{
+	margin-right:9px;
+}
+#CONTEUDOS{
+	margin-left:9px;
+}
+
+#gerar-conteudo{
+	color: var(--feedback-negativo);
+}
+
+.title_card{
+	padding-top: 3px;
+	font-size: large;
+	color: rgba(var(--padrao), 1);
+	border-bottom: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	opacity: 1.0;
+	margin-left: 0;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#palavra-to-lower-case{
+	display: none;
+}
+
+.container-input_btn{
+	display: flex;
+	flex-direction: row;
+	margin: 9px;
+	max-width: 70%;
+	gap: 16px;
+}
+
+.container-input_btn > input:focus{
+	outline: none;
+	border: 1px solid rgba(var(--padrao), 0.6);
+	border-radius: 3px;
+}
+.input-with-button{
+	max-width: calc(100% - 32px);
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	color: var(--texto);
+	background-color: var(--fundo-card);
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-with-button > input{
+	flex-grow: 1;
+	max-width: 100%;
+	background-color:var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	border-right: none;
+	outline: none;
+	height: 100%;
+	padding: 3px;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--texto);
+}
+.input-with-button > input:focus{
+	border: solid 1px rgba(var(--padrao), var(--opacidade-forte));
+}
+.input-with-button > button{
+	color: var(--texto);
+	background-color:var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	cursor: pointer;
+	font-weight: 600;
+	padding: 3px 9px;
+	border-left: solid 1px rgba(var(--padrao), var(--opacidade-media));
+} 
+.container-input_btn > button{
+	min-width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	color: var(--texto);
+	background-color:var(--fundo-card);
+	border: none;
+	cursor: pointer;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+}
+
+.container-pc-el > p{
+	display: flex;
+	gap: 6px;
+	position: relative;
+	background-color: var(--fundo-card);
+	padding: 3px;
+	font-weight: normal;
+	font-size: 0.9em;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 6px 3px 3px 3px;
+	cursor: pointer;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-fraca));
+    box-sizing: border-box; /* Adicione esta linha */
+	border-radius: 3px;
+    transition: background-color 0.3s, border 0.3s, opacity 0.3s; /* Adicione a transição para a borda */
+}
+
+.roxo{
+	text-wrap: nowrap;
+	padding: 3px 6px;
+}
+.no-break{
+	flex-grow: 1;
+	min-width: 0;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	padding: 6px;
+	/*scroll-margin: 100px; /*safari teste*/
+}
+
+.container-remove-edit-btn{
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	justify-content: flex-start;
+}
+.container-remove-edit-btn > button{
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	border-radius: 6px;
+	cursor:pointer;
+	font-weight: 600;
+	border-radius: 3px;
+	padding: 3px 6px;
+	color: var(--texto);
+	background-color: var(--fundo-card);
+}
+
+.container-input_btn > button:hover, .container-remove-edit-btn > button:hover{
+	border-color: rgba(var(--padrao), 0.6);
+}
+.no-break{
+	text-align: justify;
+}
+.roxo{
+	font-weight: 600;
+	color: var(--destaque);
+}
+.edit-green{
+	color: var(--aside-voce);
+}
+
+@media(max-width: 1250px){
+	#PALAVRAS, #CONTEUDOS{
+		width: 40%;
+		padding: 0;
+		margin: 0;
+	}
+	#container-palavras_conteudos{
+		justify-content: space-evenly;
+	}
+	.container-input_btn{
+		gap: 16px;
+	}
+	#palavra-to-upper-case, #gerar-conteudo{
+		display: unset;
+	}
+	.roxo{
+		padding: 3px 6px;
+	}
+}
+
+@media(max-width:1024px){
+	#navegacao, #area-cruzadinhas, #container-palavras_conteudos{
+		width:100%;
+		margin-left: 0;
+	}
+	#container-palavras_conteudos{
+		justify-content: center;
+		z-index: 10;
+	}
+	#PALAVRAS{
+		width: 90%;
+		padding: 0;
+		margin: 0;
+	}
+	.container-input_btn{
+		gap: 9px;
+	}
+	#palavra-to-upper-case, #gerar-conteudo{
+		display: none;
+	}
+	
+	.roxo{
+		padding: 3px;
+	}
+}
+
+@media((min-width: 500px) and (max-width: 750px)){
+	#PALAVRAS{
+		width: 65%;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media((min-width: 750px) and (max-width: 1025px)){
+	#PALAVRAS, #CONTEUDOS{
+		width: 40%;
+		padding: 0;
+		margin: 0;
+	}
+	#container-palavras_conteudos{
+		justify-content: space-evenly;
+	}
+	.container-input_btn{
+		gap: 16px;
+	}
+	#palavra-to-upper-case, #gerar-conteudo{
+		display: unset;
+	}
+	.roxo{
+		padding: 3px 6px;
+	}
+}
+
+.button-no-display{
+	display: none;
+}
+
+@media(min-width: 2200px) {
+	.input-with-button{
+		max-width: calc(75% - 32px);
+		flex-grow: 1;
+		display: flex;
+		flex-direction: row;
+		color: var(--texto);
+		background-color: var(--fundo-card);
+		font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+}

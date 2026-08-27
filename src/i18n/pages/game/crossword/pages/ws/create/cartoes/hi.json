@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - ऑनलाइन शब्द खोजना पहेली बनाएँ",
+    "description": "अपनी खुद की कस्टम शब्द खोज पहेली बनाएँ। आसान, तेज़ और मुफ़्त।",
+    "keywords": "शब्द खोजना, शब्द खोज पहेली, बनाएँ, जनरेटर, शिक्षा, पहेली"
+  },
+  "schema": {
+    "app_name": "ऑनलाइन शब्द खोज बनाएं",
+    "app_description": "Tap to Tool पर आसानी से अपने खुद के कस्टमाइज़्ड ऑनलाइन शब्द खोज बनाएं।",
+    "page_name": "शब्द खोज बनाएं",
+    "breadcrumb_home": "होम",
+    "breadcrumb_current": "शब्द खोज बनाएं",
+    "alternateName": "Creaftar शब्द खोज निर्माता",
+    "description": "Tap to Tool पर कस्टमाइज़्ड ऑनलाइन शब्द खोज बनाने का मुफ़्त टूल।",
+    "price_currency": "INR"
+  },
+  "ui": {
+    "error_clipboard": "पेस्ट करने में विफल। कृपया Ctrl + V का उपयोग करें या ब्राउज़र अनुमति जांचें।",
+    "paste_text": "टेक्स्ट पेस्ट करने के लिए क्लिक करें",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "मेनू छिपाने के लिए充",
+    "hide_text": "छिपाएँ"
+  },
+  "create_page": {
+    "words_title": "शब्द:",
+    "word_placeholder": "उदाहरण",
+    "add_word_aria": "शब्द जोड़ें",
+    "add_word_btn_aria": "शब्द जोड़ने के लिए बटन"
+  }
+}

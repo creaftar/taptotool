@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Jogar Cruzadinha Online - Tap to Tool",
+    "description": "Desafie sua mente com esta cruzadinha personalizada no Tap to Tool. Resolva enigmas, encontre palavras e divirta-se com jogos da comunidade.",
+    "keywords": "jogar cruzadinha, palavras cruzadas online, resolver cruzadinha, jogo de palavras, passatempo online, cruzadinha grátis"
+  },
+  "schema": {
+    "game_name": "Jogar Cruzadinha Online",
+    "description": "Jogue esta cruzadinha personalizada online no Tap to Tool. Gratuito e interativo!",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Jogar Cruzadinha",
+    "alternateName": "Creaftar Jogo de Cruzadinha",
+    "price_currency": "BRL"
+  },
+  "index": {
+    "horizontals": "HORIZONTAL",
+    "verticals": "VERTICAL",
+    "crossword_by": "Cruzadinha de "
+  },
+  "ui": {
+    "hide": "OCULTAR",
+    "hide_timer": "OCULTAR CRONOMETRO",
+    "show_answers": "EXIBIR AS RESPOSTAS",
+    "hints_prefix": "VOCÊ POSSUI",
+    "hints_suffix": "DICAS",
+    "stats_title": "Estatísticas",
+    "total_time": "Tempo total",
+    "chars_typed": "Caracteres digitados",
+    "hits": "Acertos",
+    "errors": "Erros",
+    "share": "Compartilhar",
+    "copy": "COPIAR",
+    "back_home": "INÍCIO",
+    "add_zoom": "ADICIONAR ZOOM",
+    "remove_zoom": "REMOVER ZOOM",
+    "print": "IMPRIMIR",
+    "completed_msg_prefix": "Você já completou",
+    "completed_msg_suffix": "cruzadinhas!",
+    "other_crosswords": "Outras cruzadinhas"
+  },
+  "play": {
+    "challenge_prefix": "Aceite o desafio! Jogue agora a cruzadinha ",
+    "challenge_suffix": ". Tente desvendar essa cruzadinha com dicas intrigantes como: ",
+    "challenge_footer": ", e muito mais. Você está preparado?",
+    "kw_cruzadinha": "cruzadinha de ",
+    "kw_jogo": "jogo de "
+  },
+  "daily":{
+    "cruzada_diaria_h1": "Palavra Cruzada Diária",
+    "next_crossword": "Próxima cruzadinha diária em:",
+    "curiosidade": "; Desvende dicas como: ",
+    "CTA":", e muito mais. Será que você consegue?",
+    "seo": {
+      "title": "Palavra Cruzada Diária - Desafio de Hoje - Tap to Tool",
+      "description": "Resolva o desafio de hoje! Uma nova palavra cruzada gratuita todos os dias para testar seus conhecimentos e treinar sua mente no Tap to Tool.",
+      "keywords": "palavra cruzada diária, cruzadinha do dia, desafio diário, jogo de palavras online, passatempo diário gratuito"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Palavra Cruzada Diária",
+      "description": "Um novo enigma de palavras cruzadas para resolver todos os dias. Desafie-se com dicas inéditas diariamente!"
+    },
+    "content": {
+      "h1": "Palavra Cruzada Diária",
+      "subtitle": "Um novo desafio a cada 24 horas. Você consegue resolver o de hoje?",
+      "timer_label": "Tempo do desafio:",
+      "next_in": "Próximo desafio em:"
+    },
+    "ui": {
+      "start_button": "COMEÇAR DESAFIO",
+      "check_word": "CONFERIR PALAVRA",
+      "reveal_letter": "REVELAR LETRA",
+      "hints_remaining": "DICAS RESTANTES:",
+      "stats_btn": "VER MEU DESEMPENHO",
+      "share_result": "COMPARTILHAR RESULTADO",
+      "calendar_view": "VER DESAFIOS ANTERIORES",
+      "loading": "PREPARANDO O DESAFIO DO DIA..."
+    },
+    "feedback": {
+      "win_title": "Parabéns! Desafio Concluído!",
+      "win_msg": "Você resolveu a cruzadinha de hoje em ",
+      "win_footer": "Volte amanhã para um novo enigma!",
+      "error_msg": "Algumas letras ainda não estão certas. Continue tentando!"
+    },
+    "social": {
+      "share_text": "Eu resolvi a Palavra Cruzada Diária do Tap to Tool em apenas {time}! Consegue bater meu tempo?"
+    }
+  }
+}

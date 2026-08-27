@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Program Afiliasi",
+    "description": "Pelajari cara kerja program afiliasi Tap to Tool dan kemitraan kami dengan platform e-commerce ternama.",
+    "keywords": "afiliasi, Tap to Tool, komisi, belanja online, mitra"
+  },
+  "ui": {
+    "h1": "Tap to Tool - Program Afiliasi",
+    "nav_home": "BERANDA",
+    "nav_create": "BUAT",
+    "nav_partner": "MITRA"
+  },
+  "content": {
+    "program_title": "Program",
+    "program_text": "Tap to Tool berpartisipasi dalam program afiliasi, yang berarti ketika Anda membeli sesuatu dengan mengeklik salah satu iklan kami, kami akan menerima persentase komisi kecil dari produk yang dibeli, jika penjualan tersebut memenuhi syarat dari mitra kami.",
+    "costs_title": "Apakah ada biaya tambahan saat mengeklik produk?",
+    "costs_text": "Tidak, Anda tidak akan dikenakan biaya tambahan. Satu-satunya perbedaan adalah mitra kami akan mengetahui bahwa Anda mengunjungi situs mereka melalui rekomendasi kami, sehingga mereka dapat memberikan komisi kepada kami, sebagaimana dijelaskan sebelumnya.",
+    "products_title": "Jenis produk apa saja yang ditawarkan?",
+    "products_text": "Kami berupaya, melalui analisis mendalam dan cermat, untuk menawarkan produk terbaik yang paling relevan dengan situs web kami. Jika Anda ingin melihat produk lain dan tetap membantu kami, Anda dapat",
+    "click_here": "klik di sini",
+    "criteria_intro": "Kriteria yang ditetapkan terutama didasarkan pada:",
+    "criterion_1": "Hubungan dengan Tap to Tool",
+    "criterion_2": "Jumlah pembelian",
+    "criterion_3": "Kualitas produk",
+    "criterion_4": "Nilai Guna (Cost-Benefit)",
+    "criterion_5": "Keandalan",
+    "criterion_6": "Daya tahan",
+    "criterion_7": "Ulasan Pelanggan"
+  }
+}

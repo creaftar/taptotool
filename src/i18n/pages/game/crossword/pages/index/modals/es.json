@@ -1,0 +1,7 @@
+{
+  "modals": {
+    "feedback_success": "ÉXITO: Se ha enviado su comentario",
+    "copy_success": "ÉXITO: Enlace copiado al portapapeles",
+    "login_prompt": "¡Inicia sesión para criar tus propios juegos!"
+  }
+}

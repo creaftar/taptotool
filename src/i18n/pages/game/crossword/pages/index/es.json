@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Hacer Crucigramas Online",
+    "description": "¡Ven a explorar Tap to Tool y crear crucigramas online! Crea, edita y elimina crucigramas como desees. Desafía a tus amigos y juega a los crucigramas personalizados hechos por nuestra comunidad.",
+    "keywords": "crucigramas online, hacer crucigramas online, crucigramas personalizados, encontrar palabras cruzadas, crear crucigrama, cómo crear una palabra cruzada, cómo crear un crucigrama, crucigrama de lol, crucigrama de pokemon, crucigrama para educación, crucigramas para la escuela, crucigrama de películas, crucigramas de animales, temas diversos de crucigrama, crucigrama de galletas, crear palabra cruzada, palabra-cruzada, montar crucigrama online, palabra cruzada online, crucigrama, crucigramas, palabras cruzadas, palabras-cruzadas, crucigramas directos, sopa de letras, palabras escondidas, pasatiempo, juegos online, crucigrama fácil, montar crucigrama fácil, generar palabra cruzada, generador de crucigramas, generador de palabras cruzadas, buscar palabras"
+  },
+  "schema": {
+    "app_name": "Hacer Crucigramas en Línea",
+    "app_description": "¡Explora Tap to Tool y juega crucigramas en línea! Crea, edita y juega crucigramas personalizados.",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Crucigramas en Línea",
+    "alternateName": "Creaftar Crucigramas",
+    "description": "Herramienta gratuita para crear, editar y jugar crucigramas en línea en Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Buscar crucigramas",
+    "search_aria": "Buscar crucigrama"
+  },
+  "pesquisa": {
+    "search_crossword": "Buscar crucigramas..."
+  },
+  "index": {
+    "login_prompt": "¡Inicia sesión para crear crucigramas!",
+    "logged_prompt": "Tus crucigramas:",
+    "words_found": "palabras encontradas",
+    "horizontals": "Horizontales",
+    "verticals": "Verticales",
+    "crossword_by": "Crucigrama de ",
+    "aria": {
+      "play_button": "Botón para jugar al crucigrama",
+      "options_button": "Botão para más opciones del crucigrama",
+      "copy_link": "Botón para copiar el enlace del crucigrama",
+      "edit_button": "Botón para editar el crucigrama",
+      "delete_button": "Botón para eliminar el crucigrama"
+    },
+    "time": {
+      "second": "hace un segundo",
+      "seconds": "hace segundos",
+      "minute": "hace un minuto",
+      "minutes": "hace minutos",
+      "hour": "hace una hora",
+      "hours": "hace horas",
+      "day": "hace un día",
+      "days": "hace días",
+      "month": "hace un mes",
+      "meses": "hace meses",
+      "year": "hace un año",
+      "years": "hace años"
+    },
+    "js_messages": {
+      "js_create_title": "CREAR CRUCIGRAMA",
+      "js_create_desc": "Crea o genera un nuevo crucigrama",
+      "js_create_link": "Crear crucigrama",
+      "js_create_aria": "Haz clic para crear o generar crucigramas"
+    }
+  }
+}

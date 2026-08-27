@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "ERWEITERTE EINSTELLUNGEN",
+    "edit_word": "WORT BEARBEITEN",
+    "word_to_edit": "ZU BEARBEITENDES WORT",
+    "next_word": "NÄCHSTES WORT",
+    "prev_word": "VORHERIGES WORT",
+    "toggle_direction": "ZWISCHEN VERTIKAL UND HORIZONTAL WECHSELN",
+    "auto_position": "ALLE WÖRTER AUTOMATISCH POSITIONIEREN",
+    "ai_generate": "WORTSUCHRÄTSEL AUS EINEM THEMA GENERIEREN",
+    "save_crossword": "WORTSUCHRÄTSEL SPEICHERN",
+    "zoom_in": "ZOOM VERGRÖSSERN",
+    "zoom_out": "ZOOM VERKLEINERN",
+    "tutorial": "TUTORIAL ZUM ERSTELLEN EINES WORTSUCHRÄTSELS"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Crucigramas",
+    "results_found": "crucigramas encontrados",
+    "no_results": "No se encontraron crucigramas"
+  },
+  "daily": {
+    "banner": "Jugar crucigrama diario",
+    "title": "Crucigrama Diario",
+    "next": "Nuevo crucigrama en:"
+  }
+}

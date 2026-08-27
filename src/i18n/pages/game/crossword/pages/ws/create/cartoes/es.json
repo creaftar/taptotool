@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Crear Sopa de Letras Online",
+    "description": "Crea tus propias sopas de letras personalizadas. Fácil, rápido y gratis.",
+    "keywords": "sopa de letras, crear, generador, educación, acertijo, buscar palabras"
+  },
+  "schema": {
+    "app_name": "Crear Sopa de Letras en Línea",
+    "app_description": "Crea fácilmente tus propias sopas de letras personalizadas en línea en Tap to Tool.",
+    "page_name": "Crear Sopa de Letras",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_current": "Crear Sopa de Letras",
+    "alternateName": "Creaftar Creador de Sopa de Letras",
+    "description": "Herramienta gratuita para crear sopas de letras personalizadas en línea en Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "error_clipboard": "Intenta pegar con Ctrl + V o revisa si el acceso al portapapeles está permitido.",
+    "paste_text": "Haz clic para pegar tu texto",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Botón para ocultar el menú",
+    "hide_text": "Ocultar"
+  },
+  "create_page": {
+    "words_title": "PALABRAS:",
+    "word_placeholder": "ejemplo",
+    "add_word_aria": "añadir palabra",
+    "add_word_btn_aria": "Botón para añadir palabra"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "TÍTULO DO CAÇA-PALAVRAS:",
+    "placeholder": "Caça-Palavras",
+    "hints_question": "VOCÊ DESEJA HABILITAR DICAS PARA O SEU CAÇA-PALAVRAS?",
+    "hints_obs": "(você poderá alterar essa opção mais tarde)",
+    "hints_yes": "Sim, quero habilitar dicas para o meu caça-palavras",
+    "hints_no": "Não habilite dicas para o meu caça-palavras",
+    "answer_key_question": "VOCÊ DESEJA CRIAR UM GABARITO PARA O SEU CAÇA-PALAVRAS?",
+    "answer_key_obs": "(O gabarito permitirá os jogadores verem as suas respostas - você poderá mudar essa opção mais tarde)",
+    "answer_key_yes": "Sim, eu quero criar um gabarito para o meu caça-palavras",
+    "answer_key_no": "Não crie um gabarito para o meu caça-palavras",
+    "share_question": "VOCÊ DESEJA COMPARTILHAR SEU CAÇA-PALAVRAS EM NOSSAS REDES SOCIAIS?",
+    "share_yes": "Sim, eu quero divulgar meu caça-palavras nas redes sociais do Creaftar",
+    "share_no": "Não compartilhe meu caça-palavras",
+    "save_button": "SALVAR",
+    "requirements_alert": "ATENÇÃO: Só será possível salvar seu caça-palavras se você se cadastrar"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA DO CAÇA-PALAVRAS",
+    "theme_placeholder": "Caça-Palavras",
+    "word_quantity": "Quantidade de palavras",
+    "generate_button": "GERAR"
+  },
+  "copy": {
+    "modal_preview": "PRÉ-VISUALIZAÇÃO",
+    "warning_main": "Não se preocupe com verticais e horizontais, analise os formatos esperados abaixo",
+    "your_text": "Seu Texto:",
+    "detector_stats": "{words} palavras / {clues} dicas",
+    "placeholder": "Cole seu texto aqui!",
+    "expected_formats": "Formatos Esperados:",
+    "btn_generate": "O TEXTO ESTÁ PRONTO",
+    "words_suffix": "palavras",
+    "clues_suffix": "dicas",
+    "examples": {
+      "dog": "Cachorro",
+      "cat": "Gato",
+      "bat": "Morcego",
+      "elephant": "Elefante",
+      "kangaroo": "Canguru",
+      "desc_dog": "O melhor amigo do homem",
+      "desc_cat": "Gosta de caçar ratos",
+      "desc_bat": "Mamífero que voa",
+      "desc_elephant": "Tem uma tromba",
+      "desc_kangaroo": "Grande marsupial"
+    },
+    "requirements_alert": "Ops! Parece que você não colou nada, copie um texto e tente novamente"
+  }
+}

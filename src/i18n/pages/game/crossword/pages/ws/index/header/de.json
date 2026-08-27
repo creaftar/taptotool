@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Wortsuchrätsel",
+    "results_found": "Wortsuchrätsel gefunden",
+    "no_results": "Keine Wortsuchrätsel gefunden"
+  },
+  "daily": {
+    "banner": "Tägliches Wortsuchrätsel spielen",
+    "title": "Tägliches Wortsuchrätsel",
+    "next": "Nächstes Rätsel in:"
+  }
+}

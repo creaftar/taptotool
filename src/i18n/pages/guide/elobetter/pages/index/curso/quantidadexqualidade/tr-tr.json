@@ -1,0 +1,25 @@
+{
+  "graph_title": "Maç Sayısı vs. Kalite",
+  "graph_subtitle": "Mevcut ELO'nda kazanma oranını zirvede tutmak için günlük ideal maç limitini keşfet ve her lig atladığında burayı tekrar kontrol et",
+  "axis_y_title": "Kazanma Oranı %",
+  "game_1": "1. Maç",
+  "game_3": "3. Maç",
+  "game_5": "5. Maç",
+  "game_8": "8. Maç+",
+  "axis_x_title": "Oynanan Maç",
+  "tier_ferro": "Demir/Bronz",
+  "tier_prata": "Gümüş",
+  "tier_ouro": "Altın",
+  "tier_esmeralda": "Plat/Zümrüt",
+  "tier_diamante": "Elmas",
+  "tier_mestre": "Aşama+",
+  "js_default_text": "Tempo analizini görmek için bir ligin üzerine gel.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Mutlak Yüksek Performans.</strong> Burada yapılan mikro hatalar doğrudan maçı satar. Zirve noktan maksimum 2 maçtır; 3. maçtan itibaren mikro kararlardaki zihinsel yorgunluk LP kazancını tamamen baltalar.",
+    "diamante": "<strong>Elmas: İstikrar Her Şeydir.</strong> Odaklanmayı en fazla 3 veya 4 maç boyunca koruyabilirsin. İnatla uzun seriler oynamak seni 'otomatik pilota' bağlar ki bu da High ELO'da hard-stuck kalmanın en büyük sebebidir.",
+    "esmeralda": "<strong>Plat & Zümrüt: Akıl Sağlığını Kaybetme Ligleri.</strong> Mekaniklerin 4. maça kadar idare edebilir ama tilt eşiğin ve zihinsel direncin çok hızlı tükenir. ELO'nu korumak istiyorsan: Üst üste iki maç kaybettiğinde alt-f4 çekip uzaklaş.",
+    "ouro": "<strong>Altın: Orta Karar Denge.</strong> Karşı takım hataları anında cezalandırmadığı için günlük 5-6 maçlık bir hacmi kaldırabilirsin (maç spamelemek iş yapar), ancak serinin sonlarına doğru makro odağın tamamen çöpe gider.",
+    "prata": "<strong>Gümüş: Pratik Hacmi.</strong> Bu lig sürekli makro takip gerektirmediğinden zihinsel yorgunluk kazanma oranını pek etkilemez. Makro düşünmekle uğraşmak yerine temel mekanikleri oturtmak için maç spamelemek en doğrusudur.",
+    "ferro": "<strong>Demir/Bronz: Kaba Kuvvet.</strong> Yorgunluk burada bir engel değil. Zihinsel yıpranmayı dert etmek yerine herkesi susturup (/mute all) bodoslama maç oynamak ve şampiyonunun sınırlarını test etmek her zaman daha çok kazandırır. Uzun seriler yapabilirsin."
+  }
+}

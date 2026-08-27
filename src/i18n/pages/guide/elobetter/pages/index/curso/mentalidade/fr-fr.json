@@ -1,0 +1,18 @@
+{
+  "title": "La Bonne Mentalité",
+  "main_card_title": "Qu'est-ce que la déstabilisation émotionnelle (tilter)",
+  "card_1_title": "Le Mécanisme",
+  "card_2_title": "L'Impact",
+  "card_3_title": "Quand cela se produit",
+  "card_4_title": "Que Faire",
+  "warning_text": "⚠️ Dans toutes vos parties, vous allez couper le chat (allié comme ennemi) et masquer les emotes ennemies pour éviter les distractions",
+  "img_alt": "Comment couper le chat du jeu",
+  "img_subtext": "Conservez cette configuration ci-dessus (assurez-vous de cocher également la case des emotes)",
+  "js_texts": [
+    "",
+    "L'amygdale prend le contrôle. (La partie du cerveau responsable des réponses émotionnelles de type « combat ou fuite »)",
+    "Elle désactive temporairement le cortex préfrontal, qui est la zone du cerveau responsable de la pensée logique, de la planification et du contrôle des impulsions. <span class=\"destaque\">Vous arrêtez de réfléchir et commencez simplement à réagir.</span>",
+    "Vous tiltez lorsque vous voulez que la partie se déroule d'une certaine manière, mais que les actions de vos alliés ou de vos ennemis vous montrent que vous n'avez aucun contrôle sur le match.",
+    "Quand vous vous en rendez compte, la meilleure décision technique à prendre est de faire une pause, de respirer profondément et de vous éloigner du jeu pendant un certain temps jusqu'à ce que le cortex préfrontal reprenne le contrôle."
+  ]
+}

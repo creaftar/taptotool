@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Word Search",
+    "results_found": "Word searches found",
+    "no_results": "No word searches found"
+  },
+  "daily": {
+    "banner": "Play daily word search",
+    "title": "Daily Word Search",
+    "next": "Next puzzle in:"
+  }
+}

@@ -1,0 +1,195 @@
+.modal-salvar{
+	z-index: 999;
+	display: flex;
+	position: fixed;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px rgba(var(--padrao), 1);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	background: var(--fundo-card);
+	flex-direction: column;
+    width: 470px;
+	max-width: 94vw;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--texto);
+	max-height: calc(79vh - 124px);
+}
+.fechar-salvar-modal{
+	padding: 0;
+}
+#h3-salvar-moodal{
+	font-size: large;
+	padding: 12px 0;
+	width: 100%;
+	min-height: fit-content;
+	text-align: center;
+	display: block;
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+.area-postagem{
+	padding: 0 9px;
+}
+.container-input-postar{
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 9px 0; 
+    padding: 9px 6px;
+}
+.titulo-modal{
+	margin: 9px 0;
+}
+i.close-salvar{
+	color: var(--texto);
+	width: 100%;
+	height: 32px;
+	border-bottom: dashed 1px rgba(var(--padrao), 0.3);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: flex-end;
+	padding: 0 12px;
+}
+.conteudo-salvar{
+	display:flex;
+	flex-direction: column;
+	padding: 0 12px 12px 12px;
+	width: 100%;
+	max-width: 90vw;
+	max-height:calc(79vh - 118px);
+	overflow:auto;
+}
+#container-input-emoji-salvar{
+	width: 100%;
+	display: flex;
+	min-height: fit-content;
+	margin-bottom:9px;
+	border: solid 1px rgba(var(--padrao), var(--opacidade-media));
+}
+#titulo-input{
+	border: none;
+	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color:var(--texto);
+	background-color: var(--fundo-card);
+	flex-grow: 1;
+	padding: 9px;
+	align-self: center;
+	justify-self: center;
+	outline: none;
+}
+#titulo-input:focus{
+	border: solid 1px rgba(var(--padrao), var(--opacidade-forte));
+}
+#btn-emoji-salvar{
+	cursor: pointer;
+	filter: grayscale(100%);
+	width: 64px;
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-left: solid 1px rgba(var(--padrao), var(--opacidade-media));
+	background-color: rgba(var(--padrao), 0.1);
+	transition: background-color 0.2s;
+	position: relative;
+}
+#btn-emoji-salvar:hover{
+	background-color: var(--destaque);
+}
+#container-emojis-salvar{
+	position: relative;
+}
+#preview-card-emojis{
+	width: 300px;
+	height: 250px;
+	background-color: var(--fundo-card);
+	border: solid 1px rgba(var(--padrao), var(--opacidade-forte));
+	position: absolute;
+	top: 100%;
+	right: 0;
+	filter:none;
+	max-height: 90vh;
+	max-width: 70vw;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+#container-grid-emojis{
+	flex-grow: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    /* 2. Para Firefox */
+    scrollbar-width: none;
+
+    /* 3. Para Internet Explorer e Edge (versões antigas) */
+    -ms-overflow-style: none;
+
+    /* Garante que o scroll continue funcionando */
+    overflow-y: auto;
+}
+#footer-emojis-salvar{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.tab-btn{
+	height: 32px;
+	flex-grow: 1;
+	border-radius: 0;
+	border: none;
+	border-top: solid 1px rgba(var(--padrao), var(--opacidade-forte));
+	background-color: var(--fundo-hover);
+	cursor: pointer;
+}
+.tab-btn:hover{
+	background-color: rgba(var(--padrao), 0.3);
+}
+.emoji-item{
+	width: 32px;
+	height: 32px;
+	display: block;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.emoji-item:hover{
+	background-color: rgba(var(--padrao), 0.3);
+}
+.titulo-modal{
+	width: 100%;
+	font-weight: 600;
+	color: rgba(var(--padrao), 1);
+	font-size: 0.9em;
+	text-justify: unset;
+	display: flex;
+	flex-direction: row;
+	gap: 9px;
+}
+.titulo-com-dica-save{
+	display: flex;
+	flex-direction: column;
+}
+.observacao{
+	line-height: 1.6em;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 0.8em;
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgba(var(--padrao), 1);
+}
+
+.destacado{
+	color: var(--destaque);
+	width: 32px;
+}
+.conteudoInteracao{
+	margin: 0 0 0 41px;
+}
+

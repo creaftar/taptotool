@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Kreuzworträtsel online erstellen & lösen",
+    "description": "Entdecke Tap to Tool und erstelle eigene Kreuzworträtsel online! Gestalte, bearbeite und teile deine Rätsel nach deinen Wünschen. Fordere Freunde heraus und spiele die besten Kreuzworträtsel unserer Community.",
+    "keywords": "Kreuzworträtsel online, Kreuzworträtsel erstellen, eigene Rätsel machen, Worträtsel Generator, Rätsel für Kinder, Schulrätsel, Kreuzworträtsel Vorlagen, Wortsuche online, Denkspiele, gratis Kreuzworträtsel, Buchstabensalat, Rätselspaß online"
+  },
+  "schema": {
+    "app_name": "Online-Kreuzworträtsel erstellen",
+    "app_description": "Entdecken Sie Tap to Tool und lösen Sie Online-Kreuzworträtsel! Erstellen, bearbeiten und spielen Sie benutzerdefinierte Kreuzworträtsel.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Online-Kreuzworträtsel",
+    "alternateName": "Creaftar Kreuzworträtsel",
+    "description": "Kostenloses Tool zum Erstellen, Bearbeiten und Spielen von Online-Kreuzworträtseln auf Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Kreuzworträtsel suchen",
+    "search_aria": "Suche nach Kreuzworträtseln"
+  },
+  "pesquisa": {
+    "search_crossword": "Kreuzworträtsel suchen..."
+  },
+  "index": {
+    "login_prompt": "Anmelden, um Kreuzworträtsel zu erstellen!",
+    "logged_prompt": "Ihre Kreuzworträtsel:",
+    "words_found": "Wörter gefunden",
+    "horizontals": "Waagerecht",
+    "verticals": "Senkrecht",
+    "crossword_by": "Kreuzworträtsel von ",
+    "aria": {
+      "play_button": "Button zum Spielen des Kreuzworträtsels",
+      "options_button": "Button für weitere Optionen",
+      "copy_link": "Button zum Kopieren des Links",
+      "edit_button": "Button zum Bearbeiten",
+      "delete_button": "Button zum Löschen"
+    },
+    "time": {
+      "second": "vor einer Sekunde", "seconds": "vor Sekunden",
+      "minute": "vor einer Minute", "minutes": "vor Minuten",
+      "hour": "vor einer Stunde", "hours": "vor Stunden",
+      "day": "vor einem Tag", "days": "vor Tagen",
+      "month": "vor einem Monat", "meses": "vor Monaten",
+      "year": "vor einem Jahr", "years": "vor Jahren"
+    },
+    "js_messages": {
+      "js_create_title": "KREUZWORTRÄTSEL ERSTELLEN",
+      "js_create_desc": "Erstellen oder generieren Sie ein neues Kreuzworträtsel",
+      "js_create_link": "Rätsel erstellen",
+      "js_create_aria": "Klicken, um Kreuzworträtsel zu erstellen oder zu generieren"
+    }
+  }
+}

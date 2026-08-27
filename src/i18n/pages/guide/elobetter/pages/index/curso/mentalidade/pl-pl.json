@@ -1,0 +1,18 @@
+{
+  "title": "Właściwe Nastawienie",
+  "main_card_title": "Czym Jest Destabilizacja Emocjonalna (Tilt)",
+  "card_1_title": "Mechanizm",
+  "card_2_title": "Wpływ",
+  "card_3_title": "Kiedy Występuje",
+  "card_4_title": "Co Zrobić",
+  "warning_text": "⚠️ We wszystkich swoich grach wyciszysz czat (zarówno sojuszniczy, jak i przeciwnika) oraz wyciszysz emotki wroga, aby uniknąć rozproszenia uwagi",
+  "img_alt": "Jak wyciszyć czat w grze",
+  "img_subtext": "Zachowaj powyższe ustawienia (upewnij się, że zaznaczysz również pole wyciszenia emotek)",
+  "js_texts": [
+    "",
+    "Ciało migdałowate przejmuje kontrolę. (Część mózgu odpowiedzialna za reakcje emocjonalne typu „walcz lub uciekaj”)",
+    "Tymczasowo dezaktywuje ono korę przedczołową, która jest obszarem mózgu odpowiedzialnym za logiczne myślenie, planowanie i kontrolę impulsów. <span class=\"destaque\">Przestajesz myśleć i zaczynasz jedynie reagować.</span>",
+    "Tiltujesz się, gdy chcesz, aby mecz potoczył się w określony sposób, ale działania twoich sojuszników lub przeciwników pokazują, że nie masz kontroli nad rozgrywką.",
+    "Gdy to zauważysz, najlepszą decyzją techniczną, jaką możesz podjąć, jest zrobienie przerwy, głęboki oddech i odsunięcie się od gry na pewien czas, aż kora przedczołowa odzyska kontrolę."
+  ]
+}

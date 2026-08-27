@@ -1,0 +1,25 @@
+{
+  "graph_title": "Quantité vs. Qualité",
+  "graph_subtitle": "Découvre la limite exacte de tes games quotidiennes pour maintenir un winrate élevé à ton ELO actuel et consulte à nouveau à chaque up-rank",
+  "axis_y_title": "Winrate %",
+  "game_1": "1ère Game",
+  "game_3": "3ème Game",
+  "game_5": "5ème Game",
+  "game_8": "8ème Game+",
+  "axis_x_title": "Games Jouées",
+  "tier_ferro": "Fer/Bronze",
+  "tier_prata": "Argent",
+  "tier_ouro": "Or",
+  "tier_esmeralda": "Plat/Émeraude",
+  "tier_diamante": "Diamant",
+  "tier_mestre": "Master+",
+  "js_default_text": "Passe la souris sur un ELO para voir l'analyse de rythme.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Haute Performance Absolue.</strong> Ici, la moindre micro-erreur te coûte la game. Ton pic est de 2 games max ; dès la 3ème, la fatigue décisionnelle flingue littéralement tes gains de LP.",
+    "diamante": "<strong>Diamant : La Régularité est Reine.</strong> Tu peux rester focus pendant environ 3 à 4 games. Forcer des sessions plus longues enclenche le mode 'pilote automatique', le pire ennemi pour climb en High ELO.",
+    "esmeralda": "<strong>Plat & Émeraude : Les ELOs du mental break.</strong> Tes mécaniques tiennent le coup jusqu'à la 4ème game, mais ta résilience psychologique s'effondre vite. Sauve tes LP : si tu prends deux défaites d'affilée, stop la botlane et déconnecte.",
+    "ouro": "<strong>Or : Équilibre Intermédiaire.</strong> Tu encaisses un volume correct (jusqu'à 5-6 games) parce que les 'throws' ne sont pas punis instantanément, mais ton focus macro commence à disparaître en fin de session.",
+    "prata": "<strong>Argent : Volume d'Apprentissage.</strong> La fatigue n'impacte que très peu ton winrate car ce palier demande moins de focus macro constant. Ça vaut le coup de spammer les games pour automatiser tes fondamentaux.",
+    "ferro": "<strong>Fer/Bronze : Force Brute.</strong> La fatigue n'est pas le facteur limitant ici. Pas besoin de sur-réfléchir au mental : /mute all, enchaîne les games pour accumuler de l'expérience et limite-test tes champions au max. Tu peux enchaîner les longues sessions."
+  }
+}

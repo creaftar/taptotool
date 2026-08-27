@@ -1,0 +1,25 @@
+{
+  "graph_title": "Mennyiség vs. Minőség",
+  "graph_subtitle": "Találd meg a napi meccsek pontos felső határát a magas win rate megtartásához a jelenlegi ELO-don, és nézz vissza minden rank up után",
+  "axis_y_title": "Win Rate %",
+  "game_1": "1. Meccs",
+  "game_3": "3. Meccs",
+  "game_5": "5. Meccs",
+  "game_8": "8. Meccs+",
+  "axis_x_title": "Lejátszott Meccsek",
+  "tier_ferro": "Iron/Bronze",
+  "tier_prata": "Silver",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Emerald",
+  "tier_diamante": "Diamond",
+  "tier_mestre": "Master+",
+  "js_default_text": "Vidd a kurzort egy ELO fölé a tempóelemzés megtekintéséhez.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Abszolút High Performance.</strong> Itt a legkisebb mikro-hiba is a meccsbe kerül. A peak formád maximum 2 meccsig tart; a 3. játéktól a döntési fáradtság teljesen bedönti az LP-nyereségedet.",
+    "diamante": "<strong>Diamond: A Konzisztencia a Király.</strong> Körülbelül 3-4 meccsig tudod fenntartani a maximális fókuszt. A hosszú sessionök erőltetése bekapcsolja az 'autopilot' módot, ami a High ELO climb legnagyobb ellensége.",
+    "esmeralda": "<strong>Plat & Emerald: A Mentális Összeomlás Ligái.</strong> A mechanikád még bírja a 4. meccsig, de a mentális ellenálló képességed gyorsan zuhan. Védd meg az ELO-dat: ha kettőt veszítesz zsinórban, zárd be a játékot.",
+    "ouro": "<strong>Gold: Középkategóriás Egyensúly.</strong> Elbírsz egy nagyobb volument (akár 5-6 meccset is), mert a throw-kat még nem büntetik azonnal, de a session végére a makró fókuszod teljesen ködbe vész.",
+    "prata": "<strong>Silver: Gyakorló Volumen.</strong> A fáradtság itt ritkán rontja a win rate-edet, mivel ez a szint kevesebb folyamatos makró figyelmet követel meg. Megéri spamelni a meccseket az alapvető mechanikák rögzítéséhez.",
+    "ferro": "<strong>Iron/Bronze: Nyers Erő.</strong> A fáradtság itt nem tényező. Ahelyett, hogy a mentál miatt aggódnál, nyomj egy /mute all-t, gyűjts játéktapasztalatot, és teszteld a bajnokod határait (limit-test). Nyugodtan tolhatsz hosszú sessionöket."
+  }
+}

@@ -1,0 +1,42 @@
+---
+interface Props {}
+
+import '@/assets/styles/pages/game/crossword/pages/index/head/cabecalho.css';
+
+/*export async function getStaticPaths() {
+  return [
+    { params: { lang: undefined } },
+    { params: { lang: 'pt' } },
+    
+    { params: { lang: 'es' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+    { params: { lang: 'de' } },
+    { params: { lang: 'ru' } },
+    { params: { lang: 'id' } },
+    { params: { lang: 'hi' } },
+  ];
+}*/
+
+const lang = Astro.currentLocale || 'en'; 
+
+import pt from "@/i18n/pages/game/crossword/pages/index/header/pt.json";
+import en from "@/i18n/pages/game/crossword/pages/index/header/en.json";
+import es from "@/i18n/pages/game/crossword/pages/index/header/es.json";
+import fr from "@/i18n/pages/game/crossword/pages/index/header/fr.json";
+import it from "@/i18n/pages/game/crossword/pages/index/header/it.json";
+import de from "@/i18n/pages/game/crossword/pages/index/header/de.json";
+import ru from "@/i18n/pages/game/crossword/pages/index/header/ru.json";
+import id from "@/i18n/pages/game/crossword/pages/index/header/id.json";
+import hi from "@/i18n/pages/game/crossword/pages/index/header/hi.json";
+
+const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const d = locales[lang as keyof typeof locales].header || locales.en.header;
+---
+
+<header class="cabecalho-conteudo-principal">
+    <h1 id="Crivras-h1">{d.title}</h1>
+    <p id="qtdCrzdTitulo">
+        <span id="numberCrosswordsTitle">0</span> {d.results_found}
+    </p>
+</header>

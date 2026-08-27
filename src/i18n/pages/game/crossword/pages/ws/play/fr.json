@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Jouer aux Mots Mélangés en Ligne Gratuit - Tap to Tool",
+    "description": "Défiez votre esprit et améliorez votre concentration visuelle avec ce jeu de mots mélangés exclusif sur Tap to Tool. Trouvez les mots cachés et amusez-vous avec les meilleurs jeux de la communauté !",
+    "keywords": "jouer mots mélangés, mots cachés en ligne, trouver des mots, jeu de mots cachés, entraînement cérébral, mots mélangés gratuits, jeux d'agilité mentale"
+  },
+  "schema": {
+    "game_name": "Jouer aux Mots Mêlés en Ligne",
+    "description": "Jouez à ce jeu de mots mêlés personnalisé en ligne sur Tap to Tool. Gratuit et interactif !",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Jouer aux Mots Mêlés",
+    "alternateName": "Creaftar Jeu de Mots Mêlés",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "MASQUER",
+    "hide_timer": "MASQUER LE CHRONO",
+    "show_answers": "RÉVÉLER LES MOTS",
+    "hints_prefix": "VOUS AVEZ",
+    "hints_suffix": "INDICES",
+    "stats_title": "Vos Statistiques",
+    "total_time": "Temps total",
+    "chars_typed": "Mots trouvés",
+    "hits": "Succès",
+    "errors": "Erreurs",
+    "share": "Partager",
+    "copy": "COPIER",
+    "back_home": "ACCUEIL",
+    "add_zoom": "ZOOMER",
+    "remove_zoom": "DÉZOOMER",
+    "print": "IMPRIMER LA GRILLE",
+    "completed_msg_prefix": "Vous avez maîtrisé et complété",
+    "completed_msg_suffix": "mots mélangés !",
+    "other_crosswords": "Autres Mots Mélangés Recommandés"
+  },
+  "index": {
+    "horizontals": "MOTS",
+    "verticals": "LISTE DE MOTS",
+    "crossword_by": "Mots mélangés créés par "
+  },
+  "play": {
+    "challenge_prefix": "Entraînez votre cerveau ! Jouez aux mots mélangés ",
+    "challenge_suffix": " dès maintenant et testez votre vitesse visuelle. Essayez de trouver des mots cachés comme : ",
+    "challenge_footer": ", et bien plus encore. Êtes-vous prêt pour le défi ?",
+    "kw_cruzadinha": "mots mélangés de ",
+    "kw_jogo": "jeu de recherche de mots sur "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Mots Mélangés Quotidiens",
+    "next_crossword": "Prochain jeu du jour dans :",
+    "curiosidade": "; Trouvez des termes cachés comme : ",
+    "CTA": ", et bien plus encore. Votre regard sera-t-il assez rapide ?",
+    "seo": {
+      "title": "Mots Mélangés Quotidiens - Le Défi Cérébral du Jour - Tap to Tool",
+      "description": "Résolvez le défi ultime d'aujourd'hui ! Un jeu de mots mélangés inédit et gratuit chaque jour pour tester votre concentration, enrichir votre vocabulaire et entraîner votre esprit sur Tap to Tool.",
+      "keywords": "mots mélangés quotidiens, grille du jour, défi visuel quotidien, recherche de mots en ligne, passe-temps gratuit"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Mots Mélangés Quotidiens",
+      "description": "Une nouvelle grille de mots mélangés à résoudre chaque jour. Défiez votre perception visuelle quotidiennement avec des thèmes inédits !"
+    },
+    "content": {
+      "h1": "Mots Mélangés Quotidiens",
+      "subtitle": "Une nouvelle dose d'entraînement mental toutes les 24 heures. Saurez-vous trouver tous les mots d'aujourd'hui ?",
+      "timer_label": "Temps de recherche :",
+      "next_in": "Prochaine grille dans :"
+    },
+    "ui": {
+      "start_button": "COMMENCER LE DÉFI QUOTIDIEN",
+      "check_word": "VÉRIFIER LA SÉLECTION",
+      "reveal_letter": "RÉVÉLER UNE LETTRE",
+      "hints_remaining": "INDICES RESTANTS :",
+      "stats_btn": "VOIR MES PERFORMANCES",
+      "share_result": "PARTAGER LE RÉSULTAT",
+      "calendar_view": "VOIR LES JEUX PRÉCÉDENTS",
+      "loading": "PRÉPARATION DE LA GRILLE DU JOUR..."
+    },
+    "feedback": {
+      "win_title": "Incroyable ! Un Regard d'Aigle !",
+      "win_msg": "Vous avez trouvé tous les mots cachés d'aujourd'hui en ",
+      "win_footer": "Votre cerveau vous remercie ! Revenez demain pour une nouvelle grille.",
+      "error_msg": "Certaines sélections ne sont pas correctes ou il manque des mots. Continuez à chercher !"
+    },
+    "social": {
+      "share_text": "J'ai trouvé tous les mots du Défi Quotidien de Tap to Tool en seulement {time} ! Je parie que vous ne pouvez pas battre mon chrono !"
+    }
+  }
+}

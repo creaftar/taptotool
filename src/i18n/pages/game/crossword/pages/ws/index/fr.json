@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Mots Mêlés en Ligne",
+    "description": "Jouez gratuitement aux mots mêlés ou créez vos propres jeux ! Partagez-les avec vos amis e défiez la communauté...",
+    "keywords": "mots mêlés en ligne, créer des mots mêlés, mots cachés personnalisés, mots recherchés, grille de mots mêlés gratuits, générateur de mots mêlés, jeux de lettres, jeux de mots cachés en ligne, remue-méninges"
+  },
+  "schema": {
+    "app_name": "Faire des Mots Mêlés en Ligne",
+    "app_description": "Explorez Tap to Tool et jouez aux mots mêlés en ligne ! Créez, modifiez et jouez à des mots mêlés personnalisés.",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Mots Mêlés en Ligne",
+    "alternateName": "Creaftar Mots Mêlés",
+    "description": "Outil gratuit pour créer, modifier et jouer à des mots mêlés en ligne sur Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "search_placeholder": "Rechercher des mots mêlés",
+    "search_aria": "Rechercher des mots mêlés"
+  },
+  "pesquisa": {
+    "search_crossword": "Rechercher des mots mêlés..."
+  },
+  "index": {
+    "login_prompt": "Connectez-vous pour créer des mots mêlés !",
+    "logged_prompt": "Vos mots mêlés :",
+    "words_found": "mots trouvés",
+    "horizontals": "Horizontal & Vertical",
+    "verticals": "Diagonal & Inversé",
+    "crossword_by": "Mots mêlés de ",
+    "aria": {
+      "play_button": "Bouton pour jouer aux mots mêlés",
+      "options_button": "Bouton pour plus d'options",
+      "copy_link": "Bouton pour copier le lien",
+      "edit_button": "Bouton pour modifier",
+      "delete_button": "Bouton pour supprimer"
+    },
+    "time": {
+      "second": "il y a une seconde", "seconds": "il y a quelques secondes",
+      "minute": "il y a une minute", "minutes": "il y a quelques minutes",
+      "hour": "il y a une heure", "hours": "il y a quelques heures",
+      "day": "il y a un jour", "days": "il y a quelques jours",
+      "month": "il y a un mois", "meses": "il y a quelques mois",
+      "year": "il y a un an", "years": "il y a quelques années"
+    },
+    "js_messages": {
+      "js_create_title": "CRÉER DES MOTS MÊLÉS",
+      "js_create_desc": "Créez ou générez une nouvelle grille de mots cachés",
+      "js_create_link": "Créer des mots mêlés",
+      "js_create_aria": "Cliquez pour créer ou générer des mots mêlés"
+    }
+  }
+}

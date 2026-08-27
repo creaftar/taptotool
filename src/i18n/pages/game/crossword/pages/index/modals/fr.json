@@ -1,0 +1,7 @@
+{
+  "modals": {
+    "feedback_success": "SUCCÈS : Votre avis a été envoyé",
+    "copy_success": "SUCCÈS : Lien copié dans le presse-papiers",
+    "login_prompt": "Connectez-vous pour créer vos propres jeux !"
+  }
+}

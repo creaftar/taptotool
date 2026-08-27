@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "Torna alla pagina iniziale",
+    "disconnected": "Sei disconnesso",
+    "connected": "Sei connesso",
+    "email_label": "EMAIL:",
+    "password_label": "PASSWORD:",
+    "confirm_password_label": "CONFERMA PASSWORD:",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "password",
+    "already_have_account": "Hai già un account?",
+    "no_account": "Non hai ancora un account? Registrati!",
+    "btn_register": "REGISTRATI",
+    "btn_login": "ACCEDI",
+    "btn_logout": "DISCONNETTI",
+    "search_crossword_aria": "Cerca cruciverba",
+    "search_placeholder": "Cerca cruciverba",
+    "hide_menu_aria": "Pulsante per nascondere il menu",
+    "hide_menu_text": "Nascondi Menu",
+    "expand": "Espandi",
+    "hide": "Nascondi",
+    "lang_display": "Italiano"
+  },
+  "auth_errors": {
+    "invalid_email": "Indirizzo email non valido",
+    "user_not_found": "Indirizzo email non trovato",
+    "wrong_password": "La password fornita è errata",
+    "too_many_requests": "Troppi tentativi di accesso falliti",
+    "network_failed": "Errore di rete durante l'autenticazione",
+    "weak_password": "La password fornita è troppo debole",
+    "email_in_use": "L'indirizzo email è già associato a un altro account",
+    "different_credential": "Tentativo di accesso con un provider diverso (es. Google)",
+    "operation_not_allowed": "Operazione non consentita",
+    "internal_error": "Errore interno nel server di autenticazione",
+    "missing_password": "Inserisci la password",
+    "invalid_credential": "Credenziali non valide (solitamente accade migrando l'account verso Google, Twitter o Yahoo)",
+    "passwords_dont_match": "Le password non corrispondono"
+  }
+}

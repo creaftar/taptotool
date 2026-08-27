@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Crea Crucipuzzle Online",
+    "description": "Crea i tuoi crucipuzzle personalizzati. Facile, veloce e gratuito.",
+    "keywords": "crucipuzzle, parole intrecciate, creare, generatore, educazione, puzzle"
+  },
+  "schema": {
+    "app_name": "Crea Caccia alle Parole Online",
+    "app_description": "Crea facilmente la tua caccia alle parole personalizzata online su Tap to Tool.",
+    "page_name": "Crea Caccia alle Parole",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Crea Caccia alle Parole",
+    "alternateName": "Creaftar Creatore di Caccia alle Parole",
+    "description": "Strumento gratuito per creare caccia alle parole personalizzate online su Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "error_clipboard": "Prova a incollare con CTRL + V o verifica se è permesso l'accesso agli appunti",
+    "paste_text": "Clicca per incollare il tuo testo",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Pulsante per nascondere il menu",
+    "hide_text": "Nascondi"
+  },
+  "create_page": {
+    "words_title": "PAROLE:",
+    "word_placeholder": "esempio",
+    "add_word_aria": "aggiungi parola",
+    "add_word_btn_aria": "Pulsante per aggiungere parola"
+  }
+}

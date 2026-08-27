@@ -1,0 +1,25 @@
+{
+  "graph_title": "Ποσότητα vs. Ποιότητα",
+  "graph_subtitle": "Βρες το ακριβές όριο καθημερινών παιχνιδιών για να κρατήσεις υψηλό το win rate στο τρέχον ELO σου και έλεγξέ το ξανά κάθε φορά που ανεβαίνεις rank",
+  "axis_y_title": "Win Rate %",
+  "game_1": "1ο Παιχνίδι",
+  "game_3": "3ο Παιχνίδι",
+  "game_5": "5ο Παιχνίδι",
+  "game_8": "8ο Παιχνίδι+",
+  "axis_x_title": "Παιχνίδια",
+  "tier_ferro": "Iron/Bronze",
+  "tier_prata": "Silver",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Emerald",
+  "tier_diamante": "Diamond",
+  "tier_mestre": "Master+",
+  "js_default_text": "Κάνε hover πάνω από ένα rank για να δεις την ανάλυση ρυθμού.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Απόλυτο High Performance.</strong> Εδώ τα μικρολάθη κοστίζουν ολόκληρο το game. Το peak σου είναι το πολύ 2 παιχνίδια. Από το 3ο και μετά, η πνευματική κόπωση εκμηδενίζει τα LP gains σου.",
+    "diamante": "<strong>Diamond: Το Consistency είναι το Παν.</strong> Μπορείς να μείνεις focus για περίπου 3 με 4 παιχνίδια. Αν πιέσεις για παραπάνω, θα μπεις σε 'autopilot' – τον μεγαλύτερο εχθρό για να κάνεις climb στο High ELO.",
+    "esmeralda": "<strong>Plat & Emerald: Τα Ranks του Mental Breakdown.</strong> Τα μηχανικά σου skills αντέχουν μέχρι το 4ο game, αλλά το ψυχολογικό σου resilience πέφτει κατακόρυφα. Μην το ζορίζεις: αν χάσεις δύο σερί, κλείσε το παιχνίδι.",
+    "ouro": "<strong>Gold: Ισορροπία Μεσαίας Κατηγορίας.</strong> Αντέχεις ένα καλό volume (έως 5-6 παιχνίδια) επειδή τα throws δεν τιμωρούνται ακαριαία, αλλά προς το τέλος του session το macro focus σου πάει περίπατο.",
+    "prata": "<strong>Silver: Volume για Practice.</strong> Η κούραση σπάνια ρίχνει το win rate σου εδώ, καθώς αυτό το tier δεν απαιτεί συνεχή macro έλεγχο. Αξίζει να σπαμάρεις παιχνίδια για να στρώσεις τα core fundamentals σου.",
+    "ferro": "<strong>Iron/Bronze: Ωμή Δύναμη.</strong> Η κούραση δεν είναι το bottleneck σου εδώ. Αντί να αγχώνεσαι για το mental, κάνε /mute all, μάζεψε match experience και κάνε limit-test τους champions σου. Μπορείς να λιώσεις σε μεγάλα sessions ελεύθερα."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "modals": {
+    "feedback_success": "ERFOLG: Ihr Feedback wurde gesendet",
+    "copy_success": "ERFOLG: Link in die Zwischenablage kopiert",
+    "login_prompt": "Melde dich an, um deine eigenen Spiele zu erstellen!"
+  }
+}

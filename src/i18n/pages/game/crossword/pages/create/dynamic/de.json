@@ -1,0 +1,12 @@
+{
+  "js_messages": {
+    "describe_prefix": "Beschreiben Sie hier, was gemeint ist mit ",
+    "move_allow": "BEWEGUNG DES WORTES ZULASSEN",
+    "move_block": "BEWEGUNG DES WORTES SPERREN",
+    "auto_pos_enabled": "AKTIVIERT: ALLE WÖRTER AUTOMATISCH POSITIONIEREN",
+    "auto_pos_disabled": "DEAKTIVIERT: ALLE WÖRTER AUTOMATISCH POSITIONIEREN",
+    "toggle_direction": "ZWISCHEN VERTIKAL UND HORIZONTAL WECHSELN",
+    "req_min_words": "ANFORDERUNGEN: 5 Wörter erstellt, Titel ausgefüllt",
+    "req_registration": "ANFORDERUNGEN: Registrieren Sie sich, um Ihr Rätsel zu speichern"
+  }
+}

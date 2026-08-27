@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Online Crossword Puzzles",
+    "description": "Explore Tap to Tool and build your own crossword puzzles online! Create, edit, and share custom crosswords. Challenge your friends and play unique puzzles made by our community.",
+    "keywords": "online crosswords, create crosswords online, custom crossword puzzles, free crosswords, crossword maker, how to make a crossword, crossword for kids, educational crosswords, school puzzles, movie crosswords, word search, word games, brain teasers, crossword generator, play crosswords online"
+  },
+  "schema": {
+    "app_name": "Make Online Crosswords",
+    "app_description": "Explore Tap to Tool and play online crosswords! Create, edit, and play custom crosswords.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Online Crosswords",
+    "alternateName": "Creaftar Crosswords",
+    "description": "Free tool to create, edit, and play online crosswords on Tap to Tool.",
+    "price_currency": "USD"
+  },
+  "ui": {
+    "search_placeholder": "Search crosswords",
+    "search_aria": "Search crossword"
+  },
+  "pesquisa": {
+    "search_crossword": "Search crosswords..."
+  },
+  "index": {
+    "login_prompt": "Sign in to create crosswords!",
+    "logged_prompt": "Your crosswords:",
+    "words_found": "words found",
+    "horizontals": "Horizontals",
+    "verticals": "Verticals",
+    "crossword_by": "Crossword by ",
+    "aria": {
+      "play_button": "Button to play the crossword",
+      "options_button": "Button for more crossword options",
+      "copy_link": "Button to copy the crossword link",
+      "edit_button": "Button to edit the crossword",
+      "delete_button": "Button to delete the crossword"
+    },
+    "time": {
+      "second": "second ago", "seconds": "seconds ago",
+      "minute": "minute ago", "minutes": "minutes ago",
+      "hour": "hour ago", "hours": "hours ago",
+      "day": "day ago", "days": "days ago",
+      "month": "month ago", "meses": "months ago",
+      "year": "year ago", "years": "years ago"
+    },
+    "js_messages": {
+      "js_create_title": "CREATE CROSSWORD",
+      "js_create_desc": "Create or generate a new crossword",
+      "js_create_link": "Create crossword",
+      "js_create_aria": "Click to create or generate crosswords"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "EloBetter - Wie man in League of Legends Aufsteigt",
+    "description": "Genervt von Trolls, AFKs und Smurfs? Lerne mit diesem kompakten, direkten Guide, wie du wirklich in der Rangliste aufsteigst.",
+    "keywords": "elo, league of legends, gold lol, wie steigt man in lol auf, elo steigern, raus aus silber, raus aus gold, raus aus eisen, raus aus bronze, raus aus platin, raus aus diamant, raus aus meister, rank 1 guide"
+  },
+  "schema": {
+    "app_name": "EloBetter - LoL Ranglisten-Guide",
+    "app_description": "Lerne, wie du in League of Legends aufsteigst – mit Strategien für Mindset, Champion-Pool und Spielqualität.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "EloBetter Guide"
+  },
+  "ui": {
+    "price_currency": "EUR"
+  }
+}

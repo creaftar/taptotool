@@ -1,0 +1,131 @@
+.container-trinta-quarenta{
+  display: flex;
+  width: 90%;
+  max-width: 1600px;
+  align-self: center;
+  justify-self: center;
+  text-align: justify;
+  gap: 12px;
+  padding: 30px 9px;
+  height: calc(fit-content + 300px);
+}
+.texto-trinta{
+  padding: 12px 9px;
+}
+
+.container-textos-trinta{
+  order: 1;
+}
+
+.container-buttons-trintaquarenta{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.grafico-colunas-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding-bottom: 20px;
+  border-left: 2px solid rgba(var(--padrao-apagado), 0.1);
+  border-bottom: 1px solid rgba(var(--padrao-apagado), 0.1);
+}
+
+.coluna-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  font-weight: bold;
+}
+
+.coluna-porcentagem {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--padrao);
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.coluna {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transform-origin: bottom;
+}
+.barra-derrotas {
+  background: var(--bg-derrotas);
+  box-shadow: inset 0 1px 0 rgba(var(--padrao), 0.1);
+}
+
+.barra-vitorias {
+  background: var(--bg-vitorias);
+  box-shadow: inset 0 1px 0 rgba(var(--padrao), 0.1);
+}
+
+.barra-impacto {
+  background: var(--bg-impacto);
+  box-shadow: inset 0 1px 0 rgba(var(--padrao), 0.2);
+}
+
+.coluna-label {
+  font-size: 0.8rem;
+  color: rgba(var(--padrao), 0.9);
+  text-transform: uppercase;
+  margin-top: 9px;
+  text-align: center;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.coluna:hover {
+  transform: scaleY(1.08);
+  filter: brightness(1.2);
+}
+
+.barra-derrotas:hover {
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.3);
+}
+
+.barra-vitorias:hover {
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.3);
+}
+
+.barra-impacto:hover {
+  box-shadow: 0 0 20px rgba(200, 155, 60, 0.5);
+}
+
+.coluna-wrapper:hover .coluna-porcentagem {
+  color: rgba(var(--destaque), 1);
+}
+
+@media screen and (max-width: 1359px){
+  .container-trinta-quarenta{
+    flex-direction: column;
+  }
+  .container-textos-trinta{
+    order: 0;
+  }
+}
+@media screen and (max-width: 500px){
+  .container-trinta-quarenta{
+    flex-direction: column;
+  }
+  .grafico-colunas-container {
+    border: none;
+    gap: 12px;
+    width: 100%;
+  }
+  
+  .coluna-wrapper {
+    width: 75px;
+  }
+}

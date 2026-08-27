@@ -1,0 +1,18 @@
+---
+import '@/assets/styles/pages/game/crossword/pages/index/cards/fake_card.css';
+---
+{
+    Array.from({ length: 20 }).map((_, i) => (
+        <div class="container-load-card" id={i === 0 ? 'load-card-observer' : undefined}>
+            <div class="load-card">
+                <div class="load-imagem"></div>
+                <div class="load-divBtn"></div>
+            </div>
+            <div class="desc-load-card">
+                <div class="load-titulo"></div>
+                <div class="load-desc"></div>
+                <div class="load-timer"></div>
+            </div>
+        </div>
+    ))
+}

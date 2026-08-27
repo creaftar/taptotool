@@ -1,0 +1,34 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Kreuzworträtsel Online Erstellen",
+    "description": "Erstellen Sie Ihre eigenen benutzerdefinierten Kreuzworträtsel mit KI. Einfach, schnell und kostenlos.",
+    "keywords": "kreuzworträtsel, erstellen, generator, bildung, rätsel"
+  },
+  "schema": {
+    "app_name": "Online-Kreuzworträtsel erstellen",
+    "app_description": "Erstellen Sie ganz einfach Ihre eigenen individuellen Kreuzworträtsel online auf Tap to Tool.",
+    "page_name": "Kreuzworträtsel erstellen",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Kreuzworträtsel erstellen",
+    "alternateName": "Creaftar Ersteller",
+    "description": "Kostenloses Tool zum Erstellen von individuellen Online-Kreuzworträtseln auf Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "error_clipboard": "Versuchen Sie es mit Strg + V oder prüfen Sie, ob der Zugriff auf die Zwischenablage erlaubt ist.",
+    "paste_text": "Zum Einfügen klicken",
+    "paste_shortcut": "Strg + V",
+    "hide_menu_aria": "Schaltfläche zum Ausblenden des Menüs",
+    "hide_text": "Ausblenden"
+  },
+  "create_page": {
+    "words_title": "WÖRTER:",
+    "word_placeholder": "beispiel",
+    "add_word_aria": "Wort hinzufügen",
+    "add_word_btn_aria": "Schaltfläche zum Hinzufügen eines Wortes",
+    "hints_title": "HINWEISE:",
+    "hint_placeholder": "Ein Beispiel ist die Handlung oder Aktion, eine bereits existierende Tatsache zu nehmen, um eine Situation zu erklären. Beispiel kann auch etwas sein, das nachgeahmt oder kopiert werden sollte; ein Modell. - Wikipedia",
+    "add_hint_aria": "Inhalt hinzufügen",
+    "add_hint_btn_aria": "Schaltfläche zum Hinzufügen von Inhalten"
+  }
+}

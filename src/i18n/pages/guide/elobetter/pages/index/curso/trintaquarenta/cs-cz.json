@@ -1,0 +1,12 @@
+{
+  "title": "Pravidlo 30 / 30 / 40",
+  "subtitle": "Pochopení toho, proč důvodem, proč nešplháš nahoru, nejsou trolleři a AFK hráči, ale ty sám:",
+  "desc_losses": "<span class=\"destaque\">- 30% Zaručených Proher (\"Nevyhratelné\" Hry):</span> <br>To jsou ty zápasy, kde se tvůj spoluhráč rozhodne pro ragequit, trollení, nebo jsou prostě všechny ostatní lajny naprosto zničeny. Matematicky vzato, i když hrajete co nejlépe, váha ostatních 4 hráčů převyšuje vaši schopnost carrynout zápas.",
+  "desc_wins": "<span class=\"destaque\">- 30% Zaručených Výher (\"Carrynute\" Hry):</span> <br>To jsou hry, kde má tvůj top laner za pět minut skóre 10/0, jungler kontroluje každý objektiv a nepřátelský tým se začne hádat v all chatu. Mohli byste hrát hrozně nebo dokonce stát AFK na bází, a váš tým by přesto vyhrál 4v5.",
+  "desc_impact": "<span class=\"destaque\">- 40% Her, Které Závisí na Tobě (Zde bys měl zaměřit svou energii):</span> <br>Jedná se o vyvážené zápasy, kde mají oba týmy reálnou šanci na výhru. Konečný výsledek rozhodne jediný detail: tvoje poziční hra v teamfightu, rotace, kontrola vize nebo rozhodování v late game.",
+  "conclusion": "Chyba, kterou dělá většina lidí, je, že se snaží na maximum (tryhardí), chytnou sérii proher a kvůli tomu se tiltnou. Pak pod vlivem impulsu zapínají další hry a prohrávají zápasy, které vlastně závisely na nich, protože jsou ztiltovaní.",
+  "btn_next": "DALŠÍ KROK",
+  "label_losses": "Nevyhratelné",
+  "label_impact": "Závisí na tobě",
+  "label_wins": "Carrynuté"
+}

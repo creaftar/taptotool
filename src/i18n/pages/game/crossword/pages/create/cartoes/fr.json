@@ -1,0 +1,34 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Créer des Mots Croisés en Ligne",
+    "description": "Créez vos propres mots croisés personnalisés avec l'IA. Facile, rapide et gratuit.",
+    "keywords": "mots croisés, créer, générateur, éducation, puzzle"
+  },
+  "schema": {
+    "app_name": "Créer des Mots Croisés en Ligne",
+    "app_description": "Créez facilement vos propres mots croisés personnalisés en ligne sur Tap to Tool.",
+    "page_name": "Créer des Mots Croisés",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Créer des Mots Croisés",
+    "alternateName": "Creaftar Créateur",
+    "description": "Outil gratuit pour créer des mots croisés personnalisés en ligne sur Tap to Tool.",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "error_clipboard": "Essayez de coller avec CTRL + V ou vérifiez si l'accès au presse-papiers est autorisé.",
+    "paste_text": "Cliquez pour coller votre texte",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Bouton pour masquer le menu",
+    "hide_text": "Masquer"
+  },
+  "create_page": {
+    "words_title": "MOTS :",
+    "word_placeholder": "exemple",
+    "add_word_aria": "ajouter un mot",
+    "add_word_btn_aria": "Bouton pour ajouter un mot",
+    "hints_title": "INDICES :",
+    "hint_placeholder": "Un exemple est l'acte ou l'action de prendre un fait déjà existant pour expliquer une situation. Un exemple peut aussi être ce qui peut ou doit être imité ou copié ; un modèle. - Wikipédia",
+    "add_hint_aria": "ajouter du contenu",
+    "add_hint_btn_aria": "Bouton pour ajouter du contenu"
+  }
+}

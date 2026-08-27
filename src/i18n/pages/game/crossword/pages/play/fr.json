@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Jouer aux Mots Croisés en Ligne - Tap to Tool",
+    "description": "Défiez votre esprit avec ces mots croisés personnalisés sur Tap to Tool. Résolvez des énigmes, trouvez des mots et amusez-vous avec les jeux de la communauté.",
+    "keywords": "jouer mots croisés, mots croisés en ligne, résoudre mots croisés, jeu de mots, mots fléchés, mots croisés gratuits"
+  },
+  "schema": {
+    "game_name": "Jouer aux Mots Croisés en Ligne",
+    "description": "Jouez à ce jeu de mots croisés personnalisé en ligne sur Tap to Tool. Gratuit et interactif !",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_current": "Jouer aux Mots Croisés",
+    "alternateName": "Creaftar Jeu de Mots Croisés",
+    "price_currency": "EUR"
+  },
+  "ui": {
+    "hide": "MASQUER",
+    "hide_timer": "MASQUER LE CHRONO",
+    "show_answers": "AFFICHER LES RÉPONSES",
+    "hints_prefix": "VOUS AVEZ",
+    "hints_suffix": "INDICES",
+    "stats_title": "Statistiques",
+    "total_time": "Temps total",
+    "chars_typed": "Caractères tapés",
+    "hits": "Succès",
+    "errors": "Erreurs",
+    "share": "Partager",
+    "copy": "COPIER",
+    "back_home": "ACCUEIL",
+    "add_zoom": "ZOOMER",
+    "remove_zoom": "DÉZOOMER",
+    "print": "IMPRIMER",
+    "completed_msg_prefix": "Vous avez complété",
+    "completed_msg_suffix": "mots croisés !",
+    "other_crosswords": "Autres mots croisés"
+  },
+  "index": {
+    "horizontals": "HORIZONTAL",
+    "verticals": "VERTICAL",
+    "crossword_by": "Mots croisés de "
+  },
+  "play": {
+    "challenge_prefix": "Relevez le défi ! Jouez aux mots croisés ",
+    "challenge_suffix": " dès maintenant. Essayez de les résoudre avec des indices comme : ",
+    "challenge_footer": ", et bien plus encore. Êtes-vous prêt ?",
+    "kw_cruzadinha": "mots croisés de ",
+    "kw_jogo": "jeu de "
+  },
+  "daily": {
+    "cruzada_diaria_h1": "Mots Croisés Quotidiens",
+    "next_crossword": "Prochains mots croisés dans :",
+    "curiosidade": "; Découvrez des indices tels que : ",
+    "CTA": ", et bien plus encore. Serez-vous à la hauteur ?",
+    "seo": {
+      "title": "Mots Croisés Quotidiens - Le Défi du Jour - Tap to Tool",
+      "description": "Résolvez le défi d'aujourd'hui ! Une nouvelle grille de mots croisés gratuite chaque jour pour tester vos connaissances et entraîner votre esprit sur Tap to Tool.",
+      "keywords": "mots croisés quotidiens, grille du jour, défi quotidien, jeu de mots en ligne, passe-temps gratuit"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - Mots Croisés Quotidiens",
+      "description": "Une nouvelle grille de mots croisés à résoudre chaque jour. Relevez le défi avec de nouveaux indices quotidiennement !"
+    },
+    "content": {
+      "h1": "Mots Croisés Quotidiens",
+      "subtitle": "Un nouveau défi toutes les 24 heures. Saurez-vous résoudre celui d'aujourd'hui ?",
+      "timer_label": "Temps du défi :",
+      "next_in": "Prochain défi dans :"
+    },
+    "ui": {
+      "start_button": "COMMENCER LE DÉFI",
+      "check_word": "VÉRIFIER LE MOT",
+      "reveal_letter": "RÉVÉLER UNE LETTRE",
+      "hints_remaining": "INDICES RESTANTS :",
+      "stats_btn": "VOIR MES PERFORMANCES",
+      "share_result": "PARTAGER LE RÉSULTAT",
+      "calendar_view": "VOIR LES DÉFIS PRÉCÉDENTS",
+      "loading": "PRÉPARATION DU DÉFI DU JOUR..."
+    },
+    "feedback": {
+      "win_title": "Félicitations ! Défi Terminé !",
+      "win_msg": "Vous avez résolu les mots croisés d'aujourd'hui en ",
+      "win_footer": "Revenez demain pour une nouvelle grille !",
+      "error_msg": "Certaines lettres ne sont pas encore correctes. Continuez d'essayer !"
+    },
+    "social": {
+      "share_text": "J'ai résolu les Mots Croisés Quotidiens de Tap to Tool en seulement {time} ! Pourrez-vous battre mon temps ?"
+    }
+  }
+}

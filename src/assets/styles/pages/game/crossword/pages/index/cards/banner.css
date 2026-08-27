@@ -1,0 +1,49 @@
+.header-card-infos-daily{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.titulo-daily{
+    height: 100%;
+}
+#proximaDiariaEm{
+    flex-grow: 1;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-style: italic;
+    padding: 0 32px;
+}
+@media(max-width:600px){
+	div.container-daily{
+		width: 90%;
+    }
+}
+@media(min-width: 600px){
+	div.container-daily{
+		width: 48%;
+	}
+}
+@media(min-width: 993px){
+	div.container-daily{
+		width: 30%;
+	}
+}
+@media(min-width: 1025px){
+	div.container-daily{
+		width: 65%;
+	}
+}
+@media(min-width: 1576px){
+	div.container-daily{
+		width: 48%;
+	}
+}
+@media(min-width: 1900px){
+	div.container-daily{
+		width: 39%;
+	}
+}

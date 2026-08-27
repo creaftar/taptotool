@@ -1,0 +1,25 @@
+{
+  "graph_title": "Quantity vs. Quality",
+  "graph_subtitle": "Find the exact sweet spot for your daily games to maintain a high win rate in your current ELO and check back whenever you rank up",
+  "axis_y_title": "Win Rate %",
+  "game_1": "1st Game",
+  "game_3": "3rd Game",
+  "game_5": "5th Game",
+  "game_8": "8th Game+",
+  "axis_x_title": "Games Played",
+  "tier_ferro": "Iron/Bronze",
+  "tier_prata": "Silver",
+  "tier_ouro": "Gold",
+  "tier_esmeralda": "Plat/Emerald",
+  "tier_diamante": "Diamond",
+  "tier_mestre": "Master+",
+  "js_default_text": "Hover over a rank to see the pacing analysis.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Absolute High Performance.</strong> Micro-mistakes here cost the entire game. Your peak is 2 games max; from the 3rd game onward, decision fatigue completely tanks your LP gains.",
+    "diamante": "<strong>Diamond: Consistency is King.</strong> You can stay sharp for about 3 to 4 games. Forcing long sessions triggers 'autopilot'—the ultimate bracket-stuck killer in High ELO.",
+    "esmeralda": "<strong>Plat & Emerald: The Mental Gaps.</strong> Your mechanics will hold until game 4, but your mental resilience drops fast. Save your ELO: walk away if you drop two in a row.",
+    "ouro": "<strong>Gold: Mid-Tier Balance.</strong> You can grind a decent volume (up to 5-6 games) because throws aren't instantly punished, but your macro focus fades hard by the end of the session.",
+    "prata": "<strong>Silver: Practice Volume.</strong> Fatigue rarely tanks your win rate here since the bracket demands less raw macro focus. Spamming games to fix your core fundamentals is the play.",
+    "ferro": "<strong>Iron/Bronze: Brute Force.</strong> Fatigue isn't the bottleneck here. Grinding out match experience and limit-testing beats mental drain every time. Feel free to power-grind long sessions."
+  }
+}

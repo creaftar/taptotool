@@ -1,0 +1,62 @@
+---
+import "@/assets/styles/pages/guide/elobetter/pages/index/curso/mentalidade.css";
+import "@/assets/styles/pages/guide/elobetter/pages/index/curso/curso.css";
+import Image from "astro/components/Image.astro";
+
+import chatConfig from "@/assets/imgs/prints/chat_config.png";
+
+const { lang = "en-us" } = Astro.props;
+
+const t = await import(`../../../../i18n/pages/guide/elobetter/pages/index/curso/mentalidade/${lang}.json`).then(m => m.default);
+const tc = await import(`../../../../i18n/pages/guide/elobetter/pages/index/curso/curso/${lang}.json`).then(m => m.default);
+---
+
+<section class="container-mentalidade" 
+  data-translations={JSON.stringify(t.js_texts)}
+  id="traducao-mentalidade"
+  >
+    <h2 class="destaque" id="mentalidade" set:html={t.title || "A Mentalidade Correta"}></h2>
+    <div class="container-destaque">
+        <h3 id="card-principal-mentalidade" class="quadrado-mentalidade mentalidade-ativa card-mentalidade" set:html={t.main_card_title || "O que é a Desestabilização Emocional (tiltar)"}></h3>
+    </div>
+    <div class="container-cards-mentalidade">
+        <article class="card-mentalidade quadrado-mentalidade">
+            <span class="destaque titulo-quadrado-mentalidade" set:html={t.card_1_title || "O Mecanismo"}></span>
+            <p class="texto-quadrado-mentalidade"></p>
+        </article>
+        <article class="card-mentalidade quadrado-mentalidade">
+            <span class="destaque titulo-quadrado-mentalidade" set:html={t.card_2_title || "O Impacto"}></span>
+            <p class="texto-quadrado-mentalidade"></p>
+        </article>
+        <article class="card-mentalidade quadrado-mentalidade">
+            <span class="destaque titulo-quadrado-mentalidade" set:html={t.card_3_title || "Quando ocorre"}></span>
+            <p class="texto-quadrado-mentalidade"></p>
+        </article>
+        <article class="card-mentalidade quadrado-mentalidade">
+            <span class="destaque titulo-quadrado-mentalidade" set:html={t.card_4_title || "O que fazer"}></span>
+            <p class="texto-quadrado-mentalidade"></p>
+        </article>
+    </div>
+    <div class="container-img-mentalidade">
+        <p id="aviso-mentalidade" set:html={t.warning_text || "⚠️ Em todos os seus games você vai mutar o chat (tanto aliado quanto inimigo) e mutar os emotes inimigos para evitar distrações"}></p>
+        <figure>
+            <Image 
+            src={chatConfig}
+            width={656}
+            height={300}
+            alt={t.img_alt || "How to mute the game chat"}
+            id="img-mentalidade"
+            />
+            <figcaption id="aviso-img-mentalidade" set:html={t.img_subtext || "Mantenha essa configuração acima (certifique-se de também marcar a caixa de emotes)"}></figcaption>
+        </figure>
+    </div>
+    
+    <div class="container-buttons-mentalidade">
+        <button id="next-step-mentalidade" class="next-step">{tc.btn_next || "PRÓXIMO PASSO"}</button>
+        <button id="reset-step-mentalidade" class="reset-step" aria-label={tc.reset_steps}><i class="fa-solid fa-rotate-left"></i></button>
+    </div>
+</section>
+
+<script>
+    import "@/assets/scripts/pages/guide/elobetter/scripts/index/curso/mentalidade";
+</script>

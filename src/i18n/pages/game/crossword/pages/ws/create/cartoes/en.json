@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Create Word Search Puzzles Online",
+    "description": "Create your own custom word search puzzles. Easy, fast, and free.",
+    "keywords": "word search, create, generator, education, puzzle, word find"
+  },
+  "schema": {
+    "app_name": "Create Online Word Searches",
+    "app_description": "Easily create your own custom online word searches on Tap to Tool.",
+    "page_name": "Create Word Search",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Create Word Search",
+    "alternateName": "Creaftar Word Search Creator",
+    "description": "Free tool to create custom online word searches on Tap to Tool.",
+    "price_currency": "USD"
+  },
+  "ui": {
+    "error_clipboard": "Try pasting with CTRL + V or check if clipboard access is allowed.",
+    "paste_text": "Click to Paste Text",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "Button to hide the menu",
+    "hide_text": "Hide"
+  },
+  "create_page": {
+    "words_title": "WORDS:",
+    "word_placeholder": "example",
+    "add_word_aria": "add word",
+    "add_word_btn_aria": "Button to add word"
+  }
+}

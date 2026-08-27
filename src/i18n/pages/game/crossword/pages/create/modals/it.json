@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "TITOLO DEL TUO CRUCIVERBA:",
+    "placeholder": "Cruciverba",
+    "hints_question": "VUOI ATTIVARE I SUGGERIMENTI PER IL TUO SCHEMA?",
+    "hints_obs": "(Puoi modificare questa opzione in qualsiasi momento)",
+    "hints_yes": "Sì, voglio attivare i suggerimenti per il mio schema",
+    "hints_no": "Non attivare i suggerimenti per il mio schema",
+    "answer_key_question": "VUOI CREARE UNA SOLUZIONE (GABARITO)?",
+    "answer_key_obs": "(La soluzione permette ai giocatori di visualizzare le risposte – puoi cambiarlo in seguito)",
+    "answer_key_yes": "Sì, voglio creare una soluzione per il mio schema",
+    "answer_key_no": "Non creare una soluzione",
+    "share_question": "VORRESTI CONDIVIDERE IL TUO CRUCIVERBA SUI NOSTRI SOCIAL NETWORK?",
+    "share_yes": "Sì, voglio condividere il mio schema sui canali Creaftar",
+    "share_no": "Non condividere il mio schema",
+    "save_button": "SALVA",
+    "requirements_alert": "ATTENZIONE: Il salvataggio è disponibile solo per gli utenti registrati"
+  },
+  "modal_generate": {
+    "theme_title": "TEMA DELLO SCHEMA",
+    "theme_placeholder": "Cruciverba",
+    "word_quantity": "Numero di parole",
+    "generate_button": "GENERA"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "VIDEO D'ESEMPIO",
+      "create": "CREA SCHEMA",
+      "generate": "GENERA SCHEMA"
+    },
+    "page1": {
+      "title_generate": "COME GENERARE UN CRUCIVERBA",
+      "title_auto": "COME CREARE UN CRUCIVERBA",
+      "title_manual": "COME CREARE UN CRUCIVERBA",
+      "subtitle_video": "(Video)",
+      "subtitle_auto": "(Automatico - Video)",
+      "subtitle_manual": "(Manuale - Video)",
+      "video_fallback": "Il tuo browser non supporta i video HTML5.",
+      "aside": {
+        "how_generate": "- GENERA",
+        "how_create_auto": "- CREA (automatico)",
+        "how_create_manual": "- CREA (manuale)"
+      }
+    },
+    "page2": {
+      "main_title": "COME CREARE UN CRUCIVERBA",
+      "intro_text": "In questa sezione spiegheremo come creare il tuo cruciverba da zero (se preferisci, puoi combinare la generazione automatica con la creazione manuale). Usa il menu laterale per una navigazione rapida.",
+      "start_title": "DA DOVE INIZIARE",
+      "start_text_1": "Nella scheda in basso intitolata 'PAROLE', clicca sul campo con la descrizione 'Esempio' e digita la tua prima parola (non preoccuparti, potrai cambiarla dopo). Premi 'INVIO' sulla tastiera o clicca sul pulsante '+'.",
+      "start_text_2": "Una volta fatto, noterai che apparirà quanto segue:",
+      "start_list_1": "1. Una parola in caselle sullo schermo:",
+      "start_list_1_sub": "Questa è la parola che il tuo pubblico dovrà indovinare.",
+      "start_list_2": "2. Una parola nella scheda 'PAROLE':",
+      "start_list_2_sub": "Questo è esclusivo per te; puoi modificarla (cliccandoci sopra) o eliminarla, influenzando direttamente la parola a schermo.",
+      "start_list_3": "3. Un suggerimento nella scheda 'SUGGERIMENTI':",
+      "start_list_3_sub": "Qui è dove digiti l'indizio per il tuo pubblico. Nota che ogni suggerimento e parola è numerata. Suggerimento: 1 - che sarebbe 'Esempio', descrive la parola 1 - Esempio, e così via.",
+      "before_continue": "PRIMA DI CONTINUARE",
+      "instruction_1": "- Cambia la parola e la descrizione cliccando sui testi generati.",
+      "instruction_2": "- Crea almeno 2 parole.",
+      "move_title": "COME MUOVERE LE PAROLE",
+      "move_intro": "Per muovere le parole create, devi collegarle usando le loro lettere corrispondenti. Hai due opzioni per farlo:",
+      "move_option_1": "1. Muovere ogni parola individualmente in base a dove desideri posizionarla.",
+      "move_option_2": "2. Muovere tutte le parole automaticamente in modo che si incastrino con un solo clic.",
+      "auto_pos_title": "POSIZIONAMENTO AUTOMATICO",
+      "auto_pos_text": "Per posizionare tutte le parole automaticamente, clicca sull'icona dell'ingranaggio nel menu a destra. Se una parola non si incastra, riprova un paio di volte. Se l'errore persiste, controlla l'ortografia. Maiuscole e minuscole vengono ignorate, ma le parole con e senza accento sono considerate diverse.",
+      "single_move_title": "MOVIMENTO INDIVIDUALE",
+      "single_move_text": "Tutte le parole sono inizialmente bloccate, il che significa che non puoi muoverle. Per cambiare questo e muovere ogni parola individualmente:",
+      "single_move_li_1": "Clicca su questa icona per rendere la parola mobile.",
+      "single_move_li_2": "Clicca, tieni premuto e trascina la parola all'interno dell'area.",
+      "single_move_li_3": "Dopo aver mosso la prima parola, seleziona la successiva:",
+      "single_move_li_3_sub1": "Usa questa freccia direzionale per passare alla parola successiva.",
+      "single_move_li_3_sub2": "Usa questa freccia direzionale per tornare alla parola precedente.",
+      "direction_title": "ORIZZONTALE vs VERTICALE",
+      "direction_text": "Puoi anche alternare la tua parola tra verticale e orizzontale. Clicca sull'icona (griglia), ma ricorda di abilitare prima la modifica della parola (icona matita).",
+      "aside": {
+        "create_crossword": "- CREA SCHEMA",
+        "where_start": "- DOVE INIZIARE",
+        "how_move": "MUOVERE PAROLE",
+        "auto_pos": "- POSIZ. AUTO",
+        "single_move": "- MOVIMENTO INDIV.",
+        "horiz_vert": "- ORIZZ. vs VERT."
+      }
+    },
+    "page3": {
+      "main_title": "COME GENERARE UN CRUCIVERBA",
+      "intro_text": "Questa sezione spiega come generare un cruciverba completo basato su un singolo tema (puoi anche combinarlo con la creazione manuale). Usa il menu laterale per una navigazione rapida.",
+      "steps_title": "PASSO DOPO PASSO",
+      "steps_intro": "Per generare un cruciverba su un tema, segui questi passaggi:",
+      "step_1": "1. Clicca sull'icona del robot nel menu a destra.",
+      "step_2": "2. Nella finestra che appare, digita il tema desiderato.",
+      "step_3": "3. Regola il numero di parole usando lo slider o le frecce.",
+      "step_4": "4. Clicca su 'GENERA' affinché la nostra IA crei il tuo schema.",
+      "recom_title": "RACCOMANDAZIONI",
+      "recom_1": "- Se il tema non viene generato, ricarica la pagina. Se l'errore persiste, prova a descrivere il tema in modo diverso (potrai cambiare il titolo dopo).",
+      "recom_2": "- Controlla le risposte e i suggerimenti generati. Puoi modificarli in qualsiasi momento cliccandoci sopra.",
+      "recom_3": "- Tieni a mente il tuo pubblico e il livello di difficoltà quando scegli il numero di parole (da 15 a 30 è solitamente l'ideale).",
+      "dont_title": "COSA EVITARE",
+      "dont_1": "- Evita temi eccessivamente complessi.",
+      "dont_2": "- Evita temi troppo astratti.",
+      "dont_3": "- Non dare la risposta direttamente nel suggerimento.",
+      "dont_4": "- Ricorda: tu conosci le risposte, ma il tuo pubblico no. Crea suggerimenti che siano risolvibili.",
+      "aside": {
+        "generate_crossword": "- GENERA SCHEMA",
+        "step_by_step": "PASSO DOPO PASSO",
+        "step_1": "- 1° Passaggio",
+        "step_2": "- 2° Passaggio",
+        "step_3": "- 3° Passaggio",
+        "step_4": "- 4° Passaggio",
+        "recommendations": "- RACCOMANDAZIONI",
+        "what_not_to_do": "- COSA EVITARE"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "ANTEPRIMA",
+    "warning_main": "Non preoccuparti delle verticali e delle orizzontali, analizza i formati previsti qui sotto",
+    "your_text": "Il tuo testo:",
+    "detector_stats": "{words} parole / {clues} indizi",
+    "placeholder": "Incolla qui il tuo testo...",
+    "expected_formats": "Formati previsti:",
+    "btn_generate": "IL MIO TESTO È IN UN FORMATO PREVISTO",
+    "words_suffix": "parole",
+    "clues_suffix": "indizi",
+    "examples": {
+      "dog": "cane",
+      "cat": "gatto",
+      "bat": "pipistrello",
+      "elephant": "elefante",
+      "kangaroo": "canguro",
+      "desc_dog": "Il migliore amico dell'uomo",
+      "desc_cat": "Gli piace dare la caccia ai topi",
+      "desc_bat": "Mammifero volante",
+      "desc_elephant": "Ha una proboscide",
+      "desc_kangaroo": "Grande marsupiale"
+    },
+    "requirements_alert": "Ops! Sembra che tu non abbia incollato nulla. Copia un testo e riprova."
+  }
+}

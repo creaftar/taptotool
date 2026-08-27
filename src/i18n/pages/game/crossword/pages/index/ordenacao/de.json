@@ -1,0 +1,12 @@
+{
+  "sorting": {
+    "sort_by": "Sortieren nach",
+    "display_per_page": "Pro Seite",
+    "opt_latest": "Neueste",
+    "opt_oldest": "Älteste",
+    "opt_az": "A-Z",
+    "opt_za": "Z-A",
+    "btn_prev_aria": "Vorherige Seite",
+    "btn_next_aria": "Nächste Seite"
+  }
+}

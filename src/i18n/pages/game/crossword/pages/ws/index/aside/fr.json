@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "Navigation",
+    "nav_home": "Accueil",
+    "nav_home_aria": "Retour à la page d'accueil",
+    "nav_create": "Créer des mots mêlés",
+    "nav_create_aria": "Créer une nouvelle grille de mots mêlés",
+
+    "other_games_title": "Autres Jeux",
+    "crosswords": "Mots Croisés",
+    "word_search": "Mots Mêlés",
+    
+    "themes_title": "Thèmes",
+    "theme_light": "Thème clair",
+    "theme_medium": "Thème moyen",
+    "theme_dark": "Thème sombre",
+    
+    "you_title": "Profil",
+    "your_crosswords": "Mes jeux",
+    "history": "Historique",
+    "history_progress": "Jeux en cours",
+    "history_done": "Jeux terminés",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "Statistiques",
+    "stats_total": "Total des jeux :",
+    "stats_users": "Total des utilisateurs :",
+    "stats_yours": "Vos jeux :",
+    
+    "feedback": "Donner mon avis",
+    "feedback_placeholder": "Saisissez votre commentaire ici...",
+    "btn_send": "ENVOYER",
+    "btn_send_aria": "Bouton pour envoyer votre avis",
+    
+    "version": "Version",
+    "version_current": "v3.2.2 - Version actuelle",
+    "release_prefix": "Version : ",
+    
+    "social_title": "Réseaux sociaux",
+    "social_x_aria": "Aller sur Twitter",
+    "social_bsky_aria": "Aller sur BlueSky",
+    "social_feedly_aria": "Aller sur Feedly",
+    
+    "policies": "Mentions légales",
+    "more_tools": "Autres outils",
+    "copyright": "© 2023 - {year} | Tap to Tool — Mots Mêlés en Ligne"
+  },
+  "daily": {
+    "banner": "Jouer aux mots mêlés quotidiens",
+    "title": "Mots Mêlés Quotidiens",
+    "next": "Nouveaux mots mêlés dans :"
+  }
+}

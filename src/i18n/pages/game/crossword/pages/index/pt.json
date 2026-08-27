@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Fazer Cruzadinhas Online | Tap to Tool",
+    "description": "Venha explorar o Tap to Tool e fazer cruzadinhas online! Crie, edite e exclua cruzadinhas conforme desejar. Desafie seus amigos e jogue cruzadinhas personalizadas.",
+    "keywords": "cruzadinhas online, fazer cruzadinhas online, cruzadinhas personalizadas, encontrar palavras cruzadas, criar cruzadinha, como criar uma palavra cruzada, como criar uma cruzadinha, cruzadinha de lol, cruzadinha de pokemon, cruzadinha para educação, cruzadinhas para escola, cruzadinha de filmes, cruzadinhas de animais, temas diversos de cruzadinha, cruzadinha de biscoito, fazer cruzadinhas online, criar palavra cruzada, palavra-cruzada, montar cruzadinha online, palavra cruzada online, cruzadinha, cruzadinhas, palavras cruzadas, palavras-cruzadas, cruzadas diretas, caça-palavras, palavras escondidas, passatempo, jogos online, cruzadinha online, cruzadinhas online, criar cruzadinha, jogar cruzadinha, montar cruzadinha, montar cruzadinha facil, criar cruzadinha facil, gerar palavra cruzada, gerador de cruzadinha, gerar cruzadinha, gerador de palavra cruzada, gerador de palavras-cruzadas, gerador de palavra-cruzada, caça palavras, caça palavras online"
+  },
+  "schema": {
+    "app_name": "Fazer Cruzadinhas Online",
+    "app_description": "Venha explorar o Tap to Tool e fazer cruzadinhas online! Crie, edite e jogue cruzadinhas personalizadas.",
+    "breadcrumb_home": "Início",
+    "breadcrumb_current": "Cruzadinhas Online",
+    "alternateName": "Creaftar Cruzadinhas",
+    "description": "Ferramenta gratuita para criar, editar e jogar cruzadinhas online no Tap to Tool.",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "search_placeholder": "Pesquisar cruzadinhas",
+    "search_aria": "Pesquisar cruzadinha"
+  },
+  "pesquisa": {
+    "search_crossword": "Pesquisar cruzadinhas..."
+  },
+  "index": {
+    "login_prompt": "Entre para fazer cruzadinhas!",
+    "logged_prompt": "Suas cruzadinhas:",
+    "words_found": "palavras encontradas",
+    "horizontals": "Horizontais",
+    "verticals": "Verticais",
+    "crossword_by": "Cruzadinha de ",
+    "aria": {
+      "play_button": "Botão para jogar a cruzadinha",
+      "options_button": "Botão para mais opções da cruzadinha",
+      "copy_link": "Botão para copiar o link da cruzadinha",
+      "edit_button": "Botão para editar a cruzadinha",
+      "delete_button": "Botão para excluir a cruzadinha"
+    },
+    "time": {
+      "second": "segundo atrás",
+      "seconds": "segundos atrás",
+      "minute": "minuto atrás",
+      "minutes": "minutos atrás",
+      "hour": "hora atrás",
+      "hours": "horas atrás",
+      "day": "dia atrás",
+      "days": "dias atrás",
+      "month": "mês atrás",
+      "meses": "meses atrás",
+      "year": "ano atrás",
+      "years": "anos atrás"
+    },
+    "js_messages": {
+      "js_create_title": "CRIAR CRUZADINHA",
+      "js_create_desc": "Crie ou gere uma nova cruzadinha",
+      "js_create_link": "Criar cruzadinha",
+      "js_create_aria": "Clique para criar ou gerar palavras cruzadas"
+    }
+  }
+}

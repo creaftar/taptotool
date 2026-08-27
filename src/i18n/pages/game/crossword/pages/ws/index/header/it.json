@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "Crucipuzzle",
+    "results_found": "Crucipuzzle trovati",
+    "no_results": "Nessun crucipuzzle trovato"
+  },
+  "daily": {
+    "banner": "Gioca al crucipuzzle giornaliero",
+    "title": "Crucipuzzle Giornaliero",
+    "next": "Nuovo crucipuzzle tra:"
+  }
+}

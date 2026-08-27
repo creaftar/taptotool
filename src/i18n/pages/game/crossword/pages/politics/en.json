@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - Affiliate Program",
+    "description": "Learn how the Tap to Tool affiliate program works and our partnership with leading e-commerce platforms.",
+    "keywords": "affiliates, Tap to Tool, commission, online shopping, partner"
+  },
+  "ui": {
+    "h1": "Tap to Tool - Affiliate Program",
+    "nav_home": "HOME",
+    "nav_create": "CREATE",
+    "nav_partner": "PARTNER"
+  },
+  "content": {
+    "program_title": "The Program",
+    "program_text": "Tap to Tool participates in an affiliate program, which means that when you buy something by clicking on one of our ads, we receive a small commission on the product purchased, provided the sale is qualified by our partner.",
+    "costs_title": "Will I have additional costs when clicking on a product?",
+    "costs_text": "No, you will not incur any additional costs. The only difference when clicking on our ads is that our partner will know you reached their website through our recommendation, allowing them to reward us as stated above.",
+    "products_title": "What types of products are offered?",
+    "products_text": "Through deep and careful analysis, we strive to offer the best products that align with our website's purpose. If you want to see other products and still support us, you can",
+    "click_here": "click here",
+    "criteria_intro": "The selection criteria are primarily based on:",
+    "criterion_1": "Relevance to Tap to Tool",
+    "criterion_2": "Purchase volume",
+    "criterion_3": "Product quality",
+    "criterion_4": "Value for money",
+    "criterion_5": "Reliability",
+    "criterion_6": "Durability",
+    "criterion_7": "Customer reviews"
+  }
+}

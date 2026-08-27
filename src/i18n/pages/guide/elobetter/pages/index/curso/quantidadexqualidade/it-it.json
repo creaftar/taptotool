@@ -1,0 +1,25 @@
+{
+  "graph_title": "Quantità vs. Qualità",
+  "graph_subtitle": "Scopri il limite esatto di game giornalieri per mantenere il win rate alto nel tuo ELO attuale e ricontrolla ogni volta che sali di rank",
+  "axis_y_title": "Win Rate %",
+  "game_1": "1° Game",
+  "game_3": "3° Game",
+  "game_5": "5° Game",
+  "game_8": "8° Game+",
+  "axis_x_title": "Game Giocati",
+  "tier_ferro": "Ferro/Bronzo",
+  "tier_prata": "Argento",
+  "tier_ouro": "Oro",
+  "tier_esmeralda": "Plat/Smeraldo",
+  "tier_diamante": "Diamante",
+  "tier_mestre": "Master+",
+  "js_default_text": "Passa il mouse su un ELO per vedere l'analisi del ritmo.",
+  "js_texts": {
+    "mestre": "<strong>Master+: Alta Performance Assoluta.</strong> Qui i micro-errori ti costano il game. Il tuo picco è di 2 partite; dal 3° game in poi, la fatica nelle micro-decisioni distrugge letteralmente i tuoi guadagni di LP.",
+    "diamante": "<strong>Diamante: La Costanza è Tutto.</strong> Riesci a mantenere il focus per circa 3 o 4 game. Insistere con sessioni lunghe ti manda in 'pilota automatico', il peggior nemico per fare elo-climb in High ELO.",
+    "esmeralda": "<strong>Plat & Smeraldo: Gli ELO del Mental Break.</strong> Le tue meccaniche tengono fino al 4° game, ma la resilienza psicologica crolla velocemente. Salva i tuoi punti: se perdi due game di fila, stacca tutto.",
+    "ouro": "<strong>Oro: Equilibrio Intermedio.</strong> Puoi reggere un volume decente (fino a 5-6 game) perché i 'throw' non vengono puniti istantaneamente, ma il focus macro inizia a sparire a fine sessione.",
+    "prata": "<strong>Argento: Volume di Apprendimento.</strong> La stanchezza non influisce quasi per nulla sul tuo win rate perché questo tier richiede meno focus macro costante. Conviene fare spam di game per assimilare i fondamentali.",
+    "ferro": "<strong>Ferro/Bronzo: Forza Bruta.</strong> La fatiga non è il tuo collo di bottiglia qui. Invece di preoccuparti del tilt, fai /mute all, accumula esperienza sul campo e testa i limiti dei tuoi campioni. Puoi grindare sessioni lunghe senza problemi."
+  }
+}

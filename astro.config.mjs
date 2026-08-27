@@ -1,7 +1,14 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-const supportedLanguages = ['en', 'pt', 'es', 'fr', 'it', 'de', 'id', 'hi', 'ru'];
+const supportedLanguages = [
+  'en', 'pt', 'es', 'fr', 'it', 'de', 'id', 'hi', 'ru',
+  'en-us', 'en-gb', 'en-au', 'en-sg', 'en-ph',
+  'pt-br', 'es-mx', 'es-es', 'ko-kr', 'ja-jp',
+  'tr-tr', 'vi-vn', 'de-de', 'fr-fr', 'it-it',
+  'pl-pl', 'el-gr', 'ro-ro', 'hu-hu', 'cs-cz',
+  'ru-ru', 'th-th', 'zh-tw', 'ar-ae'
+];
 
 export default defineConfig({
   site: 'https://taptotool.com', 
@@ -24,8 +31,39 @@ export default defineConfig({
       i18n: {
         defaultLocale: 'en',
         locales: {
-          en: 'en', pt: 'pt', es: 'es', fr: 'fr',
-          it: 'it', de: 'de', id: 'id', hi: 'hi', ru: 'ru'
+          en: 'en',
+          pt: 'pt',
+          es: 'es',
+          fr: 'fr',
+          it: 'it',
+          de: 'de',
+          id: 'id',
+          hi: 'hi',
+          ru: 'ru',
+          'en-us': 'en-US',
+          'en-gb': 'en-GB',
+          'en-au': 'en-AU',
+          'en-sg': 'en-SG',
+          'en-ph': 'en-PH',
+          'pt-br': 'pt-BR',
+          'es-mx': 'es-MX',
+          'es-es': 'es-ES',
+          'ko-kr': 'ko-KR',
+          'ja-jp': 'ja-JP',
+          'tr-tr': 'tr-TR',
+          'vi-vn': 'vi-VN',
+          'de-de': 'de-DE',
+          'fr-fr': 'fr-FR',
+          'it-it': 'it-IT',
+          'pl-pl': 'pl-PL',
+          'el-gr': 'el-GR',
+          'ro-ro': 'ro-RO',
+          'hu-hu': 'hu-HU',
+          'cs-cz': 'cs-CZ',
+          'ru-ru': 'ru-RU',
+          'th-th': 'th-TH',
+          'zh-tw': 'zh-TW',
+          'ar-ae': 'ar-AE'
         },
       },
       serialize(item) {

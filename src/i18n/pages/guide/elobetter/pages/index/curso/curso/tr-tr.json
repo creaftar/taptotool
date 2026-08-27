@@ -1,0 +1,24 @@
+{
+  "btn_next": "SONRAKİ ADIM",
+  "footer": {
+    "share_telegram": "Sitiyi Telegram'da paylaş",
+    "share_whatsapp": "Sitiyi WhatsApp'ta paylaş",
+    "share_bluesky": "Sitiyi Bluesky'da paylaş",
+    "share_x": "Sitiyi X'te paylaş",
+    "share_facebook": "Sitiyi Facebook'ta paylaş",
+    "share_reddit": "Sitiyi Reddit'te paylaş"
+  },
+  "banner": {
+    "view_opgg": "OP.GG'de üreticinin profilini görüntüle",
+    "play_crossword": "League of Legends kare bulmacasını oyna",
+    "watch_videos": "Pratik videoları izle ve bir yüksek ELO oyuncusunun nasıl oynadığını analiz et",
+    "more_tools": "Günlük iş akışınızı otomatikleştirmek için daha fazla çevrimiçi aracı keşfedin"
+  },
+  "myaccount": {
+    "badge_current_elo": "Rehber yazarının mevcut ELO amblemi",
+    "summoner_icon": "Sihirdar Simgesi"
+  },
+  "reset_steps": "Tüm adımları sıfırla (yeniden başla)",
+  "copy_profile_nick": "Profil oyuncu adını kopyala",
+  "update_profile": "Profili güncelle"
+}

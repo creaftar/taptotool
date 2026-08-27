@@ -1,0 +1,17 @@
+{
+  "carousel": {
+    "btn_prev_aria": "Tombol untuk kembali ke gambar sebelumnya",
+    "btn_next_aria": "Tombol untuk lanjut ke gambar berikutnya",
+    "button_buy": "Tombol untuk menuju ke situs iklan",
+    "advice": "Klik di sini akan mengarahkan Anda ke halaman produk",
+    "tools": {
+      "case_converter": "Pengubah Huruf Besar/Kecil",
+      "char_counter": "Penghitung Karakter",
+      "num_generator": "Pembuat Angka Acak",
+      "text_inverter": "Pembalik Teks"
+    },
+    "details": "Lihat Detail",
+    "advertisement": "Iklan",
+    "read_more": "Pelajari lebih lanjut"
+  }
+}
