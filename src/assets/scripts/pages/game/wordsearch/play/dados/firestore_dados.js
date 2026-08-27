@@ -36,7 +36,7 @@ export async function SetDados() {
             podeGbrt = data.gbrt;
             gridHeight = data.gridHeight;
             gridWidth = data.gridWidth;
-            //import("./seo.js");
+            import("./seo.js");
         }
         catch (error) {
             console.error(error);

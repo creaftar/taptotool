@@ -1,5 +1,5 @@
 import { titulo } from "./firestore_dados";
-import { bauPalavras } from "../grid/grid";
+/*import { bauPalavras } from "../grid/grid";
 
 const traducoesEl = document.getElementById('traducoes');
 
@@ -9,15 +9,15 @@ const d1 = bauPalavras[0].textoCorreto;
 const d2 = bauPalavras[1].textoCorreto;
 const d3 = bauPalavras[2].textoCorreto;
 const descDinamica = `${t.play.challenge_prefix}${titulo}${t.play.challenge_suffix}"${d1}", "${d2}", "${d3}"${t.play.challenge_footer}`;
-
+*/
 UpdateHTML(titulo);
-
+/*
 UpdateMeta('meta[property="og:title"]', `${titulo} - Creaftar`);
 UpdateMeta('meta[name="description"]', descDinamica);
 UpdateMeta('meta[property="og:description"]', descDinamica);
 UpdateMeta('meta[name="keywords"]', `${t.play.kw_cruzadinha}${titulo}, ${t.play.kw_jogo}${titulo}`);
 
-UpdateDynamicSEO(titulo, descDinamica);
+UpdateDynamicSEO(titulo, descDinamica);*/
 
 
 export function UpdateHTML(titulo){
@@ -25,7 +25,7 @@ export function UpdateHTML(titulo){
     if (h1El) h1El.innerHTML = titulo;
     document.title = `${titulo} - Creaftar`;
 }
-
+/*
 export function UpdateMeta(selector, content) {
     const el = document.querySelector(selector);
     if (el) el.setAttribute('content', content);
@@ -52,4 +52,4 @@ export async function UpdateDynamicSEO(titulo, descricao) {
     } catch (e) {
         console.error("Erro no JSON-LD:", e);
     }
-}
+}*/
