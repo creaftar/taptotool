@@ -4,34 +4,37 @@
   },
   "tools_list": {
     "text_tools": {
-      "char_counter": "Penghitung Karakter",
-      "text_inverter": "Pembalik Teks",
-      "case_converter": "Konverter Huruf Besar/Kecil",
-      "alphabetical_order": "Urutan Abjad"
+      "char_counter": "Penghitung karakter",
+      "text_inverter": "Pembalik teks",
+      "case_converter": "Pengubah huruf besar/kecil",
+      "alphabetical_order": "Urutkan abjad"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
-      "random_number": "Pembangkit Angka Acak Antara 2 Angka",
-      "name_picker_wheel": "Roda Acak Nama Online"
+      "random_number": "Generator angka acak antara 2 angka",
+      "name_picker_wheel": "Roda Pemilih Nama Acak"
     },
     "time_tools": {
-      "alarm_clock": "Jam Alarm Online",
-      "stopwatch": "Stopwatch Online",
-      "timer": "Timer Online"
+      "alarm_clock": "Jam alarm online",
+      "stopwatch": "Stopwatch online",
+      "timer": "Timer online"
     },
-    "encrypt_tools":{
-      "qrcode": "Pembuat Kode QR"
+    "encrypt_tools": {
+      "qrcode": "Generator Kode QR"
     },
     "external_links": {
       "creaftar": "Creaftar - Buat teka-teki silang",
-      "elobetter": "EloBetter - Pelajari cara naik ELO di League of Legends"
+      "elobetter": "EloBetter - Pelajari Cara Naik Elo di League of Legends"
+    },
+    "game_tools": {
+      "crossword_generator": "Buat teka-teki silang online",
+      "word_search_generator": "Buat cari kata online"
     },
     "performance_tools": {
-      "click_counter": "Hitung klik"
+      "click_counter": "Penghitung klik"
     },
     "assets_tools": {
-      "icons": "Pustaka Ikon"
+      "icons": "Perpustakaan Ikon"
     }
   }
 }

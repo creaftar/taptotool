@@ -7,25 +7,28 @@
       "char_counter": "Zeichenzähler",
       "text_inverter": "Textumkehrer",
       "case_converter": "Groß-/Kleinschreibung-Konverter",
-      "alphabetical_order": "Alphabetische Reihenfolge"
+      "alphabetical_order": "Alphabetisch sortieren"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
-      "random_number": "Zufallszahlengenerator",
-      "name_picker_wheel": "Online-Namensrad"
+      "random_number": "Zufallszahlen-Generator zwischen 2 Zahlen",
+      "name_picker_wheel": "Zufälliges Namensrad"
     },
     "time_tools": {
       "alarm_clock": "Online-Wecker",
       "stopwatch": "Online-Stoppuhr",
       "timer": "Online-Timer"
     },
-    "encrypt_tools":{
-      "qrcode": "QR-Code-Ersteller"
+    "encrypt_tools": {
+      "qrcode": "QR-Code-Generator"
     },
     "external_links": {
       "creaftar": "Creaftar - Kreuzworträtsel erstellen",
-      "elobetter": "EloBetter - Lerne, wie du in League of Legends im ELO aufsteigst"
+      "elobetter": "EloBetter - Lerne, wie du in League of Legends aufsteigst"
+    },
+    "game_tools": {
+      "crossword_generator": "Kreuzworträtsel online erstellen",
+      "word_search_generator": "Wortsuche online erstellen"
     },
     "performance_tools": {
       "click_counter": "Klickzähler"

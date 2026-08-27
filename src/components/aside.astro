@@ -140,12 +140,21 @@ const getActiveId = (idPagina: string) => (paginaCerta === idPagina ? "opcaoAtiv
     
     <hr class="hr-aside">
 
-    <div class="opcaoAside" data-pagina="creaftar" id={getActiveId("creaftar")}>
-      <a href="https://creaftar.com" target="_blank" aria-label={d.aside.creaftar_text}>
+    <div class="opcaoAside" data-pagina="crossword" id={getActiveId("crossword")}>
+      <a href={`${urlPrefix}/game/crossword/`} target="_blank" aria-label={d.aside.crossword}>
         <i class="fa-solid fa-book-open aside-icon"></i>
-        <p class="aside-text-icon">{d.aside.creaftar_text}</p>
+        <p class="aside-text-icon">{d.aside.crossword}</p>
       </a>
     </div>
+    <div class="opcaoAside" data-pagina="word-search" id={getActiveId("word-search")}>
+      <a href={`${urlPrefix}/game/word-search/`} target="_blank" aria-label={d.aside.word_search}>
+        <i class="fa-solid fa-capsules aside-icon"></i>
+        <p class="aside-text-icon">{d.aside.word_search}</p>
+      </a>
+    </div>
+    
+    <hr class="hr-aside">
+
     <div class="opcaoAside" data-pagina="elobetter" id={getActiveId("elobetter")}>
         <a href="/guide/elobetter/" target="_blank" aria-label={d.aside.elobetter_text}>
           <i class="fa-solid fa-dragon aside-icon"></i>

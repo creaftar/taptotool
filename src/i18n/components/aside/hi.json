@@ -1,19 +1,21 @@
 {
   "aside": {
-    "search_placeholder": "उपकरण खोजें...",
-    "character_counter": "अक्षर गणक",
-    "text_inverter": "टेक्स्ट इन्वर्टर",
+    "search_placeholder": "टूल खोजें...",
+    "character_counter": "वर्ण काउंटर",
+    "text_inverter": "टेक्स्ट इनवर्टर",
     "case_converter": "केस कनवर्टर",
     "alphabetical_order": "वर्णानुक्रम में रखें",
-    "random_number": "यादृच्छिक संख्या जनरेटर",
-    "alarm_clock": "ऑनलाइन अलार्म घड़ी",
+    "random_number": "रैंडम नंबर जनरेटर",
+    "alarm_clock": "ऑनलाइन अलार्म घड़ी",
     "stopwatch": "ऑनलाइन स्टॉपवॉच",
     "timer": "ऑनलाइन टाइमर",
     "creaftar_text": "Creaftar - क्रॉसवर्ड बनाएं",
-    "elobetter_text": "Elobetter - LoL में अपना Elo बढ़ाना सीखें",
-    "name_picker_wheel": "ऑनलाइन नाम स्पिनर",
-    "qrcode": "क्यूआर कोड जनरेटर",
+    "elobetter_text": "EloBetter - LoL में एलो बढ़ाना सीखें",
+    "name_picker_wheel": "रैंडम नाम बीनने वाला पहिया",
+    "qrcode": "QR कोड जनरेटर",
     "click_counter": "क्लिक काउंटर",
-    "icons": "आइकन लाइब्रेरी"
+    "icons": "आइकन लाइब्रेरी",
+    "crossword": "ऑनलाइन क्रॉसवर्ड बनाएं",
+    "word_search": "ऑनलाइन शब्द खोजें बनाएं"
   }
 }

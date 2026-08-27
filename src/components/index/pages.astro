@@ -173,14 +173,22 @@ const url = (path: string) => getRelativeLocaleUrl(lang, path);
     <hr class="hr-pages">
 
     <div class="opcaoPage">
-      <a href="https://creaftar.com" target="_blank">
+      <a href={url("/game/crossword/")} target="_blank">
         <div class="page-icon page-game">
           <i class="fa-solid fa-book-open"></i>
         </div>
-        <p class="page-text-icon">{d.tools_list.external_links.creaftar}</p>
+        <p class="page-text-icon">{d.tools_list.game_tools.crossword_generator}</p>
       </a>
     </div>
-    
+    <div class="opcaoPage">
+      <a href={url("/game/word-search/")} target="_blank">
+        <div class="page-icon page-game">
+          <i class="fa-solid fa-capsules"></i>
+        </div>
+        <p class="page-text-icon">{d.tools_list.game_tools.word_search_generator}</p>
+      </a>
+    </div>
+
     <hr class="hr-pages">
 
     <div class="opcaoPage">

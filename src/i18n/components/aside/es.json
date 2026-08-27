@@ -1,19 +1,21 @@
 {
   "aside": {
-    "search_placeholder": "Buscar herramienta... ",
+    "search_placeholder": "Buscar herramienta...",
     "character_counter": "Contador de caracteres",
     "text_inverter": "Inversor de texto",
     "case_converter": "Conversor de mayúsculas y minúsculas",
-    "alphabetical_order": "Colocar en orden alfabético",
+    "alphabetical_order": "Ordenar alfabéticamente",
     "random_number": "Generador de números aleatorios",
-    "alarm_clock": "Despertador en línea",
-    "stopwatch": "Cronómetro en línea",
-    "timer": "Temporizador en línea",
-    "creaftar_text": "Creaftar - crear crucigramas",
-    "elobetter_text": "Elobetter - Aprende a subir de Elo en LoL",
-    "name_picker_wheel": "Ruleta de nombres aleatoria",
+    "alarm_clock": "Despertador online",
+    "stopwatch": "Cronómetro online",
+    "timer": "Temporizador online",
+    "creaftar_text": "Creaftar - Crear crucigramas",
+    "elobetter_text": "EloBetter - Aprende a subir de Elo en LoL",
+    "name_picker_wheel": "Ruleta Aleatoria de Nombres",
     "qrcode": "Generador de código QR",
     "click_counter": "Contador de clics",
-    "icons": "Biblioteca de Iconos"
+    "icons": "Biblioteca de Íconos",
+    "crossword": "Crear crucigramas online",
+    "word_search": "Crear sopa de letras online"
   }
 }

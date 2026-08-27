@@ -3,17 +3,19 @@
     "search_placeholder": "Werkzeug suchen...",
     "character_counter": "Zeichenzähler",
     "text_inverter": "Textumkehrer",
-    "case_converter": "Groß- und Kleinschreibung umwandeln",
-    "alphabetical_order": "Alphabetische Reihenfolge",
-    "random_number": "Zufallszahlengenerator",
+    "case_converter": "Groß-/Kleinschreibung-Konverter",
+    "alphabetical_order": "Alphabetisch sortieren",
+    "random_number": "Zufallszahlen-Generator",
     "alarm_clock": "Online-Wecker",
     "stopwatch": "Online-Stoppuhr",
     "timer": "Online-Timer",
     "creaftar_text": "Creaftar - Kreuzworträtsel erstellen",
-    "elobetter_text": "Elobetter - Lerne, wie du in LoL im Elo aufsteigst",
-    "name_picker_wheel": "Online-Namensrad",
-    "qrcode": "QR-Code-Ersteller",
+    "elobetter_text": "EloBetter - Lerne, wie du in LoL aufsteigst",
+    "name_picker_wheel": "Zufälliges Namensrad",
+    "qrcode": "QR-Code-Generator",
     "click_counter": "Klickzähler",
-    "icons": "Icon-Bibliothek"
+    "icons": "Icon-Bibliothek",
+    "crossword": "Kreuzworträtsel online erstellen",
+    "word_search": "Wortsuche online erstellen"
   }
 }

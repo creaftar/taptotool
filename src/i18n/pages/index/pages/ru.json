@@ -6,26 +6,29 @@
     "text_tools": {
       "char_counter": "Счетчик символов",
       "text_inverter": "Инвертор текста",
-      "case_converter": "Преобразователь регистра",
+      "case_converter": "Конвертер регистра",
       "alphabetical_order": "Сортировка по алфавиту"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
-      "random_number": "Генератор случайных чисел между двумя числами",
-      "name_picker_wheel": "Колесо выбора имен"
+      "random_number": "Генератор случайных чисел между 2 числами",
+      "name_picker_wheel": "Колесо случайного выбора имен"
     },
     "time_tools": {
-      "alarm_clock": "Будильник онлайн",
-      "stopwatch": "Секундомер онлайн",
-      "timer": "Таймер онлайн"
+      "alarm_clock": "Онлайн-будильник",
+      "stopwatch": "Онлайн-секундомер",
+      "timer": "Онлайн-таймер"
     },
-    "encrypt_tools":{
-      "qrcode": "Генератор QR-кодов"
+    "encrypt_tools": {
+      "qrcode": "Генератор QR-кода"
     },
     "external_links": {
-      "creaftar": "Creaftar - Создать кроссворды",
-      "elobetter": "EloBetter - Узнайте, как поднять ELO в League of Legends"
+      "creaftar": "Creaftar - Создание кроссвордов",
+      "elobetter": "EloBetter - Узнайте, как поднять Elo в League of Legends"
+    },
+    "game_tools": {
+      "crossword_generator": "Создать кроссворд онлайн",
+      "word_search_generator": "Создать филворд онлайн"
     },
     "performance_tools": {
       "click_counter": "Счетчик кликов"

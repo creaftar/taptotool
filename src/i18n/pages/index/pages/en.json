@@ -4,34 +4,37 @@
   },
   "tools_list": {
     "text_tools": {
-      "char_counter": "Character Counter",
-      "text_inverter": "Text Inverter",
-      "case_converter": "Case Converter",
-      "alphabetical_order": "Alphabetical Order"
+      "char_counter": "Character counter",
+      "text_inverter": "Text reverser",
+      "case_converter": "Case converter",
+      "alphabetical_order": "Alphabetical order"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
-      "random_number": "Generate Random Number between 2 numbers",
+      "random_number": "Random number generator between 2 numbers",
       "name_picker_wheel": "Random Name Picker Wheel"
     },
     "time_tools": {
-      "alarm_clock": "Online Alarm Clock",
-      "stopwatch": "Online Stopwatch",
-      "timer": "Online Timer"
+      "alarm_clock": "Online alarm clock",
+      "stopwatch": "Online stopwatch",
+      "timer": "Online timer"
     },
-    "encrypt_tools":{
+    "encrypt_tools": {
       "qrcode": "QR Code Generator"
     },
     "external_links": {
-      "creaftar": "Creaftar - Create crossword puzzles",
-      "elobetter": "EloBetter - Learn how to climb ELO in League of Legends"
+      "creaftar": "Creaftar - Create crosswords",
+      "elobetter": "EloBetter - Learn how to climb in League of Legends"
+    },
+    "game_tools": {
+      "crossword_generator": "Create crosswords online",
+      "word_search_generator": "Create word search online"
     },
     "performance_tools": {
       "click_counter": "Click counter"
     },
     "assets_tools": {
-      "icons": "Icon Library"
+      "icons": "Icons Library"
     }
   }
 }

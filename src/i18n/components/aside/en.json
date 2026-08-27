@@ -1,19 +1,21 @@
 {
   "aside": {
-    "search_placeholder": "Search for tool... ",
-    "character_counter": "Character Counter",
-    "text_inverter": "Text Reverser",
-    "case_converter": "Case Converter",
-    "alphabetical_order": "Sort Alphabetically",
-    "random_number": "Random Number Generator",
-    "alarm_clock": "Online Alarm Clock",
-    "stopwatch": "Online Stopwatch",
-    "timer": "Online Timer",
-    "creaftar_text": "Creaftar - Create Crosswords",
-    "elobetter_text": "Elobetter - Learn how to climb the ranks in LoL",
+    "search_placeholder": "Search tool...",
+    "character_counter": "Character counter",
+    "text_inverter": "Text reverser",
+    "case_converter": "Case converter",
+    "alphabetical_order": "Alphabetical order",
+    "random_number": "Random number generator",
+    "alarm_clock": "Online alarm clock",
+    "stopwatch": "Online stopwatch",
+    "timer": "Online timer",
+    "creaftar_text": "Creaftar - Create crosswords",
+    "elobetter_text": "EloBetter - Learn how to climb in LoL",
     "name_picker_wheel": "Random Name Picker Wheel",
     "qrcode": "QR Code Generator",
     "click_counter": "Click counter",
-    "icons": "Icon Library"
+    "icons": "Icons Library",
+    "crossword": "Create crosswords online",
+    "word_search": "Create word search online"
   }
 }

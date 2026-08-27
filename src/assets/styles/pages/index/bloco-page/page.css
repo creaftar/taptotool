@@ -140,11 +140,14 @@
     content: "\f029";
 }
 .fa-hand-point-up:before {
-    content: "\f0a6"
+    content: "\f0a6";
 }
 .fa-icons:before {
-    content: "\f86d"
+    content: "\f86d";
 }
 .fa-shapes:before {
-    content: "\f61f"
+    content: "\f61f";
+}
+.fa-capsules:before {
+    content: "\f46b";
 }

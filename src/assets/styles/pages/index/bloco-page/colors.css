@@ -4,16 +4,18 @@
 	--texto-tempo: rgba(63, 63, 116, 1);
 	--texto-guide: white;
 	--texto-random: white;
-    --texto-encrypt: rgba(40, 40, 40, 0.9);
+    --texto-encrypt: rgba(40, 40, 40, 0.7);
     --texto-assets: #fffced;
+    --texto-games: rgba(40, 40, 40, 0.9);
     
 	--footer-texto: #db9106;
 	--footer-matematica: #39187a;
 	--footer-tempo: white;
 	--footer-guide: #b628a1;
 	--footer-random: #0abfbc;
-	--footer-encrypt: #FACC15; 
+	--footer-encrypt: #00FFFF; 
     --footer-assets: #2e69f5;
+	--footer-game: #FACC15;
 
 }
 .escuro:root{
@@ -21,16 +23,18 @@
 	--texto-matematica: white;
 	--texto-tempo: rgba(63, 63, 116, 1);
 	--texto-guide: white;
-    --texto-encrypt: var(--fundo-card);
+    --texto-encrypt: rgba(40, 40, 40, 0.7);
     --texto-assets: #fffced;
+    --texto-games: var(--fundo-card);
 
 	--footer-texto: #cc8707;
 	--footer-matematica: #323e94;
 	--footer-tempo: white;
 	--footer-guide: #b628a1;
 	--footer-random: #0abfbcc8;
-	--footer-encrypt: #FACC15; 
+	--footer-encrypt: #00FFFF; 
     --footer-assets: #1c51cc;
+	--footer-game: #FACC15;
 }
 
 .page-text{
@@ -70,4 +74,8 @@
 .page-assets{
     background-color: var(--footer-assets);
     color: var(--texto-assets);
+}
+.page-game{
+    background-color: var(--footer-game);
+    color: var(--texto-games);
 }

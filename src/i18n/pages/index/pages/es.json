@@ -6,32 +6,35 @@
     "text_tools": {
       "char_counter": "Contador de caracteres",
       "text_inverter": "Inversor de texto",
-      "case_converter": "Convertidor de mayúsculas y minúsculas",
-      "alphabetical_order": "Orden alfabético"
+      "case_converter": "Conversor de mayúsculas y minúsculas",
+      "alphabetical_order": "Ordenar alfabéticamente"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
       "random_number": "Generador de números aleatorios entre 2 números",
-      "name_picker_wheel": "Ruleta de nombres aleatoria"
+      "name_picker_wheel": "Ruleta Aleatoria de Nombres"
     },
     "time_tools": {
       "alarm_clock": "Despertador online",
       "stopwatch": "Cronómetro online",
       "timer": "Temporizador online"
     },
-    "encrypt_tools":{
+    "encrypt_tools": {
       "qrcode": "Generador de código QR"
     },
     "external_links": {
       "creaftar": "Creaftar - Crear crucigramas",
-      "elobetter": "EloBetter - Aprende a subir de ELO en League of Legends"
+      "elobetter": "EloBetter - Aprende a subir de Elo en League of Legends"
+    },
+    "game_tools": {
+      "crossword_generator": "Crear crucigramas online",
+      "word_search_generator": "Crear sopa de letras online"
     },
     "performance_tools": {
       "click_counter": "Contador de clics"
     },
     "assets_tools": {
-      "icons": "Biblioteca de Iconos"
+      "icons": "Biblioteca de Íconos"
     }
   }
 }

@@ -1,31 +1,34 @@
 {
   "search_section": {
-    "placeholder": "उपकरण खोजें..."
+    "placeholder": "टूल खोजें..."
   },
   "tools_list": {
     "text_tools": {
-      "char_counter": "अक्षर गणक",
-      "text_inverter": "पाठ पलटने वाला",
+      "char_counter": "वर्ण काउंटर",
+      "text_inverter": "टेक्स्ट इनवर्टर",
       "case_converter": "केस कनवर्टर",
-      "alphabetical_order": "वर्णानुक्रम में व्यवस्थित करें"
+      "alphabetical_order": "वर्णानुक्रम में रखें"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
       "random_number": "2 संख्याओं के बीच रैंडम नंबर जनरेटर",
-      "name_picker_wheel": "ऑनलाइन नाम स्पिनर"
+      "name_picker_wheel": "रैंडम नाम बीनने वाला पहिया"
     },
     "time_tools": {
-      "alarm_clock": "ऑनलाइन अलार्म घड़ी",
+      "alarm_clock": "ऑनलाइन अलार्म घड़ी",
       "stopwatch": "ऑनलाइन स्टॉपवॉच",
       "timer": "ऑनलाइन टाइमर"
     },
-    "encrypt_tools":{
-      "qrcode": "क्यूआर कोड जनरेटर"
+    "encrypt_tools": {
+      "qrcode": "QR कोड जनरेटर"
     },
     "external_links": {
-      "creaftar": "Creaftar - वर्ग पहेली बनाएं",
-      "elobetter": "EloBetter - League of Legends में ELO बढ़ाना सीखें"
+      "creaftar": "Creaftar - क्रॉसवर्ड बनाएं",
+      "elobetter": "EloBetter - लीग ऑफ लेजेंड्स में एलो बढ़ाना सीखें"
+    },
+    "game_tools": {
+      "crossword_generator": "ऑनलाइन क्रॉसवर्ड बनाएं",
+      "word_search_generator": "ऑनलाइन शब्द खोजें बनाएं"
     },
     "performance_tools": {
       "click_counter": "क्लिक काउंटर"

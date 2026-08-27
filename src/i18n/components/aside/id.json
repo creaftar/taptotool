@@ -1,19 +1,21 @@
 {
   "aside": {
     "search_placeholder": "Cari alat...",
-    "character_counter": "Penghitung Karakter",
-    "text_inverter": "Pembalik Teks",
-    "case_converter": "Konverter Huruf Besar/Kecil",
-    "alphabetical_order": "Urutkan Abjad",
-    "random_number": "Pembuat Angka Acak",
-    "alarm_clock": "Jam Alarm Online",
-    "stopwatch": "Stopwatch Online",
-    "timer": "Timer Online",
-    "creaftar_text": "Creaftar - Buat Teka-Teki Silang",
-    "elobetter_text": "Elobetter - Pelajari cara naik Elo di LoL",
-    "name_picker_wheel": "Roda Acak Nama Online",
-    "qrcode": "Pembuat Kode QR",
-    "click_counter": "Hitung klik",
-    "icons": "Pustaka Ikon"
+    "character_counter": "Penghitung karakter",
+    "text_inverter": "Pembalik teks",
+    "case_converter": "Pengubah huruf besar/kecil",
+    "alphabetical_order": "Urutkan abjad",
+    "random_number": "Generator angka acak",
+    "alarm_clock": "Jam alarm online",
+    "stopwatch": "Stopwatch online",
+    "timer": "Timer online",
+    "creaftar_text": "Creaftar - Buat teka-teki silang",
+    "elobetter_text": "EloBetter - Pelajari Cara Naik Elo di LoL",
+    "name_picker_wheel": "Roda Pemilih Nama Acak",
+    "qrcode": "Generator Kode QR",
+    "click_counter": "Penghitung klik",
+    "icons": "Perpustakaan Ikon",
+    "crossword": "Buat teka-teki silang online",
+    "word_search": "Buat cari kata online"
   }
 }

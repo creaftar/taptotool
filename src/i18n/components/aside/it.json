@@ -2,18 +2,20 @@
   "aside": {
     "search_placeholder": "Cerca strumento...",
     "character_counter": "Contatore di caratteri",
-    "text_inverter": "Inversore di testo",
-    "case_converter": "Converte maiuscole e minuscole",
-    "alphabetical_order": "Ordina in ordine alfabetico",
-    "random_number": "Genera numeri casuali",
-    "alarm_clock": " Sveglia online",
+    "text_inverter": "Invertitore di testo",
+    "case_converter": "Convertitore di maiuscole e minuscole",
+    "alphabetical_order": "Ordine alfabetico",
+    "random_number": "Generatore di numeri casuali",
+    "alarm_clock": "Sveglia online",
     "stopwatch": "Cronometro online",
     "timer": "Timer online",
-    "creaftar_text": "Creaftar - crea cruciverba",
-    "elobetter_text": "Elobetter - Impara a salire di Elo su LoL",
-    "name_picker_wheel": "Ruota dei nomi online",
-    "qrcode": "Generatore di codice QR",
-    "click_counter": "Contatore di clic",
-    "icons": "Libreria Icone"
+    "creaftar_text": "Creaftar - Crea parole crociate",
+    "elobetter_text": "EloBetter - Impara a salire di Elo su LoL",
+    "name_picker_wheel": "Ruota della fortuna dei nomi",
+    "qrcode": "Generatore di QR Code",
+    "click_counter": "Contatore di click",
+    "icons": "Libreria di Icone",
+    "crossword": "Crea parole crociate online",
+    "word_search": "Crea caccia ai nomi online"
   }
 }

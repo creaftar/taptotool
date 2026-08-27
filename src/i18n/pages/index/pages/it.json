@@ -5,33 +5,36 @@
   "tools_list": {
     "text_tools": {
       "char_counter": "Contatore di caratteri",
-      "text_inverter": "Inversore di testo",
-      "case_converter": "Convertitore maiuscole/minuscole",
+      "text_inverter": "Invertitore di testo",
+      "case_converter": "Convertitore di maiuscole e minuscole",
       "alphabetical_order": "Ordine alfabetico"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
       "random_number": "Generatore di numeri casuali tra 2 numeri",
-      "name_picker_wheel": "Ruota dei nomi online"
+      "name_picker_wheel": "Ruota della fortuna dei nomi"
     },
     "time_tools": {
       "alarm_clock": "Sveglia online",
       "stopwatch": "Cronometro online",
       "timer": "Timer online"
     },
-    "encrypt_tools":{
-      "qrcode": "Generatore di codice QR"
+    "encrypt_tools": {
+      "qrcode": "Generatore di QR Code"
     },
     "external_links": {
       "creaftar": "Creaftar - Crea parole crociate",
-      "elobetter": "EloBetter - Impara a salire di ELO su League of Legends"
+      "elobetter": "EloBetter - Impara a salire di Elo su League of Legends"
+    },
+    "game_tools": {
+      "crossword_generator": "Crea parole crociate online",
+      "word_search_generator": "Crea caccia ai nomi online"
     },
     "performance_tools": {
-      "click_counter": "Contatore di clic"
+      "click_counter": "Contatore di click"
     },
     "assets_tools": {
-      "icons": "Libreria Icone"
+      "icons": "Libreria di Icone"
     }
   }
 }

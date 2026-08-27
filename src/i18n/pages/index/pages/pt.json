@@ -9,8 +9,7 @@
       "case_converter": "Conversor de maiúsculas e minúsculas",
       "alphabetical_order": "Colocar em ordem alfabética"
     },
-    "math_tools": {
-    },
+    "math_tools": {},
     "random_tools": {
       "random_number": "Gerador de números aleatórios entre 2 números",
       "name_picker_wheel": "Roleta Aleatória de Nomes"
@@ -20,12 +19,16 @@
       "stopwatch": "Cronometro online",
       "timer": "Temporizador online"
     },
-    "encrypt_tools":{
+    "encrypt_tools": {
       "qrcode": "Gerador de QR Code"
     },
     "external_links": {
       "creaftar": "Creaftar - Criar cruzadinhas",
       "elobetter": "EloBetter - Aprenda a Subir de Elo no League of Legends"
+    },
+    "game_tools": {
+      "crossword_generator": "Criar cruzadinhas online",
+      "word_search_generator": "Criar caça palavras online"
     },
     "performance_tools": {
       "click_counter": "Contador de cliques"
