@@ -27,7 +27,7 @@ const copyrightFormatted = d?.aside.copyright ? d.aside.copyright.replace('{year
     <div id="container-aside">
         <div class="aside-bloco">
             <h3 class="h3-aside purple">{d.aside.nav_title}</h3>
-            <a href=`/${lang === 'en' ? 'word-search' : lang + '/word-search'}` class="link" aria-label={d.aside.nav_home_aria}>
+            <a href=`/${lang === 'en' ? '' : lang + '/'}` class="link" aria-label={d.aside.nav_home_aria}>
                 <div class="topico" id="ao_topo">
                     <i class="icons-aside fa-solid fa-house"></i>
                     <div class="purple descricao-topico">{d.aside.nav_home}</div>
