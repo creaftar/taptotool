@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 const supportedLanguages = [
   'en', 'pt', 'es', 'fr', 'it', 'de', 'id', 'hi', 'ru',
+  'zh',
   'en-us', 'en-gb', 'en-au', 'en-sg', 'en-ph',
   'pt-br', 'es-mx', 'es-es', 'ko-kr', 'ja-jp',
   'tr-tr', 'vi-vn', 'de-de', 'fr-fr', 'it-it',
@@ -40,6 +41,7 @@ export default defineConfig({
           id: 'id',
           hi: 'hi',
           ru: 'ru',
+          zh: 'zh',
           'en-us': 'en-US',
           'en-gb': 'en-GB',
           'en-au': 'en-AU',

@@ -1,0 +1,34 @@
+{
+  "seo": {
+    "title": "Tap to Tool - 在线制作填字游戏",
+    "description": "创建属于您自己的自定义填字游戏...",
+    "keywords": "填字游戏, 制作, 生成器, 教育"
+  },
+  "schema": {
+    "app_name": "在线制作填字游戏",
+    "app_description": "在 Tap to Tool 上轻松在线创建属于您自己的自定义填字游戏。",
+    "page_name": "制作填字游戏",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "制作填字游戏",
+    "alternateName": "Creaftar 制作器",
+    "description": "在 Tap to Tool 上免费在线创建自定义填字游戏的工具。",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "error_clipboard": "请尝试使用 Ctrl + V 粘贴，或检查是否已允许我们访问您的剪贴板",
+    "paste_text": "点击以粘贴您的文本",
+    "paste_shortcut": "Ctrl + V",
+    "hide_menu_aria": "用于隐藏菜单的按钮",
+    "hide_text": "隐藏"
+  },
+  "create_page": {
+    "words_title": "单词：",
+    "word_placeholder": "示例",
+    "add_word_aria": "添加单词",
+    "add_word_btn_aria": "用于添加单词的按钮",
+    "hints_title": "提示：",
+    "hint_placeholder": "例如，引用已有事实的行为或动作...",
+    "add_hint_aria": "添加内容",
+    "add_hint_btn_aria": "用于添加内容的按钮"
+  }
+}

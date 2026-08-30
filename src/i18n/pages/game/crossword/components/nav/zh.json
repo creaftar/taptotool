@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home_aria": "返回首页",
+    "disconnected": "您已未连接",
+    "connected": "您已连接",
+    "email_label": "电子邮箱：",
+    "password_label": "密码：",
+    "confirm_password_label": "确认密码：",
+    "placeholder_email": "email@gmail.com",
+    "placeholder_password": "密码",
+    "already_have_account": "已有账号？",
+    "no_account": "还没有账号？立即注册！",
+    "btn_register": "注册",
+    "btn_login": "登录",
+    "btn_logout": "退出登录",
+    "search_crossword_aria": "搜索填字游戏",
+    "search_placeholder": "搜索填字游戏",
+    "hide_menu_aria": "隐藏菜单按钮",
+    "hide_menu_text": "隐藏菜单",
+    "expand": "展开",
+    "hide": "隐藏",
+    "lang_display": "中文"
+  },
+  "auth_errors": {
+    "invalid_email": "无效的电子邮箱地址",
+    "user_not_found": "未找到该电子邮箱地址",
+    "wrong_password": "提供的密码不正确",
+    "too_many_requests": "登录失败尝试次数过多",
+    "network_failed": "尝试身份验证时发生网络错误",
+    "weak_password": "提供的密码强度太弱",
+    "email_in_use": "该电子邮箱地址已与其他账号关联",
+    "different_credential": "尝试使用不同的身份验证提供商登录（例如 Google）",
+    "operation_not_allowed": "不允许执行此操作",
+    "internal_error": "身份验证服务器内部错误",
+    "missing_password": "请输入密码",
+    "invalid_credential": "凭据无效（通常在将账号迁移至第三方提供商 [Google, Twitter, Yahoo] 时发生）",
+    "passwords_dont_match": "两次输入的密码不一致"
+  }
+}

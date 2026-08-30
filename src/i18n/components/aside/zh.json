@@ -1,0 +1,21 @@
+{
+  "aside": {
+    "search_placeholder": "搜索工具...",
+    "character_counter": "字符计数器",
+    "text_inverter": "文本翻转器",
+    "case_converter": "大小写转换器",
+    "alphabetical_order": "按字母顺序排列",
+    "random_number": "随机数生成器",
+    "alarm_clock": "在线闹钟",
+    "stopwatch": "在线秒表",
+    "timer": "在线倒计时",
+    "creaftar_text": "Creaftar - 创建填字游戏",
+    "elobetter_text": "Elobetter - 学习如何在英雄联盟中提升段位",
+    "name_picker_wheel": "随机名字转盘",
+    "qrcode": "二维码生成器",
+    "click_counter": "点击计数器",
+    "icons": "图标库",
+    "crossword": "在线制作填字游戏",
+    "word_search": "在线制作寻字游戏"
+  }
+}

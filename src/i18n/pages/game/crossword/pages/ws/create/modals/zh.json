@@ -1,0 +1,49 @@
+{
+  "modal_save": {
+    "title": "寻字游戏标题：",
+    "placeholder": "寻字游戏",
+    "hints_question": "您是否希望为您的寻字游戏启用提示？",
+    "hints_obs": "（您可以稍后更改此选项）",
+    "hints_yes": "是的，我想为我的寻字游戏启用提示",
+    "hints_no": "不要为我的寻字游戏启用提示",
+    "answer_key_question": "您是否希望为您的寻字游戏创建答案解析？",
+    "answer_key_obs": "（答案解析将允许玩家查看答案 - 您可以稍后更改此选项）",
+    "answer_key_yes": "是的，我想为我的寻字游戏创建答案解析",
+    "answer_key_no": "不要为我的寻字游戏创建答案解析",
+    "share_question": "您是否希望在我们的社交媒体上分享您的寻字游戏？",
+    "share_yes": "是的，我想在 Creaftar 的社交媒体上推广我的寻字游戏",
+    "share_no": "不要分享我的寻字游戏",
+    "save_button": "保存",
+    "requirements_alert": "注意：只有注册账号后才能保存您的寻字游戏"
+  },
+  "modal_generate": {
+    "theme_title": "寻字游戏主题",
+    "theme_placeholder": "寻字游戏",
+    "word_quantity": "单词数量",
+    "generate_button": "生成"
+  },
+  "copy": {
+    "modal_preview": "预览",
+    "warning_main": "不用担心垂直和水平方向，请参考下方预期的格式",
+    "your_text": "您的文本：",
+    "detector_stats": "{words} 个单词 / {clues} 条提示",
+    "placeholder": "在此粘贴您的文本！",
+    "expected_formats": "预期格式：",
+    "btn_generate": "文本已准备就绪",
+    "words_suffix": "个单词",
+    "clues_suffix": "条提示",
+    "examples": {
+      "dog": "狗",
+      "cat": "猫",
+      "bat": "蝙蝠",
+      "elephant": "大象",
+      "kangaroo": "袋鼠",
+      "desc_dog": "人类最好的朋友",
+      "desc_cat": "喜欢抓老鼠",
+      "desc_bat": "会飞的哺乳动物",
+      "desc_elephant": "长着长长鼻子的动物",
+      "desc_kangaroo": "大型有袋动物"
+    },
+    "requirements_alert": "哎呀！看来您没有粘贴任何内容，请复制一段文本后重试"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "newsletter_section": {
+    "title": "随时掌握最新动态！",
+    "tooltip": "我们将发送邮件至您的注册邮箱，让您随时了解 Tap to Tool 的所有最新动态！",
+    "input_placeholder": "user.example@email.com",
+    "button_text": "订阅",
+    "privacy": {
+      "agree": "我同意",
+      "terms": "服务条款",
+      "and": "与",
+      "policy": "隐私政策"
+    },
+    "features": [
+      "最新更新",
+      "新工具上线",
+      "提升生产力"
+    ]
+  }
+}

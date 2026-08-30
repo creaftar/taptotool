@@ -1,0 +1,20 @@
+{
+  "kit_section": {
+    "header": {
+      "main_title": "查找工具包"
+    },
+    "text_kit": {
+      "title": "文本",
+      "alt_text": "文本工具包"
+    },
+    "math_kit": {
+      "title": "数学",
+      "alt_text": "数学工具包"
+    },
+    "creaftar_promo": {
+      "alt_logo": "Creaftar 标志",
+      "description": "Creaftar 是您在线创建、编辑和删除填字游戏的地方。挑战朋友，游玩我们社区的专属作品。",
+      "button_text": "立即访问 Creaftar！"
+    }
+  }
+}

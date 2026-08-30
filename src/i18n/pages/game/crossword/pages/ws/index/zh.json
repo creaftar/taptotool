@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Tap to Tool - 在线寻字游戏",
+    "description": "免费游玩寻字游戏或创建属于您自己的游戏！与朋友分享并挑战社区...",
+    "keywords": "在线寻字游戏, 在线制作寻字游戏, 寻字游戏生成器, 隐藏词汇, 在线字母汤, 自定义寻字游戏, 免费制作寻字游戏, 找单词游戏, 益智消遣, 字母棋盘"
+  },
+  "schema": {
+    "app_name": "在线制作寻字游戏",
+    "app_description": "快来探索 Tap to Tool 并在线制作寻字游戏！创建、编辑并游玩自定义寻字游戏。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "在线寻字游戏",
+    "alternateName": "Creaftar 寻字游戏",
+    "description": "在 Tap to Tool 上免费在线创建、编辑和游玩寻字游戏的工具。",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "search_placeholder": "搜索寻字游戏",
+    "search_aria": "搜索寻字游戏"
+  },
+  "pesquisa": {
+    "search_crossword": "搜索寻字游戏..."
+  },
+  "index": {
+    "login_prompt": "登录以制作寻字游戏！",
+    "logged_prompt": "您的寻字游戏：",
+    "words_found": "找到的单词",
+    "horizontals": "水平与垂直",
+    "verticals": "对角线与反向",
+    "crossword_by": "寻字游戏创作者：",
+    "aria": {
+      "play_button": "用于游玩寻字游戏的按钮",
+      "options_button": "用于查看寻字游戏更多选项的按钮",
+      "copy_link": "用于复制寻字游戏链接的按钮",
+      "edit_button": "用于编辑寻字游戏的按钮",
+      "delete_button": "用于删除寻字游戏的按钮"
+    },
+    "time": {
+      "second": "秒前",
+      "seconds": "秒前",
+      "minute": "分钟前",
+      "minutes": "分钟前",
+      "hour": "小时前",
+      "hours": "小时前",
+      "day": "天前",
+      "days": "天前",
+      "month": "个月前",
+      "meses": "个月前",
+      "year": "年前",
+      "years": "年前"
+    },
+    "js_messages": {
+      "js_create_title": "制作寻字游戏",
+      "js_create_desc": "创建或生成新的自定义寻字游戏",
+      "js_create_link": "制作寻字游戏",
+      "js_create_aria": "点击以创建或生成新的寻字游戏"
+    }
+  }
+}

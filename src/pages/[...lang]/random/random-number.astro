@@ -15,6 +15,7 @@ export async function getStaticPaths() {
     { params: { lang: 'ru' } },
     { params: { lang: 'id' } },
     { params: { lang: 'hi' } },
+    { params: { lang: 'zh' } },
   ];
 }
 
@@ -27,8 +28,9 @@ import de from "@/i18n/pages/random/randomnumber/de.json";
 import ru from "@/i18n/pages/random/randomnumber/ru.json";
 import id from "@/i18n/pages/random/randomnumber/id.json";
 import hi from "@/i18n/pages/random/randomnumber/hi.json";
+import zh from "@/i18n/pages/random/randomnumber/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 
 const { lang: paramLang } = Astro.params;
 const lang = paramLang || Astro.currentLocale || 'en'; 

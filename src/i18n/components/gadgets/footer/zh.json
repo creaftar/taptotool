@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "tagline": "灵感无限，工具随行。",
+    "description_p1": "<strong>Tap to Tool</strong> 是为追求高效的人打造的数字瑞士军刀。旨在轻量、免费且随时随地均可接入访问。",
+    "description_p2": "作为一个旨在提供精准与高效的实用小工具中心，我们的工具注重隐私、性能与易用性，确保您能够毫无烦恼地在需要时即刻获得所需。",
+    "links": {
+      "about": "关于我们",
+      "contact": "联系我们",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    },
+    "copyright": "© 2025 - {data} | Tap to Tool - 保留所有权利。",
+    "alt_tap_to_tool": "Tap to Tool 标志",
+    "alt_creaftar": "Creaftar 标志",
+    "share": {
+      "x": "分享到 X",
+      "facebook": "分享到 Facebook",
+      "reddit": "分享到 Reddit",
+      "bluesky": "分享到 Bluesky",
+      "whatsapp": "分享到 WhatsApp",
+      "telegram": "分享到 Telegram"
+    }
+  }
+}

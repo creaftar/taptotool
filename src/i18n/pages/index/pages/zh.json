@@ -1,0 +1,40 @@
+{
+  "search_section": {
+    "placeholder": "搜索工具..."
+  },
+  "tools_list": {
+    "text_tools": {
+      "char_counter": "字符计数器",
+      "text_inverter": "文本翻转器",
+      "case_converter": "大小写转换器",
+      "alphabetical_order": "按字母顺序排序"
+    },
+    "math_tools": {},
+    "random_tools": {
+      "random_number": "两数间随机数生成器",
+      "name_picker_wheel": "随机名字转盘"
+    },
+    "time_tools": {
+      "alarm_clock": "在线闹钟",
+      "stopwatch": "在线秒表",
+      "timer": "在线定时器"
+    },
+    "encrypt_tools": {
+      "qrcode": "二维码生成器"
+    },
+    "external_links": {
+      "creaftar": "Creaftar - 在线制作填字游戏",
+      "elobetter": "EloBetter - 学习如何在英雄联盟中提升段位"
+    },
+    "game_tools": {
+      "crossword_generator": "在线制作填字游戏",
+      "word_search_generator": "在线制作寻字游戏"
+    },
+    "performance_tools": {
+      "click_counter": "点击计数器"
+    },
+    "assets_tools": {
+      "icons": "图标资源库"
+    }
+  }
+}

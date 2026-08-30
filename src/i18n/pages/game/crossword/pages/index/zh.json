@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "在线做填字游戏 | Tap to Tool",
+    "description": "快来探索 Tap to Tool 并在线做填字游戏！根据需要创建、编辑和删除填字游戏。挑战您的朋友，体验自定义填字游戏。",
+    "keywords": "在线填字游戏, 在线做填字游戏, 自定义填字游戏, 查找填字游戏, 制作填字游戏, 如何创建填字游戏, 英雄联盟填字游戏, 宝可梦填字游戏, 教育填字游戏, 校园填字游戏, 电影填字游戏, 动物填字游戏, 多元主题填字游戏, 在线做字谜, 创建字谜, 字谜游戏, 在线组装填字游戏, 在线字谜, 填字游戏, 寻字游戏, 隐藏词汇, 休闲消遣, 在线游戏, 在线填字, 游玩填字游戏, 组装填字游戏, 简单组装填字游戏, 简单制作填字游戏, 生成字谜, 填字游戏生成器, 生成填字游戏, 字谜生成器, 寻字游戏, 在线寻字游戏"
+  },
+  "schema": {
+    "app_name": "在线做填字游戏",
+    "app_description": "快来探索 Tap to Tool 并在线做填字游戏！创建、编辑并游玩自定义填字游戏。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "在线填字游戏",
+    "alternateName": "Creaftar 填字游戏",
+    "description": "在 Tap to Tool 上免费在线创建、编辑和游玩填字游戏的工具。",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "search_placeholder": "搜索填字游戏",
+    "search_aria": "搜索填字游戏"
+  },
+  "pesquisa": {
+    "search_crossword": "搜索填字游戏..."
+  },
+  "index": {
+    "login_prompt": "登录以制作填字游戏！",
+    "logged_prompt": "您的填字游戏：",
+    "words_found": "找到的单词",
+    "horizontals": "横向",
+    "verticals": "纵向",
+    "crossword_by": "填字游戏创作者：",
+    "aria": {
+      "play_button": "用于游玩填字游戏的按钮",
+      "options_button": "用于查看填字游戏更多选项的按钮",
+      "copy_link": "用于复制填字游戏链接的按钮",
+      "edit_button": "用于编辑填字游戏的按钮",
+      "delete_button": "用于删除填字游戏的按钮"
+    },
+    "time": {
+      "second": "秒前",
+      "seconds": "秒前",
+      "minute": "分钟前",
+      "minutes": "分钟前",
+      "hour": "小时前",
+      "hours": "小时前",
+      "day": "天前",
+      "days": "天前",
+      "month": "个月前",
+      "meses": "个月前",
+      "year": "年前",
+      "years": "年前"
+    },
+    "js_messages": {
+      "js_create_title": "制作填字游戏",
+      "js_create_desc": "创建或生成新的填字游戏",
+      "js_create_link": "制作填字游戏",
+      "js_create_aria": "点击以创建或生成填字游戏"
+    }
+  }
+}

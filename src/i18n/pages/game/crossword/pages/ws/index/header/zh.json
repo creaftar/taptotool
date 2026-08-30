@@ -1,0 +1,12 @@
+{
+  "header": {
+    "title": "寻字游戏",
+    "results_found": "找到的寻字游戏",
+    "no_results": "未找到寻字游戏"
+  },
+  "daily": {
+    "banner": "游玩每日寻字游戏",
+    "title": "每日寻字游戏",
+    "next": "距离下一关还有："
+  }
+}

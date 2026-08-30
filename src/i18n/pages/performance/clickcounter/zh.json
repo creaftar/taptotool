@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "免费在线屏幕点击计数器 | Tap to Tool",
+    "description": "使用我们的免费在线计数器轻松统计您的屏幕点击次数。支持键盘快捷键（空格键、回车键、退格键）与响应式界面。",
+    "keywords": "点击计数器, 统计点击, 屏幕计数器, click counter, 在线点击计数器, 按压计数器, 在线手动计数器"
+  },
+  "schema": {
+    "alternate_name": "在线点击计数器",
+    "app_description": "通过屏幕或键盘统计点击次数的在线工具。简单、精准且免费。",
+    "howto_name": "如何使用点击计数器",
+    "howto_description": "了解如何使用鼠标、触摸屏或键盘快捷键来统计您的点击次数。",
+    "breadcrumb_home": "首页"
+  },
+  "ui": {
+    "h1": "屏幕点击计数器",
+    "intro_text": "一款简单高效的工具，可在浏览器中实时统计点击次数。非常适合快速计数、点击测试和重复次数控制。",
+    "clicked_prefix": "您已点击",
+    "clicked_suffix": "次",
+    "aria_add": "增加点击",
+    "aria_remove": "减少点击",
+    "aria_reset": "重置计数器",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "features_title": "点击计数器功能特点",
+    "feature_keyboard": "键盘快捷键：使用空格键（Space）或回车键（Enter）增加计数，退格键（Backspace）减少计数。",
+    "feature_modes": "多平台支持：在电脑、平板和智能手机上均可完美运行。",
+    "feature_realtime": "实时计数：计数器即时更新，零延迟。",
+    "feature_responsive": "简洁界面：专注于易用性的极简无干扰设计。",
+    "usage_title": "如何使用计数器",
+    "usage_step1": "点击屏幕上的加号（+）按钮或按键盘上的空格键/回车键来增加一次点击。",
+    "usage_step2": "使用屏幕上的减号（-）按钮或退格键从计数中扣除一次点击。",
+    "usage_step3": "随时按下重置按钮即可将计数清零。",
+    "usage_step4": "在面板中央实时查看显示的总点击次数。",
+    "shortcuts_title": "支持的键盘快捷键",
+    "shortcut_space_enter": "空格键 / 回车键：计数器 +1",
+    "shortcut_backspace": "退格键：计数器 -1",
+    "shortcut_reset": "重置按钮：清零累计数值",
+    "footer_text": "喜欢这个工具吗？与您的朋友分享吧！"
+  },
+  "dynamic": {
+    "singular_label": "次",
+    "plural_label": "次",
+    "reset_confirm": "计数器已成功重置！"
+  }
+}

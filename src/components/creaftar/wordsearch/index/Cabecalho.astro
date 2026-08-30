@@ -3,21 +3,6 @@ interface Props {}
 
 import '@/assets/styles/pages/game/crossword/pages/index/head/cabecalho.css';
 
-/*export async function getStaticPaths() {
-  return [
-    { params: { lang: undefined } },
-    { params: { lang: 'pt' } },
-    
-    { params: { lang: 'es' } },
-    { params: { lang: 'fr' } },
-    { params: { lang: 'it' } },
-    { params: { lang: 'de' } },
-    { params: { lang: 'ru' } },
-    { params: { lang: 'id' } },
-    { params: { lang: 'hi' } },
-  ];
-}*/
-
 const lang = Astro.currentLocale || 'en'; 
 
 import pt from "@/i18n/pages/game/crossword/pages/ws/index/header/pt.json";
@@ -29,8 +14,9 @@ import de from "@/i18n/pages/game/crossword/pages/ws/index/header/de.json";
 import ru from "@/i18n/pages/game/crossword/pages/ws/index/header/ru.json";
 import id from "@/i18n/pages/game/crossword/pages/ws/index/header/id.json";
 import hi from "@/i18n/pages/game/crossword/pages/ws/index/header/hi.json";
+import zh from "@/i18n/pages/game/crossword/pages/ws/index/header/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales].header || locales.en.header;
 ---
 

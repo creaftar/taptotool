@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "在线字符计数器 - Tap to Tool",
+    "description": "简单快捷的在线工具，用于计算任何文本的字母、字符、单词、行数和段落数。",
+    "keywords": "字母计数器, 单词计数器, 句子计数器, 段落计数器, 行数计数器, 不含空格字符计数器, 在线字符计数器, 单词和字符计数器"
+  },
+  "schema": {
+    "app_name": "在线字符、单词和行数计数器",
+    "app_description": "简单快捷的在线工具，用于计算任何文本的字母、字符（含或不含空格）、单词、行数和段落数。",
+    "howto_name": "如何使用在线字符计数器",
+    "howto_description": "快速指南，助您开始实时计算文本数据。",
+    "step1_name": "复制并粘贴",
+    "step1_text": "将所需文本粘贴到工具的主输入框中。",
+    "step2_name": "即时分析",
+    "step2_text": "结果（字符数、单词数、句子数、行数）会自动实时计算并显示。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "字符计数器"
+  },
+  "ui": {
+    "h1_main": "字符计数器",
+    "placeholder_input": "在此输入或粘贴您的文本...",
+    "paste_text": "点击以粘贴您的文本",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "请尝试使用 CTRL + V 粘贴，或检查是否已允许我们查看您的剪贴板",
+    "tooltip_copy": "复制文本",
+    "tooltip_delete": "清空文本",
+    "tooltip_copy_results": "复制结果",
+    "res_chars_no_spaces": "字符数（不含空格）",
+    "res_chars": "字符数",
+    "res_words": "单词数",
+    "res_sentences": "句子数",
+    "res_lines": "行数",
+    "res_paragraphs": "段落数",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "字符计数器",
+    "intro_text": "字符计数器是一款通过您输入的文本计算单词数、字符数、句子数、行数和段落数的工具。界面设计简单、易用且实用，您只需在上方文本框中输入或粘贴文本，即可在旁边的区域直接查看结果！",
+    "usage_title": "如何使用字符计数器",
+    "step_1": "在上方突出显示区域输入或粘贴复制的内容；",
+    "step_2": "在输入框右侧查看计算结果。",
+    "why_use_title": "为什么要使用字符计数器？",
+    "why_use_text": "除了极其简单和直观之外，字符计数器对于过去需要耗费大量精力的任务非常有用。快来体验并使用反馈工具与我们分享您的结果，我们将非常乐意了解您的看法。",
+    "footer_text": "轻松掌握文本字数限制，使用字符计数器优化您的社交动态！"
+  },
+  "dynamic": {
+    "standard_phrase": "您好，欢迎使用。在此输入您的文本...",
+    "char_no_spaces": "字符数（不含空格）",
+    "characters": "字符数",
+    "words": "单词数",
+    "sentences": "句子数",
+    "lines": "行数",
+    "paragraphs": "段落数"
+  }
+}

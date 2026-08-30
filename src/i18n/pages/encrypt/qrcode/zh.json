@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "免费无限二维码生成器 - Tap to Tool",
+    "description": "免费且无限制地创建和自定义多个二维码。修改颜色、调整大小、移除背景并即刻下载高质量图片。",
+    "keywords": "二维码生成器, 免费二维码, 无限二维码, 创建二维码, 自定义二维码生成器, 无背景二维码, 批量创建二维码"
+  },
+  "schema": {
+    "app_name": "免费无限二维码生成器 - Tap to Tool",
+    "app_description": "免费工具，提供颜色、大小和透明背景选项，支持无限量生成和自定义多个二维码。",
+    "howto_name": "如何生成和自定义二维码",
+    "howto_description": "了解如何使用我们的在线工具创建自定义且无限量的二维码。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "二维码生成器"
+  },
+  "ui": {
+    "h1": "免费无限二维码生成器",
+    "intro_text": "快速、免费且无限制地根据需要创建、自定义和下载多个二维码。轻松修改颜色、移除背景并整理您的代码。",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "features_title": "主要功能",
+    "feature_custom": "完全自定义：选择代码颜色、背景颜色或完全移除背景。",
+    "feature_unlimited": "无限生成：无任何限制或费用，可同时创建多个二维码。",
+    "feature_download": "即刻下载：下载高分辨率二维码，以便直接打印或用于数字媒介。",
+    "feature_privacy": "隐私保障：您的数据和链接直接在您的浏览器中处理。",
+    "usage_title": "使用方法",
+    "usage_step1": "在文本框中输入所需的链接、文本或信息。",
+    "usage_step2": "自定义标题以直观地整理您的二维码。",
+    "usage_step3": "调整大小、选择颜色或勾选移除背景选项。",
+    "usage_step4": "点击下载按钮保存您的二维码图片。",
+    "tips_title": "自定义提示",
+    "tip_colors": "在代码和背景之间使用高对比度的颜色，以确保扫描设备轻松读取。",
+    "tip_size": "根据打印或展示的位置调整二维码的大小。",
+    "tip_download": "您可以一次性创建并下载多个不同用途的二维码。",
+    "footer_text": "立即使用 Tap to Tool 创建并自定义您的无限量二维码！"
+  },
+  "dynamic": {
+    "remove_bg": "移除背景",
+    "default_title": "我的二维码",
+    "placeholder_link": "https://your-link-here.com",
+    "download_btn": "下载二维码"
+  }
+}

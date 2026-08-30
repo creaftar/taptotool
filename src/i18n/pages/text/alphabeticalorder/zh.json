@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "在线字母排序工具 - Tap to Tool",
+    "description": "即时将列表、单词或短语按字母顺序（A-Z）或反向顺序（Z-A）进行排序。支持换行符、逗号和复杂短语。",
+    "keywords": "字母排序工具, 按字母顺序排序, 排序列表, 整理文本, 单词分类, a-z, z-a"
+  },
+  "schema": {
+    "app_name": "在线字母排序工具",
+    "app_description": "即时将列表、单词或短语按字母顺序（A-Z）或反向顺序（Z-A）进行排序。支持换行符、逗号和复杂短语。使用 Tap to Tool 快速又简单。",
+    "howto_name": "如何使用在线字母排序工具",
+    "howto_description": "字母排序工具是一款免费工具，可以将任何单词、短语或项目列表按字母顺序进行整理。",
+    "step1_name": "输入列表",
+    "step1_text": "在输入区域复制并粘贴或输入项目（由空格、逗号或换行符分隔）。",
+    "step2_name": "自动预览",
+    "step2_text": "列表将在旁边的框中自动按 A-Z 排序，同时保留原始的分隔格式（换行符或逗号）。",
+    "step3_name": "复制结果",
+    "step3_text": "从结果框中复制按字母顺序排列好的列表。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "在线字母排序工具"
+  },
+  "ui": {
+    "h1_main": "字母排序工具",
+    "placeholder_input": "在此输入或粘贴您的列表...",
+    "btn_sort_az": "A - Z",
+    "btn_sort_za": "Z - A",
+    "paste_text": "点击以粘贴您的文本",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "请尝试使用 CTRL + V 粘贴，或检查是否已允许我们查看您的剪贴板",
+    "tooltip_copy": "复制文本",
+    "tooltip_delete": "清空文本",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "在线字母排序工具",
+    "intro_text": "将任何单词、姓名或短语列表按字母顺序排列的最快、最简单的工具。",
+    "usage_title": "如何使用字母排序工具？",
+    "step_1": "输入列表：在指定的文本区域复制并粘贴或输入您想要整理的项目。项目可以通过换行符、逗号或空格进行分隔。",
+    "step_2": "自动排序：本工具会为您完成所有工作，并将项目按字母顺序（A-Z / Z-A）排列。",
+    "step_3": "复制结果：排序后的文本会即时显示在旁边的框中，保留原始分隔符以便您复制。",
+    "benefits_title": "使用字母排序工具有哪些好处？",
+    "benefits_intro": "文本字母排序工具在以下方面非常有用：",
+    "benefit_1_title": "数据整理",
+    "benefit_1_text": "快速整理姓名列表、代码、库存或任何数据集，以便于查阅。",
+    "benefit_2_title": "学习与参考",
+    "benefit_2_text": "按标准顺序创建参考文献列表、术语表或词汇表。",
+    "benefit_3_title": "文本处理",
+    "benefit_3_text": "将关键词、标签或复杂短语（如“花生酱”）作为单个项目进行分类，而不将它们拆开。",
+    "benefit_4_title": "标准化",
+    "benefit_4_text": "确保所有文档或列表遵循相同的排序标准，避免人为失误。",
+    "footer_text": "使用字母排序工具整理您的列表并提高生产力！"
+  },
+  "dynamic": {
+    "standard_phrase": "您好，欢迎使用。在此输入您的文本...",
+    "dynamic_phrase": "您好，欢迎使用！请输入您的列表，用空格分隔或按键盘上的 Enter 键换行，示例：\n香蕉, 示例, 飞机",
+    "result_phrase": "您的结果将如下显示：\n飞机, 示例, 香蕉"
+  },
+  "menu": {
+    "a-z": "A-Z",
+    "z-a": "Z-A"
+  }
+}

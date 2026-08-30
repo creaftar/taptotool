@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "在线大小写转换器 - Tap to Tool",
+    "description": "即时将您的文本转换为全小写、全大写、句首字母大写或嘲讽/TROLL风格。使用 Tap to Tool 快速又简单。",
+    "keywords": "大小写转换器, 大写文本, 小写文本, 转换文本大小写, 修改文本大小写, 文本首字母大写"
+  },
+  "schema": {
+    "app_name": "在线大小写转换器",
+    "app_description": "即时将您的文本转换为全小写、全大写、句首字母大写或嘲讽/TROLL风格。使用 Tap to Tool 快速又简单。",
+    "howto_name": "如何使用在线大小写转换器",
+    "howto_description": "大小写转换器是一款免费的在线工具，可让您转换所输入或粘贴的任何文本的大小写样式。",
+    "step1_name": "输入文本",
+    "step1_text": "在工具的输入区域复制并粘贴或输入文本。",
+    "step2_name": "选择格式",
+    "step2_text": "点击代表所需文本格式的图标（全小写、全大写、句首大写、TROLL风格）。",
+    "step3_name": "复制结果",
+    "step3_text": "从旁边的框中复制转换好的文本结果。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "大小写转换器"
+  },
+  "ui": {
+    "h1_main": "大小写转换器",
+    "placeholder_input": "在此输入或粘贴想要转换的文本...",
+    "paste_text": "点击以粘贴您的文本",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "请尝试使用 CTRL + V 粘贴，或检查是否已允许我们查看您的剪贴板",
+    "tooltip_copy": "复制文本",
+    "tooltip_delete": "清空文本",
+    "tooltip_copy_results": "复制结果",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "在线大小写转换器",
+    "intro_text": "格式化文本大小写样式最快、最简单的工具。",
+    "usage_title": "如何使用大小写转换器？",
+    "step_1": "输入文本：在指定文本区域复制并粘贴或输入您想要格式化的文本。",
+    "step_2": "选择格式：点击与所需样式对应的图标：",
+    "type_lower_title": "全小写 (abcd)",
+    "type_lower_text": "将所有文本转换为小写字母。",
+    "type_upper_title": "全大写 (ABCD)",
+    "type_upper_text": "将所有文本转换为大写字母。",
+    "type_sentence_title": "句首字母大写 (Ab. C)",
+    "type_sentence_text": "将文本格式化为每个句子的首字母大写。",
+    "type_troll_title": "TROLL/嘲讽风格 (AbCd)",
+    "type_troll_text": "交替将文本转换为大写和小写字母。",
+    "step_3": "复制结果：格式化后的文本会即时显示在旁边的框中供您复制。",
+    "benefits_title": "使用文本大小写转换工具有哪些好处？",
+    "benefits_intro": "文本大小写转换工具在以下方面极其有用：",
+    "benefit_1_title": "快速标准化",
+    "benefit_1_text": "确保整篇文档符合所需的标准格式（例如：标题全大写或正文全小写）。",
+    "benefit_2_title": "错误纠正",
+    "benefit_2_text": "快速纠正因误按“Caps Lock”键或句首未大写而输入的文本。",
+    "benefit_3_title": "营销与社交媒体",
+    "benefit_3_text": "创建醒目的标语（全大写）或制作具有独特文本风格（TROLL风格）的动态以提升互动。",
+    "benefit_4_title": "内容优化",
+    "benefit_4_text": "格式化文本块以提高可读性和视觉条理性。",
+    "footer_text": "使用大小写转换器规范您的书写，节省文本编辑时间！"
+  },
+  "dynamic": {
+    "standard_phrase": "您好，欢迎使用。在此输入您的文本...",
+    "result_phrase": "您好，欢迎使用。在此输入您的文本..."
+  },
+  "menu": {
+    "abcd": "abcd",
+    "ABCD": "ABCD",
+    "AbC": "Ab. C",
+    "aBcD": "AbCd"
+  }
+}

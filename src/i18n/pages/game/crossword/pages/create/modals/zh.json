@@ -1,0 +1,138 @@
+{
+  "modal_save": {
+    "title": "填字游戏标题：",
+    "placeholder": "填字游戏",
+    "hints_question": "您是否希望为填字游戏启用提示？",
+    "hints_obs": "（您可以稍后更改此选项）",
+    "hints_yes": "是的，我想为我的填字游戏启用提示",
+    "hints_no": "不要为我的填字游戏启用提示",
+    "answer_key_question": "您是否希望为填字游戏创建答案解析？",
+    "answer_key_obs": "（答案解析将允许玩家查看答案 - 您可以稍后更改此选项）",
+    "answer_key_yes": "是的，我想为我的填字游戏创建答案解析",
+    "answer_key_no": "不要为我的填字游戏创建答案解析",
+    "share_question": "您是否希望在我们的社交媒体上分享您的填字游戏？",
+    "share_yes": "是的，我想在 Creaftar 的社交媒体上推广我的填字游戏",
+    "share_no": "不要分享我的填字游戏",
+    "save_button": "保存",
+    "requirements_alert": "注意：只有注册账号后才能保存您的填字游戏"
+  },
+  "modal_generate": {
+    "theme_title": "填字游戏主题",
+    "theme_placeholder": "填字游戏",
+    "word_quantity": "单词数量",
+    "generate_button": "生成"
+  },
+  "modal_tutorial": {
+    "menu": {
+      "videos": "示例视频",
+      "create": "制作填字游戏",
+      "generate": "生成填字游戏"
+    },
+    "page1": {
+      "title_generate": "如何生成填字游戏",
+      "title_auto": "如何制作填字游戏",
+      "title_manual": "如何制作填字游戏",
+      "subtitle_video": "（视频）",
+      "subtitle_auto": "（自动 - 视频）",
+      "subtitle_manual": "（手动 - 视频）",
+      "video_fallback": "您的浏览器不支持 HTML5 视频。",
+      "aside": {
+        "how_generate": "- 如何生成",
+        "how_create_auto": "- 如何制作（自动）",
+        "how_create_manual": "- 如何制作（手动）"
+      }
+    },
+    "page2": {
+      "main_title": "如何制作填字游戏",
+      "intro_text": "本节将详细说明如何从零开始制作您自己的填字游戏（如果需要，您可以将生成功能与此制作部分结合使用）。在侧边菜单中导航以快速找到所需主题",
+      "start_title": "从哪里开始",
+      "start_text_1": "在下方标题为“单词”的卡片中，点击描述为“示例”的框并输入您的第一个单词（不用担心，您稍后可以修改）。按下键盘上的“ENTER”键或点击“+”按钮",
+      "start_text_2": "完成后，您会注意到会出现：",
+      "start_list_1": "1. 在方格内，屏幕上出现一个单词：",
+      "start_list_1_sub": "这将是您的目标受众需要猜出的单词",
+      "start_list_2": "2. 在“单词”卡片中，出现一个单词：",
+      "start_list_2_sub": "这是为您专属准备的，可以进行修改（点击它）或删除，修改会实时反映在屏幕上出现的单词中",
+      "start_list_3": "3. 在“提示”卡片中，出现一条提示：",
+      "start_list_3_sub": "在这里您将为目标受众提供单词的提示。请注意，每个提示和每个单词都有编号，因此提示：1 - 什么是“示例”描述的是单词 1 - 示例，以此类推。",
+      "before_continue": "在继续之前",
+      "instruction_1": "- 点击生成的文本来修改单词和描述",
+      "instruction_2": "- 创建至少 2 个单词",
+      "move_title": "如何移动单词",
+      "move_intro": "要移动已创建的单词，您需要根据相应的字母将它们相互拼合。为此，您有两种选择：",
+      "move_option_1": "1. 逐个单独移动每个单词，根据您的意愿进行拼合",
+      "move_option_2": "2. 自动移动所有单词，只需一键即可让它们自动拼合",
+      "auto_pos_title": "自动排列所有单词",
+      "auto_pos_text": "要自动排列所有单词，您需要点击右侧菜单中的齿轮图标。如果有某个单词未能拼合，请多尝试几次；如果错误仍然存在，请检查拼写。大写和小写字母会被视为相同，但带重音和不带重音的字母不会",
+      "single_move_title": "单独移动",
+      "single_move_text": "所有单词初始状态均为固定状态，这意味着您无法移动它们。要更改此行为并单独移动每个单词：",
+      "single_move_li_1": "点击此图标以允许移动该单词",
+      "single_move_li_2": "在区域内点击、按住并拖动以移动单词",
+      "single_move_li_3": "现在您已经移动了第一个单词，请更新您想要移动的单词：",
+      "single_move_li_3_sub1": "使用此方向箭头前进一个单词",
+      "single_move_li_3_sub2": "使用此方向箭头后退一个单词",
+      "direction_title": "水平 vs 垂直",
+      "direction_text": "您还可以切换单词的垂直和水平方向；要执行此操作，只需点击（网格）图标，但请记住保持允许编辑单词（铅笔图标）的状态",
+      "aside": {
+        "create_crossword": "- 制作填字游戏",
+        "where_start": "- 从哪里开始",
+        "how_move": " how_move",
+        "auto_pos": "- 自动排列",
+        "single_move": "- 单独移动",
+        "horiz_vert": "- 水平 vs 垂直"
+      }
+    },
+    "page3": {
+      "main_title": "如何生成填字游戏",
+      "intro_text": "本节将详细说明如何从单一主题生成整个填字游戏（如果需要，您可以将制作功能与此生成部分结合使用）。在侧边菜单中导航以快速找到所需主题",
+      "steps_title": "步骤指南",
+      "steps_intro": "要通过主题生成填字游戏，您需要遵循以下步骤：",
+      "step_1": "1. 点击右侧菜单中的机器人图标",
+      "step_2": "2. 在打开的窗口中，在框中输入所需的主题",
+      "step_3": "3. 通过滑块或方向箭头调整填字游戏的单词数量",
+      "step_4": "4. 点击“生成”按钮，由我们的 AI 处理您的填字游戏",
+      "recom_title": "建议事项",
+      "recom_1": "- 如果未能生成您的主题，请尝试刷新页面；如果错误仍然存在，请以不同的方式描述您的主题（不用担心，您稍后可以修改标题）",
+      "recom_2": "- 检查生成的答案和提示，您可以分别点击它们来进行修改",
+      "recom_3": "- 对于单词数量，请牢记游玩您作品的目标受众以及所选主题的难度（通常 15 到 30 个单词的填字游戏普遍受欢迎）",
+      "dont_title": "注意事项",
+      "dont_1": "- 避免过于复杂的主题",
+      "dont_2": "- 避免过于抽象的主题",
+      "dont_3": "- 避免在提示中直接给出答案",
+      "dont_4": "- 请记住，您知道答案，但您的目标受众不知道。尝试创建大家都能回答的提示",
+      "aside": {
+        "generate_crossword": "- 生成填字游戏",
+        "step_by_step": "步骤指南",
+        "step_1": "- 第 1 步",
+        "step_2": "- 第 2 步",
+        "step_3": "- 第 3 步",
+        "step_4": "- 第 4 步",
+        "recommendations": "- 建议事项",
+        "what_not_to_do": "- 注意事项"
+      }
+    }
+  },
+  "copy": {
+    "modal_preview": "预览",
+    "warning_main": "不用担心垂直和水平方向，请参考下方预期的格式",
+    "your_text": "您的文本：",
+    "detector_stats": "{words} 个单词 / {clues} 条提示",
+    "placeholder": "在此粘贴您的文本！",
+    "expected_formats": "预期格式：",
+    "btn_generate": "文本已准备就绪",
+    "words_suffix": "个单词",
+    "clues_suffix": "条提示",
+    "examples": {
+      "dog": "狗",
+      "cat": "猫",
+      "bat": "蝙蝠",
+      "elephant": "大象",
+      "kangaroo": "袋鼠",
+      "desc_dog": "人类最好的朋友",
+      "desc_cat": "喜欢抓老鼠",
+      "desc_bat": "会飞的哺乳动物",
+      "desc_elephant": "长着长长鼻子的动物",
+      "desc_kangaroo": "大型有袋动物"
+    },
+    "requirements_alert": "哎呀！看来您没有粘贴任何内容，请复制一段文本后重试"
+  }
+}

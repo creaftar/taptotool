@@ -8,16 +8,6 @@ const currentLang = Astro.currentLocale || 'en';
 
 const { pathname } = Astro.url;
 
-/*function getTargetUrl(targetLang: string) {
-  // Removemos o prefixo do idioma atual do início do pathname
-  // Isso transforma "/de/contato" em "/contato" ou "/de/" em "/"
-  const basePage = pathname.replace(`/${currentLang}`, '');
-  
-  // O getRelativeLocaleUrl vai colocar o novo idioma corretamente
-  // Ex: getRelativeLocaleUrl('pt', '/contato') -> /pt/contato
-  return getRelativeLocaleUrl(targetLang, basePage || '/');
-}*/
-
 function getTargetUrl(targetLang: string) {
    const langPrefixRegex = new RegExp(`^/${currentLang}(/|$)`);
   
@@ -62,8 +52,8 @@ function getTargetUrl(targetLang: string) {
 
             <svg
                   version="1.1"
-                  width="90"
-                  height="90"
+                  width="85"
+                  height="85"
                   viewBox="0 0 1127.0872 267"
                   xmlns="http://www.w3.org/2000/svg">
                <defs/>
@@ -113,6 +103,9 @@ function getTargetUrl(targetLang: string) {
                </li>
                <li class={Astro.currentLocale === 'ru' ? 'idioma-ativo' : ''}>
                   <a href={getTargetUrl('ru')} class="linkIdioma">Русский</a>
+               </li>
+               <li class={Astro.currentLocale === 'zh' ? 'idioma-ativo' : ''}>
+                  <a href={getTargetUrl('zh')} class="linkIdioma">简体中文</a>
                </li>
             </ul>
          </div>

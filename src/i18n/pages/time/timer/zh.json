@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "在线定时器 - Tap to Tool",
+    "description": "使用 Tap to Tool 的在线定时器创建多个倒计时。非常适合提升生产力、运动锻炼和厨房烹饪。自动保存您的设置。",
+    "keywords": "在线定时器, 在线 timer, 倒计时, 时间计数器, 多个定时器, 学习定时器",
+    "canonical": "https://taptotool.com/timer"
+  },
+  "schema": {
+    "app_name": "Tap to Tool 在线定时器",
+    "app_description": "创建多个支持自动保存和个性化自定义的在线倒计时定时器。",
+    "howto_name": "如何使用在线定时器",
+    "howto_description": "在线定时器是一款免费且精准的时间测量工具。",
+    "step1_name": "开始与暂停",
+    "step1_text": "点击播放/暂停图标（▶/⏸）来暂停和继续计时。",
+    "step2_name": "记录圈数",
+    "step2_text": "点击计圈（Lap）按钮，以允许（或不允许）您的定时器连续响铃 5 次。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "在线定时器"
+  },
+  "ui": {
+    "h1": "在线倒计时定时器",
+    "intro_text": "Tap to Tool 的在线定时器允许同时管理多个倒计时，非常适合需要精准度和条理性的用户。",
+    "new_timer_button": "+ 新定时器",
+    "current_time_label": "当前时间",
+    "placeholder_timer_name": "定时器名称（例如：专注、烹饪）",
+    "unit_currency": "BRL"
+  },
+  "content": {
+    "features_title": "定时器功能特点",
+    "feature_1_title": "多个定时器",
+    "feature_1_text": "为不同的任务同时开启多个倒计时。",
+    "feature_2_title": "个性化自定义",
+    "feature_2_text": "为每个定时器命名，以便快速识别其用途。",
+    "feature_3_title": "排版整理",
+    "feature_3_text": "拖拽卡片以优先显示先结束的倒计时。",
+    "feature_4_title": "记忆保存",
+    "feature_4_text": "设置好的定时器会保存在您的浏览器中，方便持续使用。",
+    "usage_title": "使用说明",
+    "usage_step_1": "1. 点击“+ 新定时器”向您的列表中添加一个新的计数器。",
+    "usage_step_2": "2. 在数字输入框中设置所需的时间（小时、分钟和秒）。",
+    "usage_step_3": "3. 点击卡片标题进行重命名。",
+    "usage_step_4": "4. 开始倒计时并拖拽卡片以整理您的视图。",
+    "footer_share_text": "需要多个定时器？快来探索 Tap to Tool 的在线定时器！"
+  },
+  "dynamic": {
+    "default_timer_name": "未命名定时器",
+    "choose_audio": "选择音频"
+  }
+}

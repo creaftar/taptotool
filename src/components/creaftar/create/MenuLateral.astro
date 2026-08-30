@@ -5,21 +5,6 @@ import "@/assets/styles/pages/game/crossword/pages/create/menulateral/menu_direi
 import "@/assets/styles/pages/game/crossword/pages/create/menulateral/menu.css"
 import "@/assets/styles/pages/game/crossword/pages/create/menulateral/menu_esquerda.css"
 
-/*export async function getStaticPaths() {
-  return [
-    { params: { lang: undefined } },
-    { params: { lang: 'pt' } },
-    
-    { params: { lang: 'es' } },
-    { params: { lang: 'fr' } },
-    { params: { lang: 'it' } },
-    { params: { lang: 'de' } },
-    { params: { lang: 'ru' } },
-    { params: { lang: 'id' } },
-    { params: { lang: 'hi' } },
-  ];
-}*/
-
 const lang = Astro.currentLocale || 'en'; 
 
 import pt from "@/i18n/pages/game/crossword/pages/create/menulateral/pt.json";
@@ -31,8 +16,9 @@ import de from "@/i18n/pages/game/crossword/pages/create/menulateral/de.json";
 import ru from "@/i18n/pages/game/crossword/pages/create/menulateral/ru.json";
 import id from "@/i18n/pages/game/crossword/pages/create/menulateral/id.json";
 import hi from "@/i18n/pages/game/crossword/pages/create/menulateral/hi.json";
+import zh from "@/i18n/pages/game/crossword/pages/create/menulateral/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales] || locales.en;
 ---
 <aside id="menu_lateralDesktop">

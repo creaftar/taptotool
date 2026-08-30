@@ -1,0 +1,7 @@
+{
+  "modals": {
+    "feedback_success": "成功：您的反馈已发送",
+    "copy_success": "成功：链接已复制到剪贴板",
+    "login_prompt": "登录以创建属于您自己的游戏！"
+  }
+}

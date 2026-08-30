@@ -1,0 +1,51 @@
+{
+  "seo": {
+    "title": "免费图标库与自定义图标包 | Tap to Tool",
+    "description": "探索数百个 SVG 图标和轻量级图标字体。可通过 CDN 使用、下载完整包或创建自定义图标包以优化您的项目。",
+    "keywords": "svg 图标, 图标库, cdn 图标, 字体图标, 免费图标, 图标包",
+    "h1": "如何使用我们的图标库",
+    "intro_p1": "旨在做到轻量、快速且易于集成，您可以在下方选择最适合您项目的安装方法，或者",
+    "intro_strong": "创建自定义图标包",
+    "intro_p2": "仅使用您需要的图标，让您的应用更加轻盈！",
+    "h2_cdn": "1. 通过 CDN 快速导入（推荐）",
+    "p_cdn_1": "使用图标最简单的方法是将我们的 CDN 直接包含在 HTML 的",
+    "p_cdn_2": "中。这样，您无需下载任何本地文件，并可确保始终使用最快且已压缩的版本。",
+    "h2_download": "2. 下载完整包（自托管）",
+    "p_download_1": "如果您更喜欢在自己的服务器上托管文件、在离线项目中使用，或者需要本地字体文件",
+    "p_download_2": "，您可以下载编译好的完整包，格式为",
+    "h2_usage": "3. 在页面中添加图标",
+    "p_usage_intro_1": "导入 CDN、本地文件或您的自定义包后，只需从我们的库中选择任意图标并使用包含对应类名的",
+    "p_usage_intro_2": "标签：",
+    "usage_step1": "1. 点击上方面板中的任意图标以复制其类名。",
+    "usage_step2_1": "2. 粘贴到您的 HTML 中（示例：",
+    "usage_step2_2": "）。",
+    "usage_step3_1": "3. 使用 CSS 属性轻松自定义颜色和大小，例如：",
+    "usage_step3_2": "和",
+    "footer": "由 Tap to Tool 团队打造，专注于性能与易用性。"
+  },
+  "ui": {
+    "price_currency": "USD"
+  },
+  "schema": {
+    "app_name": "Tap to Tool 图标库",
+    "app_description": "面向 Web 开发人员的免费图标库和自定义图标包生成器。",
+    "howto_name": "如何在您的网站中集成图标",
+    "howto_description": "了解如何使用 CDN、本地下载或 HTML 标签安装图标库。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "图标"
+  },
+  "content": {
+    "usage_step1": "复制 CDN 或下载本地包",
+    "usage_step2": "选择一个图标并复制其 CSS 类名",
+    "usage_step3": "将图标标签粘贴到您的 HTML 代码中"
+  },
+  "interface": {
+    "search_placeholder": "搜索 {count} 个图标...",
+    "icons_count": "图标",
+    "no_icons_title": "未找到图标...",
+    "no_icons_desc": "请确保使用英文搜索图标名称，清空搜索后重试。",
+    "clear_search": "清空搜索",
+    "btn_png": "PNG",
+    "btn_svg": "SVG"
+  }
+}

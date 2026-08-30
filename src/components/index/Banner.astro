@@ -12,12 +12,13 @@ import de from "@/i18n/pages/index/banner/de.json";
 import ru from "@/i18n/pages/index/banner/ru.json";
 import id from "@/i18n/pages/index/banner/id.json";
 import hi from "@/i18n/pages/index/banner/hi.json";
+import zh from "@/i18n/pages/index/banner/zh.json";
 
 interface Props {
   lang?: string;
 }
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 
 const { lang: propLang } = Astro.props;
 const lang = propLang || Astro.currentLocale || 'pt'; 

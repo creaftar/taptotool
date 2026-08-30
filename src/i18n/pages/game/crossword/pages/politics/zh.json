@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tap to Tool - 联盟计划",
+    "description": "了解 Tap to Tool 联盟计划的工作原理以及我们与大型电商平台的合作关系。",
+    "keywords": "联盟营销, Tap to Tool, 佣金, 网购"
+  },
+  "ui": {
+    "h1": "Tap to Tool - 联盟计划",
+    "nav_home": "首页",
+    "nav_create": "制作",
+    "nav_partner": "合作伙伴"
+  },
+  "content": {
+    "program_title": "计划介绍",
+    "program_text": "Tap to Tool 参与了一项联盟计划，这意味着当您点击我们广告中的某个商品进行购买且交易符合我们合作伙伴的资格认定标准时，我们将获得该商品一定比例的佣金。",
+    "costs_title": "点击某种产品会产生额外费用吗？",
+    "costs_text": "不会，您不会产生任何额外费用。点击我们的广告唯一的区别在于，我们的合作伙伴会知道您是通过我们的推荐访问其网站的，从而如前所述给予我们相应的奖励。",
+    "products_title": "提供哪些类型的商品？",
+    "products_text": "我们通过深入且严苛的分析，努力提供最优质且最契合我们网站主题的商品。如果您想查看其他商品并继续支持我们，您可以",
+    "click_here": "点击此处",
+    "criteria_intro": "选品标准主要基于：",
+    "criterion_1": "与 Tap to Tool 的相关性",
+    "criterion_2": "购买数量",
+    "criterion_3": "商品质量",
+    "criterion_4": "性价比",
+    "criterion_5": "可靠性",
+    "criterion_6": "耐用性",
+    "criterion_7": "用户评价"
+  }
+}

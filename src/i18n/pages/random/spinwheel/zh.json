@@ -1,0 +1,65 @@
+{
+  "seo": {
+    "title": "随机名字转盘 - Tap to Tool",
+    "description": "在线旋转转盘进行快速且公正的抽奖。使用我们的免费 Spin Wheel 在数秒内抽取名字、选项并做出随机决定。",
+    "keywords": "在线转盘, 抽取名字, 自定义转盘, spin the wheel, 随机抽奖, 决策转盘, 名字抽取器"
+  },
+  "schema": {
+    "app_name": "随机名字转盘 - Tap to Tool",
+    "app_description": "可自定义的虚拟转盘工具，用于名字抽奖和随机决策。",
+    "howto_name": "如何使用在线转盘",
+    "howto_description": "了解只需 3 个简单步骤即可创建您的自定义转盘并进行抽奖。",
+    "step1_name": "输入选项",
+    "step1_text": "在文本框中输入您想要抽取的姓名、数字或选项，每行分隔一个。",
+    "step2_name": "设置转盘",
+    "step2_text": "检查转盘的所有扇区是否正确，必要时对项目进行自定义。",
+    "step3_name": "旋转与抽奖",
+    "step3_text": "点击转盘中央按钮进行旋转，等待随机抽出的获胜者。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "随机名字转盘"
+  },
+  "ui": {
+    "placeholder_input": "选项 1\n选项 2\n选项 3\n选项 4\n选项 5\n选项 6\n选项 7",
+    "paste_text": "点击以粘贴您的文本",
+    "paste_shortcut": "Ctrl + V",
+    "error_clipboard": "请尝试使用 CTRL + V 粘贴，或检查是否已允许我们查看您的剪贴板",
+    "tooltip_copy": "复制文本",
+    "tooltip_delete": "清空文本",
+    "winner_label": "获胜者是：",
+    "btn_close": "关闭",
+    "btn_remove": "移除",
+    "price_currency": "BRL",
+    "add_wheel": "添加转盘"
+  },
+  "content": {
+    "h1_seo": "随机名字转盘 - 旋转转盘以抽取名字和项目",
+    "intro_text": "我们的在线转盘是一款免费的理想工具，适合需要快速、公正和直观抽奖的用户。无论是决定去哪里吃午饭、抽取学生姓名，还是确定奖品的获得者，我们的转盘都能在数秒内提供 100% 随机的结果。",
+    "usage_title": "如何使用抽奖转盘？",
+    "step_1": "在指定的文本框中输入您想要抽取的姓名或选项。",
+    "step_2": "根据您的需要自定义转盘选项：",
+    "type_input_title": "名字输入",
+    "type_input_text": "每行输入一个项目以创建扇区。",
+    "type_edit_title": "轻松编辑",
+    "type_edit_text": "在旋转前的任何时候添加或移除选项。",
+    "type_instant_title": "即时结果",
+    "type_instant_text": "转盘通过计算旋转物理原理来确保绝对的公平公正。",
+    "type_clean_title": "简洁界面",
+    "type_clean_text": "无侵入式广告干扰您的查看或抽奖过程。",
+    "step_3": "点击转盘开始旋转，等待它停在命运选中的获胜者处！",
+    "benefits_title": "使用我们随机转盘的优势",
+    "benefits_intro": "与手动方式不同，我们的数字工具确保没有人受到偏袒。了解选择我们 Spin Wheel 的原因：",
+    "benefit_1_title": "绝对公正",
+    "benefit_1_text": "我们采用基于精确数学系统的随机算法。",
+    "benefit_2_title": "教育用途",
+    "benefit_2_text": "教师最喜欢的工具，以有趣的方式挑选学生或作业主题。",
+    "benefit_3_title": "快速决策",
+    "benefit_3_text": "通过快速旋转，在朋友或工作团队中消除优柔寡断。",
+    "benefit_4_title": "无需下载",
+    "benefit_4_text": "无论是在手机还是电脑上，都可以直接在浏览器中运行，无需安装任何内容。",
+    "footer_text": "准备好做出决定了吗？现在就开始使用我们的自定义转盘，让命运为您做出选择。简单、快捷且 100% 免费。"
+  },
+  "dynamic": {
+    "standard_phrase": "选项 1\n选项 2\n选项 3\n选项 4\n选项 5\n选项 6\n选项 7",
+    "winner_prefix": "获胜者是："
+  }
+}

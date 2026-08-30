@@ -48,7 +48,7 @@ h1{
 	overflow-x: hidden; /* Esconde o texto que ultrapassa a largura do elemento */
 	text-overflow: ellipsis; /* Adiciona os três pontinhos */
 	color: rgba(var(--padrao), 1);
-	font-family: "texto", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "titulo", Bahnschrift, Cascadia Code, Courier New, Bazooka, CG Times, AvantGard Md BT, Moderna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #container-area-cruzadinhas{
 	position: relative;

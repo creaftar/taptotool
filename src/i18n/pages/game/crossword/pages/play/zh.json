@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "在线游玩填字游戏 - Tap to Tool",
+    "description": "在 Tap to Tool 上挑战这款自定义填字游戏，动脑思考。解答谜题、查找单词，享受社区带来的游戏乐趣。",
+    "keywords": "游玩填字游戏, 在线填字游戏, 解决填字游戏, 字谜游戏, 在线消遣, 免费填字游戏"
+  },
+  "schema": {
+    "game_name": "在线游玩填字游戏",
+    "description": "在 Tap to Tool 上在线游玩这款自定义填字游戏。免费且具有互动性！",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "游玩填字游戏",
+    "alternateName": "Creaftar 填字游戏",
+    "price_currency": "BRL"
+  },
+  "index": {
+    "horizontals": "水平",
+    "verticals": "垂直",
+    "crossword_by": "填字游戏创作者："
+  },
+  "ui": {
+    "hide": "隐藏",
+    "hide_timer": "隐藏秒表",
+    "show_answers": "显示答案",
+    "hints_prefix": "您拥有",
+    "hints_suffix": "条提示",
+    "stats_title": "统计数据",
+    "total_time": "总用时",
+    "chars_typed": "已输入字符",
+    "hits": "正确数",
+    "errors": "错误数",
+    "share": "分享",
+    "copy": "复制",
+    "back_home": "首页",
+    "add_zoom": "放大",
+    "remove_zoom": "缩小",
+    "print": "打印",
+    "completed_msg_prefix": "您已完成",
+    "completed_msg_suffix": "关填字游戏！",
+    "other_crosswords": "其他填字游戏"
+  },
+  "play": {
+    "challenge_prefix": "接受挑战！立即游玩填字游戏 ",
+    "challenge_suffix": "。尝试根据精彩的提示解开这款填字游戏，例如：",
+    "challenge_footer": "，以及更多精彩内容。您准备好了吗？",
+    "kw_cruzadinha": "填字游戏：",
+    "kw_jogo": "游戏："
+  },
+  "daily":{
+    "cruzada_diaria_h1": "每日填字游戏",
+    "next_crossword": "下一关每日填字游戏倒计时：",
+    "curiosidade": "；解开如下提示：",
+    "CTA": "，以及更多精彩内容。看看您能否成功解开？",
+    "seo": {
+      "title": "每日填字游戏 - 今日挑战 - Tap to Tool",
+      "description": "解决今天的挑战！ Tap to Tool 每天推出一款全新免费填字游戏，测试您的知识并锻炼您的思维。",
+      "keywords": "每日填字游戏, 今日填字, 每日挑战, 在线字谜游戏, 免费每日消遣"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - 每日填字游戏",
+      "description": "每天都有全新的填字谜题等您解答。每天使用全新提示挑战自己！"
+    },
+    "content": {
+      "h1": "每日填字游戏",
+      "subtitle": "每 24 小时带来一项全新挑战。您能解开今天的谜题吗？",
+      "timer_label": "挑战用时：",
+      "next_in": "距离下一项挑战还有："
+    },
+    "ui": {
+      "start_button": "开始挑战",
+      "check_word": "检查单词",
+      "reveal_letter": "显示字母",
+      "hints_remaining": "剩余提示：",
+      "stats_btn": "查看我的表现",
+      "share_result": "分享结果",
+      "calendar_view": "查看往期挑战",
+      "loading": "正在准备今日挑战..."
+    },
+    "feedback": {
+      "win_title": "恭喜！挑战完成！",
+      "win_msg": "您成功解开今天的填字游戏，用时 ",
+      "win_footer": "明天记得回来解锁全新的谜题！",
+      "error_msg": "部分字母仍不正确。请继续尝试！"
+    },
+    "social": {
+      "share_text": "我仅用了 {time} 就解开了 Tap to Tool 的每日填字游戏！你能击败我的用时吗？"
+    }
+  }
+}

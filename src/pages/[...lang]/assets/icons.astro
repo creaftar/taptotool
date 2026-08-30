@@ -22,6 +22,7 @@ export async function getStaticPaths() {
     { params: { lang: 'ru' } },
     { params: { lang: 'id' } },
     { params: { lang: 'hi' } },
+    { params: { lang: 'zh' } },
   ];
 }
 
@@ -34,8 +35,9 @@ import de from "@/i18n/pages/assets/icons/de.json";
 import ru from "@/i18n/pages/assets/icons/ru.json";
 import id from "@/i18n/pages/assets/icons/id.json";
 import hi from "@/i18n/pages/assets/icons/hi.json";
+import zh from "@/i18n/pages/assets/icons/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh};
 
 const { lang: paramLang } = Astro.params;
 const lang = paramLang || Astro.currentLocale || 'en'; 

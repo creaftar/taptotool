@@ -1,21 +1,6 @@
 ---
 interface Props {}
 
-/*export async function getStaticPaths() {
-  return [
-    { params: { lang: undefined } },
-    { params: { lang: 'pt' } },
-    
-    { params: { lang: 'es' } },
-    { params: { lang: 'fr' } },
-    { params: { lang: 'it' } },
-    { params: { lang: 'de' } },
-    { params: { lang: 'ru' } },
-    { params: { lang: 'id' } },
-    { params: { lang: 'hi' } },
-  ];
-}*/
-
 const lang = Astro.currentLocale || 'en'; 
 
 import pt from "@/i18n/pages/game/crossword/pages/index/modals/pt.json";
@@ -27,8 +12,9 @@ import de from "@/i18n/pages/game/crossword/pages/index/modals/de.json";
 import ru from "@/i18n/pages/game/crossword/pages/index/modals/ru.json";
 import id from "@/i18n/pages/game/crossword/pages/index/modals/id.json";
 import hi from "@/i18n/pages/game/crossword/pages/index/modals/hi.json";
+import zh from "@/i18n/pages/game/crossword/pages/index/modals/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales].modals || locales.en.modals;
 ---
 

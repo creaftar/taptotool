@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "两数间随机数生成器 - Tap to Tool",
+    "description": "需要抽奖或随机筛选？使用 Tap to Tool 的在线随机数生成器。设置最小值和最大值，即可获取即时、公正的结果。用于游戏、抽奖和彩票的免费工具。",
+    "keywords": "随机数生成器, 在线抽取数字, 生成两数间数字, 随机数字, 2个数之间的随机数生成器, 抽奖, 摇号, 数字抽取器"
+  },
+  "schema": {
+    "app_name": "两数间随机数生成器",
+    "app_description": "需要抽奖或随机筛选？使用 Tap to Tool 的在线随机数生成器。设置最小值和最大值，即可获取即时、公正的结果。用于游戏、抽奖和彩票的免费工具。",
+    "howto_name": "如何使用在线数字生成器",
+    "howto_description": "随机数生成器是一款免费的在线工具，可根据您选择的 2 个数字生成一个新的随机数。请输入您偏好的两个数字，见证奇迹的发生！",
+    "step1_name": "设置范围限制",
+    "step1_text": "输入抽奖的最小值和最大值（区间范围）。",
+    "step2_name": "生成数字",
+    "step2_text": "点击“生成”按钮，即可获得在设定的区间范围内随机抽取的数字。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "两数间随机数生成器"
+  },
+  "ui": {
+    "h1_main": "生成随机数",
+    "label_min": "最小值",
+    "label_max": "最大值",
+    "label_checkbox": "仅限整数",
+    "button_generate": "生成数字",
+    "placeholder_min": "0",
+    "placeholder_max": "1000",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "h1_seo": "随机数生成器",
+    "intro_text": "随机数生成器是一款免费的在线工具，可根据您选择的 2 个数字生成一个新的随机数。请输入您偏好的两个数字，见证奇迹的发生！",
+    "usage_title": "如何使用随机数生成器",
+    "usage_instruction": "只需在上方两个输入框中填入数值，即可获得结果：",
+    "list_item_integers": "整数：[最小值, 最大值]",
+    "list_item_decimals": "小数：[最小值, 最大值)",
+    "usage_checkbox_info": "如果您勾选了“仅限整数”复选框，您将获得不带浮点数（小数）的数值；如果不勾选，您可能会获得最多带两位小数的数值。",
+    "why_use_title": "为什么使用我们的随机数生成器",
+    "why_use_text": "旨在简单高效，能让您在最短的时间内获得所需 2 个数字之间的随机结果。",
+    "footer_text": "生成两个数字之间的随机数！"
+  }
+}

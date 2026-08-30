@@ -1,0 +1,17 @@
+{
+  "carousel": {
+    "btn_prev_aria": "用于在轮播图中返回上一张图片的按钮",
+    "btn_next_aria": "用于在轮播图中前进到下一张图片的按钮",
+    "button_buy": "用于跳转至广告网站的按钮",
+    "advice": "点击后，您将被引导至产品页面",
+    "tools": {
+      "case_converter": "大小写转换器",
+      "char_counter": "字符计数器",
+      "num_generator": "随机数生成器",
+      "text_inverter": "文本翻转器"
+    },
+    "details": "查看详情",
+    "advertisement": "广告",
+    "read_more": "了解更多"
+  }
+}

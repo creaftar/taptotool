@@ -22,6 +22,7 @@ export async function getStaticPaths() {
     { params: { lang: 'ru' } },
     { params: { lang: 'id' } },
     { params: { lang: 'hi' } },
+    { params: { lang: 'zh' } },
   ];
 }
 
@@ -36,8 +37,9 @@ import de from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/de.json";
 import ru from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/ru.json";
 import id from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/id.json";
 import hi from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/hi.json";
+import zh from "@/i18n/pages/game/crossword/pages/ws/create/cartoes/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales] || locales.en;
 const currentUrl = `https://creaftar.com/${lang == 'en' ? '' : lang + '/'}word-search/create`;
 
@@ -50,6 +52,7 @@ import deD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/de.json";
 import ruD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/ru.json";
 import idD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/id.json";
 import hiD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/hi.json";
+import zhD from "@/i18n/pages/game/crossword/pages/ws/create/dynamic/zh.json";
 
 const localesD = { 
   pt: ptD, 
@@ -60,7 +63,8 @@ const localesD = {
   de: deD, 
   ru: ruD, 
   id: idD, 
-  hi: hiD 
+  hi: hiD,
+  zh: zhD 
 };
 const t = localesD[lang as keyof typeof localesD] || localesD.en;
 ---

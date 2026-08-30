@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "免费在线游玩寻字游戏 - Tap to Tool",
+    "description": "在 Tap to Tool 上挑战这款专属寻字游戏，锻炼思维并提升视觉观察力。找出隐藏的单词，享受社区创建的游戏乐趣！",
+    "keywords": "游玩寻字游戏, 在线寻字游戏, 查找单词, 隐藏单词游戏, 脑力消遣, 免费寻字游戏, 益智游戏"
+  },
+  "schema": {
+    "game_name": "在线游玩寻字游戏",
+    "description": "在 Tap to Tool 上在线游玩这款自定义寻字游戏。免费且具有互动性！",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "游玩寻字游戏",
+    "alternateName": "Creaftar 寻字游戏",
+    "price_currency": "BRL"
+  },
+  "ui": {
+    "hide": "隐藏",
+    "hide_timer": "隐藏秒表",
+    "show_answers": "显示单词",
+    "hints_prefix": "您拥有",
+    "hints_suffix": "条提示",
+    "stats_title": "您的统计数据",
+    "total_time": "总用时",
+    "chars_typed": "已找到单词",
+    "hits": "正确数",
+    "errors": "错误数",
+    "share": "分享",
+    "copy": "复制",
+    "back_home": "首页",
+    "add_zoom": "放大",
+    "remove_zoom": "缩小",
+    "print": "打印网格",
+    "completed_msg_prefix": "您已掌握并完成了",
+    "completed_msg_suffix": "关寻字游戏！",
+    "other_crosswords": "其他推荐寻字游戏"
+  },
+  "index": {
+    "horizontals": "单词",
+    "verticals": "单词列表",
+    "crossword_by": "寻字游戏创作者："
+  },
+  "play": {
+    "challenge_prefix": "锻炼您的脑力！立即游玩寻字游戏 ",
+    "challenge_suffix": " 并测试您的视觉敏锐度。尝试找出隐藏的单词，例如：",
+    "challenge_footer": "，以及更多精彩内容。您准备好接受挑战了吗？",
+    "kw_cruzadinha": "寻字游戏：",
+    "kw_jogo": "关于以下主题的找单词游戏："
+  },
+  "daily": {
+    "cruzada_diaria_h1": "每日寻字游戏",
+    "next_crossword": "距离今天的下一关寻字游戏还有：",
+    "curiosidade": "；找出如下隐藏词汇：",
+    "CTA": "，以及更多精彩内容。您的观察力足够敏锐吗？",
+    "seo": {
+      "title": "每日寻字游戏 - 今日脑力挑战 - Tap to Tool",
+      "description": "准备好接受今天的挑战了吗？ Tap to Tool 每天推出全新免费寻字游戏，训练您的专注力、扩大词汇量并加速大脑思考。",
+      "keywords": "每日寻字游戏, 今日游戏, 每日视觉挑战, 在线查找单词, 免费每日消遣"
+    },
+    "schema": {
+      "game_name": "Tap to Tool - 每日寻字游戏",
+      "description": "每天都有全新的寻字棋盘等您解答。每天使用全新主题挑战您的视觉感知！"
+    },
+    "content": {
+      "h1": "每日寻字游戏",
+      "subtitle": "每 24 小时进行一次全新的脑力训练。您能找出今天所有的单词吗？",
+      "timer_label": "寻找用时：",
+      "next_in": "距离下一个棋盘还有："
+    },
+    "ui": {
+      "start_button": "开始每日挑战",
+      "check_word": "检查选择",
+      "reveal_letter": "显示一个字母",
+      "hints_remaining": "可用提示：",
+      "stats_btn": "查看我的表现",
+      "share_result": "分享结果",
+      "calendar_view": "查看往期游戏",
+      "loading": "正在准备今日棋盘..."
+    },
+    "feedback": {
+      "win_title": "太棒了！鹰眼般的观察力！",
+      "win_msg": "您成功找出了今天所有隐藏的单词，用时 ",
+      "win_footer": "您的大脑会感谢您！明天记得回来解锁新棋盘。",
+      "error_msg": "部分标记不正确或缺少单词。请继续寻找！"
+    },
+    "social": {
+      "share_text": "我仅用了 {time} 就找出了 Tap to Tool 每日寻字游戏中的所有单词！敢不敢挑战我的速度？"
+    }
+  }
+}

@@ -15,8 +15,9 @@ import de from "@/i18n/pages/game/crossword/pages/index/aside/de.json";
 import ru from "@/i18n/pages/game/crossword/pages/index/aside/ru.json";
 import id from "@/i18n/pages/game/crossword/pages/index/aside/id.json";
 import hi from "@/i18n/pages/game/crossword/pages/index/aside/hi.json";
+import zh from "@/i18n/pages/game/crossword/pages/index/aside/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales] || locales.en;
 
 const currentYear = new Date().getFullYear();

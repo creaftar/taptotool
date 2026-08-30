@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "在线秒表 - Tap to Tool",
+    "description": "使用 Tap to Tool 的在线秒表精确测量时间。非常适合运动锻炼、学习和速度测试。随时保存圈数并重置。",
+    "keywords": "在线秒表, stopwatch, 测量时间, 定时器, 时间计数器, 带圈数功能的秒表"
+  },
+  "schema": {
+    "app_name": "在线秒表",
+    "app_description": "具有毫秒级精度的在线数字秒表，用于测量流逝的时间。保存圈数、暂停和重置。",
+    "howto_name": "如何使用在线秒表",
+    "howto_description": "在线秒表是一款免费且精准的时间测量工具。",
+    "step1_name": "开始与暂停",
+    "step1_text": "点击播放/暂停图标（▶/⏸）来控制计时。",
+    "step2_name": "记录圈数",
+    "step2_text": "点击分圈/计圈（Lap）按钮来记录单圈时间与总圈数时间。",
+    "step3_name": "清零",
+    "step3_text": "点击重置按钮（↺）将秒表归零并清空所有记录的圈数。",
+    "breadcrumb_home": "首页",
+    "breadcrumb_current": "在线秒表"
+  },
+  "ui": {
+    "h1": "带圈数功能的在线秒表",
+    "intro_text": "Tap to Tool 的在线秒表为您的所有计时需求提供毫秒级精度。非常适合运动锻炼、学习、烹饪和速度测试。",
+    "price_currency": "BRL"
+  },
+  "content": {
+    "usage_title": "如何使用在线秒表",
+    "usage_instructions": "只需使用控制按钮：",
+    "control_play": "播放/暂停 (▶/⏸)：开始和暂停计时。",
+    "control_lap": "计圈 (Lap)：在下方列表中记录分段时间（单圈）和总圈数时间。",
+    "control_reset": "重置 (↺)：秒表归零，清空屏幕及圈数历史记录。",
+    "persistence_note": "已流逝的时间和圈数会自动保存在您的浏览器中，允许您关闭页面后返回并从上次中断的地方继续。",
+    "purpose_title": "这款秒表有什么用？",
+    "purpose_text": "非常适合监测跑步训练、学习周期（如番茄工作法）、烹饪时间或任何需要精确计时和记录分段节点（圈数）的活动。",
+    "footer_share_text": "使用 Tap to Tool 的在线秒表精准管理您的时间！"
+  }
+}

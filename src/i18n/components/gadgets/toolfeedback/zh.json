@@ -1,0 +1,14 @@
+{
+  "gadget": {
+    "feedback_title": "工具组反馈",
+    "email_placeholder": "example@gmail.com（可选）",
+    "textarea_placeholder": "在此留下您的反馈",
+    "send_button": "发送",
+    "copy_button": "复制"
+  },
+  "dynamic":{
+    "success_message": "您的反馈已成功发送！",
+    "error_message": "发送反馈时出错，请稍后重试。",
+    "COPIED": "已复制！"
+  }
+}

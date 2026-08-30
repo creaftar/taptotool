@@ -1,0 +1,53 @@
+{
+  "aside": {
+    "nav_title": "导航",
+    "nav_home": "首页",
+    "nav_home_aria": "用于返回首页的按钮",
+    "nav_create": "制作寻字游戏",
+    "nav_create_aria": "制作新的寻字游戏",
+    
+    "other_games_title": "其他游戏",
+    "crosswords": "填字游戏",
+    "word_search": "寻字游戏",
+
+    "themes_title": "主题",
+    "theme_light": "浅色主题",
+    "theme_medium": "中色主题",
+    "theme_dark": "深色主题",
+    
+    "you_title": "个人中心",
+    "your_crosswords": "您的游戏",
+    "history": "历史记录",
+    "history_progress": "进行中的游戏",
+    "history_done": "已完成的游戏",
+    
+    "creaftar_title": "Tap to Tool",
+    "stats": "统计数据",
+    "stats_total": "游戏总数：",
+    "stats_users": "用户总数：",
+    "stats_yours": "您的游戏：",
+    
+    "feedback": "发送反馈",
+    "feedback_placeholder": "在此输入您的反馈",
+    "btn_send": "发送",
+    "btn_send_aria": "用于发送反馈的按钮",
+    
+    "version": "版本",
+    "version_current": "v3.2.2 - 当前版本",
+    "release_prefix": "发布版本：",
+    
+    "social_title": "社交媒体",
+    "social_x_aria": "前往 Twitter 网站",
+    "social_bsky_aria": "前往 BlueSky 网站",
+    "social_feedly_aria": "前往 Feedly 网站",
+    
+    "policies": "政策声明",
+    "more_tools": "更多工具",
+    "copyright": "© 2023 - {year} | Tap to Tool - 在线寻字游戏"
+  },
+  "daily": {
+    "banner": "游玩每日寻字游戏",
+    "title": "每日寻字游戏",
+    "next": "距离下一关还有："
+  }
+}

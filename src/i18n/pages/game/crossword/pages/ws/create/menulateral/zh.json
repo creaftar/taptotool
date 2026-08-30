@@ -1,0 +1,16 @@
+{
+  "sidebar": {
+    "advanced_config": "高级设置",
+    "edit_word": "编辑单词",
+    "word_to_edit": "要编辑的单词",
+    "next_word": "下一个单词",
+    "prev_word": "上一个单词",
+    "toggle_direction": "切换垂直与水平方向",
+    "auto_position": "自动排列所有单词",
+    "ai_generate": "根据主题生成寻字游戏",
+    "save_crossword": "保存您的寻字游戏",
+    "zoom_in": "放大寻字游戏",
+    "zoom_out": "缩小寻字游戏",
+    "tutorial": "寻字游戏制作教程"
+  }
+}

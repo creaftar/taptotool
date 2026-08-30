@@ -22,6 +22,7 @@ export async function getStaticPaths() {
     { params: { lang: 'ru' } },
     { params: { lang: 'id' } },
     { params: { lang: 'hi' } },
+    { params: { lang: 'zh' } },
   ];
 }
 
@@ -36,8 +37,9 @@ import de from "@/i18n/pages/index/de.json";
 import ru from "@/i18n/pages/index/ru.json";
 import id from "@/i18n/pages/index/id.json";
 import hi from "@/i18n/pages/index/hi.json";
+import zh from "@/i18n/pages/index/zh.json";
 
-const locales = { pt, en, es, fr, it, de, ru, id, hi };
+const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales] || locales.en;
 const currentUrl = `https://taptotool.com/${lang}`;
 ---

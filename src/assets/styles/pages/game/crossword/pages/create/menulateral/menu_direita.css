@@ -35,3 +35,7 @@
 		right: calc(10% + 9px);
 	}
 }
+
+.fa-object-ungroup:before {
+    content: "\f248"
+}

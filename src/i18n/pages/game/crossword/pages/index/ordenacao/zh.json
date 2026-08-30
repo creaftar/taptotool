@@ -1,0 +1,12 @@
+{
+  "sorting": {
+    "sort_by": "排序方式",
+    "display_per_page": "每页显示",
+    "opt_latest": "最新",
+    "opt_oldest": "最旧",
+    "opt_az": "A-Z",
+    "opt_za": "Z-A",
+    "btn_prev_aria": "用于查看上一页的按钮",
+    "btn_next_aria": "用于查看下一页的按钮"
+  }
+}
