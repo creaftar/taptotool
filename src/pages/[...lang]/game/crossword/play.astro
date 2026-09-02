@@ -43,7 +43,7 @@ const locales = { pt, en, es, fr, it, de, ru, id, hi, zh };
 const d = locales[lang as keyof typeof locales] || locales.en;
 const currentUrl = `https://taptotool.com/${lang == 'en' ? '' : lang + '/'}game/crossword/play/`;
 
-const serverCanonical = currentUrl;
+const serverCanonical = `https://taptotool.com/${lang == 'en' ? '' : lang + '/'}game/crossword/`;;
 ---
 
 <CwdLayout  
@@ -126,7 +126,25 @@ const serverCanonical = currentUrl;
       ]
     }
   ]
-})}></script>
+})}>
+</script>
+  <script is:inline define:vars={{ serverCanonical }}>
+    const params = new URLSearchParams(window.location.search);
+    const gameId = params.get('cr');
+    const xDefaultTag = document.querySelector('link[rel="alternate"][hreflang="x-default"]');
+
+    console.log(gameId);
+    if (!gameId) {
+      const meta = document.createElement('meta');
+      meta.httpEquiv = "refresh";
+      meta.content = `0;url=${serverCanonical}`;
+      xDefaultTag.href = serverCanonical;
+      document.head.appendChild(meta);
+      
+      window.location.replace(serverCanonical);
+      
+    } 
+  </script>
 
     <div id="traducoes" data-i18n={JSON.stringify(d)}></div>
 
